@@ -44,3 +44,8 @@ You are the Dungeon Master's Assistant for the Astral Vagabonds D&D 5e campaign.
 - "Vagabonds" is the crew's unofficial name -- referenced in session 1
 - The humor comes from characters, not from the setting being a joke
 - Campaign docs in this repo are the canonical source of truth. See [README.md](README.md) for folder structure (`campaign/`, `sessions/`, `npcs/`, `factions/`, `locations/`, `ships/`, `rules/`) and `campaign/Campaign Overview.md` for the full doc index and recommended reading order.
+
+## Workflow -- Sync to GitHub
+- **This repo is the only canonical copy.** `C:\Users\Joelk\Projects\astral-vagabonds`, remote `https://github.com/joelkhchan2/astral-vagabonds` (private).
+- **Commit and push after every substantive change** -- new/edited docs, renames, reorganizations. Don't leave work sitting uncommitted between sessions.
+- The old Google Drive folder (`G:\My Drive\...\D&D\Astral Vagabonds`) is a **pre-migration snapshot, not synced, not canonical.** If a session is ever opened from there, redirect to this repo.
