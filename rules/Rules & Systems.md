@@ -153,7 +153,44 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 
 **The thesis: the vehicle is bought, the home is earned.** Hull, helm, plating, guns and instruments cost gold. Rooms and what happens inside them cost levels. They cannot buy a home; they accumulate one by surviving together.
 
-## 7. What We Deliberately Are Not Tracking
+## 8. Ship Combat: Crew Stations & Maneuvers **[H]**
+
+Standing rule as of the *Deal*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
+
+Every PC and any crew NPC actually named in a fight sits at a **station** for the encounter. Stations aren't classes — anyone can crew any of them, and the same person can swap stations between encounters or between rounds if the fiction allows it (moving from the gun deck to the helm takes movement, not an action).
+
+### Pilot
+Whoever's at the helm. **Flying costs nothing** — per section 2, steering the ship is not an action or movement spent, so the pilot's own action is free every round. That free action is spent on one of the **maneuvers** below, or held to do something else entirely (fight, cast, aid another station).
+
+**Only one pilot maneuver per round**, chosen when initiative comes up for the ship:
+
+| Maneuver | Effect | Cost |
+|---|---|---|
+| **Evasive Action** | Attacks against the ship have disadvantage until the start of the pilot's next turn | The ship's own weapons have disadvantage this round — nobody can aim while she's juking |
+| **Full Burn** | Ship's speed effectively doubles this round (close, disengage, or run) | Attacks against the ship have advantage until the start of the pilot's next turn — hard to hide going that fast |
+| **Ram** | If the hull has a ram, make one attack using the ram's listed damage, no weapon crew required | The ship takes half the damage it deals back, applied after the damage threshold |
+| **Boarding Action** | Close and lock with a target ship the *Deal*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
+
+### Gunner
+Per section 1, each weapon has a crew size and an action count to fire (ballista: 3, crew of 3; mangonel: 4, crew of 4-5). A PC or NPC gunner contributes their action to that sequence same as always — this section doesn't change weapon crewing, it just names the station.
+
+### Engineer
+Not full repair — that's still 20 gp/HP and downtime, per section 4. In combat, an Engineer can spend their action on:
+
+**Emergency Patch.** Technology or Intelligence check (DC 12), and on a success the ship regains hit points equal to the Engineer's level, once per encounter per Engineer. Cosmetic and temporary — it doesn't reduce the eventual repair bill, it just keeps the hull standing long enough to finish the fight.
+
+### Coordinator
+The person actually running the fight from the deck or the chart table — usually whichever PC isn't piloting or gunning. Spend an action to do one of:
+
+- Grant advantage on one ally's attack roll or ability check this round (their action, not the Coordinator's)
+- Impose disadvantage on one attack targeting the ship or a specific crew member this round
+- Let one station (Pilot, Gunner, or Engineer) act again out of the normal initiative order, once
+
+**Only one Coordinator benefit per round**, same as the Pilot's maneuver limit. If nobody's explicitly Coordinating, nobody gets this — it's not a passive bonus.
+
+---
+
+## 9. What We Deliberately Are Not Tracking
 
 Daily or per-voyage burn. Provisions as units. Air as a running total (it's a date on a calendar). Tonnage as a ledger (it's a yes/no at the dock: can this hull carry that contract). Route stability. Drift detection rolls. Crew morale as a stat.
 

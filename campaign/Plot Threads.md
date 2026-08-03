@@ -137,6 +137,10 @@ A repeating signal from deep uncharted Wildspace. Ancient. Older than any known 
 
 ---
 
+## Future Sessions (Unscheduled)
+
+- **The Inspection.** [THE FATHER] boards the *Deal* to sweep for liability ahead of his confirmation vote, and undermines Estra's authority doing it. Fully scripted in `House Windsong.md`. Needs a crew and at least one voyage behind them before it can run — earliest after session 1.
+
 ## Session 1 Hooks
 - **"New Blood":** Gabrielle's first day. Routine courier job. Arrive at delivery port -- evacuated. Signs of hasty departure, cargo on docks, no people. Investigate (creature for bestiary), improvise (supply problem for Priscilla), decide (complete delivery or cut losses). First Drift symptom: the port isn't where it should be, or the route took a day longer than expected. Played for mild confusion, not alarm.
 - **"Vagabonds" name drop:** Organic -- either an NPC dismisses them or it emerges naturally from the crew.

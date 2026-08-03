@@ -111,3 +111,39 @@ Total complement: 12 (2 PCs + 10 NPCs)
 - Wysp's origin vs. whatever danger their parent saw coming
 - Quill's past accusation surfacing
 - Oz's honor crisis if ordered to do something he disagrees with
+
+## Why Estra Picked Them
+
+Per her secret in this doc and the full story in `Captain Estra Vane.md`: **every crew member was chosen for a reason**, not hired at random. Not everyone below was a deliberate pick -- some are coincidence, and that's on purpose. The reveal lands harder if it isn't universal.
+
+**Reeve.** Deliberate. Reeve crewed on one of the Vane Compact's other six ships -- not as a captain, low enough in the chain that nobody thought to buy them out or silence them. They watched that crew scatter the same way Estra's did. Estra sought them out specifically: partly because Reeve is the best set of eyes she's ever worked with, partly because Reeve is a living witness to what happened, and she has never asked them what they saw. Reeve is waiting for her to ask.
+
+**Sable.** Deliberate, and the connection predates this ship -- established already: Sable was present for Broker's Favor #1. How Estra found a deserting githyanki raider crew member and offered them a berth instead of a bounty is its own scene, held for whenever Sable's arc needs it.
+
+**Morrow.** Deliberate, but quieter. Estra's Compact-era contacts still move in the same circles as neogi brokers -- distasteful circles she keeps a toe in precisely because information moves through them. She heard about a thri-kreen rigger buying out clutch-mates before Morrow ever applied. She never mentions it. Morrow does not know.
+
+**Brass.** Deliberate. When the neogi deal went bad, word reached Estra's Broker-adjacent contacts before it reached any bounty board. Estra got to Brass first -- not out of charity, she'd say, but because a cargo handler who owes the right people a favor is useful, and because she knows exactly what it costs to run from something with a price on your head. She has never called that favor in. Brass keeps waiting for her to.
+
+**Quill.** Deliberate. The "someone powerful" who buried Quill's malpractice case has a name Estra recognizes -- someone adjacent to the Pale Reach's old campaign against the Compact. She never confirms this to Quill. She just made sure the posting existed.
+
+**Tack, Finny, Oz, Wysp.** Not deliberate, as far as Estra's concerned -- coincidence, timing, or (for Wysp) simply showing up and refusing to leave. Estra would say this is the point: you can't engineer a crew, you can only recognize one when it happens. Whether that's entirely true is a question worth leaving open.
+
+## Who Knew Whom, Before
+
+Independent of Estra, a few threads exist among the crew and the yard's audition pool -- for texture, and so nobody aboard is a stranger to everybody.
+
+**Brass and Morrow.** Brass's underworld contacts are how she first heard, secondhand, about a thri-kreen buying freedom papers one debt at a time. She put in a word at the Yard before Morrow's audition even started. Morrow doesn't know that either. This crew has a lot of things nobody's saying out loud.
+
+**Oz and Sable.** Crossed paths years back on opposite sides of a contract dispute -- a mercenary boarding action Oz refused to finish and Sable was hired to help finish anyway. Neither talks about it, but there's a wary, specific respect between them that reads as history because it is.
+
+**Hessa Ombrey and Corwin Ashe** *(audition alternates -- Chief Engineer and Gunner/Security roles)*. Both came up through the same Tethyn trade circuit: corporate professionals, correct paperwork, exact rates. If both end up interviewing the same day, they recognize each other immediately and it turns the audition into two old colleagues quietly sizing up whether the other one is still as good. If the party hires one and not the other, that's a thread to pull later -- a rival crew, a mutual contact, a favor owed.
+
+**Ilsabet Crane and Dr. Quill Ashworth** *(audition alternate cook, and the ship's surgeon)*. Both left a life planetside after "something happened" they won't discuss, and both know exactly what it looks like on someone else. If Ilsabet is hired, she and Quill recognize the shape of each other's silence within a week and never once ask.
+
+## Open Hooks -- PCs, Not Yet Written
+
+These are not established. They're prompts, same as `Session Zero.md`'s format -- ask at the table, don't decide for the players.
+
+**The treasure hunt crew.** `Session Zero.md` already asks: who was on [THE PC]'s crew from the hunt two years ago, and would any of them come back? If the answer is yes, that person can simply *be* one of the Yard's audition candidates -- Corwin Ashe and Hessa Ombrey both fit the profile (older, professional, already competent) if the player wants a familiar face rather than a stranger. Don't assign this. Offer it once character backstory is set, and only if it fits what the player already said.
+
+**Does anyone recognize [ORENA]?** She catalogues her old crew by sound. It is entirely possible, and entirely optional, that one candidate at the Yard -- a wanderer, someone who's crewed many ships, someone like Reeve -- has heard a sound that matches something in her logbook. Do not plant this without her player's buy-in. If it lands, it's a Tier-1 seed for the scattered-crew search; if it doesn't fit what's established in session 0 #1, drop it entirely.

@@ -134,7 +134,7 @@ He is the third path. [THE PC] is choosing between his mother's exit, his uncle'
 
 ## The Inspection
 
-Bankable as a first session or held for later. It works either way.
+**Confirmed held for later, not session 0 #2.** [THE FATHER] does not appear at `The Yard.md` — the crew buys the ship, hires the crew, and takes it out for the first time without him. This scene needs a crew and a deck he can walk onto and disrupt, so it can't run before both exist. No fixed session number; run it whenever it's dramatically useful. See `Plot Threads.md` for where it sits among other future hooks.
 
 **He isn't checking profit. He's sweeping for liability** — anything aboard that could embarrass the house in a confirmation year. The crew will assume they're being judged on performance. They're being searched.
 

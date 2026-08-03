@@ -144,18 +144,22 @@ They hire **three or four** here with real scenes. The rest fill in offscreen so
 *Philosophy:* **fixes what's wrong.** And everything adjacent to it. Unasked.
 *Wage:* 3 gp/day. *Complication:* his creator is a Pale Reach shipwright.
 > "Oh! Oh, is this *my* ship now? I'll need to learn all her names."
+*Ask him:* what he was actually built for. He'll answer completely honestly and it will be a much bigger ship than this one.
 
 **HESSA OMBREY** — human, forties, ex-Tethyn yard foreman, immaculate coveralls, speaks in estimates. Genuinely excellent and knows exactly what she's worth.
 *Philosophy:* **fixes what's asked.** Precisely, on schedule, and not one bolt more. If you didn't specify it, she didn't touch it, and she will show you where you didn't specify it.
 *Wage:* 6 gp/day, double the going rate, non-negotiable.
 *Complication:* she'd file a routine fit-out report with her old Tethyn contacts out of sheer professional habit. Not spying. Worse, in a way: paperwork.
 > "I can have her sound in nine days. I can have her *good* in twenty. You'll want the nine."
+*Ask her:* why she left the Tethyn yards. She'll give you the professional answer first and the real one only if you ask twice.
+*If Corwin Ashe is also auditioning today:* they know each other from the same Tethyn circuit. They'll clock each other mid-interview, and it briefly stops being an audition and becomes two old colleagues sizing each other up. See `Crew Roster.md`.
 
 **PELL CINDER** — gnome, indeterminate age, singed. Has ideas. Wants to talk about the ideas.
 *Philosophy:* **improves things.** Nobody asked. Some of the improvements are extraordinary and some of them are on fire.
 *Wage:* 2 gp/day, and he'll take less if you let him try something.
 *Complication:* roughly one in four Pell modifications should be rolled on the Quirk table.
 > "Now what if the ram didn't have to be *pointed forward*."
+*Ask him:* what he'd do with unlimited budget. Let him actually answer. It's a good idea and it's also insane.
 
 ---
 
@@ -168,11 +172,13 @@ Present all three options explicitly. **The third one is the real question.**
 *Wage:* **55 gp/day**, slightly above market, and he knows he's worth it. Roughly **20,000 gp a year.**
 *Complication:* none. That's the point. **Make him likeable so that declining him costs something.**
 > "I don't drink at the helm and I don't fly tired. If that's a problem I'm not your man."
+*Ask him:* the worst thing that ever happened at a helm he was flying. He'll tell you exactly, calmly, and it will be genuinely bad.
 
 **MARN TUCK** — human sorcerer, older, cheaper, and something is going on with him.
 *Wage:* **40 gp/day.** Saves 5,500 a year against Oreon.
 *Complication:* he has a habit. Not obvious in an interview. Very obvious on day forty of a long haul.
 > "I've flown worse than whatever you're buying. Considerably worse."
+*Ask him:* what "worse" means. He'll tell a genuinely great story and it will be true and it will also be a warning nobody in the room clocks as one yet.
 
 **[ORENA] FLIES** — free. Saves roughly **18,000 gp a year** and triples the runway.
 *Complication:* the helm requires concentration. Every voyage she flies, she is furniture. Every fight she joins instead, the ship isn't moving.
@@ -188,11 +194,14 @@ Present all three options explicitly. **The third one is the real question.**
 *What you get:* the emotional center of the ship. Game nights, birthdays, traditions, and a hot meal on day ninety that is worth actual hit points.
 *Wage:* 2 gp/day. *Complication:* he cannot keep a secret and he will feel awful about it.
 > "It's mostly butter! It's an unreasonable amount of butter!"
+*Ask him:* who taught him to cook. He'll dodge it the first time, gladly the second. See `Crew Roster.md` for who he's actually sending money to.
 
 **ILSABET CRANE** — human, formally trained, cooked for a Sallow Chain house until something happened that she won't discuss. Presents something genuinely exquisite.
 *What you get:* objectively better food than Finny's, and a professional who takes it seriously.
 *Wage:* 5 gp/day. *Complication:* she will not adapt to salvage ingredients and considers being asked to an insult. She is a snob, she is correct, and she will make everyone slightly tense.
 > "I can do this with what you have. I would rather not, and I'd like that noted."
+*Ask her:* what happened at the Sallow Chain house. She'll decline, precisely and without apology.
+*If hired:* she and Dr. Quill Ashworth recognize the shape of each other's silence within a week and never once discuss it. See `Crew Roster.md`.
 
 **BARAM OYLE** — dwarf, ex-navy, thirty years of feeding crews. Presents a tray that is nutritionally perfect and joyless.
 *What you get:* provisions stretched 20% further and zero waste. The most *efficient* option on the board.
@@ -210,16 +219,22 @@ Present all three options explicitly. **The third one is the real question.**
 *What you get:* **Master Gunner.** Their ship weapon hits at +2 and crits on 19-20. The best gunnery in the yard, easily.
 *Wage:* 3 gp/day. *Complication:* deserted a githyanki raider crew and there's a price on their head in certain Astral ports.
 > "I'll man whatever you bolt on. If we die, at least I got to shoot something."
+*Ask them:* why they're auditioning here instead of somewhere that pays better. They won't lie, and they won't answer either.
 
 **OZGOOD "OZ" HAMMERFALL** — giff, seven feet, absurdly polite, carries a gun the size of a person. Offers a firm handshake and a written summary of his qualifications.
 *What you get:* boarding defense. Nobody takes this deck while Oz is standing on it.
 *Wage:* 4 gp/day. *Complication:* dishonorably discharged for refusing to fire on civilians. Branded a coward. Still working out whether honour and obedience are the same thing.
 > "Good afternoon. Ozgood Hammerfall. I'd be glad to be of use, and I've brought references."
+*Ask him:* whether he'd fire on someone if ordered to. He'll answer completely honestly, and it takes him a moment, and that moment is the interview.
+*If Sable is also hired:* the two of them crossed paths years ago on opposite sides of a contract Oz refused to finish. Neither brings it up. See `Crew Roster.md`.
 
 **CORWIN ASHE** — human, mid-fifties, supercargo and negotiator. Thirty years of arriving somewhere hostile and leaving with the cargo intact and nobody hurt.
 *What you get:* problems solved before they become violent. Better docking fees, better contract terms, better outcomes at inspections.
 *Wage:* 6 gp/day. *Complication:* if it does come to a fight, he is useless and he'll tell you so up front.
 > "You can buy a gunner. You'll use him four times a year. You'll use me every port."
+*Ask him:* the worst room he ever talked his way out of. He has several and picks the funniest one, not the truest one.
+*Optional, if it fits her backstory:* he's old enough and travelled enough to have crewed a treasure-hunt job two years back. If [THE PC]'s player has said his old crew is still out there, Corwin can simply *be* one of them — see `Crew Roster.md`, "Open Hooks." Offer it, don't assign it.
+*If Hessa Ombrey is also auditioning today:* see her entry above.
 
 > **Shoot it, stop it, or talk it down.** Hiring Corwin instead of a gunner is a real and defensible choice for this crew, and it's the one Priscilla will be tempted by. It should be viable. It should also mean the first boarding action goes very badly.
 
@@ -263,6 +278,37 @@ If they bought the Long Hauler, [WYSP] surfaces now. Estra finds them, looks at 
 
 ---
 
+## Beat 7 — Shakedown
+
+Two short fights, same threat, escalating. First on foot at the dock, then in the ship they just bought. **Calibrated as a confidence-building win, not a real scare** — this is about learning what their characters and their new ship can do, not about nearly losing either.
+
+### Part A — Caught at the Scrap Heap
+
+While the hull is being fitted out, someone's been quietly pulling parts back **off** it. Danforth's "scrap heap that is technically inventory" cuts both ways, and a small crew of dockside scavengers has been treating every hull on the lot as a parts bin for years. Nobody's caught them because nobody's looked. The PCs will, because it's their ship now.
+
+**THE SCRAP CREW.** Three to four dockhands-who-aren't: opportunists in Danforth's-yard coveralls, unbothered until they're spotted, then very bothered. Led by **DEV OSTREL**, a tiefling with a cutting torch and zero interest in dying for stolen copper wiring.
+*Run it as:* a handful of CR 1/8-1/4 bandits/scavengers (reflavor **Bandit** or **Scout** stat blocks), Dev as a single **CR 1** leader (reflavor **Thug** or **Spy**). Should go down in two or three rounds against two level-5 PCs. Let every PC get at least one good moment.
+
+**What's missing:** whatever they were mid-theft on when caught. Pick one: a length of rigging line, a helm-room fitting, or — for a better hook into Part B — **the ship's aft running light housing**, awkward to replace and easy to notice missing once they're underway.
+
+**If caught rather than fought:** Dev talks fast, offers to make it right, and it's a roleplay scene instead of a fight. Either is fine. If they let the crew go, that's who comes back in Part B.
+
+### Part B — First Launch
+
+Shortly after leaving dock — first taste of flying her — the same crew comes back better-armed and angrier, in a light raider skiff, wanting either revenge or their score back. This is the ship's first combat and the players' first time running it as a system, not just a vehicle.
+
+**THE SKIFF.** A Swift Cutter-class raider, worse hull, faster and meaner than it looks. AC 13, 120 HP, 65 ft, one ballista. Dev is aboard. So is whoever the PCs didn't catch or kill in Part A.
+
+**Structure:** side initiative per `Rules & Systems.md`. This is the first time to actually run **crew stations** — see the new section there for Pilot, Gunner, Engineer, and Coordinator roles and the maneuver list. Assign both PCs to stations they'd actually want (Gabrielle likely Coordinator or a gun; Priscilla likely Coordinator or Engineer), and put hired/default crew in the rest.
+
+**Calibration:** the skiff should lose. One good broadside from the *Deal*'s stock weapons should nearly finish it, and Dev should have the sense to break off before it's a slaughter. **Let the crew choose:** press the advantage (an actual choice with consequences — a prize, a body count, a loose end) or let them run. Neither is wrong, and it's a good first look at what kind of captain-by-committee this table is going to be.
+
+**What this establishes:** the ship's weapons and crew stations work, everyone's had a combat spotlight moment on deck and in a chair, and Dev Ostrel exists in the world as someone they can meet again — as a grudge, an informant, or (if they let the crew go in Part A) someone who now owes them.
+
+---
+
 ## If the Session Runs Long
 
 Cut the crew auditions to two roles and fill the rest offscreen. Cut the rival bidder to a single line of dialogue as they leave. Do not cut Estra's arrival and do not cut the naming.
+
+**If Beat 7 doesn't fit tonight, it's the cold open of session 1 instead** — the *Deal*'s first flight, immediately followed by Dev Ostrel's skiff. Nothing about it depends on same-session timing.
