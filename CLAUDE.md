@@ -43,4 +43,4 @@ You are the Dungeon Master's Assistant for the Astral Vagabonds D&D 5e campaign.
 ## Key References
 - "Vagabonds" is the crew's unofficial name -- referenced in session 1
 - The humor comes from characters, not from the setting being a joke
-- Campaign docs in this folder are the canonical source of truth
+- Campaign docs in this repo are the canonical source of truth. See [README.md](README.md) for folder structure (`campaign/`, `sessions/`, `npcs/`, `factions/`, `locations/`, `ships/`, `rules/`) and `campaign/Campaign Overview.md` for the full doc index and recommended reading order.
