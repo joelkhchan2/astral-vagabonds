@@ -73,7 +73,7 @@ Each founding family holds a permanent seat. These families have held power for 
    - *Vibe:* Venture capital. Spreadsheets. "What's the margin on that?"
    - *Drift stance:* Follow the money. Currently backing House Vassara's denial because the subscription model is still profitable. Will pivot the instant the numbers shift.
 
-5. **[FIFTH FAMILY -- RESERVED]** -- This seat is left open for Priscilla's family, depending on her player's decision. If her family IS a founding member, they occupy this seat. If they're a subsidiary or rival, this seat belongs to another family (TBD) and her family's relationship to the Pale Reach is defined separately.
+5. **[FIFTH SEAT -- VACANT]** -- Contested, not yet filled. **House Windsong** (Priscilla's family) is the frontrunner, pending a confirmation vote -- see `House Windsong.md` for the Trial and what's actually riding on it.
 
 **Appointed Seats (3):**
 Non-family positions filled by appointment or election. These give the Pale Reach a veneer of meritocracy.

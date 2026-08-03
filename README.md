@@ -20,5 +20,5 @@ Start here, in order: [`sessions/Session Zero.md`](sessions/Session%20Zero.md) �
 ## Working with this repo
 
 - Docs are markdown, written to be pasted straight into Google Docs for the table.
-- Cross-references between docs use bare filenames (e.g. `` `House [FAMILY].md` ``) rather than relative links — every filename is unique across folders, so they still resolve unambiguously by search.
-- Names in brackets (`[THE PC]`, `[THE FATHER]`, `House [FAMILY]`) are placeholders pending session 0 — see [`sessions/Session Zero.md`](sessions/Session%20Zero.md).
+- Cross-references between docs use bare filenames (e.g. `` `House Windsong.md` ``) rather than relative links — every filename is unique across folders, so they still resolve unambiguously by search.
+- Names in brackets (`[THE PC]`, `[THE FATHER]`, etc.) are placeholders pending session 0 — see [`sessions/Session Zero.md`](sessions/Session%20Zero.md). The house itself is settled: **House Windsong**.

@@ -1,6 +1,6 @@
 # Stat Blocks
 
-Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, and `House [FAMILY].md`. This file is only numbers.
+Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, and `House Windsong.md`. This file is only numbers.
 
 **All original.** Species traits draw on published equivalents in *Boo's Astral Menagerie* and *Mordenkainen Presents: Monsters of the Multiverse*, but every block below is built for this campaign rather than reskinned.
 
@@ -278,7 +278,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-# THE FAMILY
+# HOUSE WINDSONG
 
 ## [THIRD] — the brother who is drowning
 *Medium humanoid, boarding captain* · **CR 6** (2,300 XP)

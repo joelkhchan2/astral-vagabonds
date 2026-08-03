@@ -1,6 +1,6 @@
 # Astral Vagabonds - Campaign Overview
 
-> **Naming note:** Player character names and family names are unsettled. This folder uses placeholders throughout: **[THE PC]** (Priscilla's character), **[ORENA]** (Gabrielle's character, name provisional), **[THE FATHER]**, **[ELDEST]**, **[SECOND]**, **[THIRD]**, **[UNCLE]**, **[MOTHER]**, **House [FAMILY]**. Replace after session 0 #1.
+> **Naming note:** Player character and family names are still unsettled, except the house itself: it's **House Windsong**. This folder still uses placeholders for people: **[THE PC]** (Priscilla's character), **[ORENA]** (Gabrielle's character, name provisional), **[THE FATHER]**, **[ELDEST]**, **[SECOND]**, **[THIRD]**, **[UNCLE]**, **[MOTHER]**. Replace after session 0 #1.
 
 ## The Pitch
 
@@ -48,7 +48,7 @@ Three things running at once, at different speeds.
 
 **The Drift (world, slow).** Astral currents are formed by accumulated travel and they are coming apart. Consolidation killed route diversity, a generation of conduits is dying, and underneath both a natural phase shift is reorganizing the whole system. Civilization survives this only by rebuilding a distributed, openly shared navigation network. Full detail in `Plot Threads.md`.
 
-**The Trial (family, medium).** Four brothers, four ventures, one inheritance, and a father who is the frontrunner for a vacant seat on the Pale Reach's governing board. [THE PC] was given the frontier because he is deniable, not because he is a contender. Full detail in `House [FAMILY].md`.
+**The Trial (family, medium).** Four brothers, four ventures, one inheritance, and a father who is the frontrunner for a vacant seat on the Pale Reach's governing board. [THE PC] was given the frontier because he is deniable, not because he is a contender. Full detail in `House Windsong.md`.
 
 **The Scattered Crew (personal, episodic).** [ORENA]'s guild crew were thrown across the settled worlds when their ship came apart. She finds them one at a time, in ports, over the length of the campaign. Each is in a different state and each tells a different version of what happened.
 
@@ -99,7 +99,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 |---|---|
 | `Houses & Holdings.md` | Who owns what, where, and worth how much. The map and the money. |
 | `The Pale Reach.md` | The cartel: tiers, houses, the vacant seat, the data economy |
-| `House [FAMILY].md` | The father, three brothers, mother, uncle, the Trial, the inspection |
+| `House Windsong.md` | The father, three brothers, mother, uncle, the Trial, the inspection |
 | `Worlds & Places.md` | Thirteen destinations across the six regions |
 | `The Manifest Board.md` | The public ranking, the crew's neighbours, and the top five |
 | `The Locker.md` | The demiplane of moored ships, and what happened to [ORENA]'s crew |

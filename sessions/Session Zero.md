@@ -73,7 +73,7 @@ Her notes list his age as **232 at the top and 132 in the family list**. Pick on
 
 **The name.** Is he still Kyoya? Is the family still Ootori? The register affects every other name in the family, so settle it before naming anyone else.
 
-**The brothers.** Sketches exist (see `House [FAMILY].md`) but they're hers to confirm or overwrite. The eldest is decent, responsible, and secretly doesn't want the company. The second is the real rival, a political operator who helps generously and always at a price. The third is drowning and cutting corners. Does that match what she imagined? What are they to him personally?
+**The brothers.** Sketches exist (see `House Windsong.md`) but they're hers to confirm or overwrite. The eldest is decent, responsible, and secretly doesn't want the company. The second is the real rival, a political operator who helps generously and always at a price. The third is drowning and cutting corners. Does that match what she imagined? What are they to him personally?
 
 **The father.** Arrogant, narcissistic, genuinely capable, and utterly convinced the system he profits from is correct. What is [THE PC] actually trying to get from him: the company, or an admission?
 
@@ -111,4 +111,4 @@ Confirm the two mechanical facts that will shape their choices next session: **p
 
 ## After the Session
 
-Update `Campaign Overview.md`, `House [FAMILY].md`, and `Crew Roster.md` with whatever they decided, and replace the placeholders everywhere. Then read `The Yard.md`.
+Update `Campaign Overview.md`, `House Windsong.md`, and `Crew Roster.md` with whatever they decided, and replace the placeholders everywhere. Then read `The Yard.md`.

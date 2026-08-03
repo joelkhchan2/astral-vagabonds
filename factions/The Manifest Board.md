@@ -4,7 +4,7 @@ The CIV's public ranking of every chartered vessel, updated quarterly and posted
 
 **351 chartered vessels.** New charters start **unranked**. The crew appears at **348th** after their first completed job, and Finny throws a party.
 
-> **Why this matters more than it looks.** The Board is the Trial's only objective scoreboard, and [THE FATHER] refuses to weight it because it ranks independent operators and he doesn't consider those real. Climbing the Board never wins the Trial. **Making the Board matter does**, and that turns out to be the same project as the open navigation network. See `House [FAMILY].md`.
+> **Why this matters more than it looks.** The Board is the Trial's only objective scoreboard, and [THE FATHER] refuses to weight it because it ranks independent operators and he doesn't consider those real. Climbing the Board never wins the Trial. **Making the Board matter does**, and that turns out to be the same project as the open navigation network. See `House Windsong.md`.
 
 ---
 

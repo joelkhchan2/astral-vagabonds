@@ -21,7 +21,7 @@ Anchor everything against the crew. **Their entire venture is 50,000 gp.**
 
 ## The four allocations
 
-House [FAMILY] is worth roughly **9.2 million gp**. Here is what each son received.
+House Windsong is worth roughly **9.2 million gp**. Here is what each son received.
 
 | Son | Allocation | Form |
 |---|---|---|
@@ -143,7 +143,7 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 
 ---
 
-# 4. HOUSE [FAMILY]
+# 4. HOUSE WINDSONG
 
 **Net worth ~9,200,000 gp** · **Tier:** chartered member house · **Territory:** a core route in the Sallow Chain, plus the Tollmarch franchise · **Board function:** none, yet
 
@@ -158,11 +158,11 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 - Tollmarch franchise, ~700,000 (operated by [THIRD], underwater)
 - Liquid reserve, ~700,000
 
-**Fleet:** [THE FATHER]'s Swift Heavy, [ELDEST]'s Balanced Heavy and four hauling hulls, [SECOND]'s Sturdy Cutter, [THIRD]'s converted boarding Trader, and whatever [THE PC] buys. See `House [FAMILY].md` and `Ship Construction.md`.
+**Fleet:** [THE FATHER]'s Swift Heavy, [ELDEST]'s Balanced Heavy and four hauling hulls, [SECOND]'s Sturdy Cutter, [THIRD]'s converted boarding Trader, and whatever [THE PC] buys. See `House Windsong.md` and `Ship Construction.md`.
 
 ## Why they're the frontrunner despite being poor
 
-**Wealth is not the criterion.** House [FAMILY] is worth 9.2 million and one of its rivals is worth 11.4. The Board does not elevate on money, it elevates on **capability the Board needs**, and what the Board needs is somebody who can operate where the archive is thin.
+**Wealth is not the criterion.** House Windsong is worth 9.2 million and one of its rivals is worth 11.4. The Board does not elevate on money, it elevates on **capability the Board needs**, and what the Board needs is somebody who can operate where the archive is thin.
 
 [THE FATHER] promised frontier capability. Nobody else credibly did.
 
@@ -185,7 +185,7 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 | Tethyn | 61M | The Tollmarch | Every weapon aboard | Profitable danger |
 | Delverane | 29M | Windward Edge | Instruments and helms | Adapt or die |
 | *Carrow* | *40M* | *the Amberwake, gone* | — | *Was the first casualty* |
-| **[FAMILY]** | **9.2M** | Chain route + Tollmarch | Nothing. They're family. | Hasn't noticed yet |
+| **Windsong** | **9.2M** | Chain route + Tollmarch | Nothing. They're family. | Hasn't noticed yet |
 | Rennick | 11.4M | Sallow Chain | — | Indifferent |
 | Obhal | 7.1M | Bral Reach | — | Indifferent |
 

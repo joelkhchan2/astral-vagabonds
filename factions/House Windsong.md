@@ -1,4 +1,4 @@
-# House [FAMILY]
+# House Windsong
 
 > Names are placeholders pending session 0 #1. The register depends on whether [THE PC] stays "Kyoya" and whether the family stays "Ootori." Settle that first, then name everyone at once.
 
@@ -18,7 +18,7 @@ Four brothers. Four ventures. One inheritance.
 
 ### What the Trial is really for
 
-The Board needs proof that House [FAMILY] can operate where the Reach's data is thin. Frontier capability is the last box on the elevation case. But frontier work is risky and embarrassing, and any scandal in a confirmation year is fatal.
+The Board needs proof that House Windsong can operate where the Reach's data is thin. Frontier capability is the last box on the elevation case. But frontier work is risky and embarrassing, and any scandal in a confirmation year is fatal.
 
 **So he gave it to the son whose failure costs him nothing.**
 

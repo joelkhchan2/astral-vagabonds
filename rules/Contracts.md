@@ -65,7 +65,7 @@ Eight missions, levels 5 to 8, in order. Space them with two or three Jobs apiec
 ---
 
 ## M2 — THE INSPECTION (level 5–6)
-[THE FATHER] boards for a liability sweep. Full detail in `House [FAMILY].md`.
+[THE FATHER] boards for a liability sweep. Full detail in `House Windsong.md`.
 
 **What it plants:** the leash, the two chains of command, and one devastating line delivered in the tone of a man reading a line item, which makes clear he has never considered [THE PC] a contender. He does not notice saying it.
 **Watch for:** a player who stops defending and starts observing can learn what [THE FATHER] is afraid of. That's the reward and it's optional.
