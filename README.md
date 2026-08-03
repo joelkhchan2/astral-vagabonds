@@ -13,6 +13,7 @@ A D&D 5e campaign (Wildspace / Spelljammer-adjacent). This repo is the campaign'
 | [`locations/`](locations/) | Home port, regions, destinations, and standing sets |
 | [`ships/`](ships/) | The crew's ship, the blank ship template, construction rules |
 | [`rules/`](rules/) | 5e rules reference, house rules, contracts/mission structure, tables, stat blocks |
+| [`references/`](references/) | Source rulebooks/adventures we pull from and adapt — not campaign canon |
 
 Start here, in order: [`sessions/Session Zero.md`](sessions/Session%20Zero.md) → [`locations/The Yard.md`](locations/The%20Yard.md) → [`rules/Contracts.md`](rules/Contracts.md). [`campaign/Campaign Overview.md`](campaign/Campaign%20Overview.md) has the full doc index and reading order.
 
