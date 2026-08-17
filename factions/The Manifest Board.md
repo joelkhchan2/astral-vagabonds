@@ -4,7 +4,7 @@ The CIV's public ranking of every chartered vessel, updated quarterly and posted
 
 **351 chartered vessels.** New charters start **unranked**. The crew appears at **348th** after their first completed job, and Finny throws a party.
 
-> **Why this matters more than it looks.** The Board is the Trial's only objective scoreboard, and [THE FATHER] refuses to weight it because it ranks independent operators and he doesn't consider those real. Climbing the Board never wins the Trial. **Making the Board matter does**, and that turns out to be the same project as the open navigation network. See `House Windsong.md`.
+> **Why this matters more than it looks.** The Board is the Trial's only objective scoreboard, and Vaelros refuses to weight it because it ranks independent operators and he doesn't consider those real. Climbing the Board never wins the Trial. **Making the Board matter does**, and that turns out to be the same project as the open navigation network. See `House Windsong.md`.
 
 ---
 
@@ -51,6 +51,6 @@ They will not meet these people for a long time. They should hear the names cons
 
 **They will not climb fast.** From 348 to the low 300s is a Tier 1 achievement. Breaking 200 should take until Tier 2 and should require the data business, not the hauling business.
 
-**The number is not the story.** The story is that the number is *the wrong measurement*, that [THE FATHER] will not count it no matter how high it goes, and that the only winning move is to change what Wildspace measures. Let them climb for a year before that lands.
+**The number is not the story.** The story is that the number is *the wrong measurement*, that Vaelros will not count it no matter how high it goes, and that the only winning move is to change what Wildspace measures. Let them climb for a year before that lands.
 
 **House Obhal is watching.** The rival member house that's playing dirty for the fifth seat is the most likely source of an anonymous incident report filed against a certain 348th-ranked vessel. See `Houses & Holdings.md`.

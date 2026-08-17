@@ -210,13 +210,13 @@ The Deepline is the correct purchase and they cannot afford it at session 0. It 
 
 ## Aftermarket **[H]**
 
-Different building, no receipts, and every line of it is what [THE FATHER] sweeps for during an inspection.
+Different building, no receipts, and every line of it is what Vaelros sweeps for during an inspection.
 
 False Hold 3,000 (DC 18 to find) · Transponder Spoofer 2,500 · Unlicensed Charts 400 each (charter violation if found) · Scuttling Charges 800 · Ghost Registry 6,000 (the ship has no legal existence at all)
 
 ## Fixed Annual Costs
 
-CIV charter 1,500 · Pale Reach subscription 600 (Basic) or 2,400 (Commercial) · Morraine insurance 1,800, requires a subscription
+CIV charter 1,500 · Pale Reach subscription 600 (Basic) or 2,400 (Commercial) · Nightbreeze insurance 1,800, requires a subscription
 
 ---
 

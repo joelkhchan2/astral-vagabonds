@@ -2,17 +2,19 @@
 
 Total complement: 12 (2 PCs + 10 NPCs)
 
+> **Canon (session 0).** This is an **established crew, together ~5 years** — not strangers hired at the Yard. Aerion joined 5 years ago on what looked like a very successful venture; **five years later they are near destitute.** The **treasure hunt two years ago where he found Flurry's egg was this crew's job**, so the "old crew" members are current crew. **Orena (Gabrielle's PC) is the newcomer — she joined ~6 months ago.** The 50,000 gp Trial is the lifeline: the venture becomes formally Aerion's and the crew finally gets its own proper hull (the *Deal*). The Yard trip is the established crew choosing their ship together and confirming who stays in which chair, not twelve first meetings — and the money math is life-or-death because they have nothing to fall back on.
+
 ## Player Characters
 
 ### Gabrielle's PC -- The Bosun (Bard/Paladin, Level 5)
 **Role:** Bosun -- oversees rigging, repairs, crew discipline, ship operations. Assists with piloting/navigation. Also documenting a personal bestiary of astral creatures.
-**Hook:** New to this crew. Previous crew was lost under mysterious/traumatic circumstances she doesn't fully understand. Overcompensating with competence -- cataloguing creatures, drilling procedures -- because she couldn't save her last crew and refuses to lose another.
+**Hook:** The crew's newest member -- joined ~6 months ago, into a crew that's been together ~3 years. Previous crew was lost under mysterious/traumatic circumstances she doesn't fully understand. Overcompensating with competence -- cataloguing creatures, drilling procedures -- because she couldn't save her last crew and refuses to lose another.
 **Bestiary subplot:** Both coping mechanism and scientific contribution. Recurring mechanic: each new creature encounter gives her reason to observe, sketch, document rather than just fight. Her old crew may have been lost to something she couldn't identify -- the bestiary is unconsciously preparing her to face it again.
 **Paladin oath (non-religious):** To a spacefarer's code -- never leave crew behind, always answer a distress signal, always chart what you find so others don't die in ignorance. Her oath is to the next crew that comes through here.
 **Spotlight moments:** Ship combat (calling maneuvers, directing crew), first-contact creature encounters, crew safety vs. mission tension.
 
-### Priscilla's PC -- The Navigator (Fighter, Level 5)
-**Role:** Navigator -- plots courses, manages charts, tracks fuel/supplies. De facto quartermaster-accountant-fixer. Knows what's in every crate, who owes what, where the money's going.
+### Aerion Kyoya Windsong (Priscilla's PC) -- The Navigator (Astral Elf Samurai Fighter, Level 5)
+**Role:** Navigator -- plots courses, manages charts, tracks fuel/supplies. De facto quartermaster-accountant-fixer. Knows what's in every crate, who owes what, where the money's going. (Full character sheet: `npcs/Aerion Windsong.md`.)
 **Hook -- The Shadow King:** Family runs a major Wildspace trading consortium. On this ship because [Option A: family's "investment" evaluating the crew / Option B: left voluntarily to build her own thing / Option C (recommended): both -- sent on family business but growing to see the crew as hers].
 **Kyouya energy:** Leather-bound ledger (the Index of Accounts) tracking every favor, debt, and supply manifest. Negotiates port fees, bribes dock officials, quietly solves problems before anyone notices. When threatened, calmly recites how much the threatening party owes her family and watches them recalculate.
 **What she wants:** To be indispensable. Not famous, not powerful in the loud way -- the person without whom nothing works. And for that to be her achievement, not her family's name. Tension: her family's resources make her effective, but using them reinforces that she's just an extension of the consortium.
@@ -144,6 +146,6 @@ Independent of Estra, a few threads exist among the crew and the yard's audition
 
 These are not established. They're prompts, same as `Session Zero.md`'s format -- ask at the table, don't decide for the players.
 
-**The treasure hunt crew.** `Session Zero.md` already asks: who was on [THE PC]'s crew from the hunt two years ago, and would any of them come back? If the answer is yes, that person can simply *be* one of the Yard's audition candidates -- Corwin Ashe and Hessa Ombrey both fit the profile (older, professional, already competent) if the player wants a familiar face rather than a stranger. Don't assign this. Offer it once character backstory is set, and only if it fits what the player already said.
+**The treasure hunt crew -- RESOLVED.** The hunt two years ago (where Aerion found Flurry's egg) was **this crew's job**. The "old crew" is the current crew. What's left to decide at the table is only *which specific members* were aboard for it -- a good candidate is anyone with 2+ years' tenure (Estra, Sable, Reeve, Morrow, Finny, Tack, Brass, Oz, Quill). Orena was not there; she joined ~6 months ago. Use this as shared history the veterans can reference, not a recruiting hook.
 
 **Does anyone recognize [ORENA]?** She catalogues her old crew by sound. It is entirely possible, and entirely optional, that one candidate at the Yard -- a wanderer, someone who's crewed many ships, someone like Reeve -- has heard a sound that matches something in her logbook. Do not plant this without her player's buy-in. If it lands, it's a Tier-1 seed for the scattered-crew search; if it doesn't fit what's established in session 0 #1, drop it entirely.

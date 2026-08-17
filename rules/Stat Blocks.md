@@ -267,7 +267,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Two Years Old.*** Flurry is a puppy with a breath weapon.
 
-> ***Devoted.*** **Flurry will not fight** unless [THE PC] is reduced below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die. This is a hard limitation, not a roleplay suggestion. She is a child and she is frightened of loud things.
+> ***Devoted.*** **Flurry will not fight** unless Aerion is reduced below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die. This is a hard limitation, not a roleplay suggestion. She is a child and she is frightened of loud things.
 
 **Actions**
 ***Bite.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 9 (1d10 + 4) piercing.
@@ -280,7 +280,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 # HOUSE WINDSONG
 
-## [THIRD] — the brother who is drowning
+## Aeravellis — the brother who is drowning
 *Medium humanoid, boarding captain* · **CR 6** (2,300 XP)
 
 **AC** 17 (half plate) · **HP** 110 (13d8 + 52) · **Speed** 30 ft.
@@ -293,7 +293,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 **Skills** Acrobatics +7, Athletics +5, Deception +5, Intimidation +5
 **Senses** passive Perception 10 · **Proficiency Bonus** +3
 
-***Boarder's Rush.*** On any turn [THIRD] boards a hostile vessel, he has advantage on all attack rolls.
+***Boarder's Rush.*** On any turn Aeravellis boards a hostile vessel, he has advantage on all attack rolls.
 
 ***He Is Not Brave.*** He is cornered, in debt, and out of options, and he knows exactly what he has become. Play him as a man arguing with himself.
 
@@ -311,7 +311,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## [UNCLE] — the one who left
+## Vaelren — the one who left
 *Medium humanoid (elf), adventurer* · **CR 7** (2,900 XP)
 
 **AC** 16 (studded leather) · **HP** 119 (14d8 + 56) · **Speed** 30 ft.
@@ -328,7 +328,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Fey Ancestry.*** Advantage against being charmed; magic can't put him to sleep.
 
-> ***The Form He Taught.*** Once per turn, while [THE PC] is within 30 feet and can see him, [THE PC] may add **1d6** to one attack roll or saving throw.
+> ***The Form He Taught.*** Once per turn, while Aerion is within 30 feet and can see him, Aerion may add **1d6** to one attack roll or saving throw.
 >
 > This is the mechanical expression of "he trained you," and it should be the first thing the players notice about fighting alongside him.
 
@@ -346,7 +346,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 # THE ONES WHO DON'T FIGHT
 
-**[THE FATHER], [ELDEST], [SECOND], and [MOTHER] are deliberately not built as combatants.**
+**Vaelros, Aeric, Aeris, and Aerynna are deliberately not built as combatants.**
 
 This is a design choice, not an omission. The moment a political antagonist has a satisfying AC, the table starts evaluating whether they can take him, and these four are specifically constructed to be unsolvable by violence. Their real statistics are social.
 
@@ -354,14 +354,14 @@ If a scene genuinely collapses into combat, use **Noble** (CR 1/8) or **Bandit C
 
 | | AC / HP | Insight DC | Deception | Persuasion | Their actual weapon |
 |---|---|---|---|---|---|
-| **[THE FATHER]** | 13 / 58 | **20** | +9 | +9 | A word to the Board. He can end their charter with a letter. |
-| **[ELDEST]** | 14 / 52 | **11** | +2 | +6 | Nothing. He has never used what he has. That's the tragedy. |
-| **[SECOND]** | 13 / 45 | **22** | +11 | +10 | A favor you already accepted. He never threatens; he reminds. |
-| **[MOTHER]** | 12 / 40 | **19** | +8 | +9 | A founding-house vote and the money behind it. |
+| **Vaelros** | 13 / 58 | **20** | +9 | +9 | A word to the Board. He can end their charter with a letter. |
+| **Aeric** | 14 / 52 | **11** | +2 | +6 | Nothing. He has never used what he has. That's the tragedy. |
+| **Aeris** | 13 / 45 | **22** | +11 | +10 | A favor you already accepted. He never threatens; he reminds. |
+| **Aerynna** | 12 / 40 | **19** | +8 | +9 | A founding-house vote and the money behind it. |
 
-**Reading the Insight DCs.** [ELDEST] is an open book and cannot lie to save himself, which is worth knowing early because it makes him trustworthy and useless in equal measure. [SECOND] is the hardest read in the campaign, harder than his father, because his father is arrogant enough to tell you what he thinks.
+**Reading the Insight DCs.** Aeric is an open book and cannot lie to save himself, which is worth knowing early because it makes him trustworthy and useless in equal measure. Aeris is the hardest read in the campaign, harder than his father, because his father is arrogant enough to tell you what he thinks.
 
-***[SECOND] travels with two bodyguards.*** Use **Veteran** (CR 3). He will apologize for them.
+***Aeris travels with two bodyguards.*** Use **Veteran** (CR 3). He will apologize for them.
 
 ---
 

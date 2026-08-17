@@ -78,7 +78,7 @@ But flying requires concentration, so a helming bard is furniture. **This is the
 
 ### Annual fixed costs **[H]**
 
-CIV charter 1,500 · Pale Reach subscription 600 (Basic) or 2,400 (Commercial) · Morraine insurance 1,800, which requires a subscription, and without which every repair is entirely theirs.
+CIV charter 1,500 · Pale Reach subscription 600 (Basic) or 2,400 (Commercial) · Nightbreeze insurance 1,800, which requires a subscription, and without which every repair is entirely theirs.
 
 Insurance is the tempting cut. It is also the one that ends them.
 

@@ -25,12 +25,12 @@ House Windsong is worth roughly **9.2 million gp**. Here is what each son receiv
 
 | Son | Allocation | Form |
 |---|---|---|
-| **[ELDEST]** | **~4,100,000** | Not a grant. Operational control of the house's existing core route and its small fleet. Inheritance in practice. |
-| **[SECOND]** | **900,000** | Liquid capital, plus introductions and a standing seat in three committee rooms. |
-| **[THIRD]** | **350,000** | Capital plus a route franchise through contested space. |
-| **[THE PC]** | **50,000** | A hull budget. |
+| **Aeric** | **~4,100,000** | Not a grant. Operational control of the house's existing core route and its small fleet. Inheritance in practice. |
+| **Aeris** | **900,000** | Liquid capital, plus introductions and a standing seat in three committee rooms. |
+| **Aeravellis** | **350,000** | Capital plus a route franchise through contested space. |
+| **Aerion** | **50,000** | A hull budget. |
 
-**[THE PC] received 0.54% of the house.** He received one eighteenth of what [THIRD] got and one seventy-second of [ELDEST]'s book.
+**Aerion received 0.54% of the house.** He received one eighteenth of what Aeravellis got and one seventy-second of Aeric's book.
 
 > Priscilla can compute this. Let her. **Four numbers on a page do the work of an entire confrontation scene**, and they arrive long before the Tier 2 reveal explains why. She'll suspect she's being insulted. She's actually being used, which is worse.
 
@@ -46,24 +46,24 @@ Neutral ground and the densest traffic in known space, anchored on the **Rock of
 **The crew is based here.** It's where contracts are let, data is sold, and the Manifest Board is posted.
 
 ## The Sallow Chain — the core
-Nine well-charted systems strung along the oldest and deepest current in known space. Highest traffic, most stable, most profitable, and the least interesting place in Wildspace. **House Vassara's territory**, and where [ELDEST] runs the family's core route.
+Nine well-charted systems strung along the oldest and deepest current in known space. Highest traffic, most stable, most profitable, and the least interesting place in Wildspace. **House Vassara's territory**, and where Aeric runs the family's core route.
 
 The Chain is fine. The Chain will be fine for a long time. That's precisely why nobody in the Chain believes the Drift is real.
 
 ## The Tollmarch — the chokepoint
 Contested space between two current systems, thick with hazards, and the only viable shortcut from the Chain to everything outward. **House Tethyn's territory.** Toll gates, patrol frigates, salvage rights, and a long tradition of piracy that Tethyn profits from suppressing.
 
-**[THIRD] was posted here.** The franchise was legitimate. It just doesn't pay, and the Tollmarch is full of ships worth boarding.
+**Aeravellis was posted here.** The franchise was legitimate. It just doesn't pay, and the Tollmarch is full of ships worth boarding.
 
 ## The Verge — the frontier
 Thinly charted, low traffic, small colonies, long hauls. **Nobody's territory, because there's no margin in it.**
 
-**This is where [THE PC] is sent**, and it's where the currents are visibly failing. Ports slightly out of position. Runs that take a day longer than the charts allow. It's happening here first because the Verge was always the thinnest, and thin is what fails.
+**This is where Aerion is sent**, and it's where the currents are visibly failing. Ports slightly out of position. Runs that take a day longer than the charts allow. It's happening here first because the Verge was always the thinnest, and thin is what fails.
 
 ## The Windward Edge — the boundary
 The band between the charted Verge and genuine unknown. **House Delverane works here**, and they're the only founding house that does.
 
-> **Delverane and [THE PC] operate in the same space.** Their eventual alliance is geographic before it is ideological, which is why it's credible.
+> **Delverane and Aerion operate in the same space.** Their eventual alliance is geographic before it is ideological, which is why it's credible.
 
 ## The Cartógrapha — the seat
 Not a region. A private asteroid a day's sail from the Rock, hollowed into the **Board of Ledgers' archive-station**. Every route the Pale Reach owns is filed here. Entry is by invitation. The fifth chair in the Board chamber has been empty for forty years and is dusted weekly.
@@ -114,13 +114,13 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 
 **Business:** the investment portfolio, the banking relationships, and the insurance book that covers most of chartered Wildspace, including the crew's 1,800 gp annual policy.
 
-**They have no territory because they don't need one.** Morraine insures the cargo, so **Morraine knows where every chartered ship is and what it's carrying.** They have not weaponized this. Everyone is aware they could.
+**They have no territory because they don't need one.** Nightbreeze insures the cargo, so **Nightbreeze knows where every chartered ship is and what it's carrying.** They have not weaponized this. Everyone is aware they could.
 
 **Planar reach:** banking relationships with the **mercane**, whose interplanar trade network predates the Reach by a very long time and does not particularly respect it.
 
 **Drift stance:** follow the money. Currently backing Vassara's denial because subscriptions still pay. Will pivot the instant claims outrun premiums, and they will see that turn coming before anyone else at the table.
 
-**This is [MOTHER]'s house.** Her personal holding within it is roughly **6,000,000 gp**, independent of the family trust, and it is hers outright.
+**This is Aerynna's house.** Her personal holding within it is roughly **6,000,000 gp**, independent of the family trust, and it is hers outright.
 
 **Fleet:** none to speak of. Four Cutters for factors and auditors.
 
@@ -137,7 +137,7 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 >
 > The vacancy the entire family plot revolves around exists because a road stopped existing. Nobody connected it, because at the time there was nothing to connect it to.
 >
-> **This is a Tier 3 revelation and it should hurt.** [THE PC] is competing for a dead house's chair, vacated by the precise phenomenon he has spent three tiers documenting. His father's life's ambition is a seat at a table with a hole in it, and the hole is the thing that's coming for all of them.
+> **This is a Tier 3 revelation and it should hurt.** Aerion is competing for a dead house's chair, vacated by the precise phenomenon he has spent three tiers documenting. His father's life's ambition is a seat at a table with a hole in it, and the hole is the thing that's coming for all of them.
 >
 > Estra's locked star chart has Amberwake annotations on it. She has never known what they meant.
 
@@ -152,19 +152,19 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 **Planar reach:** effectively none. This is a sore point and part of why the elevation case matters.
 
 **Holdings:**
-- Core Chain route and fleet, ~4,100,000 (operated by [ELDEST])
+- Core Chain route and fleet, ~4,100,000 (operated by Aeric)
 - Warehousing and port leases, ~2,300,000
 - Brokerage and paper, ~1,400,000
-- Tollmarch franchise, ~700,000 (operated by [THIRD], underwater)
+- Tollmarch franchise, ~700,000 (operated by Aeravellis, underwater)
 - Liquid reserve, ~700,000
 
-**Fleet:** [THE FATHER]'s Swift Heavy, [ELDEST]'s Balanced Heavy and four hauling hulls, [SECOND]'s Sturdy Cutter, [THIRD]'s converted boarding Trader, and whatever [THE PC] buys. See `House Windsong.md` and `Ship Construction.md`.
+**Fleet:** Vaelros's Swift Heavy, Aeric's Balanced Heavy and four hauling hulls, Aeris's Sturdy Cutter, Aeravellis's converted boarding Trader, and whatever Aerion buys. See `House Windsong.md` and `Ship Construction.md`.
 
 ## Why they're the frontrunner despite being poor
 
 **Wealth is not the criterion.** House Windsong is worth 9.2 million and one of its rivals is worth 11.4. The Board does not elevate on money, it elevates on **capability the Board needs**, and what the Board needs is somebody who can operate where the archive is thin.
 
-[THE FATHER] promised frontier capability. Nobody else credibly did.
+Vaelros promised frontier capability. Nobody else credibly did.
 
 > **This closes the loop.** He isn't ahead because he's rich. He's ahead because he made a promise about the Verge, and then handed the delivery of that promise to the son whose failure would cost him nothing.
 
@@ -181,7 +181,7 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 | House | Worth | Territory | Sells the crew | Drift stance |
 |---|---|---|---|---|
 | Vassara | 84M | Sallow Chain | The chart subscription | Denial |
-| Morraine | 77M | none, insures everything | The insurance policy | Follow the money |
+| Nightbreeze | 77M | none, insures everything | The insurance policy | Follow the money |
 | Tethyn | 61M | The Tollmarch | Every weapon aboard | Profitable danger |
 | Delverane | 29M | Windward Edge | Instruments and helms | Adapt or die |
 | *Carrow* | *40M* | *the Amberwake, gone* | — | *Was the first casualty* |
@@ -189,7 +189,7 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 | Rennick | 11.4M | Sallow Chain | — | Indifferent |
 | Obhal | 7.1M | Bral Reach | — | Indifferent |
 
-**Every vendor on the crew's price sheet is a Board house.** They buy weapons from Tethyn, instruments from Delverane, charts from Vassara, and insurance from Morraine, at session 0, before any of it means anything. The receipts are in Priscilla's ledger from day one.
+**Every vendor on the crew's price sheet is a Board house.** They buy weapons from Tethyn, instruments from Delverane, charts from Vassara, and insurance from Nightbreeze, at session 0, before any of it means anything. The receipts are in Priscilla's ledger from day one.
 
 ---
 

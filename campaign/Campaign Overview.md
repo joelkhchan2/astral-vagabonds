@@ -1,6 +1,6 @@
 # Astral Vagabonds - Campaign Overview
 
-> **Naming note:** Player character and family names are still unsettled, except the house itself: it's **House Windsong**. This folder still uses placeholders for people: **[THE PC]** (Priscilla's character), **[ORENA]** (Gabrielle's character, name provisional), **[THE FATHER]**, **[ELDEST]**, **[SECOND]**, **[THIRD]**, **[UNCLE]**, **[MOTHER]**. Replace after session 0 #1.
+> **Naming note:** Player character and family names are still unsettled, except the house itself: it's **House Windsong**. This folder still uses placeholders for people: **Aerion** (Priscilla's character), **[ORENA]** (Gabrielle's character, name provisional), **Vaelros**, **Aeric**, **Aeris**, **Aeravellis**, **Vaelren**, **Aerynna**. Replace after session 0 #1.
 
 ## The Pitch
 
@@ -12,11 +12,11 @@ Firefly meets Brooklyn Nine-Nine in the Astral Sea, with a family inheritance dr
 
 ## The Two Player Characters
 
-**[THE PC]** (Priscilla) - Fighter, Navigator, and owner of the venture. Youngest of four sons of a merchant house that sits one rung below real power. Wants the company. Has a silver dragon named **Flurry** who is, functionally, a very unusual dog.
+**Aerion** (Priscilla) - Fighter, Navigator, and owner of the venture. Youngest of four sons of a merchant house that sits one rung below real power. Wants the company. Has a silver dragon named **Flurry** who is, functionally, a very unusual dog.
 
 **[ORENA]** (Gabrielle) - Bard/Paladin, Bosun. Came out of an old sailors' guild that went privateering and lost its ship. She is the only survivor anyone can account for. She keeps a logbook catalogued by **sound**. Her crew is out there somewhere, scattered, and she is the only person who believes it.
 
-They knew each other before. [THE PC] made the call. [ORENA] answered.
+They knew each other before. Aerion made the call. [ORENA] answered.
 
 ## Setting
 
@@ -48,11 +48,11 @@ Three things running at once, at different speeds.
 
 **The Drift (world, slow).** Astral currents are formed by accumulated travel and they are coming apart. Consolidation killed route diversity, a generation of conduits is dying, and underneath both a natural phase shift is reorganizing the whole system. Civilization survives this only by rebuilding a distributed, openly shared navigation network. Full detail in `Plot Threads.md`.
 
-**The Trial (family, medium).** Four brothers, four ventures, one inheritance, and a father who is the frontrunner for a vacant seat on the Pale Reach's governing board. [THE PC] was given the frontier because he is deniable, not because he is a contender. Full detail in `House Windsong.md`.
+**The Trial (family, medium).** Four brothers, four ventures, one inheritance, and a father who is the frontrunner for a vacant seat on the Pale Reach's governing board. Aerion was given the frontier because he is deniable, not because he is a contender. Full detail in `House Windsong.md`.
 
 **The Scattered Crew (personal, episodic).** [ORENA]'s guild crew were thrown across the settled worlds when their ship came apart. She finds them one at a time, in ports, over the length of the campaign. Each is in a different state and each tells a different version of what happened.
 
-These converge. The open navigation network is simultaneously the thing that saves Wildspace, the thing that lets [THE PC] beat his father, and the thing that makes finding the rest of the lost possible.
+These converge. The open navigation network is simultaneously the thing that saves Wildspace, the thing that lets Aerion beat his father, and the thing that makes finding the rest of the lost possible.
 
 ## Design Principles
 
@@ -67,7 +67,7 @@ These converge. The open navigation network is simultaneously the thing that sav
 
 Hold this line. It was drawn deliberately.
 
-**DM territory:** the world, its institutions, the Pale Reach, the CIV, the Drift, the Locker's physics, every NPC, [THE FATHER]'s scheme, prices, rules, and the contents of any given port.
+**DM territory:** the world, its institutions, the Pale Reach, the CIV, the Drift, the Locker's physics, every NPC, Vaelros's scheme, prices, rules, and the contents of any given port.
 
 **Player territory:** both PCs' motivations, relationships, inner lives, what they want, what they believe, how their families and guilds treat them, and what their losses mean to them.
 

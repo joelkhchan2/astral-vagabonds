@@ -78,7 +78,7 @@ The Drift lore states that the phase shift has happened before on geological tim
 
 **You need the instrument.** The ancient current-readers can find the way, and the way is a current that is not always there. Without one, the Locker is unreachable and unprovable.
 
-Which means **[ORENA]'s finale is only possible because of [THE PC]'s network.** Not thematically. Mechanically. She cannot go until he has built the thing, and he is not building it for her.
+Which means **[ORENA]'s finale is only possible because of Aerion's network.** Not thematically. Mechanically. She cannot go until he has built the thing, and he is not building it for her.
 
 ---
 

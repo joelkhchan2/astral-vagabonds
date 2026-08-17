@@ -1,0 +1,742 @@
+<title>The Danforth Yard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #e7ecf1;
+    --surface: #f6f8fb;
+    --surface-2: #eef2f6;
+    --ink: #18202e;
+    --muted-text: #566173;
+    --accent: #8a6a2c;
+    --accent-soft: #b98f3f;
+    --teal: #256d67;
+    --line: #d3dae2;
+    --line-strong: #b9c3ce;
+    --dm: #7a3f6e;
+    --dm-bg: #f3e9f1;
+    --danger: #a23b3b;
+    --danger-bg: #f6e7e5;
+    --opp: #2f6b45;
+    --opp-bg: #e6f0ea;
+    --cost: #8a5a1f;
+    --cost-bg: #f4ebdd;
+    --shadow: 0 1px 2px rgba(24,32,46,.06), 0 6px 20px rgba(24,32,46,.06);
+  }
+  :root:not([data-theme="light"]) {
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0b0f17;
+      --surface: #141a26;
+      --surface-2: #10151f;
+      --ink: #e7ecf3;
+      --muted-text: #93a0b3;
+      --accent: #d8b25c;
+      --accent-soft: #e6c983;
+      --teal: #5fb8b0;
+      --line: #262f3d;
+      --line-strong: #33404f;
+      --dm: #cf95c2;
+      --dm-bg: #221722;
+      --danger: #e08a83;
+      --danger-bg: #241615;
+      --opp: #86c79c;
+      --opp-bg: #14201a;
+      --cost: #e0b877;
+      --cost-bg: #201a12;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0b0f17;
+    --surface: #141a26;
+    --surface-2: #10151f;
+    --ink: #e7ecf3;
+    --muted-text: #93a0b3;
+    --accent: #d8b25c;
+    --accent-soft: #e6c983;
+    --teal: #5fb8b0;
+    --line: #262f3d;
+    --line-strong: #33404f;
+    --dm: #cf95c2;
+    --dm-bg: #221722;
+    --danger: #e08a83;
+    --danger-bg: #241615;
+    --opp: #86c79c;
+    --opp-bg: #14201a;
+    --cost: #e0b877;
+    --cost-bg: #201a12;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nav */
+  .topbar {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar .wrap { display: flex; align-items: center; gap: 20px; height: 60px; }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 17px; letter-spacing: .01em; white-space: nowrap; }
+  .brand .anchor-mark { color: var(--accent); }
+  .navlinks { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; }
+  .navlinks a {
+    color: var(--muted-text); text-decoration: none; font-size: 12.5px; font-weight: 500;
+    padding: 6px 10px; border-radius: 6px; white-space: nowrap; letter-spacing: .02em;
+  }
+  .navlinks a:hover { color: var(--ink); background: var(--surface-2); }
+  .toggle {
+    flex: none; border: 1px solid var(--line-strong); background: var(--surface);
+    color: var(--muted-text); border-radius: 7px; height: 34px; width: 34px; cursor: pointer;
+    font-size: 15px; display: grid; place-items: center;
+  }
+  .toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .toggle:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* Hero */
+  .hero { padding: 76px 0 52px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
+  .hero::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background:
+      radial-gradient(1px 1px at 12% 30%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78% 18%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 62% 62%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 78%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90% 74%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 22% 54%, var(--line-strong) 50%, transparent 51%);
+  }
+  .hero .wrap { position: relative; z-index: 1; }
+  .eyebrow {
+    font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--accent); font-weight: 500;
+  }
+  h1 {
+    font-family: "Fraunces", serif; font-weight: 600; letter-spacing: -.01em;
+    font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02; margin: 16px 0 0;
+    text-wrap: balance; max-width: 16ch;
+  }
+  .hero .lede { font-size: 1.16rem; color: var(--muted-text); max-width: 60ch; margin: 22px 0 0; }
+  .hero .slogan {
+    margin-top: 30px; font-family: "Fraunces", serif; font-style: italic; font-size: 1.05rem;
+    color: var(--ink); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px;
+  }
+
+  /* Sections */
+  section { padding: 62px 0; border-bottom: 1px solid var(--line); }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 8px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); font-weight: 500; }
+  h2 {
+    font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+    line-height: 1.08; margin: 0; letter-spacing: -.01em; text-wrap: balance;
+  }
+  .sec-intro { color: var(--muted-text); max-width: 66ch; margin: 14px 0 32px; font-size: 1.03rem; }
+  h3 {
+    font-family: "Fraunces", serif; font-weight: 600; font-size: 1.28rem; margin: 40px 0 4px;
+    letter-spacing: -.005em;
+  }
+  h4 { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 1rem; margin: 24px 0 6px; }
+  p { margin: 12px 0; }
+  a.inline { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+
+  .label {
+    font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--muted-text); font-weight: 500;
+  }
+
+  /* Cards + grid */
+  .grid { display: grid; gap: 18px; }
+  .grid.two { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .grid.three { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 22px; box-shadow: var(--shadow);
+  }
+  .card h3 { margin-top: 0; }
+  .card .price {
+    font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--accent);
+    font-size: .95rem;
+  }
+  .tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 4px; }
+  .tag {
+    font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .04em;
+    border: 1px solid var(--line-strong); color: var(--muted-text); border-radius: 20px;
+    padding: 2px 10px; white-space: nowrap;
+  }
+  .tag.accent { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, var(--line-strong)); }
+  .tag.teal { color: var(--teal); border-color: color-mix(in srgb, var(--teal) 45%, var(--line-strong)); }
+
+  .quote {
+    font-family: "Fraunces", serif; font-style: italic; color: var(--ink);
+    border-left: 2px solid var(--accent-soft); padding-left: 12px; margin: 14px 0; font-size: .98rem;
+  }
+  .quote .who { display:block; font-family: "IBM Plex Mono", monospace; font-style: normal; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); margin-bottom: 4px; }
+
+  /* Callouts */
+  .call { border-radius: 10px; padding: 14px 16px; margin: 14px 0; border: 1px solid; font-size: .95rem; }
+  .call .call-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; display: block; margin-bottom: 4px; }
+  .call p:first-of-type { margin-top: 2px; }
+  .call p:last-child { margin-bottom: 0; }
+  .call.dm { background: var(--dm-bg); border-color: color-mix(in srgb, var(--dm) 40%, transparent); }
+  .call.dm .call-label { color: var(--dm); }
+  .call.danger { background: var(--danger-bg); border-color: color-mix(in srgb, var(--danger) 40%, transparent); }
+  .call.danger .call-label { color: var(--danger); }
+  .call.opp { background: var(--opp-bg); border-color: color-mix(in srgb, var(--opp) 40%, transparent); }
+  .call.opp .call-label { color: var(--opp); }
+  .call.cost { background: var(--cost-bg); border-color: color-mix(in srgb, var(--cost) 40%, transparent); }
+  .call.cost .call-label { color: var(--cost); }
+
+  /* Tables */
+  .tablewrap { overflow-x: auto; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  thead th {
+    font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted-text); font-weight: 600; background: var(--surface-2);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+  td.name { font-weight: 600; white-space: normal; }
+  tbody tr:hover { background: var(--surface-2); }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+
+  /* Spec list for cards */
+  .spec { display: grid; grid-template-columns: repeat(auto-fit, minmax(74px,1fr)); gap: 2px 14px; margin: 12px 0; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; }
+  .spec div { display: flex; flex-direction: column; padding: 4px 0; }
+  .spec .k { color: var(--muted-text); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+  .spec .v { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  ul.clean { margin: 12px 0; padding-left: 20px; }
+  ul.clean li { margin: 6px 0; }
+  ul.tight { margin: 6px 0; padding-left: 18px; }
+  ul.tight li { margin: 3px 0; }
+
+  .role-row { display: grid; grid-template-columns: 200px 1fr; gap: 4px 24px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .role-row:last-child { border-bottom: none; }
+  .role-row .r-name { font-weight: 600; }
+  .role-row .r-name .who { display:block; font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--accent); font-weight: 500; margin-top: 2px; }
+  .role-row .r-desc { color: var(--muted-text); }
+  @media (max-width: 620px) { .role-row { grid-template-columns: 1fr; } }
+
+  footer { padding: 40px 0 70px; color: var(--muted-text); font-size: .86rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+
+  .divider-note { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted-text); letter-spacing: .04em; }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="anchor-mark">&#9875;</span> The Danforth Yard</span>
+    <nav class="navlinks">
+      <a href="#premise">Where We Are</a>
+      <a href="#ships">How Ships Work</a>
+      <a href="#roles">Roles &amp; Stations</a>
+      <a href="#shop">The Ship Shop</a>
+      <a href="#crew">The Interviews</a>
+    </nav>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">&#9681;</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Astral Vagabonds &middot; Session Zero Companion</span>
+    <h1>Fitting out at the far end of a bad decade.</h1>
+    <p class="lede">Five years ago the crew signed onto a venture that looked like a sure thing. Today they are near destitute, standing in a prior-service ship yard with the only real money they have seen in a long time and one night to spend it well. This is the reference for that night: how astral ships work, what every chair on the deck does, the hulls for sale, and the people asking for berths.</p>
+    <p class="slogan">Danforth Certified Prior-Service Hulls. "The Last Honest Deal in Wildspace."</p>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- 1. PREMISE -->
+  <section id="premise">
+    <div class="sec-head"><span class="sec-num">01</span><h2>Where the crew is tonight</h2></div>
+    <p class="sec-intro">Set this up in a few minutes of table talk, then get to the yard. The point of the evening is a hull, a crew sorted into the right chairs, a name, and a fresh problem to fly toward.</p>
+
+    <div class="grid two">
+      <div class="card">
+        <span class="label">The money on the table</span>
+        <p>Vaelros Windsong has handed his youngest son <span class="mono">50,000 gp</span> and a posting at the frontier. It is the smallest share any of the four brothers received and the worst assignment by every measure the family respects. It is also the first serious capital this crew has touched in years.</p>
+        <div class="call cost"><span class="call-label">Say this plainly</span><p>The 50,000 is venture capital, not personal wealth. Their own money is small and separate. This is the ship's money, and every silver of it is spoken for the moment they walk in.</p></div>
+      </div>
+      <div class="card">
+        <span class="label">The two facts that shape every choice</span>
+        <ul class="clean">
+          <li>Piloting requires an <strong>attuned spellcaster holding concentration</strong>. Whoever flies cannot do much else while they fly.</li>
+          <li>A hired helmsman costs roughly <strong>18,000 gp a year</strong>. It is the single largest recurring cost in the venture, and it decides whether their runway is measured in years or in months.</li>
+        </ul>
+        <div class="call dm"><span class="call-label">GM note</span><p>Shaded plum blocks like this one are for your eyes. Do not read them aloud. Everything else on the page is safe to show at the table.</p></div>
+      </div>
+    </div>
+
+    <h3>The established crew</h3>
+    <p>This is not a room full of strangers. Aerion has crewed with these people for five years, including the treasure hunt two years ago where he found the egg that became Flurry. Orena (Gabrielle's character) is the newcomer; she joined about six months ago. With a real ship at last, tonight is partly about confirming who stays in which chair and partly about the two or three berths still open. Anyone they turn down stays in the world and can turn up again later, on this deck or a rival's.</p>
+  </section>
+
+  <!-- 2. HOW SHIPS WORK -->
+  <section id="ships">
+    <div class="sec-head"><span class="sec-num">02</span><h2>How astral ships work</h2></div>
+    <p class="sec-intro">Enough to fly one and enough to fear the bill. Six ideas do almost all the work: the medium, the roads, the air, the gravity, the helm, and the cost of everything.</p>
+
+    <div class="grid two">
+      <div class="card">
+        <h4>Wildspace and the Astral Sea</h4>
+        <p>Systems hang in the void, separated by enormous distances, all of it floating in a silvery medium called the Astral. In open space a ship cruises at <span class="mono">100 million miles per 24 hours</span>, which turns a crossing between worlds into a voyage of days and weeks rather than a lifetime.</p>
+      </div>
+      <div class="card">
+        <h4>The roads</h4>
+        <p>The Astral holds memory. Travel a path often enough and the passage wears a groove that other ships can follow. Those grooves are the roads, and the maps to them are property. The Pale Reach, a consortium of merchant houses, owns the good ones. Aerion's family sits inside it. That is the whole political weather in one sentence.</p>
+      </div>
+      <div class="card">
+        <h4>Air is a calendar</h4>
+        <p>A ship carries a bubble of breathable air. At standard complement it lasts <span class="mono">120 days</span>, and a larger crew burns it faster. On day 121 the air turns foul and everyone aboard is poisoned until they breathe fresh air again. Foul air becomes deadly 120 days after that. When two air bubbles touch, the smaller one takes on the quality of the larger.</p>
+        <div class="call opp"><span class="call-label">How we track it</span><p>Not as a running total. It is a date on the voyage calendar. Either they beat the clock or they do not.</p></div>
+      </div>
+      <div class="card">
+        <h4>Gravity you can walk under</h4>
+        <p>Each ship generates a gravity plane that cuts the hull in half lengthwise and reaches as far as the air does. You can stand on the underside of your own deck. When two ships make contact, the hull with more hit points remaining forces its plane onto the other.</p>
+        <div class="call dm"><span class="call-label">Why this matters in a boarding fight</span><p>Board a healthier ship without a Plane Anchor and your own deck can flip under your boarders mid action. It is the reason a 2,600 gp fitting reads as boring and plays as decisive.</p></div>
+      </div>
+    </div>
+
+    <h3>The helm</h3>
+    <p>A spelljamming helm is a chair that only works for an attuned spellcaster. Sitting in it and steering the ship costs the pilot neither an action nor movement, so their turn stays free, but flying takes concentration exactly like holding a spell. A pilot cannot fly and maintain a concentration spell at the same time, and taking damage can knock them off the helm. Running a helm costs roughly <span class="mono">50 gp per day</span>.</p>
+    <div class="grid three" style="margin-top:16px">
+      <div class="card"><h4>One person can fly a ship</h4><p>The crew number on a stat block is the ideal complement with every weapon manned, not a minimum. A skeleton crew flies fine; it just cannot shoot much.</p></div>
+      <div class="card"><h4>Power does not equal speed</h4><p>The ship moves at its hull's listed speed no matter who is in the chair. A level 5 bard flies exactly as fast as an archmage. Nobody is buying a faster helm.</p></div>
+      <div class="card"><h4>The concentration tax</h4><p>Every voyage a player character flies, they are furniture. Every fight they join instead, the ship is not moving. This is the campaign's one genuinely hard recurring choice.</p></div>
+    </div>
+
+    <h3>The cost of everything</h3>
+    <p>Combat in this campaign is frightening because it is expensive, not because it is lethal. Two numbers carry that.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Line</th><th>Rate</th><th>What it feels like</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Hull repair</td><td class="mono">20 gp / hit point</td><td>A 250 HP hull taking 100 points is a 2,000 gp bill, most of a month's income.</td></tr>
+          <tr><td class="name">Weapon repair</td><td class="mono">10 gp / hit point</td><td>Cheaper than the hull, still real money.</td></tr>
+          <tr><td class="name">Helm, running</td><td class="mono">~50 gp / day</td><td>The chair costs whether or not it moves.</td></tr>
+          <tr><td class="name">Damage threshold</td><td class="mono">15 to 20</td><td>Any single hit below the threshold does nothing at all.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="divider-note">Ship combat runs on side initiative. Weapons take several actions to load, aim, and fire, and a hull can rotate to bring any weapon to bear regardless of where the target sits.</p>
+  </section>
+
+  <!-- 3. ROLES -->
+  <section id="roles">
+    <div class="sec-head"><span class="sec-num">03</span><h2>Roles and combat stations</h2></div>
+    <p class="sec-intro">Two different maps of the same crew. The first is the standing job each person holds day to day. The second is the station they take when the shooting starts, which anyone can crew and swap between fights.</p>
+
+    <h3>The twelve chairs</h3>
+    <p>A full complement is twelve: the two player characters and ten crew. The jobs below are what keeps a merchant ship alive between fights.</p>
+    <div class="role-list">
+      <div class="role-row"><div class="r-name">Captain and primary helm</div><div class="r-desc">Sets the voyage, holds the leash, and usually flies the ship. The one person aboard who has done all of this before.</div></div>
+      <div class="role-row"><div class="r-name">Navigator <span class="who">Aerion</span></div><div class="r-desc">Plots courses, keeps the charts, tracks supplies and money. The de facto quartermaster, accountant, and fixer. Knows what is in every crate and who owes what.</div></div>
+      <div class="role-row"><div class="r-name">Bosun <span class="who">Orena</span></div><div class="r-desc">Runs rigging, repairs, and crew discipline, assists with piloting and navigation, and keeps the ship's operations moving. Also the crew's field naturalist, filling a bestiary of astral creatures.</div></div>
+      <div class="role-row"><div class="r-name">Chief engineer</div><div class="r-desc">Keeps the hull and the helm running, patches breaches, and is first to know when something mechanical is wrong.</div></div>
+      <div class="role-row"><div class="r-name">Chief gunner</div><div class="r-desc">Runs the weapon crews and the gun bay. Ship weapons need several hands and several actions to fire, so this is a team, not a trigger.</div></div>
+      <div class="role-row"><div class="r-name">Cook and deckhand</div><div class="r-desc">Sounds trivial, is not. Food is morale, and morale is what carries a crew through the 120-day provisions clock. A hot meal on day ninety is worth real hit points.</div></div>
+      <div class="role-row"><div class="r-name">Surgeon</div><div class="r-desc">Stabilizes the badly hurt and keeps the injury logs. The difference between a scare and a funeral.</div></div>
+      <div class="role-row"><div class="r-name">Lookout and scout</div><div class="r-desc">Eyes in the void. Sees the thing coming while there is still time to choose what to do about it.</div></div>
+      <div class="role-row"><div class="r-name">Quartermaster's mate and cargo</div><div class="r-desc">Works the hold, the manifests, and the contacts at every port. The person who makes the navigator's plans real at ground level.</div></div>
+      <div class="role-row"><div class="r-name">Security and heavy weapons</div><div class="r-desc">Boarding defense. The reason nobody takes this deck while they are standing on it.</div></div>
+      <div class="role-row"><div class="r-name">Cabin crew, runner, helm backup</div><div class="r-desc">Carries messages, learns every job, and is quietly the ship's future. The one who grows into the helm chair somewhere down the line.</div></div>
+      <div class="role-row"><div class="r-name">Second helm and rigger</div><div class="r-desc">The relief pilot and the hands aloft. Does twice the work and asks for nothing.</div></div>
+    </div>
+
+    <h3>Combat stations</h3>
+    <p>When a fight starts, every player character and any named crew member takes a station for the encounter. Stations are not classes. Anyone can crew any of them, and moving from the gun deck to the helm costs movement, not an action.</p>
+
+    <h4>Pilot</h4>
+    <p>Whoever is at the helm. Because flying is free, the pilot's own action is open every round, and it can be spent on one maneuver from the list below. Only one pilot maneuver per round, chosen when the ship's initiative comes up.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Maneuver</th><th>Effect</th><th>Cost</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Evasive Action</td><td>Attacks against the ship have disadvantage until the pilot's next turn.</td><td>The ship's own weapons have disadvantage this round. Nobody can aim while she juks.</td></tr>
+          <tr><td class="name">Full Burn</td><td>The ship's speed effectively doubles this round to close, disengage, or run.</td><td>Attacks against the ship have advantage until the pilot's next turn. Hard to hide going that fast.</td></tr>
+          <tr><td class="name">Ram</td><td>If the hull has a ram, make one attack with the ram's damage, no weapon crew needed.</td><td>The ship takes half the damage it deals, applied after its damage threshold.</td></tr>
+          <tr><td class="name">Boarding Action</td><td>Close and lock with a ship your size or smaller (contested piloting check).</td><td>Both ships are grappled. Neither can Full Burn or disengage until someone breaks it.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid three">
+      <div class="card"><h4>Gunner</h4><p>Each weapon has a crew size and an action count to fire. A ballista needs three hands and three actions; a mangonel needs four or five. A gunner contributes their action to that sequence. More gunners means more guns firing per round.</p></div>
+      <div class="card"><h4>Engineer</h4><p>Not full repair, that is downtime and gold. In a fight the engineer can spend an action on an <strong>Emergency Patch</strong>: a DC 12 check that restores hit points equal to their level, once per encounter. It keeps the hull standing, it does not lower the repair bill.</p></div>
+      <div class="card"><h4>Coordinator</h4><p>Usually whichever character is not flying or gunning, running the fight from the deck. Spend an action to grant an ally advantage, impose disadvantage on an attacker, or let one station act again out of order. One coordinator benefit per round.</p></div>
+    </div>
+    <div class="call cost"><span class="call-label">The natural spread for this table</span><p>Two characters cannot fill four stations. Expect Orena on a gun or coordinating and Aerion coordinating or engineering, with hired and default crew slotted into the rest. The shakedown fight is the first time to run this live.</p></div>
+  </section>
+
+  <!-- 4. SHOP -->
+  <section id="shop">
+    <div class="sec-head"><span class="sec-num">04</span><h2>The ship shop</h2></div>
+    <p class="sec-intro">A cluttered orbital yard: hulls in cradles at wrong angles, gantries, a scrap heap that is technically inventory, and a portable office that used to be a cargo container. The yard hands working on the ships are also the crew candidates, so nobody has to go anywhere else tonight.</p>
+
+    <div class="card" style="margin-bottom:8px">
+      <span class="label">The proprietor</span>
+      <h3 style="margin-top:6px">"Major" Hoyle Danforth</h3>
+      <p>A giff, seven feet tall, retired at a rank he awarded himself and uses constantly, in a blazer that fits nobody. He calls every hull "she," every defect "character," and every customer "Captain," including the ones who are not. He applies artillery vocabulary to situations that have nothing to do with artillery.</p>
+      <div class="call dm"><span class="call-label">The thing that makes him work</span><p>He never lies. He sincerely believes every ship on the lot is excellent, which makes him impossible to catch out and far harder to argue with than a con man. Ask him a direct question and he answers honestly, including the answers that cost him the sale. Nobody asks. Name and species are entirely swappable.</p></div>
+    </div>
+
+    <h3>How a hull is built</h3>
+    <p>Three independent choices. <strong>Class</strong> sets the size, cost, crew, and cargo. <strong>Profile</strong> sets how it is built. <strong>Style</strong> is what it looks like and has no mechanical effect at all, so hand it to the players and get out of the way.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Class</th><th class="num">Cost</th><th class="num">HP</th><th class="num">Cargo</th><th class="num">Crew</th><th class="num">Base speed</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Cutter</td><td class="num">20,000</td><td class="num">250</td><td class="num">10 t</td><td class="num">5</td><td class="num">50 ft</td></tr>
+          <tr><td class="name">Trader</td><td class="num">20,000</td><td class="num">250</td><td class="num">20 t</td><td class="num">11</td><td class="num">55 ft</td></tr>
+          <tr><td class="name">Hauler</td><td class="num">25,000</td><td class="num">300</td><td class="num">20 t</td><td class="num">13</td><td class="num">40 ft</td></tr>
+          <tr><td class="name">Galleon</td><td class="num">30,000</td><td class="num">400</td><td class="num">20 t</td><td class="num">20</td><td class="num">35 ft</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Profile</th><th class="num">AC</th><th class="num">Speed</th><th>Signature</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Sturdy</td><td class="num">19</td><td class="num">-10 ft</td><td>Damage threshold 20 instead of 15</td></tr>
+          <tr><td class="name">Balanced</td><td class="num">15</td><td class="num">base</td><td>One extra weapon hardpoint</td></tr>
+          <tr><td class="name">Swift</td><td class="num">13</td><td class="num">+15 ft</td><td>Break off from hull contact without penalty</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>The hulls on the lot</h3>
+    <p>Each is a Class and Profile already built. The style is whatever it looks like, and they can repaint. Spec sheets are public; the shaded blocks are yours.</p>
+
+    <div class="grid two">
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">20,000 gp</span><span class="tag">Swift Trader</span></div>
+        <h3>The Scarred Runner</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">13</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">70 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">11</span></div><div><span class="k">Guns</span><span class="v">3 ballistae, ram</span></div>
+        </div>
+        <p>Fire-scarred down the port flank, mismatched paint, genuinely ugly. Nobody has looked at her twice in eight months.</p>
+        <div class="quote"><span class="who">The Major</span>"Previous captain flew her seven years and never once complained about the speed."</div>
+        <div class="call dm"><span class="call-label">Truth</span><p>The best ship on the lot, priced as scrap because she photographs badly. The scarring is cosmetic. The previous captain died of old age, in bed, planetside.</p></div>
+        <div class="call danger"><span class="call-label">Defect &middot; Investigation DC 13</span><p>The rigging was replaced with cheap line. 400 gp to redo. It parts at a bad moment if they do not.</p></div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">30,000 gp</span><span class="tag">Balanced Galleon</span></div>
+        <h3>The Galleon</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">400</span></div><div><span class="k">Speed</span><span class="v">35 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">20</span></div><div><span class="k">Guns</span><span class="v">stock</span></div>
+        </div>
+        <p>Magnificent. Polished. Everyone falls in love on sight.</p>
+        <div class="quote"><span class="who">The Major</span>"Now this is a ship a serious house arrives in."</div>
+        <div class="call dm"><span class="call-label">Truth</span><p>A budget trap. Thirty thousand leaves twenty for a helm and everything else, and a complement of twenty is a payroll they cannot survive. A beautiful way to go bankrupt in five months. She is exactly what she appears to be. That is the problem.</p></div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">25,000 gp</span><span class="tag">Balanced Hauler</span></div>
+        <h3>The Long Hauler</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">300</span></div><div><span class="k">Speed</span><span class="v">40 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">13</span></div><div><span class="k">Keel</span><span class="v">250 ft</span></div>
+        </div>
+        <p>More places to hide a person than any hull here.</p>
+        <div class="quote"><span class="who">The Major</span>"Roomy. You'll never want for somewhere to put a thing."</div>
+        <div class="call dm"><span class="call-label">Truth &middot; DC 12 to notice, DC 16 to find them</span><p>Slow, capacious, and Wysp has been living aboard for eleven weeks. Buy her and they inherit a teenager who knows every compartment and has strong opinions about all of them.</p></div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">25,000 gp</span><span class="tag">Balanced Cutter</span></div>
+        <h3>The Living Ship</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">40 ft</span></div><div><span class="k">Cargo</span><span class="v">10 t</span></div><div><span class="k">Crew</span><span class="v">5 + treant</span></div><div><span class="k">Guns</span><span class="v">4 ballistae</span></div>
+        </div>
+        <p>A treant grows from the stern. It repairs hull damage and refreshes the air envelope. It is awake, and it has been listening.</p>
+        <div class="quote"><span class="who">The Major</span>"She comes with her own engineer. Doesn't eat much."</div>
+        <div class="call dm"><span class="call-label">Truth &middot; DC 8</span><p>Mechanically extraordinary against a 20 gp repair economy and a 120-day air clock. But the treant is a person, not equipment. It has not agreed to work for anyone, nobody has asked it anything, and it has formed an opinion it will share if addressed politely. If it dies, the ship carries a corpse forever.</p></div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">20,000 gp</span><span class="tag">Swift Cutter</span></div>
+        <h3>The Cutter</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">13</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">65 ft</span></div><div><span class="k">Cargo</span><span class="v">10 t</span></div><div><span class="k">Crew</span><span class="v">5</span></div><div><span class="k">Guns</span><span class="v">4 ballistae</span></div>
+        </div>
+        <p>Nimble and genuinely cheap to run.</p>
+        <div class="quote"><span class="who">The Major</span>"Nimble. Cheap to run. Cheap to run!"</div>
+        <div class="call dm"><span class="call-label">Truth</span><p>He is right about the payroll. But ten tons and five berths means this ship can never become a home. No room for facilities, no room for twelve people, no room for the campaign they want. They will not understand this until level 9.</p></div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">25,000 gp</span><span class="tag">Sturdy Hauler</span></div>
+        <h3>The Armored Hauler</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">19</span></div><div><span class="k">HP</span><span class="v">300</span></div><div><span class="k">Speed</span><span class="v">30 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">13</span></div><div><span class="k">Guns</span><span class="v">2 claws</span></div>
+        </div>
+        <p>Visibly built to be attacked and survive it.</p>
+        <div class="quote"><span class="who">The Major</span>"Nobody boards this ship. Nobody has ever boarded this ship."</div>
+        <div class="call dm"><span class="call-label">Truth</span><p>Best armor on the lot, worst speed. Fine for a raider, poor for a merchant, and docking anywhere respectable in a hull that reads as a raider is a reputation problem in every port.</p></div>
+        <div class="call danger"><span class="call-label">Defect &middot; DC 14</span><p>The port claw's hydraulics are shot. 900 gp. Until then it opens when it feels like it.</p></div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">20,000 gp</span><span class="tag">Balanced Trader</span></div>
+        <h3>The Boarding Hull</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">35 ft</span></div><div><span class="k">Cargo</span><span class="v">6 t</span></div><div><span class="k">Crew</span><span class="v">15</span></div><div><span class="k">Guns</span><span class="v">4 ballistae, jaws</span></div>
+        </div>
+        <p>Converted, and old.</p>
+        <div class="quote"><span class="who">The Major</span>"Oldest design still flying. There's a reason."</div>
+        <div class="call dm"><span class="call-label">Truth &middot; DC 15</span><p>Fifteen wages to carry six tons. There is no legitimate trade case for this ship and everyone in the industry knows what it is for. The registry has been amended twice; she has had three names.</p></div>
+        <div class="call cost"><span class="call-label">Plant this</span><p>Aeravellis, the third brother, flies a hull of exactly this type. Nobody at the table knows that yet. When they work it out in Tier 2, they will remember standing on this lot being told what the ship is for.</p></div>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="tag accent">20,000 gp</span><span class="tag">Balanced Trader</span></div>
+        <h3>The Standard Trader</h3>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">55 ft</span></div><div><span class="k">Cargo</span><span class="v">13 t</span></div><div><span class="k">Crew</span><span class="v">10</span></div><div><span class="k">Guns</span><span class="v">ballista, mangonel</span></div>
+        </div>
+        <p>An honest ship.</p>
+        <div class="quote"><span class="who">The Major</span>"Honest ship. Honest ship."</div>
+        <div class="call dm"><span class="call-label">Truth</span><p>Completely fine, and slightly worse than the Scarred Runner in every measurable way for identical money. Only visible if someone compares spec sheets. Aerion will.</p></div>
+      </div>
+
+    </div>
+
+    <h3>The money</h3>
+    <p>Fifty thousand against six competing claims. Put this on a handout.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Claim</th><th class="num">Range</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Hull</td><td class="num">20,000 to 30,000</td></tr>
+          <tr><td class="name">Helm</td><td class="num">5,500 to 15,000</td></tr>
+          <tr><td class="name">Upgrades</td><td class="num">0 to everything</td></tr>
+          <tr><td class="name">CIV charter, annual</td><td class="num">1,500</td></tr>
+          <tr><td class="name">Pale Reach subscription</td><td class="num">600 to 2,400</td></tr>
+          <tr><td class="name">Insurance (needs a subscription)</td><td class="num">1,800</td></tr>
+          <tr><td class="name">First provisions</td><td class="num">~700</td></tr>
+          <tr><td class="name">Payroll reserve, monthly</td><td class="num">1,000 to 2,500</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="call dm"><span class="call-label">The lesson they should reach on their own</span><p>The purchase is a one-time number and the payroll is forever. A hull at 20,000 and a used helm at 8,000 leaves about 22,000, which is roughly two years of runway if Orena flies and about nine months if they hire a helmsman. Let Aerion find that. Do not say it. Given where this crew is starting from, the arithmetic is not a lesson, it is survival.</p></div>
+
+    <h3>Add-ons worth knowing tonight</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Helms</h4>
+        <div class="tablewrap" style="margin:8px 0 0">
+          <table>
+            <thead><tr><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+            <tbody>
+              <tr><td class="name">Prior-Service Helm</td><td class="num">5,500</td><td>Works. Roll on the quirk table at first attunement.</td></tr>
+              <tr><td class="name">Coilworks Mk. IV</td><td class="num">8,000</td><td>Standard. Reliable. Beige.</td></tr>
+              <tr><td class="name">Delverane "Brightchair"</td><td class="num">15,000</td><td>Advantage on saves to hold concentration while helming.</td></tr>
+              <tr><td class="name">Auxiliary Helm Cradle</td><td class="num">2,000</td><td>A second seat. Swap pilots without a shipyard.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <h4>The fittings that make it a home</h4>
+        <p>Cheap, cumulative, and this is where a workplace turns into a place people live. A short list from the catalogue:</p>
+        <ul class="tight">
+          <li><strong>Long Table, 250.</strong> Everyone eats in one place. Do not skip this one.</li>
+          <li><strong>Proper Bunks, 400 per four.</strong> People sleep.</li>
+          <li><strong>Bath House, 2,000.</strong> Transformative on a ninety-day haul.</li>
+          <li><strong>Viewports and Skylights, 1,800.</strong> You can see out. Psychologically enormous.</li>
+          <li><strong>A Door That Locks, 150 each.</strong> Sold individually. They will buy several.</li>
+          <li><strong>Ship's Colours, 200.</strong> A flag they design themselves.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="call cost"><span class="call-label">Show it, do not sell it</span><p>The Deepline Survey Suite at 9,000 gp sells their survey data at plus fifty percent and is the correct long-term purchase. They cannot afford it tonight. It is a level 9 goal. Show it to them anyway.</p></div>
+
+    <h3>The signature feature</h3>
+    <p>Every ship gets one, free, rolled or chosen at purchase. It is the narrative quirk that makes her hers. A taste of the table:</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="num">d12</th><th>Feature</th></tr></thead>
+        <tbody>
+          <tr><td class="num">1</td><td><strong>The float bay.</strong> One hold has a low-gravity anomaly nobody can fix. Fragile cargo. Also a court.</td></tr>
+          <tr><td class="num">2</td><td><strong>She talks.</strong> Constant creaking. Whether it is structural is an unresolved argument.</td></tr>
+          <tr><td class="num">4</td><td><strong>A berth that stays empty.</strong> Complement is one higher than the crew. It is always made up.</td></tr>
+          <tr><td class="num">7</td><td><strong>Load-bearing enchantment.</strong> Something in her is magical, structural, and undocumented.</td></tr>
+          <tr><td class="num">9</td><td><strong>A previous name</strong> shows through the paint in certain light. Not the one on the registry.</td></tr>
+          <tr><td class="num">12</td><td><strong>Something aboard is not equipment.</strong> It has not introduced itself. It has not caused trouble.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="call opp"><span class="call-label">The name</span><p>The yard's slogan is on the sign all evening. If they take it, the ship is the Last Honest Deal, and it is not ironic, it is a thesis. If they do not, she is theirs either way.</p></div>
+  </section>
+
+  <!-- 5. INTERVIEWS -->
+  <section id="crew">
+    <div class="sec-head"><span class="sec-num">05</span><h2>The interviews</h2></div>
+    <p class="sec-intro">The yard hands stop pretending to work and start asking about berths. Run three or four of these as real scenes and fill the rest offscreen. For an established crew, most of these are confirming a veteran back into their chair; the alternates are who they reach for when a chair is open or an old hand has finally had enough of flying broke.</p>
+    <div class="call dm"><span class="call-label">How the alternates work</span><p>The default names below in accent type are the crew as written. The others are genuine options, none of them bad, all good in different directions, which is the only way the choice means anything. Whoever they turn down stays in the world.</p></div>
+
+    <!-- Engineer -->
+    <h3>Chief engineer</h3>
+    <p>Whatever they buy is broken. There is already someone under one of these hulls with her legs sticking out.</p>
+    <div class="grid three">
+      <div class="card">
+        <div class="tagrow"><span class="tag teal">Default</span><span class="tag">3 gp / day</span></div>
+        <h4>Tack</h4>
+        <p>Autognome, cheerful, meticulous, no concept of personal space. Calls hull breaches "owies." Wildly overqualified; he was built for a vessel four times this size, so repairs happen suspiciously fast.</p>
+        <p class="divider-note">Philosophy: fixes what is wrong, and everything adjacent to it, unasked.</p>
+        <div class="quote">"Oh! Oh, is this my ship now? I'll need to learn all her names."</div>
+        <div class="call dm"><span class="call-label">Ask him</span><p>What he was actually built for. He answers honestly and it is a much bigger ship than this. His creator is a Pale Reach shipwright.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag">alternate</span><span class="tag">6 gp / day</span></div>
+        <h4>Hessa Ombrey</h4>
+        <p>Human, forties, ex-Tethyn yard foreman, immaculate coveralls, speaks in estimates. Genuinely excellent and knows exactly what she is worth. Double the going rate, non-negotiable.</p>
+        <p class="divider-note">Philosophy: fixes what is asked, precisely, and not one bolt more.</p>
+        <div class="quote">"I can have her sound in nine days. I can have her good in twenty. You'll want the nine."</div>
+        <div class="call dm"><span class="call-label">Ask her</span><p>Why she left the Tethyn yards. Professional answer first, real one only if you ask twice. She would file a routine fit-out report with her old contacts out of habit. Not spying. Paperwork, which is worse.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag">alternate</span><span class="tag">2 gp / day</span></div>
+        <h4>Pell Cinder</h4>
+        <p>Gnome, indeterminate age, singed. Has ideas. Wants to talk about the ideas. Some of the improvements are extraordinary and some of them are on fire.</p>
+        <p class="divider-note">Philosophy: improves things. Nobody asked.</p>
+        <div class="quote">"Now what if the ram didn't have to be pointed forward."</div>
+        <div class="call dm"><span class="call-label">Ask him</span><p>What he would do with unlimited budget. Let him answer. It is a good idea and it is also insane. Roughly one in four Pell modifications should be rolled on the quirk table.</p></div>
+      </div>
+    </div>
+
+    <!-- Helm -->
+    <h3>Helmsman</h3>
+    <p>The hard requirement, and the most expensive line in the venture. Present all three. The third is the real question.</p>
+    <div class="grid three">
+      <div class="card">
+        <div class="tagrow"><span class="tag">55 gp / day</span><span class="tag">~20,000 / yr</span></div>
+        <h4>Oreon Vast</h4>
+        <p>Human wizard, mid-thirties, calm, competent, unfailingly pleasant. Nine years on other people's helms and a clean record. The correct professional hire, and everyone in the room can tell.</p>
+        <div class="quote">"I don't drink at the helm and I don't fly tired. If that's a problem I'm not your man."</div>
+        <div class="call dm"><span class="call-label">The point of him</span><p>His complication is that he has none. Make him likeable so that declining him costs something. Ask him the worst thing that ever happened at a helm he was flying; he tells you exactly, calmly, and it is genuinely bad.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag">40 gp / day</span><span class="tag">saves 5,500 / yr</span></div>
+        <h4>Marn Tuck</h4>
+        <p>Human sorcerer, older, cheaper, and something is going on with him. Not obvious in an interview. Very obvious on day forty of a long haul.</p>
+        <div class="quote">"I've flown worse than whatever you're buying. Considerably worse."</div>
+        <div class="call dm"><span class="call-label">Ask him</span><p>What "worse" means. A genuinely great story, entirely true, and also a warning nobody in the room clocks as one yet. He has a habit.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag teal">Orena flies</span><span class="tag">free</span></div>
+        <h4>The character option</h4>
+        <p>Orena can attune to a helm. Every day she flies, roughly 18,000 gp a year stays in the account and the runway triples.</p>
+        <div class="call dm"><span class="call-label">Do not steer this</span><p>The cost is that flying takes concentration, so every voyage she flies she is furniture, and every fight she joins the ship is not moving. Lay out the numbers and let them argue. Whatever they decide, plant Wysp as the long-term answer: the kid who wants it, cannot do it yet, and grows into the chair around level 9.</p></div>
+      </div>
+    </div>
+
+    <!-- Cook -->
+    <h3>Cook</h3>
+    <p>Sounds trivial. It is air, morale, and the 120-day provisions clock, and it is the funniest audition available. Run it as a taste test.</p>
+    <div class="grid three">
+      <div class="card">
+        <div class="tagrow"><span class="tag teal">Default</span><span class="tag">2 gp / day</span></div>
+        <h4>Finnick "Finny" Groles</h4>
+        <p>Hadozee, loud, warm, gossips relentlessly. Presents something made from salvage that has no business tasting the way it does. The emotional center of the ship: game nights, birthdays, traditions, and a hot meal on day ninety worth actual hit points.</p>
+        <div class="quote">"It's mostly butter! It's an unreasonable amount of butter!"</div>
+        <div class="call dm"><span class="call-label">Complication</span><p>He cannot keep a secret and will feel awful about it. Ask who taught him to cook; he dodges the first time, tells you the second.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag">alternate</span><span class="tag">5 gp / day</span></div>
+        <h4>Ilsabet Crane</h4>
+        <p>Human, formally trained, cooked for a Sallow Chain house until something she will not discuss. Presents something genuinely exquisite. Objectively better food, and a professional who takes it seriously.</p>
+        <div class="quote">"I can do this with what you have. I would rather not, and I'd like that noted."</div>
+        <div class="call dm"><span class="call-label">Complication</span><p>She will not adapt to salvage ingredients and considers being asked an insult. She is a snob, she is correct, and she makes everyone slightly tense. If hired, she and Dr. Quill recognize the shape of each other's silence and never discuss it.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag">alternate</span><span class="tag">3 gp / day</span></div>
+        <h4>Baram Oyle</h4>
+        <p>Dwarf, ex-navy, thirty years of feeding crews. Presents a tray that is nutritionally perfect and joyless. Stretches provisions twenty percent further with zero waste. The most efficient option on the board.</p>
+        <div class="quote">"Four hundred and forty calories. Complete protein. Next."</div>
+        <div class="call dm"><span class="call-label">Complication</span><p>Nobody will ever look forward to dinner again.</p></div>
+      </div>
+    </div>
+    <div class="call cost"><span class="call-label">The real fork</span><p>Warmth against competence, and it tells you what kind of ship this table wants. Finny is the campaign's answer. Let them find that out themselves.</p></div>
+
+    <!-- Gunner -->
+    <h3>Gunner, security, or neither</h3>
+    <p>Not a budget fork. A statement about what kind of ship this is: shoot it, stop it, or talk it down.</p>
+    <div class="grid three">
+      <div class="card">
+        <div class="tagrow"><span class="tag teal">Default</span><span class="tag">3 gp / day</span></div>
+        <h4>Sable Duskmantle</h4>
+        <p>Shadar-kai, grim, deadpan, absolutely lethal on a weapon crew. Collects small trophies. Has a jar. Their weapon hits at plus two and crits on 19 to 20, the best gunnery in the yard.</p>
+        <div class="quote">"I'll man whatever you bolt on. If we die, at least I got to shoot something."</div>
+        <div class="call dm"><span class="call-label">Complication</span><p>Deserted a githyanki raider crew and there is a price on their head in certain Astral ports. Ask why they audition here instead of somewhere that pays better; they will not lie, and they will not answer either.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag teal">Default</span><span class="tag">4 gp / day</span></div>
+        <h4>Ozgood "Oz" Hammerfall</h4>
+        <p>Giff, seven feet, absurdly polite, carries a gun the size of a person. Offers a firm handshake and a written summary of his qualifications. Nobody takes this deck while Oz is standing on it.</p>
+        <div class="quote">"Good afternoon. Ozgood Hammerfall. I'd be glad to be of use, and I've brought references."</div>
+        <div class="call dm"><span class="call-label">Complication</span><p>Dishonorably discharged for refusing to fire on civilians. Branded a coward. Ask whether he would fire on someone if ordered to; he answers honestly, it takes him a moment, and that moment is the interview.</p></div>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="tag">alternate</span><span class="tag">6 gp / day</span></div>
+        <h4>Corwin Ashe</h4>
+        <p>Human, mid-fifties, supercargo and negotiator. Thirty years of arriving somewhere hostile and leaving with the cargo intact and nobody hurt. Better docking fees, better contract terms, better outcomes at inspections.</p>
+        <div class="quote">"You can buy a gunner. You'll use him four times a year. You'll use me every port."</div>
+        <div class="call dm"><span class="call-label">Complication, and a hook</span><p>If it comes to a fight he is useless and says so up front. He is also old enough to have crewed the treasure hunt two years back; if the players want a familiar face, he can simply be one of the crew from then. Offer it, do not assign it.</p></div>
+      </div>
+    </div>
+    <div class="call cost"><span class="call-label">The tempting choice</span><p>Hiring Corwin instead of a gunner is real and defensible, and it is the one Aerion will be drawn to. It should be viable. It should also mean the first boarding action goes very badly.</p></div>
+
+    <h4>Filled offscreen</h4>
+    <p>Whoever they do not audition, the surgeon, lookout, quartermaster's mate, and rigger, comes aboard between sessions. The defaults are Dr. Quill, Reeve, Brass, and Morrow. Wysp is already aboard whichever hull they bought and is not, technically, hired.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Astral Vagabonds &middot; a D&amp;D 5e campaign aboard the Last Honest Deal</span>
+    <span class="divider-note">Session Zero companion &middot; GM reference</span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('themeToggle');
+    function current() {
+      if (root.getAttribute('data-theme')) return root.getAttribute('data-theme');
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      btn.innerHTML = next === 'dark' ? '&#9681;' : '&#9680;';
+    });
+  })();
+</script>

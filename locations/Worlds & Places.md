@@ -58,7 +58,7 @@ Hulls at every angle, none of them agreeing on which way is down, and the gravit
 
 # THE VERGE — the frontier
 
-*Thin, poor, long hauls, small colonies. Nobody's territory. Where [THE PC] was sent and where the Drift is visible.*
+*Thin, poor, long hauls, small colonies. Nobody's territory. Where Aerion was sent and where the Drift is visible.*
 
 ## HALLOW'S REST
 **A mining colony** on a tidally locked moon: one face in permanent daylight, one in permanent dark, and the town strung along the terminator where it's survivable.

@@ -38,10 +38,10 @@ Recover what's recoverable from a wreck in the Tollmarch. *Complication:* Tethyn
 Resupply three Verge colonies on one loop. *Complication:* the third colony is not where the chart says. It's four hours off. Nobody can explain it and the colonists have stopped mentioning it to visitors. **First Drift symptom. Play it as mild confusion.**
 
 **Escort** — 6,000 gp · 38 days · 0 tons
-Shepherd two unarmed haulers through the Tollmarch. *Complication:* the thing that hits them is a boarding hull with grappling jaws, and it breaks off the moment it sees the crew is armed. It does not want a fight. It wants easy cargo. *(Seed for [THIRD]. Do not explain it.)*
+Shepherd two unarmed haulers through the Tollmarch. *Complication:* the thing that hits them is a boarding hull with grappling jaws, and it breaks off the moment it sees the crew is armed. It does not want a fight. It wants easy cargo. *(Seed for Aeravellis. Do not explain it.)*
 
 **The Quiet Contract** — 3,800 gp · 30 days · 4 tons
-A Morraine factor needs documents delivered by hand to four separate addresses. *Complication:* the fourth address is [MOTHER]'s office and nobody warned [THE PC].
+A Nightbreeze factor needs documents delivered by hand to four separate addresses. *Complication:* the fourth address is Aerynna's office and nobody warned Aerion.
 
 **Freight and Passengers** — 4,600 gp · 44 days · 15 tons
 A family relocating from the Chain to the Verge, plus everything they own. *Complication:* they are moving because they can't afford the Chain any more, the Verge is worse than they've been told, and the crew will know it by day three. **Nineteen people aboard eats air noticeably faster.**
@@ -65,10 +65,10 @@ Eight missions, levels 5 to 8, in order. Space them with two or three Jobs apiec
 ---
 
 ## M2 — THE INSPECTION (level 5–6)
-[THE FATHER] boards for a liability sweep. Full detail in `House Windsong.md`.
+Vaelros boards for a liability sweep. Full detail in `House Windsong.md`.
 
-**What it plants:** the leash, the two chains of command, and one devastating line delivered in the tone of a man reading a line item, which makes clear he has never considered [THE PC] a contender. He does not notice saying it.
-**Watch for:** a player who stops defending and starts observing can learn what [THE FATHER] is afraid of. That's the reward and it's optional.
+**What it plants:** the leash, the two chains of command, and one devastating line delivered in the tone of a man reading a line item, which makes clear he has never considered Aerion a contender. He does not notice saying it.
+**Watch for:** a player who stops defending and starts observing can learn what Vaelros is afraid of. That's the reward and it's optional.
 
 ---
 
@@ -93,7 +93,7 @@ Follows the breadcrumb behind the Charter Window: **Deputy Registrar Meech has n
 
 ---
 
-## M5 — A FAVOUR FROM [SECOND] (level 7)
+## M5 — A FAVOUR FROM Aeris (level 7)
 The political brother reaches out. Warmly. He has heard about the Board entry and he is *delighted*.
 
 He solves a real problem for them: a contract they couldn't get, a fee waived, a complaint made to disappear. **The help is genuine and it works.** He asks for nothing.
@@ -108,7 +108,7 @@ The Weatheralls' hauler out of rank 345 limps into Bral with grappling scars on 
 
 **What happens:** the crew can investigate, and the evidence is a hull class. Fifteen crew, six tons of cargo, jaws. There is no legitimate trade case for that ship and the Major explained exactly what it was for while they were standing on his lot.
 
-**What it plants:** [THIRD], unnamed. The registry is false. The trail goes cold in the Tollmarch.
+**What it plants:** Aeravellis, unnamed. The registry is false. The trail goes cold in the Tollmarch.
 **Why the Weatheralls:** because they're the crew's neighbours on the Board, because they have children aboard, and because they're what the crew could have become. Make it personal before it's political.
 
 ---
@@ -118,7 +118,7 @@ Priscilla's mission, and it's fought entirely on paper.
 
 **Their data quality score has dropped.** Rates are down. Two surveys they filed have been marked as contradicted by the archive. They are, on the record, unreliable.
 
-**What happens:** the contradicting records are fabricated. Someone is filing false route data into the Pale Reach archive and the crew's honest work is colliding with it. Tracing the filings is an audit, not a fight: Senna's cooperation, Meech's paperwork, Brass's contacts, and a Morraine claims record.
+**What happens:** the contradicting records are fabricated. Someone is filing false route data into the Pale Reach archive and the crew's honest work is colliding with it. Tracing the filings is an audit, not a fight: Senna's cooperation, Meech's paperwork, Brass's contacts, and a Nightbreeze claims record.
 
 **What it plants:** the fraud, the method, and enough of a trail to reach a name.
 **The resolution is a document**, and Priscilla should get to enjoy that.
@@ -126,13 +126,13 @@ Priscilla's mission, and it's fought entirely on paper.
 ---
 
 ## M8 — THE NAME ON THE FILING (level 8, tier transition)
-The trail ends at [THIRD].
+The trail ends at Aeravellis.
 
-**What happens:** the crew has proof that [THE PC]'s brother is boarding civilian hulls and poisoning the navigation archive to cover the losses. They take it to [THE FATHER], because that is the correct thing to do and because [THE PC] will want to be the son who found it.
+**What happens:** the crew has proof that Aerion's brother is boarding civilian hulls and poisoning the navigation archive to cover the losses. They take it to Vaelros, because that is the correct thing to do and because Aerion will want to be the son who found it.
 
-**[THE FATHER] buries it.** Not out of love for [THIRD]. Because an exposed fraud in a confirmation year would end the elevation bid, and the seat is worth more to him than either son.
+**Vaelros buries it.** Not out of love for Aeravellis. Because an exposed fraud in a confirmation year would end the elevation bid, and the seat is worth more to him than either son.
 
-**What it plants:** everything. [THE PC] did the right thing and was punished for it. The father's priorities are now visible. And the question the whole of Tier 2 answers has been asked out loud for the first time: *if he'd rather bury this than lose the seat, what exactly does he think I'm for?*
+**What it plants:** everything. Aerion did the right thing and was punished for it. The father's priorities are now visible. And the question the whole of Tier 2 answers has been asked out loud for the first time: *if he'd rather bury this than lose the seat, what exactly does he think I'm for?*
 
 > **This is the doorway to Tier 2 and the deniable-son reveal.** Do not answer it yet.
 
@@ -140,6 +140,6 @@ The trail ends at [THIRD].
 
 ## What Tier 1 has set up by level 9
 
-The Drift is a pattern, not an error. Senna and Delverane are allies-in-waiting. [SECOND] is owed a favour. [THIRD] is exposed and protected. [THE FATHER]'s priorities are known and his reason isn't. [ORENA] has found one person and heard one version of the story. The crew are somewhere in the low 300s on a Board that doesn't count.
+The Drift is a pattern, not an error. Senna and Delverane are allies-in-waiting. Aeris is owed a favour. Aeravellis is exposed and protected. Vaelros's priorities are known and his reason isn't. [ORENA] has found one person and heard one version of the story. The crew are somewhere in the low 300s on a Board that doesn't count.
 
 And nobody has said the word Amberwake.

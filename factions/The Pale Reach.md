@@ -69,7 +69,7 @@ Each founding family holds a permanent seat. These families have held power for 
    - *Vibe:* Tech startup energy trapped inside a legacy institution. Frustrated. Smart. Potentially sympathetic.
    - *Drift stance:* Adapt or die. They want to pivot toward real-time data and open collaboration, but can't get the votes on the Board.
 
-4. **House Morraine** -- The financiers. They manage the Pale Reach's investment portfolio, insurance partnerships, and banking relationships. They don't care about navigation per se -- they care about revenue. Whatever model makes money, they'll support.
+4. **House Nightbreeze** -- The financiers. They manage the Pale Reach's investment portfolio, insurance partnerships, and banking relationships. They don't care about navigation per se -- they care about revenue. Whatever model makes money, they'll support.
    - *Vibe:* Venture capital. Spreadsheets. "What's the margin on that?"
    - *Drift stance:* Follow the money. Currently backing House Vassara's denial because the subscription model is still profitable. Will pivot the instant the numbers shift.
 

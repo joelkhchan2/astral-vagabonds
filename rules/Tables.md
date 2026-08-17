@@ -77,7 +77,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 13 | A repair they paid for was not performed |
 | 14 | Evidence of a stowaway |
 | 15 | The contract's terms contain something Priscilla missed |
-| 16 | A crew member wants to talk to [THE PC] about his family |
+| 16 | A crew member wants to talk to Aerion about his family |
 | 17 | Something outside is keeping pace |
 | 18 | Someone asks [ORENA], sincerely, whether she really heard it |
 | 19 | Estra receives a dispatch and does not discuss it |
@@ -100,7 +100,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 7 | The mercane have stopped taking certain cargoes to certain regions |
 | 8 | A ship came back from the Verge with a crew that couldn't agree on how long they'd been gone |
 | 9 | Bex Halloway lost a contract to a crew ranked below her and has been unbearable about it |
-| 10 | Morraine adjusted its premiums on frontier routes. Sharply. Nobody was told why. |
+| 10 | Nightbreeze adjusted its premiums on frontier routes. Sharply. Nobody was told why. |
 | 11 | An old spacer swears they heard singing in the deep Astral and everyone buys them a drink to stop |
 | 12 | House Obhal is spending money it doesn't have on people it shouldn't need |
 

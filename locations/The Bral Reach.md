@@ -40,7 +40,7 @@ A narrow office two levels up, all brass instruments and filing. Priscilla's rec
 **Senna is the crew's most important recurring relationship in Tier 1** and neither of them will realize it. She works for Delverane, the reform faction, and she's the thread that eventually reaches Aurel Delverane and the *Farthing*.
 
 **One secret:** Senna has been quietly flagging anomaly reports to her house rather than the central archive. She'd call it good practice. Vassara would call it something else.
-**One danger:** everything sold here goes into an archive [THIRD] is poisoning.
+**One danger:** everything sold here goes into an archive Aeravellis is poisoning.
 **One opportunity:** she'll pay above rate for data nobody else brings, and the Verge is data nobody else brings.
 
 ### 4. THE COMPASS ROSE — the bar
@@ -61,12 +61,12 @@ Three tiers of stalls in a low-gravity commons: chandlers, provisioners, outfitt
 **One danger:** pickpockets in low gravity are extraordinary.
 **One opportunity:** anything on the standard equipment list, most of the ship catalogue's small items, and one interesting thing per visit.
 
-### 6. THE UNDERWRITERS' HALL — Morraine
+### 6. THE UNDERWRITERS' HALL — Nightbreeze
 Marble, quiet, and staffed by people who are unfailingly pleasant to everyone regardless of rank, which is somehow worse than being condescended to. Insurance is renewed here. Claims are settled here, slowly.
 
-**One secret:** Morraine's book tells them where every insured ship in Wildspace is and what it's carrying. They have never used this. Everyone knows they could.
+**One secret:** Nightbreeze's book tells them where every insured ship in Wildspace is and what it's carrying. They have never used this. Everyone knows they could.
 **One danger:** a lapsed policy means every repair at 20 gp/HP comes out of pocket.
-**One opportunity:** [MOTHER]'s house. If [THE PC] ever wants a door into Morraine, it's this building, and walking in has a cost he'll feel.
+**One opportunity:** Aerynna's house. If Aerion ever wants a door into Nightbreeze, it's this building, and walking in has a cost he'll feel.
 
 ---
 
