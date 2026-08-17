@@ -1,0 +1,687 @@
+<title>Danforth Certified Hulls</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #e7ecf1;
+    --surface: #f6f8fb;
+    --surface-2: #eef2f6;
+    --ink: #18202e;
+    --muted-text: #566173;
+    --accent: #8a6a2c;
+    --accent-soft: #b98f3f;
+    --teal: #1f6560;
+    --line: #d3dae2;
+    --line-strong: #b9c3ce;
+    --good: #2f6b45;
+    --over: #a23b3b;
+    --shadow: 0 1px 2px rgba(24,32,46,.06), 0 6px 20px rgba(24,32,46,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f; --ink: #e7ecf3;
+      --muted-text: #93a0b3; --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+      --line: #262f3d; --line-strong: #33404f; --good: #86c79c; --over: #e08a83;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f; --ink: #e7ecf3;
+    --muted-text: #93a0b3; --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+    --line: #262f3d; --line-strong: #33404f; --good: #86c79c; --over: #e08a83;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 22px; }
+
+  /* Topbar */
+  .topbar { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar .wrap { display: flex; align-items: center; gap: 18px; height: 58px; }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 16px; white-space: nowrap; }
+  .brand .m { color: var(--accent); }
+  .navlinks { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; }
+  .navlinks a { color: var(--muted-text); text-decoration: none; font-size: 12px; font-weight: 500; padding: 6px 9px; border-radius: 6px; white-space: nowrap; letter-spacing: .02em; }
+  .navlinks a:hover { color: var(--ink); background: var(--surface-2); }
+  .toggle { flex: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); border-radius: 7px; height: 34px; width: 34px; cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+  .toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .toggle:focus-visible, a:focus-visible, button:focus-visible, tr:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* Hero */
+  .hero { padding: 66px 0 44px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
+  .hero::after { content:""; position:absolute; inset:0; pointer-events:none; opacity:.5;
+    background:
+      radial-gradient(1px 1px at 14% 30%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 80% 22%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.3px 1.3px at 60% 66%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 32% 76%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 91% 70%, var(--line-strong) 50%, transparent 51%); }
+  .hero .wrap { position: relative; z-index: 1; }
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  h1 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(2.2rem, 5.5vw, 3.6rem); line-height: 1.03; margin: 14px 0 0; letter-spacing: -.01em; text-wrap: balance; max-width: 20ch; }
+  .hero .slogan { margin-top: 18px; font-family: "Fraunces", serif; font-style: italic; font-size: 1.14rem; color: var(--ink); }
+  .hero .lede { font-size: 1.06rem; color: var(--muted-text); max-width: 64ch; margin: 18px 0 0; }
+
+  /* Layout with ledger rail */
+  .layout { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 34px; align-items: start; }
+  @media (max-width: 940px) { .layout { grid-template-columns: 1fr; } }
+
+  section { padding: 40px 0; border-bottom: 1px solid var(--line); }
+  section:first-child { padding-top: 34px; }
+  .sec-head { display: flex; align-items: baseline; gap: 12px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--accent); font-weight: 500; }
+  h2 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.5rem, 3vw, 2.1rem); line-height: 1.1; margin: 0; letter-spacing: -.01em; }
+  .sec-intro { color: var(--muted-text); max-width: 68ch; margin: 12px 0 22px; }
+  h3 { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.18rem; margin: 26px 0 6px; }
+  h4 { font-weight: 600; font-size: .96rem; margin: 18px 0 6px; }
+  p { margin: 11px 0; }
+  .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-text); font-weight: 500; }
+  .note { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted-text); letter-spacing: .02em; }
+
+  /* Hull cards */
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+  .tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .tag { font-family: "IBM Plex Mono", monospace; font-size: 11px; border: 1px solid var(--line-strong); color: var(--muted-text); border-radius: 20px; padding: 2px 10px; white-space: nowrap; }
+  .tag.price { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, var(--line-strong)); font-weight: 600; }
+  .card h3 { margin: 2px 0 0; }
+  .spec { display: grid; grid-template-columns: repeat(auto-fit, minmax(66px,1fr)); gap: 2px 12px; margin: 12px 0; font-family: "IBM Plex Mono", monospace; font-size: 12px; }
+  .spec div { display: flex; flex-direction: column; padding: 4px 0; }
+  .spec .k { color: var(--muted-text); font-size: 9.5px; letter-spacing: .08em; text-transform: uppercase; }
+  .spec .v { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .card p.desc { color: var(--muted-text); font-size: .93rem; margin: 4px 0 10px; }
+  .quote { font-family: "Fraunces", serif; font-style: italic; color: var(--ink); border-left: 2px solid var(--accent-soft); padding-left: 11px; margin: 8px 0 14px; font-size: .95rem; }
+  .card .buybtn { margin-top: auto; }
+
+  .buybtn { font-family: "IBM Plex Mono", monospace; font-size: 12px; font-weight: 600; letter-spacing: .04em; cursor: pointer; border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--ink); border-radius: 8px; padding: 9px 12px; width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 10px; transition: border-color .12s, background .12s; }
+  .buybtn:hover { border-color: var(--accent); }
+  .buybtn .plus { color: var(--accent); font-weight: 600; }
+  .buybtn[aria-pressed="true"] { border-color: var(--teal); background: color-mix(in srgb, var(--teal) 14%, var(--surface)); }
+  .buybtn[aria-pressed="true"] .plus { color: var(--teal); }
+
+  /* Tables (buyable) */
+  .tablewrap { overflow-x: auto; margin: 14px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .89rem; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+  thead th { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted-text); font-weight: 600; background: var(--surface-2); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.nm { font-weight: 600; }
+  td.eff { color: var(--muted-text); }
+  tbody tr.buy { cursor: pointer; }
+  tbody tr.buy:hover { background: var(--surface-2); }
+  tbody tr.buy .add { font-family: "IBM Plex Mono", monospace; color: var(--accent); font-weight: 600; width: 1.4em; text-align: center; }
+  tbody tr.buy.on { background: color-mix(in srgb, var(--teal) 12%, var(--surface)); }
+  tbody tr.buy.on .add { color: var(--teal); }
+  tbody tr.buy.on td.nm { color: var(--ink); }
+
+  .callout { border: 1px solid color-mix(in srgb, var(--accent) 34%, transparent); background: color-mix(in srgb, var(--accent) 8%, var(--surface)); border-radius: 10px; padding: 14px 16px; margin: 16px 0; }
+  .callout .label { color: var(--accent); }
+  ul.tight { margin: 8px 0; padding-left: 18px; } ul.tight li { margin: 4px 0; }
+
+  /* Ledger */
+  .ledger-rail { position: sticky; top: 74px; }
+  .ledger { background: var(--surface); border: 1px solid var(--line-strong); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
+  .ledger .head { padding: 16px 18px 12px; border-bottom: 1px solid var(--line); }
+  .ledger .head .title { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.1rem; }
+  .ledger .head .sub { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--muted-text); letter-spacing: .04em; margin-top: 2px; }
+  .ledger .totals { padding: 14px 18px; display: grid; gap: 8px; }
+  .trow { display: flex; justify-content: space-between; align-items: baseline; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+  .trow .k { color: var(--muted-text); font-size: 12px; letter-spacing: .03em; }
+  .trow .v { font-weight: 600; }
+  .trow.remain { border-top: 1px dashed var(--line-strong); padding-top: 10px; margin-top: 2px; font-size: 1.05rem; }
+  .trow.remain .v.ok { color: var(--good); }
+  .trow.remain .v.bad { color: var(--over); }
+  .lines { max-height: 40vh; overflow-y: auto; border-top: 1px solid var(--line); }
+  .lines:empty::after { content: "Nothing added yet. Tap a price to build your ship."; display: block; padding: 16px 18px; color: var(--muted-text); font-size: .85rem; }
+  .line { display: flex; justify-content: space-between; gap: 10px; padding: 8px 18px; border-bottom: 1px solid var(--line); font-size: .85rem; align-items: baseline; }
+  .line:last-child { border-bottom: none; }
+  .line .lname { color: var(--ink); }
+  .line .lcost { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; color: var(--muted-text); white-space: nowrap; }
+  .line .x { cursor: pointer; color: var(--muted-text); border: none; background: none; font-size: 14px; padding: 0 0 0 4px; line-height: 1; }
+  .line .x:hover { color: var(--over); }
+  .ledger .foot { padding: 12px 18px; border-top: 1px solid var(--line); display: flex; gap: 10px; }
+  .ledger .foot button { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .04em; cursor: pointer; border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--muted-text); border-radius: 7px; padding: 7px 10px; }
+  .ledger .foot button:hover { color: var(--ink); border-color: var(--accent); }
+  .annual-flag { color: var(--accent); font-family: "IBM Plex Mono", monospace; font-size: 9.5px; letter-spacing: .06em; }
+
+  /* Mobile ledger bar */
+  .mbar { display: none; }
+  @media (max-width: 940px) {
+    .ledger-rail { position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 40; }
+    .ledger { border-radius: 14px 14px 0 0; border-bottom: none; }
+    .lines { max-height: 34vh; }
+    .ledger.collapsed .totals, .ledger.collapsed .lines, .ledger.collapsed .foot { display: none; }
+    .mbar { display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; cursor: pointer; }
+    .mbar .mt { font-family: "IBM Plex Mono", monospace; font-weight: 600; }
+    .mbar .chev { color: var(--muted-text); }
+    body { padding-bottom: 64px; }
+  }
+  @media (min-width: 941px) { .mbar { display: none; } }
+
+  footer { padding: 34px 0 60px; color: var(--muted-text); font-size: .85rem; }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="m">&#9875;</span> Danforth Certified</span>
+    <nav class="navlinks">
+      <a href="#budget">Budget</a>
+      <a href="#build">Build a Hull</a>
+      <a href="#stock">In Stock</a>
+      <a href="#helms">Helms</a>
+      <a href="#armor">Armor</a>
+      <a href="#guns">Guns</a>
+      <a href="#move">Mobility</a>
+      <a href="#life">Life Support</a>
+      <a href="#home">Fittings</a>
+      <a href="#instr">Instruments</a>
+      <a href="#discreet">Discreet</a>
+      <a href="#feature">Signature</a>
+    </nav>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">&#9681;</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Danforth Certified Prior-Service Hulls</span>
+    <h1>Every ship on this lot is a good ship.</h1>
+    <p class="slogan">"The Last Honest Deal in Wildspace."</p>
+    <p class="lede">Welcome aboard, Captains. Major Hoyle Danforth, retired, at your service. Browse the hulls, spec her out however you like, and holler when you want numbers. The catalogue is below and the prices are all honest ones. Tap any price to drop it in your ledger on the right and watch your fifty thousand do the work.</p>
+  </div>
+</div>
+
+<div class="wrap layout">
+  <main>
+
+    <!-- BUDGET -->
+    <section id="budget">
+      <div class="sec-head"><span class="sec-num">01</span><h2>What your fifty thousand covers</h2></div>
+      <p class="sec-intro">One number, and a long list with its hand out. The hull is the easy part. Everything below competes for the same purse, and a few of these are yearly, not one-time.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Claim on the purse</th><th class="num">Typical cost</th></tr></thead>
+          <tbody>
+            <tr><td colspan="3" class="note" style="padding:8px 12px">Hull, helm, and upgrades are chosen from the sections below. These are the standing costs of simply operating:</td></tr>
+            <tr class="buy" data-name="CIV charter (annual)" data-cost="1500" data-annual="1"><td class="add">+</td><td class="nm">CIV charter <span class="annual-flag">/ YR</span></td><td class="num">1,500</td></tr>
+            <tr class="buy" data-name="Pale Reach subscription, Basic (annual)" data-cost="600" data-annual="1"><td class="add">+</td><td class="nm">Pale Reach subscription, Basic <span class="annual-flag">/ YR</span></td><td class="num">600</td></tr>
+            <tr class="buy" data-name="Pale Reach subscription, Commercial (annual)" data-cost="2400" data-annual="1"><td class="add">+</td><td class="nm">Pale Reach subscription, Commercial <span class="annual-flag">/ YR</span></td><td class="num">2,400</td></tr>
+            <tr class="buy" data-name="Insurance (annual, needs subscription)" data-cost="1800" data-annual="1"><td class="add">+</td><td class="nm">Insurance, needs a subscription <span class="annual-flag">/ YR</span></td><td class="num">1,800</td></tr>
+            <tr class="buy" data-name="First provisions" data-cost="700"><td class="add">+</td><td class="nm">First provisions</td><td class="num">~700</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout">
+        <span class="label">Two things about the helm before you spend</span>
+        <ul class="tight">
+          <li>A helm only answers to an <strong>attuned spellcaster</strong>, and flying takes their full concentration. Whoever flies is not doing much else while they fly.</li>
+          <li>Hiring a helmsman is the single biggest recurring cost you will carry, roughly <strong>18,000 gp a year</strong>. If one of your own can fly, that money stays in your pocket. Your call to make, not mine.</li>
+        </ul>
+      </div>
+      <h4>Crew wages, once you are flying</h4>
+      <p class="note">Paid when you dock. This is not part of the purchase, but it is worth knowing before you pick a hull with twenty berths to fill.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Configuration</th><th class="num">Per month</th></tr></thead>
+          <tbody>
+            <tr><td class="nm">Full crew of twelve, hired helmsman</td><td class="num">2,500</td></tr>
+            <tr><td class="nm">Full crew of twelve, one of your own flies</td><td class="num">1,000</td></tr>
+            <tr><td class="nm">Skeleton crew of six, one of your own flies</td><td class="num">500</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- BUILD -->
+    <section id="build">
+      <div class="sec-head"><span class="sec-num">02</span><h2>How we build a hull</h2></div>
+      <p class="sec-intro">Three separate choices. Pick a <strong>Class</strong> for size and capacity, a <strong>Profile</strong> for how she is built, and a <strong>Style</strong> for how she looks. Style costs nothing and changes nothing, so make her yours.</p>
+      <h4>Class</h4>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Class</th><th class="num">Cost</th><th class="num">HP</th><th class="num">Cargo</th><th class="num">Crew</th><th class="num">Keel</th><th class="num">Base speed</th></tr></thead>
+          <tbody>
+            <tr><td class="nm">Cutter</td><td class="num">20,000</td><td class="num">250</td><td class="num">10 t</td><td class="num">5</td><td class="num">80 ft</td><td class="num">50 ft</td></tr>
+            <tr><td class="nm">Trader</td><td class="num">20,000</td><td class="num">250</td><td class="num">20 t</td><td class="num">11</td><td class="num">100 ft</td><td class="num">55 ft</td></tr>
+            <tr><td class="nm">Hauler</td><td class="num">25,000</td><td class="num">300</td><td class="num">20 t</td><td class="num">13</td><td class="num">250 ft</td><td class="num">40 ft</td></tr>
+            <tr><td class="nm">Galleon</td><td class="num">30,000</td><td class="num">400</td><td class="num">20 t</td><td class="num">20</td><td class="num">130 ft</td><td class="num">35 ft</td></tr>
+            <tr><td class="nm">Heavy</td><td class="num">40,000</td><td class="num">400</td><td class="num">30 t</td><td class="num">15</td><td class="num">200 ft</td><td class="num">35 ft</td></tr>
+            <tr><td class="nm">Capital</td><td class="num">50,000</td><td class="num">400</td><td class="num">50 t</td><td class="num">25</td><td class="num">175 ft</td><td class="num">40 ft</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">We build bigger than this to order. If you are ever in the market for something with more than one helm, ask for me by name.</p>
+      <h4>Profile</h4>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Profile</th><th class="num">AC</th><th class="num">Speed</th><th>What you get</th></tr></thead>
+          <tbody>
+            <tr><td class="nm">Sturdy</td><td class="num">19</td><td class="num">-10 ft</td><td class="eff">Damage threshold 20 instead of 15</td></tr>
+            <tr><td class="nm">Balanced</td><td class="num">15</td><td class="num">base</td><td class="eff">One extra weapon hardpoint</td></tr>
+            <tr><td class="nm">Swift</td><td class="num">13</td><td class="num">+15 ft</td><td class="eff">Break off from hull contact without penalty</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4>Style, free and yours</h4>
+      <p><span class="label">Silhouette</span> squid, scorpion, shrike, fish, moth, beetle, nautilus, turtle, whale, manta, dragonfly, a traditional galleon, or something with no name yet.<br>
+      <span class="label">Hull material</span> timber, bone, chitin, living grown wood, hammered metal, sailcloth over frame, crystal, or mismatched salvage.<br>
+      <span class="label">Motive</span> sails, wings, fins, oars that touch nothing, or nothing visible at all.<br>
+      <span class="label">Detail, pick two</span> a figurehead, running lights, a paint scheme, a name in a script nobody reads, scars kept on purpose, or something bolted on that predates you.</p>
+    </section>
+
+    <!-- IN STOCK -->
+    <section id="stock">
+      <div class="sec-head"><span class="sec-num">03</span><h2>On the lot right now</h2></div>
+      <p class="sec-intro">Eight hulls, cradled and ready. Every one is prior-service and every one is priced to fly today. Specs are honest. The character is complimentary.</p>
+      <div class="grid">
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">20,000 gp</span><span class="tag">Swift Trader</span></div>
+          <h3>The Scarred Runner</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">13</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">70 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">11</span></div><div><span class="k">Guns</span><span class="v">3 ballistae, ram</span></div></div>
+          <p class="desc">Fire-scarred down the port flank, mismatched paint, honestly ugly. Nobody has looked at her twice in eight months. Fastest thing on the lot.</p>
+          <div class="quote">"Previous captain flew her seven years and never once complained about the speed."</div>
+          <button class="buybtn" data-name="Hull: The Scarred Runner" data-cost="20000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 20,000</span></button>
+        </div>
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">30,000 gp</span><span class="tag">Balanced Galleon</span></div>
+          <h3>The Galleon</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">400</span></div><div><span class="k">Speed</span><span class="v">35 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">20</span></div><div><span class="k">Guns</span><span class="v">stock</span></div></div>
+          <p class="desc">Magnificent, polished, and she turns heads at every dock. The ship a serious house arrives in.</p>
+          <div class="quote">"Now this is a ship a serious house arrives in."</div>
+          <button class="buybtn" data-name="Hull: The Galleon" data-cost="30000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 30,000</span></button>
+        </div>
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">25,000 gp</span><span class="tag">Balanced Hauler</span></div>
+          <h3>The Long Hauler</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">300</span></div><div><span class="k">Speed</span><span class="v">40 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">13</span></div><div><span class="k">Keel</span><span class="v">250 ft</span></div></div>
+          <p class="desc">Two hundred and fifty feet of keel. More places to stow a thing, or a person, than any hull here.</p>
+          <div class="quote">"Roomy. You'll never want for somewhere to put a thing."</div>
+          <button class="buybtn" data-name="Hull: The Long Hauler" data-cost="25000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 25,000</span></button>
+        </div>
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">25,000 gp</span><span class="tag">Balanced Cutter</span></div>
+          <h3>The Living Ship</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">40 ft</span></div><div><span class="k">Cargo</span><span class="v">10 t</span></div><div><span class="k">Crew</span><span class="v">5 + treant</span></div><div><span class="k">Guns</span><span class="v">4 ballistae</span></div></div>
+          <p class="desc">A treant grows from the stern. It mends the hull and freshens the air on its own. She comes with her own engineer, so to speak.</p>
+          <div class="quote">"She comes with her own engineer. Doesn't eat much."</div>
+          <button class="buybtn" data-name="Hull: The Living Ship" data-cost="25000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 25,000</span></button>
+        </div>
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">20,000 gp</span><span class="tag">Swift Cutter</span></div>
+          <h3>The Cutter</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">13</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">65 ft</span></div><div><span class="k">Cargo</span><span class="v">10 t</span></div><div><span class="k">Crew</span><span class="v">5</span></div><div><span class="k">Guns</span><span class="v">4 ballistae</span></div></div>
+          <p class="desc">Nimble, quick, and the cheapest crew to keep of anything here. Five berths, ten tons, and light on her feet.</p>
+          <div class="quote">"Nimble. Cheap to run. Cheap to run!"</div>
+          <button class="buybtn" data-name="Hull: The Cutter" data-cost="20000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 20,000</span></button>
+        </div>
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">25,000 gp</span><span class="tag">Sturdy Hauler</span></div>
+          <h3>The Armored Hauler</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">19</span></div><div><span class="k">HP</span><span class="v">300</span></div><div><span class="k">Speed</span><span class="v">30 ft</span></div><div><span class="k">Cargo</span><span class="v">20 t</span></div><div><span class="k">Crew</span><span class="v">13</span></div><div><span class="k">Guns</span><span class="v">2 claws</span></div></div>
+          <p class="desc">Built to be hit and keep flying. Best armor on the lot by a wide margin. She wears it on the outside.</p>
+          <div class="quote">"Nobody boards this ship. Nobody has ever boarded this ship."</div>
+          <button class="buybtn" data-name="Hull: The Armored Hauler" data-cost="25000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 25,000</span></button>
+        </div>
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">20,000 gp</span><span class="tag">Balanced Trader</span></div>
+          <h3>The Boarding Hull</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">35 ft</span></div><div><span class="k">Cargo</span><span class="v">6 t</span></div><div><span class="k">Crew</span><span class="v">15</span></div><div><span class="k">Guns</span><span class="v">4 ballistae, jaws</span></div></div>
+          <p class="desc">An old design with grappling jaws and berths for fifteen. The oldest silhouette still flying, and still flying for a reason.</p>
+          <div class="quote">"Oldest design still flying. There's a reason."</div>
+          <button class="buybtn" data-name="Hull: The Boarding Hull" data-cost="20000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 20,000</span></button>
+        </div>
+
+        <div class="card">
+          <div class="tagrow"><span class="tag price">20,000 gp</span><span class="tag">Balanced Trader</span></div>
+          <h3>The Standard Trader</h3>
+          <div class="spec"><div><span class="k">AC</span><span class="v">15</span></div><div><span class="k">HP</span><span class="v">250</span></div><div><span class="k">Speed</span><span class="v">55 ft</span></div><div><span class="k">Cargo</span><span class="v">13 t</span></div><div><span class="k">Crew</span><span class="v">10</span></div><div><span class="k">Guns</span><span class="v">ballista, mangonel</span></div></div>
+          <p class="desc">An honest, middle-of-the-road trader with nothing to prove and nothing to hide. Does exactly what it says.</p>
+          <div class="quote">"Honest ship. Honest ship."</div>
+          <button class="buybtn" data-name="Hull: The Standard Trader" data-cost="20000" aria-pressed="false"><span>Add to ledger</span><span class="plus">+ 20,000</span></button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HELMS -->
+    <section id="helms">
+      <div class="sec-head"><span class="sec-num">04</span><h2>Helms</h2></div>
+      <p class="sec-intro">The chair that makes her fly. You need exactly one to leave the dock, and a spare seat is cheaper than a second ship. Tap to add.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Helm</th><th class="num">Cost</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Prior-Service Helm" data-cost="5500"><td class="add">+</td><td class="nm">Prior-Service Helm</td><td class="num">5,500</td><td class="eff">Works. Has a personality (roll on our quirk table when you first attune).</td></tr>
+            <tr class="buy" data-name="Coilworks Mk. IV helm" data-cost="8000"><td class="add">+</td><td class="nm">Coilworks Mk. IV</td><td class="num">8,000</td><td class="eff">Standard. Reliable. Beige.</td></tr>
+            <tr class="buy" data-name="Delverane Brightchair helm" data-cost="15000"><td class="add">+</td><td class="nm">Delverane "Brightchair"</td><td class="num">15,000</td><td class="eff">Advantage on saves to hold concentration while helming.</td></tr>
+            <tr class="buy" data-name="Auxiliary Helm Cradle" data-cost="2000"><td class="add">+</td><td class="nm">Auxiliary Helm Cradle</td><td class="num">2,000</td><td class="eff">A second seat. Swap pilots without a shipyard.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ARMOR -->
+    <section id="armor">
+      <div class="sec-head"><span class="sec-num">05</span><h2>Structure and armor</h2></div>
+      <p class="sec-intro">Priced honest against the going rate of twenty gold to the hull point. Plating over two costs you a little speed.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Plating I (+1 AC)" data-cost="3000"><td class="add">+</td><td class="nm">Plating I</td><td class="num">3,000</td><td class="eff">+1 AC</td></tr>
+            <tr class="buy" data-name="Plating II (+2 AC, -5 ft)" data-cost="7000"><td class="add">+</td><td class="nm">Plating II</td><td class="num">7,000</td><td class="eff">+2 AC, costs 5 ft speed</td></tr>
+            <tr class="buy" data-name="Plating III (+3 AC, -5 ft)" data-cost="14000"><td class="add">+</td><td class="nm">Plating III</td><td class="num">14,000</td><td class="eff">+3 AC, costs 5 ft speed</td></tr>
+            <tr class="buy" data-name="Reinforcement I (+50 HP)" data-cost="4000"><td class="add">+</td><td class="nm">Reinforcement I</td><td class="num">4,000</td><td class="eff">+50 HP</td></tr>
+            <tr class="buy" data-name="Reinforcement II (+100 HP)" data-cost="9000"><td class="add">+</td><td class="nm">Reinforcement II</td><td class="num">9,000</td><td class="eff">+100 HP</td></tr>
+            <tr class="buy" data-name="Reinforcement III (+200 HP)" data-cost="20000"><td class="add">+</td><td class="nm">Reinforcement III</td><td class="num">20,000</td><td class="eff">+200 HP</td></tr>
+            <tr class="buy" data-name="Damage Threshold Uprate (+5)" data-cost="5000"><td class="add">+</td><td class="nm">Damage Threshold Uprate</td><td class="num">5,000</td><td class="eff">+5 damage threshold</td></tr>
+            <tr class="buy" data-name="Compartmentalization" data-cost="3400"><td class="add">+</td><td class="nm">Compartmentalization</td><td class="num">3,400</td><td class="eff">A single hit cannot disable two systems</td></tr>
+            <tr class="buy" data-name="Ablative Layer" data-cost="2800"><td class="add">+</td><td class="nm">Ablative Layer</td><td class="num">2,800</td><td class="eff">Absorbs the first 40 damage each fight; 600 to replace</td></tr>
+            <tr class="buy" data-name="Keel Truss" data-cost="6000"><td class="add">+</td><td class="nm">Keel Truss</td><td class="num">6,000</td><td class="eff">She cannot be broken in half</td></tr>
+            <tr class="buy" data-name="Self-Sealing Hull" data-cost="4200"><td class="add">+</td><td class="nm">Self-Sealing Hull</td><td class="num">4,200</td><td class="eff">Breaches close themselves</td></tr>
+            <tr class="buy" data-name="Breach Shutters" data-cost="900"><td class="add">+</td><td class="nm">Breach Shutters</td><td class="num">900</td><td class="eff">The manual version of the above</td></tr>
+            <tr class="buy" data-name="Plane Anchor" data-cost="2600"><td class="add">+</td><td class="nm">Plane Anchor</td><td class="num">2,600</td><td class="eff">Your gravity plane holds on contact regardless of HP</td></tr>
+            <tr class="buy" data-name="Patch-Weld Kit (5 charges)" data-cost="1200"><td class="add">+</td><td class="nm">Patch-Weld Kit</td><td class="num">1,200</td><td class="eff">Five charges, 20 HP each in the field</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- GUNS -->
+    <section id="guns">
+      <div class="sec-head"><span class="sec-num">06</span><h2>Armament</h2></div>
+      <p class="sec-intro">The guns are nearly free. The gunners are the expensive part, and that is a payroll question, not a purchase one. Every weapon needs hands to work it.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Weapon</th><th class="num">Cost</th><th class="num">Crew</th><th>Damage</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Ballista" data-cost="50"><td class="add">+</td><td class="nm">Ballista</td><td class="num">50</td><td class="num">3</td><td class="eff">3d10, 120/480</td></tr>
+            <tr class="buy" data-name="Mangonel" data-cost="100"><td class="add">+</td><td class="nm">Mangonel</td><td class="num">100</td><td class="num">4-5</td><td class="eff">5d10, 200/800, min 60 ft</td></tr>
+            <tr class="buy" data-name="Giant Cannon" data-cost="6000"><td class="add">+</td><td class="nm">Giant Cannon</td><td class="num">6,000</td><td class="num">4</td><td class="eff">16d10, 600/2,400</td></tr>
+            <tr class="buy" data-name="Piercing Ram" data-cost="1500"><td class="add">+</td><td class="nm">Piercing Ram</td><td class="num">1,500</td><td class="num">-</td><td class="eff">Collision</td></tr>
+            <tr class="buy" data-name="Blunt Ram" data-cost="1200"><td class="add">+</td><td class="nm">Blunt Ram</td><td class="num">1,200</td><td class="num">-</td><td class="eff">Collision, safer for you</td></tr>
+            <tr class="buy" data-name="Grappling Jaws" data-cost="2000"><td class="add">+</td><td class="nm">Grappling Jaws</td><td class="num">2,000</td><td class="num">2</td><td class="eff">Lock a hull for boarding</td></tr>
+            <tr class="buy" data-name="Harpoon Battery" data-cost="2800"><td class="add">+</td><td class="nm">Harpoon Battery</td><td class="num">2,800</td><td class="num">3</td><td class="eff">4d10 plus a line; tethered targets cannot disengage</td></tr>
+            <tr class="buy" data-name="Scatter Rack" data-cost="1900"><td class="add">+</td><td class="nm">Scatter Rack</td><td class="num">1,900</td><td class="num">3</td><td class="eff">4d8 to all small craft in a 30-ft cube</td></tr>
+            <tr class="buy" data-name="Broadside Battery (great ships only)" data-cost="9000"><td class="add">+</td><td class="nm">Broadside Battery</td><td class="num">9,000</td><td class="num">12</td><td class="eff">Four linked ballistae, one order. Great ships only.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4>Weapon upgrades, per weapon</h4>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Upgrade</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Sureshot Rotator" data-cost="800"><td class="add">+</td><td class="nm">Sureshot Rotator</td><td class="num">800</td><td class="eff">Aiming becomes a bonus action</td></tr>
+            <tr class="buy" data-name="Ready Magazine" data-cost="300"><td class="add">+</td><td class="nm">Ready Magazine</td><td class="num">300</td><td class="eff">Loading becomes a bonus action</td></tr>
+            <tr class="buy" data-name="Autoloader" data-cost="2400"><td class="add">+</td><td class="nm">Autoloader</td><td class="num">2,400</td><td class="eff">Loading needs no action; stacks</td></tr>
+            <tr class="buy" data-name="Rifled Bore" data-cost="1600"><td class="add">+</td><td class="nm">Rifled Bore</td><td class="num">1,600</td><td class="eff">+1d10 damage</td></tr>
+            <tr class="buy" data-name="Extended Frame" data-cost="1100"><td class="add">+</td><td class="nm">Extended Frame</td><td class="num">1,100</td><td class="eff">Double both range increments</td></tr>
+            <tr class="buy" data-name="Shielded Position" data-cost="900"><td class="add">+</td><td class="nm">Shielded Position</td><td class="num">900</td><td class="eff">Crew get half cover, cannot be picked off</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4>Ammunition</h4>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Type</th><th class="num">Each</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Standard shot" data-cost="5"><td class="add">+</td><td class="nm">Standard shot</td><td class="num">5</td><td class="eff">The plain round</td></tr>
+            <tr class="buy" data-name="Alchemical shot" data-cost="60"><td class="add">+</td><td class="nm">Alchemical</td><td class="num">60</td><td class="eff">+2d6 fire, ignites</td></tr>
+            <tr class="buy" data-name="Chain shot" data-cost="45"><td class="add">+</td><td class="nm">Chain shot</td><td class="num">45</td><td class="eff">Halves target speed on a hit</td></tr>
+            <tr class="buy" data-name="Grapnel bolt" data-cost="30"><td class="add">+</td><td class="nm">Grapnel bolt</td><td class="num">30</td><td class="eff">Tethers</td></tr>
+            <tr class="buy" data-name="Signal shot" data-cost="10"><td class="add">+</td><td class="nm">Signal shot</td><td class="num">10</td><td class="eff">Visible for miles. Useful and incriminating.</td></tr>
+            <tr class="buy" data-name="Surplus lot (20)" data-cost="40"><td class="add">+</td><td class="nm">Surplus lot of 20</td><td class="num">40</td><td class="eff">One in twenty is a dud</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- MOBILITY -->
+    <section id="move">
+      <div class="sec-head"><span class="sec-num">07</span><h2>Mobility</h2></div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Maneuvering Vanes" data-cost="1200"><td class="add">+</td><td class="nm">Maneuvering Vanes</td><td class="num">1,200</td><td class="eff">+5 ft</td></tr>
+            <tr class="buy" data-name="Trim Rig" data-cost="2000"><td class="add">+</td><td class="nm">Trim Rig</td><td class="num">2,000</td><td class="eff">+5 ft; holds attitude unhelmed</td></tr>
+            <tr class="buy" data-name="Thrust Bloom" data-cost="4500"><td class="add">+</td><td class="nm">Thrust Bloom</td><td class="num">4,500</td><td class="eff">Double speed for one minute, once a day</td></tr>
+            <tr class="buy" data-name="Silent Running" data-cost="3800"><td class="add">+</td><td class="nm">Silent Running</td><td class="num">3,800</td><td class="eff">Advantage to avoid detection in the void</td></tr>
+            <tr class="buy" data-name="Atmospheric Rating" data-cost="2900"><td class="add">+</td><td class="nm">Atmospheric Rating</td><td class="num">2,900</td><td class="eff">Enter atmosphere without structural risk</td></tr>
+            <tr class="buy" data-name="Water Landing Gear" data-cost="1700"><td class="add">+</td><td class="nm">Water Landing Gear</td><td class="num">1,700</td><td class="eff">Float and sail as a surface vessel</td></tr>
+            <tr class="buy" data-name="Planetfall Struts" data-cost="2200"><td class="add">+</td><td class="nm">Planetfall Struts</td><td class="num">2,200</td><td class="eff">Land on ground without tipping</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- LIFE SUPPORT -->
+    <section id="life">
+      <div class="sec-head"><span class="sec-num">08</span><h2>Life support</h2></div>
+      <p class="sec-intro">Air lasts a hundred and twenty days at standard crew before it turns. These buy you more of it, and a few other comforts that keep people alive.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Air Scrubbers I" data-cost="2200"><td class="add">+</td><td class="nm">Air Scrubbers I</td><td class="num">2,200</td><td class="eff">Fresh air to 180 days</td></tr>
+            <tr class="buy" data-name="Air Scrubbers II" data-cost="5000"><td class="add">+</td><td class="nm">Air Scrubbers II</td><td class="num">5,000</td><td class="eff">Fresh air to 240 days</td></tr>
+            <tr class="buy" data-name="Water Reclamation" data-cost="1600"><td class="add">+</td><td class="nm">Water Reclamation</td><td class="num">1,600</td><td class="eff">Water stops being a supply problem</td></tr>
+            <tr class="buy" data-name="Climate Rig" data-cost="1300"><td class="add">+</td><td class="nm">Climate Rig</td><td class="num">1,300</td><td class="eff">The ship stops being cold</td></tr>
+            <tr class="buy" data-name="Envelope Bottles (each)" data-cost="250"><td class="add">+</td><td class="nm">Envelope Bottles</td><td class="num">250</td><td class="eff">One hour of air for twelve, each</td></tr>
+            <tr class="buy" data-name="Medical Stores" data-cost="900"><td class="add">+</td><td class="nm">Medical Stores</td><td class="num">900</td><td class="eff">Stabilizes the badly hurt without a surgeon</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- HOME -->
+    <section id="home">
+      <div class="sec-head"><span class="sec-num">09</span><h2>Household fittings</h2></div>
+      <p class="sec-intro">Cheap, and they add up. This is the difference between a workplace and a home. Buy the Long Table. Every captain who skips it comes back for it.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>What it changes</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Long Table" data-cost="250"><td class="add">+</td><td class="nm">Long Table</td><td class="num">250</td><td class="eff">Everyone eats in one place. Do not skip this one.</td></tr>
+            <tr class="buy" data-name="Proper Bunks (per 4)" data-cost="400"><td class="add">+</td><td class="nm">Proper Bunks, per 4</td><td class="num">400</td><td class="eff">People sleep</td></tr>
+            <tr class="buy" data-name="Privacy Curtains (per 4)" data-cost="120"><td class="add">+</td><td class="nm">Privacy Curtains, per 4</td><td class="num">120</td><td class="eff">People have a self</td></tr>
+            <tr class="buy" data-name="Bath House" data-cost="2000"><td class="add">+</td><td class="nm">Bath House</td><td class="num">2,000</td><td class="eff">Transformative on a 90-day haul</td></tr>
+            <tr class="buy" data-name="Laundry" data-cost="600"><td class="add">+</td><td class="nm">Laundry</td><td class="num">600</td><td class="eff">Nobody smells like the last four ports</td></tr>
+            <tr class="buy" data-name="Galley Fittings" data-cost="1400"><td class="add">+</td><td class="nm">Galley Fittings</td><td class="num">1,400</td><td class="eff">Cooking instead of reheating</td></tr>
+            <tr class="buy" data-name="Cold Store" data-cost="900"><td class="add">+</td><td class="nm">Cold Store</td><td class="num">900</td><td class="eff">Fresh food past week two</td></tr>
+            <tr class="buy" data-name="Spice Locker" data-cost="300"><td class="add">+</td><td class="nm">Spice Locker</td><td class="num">300</td><td class="eff">Your cook will weep</td></tr>
+            <tr class="buy" data-name="Gaming Table" data-cost="200"><td class="add">+</td><td class="nm">Gaming Table</td><td class="num">200</td><td class="eff">Tournaments. Brackets. Feuds.</td></tr>
+            <tr class="buy" data-name="Instrument Locker" data-cost="400"><td class="add">+</td><td class="nm">Instrument Locker</td><td class="num">400</td><td class="eff">Music aboard</td></tr>
+            <tr class="buy" data-name="Reading Shelf" data-cost="350"><td class="add">+</td><td class="nm">Reading Shelf</td><td class="num">350</td><td class="eff">Books that aren't manifests</td></tr>
+            <tr class="buy" data-name="Viewports / Skylights" data-cost="1800"><td class="add">+</td><td class="nm">Viewports and Skylights</td><td class="num">1,800</td><td class="eff">You can see out. Enormous.</td></tr>
+            <tr class="buy" data-name="Soundproofing" data-cost="800"><td class="add">+</td><td class="nm">Soundproofing</td><td class="num">800</td><td class="eff">Quarters stop being a shared experience</td></tr>
+            <tr class="buy" data-name="A Door That Locks (each)" data-cost="150"><td class="add">+</td><td class="nm">A Door That Locks, each</td><td class="num">150</td><td class="eff">Sold individually</td></tr>
+            <tr class="buy" data-name="Mascot Berth" data-cost="50"><td class="add">+</td><td class="nm">Mascot Berth</td><td class="num">50</td><td class="eff">A bed, a bowl, a small brass nameplate</td></tr>
+            <tr class="buy" data-name="Ship's Colours" data-cost="200"><td class="add">+</td><td class="nm">Ship's Colours</td><td class="num">200</td><td class="eff">A flag you design yourselves</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- INSTRUMENTS + TENDERS -->
+    <section id="instr">
+      <div class="sec-head"><span class="sec-num">10</span><h2>Instruments and small craft</h2></div>
+      <p class="sec-intro">Instruments turn a voyage into sellable survey data. The good suite pays for itself, in time. Small craft need a bay, which means a big ship.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Standard Instrument Set" data-cost="3000"><td class="add">+</td><td class="nm">Standard Instrument Set</td><td class="num">3,000</td><td class="eff">Survey data sells at standard rate</td></tr>
+            <tr class="buy" data-name="Deepline Survey Suite" data-cost="9000"><td class="add">+</td><td class="nm">"Deepline" Survey Suite</td><td class="num">9,000</td><td class="eff">Survey data sells at plus fifty percent</td></tr>
+            <tr class="buy" data-name="Chart Vault" data-cost="1100"><td class="add">+</td><td class="nm">Chart Vault</td><td class="num">1,100</td><td class="eff">Locked, fireproof, does not open for inspectors</td></tr>
+            <tr class="buy" data-name="Archive Terminal" data-cost="2000"><td class="add">+</td><td class="nm">Archive Terminal</td><td class="num">2,000</td><td class="eff">Shipboard access to your Pale Reach subscription</td></tr>
+            <tr class="buy" data-name="Ship's Boat" data-cost="900"><td class="add">+</td><td class="nm">Ship's Boat</td><td class="num">900</td><td class="eff">Four people, no helm, short range</td></tr>
+            <tr class="buy" data-name="Launch" data-cost="3500"><td class="add">+</td><td class="nm">Launch</td><td class="num">3,500</td><td class="eff">Twelve people, atmospheric</td></tr>
+            <tr class="buy" data-name="Tender Bay (per 2 craft)" data-cost="12000"><td class="add">+</td><td class="nm">Tender Bay, per 2 craft</td><td class="num">12,000</td><td class="eff">Required to carry any small craft</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- DISCREET -->
+    <section id="discreet">
+      <div class="sec-head"><span class="sec-num">11</span><h2>The other building</h2></div>
+      <p class="sec-intro">Different building, round the back, no receipts. I don't ask what it's for and you don't tell me. Every line of it is exactly the sort of thing an inspector goes looking for, so weigh that against whatever's worrying you.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="False Hold" data-cost="3000"><td class="add">+</td><td class="nm">False Hold</td><td class="num">3,000</td><td class="eff">DC 18 to find</td></tr>
+            <tr class="buy" data-name="Transponder Spoofer" data-cost="2500"><td class="add">+</td><td class="nm">Transponder Spoofer</td><td class="num">2,500</td><td class="eff">She reads as another ship</td></tr>
+            <tr class="buy" data-name="Unlicensed Charts (each)" data-cost="400"><td class="add">+</td><td class="nm">Unlicensed Charts, each</td><td class="num">400</td><td class="eff">A charter violation if found</td></tr>
+            <tr class="buy" data-name="Scuttling Charges" data-cost="800"><td class="add">+</td><td class="nm">Scuttling Charges</td><td class="num">800</td><td class="eff">In case it comes to that</td></tr>
+            <tr class="buy" data-name="Ghost Registry" data-cost="6000"><td class="add">+</td><td class="nm">Ghost Registry</td><td class="num">6,000</td><td class="eff">The ship has no legal existence at all</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SIGNATURE -->
+    <section id="feature">
+      <div class="sec-head"><span class="sec-num">12</span><h2>Her signature, on the house</h2></div>
+      <p class="sec-intro">Every ship off this lot comes with one quirk, free, rolled or chosen when you buy her. It is what makes her hers. Want a second? I can sell you one, but the first is a gift.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th class="num">d12</th><th>Feature</th></tr></thead>
+          <tbody>
+            <tr><td class="num">1</td><td>The float bay. One hold has a low-gravity anomaly nobody can fix. Fragile cargo. Also a court.</td></tr>
+            <tr><td class="num">2</td><td>She talks. Constant creaking. Whether it is structural is an unresolved argument.</td></tr>
+            <tr><td class="num">3</td><td>The ram fires itself. Once a voyage, unprompted, usually badly timed.</td></tr>
+            <tr><td class="num">4</td><td>A berth that stays empty. Complement is one higher than the crew. It is always made up.</td></tr>
+            <tr><td class="num">5</td><td>Warm plating. The hull runs a few degrees above ambient. Nice in the void.</td></tr>
+            <tr><td class="num">6</td><td>A stubborn door. One compartment opens for some people and not others.</td></tr>
+            <tr><td class="num">7</td><td>Load-bearing enchantment. Something in her is magical, structural, and undocumented.</td></tr>
+            <tr><td class="num">8</td><td>She lists to port unless someone is at the helm. Even docked.</td></tr>
+            <tr><td class="num">9</td><td>A previous name shows through the paint in certain light.</td></tr>
+            <tr><td class="num">10</td><td>Perfect acoustics in one unlikely compartment. Conversations carry somewhere else.</td></tr>
+            <tr><td class="num">11</td><td>She is fast when it matters. Beats her rated speed under pressure, never in a yard.</td></tr>
+            <tr><td class="num">12</td><td>Something aboard is not equipment. It has not introduced itself. It has not caused trouble.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Buying a used helm or part? Those have personality of their own, rolled on the prior-service quirk table when you first attune. The Major calls it character.</p>
+    </section>
+
+  </main>
+
+  <!-- LEDGER -->
+  <aside class="ledger-rail">
+    <div class="ledger" id="ledger">
+      <div class="mbar" id="mbar"><span class="mt" id="mbarText">Ledger &middot; 50,000 left</span><span class="chev">&#9650;</span></div>
+      <div class="head">
+        <div class="title">The Ledger</div>
+        <div class="sub">Working from 50,000 gp</div>
+      </div>
+      <div class="totals">
+        <div class="trow"><span class="k">One-time build</span><span class="v" id="tBuild">0</span></div>
+        <div class="trow"><span class="k">Annual costs</span><span class="v" id="tAnnual">0</span></div>
+        <div class="trow remain"><span class="k">Remaining</span><span class="v ok" id="tRemain">50,000</span></div>
+      </div>
+      <div class="lines" id="lines"></div>
+      <div class="foot"><button id="clearBtn">Clear all</button></div>
+    </div>
+  </aside>
+</div>
+
+<footer class="wrap">Danforth Certified Prior-Service Hulls &middot; browse freely, spec her out, and ask the Major for a real quote. The ledger is a planning tool; final numbers get settled at the office.</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement, btn = document.getElementById('themeToggle');
+    function cur(){ return root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light'); }
+    btn.addEventListener('click', function(){ var n = cur()==='dark'?'light':'dark'; root.setAttribute('data-theme', n); btn.innerHTML = n==='dark'?'&#9681;':'&#9680;'; });
+
+    var BUDGET = 50000;
+    var items = new Map(); // id -> {name, cost, annual, el}
+    var fmt = function(n){ return n.toLocaleString('en-US'); };
+
+    var linesEl = document.getElementById('lines');
+    var tBuild = document.getElementById('tBuild'), tAnnual = document.getElementById('tAnnual'), tRemain = document.getElementById('tRemain');
+    var mbarText = document.getElementById('mbarText');
+
+    function render(){
+      var build = 0, annual = 0;
+      linesEl.innerHTML = '';
+      items.forEach(function(it, id){
+        if (it.annual) annual += it.cost; else build += it.cost;
+        var row = document.createElement('div'); row.className = 'line';
+        var name = document.createElement('span'); name.className = 'lname';
+        name.textContent = it.name + (it.annual ? '' : '');
+        var right = document.createElement('span'); right.className = 'lcost';
+        right.textContent = fmt(it.cost) + (it.annual ? ' /yr' : '');
+        var x = document.createElement('button'); x.className = 'x'; x.setAttribute('aria-label','Remove'); x.innerHTML = '&times;';
+        x.addEventListener('click', function(e){ e.stopPropagation(); toggle(id); });
+        row.appendChild(name); row.appendChild(right); row.appendChild(x);
+        linesEl.appendChild(row);
+      });
+      tBuild.textContent = fmt(build);
+      tAnnual.textContent = annual ? fmt(annual) + ' /yr' : '0';
+      var remain = BUDGET - build - annual;
+      tRemain.textContent = fmt(remain);
+      tRemain.className = 'v ' + (remain < 0 ? 'bad' : 'ok');
+      mbarText.textContent = 'Ledger · ' + fmt(remain) + ' left';
+    }
+
+    function markEl(el, on){
+      if (!el) return;
+      if (el.tagName === 'TR') el.classList.toggle('on', on);
+      if (el.classList.contains('buybtn')) {
+        el.setAttribute('aria-pressed', on ? 'true':'false');
+        var lbl = el.querySelector('span'); if (lbl) lbl.textContent = on ? 'Added' : 'Add to ledger';
+      }
+    }
+
+    function toggle(id){
+      var it = items.get(id);
+      if (it){ markEl(it.el, false); items.delete(id); render(); return; }
+    }
+
+    var counter = 0;
+    document.querySelectorAll('[data-cost]').forEach(function(el){
+      var id = 'i' + (counter++);
+      el.dataset.ledgerId = id;
+      var handler = function(){
+        if (items.has(id)){ markEl(el, false); items.delete(id); }
+        else { items.set(id, { name: el.dataset.name, cost: parseInt(el.dataset.cost,10), annual: el.dataset.annual === '1', el: el }); markEl(el, true); }
+        render();
+      };
+      el.addEventListener('click', handler);
+      el.setAttribute('tabindex','0'); el.setAttribute('role','button');
+      el.addEventListener('keydown', function(e){ if (e.key==='Enter'||e.key===' '){ e.preventDefault(); handler(); } });
+    });
+
+    document.getElementById('clearBtn').addEventListener('click', function(){
+      items.forEach(function(it){ markEl(it.el, false); }); items.clear(); render();
+    });
+
+    var ledger = document.getElementById('ledger');
+    document.getElementById('mbar').addEventListener('click', function(){ ledger.classList.toggle('collapsed'); });
+    if (matchMedia('(max-width: 940px)').matches) ledger.classList.add('collapsed');
+
+    render();
+  })();
+</script>
