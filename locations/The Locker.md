@@ -52,11 +52,11 @@ A living crew entering the harbour is the rarest event that happens here, and hu
 
 They communicate the way ships communicate: creaks, hums, resonance, the settling of timbers, the note a hull rings at when something passes near it.
 
-> **Orena has been cataloguing exactly this by sound for the entire campaign.**
+> **Orena is the one person who can hear what they are saying.**
 >
-> The guild treated her logbook as grief processing. It is the only linguistics anyone in Wildspace possesses. She built it by accident, as a coping mechanism, and nobody taught her.
+> She is a water genasi bard who survived a song that stilled everyone around her, and being of the water is why it did not take her. She hears the void differently than anyone aboard, and she has spent the campaign chasing the tales and resonances that might lead her back to her crew. Nobody taught her this; it grew out of what happened to her.
 >
-> **Protect this above almost anything else in the campaign.** It is the single best payoff available and it was constructed out of a player's own character choice.
+> **Protect this above almost anything else in the campaign.** It is the single best payoff available and it was built out of the player's own character.
 
 ---
 
@@ -98,7 +98,7 @@ Run it as hospitality that does not take no for an answer and does not understan
 
 > **DM only. Gabrielle learns none of this at session 0 and all of it through play.**
 
-Her guild chased a legend. Whatever she names it at session 0 — a siren song, a harp, a voice in the void — it resolves to the same object, because a folk legend about a sound in the deep is precisely what a pre-civilization current-reader becomes after ten thousand years of retelling.
+Her guild chased a legend: the **Stillwater Vocalise**, a song said to calm any raging sea. It resolves to the same object, because a folk legend about a sound in the deep is precisely what a pre-civilization current-reader becomes after ten thousand years of retelling.
 
 **They found one of the ancient instruments. The instrument is the door. It opened.**
 
@@ -138,7 +138,7 @@ Neither is sufficient. That is why the campaign needs both halves and why the vo
 
 ## Still open
 
-- How many of her crew there were, and their names — **Gabrielle's, at session 0**
+- The exact members of the Wayfinder Knot and their names — **Gabrielle's to fill in** (the guild is established; the individuals aren't yet)
 - Whether anything here can leave, and what that would mean
 - What the ancient ships want, if anything, after this long
 - Whether the harbour's tidiness has an explanation or is simply what a society of ships does

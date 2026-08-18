@@ -8,7 +8,9 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-# THE CREW
+# THE CREW (aboard)
+
+The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, plus **Flurry**. The blocks for Sable, Dr. Quill, Reeve, Morrow, and Wysp are kept further down under "Not Aboard," since they auditioned but were not hired and may join later.
 
 ## TACK
 *Small construct, Chief Engineer* · **CR 1** (200 XP)
@@ -37,8 +39,8 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## SABLE DUSKMANTLE
-*Medium humanoid (shadar-kai elf), Chief Gunner* · **CR 3** (700 XP)
+## SABLE DUSKMANTLE — not aboard (world NPC / potential hire)
+*Medium humanoid (shadar-kai elf), gunner* · **CR 3** (700 XP)
 
 **AC** 15 (studded leather) · **HP** 58 (9d8 + 18) · **Speed** 30 ft.
 
@@ -69,33 +71,35 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ---
 
 ## FINNICK "FINNY" GROLES
-*Medium humanoid (hadozee), Cook and Deckhand* · **CR 1/2** (100 XP)
+*Small humanoid (halfling), Rigger / Deckhand / backup Gunner* · **CR 1/2** (100 XP)
 
-**AC** 13 · **HP** 27 (5d8 + 5) · **Speed** 30 ft., climb 30 ft.
+**AC** 13 · **HP** 27 (5d8 + 5) · **Speed** 25 ft., climb 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
 | 12 (+1) | 16 (+3) | 12 (+1) | 10 (+0) | 12 (+1) | 16 (+3) |
 
-**Skills** Athletics +3, Insight +3, Perception +3, Persuasion +5; cook's utensils +4
-**Senses** passive Perception 13 · **Languages** Common, Hadozee, and gossip in four more
+**Skills** Acrobatics +5, Athletics +3, Insight +3, Perception +3, Persuasion +5
+**Senses** passive Perception 13 · **Languages** Common, Halfling, and gossip in four more
 
-***Glide.*** When Finny falls at least 10 feet, he can spread his skin flaps to move up to 5 feet horizontally per foot descended, taking no falling damage.
+***Lucky (Halfling).*** When Finny rolls a 1 on the d20 for an attack, ability check, or save, he can reroll and must use the new roll.
 
-***Hot Meal.*** If Finny has cooked in the last 24 hours, then once per short rest one creature who ate can regain **1d8 + 3 hit points** and gains advantage on its next saving throw against fear or exhaustion. This is not magic. It is an obscene amount of butter.
+***Brave.*** Advantage on saves against being frightened.
+
+***Sure Hands Aloft.*** Finny has advantage on checks made to rig sails, secure cargo, or crew a ship weapon in a hurry. He is the fastest hands on deck.
 
 ***Cannot Keep a Secret.*** Any secret told to Finny has a real chance of surfacing within 1d4 days. He will feel terrible about it.
 
 **Actions**
-***Cleaver.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 6 (1d6 + 3) slashing.
+***Boarding Knife.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 6 (1d4 + 3) piercing.
 
 **Reactions**
 ***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny shouts something so irrelevant that the attacker has disadvantage on the roll.
 
 ---
 
-## DR. QUILL ASHWORTH
-*Medium humanoid (human), Ship's Surgeon* · **CR 1/2** (100 XP)
+## DR. QUILL ASHWORTH — not aboard (world NPC / potential hire)
+*Medium humanoid (human), surgeon* · **CR 1/2** (100 XP)
 
 **AC** 12 · **HP** 22 (5d8) · **Speed** 30 ft.
 
@@ -120,8 +124,8 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## REEVE
-*Medium ooze (plasmoid), Lookout* · **CR 1** (200 XP)
+## REEVE — not aboard (world NPC / potential hire)
+*Medium ooze (plasmoid), lookout* · **CR 1** (200 XP)
 
 **AC** 14 · **HP** 45 (7d8 + 14) · **Speed** 30 ft., climb 30 ft.
 
@@ -147,7 +151,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ---
 
 ## BRASSICA "BRASS" THORNGAGE
-*Small humanoid (halfling), Quartermaster's Mate* · **CR 1** (200 XP)
+*Small humanoid (halfling), Medic / Cook* · **CR 1** (200 XP)
 
 **AC** 14 (leather) · **HP** 32 (7d6 + 7) · **Speed** 25 ft.
 
@@ -164,10 +168,16 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. **It always costs something**, and she will mention what, later, at an inconvenient moment.
 
+***No License, All Instinct.*** Brass can look at a creature and know what is wrong with it: proficiency (expertise) on Medicine checks to diagnose, and she never asks to be called doctor.
+
+***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, roll a **d4** for the day's result (DM tracks what it means). Dinner aboard is a gamble and the crew have made peace with it.
+
 **Actions**
 ***Dagger.*** *Melee or Ranged:* +6 to hit, reach 5 ft. or range 20/60. *Hit:* 6 (1d4 + 4) piercing.
 
 ***Sneak Attack (1/Turn).*** +7 (2d6) damage when she has advantage or an ally is adjacent to the target.
+
+***Field Patch (3/Day).*** One creature within 5 feet regains **2d8 + 2 hit points**, or a dying creature becomes stable. Improvised, effective, and she will complain about the supplies.
 
 ---
 
@@ -199,8 +209,8 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## MORROW
-*Medium humanoid (thri-kreen), Rigger and Second Helm* · **CR 2** (450 XP)
+## MORROW — not aboard (world NPC / potential hire)
+*Medium humanoid (thri-kreen), rigger and second helm* · **CR 2** (450 XP)
 
 **AC** 15 (chitin) · **HP** 49 (9d8 + 9) · **Speed** 35 ft., climb 30 ft.
 
@@ -223,8 +233,8 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## WYSP
-*Medium humanoid (astral elf), Runner* · **CR 1/4** (50 XP)
+## WYSP — not aboard (world NPC / potential hire)
+*Medium humanoid (astral elf), runner* · **CR 1/4** (50 XP)
 
 **AC** 13 · **HP** 18 (4d8) · **Speed** 30 ft.
 
@@ -239,7 +249,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 > ***Not Yet.*** **Wysp cannot attune to a spelljamming helm.** They have tried. They are learning, slowly, and they want this more than anything.
 >
-> **This is the campaign's answer to the helm problem.** Around level 9, Wysp grows into the chair, and the crew's largest recurring expense resolves through a character they raised rather than a hire they made. Plant it early. Let them fail at it twice.
+> Note: the crew did not hire Wysp, so the ship's second-pilot answer is **Orena**, who is training on the helm now. If Wysp is ever brought aboard, they make a natural third pilot and a character the crew can raise into the chair.
 
 ***Trance.*** Wysp doesn't sleep; four hours of meditation counts as a long rest.
 

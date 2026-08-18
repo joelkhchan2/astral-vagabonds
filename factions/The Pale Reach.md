@@ -42,7 +42,7 @@ This is the monopoly argument in every industry -- compelling enough to be defen
 
 The *Last Honest Deal* sells route data to the Pale Reach regularly. It's unglamorous but steady income. Priscilla handles the submissions (she knows exactly what data is worth and how to package it for maximum payout). Estra approves what gets sold -- and quietly withholds certain findings that she files in her private archive instead.
 
-This creates a natural recurring scene: docking at a port, Priscilla negotiating with a Pale Reach data broker over the value of their latest route logs. The data brokers are mid-level Pale Reach employees -- not villains, just people doing a job. Some are pleasant. Some are condescending toward a 348th-ranked crew. All of them work for the organization that destroyed Estra's life, and none of them know it.
+This creates a natural recurring scene: docking at a port, Aerion negotiating with a Pale Reach data broker over the value of their latest route logs. The data brokers are mid-level Pale Reach employees -- not villains, just people doing a job. Some are pleasant. Some are condescending toward a bottom-ranked crew. All of them work for the organization that destroyed Estra's life, and none of them know it.
 
 **Gameplay hook:** As the Drift worsens, the Pale Reach's appetite for anomaly data increases dramatically. The crew's route logs become more valuable -- especially because they travel routes nobody else does. This creates a tension: the worse the Drift gets, the more money the crew makes selling data to the Pale Reach, and the more the Pale Reach depends on operators like them. The power dynamic shifts slowly.
 
@@ -73,7 +73,7 @@ Each founding family holds a permanent seat. These families have held power for 
    - *Vibe:* Venture capital. Spreadsheets. "What's the margin on that?"
    - *Drift stance:* Follow the money. Currently backing House Vassara's denial because the subscription model is still profitable. Will pivot the instant the numbers shift.
 
-5. **[FIFTH SEAT -- VACANT]** -- Contested, not yet filled. **House Windsong** (Priscilla's family) is the frontrunner, pending a confirmation vote -- see `House Windsong.md` for the Trial and what's actually riding on it.
+5. **[FIFTH SEAT -- VACANT]** -- Contested, not yet filled. **House Windsong** (Aerion's family) is one of the contenders -- see `House Windsong.md` for the family and the fifth-seat game.
 
 **Appointed Seats (3):**
 Non-family positions filled by appointment or election. These give the Pale Reach a veneer of meritocracy.
@@ -99,7 +99,7 @@ Mid-level employees stationed at major ports. They buy route data from independe
 **Named broker (recurring NPC):** TBD -- should be someone the crew develops a rapport with. A regular at their most frequent port. Friendly enough. Works for the machine without thinking too hard about it.
 
 ### Route Wardens
-Pale Reach patrol ships that enforce toll routes and investigate unlicensed navigation. Not military exactly -- more like corporate police. They have CIV authority to inspect, fine, and detain. They tend to be more aggressive with low-ranked vessels. The *Last Honest Deal* has been boarded by Route Wardens at least twice. Oz was very polite. Sable was not.
+Pale Reach patrol ships that enforce toll routes and investigate unlicensed navigation. Not military exactly -- more like corporate police. They have CIV authority to inspect, fine, and detain. They tend to be more aggressive with low-ranked vessels. The ship has been boarded by Route Wardens at least twice. Oz was very polite. Not everyone aboard was.
 
 ### Field Cartographers
 Pale Reach employees who do the actual exploration work. They travel in Pale Reach-funded ships, chart new routes, and file proprietary data. Some are true believers in the mission. Some are just good at their jobs. Some secretly sympathize with independents. A few are former Compact members who took the buyout and now quietly hate themselves.

@@ -43,8 +43,8 @@ The crew does NOT learn the full picture early. They experience the Drift as iso
 **Tier 4 (levels 18-20):** Endgame. The new current system is forming. The crew has the knowledge, the network, and the fleet to guide civilization through the transition. The Pale Reach (or whatever faction controls legacy navigation) either adapts or fights. Gabrielle's lost crew is found in a region where the new currents have already stabilized -- they've been living in the future of the Astral.
 
 ### PC Connections
-- **Priscilla:** Family consortium bleeding money from route failures. Pattern recognition opportunity. Endgame: builds and defends the open navigation network.
-- **Gabrielle:** Lost crew were early Drift victims -- displaced when a current dissolved mid-journey. They're alive (Astral timelessness) but stranded where old maps don't reach. Finding them requires understanding the NEW current patterns. Her bestiary is navigation data -- creatures indicate current behavior like marine life signals ocean changes.
+- **Aerion (Priscilla):** As his crew climbs and he sells honest survey data, he is positioned to notice route failures and data patterns before his family does. Endgame: builds and defends the open navigation network, which is also the lever that finally lets him take over the company.
+- **Orena (Gabrielle):** Her lost guild, the Wayfinder Knot, chased the Stillwater Vocalise and were stilled and vanished. Tie it to the Drift if it serves: the Vocalise, or the current they were on, displaced them somewhere the old maps do not reach. They are alive (Astral timelessness) but stranded, and finding them requires understanding the new current patterns. Her real-time work is mapping the tales and the currents, which becomes the same skill the Drift solution needs.
 
 ### Tone Calibration
 The Drift is uncanny and wondrous, not horrifying. "The stars are in the wrong place and nobody can explain why." Ports that feel slightly different. Familiar routes that take longer. The eerie beauty of watching a current dissolve in the silver void. Wonder and melancholy, not terror.
@@ -89,14 +89,14 @@ Major Wildspace trading conglomerate. Destroyed the Vane Compact to control rout
 
 ---
 
-## Gabrielle's Lost Crew
-Previous crew displaced by an early Drift event -- a current dissolved mid-journey and deposited them somewhere the old maps don't reach.
+## Orena's Lost Crew (the Wayfinder Knot)
+Her six-person guild chased the Stillwater Vocalise, a song said to calm any raging sea. When they found it, the song stilled her whole crew and their ship and they vanished; Orena alone survived, being of the water. Tie it to the Drift if you like: the Vocalise, or a dissolving current, deposited them somewhere the old maps don't reach.
 
 **CONFIRMED:** Alive. Recoverable. Could join the crew or fleet. The Astral's timelessness means they haven't aged, but they're stranded in a region where currents have already shifted to the new pattern.
 
 **Estra's role:** Investigator who found partial answers through quiet research. Ally, not suspect.
 
-**Finding them requires understanding the new current system** -- creating a direct narrative link between Gabrielle's personal arc and the world-level Drift solution. She can't find her crew until the crew understands the Drift. Her bestiary work -- documenting creatures that indicate current behavior -- is the breakthrough that eventually makes it possible.
+**Finding them requires understanding the new current system** -- a direct link between Orena's personal arc and the world-level Drift solution. She can't find her crew until the crew understands the Drift. Her habit of chasing the tales and mapping where things should be is the through-line that eventually makes it possible.
 
 **Open questions:**
 - Where exactly are they?
@@ -122,26 +122,25 @@ A repeating signal from deep uncharted Wildspace. Ancient. Older than any known 
 
 ## Crew Personal Arcs (B-Plots)
 
+**Current crew (5 NPCs aboard):**
+
 | Crew Member | Arc | Trigger |
 |---|---|---|
-| Tack | Creator loyalty vs. crew loyalty | Pale Reach contact appears |
-| Sable | Favor #1 truth; githyanki bounty | Bounty hunters find them |
+| Tack | Creator loyalty vs. crew loyalty; grief over the old ship | Pale Reach contact appears |
+| Brass | The deal gone bad she's running from (neogi slaver debt) | Neogi ship encountered, or a contact recognizes her |
 | Finny | Who is he paying on the Rock of Bral? | Crew docks at Bral |
-| Quill | Clearing their name / the cover-up | Encounter with someone from planetside |
-| Reeve | Why they stay; centuries of lost crews | A crisis where Reeve has to choose |
-| Brass | Neogi slaver debt | Neogi ship encountered |
 | Oz | Honor vs. obedience; discharge shame | Giff mercenary company appears |
-| Wysp | True origin; the danger their parent foresaw | The danger arrives |
-| Morrow | Enslaved clutch-mates | Neogi connection (shared with Brass?) |
 | Estra | The Compact, the Broker, the rebuild | Everything |
+
+**Not aboard (world NPCs; these arcs activate only if they're hired later):** Sable (Favor #1 truth; githyanki bounty), Dr. Quill (clearing her name), Reeve (why they stay; centuries of lost crews), Wysp (true origin; the danger a parent foresaw), Morrow (enslaved clutch-mates).
 
 ---
 
 ## Future Sessions (Unscheduled)
 
-- **The Inspection.** Vaelros boards the *Deal* to sweep for liability ahead of his confirmation vote, and undermines Estra's authority doing it. Fully scripted in `House Windsong.md`. Needs a crew and at least one voyage behind them before it can run — earliest after session 1.
+- **The Inspection.** Vaelros (or a family agent) comes aboard to sweep for anything that could embarrass the house while it angles for the fifth seat, and undermines Estra's authority doing it. Scripted in `House Windsong.md`. Needs a crew and at least one voyage behind them.
 
 ## Session 1 Hooks
-- **"New Blood":** Gabrielle's first day. Routine courier job. Arrive at delivery port -- evacuated. Signs of hasty departure, cargo on docks, no people. Investigate (creature for bestiary), improvise (supply problem for Priscilla), decide (complete delivery or cut losses). First Drift symptom: the port isn't where it should be, or the route took a day longer than expected. Played for mild confusion, not alarm.
+- **The snail run.** Their first job out of session 0: deliver a crate of snails to another trading post for about 550 gp. A routine courier job to open on. Arrive at the delivery port and something is off -- evacuated, cargo on the docks, no people; or the port is a few hours out of position and the run took a day longer than the charts allow. First Drift symptom, played for mild confusion, not alarm. Aerion works the supply/logistics angle; Orena reads the currents and keeps watch.
 - **"Vagabonds" name drop:** Organic -- either an NPC dismisses them or it emerges naturally from the crew.
-- **Tone-setter:** A ship meal scene. Finny cooking, Oz setting the table, Brass arguing about cargo, Tack talking to a pipe, Sable cleaning a weapon, Reeve silently present, Morrow rigging with two arms and eating with the other two, Wysp asking too many questions, Quill fretting about someone's vitamin intake, Estra drinking coffee. Gabrielle taking it all in as the new arrival. This is the family before you know it's a family.
+- **Tone-setter:** a ship meal scene. Brass cooking (roll her morning d4), Oz setting the table with great care, Tack talking to a pipe, Finny narrating gossip nobody asked for, Estra drinking coffee, Aerion updating the ledger, Orena mapping between bites. The family before you know it's a family.

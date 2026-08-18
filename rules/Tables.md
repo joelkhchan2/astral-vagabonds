@@ -23,13 +23,13 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 9 | A distress beacon on a heading the crew cannot afford to take |
 | 10 | Wreckage from a hull class that hasn't been built in ninety years, and it's fresh |
 | 11 | A **dohwar** trader, cheerful, penguin-shaped, and offering a deal that is genuinely good |
-| 12 | **Neogi** slaver hull, running parallel, not engaging. Yet. *(Brass. Morrow.)* |
+| 12 | **Neogi** slaver hull, running parallel, not engaging. Yet. *(Brass, and the deal she's running from.)* |
 | 13 | The stars are marginally wrong. Nobody can say how. Orena can hear it. |
 | 14 | A **mercane** vessel, vast and disinterested, passing through on business that predates everyone |
 | 15 | **Space swine**, feral, loose, and somebody's escaped cargo |
 | 16 | Pirates who take one look at the crew's armament and change their minds mid-approach |
 | 17 | A colony ship, forty years out, still en route, and the crew aboard have never seen a spelljammer |
-| 18 | **Githyanki** raiders. They are looking at Sable. Sable is looking at the floor. |
+| 18 | **Githyanki** raiders, sizing the ship up. Nothing personal yet, but they have long memories and the crew is a long way from anyone who could help. |
 | 19 | A current *visibly dissolving*: silver light unravelling like rope. Beautiful and completely silent. |
 | 20 | Nothing at all for eleven days. Play the crew scene. |
 

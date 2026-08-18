@@ -100,7 +100,7 @@ Take a contract: payout, duration in days, cargo tonnage required. Load. Confirm
 **Drift events are placed by the DM, never rolled.** There is no stability score and no navigation check. When the story wants the route to fail, it fails.
 
 ### Arrive
-Deliver and collect. Sell survey data (Priscilla's recurring negotiation scene with a Pale Reach broker). Settle repairs at 20 gp/HP. Pay the month's payroll. File with the CIV, because the Manifest Board is watching and the Trial is scored in public.
+Deliver and collect. Sell survey data (Aerion's recurring negotiation scene with a Pale Reach broker). Settle repairs at 20 gp/HP. Pay the month's operating cost. File with the CIV, because the Manifest Board is watching and reputation is scored in public.
 
 ## 6. The Ship as Bastion
 
@@ -133,7 +133,7 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 | 9 | Theater | Where Orena performs |
 | 9 | Stable | Flurry's berth |
 | 9 | Scriptorium | Chart copying, which is literally the data business |
-| 9 | Trophy Room | The bestiary, displayed |
+| 9 | Trophy Room | Orena's charts, curios, and finds, displayed |
 | 9 | Laboratory | The sickbay |
 | 9 | Training Area, Greenhouse, Sacristy, Teleportation Circle | as needed |
 | 13 | Observatory | The deep instrument suite |

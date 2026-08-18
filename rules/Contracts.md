@@ -21,7 +21,7 @@ Medical supplies to a mining colony on the Verge. *Complication:* the colony's o
 A Sallow Chain house wants a locked case moved without questions. *Complication:* it's legal, it's boring, and a Route Warden inspection at the halfway point will take four hours the crew doesn't have.
 
 **Passenger Work** — 900 gp · 16 days · 1 ton
-Carry a Delverane surveyor and her instruments to the Windward Edge. *Complication:* she is thirty-one, relentlessly curious, and asks Orena questions about the logbook that nobody has ever asked. *(This is Aurel Delverane travelling under her own name and not mentioning the ship she captains.)*
+Carry a Delverane surveyor and her instruments to the Windward Edge. *Complication:* she is thirty-one, relentlessly curious, and asks Orena questions about the currents and the tales she chases that nobody has ever asked. *(This is Aurel Delverane travelling under her own name and not mentioning the ship she captains.)*
 
 **Livestock** — 1,100 gp · 11 days · 8 tons
 Forty head of something to a Bral Reach butcher. *Complication:* they are smarter than advertised. One of them can talk. It has opinions about the arrangement.

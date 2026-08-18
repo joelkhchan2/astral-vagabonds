@@ -44,7 +44,7 @@ A narrow office two levels up, all brass instruments and filing. Priscilla's rec
 **One opportunity:** she'll pay above rate for data nobody else brings, and the Verge is data nobody else brings.
 
 ### 4. THE COMPASS ROSE — the bar
-Not rough. Not nice. Long tables, indifferent food, and the specific quality of being where crews go rather than where tourists go. Run by **MADAM ULVE**, plasmoid, who has been behind that bar for longer than anyone can account for and who Reeve will greet by name on the first visit without explaining how.
+Not rough. Not nice. Long tables, indifferent food, and the specific quality of being where crews go rather than where tourists go. Run by **MADAM ULVE**, plasmoid, who has been behind that bar for longer than anyone can account for and who greets Estra by name on the first visit, neither of them explaining how they know each other.
 
 **Bex Halloway** of the *Grendel's Wake* drinks here. So does **Dov Errin** of the impounded *Steadfast Promise*, who will tell anyone about it. So do off-shift Route Wardens, which is inconvenient.
 
