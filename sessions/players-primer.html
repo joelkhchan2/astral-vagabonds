@@ -1,0 +1,366 @@
+<title>The Astral Almanac</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #e7ecf1; --surface: #f6f8fb; --surface-2: #eef2f6; --ink: #18202e; --muted-text: #566173;
+    --accent: #8a6a2c; --accent-soft: #b98f3f; --teal: #1f6560; --line: #d3dae2; --line-strong: #b9c3ce;
+    --shadow: 0 1px 2px rgba(24,32,46,.06), 0 6px 20px rgba(24,32,46,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f; --ink: #e7ecf3; --muted-text: #93a0b3;
+      --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0; --line: #262f3d; --line-strong: #33404f;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f; --ink: #e7ecf3; --muted-text: #93a0b3;
+    --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0; --line: #262f3d; --line-strong: #33404f;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 74px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 16.5px; line-height: 1.66; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  .measure { max-width: 68ch; }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+
+  .topbar { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar .wrap { display: flex; align-items: center; gap: 16px; height: 58px; }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 16px; white-space: nowrap; }
+  .brand .m { color: var(--accent); }
+  .navlinks { display: flex; gap: 2px; margin-left: auto; overflow-x: auto; }
+  .navlinks a { color: var(--muted-text); text-decoration: none; font-size: 12px; font-weight: 500; padding: 6px 9px; border-radius: 6px; white-space: nowrap; letter-spacing: .02em; }
+  .navlinks a:hover { color: var(--ink); background: var(--surface-2); }
+  .toggle { flex: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); border-radius: 7px; height: 34px; width: 34px; cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+  .toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .toggle:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .hero { padding: 84px 0 56px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
+  .hero::after { content:""; position:absolute; inset:0; pointer-events:none; opacity:.6;
+    background:
+      radial-gradient(1px 1px at 10% 24%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 76% 16%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 58% 60%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 30% 80%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 88% 72%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 20% 52%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 44% 34%, var(--line-strong) 50%, transparent 51%); }
+  .hero .wrap { position: relative; z-index: 1; }
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  h1 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(2.6rem, 6.5vw, 4.4rem); line-height: 1.0; margin: 16px 0 0; letter-spacing: -.015em; text-wrap: balance; max-width: 15ch; }
+  .hero .lede { font-size: 1.24rem; color: var(--muted-text); max-width: 60ch; margin: 24px 0 0; }
+  .hero .tag { margin-top: 26px; font-family: "Fraunces", serif; font-style: italic; font-size: 1.1rem; color: var(--ink); border-left: 3px solid var(--accent); padding: 3px 0 3px 16px; max-width: 56ch; }
+
+  section { padding: 60px 0; border-bottom: 1px solid var(--line); }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); font-weight: 500; }
+  h2 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.7rem, 3.4vw, 2.4rem); line-height: 1.08; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+  .sec-intro { color: var(--muted-text); margin: 14px 0 30px; font-size: 1.06rem; }
+  h3 { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.3rem; margin: 34px 0 6px; letter-spacing: -.005em; }
+  h4 { font-weight: 600; font-size: 1rem; margin: 22px 0 4px; }
+  p { margin: 13px 0; }
+  strong { font-weight: 600; }
+  .lead-in { font-variant-caps: small-caps; letter-spacing: .04em; color: var(--accent); font-weight: 600; }
+  .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-text); font-weight: 500; }
+  .note { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted-text); letter-spacing: .02em; }
+
+  .grid { display: grid; gap: 16px; }
+  .grid.two { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .grid.three { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; box-shadow: var(--shadow); }
+  .card h3, .card h4 { margin-top: 0; }
+  .card .kicker { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .card p { font-size: .96rem; }
+  .card p.who { color: var(--muted-text); font-size: .9rem; margin-top: 8px; }
+
+  .place { border-left: 2px solid var(--accent-soft); padding-left: 16px; margin: 20px 0; }
+  .place .pname { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.14rem; }
+  .place .prole { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-left: 8px; }
+  .place p { margin: 6px 0; font-size: .97rem; }
+
+  .callout { border: 1px solid color-mix(in srgb, var(--accent) 32%, transparent); background: color-mix(in srgb, var(--accent) 8%, var(--surface)); border-radius: 10px; padding: 16px 18px; margin: 18px 0; }
+  .callout .label { color: var(--accent); display: block; margin-bottom: 4px; }
+  .callout p:last-child { margin-bottom: 0; }
+
+  .tablewrap { overflow-x: auto; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  thead th { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted-text); font-weight: 600; background: var(--surface-2); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.nm { font-weight: 600; white-space: nowrap; }
+  td.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.eff { color: var(--muted-text); }
+
+  .compass { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); gap: 12px; margin: 18px 0; }
+  .comp { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .comp .pct { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.7rem; color: var(--accent); line-height: 1; }
+  .comp .t { font-weight: 600; margin-top: 6px; }
+  .comp .d { color: var(--muted-text); font-size: .88rem; margin-top: 2px; }
+
+  ul.clean { margin: 12px 0; padding-left: 20px; } ul.clean li { margin: 7px 0; }
+  ul.tight { margin: 8px 0; padding-left: 18px; } ul.tight li { margin: 4px 0; }
+
+  .crew-row { display: grid; grid-template-columns: 210px 1fr; gap: 4px 22px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+  .crew-row:last-child { border-bottom: none; }
+  .crew-row .cn { font-weight: 600; }
+  .crew-row .cn .role { display:block; font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--accent); font-weight: 500; margin-top: 2px; }
+  .crew-row .cd { color: var(--muted-text); font-size: .96rem; }
+  @media (max-width: 620px) { .crew-row { grid-template-columns: 1fr; } }
+
+  footer { padding: 40px 0 70px; color: var(--muted-text); font-size: .88rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="m">&#10022;</span> The Astral Almanac</span>
+    <nav class="navlinks">
+      <a href="#game">The Game</a>
+      <a href="#sea">The Astral Sea</a>
+      <a href="#roads">Who Owns the Roads</a>
+      <a href="#map">The Map</a>
+      <a href="#home">Home Port</a>
+      <a href="#crew">Your Ship</a>
+      <a href="#living">Making a Living</a>
+      <a href="#table">At the Table</a>
+    </nav>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">&#9681;</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Astral Vagabonds &middot; A Player's Primer</span>
+    <h1>The roads between the stars belong to someone.</h1>
+    <p class="lede">This is everything you need to know about the world before we start, written for people who have never heard of any of it. Read it once, keep it for reference, and come to session one knowing what kind of place your characters live in and what it costs to fly through it.</p>
+    <p class="tag">You crew the Last Honest Deal, a battered trading ship at the wrong end of the rankings, taking the jobs nobody else wants, out where the maps run thin.</p>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- THE GAME -->
+  <section id="game">
+    <div class="sec-head"><span class="sec-num">01</span><h2>The kind of game this is</h2></div>
+    <p class="sec-intro measure">Before the setting, the feel. This is a workplace comedy about a found family that happens to take place in space, with real wonder and occasional real danger threaded through it.</p>
+    <div class="measure">
+      <p><span class="lead-in">The pitch.</span> A mismatched crew aboard a battered spelljammer takes odd jobs across the void, salvage, courier runs, surveys, the occasional bounty, while running from their pasts and slowly becoming the only family they have got. The frontier is endless, the law is thin, and everyone on this ship has a reason they cannot go home. Think Firefly crossed with Brooklyn Nine-Nine, with the warmth of Parks and Rec and the strangeness of Treasure Planet.</p>
+      <p><span class="lead-in">The humor comes from the people, not the setting.</span> The world is played straight and takes itself seriously. The comedy is in running a ship with these specific weirdos: the arguments, the traditions, the game nights, the small disasters of twelve people living in a metal box for ninety days at a stretch.</p>
+    </div>
+    <h3>The tone compass</h3>
+    <div class="compass">
+      <div class="comp"><div class="pct">70%</div><div class="t">Warmth</div><div class="d">Workplace comedy and found family. The daily grind of the crew.</div></div>
+      <div class="comp"><div class="pct">20%</div><div class="t">Wonder</div><div class="d">Cosmic beauty and eerie mystery. The stars in the wrong place.</div></div>
+      <div class="comp"><div class="pct">10%</div><div class="t">Danger</div><div class="d">Genuine stakes. Fights that hurt, and choices that cost.</div></div>
+    </div>
+    <p class="note">The signature move is switching between these on purpose. Haggling over docking fees one minute, a silent anomaly the next.</p>
+  </section>
+
+  <!-- THE ASTRAL SEA -->
+  <section id="sea">
+    <div class="sec-head"><span class="sec-num">02</span><h2>How the Astral Sea works</h2></div>
+    <p class="sec-intro measure">Six ideas explain almost everything about flying out here. None of them need math. All of them shape how your characters live.</p>
+
+    <div class="grid two">
+      <div class="card">
+        <span class="kicker">Wildspace</span>
+        <h3>Systems in the dark</h3>
+        <p>A Wildspace system is what you would call a solar system: worlds orbiting a sun, with enormous empty void between them. Out in open space a ship cruises at a hundred million miles a day, so crossing between worlds takes days and weeks, not lifetimes. Near a planet you slow to a crawl and fly by the seat of your pants.</p>
+      </div>
+      <div class="card">
+        <span class="kicker">The Astral Sea</span>
+        <h3>The silver ocean between</h3>
+        <p>All those systems float like islands in a vast silvery medium called the Astral. Sail far enough out from one system and you cross into it, and from there you can reach any other. Distance and time behave strangely here. Thought leaves a mark. Memory leaves a residue. It is beautiful and it is not entirely safe.</p>
+      </div>
+      <div class="card">
+        <span class="kicker">The roads</span>
+        <h3>Currents worn by memory</h3>
+        <p>Because the Astral holds memory, a path travelled often enough wears into a groove that other ships can follow, like a current. These currents are the roads between the stars. They are the fastest, safest way to travel, and knowing where they run is the single most valuable thing in this economy. Somebody figured that out a long time ago.</p>
+      </div>
+      <div class="card">
+        <span class="kicker">Air</span>
+        <h3>Your air is a calendar</h3>
+        <p>A ship carries a bubble of breathable air around it. At a normal crew size it stays fresh for about a hundred and twenty days, and a bigger crew burns it faster. After that it turns foul and everyone gets sick, and later it turns deadly. Long hauls are a race against that clock, which is why the cook and the air scrubbers matter as much as the guns.</p>
+      </div>
+      <div class="card">
+        <span class="kicker">Gravity</span>
+        <h3>You can walk under the deck</h3>
+        <p>Every ship makes its own gravity, a flat plane through the middle of the hull. Above it, down is down. Below it, down is up. You can stand on the underside of your own deck and never fall off. It sounds strange until it is simply how you live, and then it is strange again the first time two ships touch and one deck wins.</p>
+      </div>
+      <div class="card">
+        <span class="kicker">The helm</span>
+        <h3>A chair that flies the ship</h3>
+        <p>A spelljamming helm is a rare magic chair. Only an attuned spellcaster can use it, and while they fly they are lost in total concentration, so they cannot cast or fight at the same time. One person can move an entire ship this way. Every ship needs one, and a good one is expensive. This is why who sits in the chair is a real decision, every single voyage.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO OWNS THE ROADS -->
+  <section id="roads">
+    <div class="sec-head"><span class="sec-num">03</span><h2>Who owns the roads</h2></div>
+    <p class="sec-intro measure">Two institutions run legitimate life in known space. One licenses the ships. The other owns the maps. You will deal with both constantly.</p>
+
+    <h3>The CIV, which licenses you</h3>
+    <p class="measure">The <strong>Concordance of Independent Ventures</strong> is the registry for legal operators. Part merchant marine, part freelancer guild, part credit rating agency. You need a CIV charter to dock at real ports, bid on contracts, buy fuel at fair prices, and not get shot by patrol ships. Every chartered vessel is ranked on the <strong>Manifest Board</strong>, a public leaderboard updated every few months on contract completion, cargo moved, client satisfaction, and financial standing. People genuinely stand at the wall and read it.</p>
+    <div class="callout">
+      <span class="label">Where you sit</span>
+      <p>The Last Honest Deal is ranked near the very bottom of that board. The handful of ships below you include a derelict that has not moved in two years and one that has been literally on fire for six months. Finny keeps the printout pinned in the galley, with the ship one rung above you crossed out and "ALMOST" written next to it.</p>
+    </div>
+
+    <h3>The Pale Reach, which owns the maps</h3>
+    <p class="measure">The <strong>Pale Reach</strong> is a consortium of old cartographer families that controls most of the charted route data in known space. They do not really own ships. They own <strong>the roads</strong>, or at least the maps to them, and they built a fortune renting the past. If the CIV is the licensing office, the Pale Reach is the company that owns every good road and charges you to use it.</p>
+    <p class="measure">They are not cartoon villains. They genuinely believe that organized, centralized navigation is safer than everyone sharing scraps, and they are not entirely wrong, at least not yet. But it is also the argument every monopoly makes. Here is how they touch your life:</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>How the Pale Reach touches you</th><th>What it means at the table</th></tr></thead>
+        <tbody>
+          <tr><td class="nm">Subscriptions</td><td class="eff">You pay a yearly fee for chart access. Basic covers the main corridors; Commercial adds regional routes and hazard data. You need a subscription to work most contracts.</td></tr>
+          <tr><td class="nm">They buy your data</td><td class="eff">This is your best income. Sail somewhere and log it, and the Pale Reach pays for the survey. Old routes pay a little. Brand new systems and strange anomalies pay a lot. More on this below.</td></tr>
+          <tr><td class="nm">Tolls</td><td class="eff">The best shortcuts are theirs, and using one costs a toll. Skipping the toll is a charter violation.</td></tr>
+          <tr><td class="nm">Insurance</td><td class="eff">Ships that use their charts get cheaper insurance. Ships that do not pay more, or cannot get covered at all.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>The Board of Ledgers</h3>
+    <p class="measure">The Pale Reach is governed by five founding houses, each holding a permanent seat, plus a few appointed officials. The public face is the <strong>Cartographer General, Navara Solenne</strong>, respected across known space and a true believer in the mission. The five houses are worth knowing because <strong>you already buy from most of them.</strong> Every weapon, instrument, chart, and insurance policy on your ship traces back to one of these families.</p>
+    <div class="grid two">
+      <div class="card"><span class="kicker">The archive</span><h4>House Vassara</h4><p>The oldest and richest house. They own the deepest, most reliable route data and rent it out. Old money, procedural, allergic to change. They sell you the chart subscription.</p></div>
+      <div class="card"><span class="kicker">The road tax</span><h4>House Tethyn</h4><p>Security and enforcement. They run the toll gates, the patrol ships, and an arms business. Nearly every ship weapon in known space, including yours, is a Tethyn product.</p></div>
+      <div class="card"><span class="kicker">The instrument makers</span><h4>House Delverane</h4><p>The youngest and poorest founding house, and the one that actually explores. They make survey instruments and helms, and they run the data brokers you sell to. The reformers of the group, and outvoted on everything.</p></div>
+      <div class="card"><span class="kicker">The money</span><h4>House Nightbreeze</h4><p>The financiers and insurers. They hold no territory because they do not need it. They insure most of the cargo in known space, which means they quietly know where every ship is and what it carries. They have never used that. Everyone knows they could.</p></div>
+    </div>
+    <div class="callout">
+      <span class="label">The empty chair</span>
+      <p>There are five founding seats, and one has sat vacant for forty years. Whoever fills it joins the most powerful table in known space. That confirmation is contested right now, and one of the families in the running is closer to home than you might expect. More on that in the next section.</p>
+    </div>
+  </section>
+
+  <!-- THE MAP -->
+  <section id="map">
+    <div class="sec-head"><span class="sec-num">04</span><h2>The map</h2></div>
+    <p class="sec-intro measure">Known space is divided into regions called Reaches. Six of them matter to you. They run from the safe, rich, boring center outward to the thin, poor, strange frontier, which is exactly where your ship is headed.</p>
+
+    <div class="place"><span class="pname">The Bral Reach</span><span class="prole">The hub &middot; your home</span>
+      <p>Neutral ground and the busiest place in known space, built on the Rock of Bral, a mile-wide asteroid city. No house owns it, every house works there, and the CIV is headquartered there. This is where you are based, where contracts are handed out, and where the Manifest Board goes up on the wall.</p></div>
+
+    <div class="place"><span class="pname">The Sallow Chain</span><span class="prole">The core</span>
+      <p>Nine well-charted systems on the oldest, deepest current there is. The richest, most stable, most profitable, and least interesting place to fly. House Vassara's territory. Everything works here, which is exactly why nobody here believes anything could ever stop working.</p></div>
+
+    <div class="place"><span class="pname">The Tollmarch</span><span class="prole">The chokepoint</span>
+      <p>Dangerous contested space, and the only real shortcut from the core to everything beyond it. House Tethyn's territory: toll gates, patrol ships, salvage fields, and a long tradition of piracy that Tethyn profits from policing. The queue at the toll gate is the best place in known space to hear gossip.</p></div>
+
+    <div class="place"><span class="pname">The Verge</span><span class="prole">The frontier</span>
+      <p>Thinly charted, low traffic, small struggling colonies, and very long hauls. Nobody's territory, because nobody thinks there is money in it. This is your patch. The work is hard and the pay is thin, but it is the one place you are not competing with everyone else, and lately it has been getting strange.</p></div>
+
+    <div class="place"><span class="pname">The Windward Edge</span><span class="prole">The boundary</span>
+      <p>The band between the charted Verge and the genuinely unknown. House Delverane works out here, the only founding house that bothers. Beyond the last station, charts stop being facts and start being suggestions. Your neighbors, more or less.</p></div>
+
+    <div class="place"><span class="pname">The Cartografa</span><span class="prole">The seat of power</span>
+      <p>Not a region but a place: a private asteroid a day's sail from the Rock, hollowed out into the Pale Reach's great archive and its council chamber. Every route they own is filed here. You do not get in without an invitation, and you do not have one.</p></div>
+
+    <div class="callout">
+      <span class="label">Whispers on the docks</span>
+      <p>Spacers on the Verge have started trading uneasy stories. A run that always took nine days took ten. A colony that files its own coordinates every so often, and will not say why. A port that turned up a few hours off from where every chart in existence puts it, sitting there perfectly fine, its people baffled that you asked. Probably nothing. Bad charts, tired pilots, tall tales. Probably.</p>
+    </div>
+  </section>
+
+  <!-- HOME PORT -->
+  <section id="home">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Home port: the Rock of Bral</h2></div>
+    <p class="sec-intro measure">You will come back here after every voyage, so it is worth knowing your way around. Six places, and the people who run them.</p>
+    <div class="grid two">
+      <div class="card"><span class="kicker">Where the ship lives</span><h4>Lowside Berth 40</h4><p>A cheap berth on the underside of the Rock, thirty gold a month, at the end of a gantry that flexes when you walk it. Nobody official comes down here, which suits you fine. <span class="who">Ottie, a twelve-year-old who knows everything and sells it for candy, meets you on the gantry every time you dock.</span></p></div>
+      <div class="card"><span class="kicker">The CIV</span><h4>The Charter Window</h4><p>A brass grille in a stone wall with a queue in front of it. Charters get stamped, contracts registered, and the Manifest Board posted here. <span class="who">Deputy Registrar Halvar Meech has worked this window forty years. Not corrupt, not helpful, just relentlessly correct about which form you should have used.</span></p></div>
+      <div class="card"><span class="kicker">Where data gets sold</span><h4>The Delverane Window</h4><p>A narrow office of brass instruments and filing where you sell your survey logs. <span class="who">Senna Orrick, the broker, is sharp, tired, and on a quota. She will be condescending to a bottom-ranked crew exactly once, and then she will see what you actually filed.</span></p></div>
+      <div class="card"><span class="kicker">The bar</span><h4>The Compass Rose</h4><p>Not rough, not nice. Long tables, bad food, and the specific feeling of a place where crews go and tourists do not. <span class="who">Run by Madam Ulve, who has been behind that bar longer than anyone can explain. Every rumor in the Bral Reach passes through this room within four days.</span></p></div>
+      <div class="card"><span class="kicker">Where you buy things</span><h4>The Float Market</h4><p>Tiers of stalls in low gravity where the goods drift and everything is tethered. Chandlers, provisioners, an apothecary, and a woman who sells only rope and takes it very seriously. Haggling is expected. There is always one genuinely interesting thing for sale, never the same thing twice.</p></div>
+      <div class="card"><span class="kicker">Insurance</span><h4>The Underwriters' Hall</h4><p>Marble, quiet, and staffed by people who are pleasant to everyone regardless of rank, which is somehow worse. This is House Nightbreeze. Policies are renewed here and claims are settled here, slowly. Let the policy lapse and every repair comes straight out of your pocket.</p></div>
+    </div>
+  </section>
+
+  <!-- YOUR SHIP -->
+  <section id="crew">
+    <div class="sec-head"><span class="sec-num">06</span><h2>Your ship and your crew</h2></div>
+    <p class="sec-intro measure">You are two of twelve. The others are the found family this whole campaign is about, so here is who you fly with.</p>
+
+    <h3>The two of you</h3>
+    <div class="measure">
+      <p><span class="lead-in">Aerion Kyoya Windsong,</span> the navigator. An astral elf of a respected trading house, and the one whose name is on this venture. He keeps the charts, the books, and a running tally of every favor and debt in known space. Quiet, hard to read, and playing a longer game than he lets on. His family, House Windsong, is the house quietly in the running for that empty founding seat, and Aerion has been handed a ship and sent to the frontier to prove the family can operate where the maps run thin. Also aboard, and entirely his responsibility: a young silver dragon named Flurry.</p>
+      <p><span class="lead-in">Orena,</span> the bosun. The newest aboard, six months in, and the one who keeps the ship and its people running. She came off a crew that was lost, and she does not talk about it much. She is quietly building a field record of every strange creature the Astral throws at them, catalogued in her own particular way.</p>
+    </div>
+
+    <h3>The crew of the Last Honest Deal</h3>
+    <div>
+      <div class="crew-row"><div class="cn">Captain Estra Vane<span class="role">Captain and helm</span></div><div class="cd">Late fifties, dry, unflappable, gives orders like suggestions and is always right. The only person aboard who has actually done all of this before. Carries a dented tin mug and plays cards alone at night.</div></div>
+      <div class="crew-row"><div class="cn">Tack<span class="role">Chief engineer</span></div><div class="cd">A small cheerful autognome who talks to the ship like a pet and calls hull breaches "owies." Wildly overqualified, so repairs happen suspiciously fast. No concept of personal space.</div></div>
+      <div class="crew-row"><div class="cn">Sable Duskmantle<span class="role">Chief gunner</span></div><div class="cd">Grim, deadpan, and frighteningly good on a weapon crew. Collects small trophies from ships they have disabled. Would deny caring about anyone here, and would also die for them.</div></div>
+      <div class="crew-row"><div class="cn">Finnick "Finny" Groles<span class="role">Cook and deckhand</span></div><div class="cd">A loud, warm hadozee who makes miracles out of salvage and is the emotional center of the ship. Remembers every birthday. Cannot keep a secret to save his life.</div></div>
+      <div class="crew-row"><div class="cn">Dr. Quill Ashworth<span class="role">Surgeon</span></div><div class="cd">Anxious, precise, over-prepared for everything including "attacked by a space whale." Terrible bedside manner, brilliant under pressure. Hates space, shows up anyway.</div></div>
+      <div class="crew-row"><div class="cn">Reeve<span class="role">Lookout</span></div><div class="cd">A quiet plasmoid who spends most of the day flattened against the hull, watching. Says almost nothing. When Reeve does speak, the crew has learned to listen.</div></div>
+      <div class="crew-row"><div class="cn">Brassica "Brass" Thorngage<span class="role">Cargo and contacts</span></div><div class="cd">A fast-talking halfling who has a guy at every port. Need a part, a contact, a favor? Brass can get it, for a price or just because she likes you. Keeps her debts on increasingly chaotic napkins.</div></div>
+      <div class="crew-row"><div class="cn">Ozgood "Oz" Hammerfall<span class="role">Security</span></div><div class="cd">A seven-foot giff who could headbutt through a bulkhead and writes thank-you notes after shore leave. Absurdly polite, deeply principled, takes the chain of command as sacred.</div></div>
+      <div class="crew-row"><div class="cn">Wysp<span class="role">Runner and helm backup</span></div><div class="cd">A young astral elf who stowed away three ports ago and simply stayed. Eager, curious, trying very hard to seem experienced. Has read every adventure novel ever written and is disappointed real adventure involves so much inventory.</div></div>
+      <div class="crew-row"><div class="cn">Morrow<span class="role">Second helm and rigger</span></div><div class="cd">A four-armed thri-kreen who speaks in the third person and does twice the work of anyone aboard without being asked. Private, loyal once you earn it, and quietly the most capable person in a crisis.</div></div>
+    </div>
+    <p class="note">Somewhere in the first session, someone at port will call you "Estra's vagabonds." It is not a compliment. It sticks anyway, because it is true.</p>
+  </section>
+
+  <!-- MAKING A LIVING -->
+  <section id="living">
+    <div class="sec-head"><span class="sec-num">07</span><h2>Making a living</h2></div>
+    <p class="sec-intro measure">A ship is a business, and this one is barely making it. Understanding the money is understanding the stakes, because out here a bad fight is frightening for what it costs, not just what it hurts.</p>
+    <h3>Where the money comes from</h3>
+    <div class="grid two">
+      <div class="card"><span class="kicker">The bills</span><h4>Contracts</h4><p>Fixed jobs agreed in advance. A short courier run pays a little. A long haul through bad space pays a lot. This is the steady money that keeps the lights on, and it is honest, unglamorous work.</p></div>
+      <div class="card"><span class="kicker">The prize</span><h4>Survey data</h4><p>The real money. Everywhere you go, you can log the route and sell the survey to the Pale Reach. New systems and strange anomalies pay best of all, and your ship goes places nobody else does. This is the thing that could actually lift you off the bottom of that board.</p></div>
+    </div>
+    <h3>Where it goes</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Cost</th><th>Why it bites</th></tr></thead>
+        <tbody>
+          <tr><td class="nm">Repairs</td><td class="eff">Twenty gold for every point of damage to the hull. A rough fight can cost most of a month's income. You will learn to avoid combat you cannot afford.</td></tr>
+          <tr><td class="nm">Crew wages</td><td class="eff">Paid every time you dock. A full crew runs a thousand a month if one of your own flies the ship, and far more if you hire a pilot.</td></tr>
+          <tr><td class="nm">Fixed costs</td><td class="eff">The CIV charter, the Pale Reach subscription, and insurance all come due yearly. Insurance is the tempting thing to skip. Skipping it is what ends crews.</td></tr>
+          <tr><td class="nm">The air clock</td><td class="eff">Not gold, but a cost all the same. Every long voyage is a race against your own air going foul, which is why the cook and the scrubbers are survival gear.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout"><span class="label">The shape of a voyage</span><p>Take a contract, load up, and fly out. One big thing tends to happen on the way. Arrive, deliver, sell your survey data, settle repairs, pay the crew, and file your paperwork with the CIV so the Board sees it. Then do it again, a little less broke than last time, you hope.</p></div>
+  </section>
+
+  <!-- AT THE TABLE -->
+  <section id="table">
+    <div class="sec-head"><span class="sec-num">08</span><h2>A few things to know going in</h2></div>
+    <div class="grid two">
+      <div class="card"><h4>Social first, then fights, then puzzles</h4><p>Most problems have more than one solution. You can shoot your way through, talk your way through, or think your way through, and the game is built so both of you get real moments in every session, whichever you prefer.</p></div>
+      <div class="card"><h4>Cosmic, not gods</h4><p>This setting runs on cosmic forces, ancient lost civilizations, consciousness, and raw energy rather than deities and religion. If you play a paladin, your oath is sworn to a code or a principle, not to a god.</p></div>
+      <div class="card"><h4>Wonder, not horror</h4><p>The strange things out here are meant to be uncanny and beautiful, not frightening. When the stars are in the wrong place, the feeling is unease and awe, not a jump scare. You are explorers, not victims.</p></div>
+      <div class="card"><h4>The ship is home</h4><p>Over time the ship grows with you, from a bare hull into a place with a galley, a long table, bunks worth sleeping in, and traditions. You cannot buy that. You earn it by surviving together.</p></div>
+    </div>
+    <div class="callout"><span class="label">Lines and veils</span><p>Before we start, we will talk as a group about anything you would rather keep off the table entirely, and anything you would rather happen off screen. That list is always open and always respected. Tell me any time, in the moment or between sessions.</p></div>
+    <p class="measure" style="margin-top:22px">That is the world. You are a bottom-ranked crew on a battered ship at the edge of the map, held together by a captain who sees more than she says and a navigator playing a long game, flying the routes nobody else wants because they are the only ones left to you. It is going to be harder than it looks, funnier than it should be, and stranger than anyone at the core would believe. Welcome aboard, Vagabonds.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Astral Vagabonds &middot; a D&amp;D 5e campaign aboard the Last Honest Deal</span>
+    <span class="note">A player's primer &middot; read before session one</span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement, btn = document.getElementById('themeToggle');
+    function cur(){ return root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light'); }
+    btn.addEventListener('click', function(){ var n = cur()==='dark'?'light':'dark'; root.setAttribute('data-theme', n); btn.innerHTML = n==='dark'?'&#9681;':'&#9680;'; });
+  })();
+</script>
