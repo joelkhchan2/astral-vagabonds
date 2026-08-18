@@ -58,29 +58,21 @@ Two things needed a stated position. These are ours and they hold everywhere.
 
 One standing number, and repairs. That's the whole economy.
 
-### Monthly payroll **[A]**
+### Monthly operating cost **[HR -- session 0 ruling]**
 
-Paid when they dock. Changes only when the crew changes.
+The table simplified the whole payroll-plus-upkeep question into one all-inclusive number, deducted each session:
 
-| Configuration | Per month |
-|---|---|
-| Full crew of 12, **hired** helmsman | **2,500 gp** |
-| Full crew of 12, **a PC flies** | **1,000 gp** |
-| Skeleton crew of 6, a PC flies | 500 gp |
+**500 gp/month for up to 6 crew, +100 gp/month per additional crew member.** This covers wages, maintenance, food, and air together. With their crew of seven, that is 600 gp/month.
 
-A hired spellcaster on the helm is the single largest line item in the venture, worth roughly **18,000 gp a year**. [ORENA] can attune to a helm. Every day she flies, that money stays in the account.
-
-But flying requires concentration, so a helming bard is furniture. **This is the campaign's one genuinely hard recurring choice**, and it should be settled permanently around level 9 by hiring someone they trust or fitting a second helm. A great decision made once beats a good decision made twenty times.
+No separate hired-helmsman line: the ship flies on Captain Vane at the helm and Orena training up as the second pilot, so both pilots are already crew. Piloting still requires an attuned spellcaster holding concentration, so whoever flies is furniture for that voyage; the standing goal is to have Orena fully helm-capable so the ship always has two.
 
 ### Repairs **[C]**
 
 **20 gp per hit point.** A 250-HP hull taking 100 points is a 2,000 gp bill, which is most of a month. Combat in this campaign is frightening because it is expensive, not because it is lethal. Lean on that.
 
-### Annual fixed costs **[H]**
+### Annual fixed costs -- world flavor
 
-CIV charter 1,500 · Pale Reach subscription 600 (Basic) or 2,400 (Commercial) · Nightbreeze insurance 1,800, which requires a subscription, and without which every repair is entirely theirs.
-
-Insurance is the tempting cut. It is also the one that ends them.
+The CIV charter, the Pale Reach chart subscription, and Nightbreeze insurance exist in the world and are worth naming in fiction, but at the table they are folded into the all-inclusive operating cost above rather than billed as separate lines. Surface them narratively (a lapsed charter, an insurance fight) rather than as a spreadsheet.
 
 ### Income
 
@@ -138,7 +130,7 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 | 5 | Arcane Study | The helm room |
 | 5 | Sanctuary | The quiet berth (no shrine; a room for sitting with things) |
 | 9 | Gaming Hall | The float bay and the zero-G court |
-| 9 | Theater | Where [ORENA] performs |
+| 9 | Theater | Where Orena performs |
 | 9 | Stable | Flurry's berth |
 | 9 | Scriptorium | Chart copying, which is literally the data business |
 | 9 | Trophy Room | The bestiary, displayed |
@@ -148,7 +140,7 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 | 13 | Menagerie | Living astral creatures aboard |
 | 13 | Archive | The open navigation network's first node |
 | 13 | Pub, Meditation Chamber, Reliquary | as needed |
-| 17 | Guildhall | [ORENA]'s dead guild, rebuilt |
+| 17 | Guildhall | Orena's dead guild, rebuilt |
 | 17 | War Room, Sanctum, Demiplane | as needed |
 
 **The thesis: the vehicle is bought, the home is earned.** Hull, helm, plating, guns and instruments cost gold. Rooms and what happens inside them cost levels. They cannot buy a home; they accumulate one by surviving together.

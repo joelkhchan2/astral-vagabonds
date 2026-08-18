@@ -19,20 +19,11 @@ Anchor everything against the crew. **Their entire venture is 50,000 gp.**
 | Minor member house | under 1 million gp |
 | **The crew's venture** | **50,000 gp** |
 
-## The four allocations
+## The family and the money
 
-House Windsong is worth roughly **9.2 million gp**. Here is what each son received.
+House Windsong is worth roughly **9.2 million gp**. The three older sons run parts of the business: **Aeric** holds operational control of the house's core route and small fleet (inheritance in practice), **Aeris** works capital and committee access from port, and **Aeravellis** runs a franchise through contested space that does not pay.
 
-| Son | Allocation | Form |
-|---|---|---|
-| **Aeric** | **~4,100,000** | Not a grant. Operational control of the house's existing core route and its small fleet. Inheritance in practice. |
-| **Aeris** | **900,000** | Liquid capital, plus introductions and a standing seat in three committee rooms. |
-| **Aeravellis** | **350,000** | Capital plus a route franchise through contested space. |
-| **Aerion** | **50,000** | A hull budget. |
-
-**Aerion received 0.54% of the house.** He received one eighteenth of what Aeravellis got and one seventy-second of Aeric's book.
-
-> Priscilla can compute this. Let her. **Four numbers on a page do the work of an entire confrontation scene**, and they arrive long before the Tier 2 reveal explains why. She'll suspect she's being insulted. She's actually being used, which is worse.
+**Aerion took none of it.** Five years ago he left to make his own way with an independent crew, and the family funds him only lightly and treats it as a harmless distraction. Against the millions the older brothers move, his whole venture is a rounding error, and that is precisely how little the family thinks of it. What none of them know is that being ignored is the point: he is quietly working toward enough of a fortune to buy the company out from under them.
 
 ---
 
@@ -160,13 +151,9 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 
 **Fleet:** Vaelros's Swift Heavy, Aeric's Balanced Heavy and four hauling hulls, Aeris's Sturdy Cutter, Aeravellis's converted boarding Trader, and whatever Aerion buys. See `House Windsong.md` and `Ship Construction.md`.
 
-## Why they're the frontrunner despite being poor
+## Why they're a contender despite being poor
 
-**Wealth is not the criterion.** House Windsong is worth 9.2 million and one of its rivals is worth 11.4. The Board does not elevate on money, it elevates on **capability the Board needs**, and what the Board needs is somebody who can operate where the archive is thin.
-
-Vaelros promised frontier capability. Nobody else credibly did.
-
-> **This closes the loop.** He isn't ahead because he's rich. He's ahead because he made a promise about the Verge, and then handed the delivery of that promise to the son whose failure would cost him nothing.
+**Wealth is not the criterion.** House Windsong is worth 9.2 million and one of its rivals is worth 11.4. The board does not elevate on money, it elevates on **capability it needs**, and what it needs is somebody who can operate where the archive is thin. Vaelros has staked the family's case on frontier capability, which is a promise that is easier to make than to keep.
 
 ## The other contenders
 

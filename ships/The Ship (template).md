@@ -54,7 +54,7 @@ She should feel like a member of the crew: a living space with a personality. Ov
 **Moments to deploy across the campaign:**
 
 - The first time she takes serious damage and the whole crew rallies to save her
-- The first time [ORENA] fixes something Tack couldn't, and earns the ship's trust
+- The first time Orena fixes something Tack couldn't, and earns the ship's trust
 - A moment where she seems to *respond* to the crew in a way nobody can explain
 - The Signature Feature paying off dramatically after twenty sessions as a running joke
 - If she creaks: **the creaking stops.** Something is very wrong.

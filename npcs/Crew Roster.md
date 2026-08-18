@@ -1,151 +1,71 @@
-# Crew Roster -- The *Last Honest Deal*
+# Crew Roster -- the ship (currently unnamed)
 
-Total complement: 12 (2 PCs + 10 NPCs)
+**Total complement: 7** (2 PCs + 5 NPCs). The ship is officially **unnamed** for now; the crew flies under Captain Vane's good name. The DM's working title for it is *the Last Honest Deal*.
 
-> **Canon (session 0).** This is an **established crew, together ~5 years** — not strangers hired at the Yard. Aerion joined 5 years ago on what looked like a very successful venture; **five years later they are near destitute.** The **treasure hunt two years ago where he found Flurry's egg was this crew's job**, so the "old crew" members are current crew. **Orena (Gabrielle's PC) is the newcomer — she joined ~6 months ago.** The 50,000 gp Trial is the lifeline: the venture becomes formally Aerion's and the crew finally gets its own proper hull (the *Deal*). The Yard trip is the established crew choosing their ship together and confirming who stays in which chair, not twelve first meetings — and the money math is life-or-death because they have nothing to fall back on.
+> **Canon (session 0, played).** Aerion joined this crew about **5 years ago** on what looked like a very successful venture. They found the silver dragon Flurry and a treasure hoard on a hunt roughly 4.5 years ago, then a long run of failed jobs left them near destitute. Their **old ship blew up** (the cook was having his nightly smoke next to pre-loaded cannons); most of the fourteen-person crew lost faith and left, and the loyal few remained. Insurance money, some family funds, and 10,000 gp from Aerion's trust fund bought the new **Sturdy Trader**. **Orena (Gabrielle's PC) is the newest aboard, joined ~6 months ago.** They hired back up to a lean crew of seven at the Danforth yard.
 
 ## Player Characters
 
-### Gabrielle's PC -- The Bosun (Bard/Paladin, Level 5)
-**Role:** Bosun -- oversees rigging, repairs, crew discipline, ship operations. Assists with piloting/navigation. Also documenting a personal bestiary of astral creatures.
-**Hook:** The crew's newest member -- joined ~6 months ago, into a crew that's been together ~3 years. Previous crew was lost under mysterious/traumatic circumstances she doesn't fully understand. Overcompensating with competence -- cataloguing creatures, drilling procedures -- because she couldn't save her last crew and refuses to lose another.
-**Bestiary subplot:** Both coping mechanism and scientific contribution. Recurring mechanic: each new creature encounter gives her reason to observe, sketch, document rather than just fight. Her old crew may have been lost to something she couldn't identify -- the bestiary is unconsciously preparing her to face it again.
-**Paladin oath (non-religious):** To a spacefarer's code -- never leave crew behind, always answer a distress signal, always chart what you find so others don't die in ignorance. Her oath is to the next crew that comes through here.
-**Spotlight moments:** Ship combat (calling maneuvers, directing crew), first-contact creature encounters, crew safety vs. mission tension.
+### Aerion Kyoya Windsong (Priscilla) -- Bosun / Quartermaster / Cargo Handler
+**Race/Class:** Astral Elf, Samurai Fighter, level 5. Age 132. Merchant background. Neutral Good.
+**Role:** Runs the crew and the ship's day-to-day, oversees inventory and cargo, and keeps the books. Knows what is in every crate, who owes what, and where the money is going. (Full sheet: `npcs/Aerion Windsong.md`.)
+**Hook:** Overlooked youngest son of the Windsong trading house. His family barely notices him and is happy to have him off-world; he is quietly fine with that, because it lets him work unwatched. Joined this crew five years ago to make his own fortune. His real, secret goal is to amass enough to **buy out and take over his father's company** on his own terms.
+**Flurry:** A young silver dragon he found as an egg on the treasure hunt ~4.5 years ago and secretly adores. She is a baby, does not fight, and should never see combat.
+**Spotlight moments:** Port negotiations, inventory and money crises, quiet competence the crew relies on, the slow game against his family.
 
-### Aerion Kyoya Windsong (Priscilla's PC) -- The Navigator (Astral Elf Samurai Fighter, Level 5)
-**Role:** Navigator -- plots courses, manages charts, tracks fuel/supplies. De facto quartermaster-accountant-fixer. Knows what's in every crate, who owes what, where the money's going. (Full character sheet: `npcs/Aerion Windsong.md`.)
-**Hook -- The Shadow King:** Family runs a major Wildspace trading consortium. On this ship because [Option A: family's "investment" evaluating the crew / Option B: left voluntarily to build her own thing / Option C (recommended): both -- sent on family business but growing to see the crew as hers].
-**Kyouya energy:** Leather-bound ledger (the Index of Accounts) tracking every favor, debt, and supply manifest. Negotiates port fees, bribes dock officials, quietly solves problems before anyone notices. When threatened, calmly recites how much the threatening party owes her family and watches them recalculate.
-**What she wants:** To be indispensable. Not famous, not powerful in the loud way -- the person without whom nothing works. And for that to be her achievement, not her family's name. Tension: her family's resources make her effective, but using them reinforces that she's just an extension of the consortium.
-**Spotlight moments:** Port negotiations, supply crises, moments where family connections are the only way out (at a cost), quiet scenes where the crew realizes how much she does.
+### Orena (Gabrielle) -- Navigator / Helmsman-in-training / Scout
+**Race/Class:** Water Genasi, Bard/Paladin, level 5. Around 30. From **Leilon** on the Sword Coast (Material Plane).
+**Role:** Plots courses and reads the currents, keeps watch as scout, and is training on the helm so the ship always has a second pilot.
+**Hook -- the lost crew:** Back home she ran a small guild of six childhood friends, the **Wayfinder Knot**. They went to sea chasing the **Stillwater Vocalise**, a song said to calm any raging sea. She charted the way. When they reached it, a song stilled her whole crew and their ship, and they vanished. She survived because she is of the water. She was the navigator; they were lost on her watch. She joined this crew ~6 months ago, shortly after, when Aerion re-met her and got her the job.
+**Downtime:** Mapping where the Vocalise, other artifacts of the tales she has heard, and her lost crew might be.
+**Spotlight moments:** Navigation and helm scenes, first-contact with astral creatures, anything that echoes the Vocalise or a missing crewmate.
 
----
-
-## NPC Crew
-
-### 1. Captain Estra Vane -- The Captain / Primary Helmsman
-**Race:** Human, late 50s.
-**Personality:** Dry, laconic, quietly hilarious. Orders as suggestions. Never raises her voice. Treats crew as adults -- lets them fail and learn. Dented tin mug. Plays cards alone at night.
-**DM shorthand:** Ron Swanson delivery + Captain Holt precision + Iroh grief + Mal Reynolds stubbornness.
-**Secret:** Former First Captain of the Vane Compact (top-10 ranked exploration fleet destroyed 15 years ago). Quietly rebuilding it from rank 348. Owes The Broker two remaining favors. Knows what happened to Gabrielle's old crew. Chose every crew member deliberately.
-**Full details:** See "Captain Estra Vane.md"
-
-### 2. Tack -- Chief Engineer
-**Race:** Autognome (small construct).
-**Personality:** Cheerful, meticulous, talks to the ship like it's a pet. Refers to hull breaches as "owies." Overpowered for this ship (built for a much larger vessel), so repairs happen suspiciously fast. No concept of personal space.
-**Sitcom parallel:** Gregory/Jacob hybrid (Abbott Elementary) -- excellent at job, oblivious to social dynamics, accidentally heartwarming.
-**Secret:** Creator is one of the Pale Reach consortium's chief shipwrights. If Priscilla's family comes calling, Tack may have divided loyalties -- or be a sleeper asset nobody activated.
-**Crew dynamic:** Genuinely loves the ship. Argues with Gabrielle about whether the creaking is structural ("she's just talking"). First to notice when something mechanical is wrong, last to notice when something emotional is wrong.
-
-### 3. Sable Duskmantle -- Chief Gunner
-**Race:** Shadar-kai (Shadowfell elf).
-**Personality:** Grim, fatalistic, extremely deadpan funny. "I'll man the ballista. If we die, at least I got to shoot something." Collects small trophies from disabled ships. Has a jar of teeth on a shelf in the gun bay (mixed species -- don't ask).
-**Sitcom parallel:** Rosa Diaz (B99) -- terrifying, secretly sentimental, would kill for this crew but never admit it.
-**Secret:** Former githyanki raider crew. Deserted after being ordered to destroy a civilian vessel. Price on their head in certain Astral ports. Was present for the Broker's Favor #1 and won't discuss it.
-**Crew dynamic:** Respects Gabrielle's bosun authority immediately (recognizes military competence). Tolerates Finny's gossip (secretly appreciates it). Protective of Wysp in a way they'd deny.
-
-### 4. Finnick "Finny" Groles -- Deckhand / Ship's Cook
-**Race:** Hadozee (gliding monkey-folk).
-**Personality:** Loud, gregarious, gossips relentlessly, makes incredible food from terrible ingredients. Emotional center of the crew -- organizes game nights, remembers birthdays, starts traditions. Cannot keep a secret. This is both his best and worst quality.
-**Sitcom parallel:** Andy Dwyer (Parks & Rec). Pure of heart, dumb of strategy.
-**Secret:** Sends a portion of his pay to someone on the Rock of Bral. Won't say who. (Actually can keep this one secret.)
-**Crew dynamic:** First to welcome Gabrielle aboard. Tries to call Estra "mom" (once -- the look could strip paint). The Manifest Board printout in the galley is his. Cooks as love language.
-
-### 5. Dr. Quill Ashworth -- Ship's Surgeon
-**Race:** Human.
-**Personality:** Anxious, precise, over-prepares for everything. Medical kit for every scenario including "attacked by a kindori" and "spontaneous gravity reversal." Terrible bedside manner (gets flustered), brilliant under pressure. Hates space. Is on this ship anyway.
-**Sitcom parallel:** Charles Boyle meets Ann Perkins -- competent professional who's slightly too much in exactly the right way.
-**Secret:** Lost medical license planetside after malpractice accusation that was actually a cover-up by someone powerful. Can't go home until cleared or forgotten.
-**Crew dynamic:** Fusses over everyone's health to the point of annoyance. Keeps detailed injury logs. Quietly terrified every day but shows up anyway.
-
-### 6. Reeve -- Lookout / Scout
-**Race:** Plasmoid (sentient ooze).
-**Personality:** Quiet, observational, short precise sentences. Spends most time flattened against the hull in the crow's nest, watching everything. Eidetic memory for spatial relationships. Surprisingly philosophical when they speak at length. The crew forgets Reeve is in the room. Reeve prefers it that way.
-**Sitcom parallel:** The character who's been sitting in the corner the whole scene and then drops one line that reframes everything.
-**Secret:** Far older than anyone realizes. Crewed on dozens of ships over centuries. Watched every crew fall apart. Stays because they're still hoping to find one that lasts.
-**Crew dynamic:** Notices everything, says almost nothing. When Reeve does speak up, the crew has learned to listen. Has a strange kinship with Priscilla -- both watchers, both cataloguers, both quiet power.
-
-### 7. Brassica "Brass" Thorngage -- Quartermaster's Mate / Cargo Handler
-**Race:** Halfling.
-**Personality:** Scrappy, resourceful, talks fast, always has "a guy" at every port. Need a part, a forged manifest, a black market contact? Brass can get it -- for a price, a favor, or just because she likes you. Running tally of debts on increasingly chaotic napkins.
-**Sitcom parallel:** Donna Meagle meets Jake Peralta -- streetwise, connected, enjoys the hustle.
-**Secret:** On the run from a deal gone bad with a neogi slaver ring. They're still looking.
-**Crew dynamic:** Priscilla's natural complement -- where Priscilla is strategic mind, Brass is street-level operator. Think Leslie/Ann but for crime. Brass is the person who makes Priscilla's plans actually work at ground level.
-
-### 8. Ozgood "Oz" Hammerfall -- Ship Security / Heavy Weapons
-**Race:** Giff (hippo-person, 7 feet tall).
-**Personality:** Polite. Absurdly polite. Opens doors, says "after you," writes thank-you notes after shore leave. Carries comically large firearm. Can headbutt through a bulkhead. The contrast IS the character. Believes in procedure, chain of command, firm handshakes.
-**Sitcom parallel:** Terry Jeffords (B99) -- intimidating physique, enormous heart, takes his responsibilities very seriously.
-**Secret:** Dishonorably discharged from a giff mercenary company for refusing to fire on unarmed civilians during a contract dispute. Branded a coward. Still processing whether honor and obedience are the same thing.
-**Crew dynamic:** Defers to Gabrielle's bosun authority without question (chain of command is sacred to him). Calls Estra "Captain" every single time. Treats Wysp like a younger sibling in need of protection and etiquette lessons.
-
-### 9. Wysp -- Cabin Crew / General Runner / Helm Backup
-**Race:** Astral elf (young, equivalent of teenager).
-**Personality:** Eager, curious, trying hard to seem experienced and failing adorably. Stowed away three ports ago -- Estra just let them stay. Has read every adventure novel ever written and is perpetually disappointed that real adventure involves inventory management. Worships Gabrielle's competence and Priscilla's cool factor equally.
-**Sitcom parallel:** April Ludgate if April actually tried hard and cared openly.
-**Secret:** Didn't run away from home -- was sent away quietly by a parent who saw something dangerous coming. Wysp doesn't know this. They think they're a rebel. They're actually a refugee.
-**Crew dynamic:** The crew's unofficial mascot. Everyone is protective; nobody agrees on how. Finny spoils them, Sable toughens them, Oz teaches them manners, Estra gives them real work. Wysp's admiration of both PCs is a useful spotlight tool.
-
-### 10. Morrow -- Second Helmsman / Rigger
-**Race:** Thri-kreen (insectoid, four arms).
-**Personality:** Speaks in third person. Processes emotions visually (carapace changes color with mood -- hates this). Exceptional multitasker (four arms = rigging while eating while reading a chart). Deeply private, fiercely loyal once trust is earned. Dry alien humor that lands 40% of the time and is devastating when it does.
-**Sitcom parallel:** Morrow is the deadpan straight man whose rare jokes are the funniest in the room.
-**Secret:** Clutch-mates are enslaved by a neogi brood. Saving money to buy their freedom. Hasn't told anyone because thri-kreen consider it personal shame.
-**Crew dynamic:** Reliable, quiet, does twice the work and asks for nothing. The crew member most likely to reveal hidden depth in a crisis. Has a professional respect for both PCs but takes longest to open up.
+### How they know each other
+They trained together as teenagers under Aerion's uncle, the "space samurai" **Vaelren Windsong**. Orena wanted to learn the sword; she met Aerion at the camp, they were made to share a bunk, and they became lifelong friends. Years later Aerion needed a new ship after his blew up, they re-met, and he recruited her.
 
 ---
 
-## Crew Dynamics Summary
+## NPC Crew (5)
 
-**Natural groupings:**
-- Gabrielle's direct reports: Tack (engineering), Sable (weapons), Oz (security), Finny (deck)
-- Priscilla's operational circle: Brass (cargo/contacts), Morrow (rigging/helm), Reeve (intel)
-- Estra's inner circle (by seniority): Sable (longest serving, knows about Favor #1), Morrow (quiet trust)
-- The "kids": Wysp (youngest), Finny (youngest energy)
-- The watchers: Reeve, Priscilla, Estra (three people who see everything, say little)
+### 1. Captain Estra Vane -- Captain / Main Helmsman
+Human, late 50s. Serious, dry, tired demeanor, streaks of gray in black hair. Treasure Planet's Captain Amelia by way of a captain who expects excellence. You can catch her playing solitaire alone at night. She is also the ship's backup for training Orena on the helm.
+**Rumor among the crew:** she was once a **Commodore**, a captain over captains of a whole fleet, and something happened to it. She will not talk about it and refuses to drink to loose lips. Full GM detail in `Captain Estra Vane.md`.
 
-**Tension points:**
-- Tack's creator connection to the Pale Reach vs. loyalty to the crew
-- Brass's neogi debt coming due
-- Morrow's secret shame vs. the crew's willingness to help
-- Sable's knowledge of Favor #1 vs. loyalty to Estra's privacy
-- Wysp's origin vs. whatever danger their parent saw coming
-- Quill's past accusation surfacing
-- Oz's honor crisis if ordered to do something he disagrees with
+### 2. Tack -- Chief Engineer (and Gunner)
+Autognome, a small construct. Cheerful, meticulous, and treats the ship like his beloved pet, the way a person treats a giant dog. He was devastated when the old ship blew up; this one is his redemption. He **saved the tattered flag from the old ship** and reattached it to this one. Oblivious to social cues (personal space, food in mouths, the warmth of touch). When the ship creaks he says "she's just talking" and goes to fix a plank. He knows the ship best and can operate the guns, though he is no marksman, so he doubles as a gunner.
 
-## Why Estra Picked Them
+### 3. Brassica "Brass" Thorngage -- Medic / Cook
+Scrappy and resourceful. She never got her medical license, which is why she is cheap and does not ask to be called doctor. She talks fast and can look at someone and know what is wrong with them. She always seems to have "a guy" at every port, which can be good or bad. **Rumor:** she is on the run from a deal gone bad.
+**Mechanic:** every morning she is on cook duty, roll a **d4** for the day's result (the DM tracks what it means). She is a medic first and a cook second, and the crew have accepted that dinner is a gamble.
 
-Per her secret in this doc and the full story in `Captain Estra Vane.md`: **every crew member was chosen for a reason**, not hired at random. Not everyone below was a deliberate pick -- some are coincidence, and that's on purpose. The reveal lands harder if it isn't universal.
+### 4. Finnick "Finny" Groles -- Rigger / Deckhand / backup Gunner
+Halfling. Loud, gregarious, gossips relentlessly, organizes the game nights, and cannot keep a secret to save his life. Every time the crew visits the Rock of Bral he quietly **deposits a portion of his pay** somewhere, or to someone, and will not say who or why. He always gets the Manifest Board printed so he can pore over the rankings.
 
-**Reeve.** Deliberate. Reeve crewed on one of the Vane Compact's other six ships -- not as a captain, low enough in the chain that nobody thought to buy them out or silence them. They watched that crew scatter the same way Estra's did. Estra sought them out specifically: partly because Reeve is the best set of eyes she's ever worked with, partly because Reeve is a living witness to what happened, and she has never asked them what they saw. Reeve is waiting for her to ask.
+### 5. Ozgood "Oz" Hammerfall -- Ship Security / Scout
+Giff (hippo-person), seven feet tall and large. Absurdly polite, soft-spoken, a gentle giant. He carries a comically large pistol that he will also swing as a melee weapon, and he claims he has headbutted through steel. As scout he keeps watch as well as guards the deck.
 
-**Sable.** Deliberate, and the connection predates this ship -- established already: Sable was present for Broker's Favor #1. How Estra found a deserting githyanki raider crew member and offered them a berth instead of a bounty is its own scene, held for whenever Sable's arc needs it.
+---
 
-**Morrow.** Deliberate, but quieter. Estra's Compact-era contacts still move in the same circles as neogi brokers -- distasteful circles she keeps a toe in precisely because information moves through them. She heard about a thri-kreen rigger buying out clutch-mates before Morrow ever applied. She never mentions it. Morrow does not know.
+## Not Aboard -- World NPCs and Potential Future Hires
 
-**Brass.** Deliberate. When the neogi deal went bad, word reached Estra's Broker-adjacent contacts before it reached any bounty board. Estra got to Brass first -- not out of charity, she'd say, but because a cargo handler who owes the right people a favor is useful, and because she knows exactly what it costs to run from something with a price on your head. She has never called that favor in. Brass keeps waiting for her to.
+These five auditioned at the Danforth yard and were **not hired**. They stay in the world and can be brought aboard later, met on a rival's deck, or recurred as contacts. None are current crew.
 
-**Quill.** Deliberate. The "someone powerful" who buried Quill's malpractice case has a name Estra recognizes -- someone adjacent to the Pale Reach's old campaign against the Compact. She never confirms this to Quill. She just made sure the posting existed.
+- **Dr. Quill Ashworth** -- human medic, type-A, anxious, over-prepares for every disaster, terrible bedside manner but supposedly brilliant. Rumor: lost her medical license after a malpractice accusation. (Her medic slot went to Brass.)
+- **Sable Duskmantle** -- shadar-kai (Shadowfell elf), grim, gallows humor, dead-pan to the point you cannot tell she is joking. Collects small trophies; keeps a jar of teeth though she is no dentist.
+- **Reeve** -- a sentient ooze, very quiet, wet, observational, speaks in few words if at all, eidetic memory, easily forgotten in a room and prefers it that way. Age unknown.
+- **Wysp** -- astral elf, young (equivalent of a teenager, ~30). Gives off the sense she ran away from home, though nobody has asked. Scrappy, earnest, eager to prove herself, does not always do the best job, always open to learn.
+- **Morrow** -- thri-kreen, four-armed insectoid humanoid, speaks in the third person, wears its opinions plainly, an excellent multitasker, very private and fiercely loyal.
 
-**Tack, Finny, Oz, Wysp.** Not deliberate, as far as Estra's concerned -- coincidence, timing, or (for Wysp) simply showing up and refusing to leave. Estra would say this is the point: you can't engineer a crew, you can only recognize one when it happens. Whether that's entirely true is a question worth leaving open.
+---
 
-## Who Knew Whom, Before
+## Crew Dynamics
 
-Independent of Estra, a few threads exist among the crew and the yard's audition pool -- for texture, and so nobody aboard is a stranger to everybody.
+- Aerion and Orena are the two players and old friends; between them they cover bosun, quartermaster, cargo, navigation, helm-in-training, and scouting, which is a lot of hats for a skeleton crew and everyone feels it.
+- The crew that remained are the **loyal ones** who stayed after the ship blew up and the rest walked. That loyalty is the emotional core: they chose to stay broke together.
+- Tack and the ship: he argues, gently and one-sidedly, that the creaking is the ship talking. Whether the ship is more aware than it should be is a slow-burn question.
+- Brass is the crew's fixer as well as its medic; her "a guy at every port" is a recurring hook that can help or complicate a job.
+- Finny is the heart and the leak: warm, loud, and unable to keep the secrets he collects, except his own about the deposits at Bral.
+- Oz's politeness against his size and firepower is the running contrast; chain of command matters to him.
 
-**Brass and Morrow.** Brass's underworld contacts are how she first heard, secondhand, about a thri-kreen buying freedom papers one debt at a time. She put in a word at the Yard before Morrow's audition even started. Morrow doesn't know that either. This crew has a lot of things nobody's saying out loud.
-
-**Oz and Sable.** Crossed paths years back on opposite sides of a contract dispute -- a mercenary boarding action Oz refused to finish and Sable was hired to help finish anyway. Neither talks about it, but there's a wary, specific respect between them that reads as history because it is.
-
-**Hessa Ombrey and Corwin Ashe** *(audition alternates -- Chief Engineer and Gunner/Security roles)*. Both came up through the same Tethyn trade circuit: corporate professionals, correct paperwork, exact rates. If both end up interviewing the same day, they recognize each other immediately and it turns the audition into two old colleagues quietly sizing up whether the other one is still as good. If the party hires one and not the other, that's a thread to pull later -- a rival crew, a mutual contact, a favor owed.
-
-**Ilsabet Crane and Dr. Quill Ashworth** *(audition alternate cook, and the ship's surgeon)*. Both left a life planetside after "something happened" they won't discuss, and both know exactly what it looks like on someone else. If Ilsabet is hired, she and Quill recognize the shape of each other's silence within a week and never once ask.
-
-## Open Hooks -- PCs, Not Yet Written
-
-These are not established. They're prompts, same as `Session Zero.md`'s format -- ask at the table, don't decide for the players.
-
-**The treasure hunt crew -- RESOLVED.** The hunt two years ago (where Aerion found Flurry's egg) was **this crew's job**. The "old crew" is the current crew. What's left to decide at the table is only *which specific members* were aboard for it -- a good candidate is anyone with 2+ years' tenure (Estra, Sable, Reeve, Morrow, Finny, Tack, Brass, Oz, Quill). Orena was not there; she joined ~6 months ago. Use this as shared history the veterans can reference, not a recruiting hook.
-
-**Does anyone recognize [ORENA]?** She catalogues her old crew by sound. It is entirely possible, and entirely optional, that one candidate at the Yard -- a wanderer, someone who's crewed many ships, someone like Reeve -- has heard a sound that matches something in her logbook. Do not plant this without her player's buy-in. If it lands, it's a Tier-1 seed for the scattered-crew search; if it doesn't fit what's established in session 0 #1, drop it entirely.
+## Tone note
+This is a lean, near-destitute crew flying under a borrowed name, doing the jobs nobody else wants. The comedy is in seven people wearing fourteen hats and pretending it is fine. Money is real, wages come out of the account every session, and they have sworn off any job longer than 60 days so they never test the 120-day air clock.

@@ -1,22 +1,22 @@
 # Astral Vagabonds - Campaign Overview
 
-> **Naming note:** Player character and family names are still unsettled, except the house itself: it's **House Windsong**. This folder still uses placeholders for people: **Aerion** (Priscilla's character), **[ORENA]** (Gabrielle's character, name provisional), **Vaelros**, **Aeric**, **Aeris**, **Aeravellis**, **Vaelren**, **Aerynna**. Replace after session 0 #1.
+> **Names settled (session 0, played).** PCs: **Aerion Kyoya Windsong** (Priscilla) and **Orena** (Gabrielle). Family: father **Vaelros**, mother **Aerynna Nightbreeze**, brothers **Aeric / Aeris / Aeravellis**, uncle **Vaelren**. The ship was bought and deliberately **left unnamed** for now. Current character canon lives in `npcs/Aerion Windsong.md`, `npcs/Orena.md`, and `npcs/Crew Roster.md`.
 
 ## The Pitch
 
-The youngest of four brothers is handed 50,000 gold and told to go build something at the edge of the map. His family runs a trading house inside the cartel that owns every road between the stars. His three brothers got better assignments. He got the frontier, one hull, and a captain he didn't hire.
+A lean, near-broke crew of privateers aboard a battered trader, taking the jobs nobody else wants across the Astral Sea and slowly becoming the only family they have. Five years ago the venture looked like a winner; a run of failures and one ship exploding later, they are seven people wearing fourteen hats and pretending it is fine.
 
-The frontier is where the roads are failing. He's the only one who will see it.
+One of them, Aerion, is the overlooked son of a trading house, quietly playing a long game to take it over. The newest, Orena, is hunting the crew a song stole from her.
 
-Firefly meets Brooklyn Nine-Nine in the Astral Sea, with a family inheritance drama underneath and a slow apocalypse in the navigation data.
+Firefly meets Brooklyn Nine-Nine in the Astral Sea, with a family power game underneath and a slow apocalypse in the navigation data.
 
 ## The Two Player Characters
 
-**Aerion** (Priscilla) - Fighter, Navigator, and owner of the venture. Youngest of four sons of a merchant house that sits one rung below real power. Wants the company. Has a silver dragon named **Flurry** who is, functionally, a very unusual dog.
+**Aerion Kyoya Windsong** (Priscilla) - Astral Elf Samurai Fighter. Bosun, Quartermaster, and Cargo Handler. The overlooked youngest son of the Windsong trading house, secretly amassing a fortune to buy out his father's company. Has a baby silver dragon, **Flurry**, who does not fight.
 
-**[ORENA]** (Gabrielle) - Bard/Paladin, Bosun. Came out of an old sailors' guild that went privateering and lost its ship. She is the only survivor anyone can account for. She keeps a logbook catalogued by **sound**. Her crew is out there somewhere, scattered, and she is the only person who believes it.
+**Orena** (Gabrielle) - Water Genasi Bard/Paladin. Navigator, Helmsman-in-training, and Scout. The newest aboard. She lost her six-person guild, the Wayfinder Knot, when a song called the Stillwater Vocalise stilled them and their ship; she alone survived, being of the water, and she is searching for them.
 
-They knew each other before. Aerion made the call. [ORENA] answered.
+They trained together as teens under Aerion's uncle. When Aerion needed a new ship, they re-met and he hired her on.
 
 ## Setting
 
@@ -48,9 +48,9 @@ Three things running at once, at different speeds.
 
 **The Drift (world, slow).** Astral currents are formed by accumulated travel and they are coming apart. Consolidation killed route diversity, a generation of conduits is dying, and underneath both a natural phase shift is reorganizing the whole system. Civilization survives this only by rebuilding a distributed, openly shared navigation network. Full detail in `Plot Threads.md`.
 
-**The Trial (family, medium).** Four brothers, four ventures, one inheritance, and a father who is the frontrunner for a vacant seat on the Pale Reach's governing board. Aerion was given the frontier because he is deniable, not because he is a contender. Full detail in `House Windsong.md`.
+**The Windsong Game (family, medium).** Aerion is the overlooked youngest son of a trading house that is competing for a vacant seat on the board of founding houses. The family barely notices him, which is exactly the cover he needs: he is quietly amassing a fortune to buy out and take over his father's company on his own terms. Full detail in `House Windsong.md`.
 
-**The Scattered Crew (personal, episodic).** [ORENA]'s guild crew were thrown across the settled worlds when their ship came apart. She finds them one at a time, in ports, over the length of the campaign. Each is in a different state and each tells a different version of what happened.
+**The Lost Crew (personal, episodic).** Orena's guild, the Wayfinder Knot, was stilled and vanished by the Stillwater Vocalise. She does not know whether they are dead or scattered, and she means to find out, following the tales and the currents one lead at a time.
 
 These converge. The open navigation network is simultaneously the thing that saves Wildspace, the thing that lets Aerion beat his father, and the thing that makes finding the rest of the lost possible.
 
@@ -75,13 +75,13 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 
 ## Document Index
 
-**Start here, in order:** `Session Zero.md` → `The Yard.md` → `Contracts.md`.
+**Session 0 has been played.** Current character/crew/ship canon: `npcs/Aerion Windsong.md`, `npcs/Orena.md`, `npcs/Crew Roster.md`, `ships/The Last Honest Deal.md`, and `sessions/Session Zero.md` (the recap of what was decided). Then `Contracts.md` for the job board.
 
 ### Running the game
 | File | What's in it |
 |---|---|
-| `Session Zero.md` | Session 0 #1 facilitation guide, written as player prompts |
-| `The Yard.md` | Session 0 #2 in full: the lot, the broker, the hulls, the crew candidates, the beats |
+| `Session Zero.md` | Session 0 recap: the decisions the table actually made |
+| `The Yard.md` | The Danforth ship-lot scene and crew auditions (played out at session 0) |
 | `Contracts.md` | The job board, and the Tier 1 main-mission spine for levels 5-8 |
 | `The Bral Reach.md` | Home port: six locations, the recurring NPCs, and the character shop |
 | `Tables.md` | Encounters, complications, rumours, items, and the scattered-crew states |
@@ -99,15 +99,15 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 |---|---|
 | `Houses & Holdings.md` | Who owns what, where, and worth how much. The map and the money. |
 | `The Pale Reach.md` | The cartel: tiers, houses, the vacant seat, the data economy |
-| `House Windsong.md` | The father, three brothers, mother, uncle, the Trial, the inspection |
+| `House Windsong.md` | The father, three brothers, mother, uncle, and the fifth-seat contest |
 | `Worlds & Places.md` | Thirteen destinations across the six regions |
 | `The Manifest Board.md` | The public ranking, the crew's neighbours, and the top five |
-| `The Locker.md` | The demiplane of moored ships, and what happened to [ORENA]'s crew |
+| `The Locker.md` | The demiplane of moored ships, and what happened to Orena's crew |
 
 ### People and plot
 | File | What's in it |
 |---|---|
-| `Crew Roster.md` | The twelve, their roles, and what a ship actually needs |
+| `Crew Roster.md` | The seven aboard, their roles, and who was not hired |
 | `Captain Estra Vane.md` | The captain nobody chose |
 | `Plot Threads.md` | The Drift, the Trial, the scattered crew, and what we cut |
 | `Potential Endings.md` | Five shapes for the finale |

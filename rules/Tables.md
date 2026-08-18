@@ -24,7 +24,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 10 | Wreckage from a hull class that hasn't been built in ninety years, and it's fresh |
 | 11 | A **dohwar** trader, cheerful, penguin-shaped, and offering a deal that is genuinely good |
 | 12 | **Neogi** slaver hull, running parallel, not engaging. Yet. *(Brass. Morrow.)* |
-| 13 | The stars are marginally wrong. Nobody can say how. [ORENA] can hear it. |
+| 13 | The stars are marginally wrong. Nobody can say how. Orena can hear it. |
 | 14 | A **mercane** vessel, vast and disinterested, passing through on business that predates everyone |
 | 15 | **Space swine**, feral, loose, and somebody's escaped cargo |
 | 16 | Pirates who take one look at the crew's armament and change their minds mid-approach |
@@ -79,7 +79,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 15 | The contract's terms contain something Priscilla missed |
 | 16 | A crew member wants to talk to Aerion about his family |
 | 17 | Something outside is keeping pace |
-| 18 | Someone asks [ORENA], sincerely, whether she really heard it |
+| 18 | Someone asks Orena, sincerely, whether she really heard it |
 | 19 | Estra receives a dispatch and does not discuss it |
 | 20 | Nothing goes wrong. Six weeks of peace. Play the dinner scene. |
 
@@ -122,7 +122,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 6 | **Gravebird charm.** Points toward the nearest wreck within 10 miles. |
 | 7 | **Lamp of the Last Watch.** Burns without fuel. Dims when the wearer needs sleep. |
 | 8 | **Salt of Anchoring.** One pinch fixes an object to a gravity plane for an hour. |
-| 9 | **Sound-slate, engraved.** Holds ten minutes instead of one. *([ORENA] wants this.)* |
+| 9 | **Sound-slate, engraved.** Holds ten minutes instead of one. *(Orena wants this.)* |
 | 10 | **Manifest seal of true report.** Whatever is sealed inside cannot be misdescribed on paper. |
 | 11 | **Twinned bells.** A pair. Ring one, the other rings, any distance, no message. |
 | 12 | **Voidwright's gloves.** Advantage on checks to repair a hull in vacuum. |
@@ -149,7 +149,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 4 | **Gravity Sovereign** (very rare, attunement). Bonus action: reverse your personal gravity plane for one minute. |
 | 5 | **Kindori Song-Horn** (rare). Once per day, call a kindori within 100 miles. It may come. It owes you nothing. |
 | 6 | **Ledger of Debts Remembered** (rare, attunement). Know whether a creature you can see owes you anything, and precisely what. |
-| 7 | **Deep Ear** (very rare, attunement). Hear the Astral's currents directly. Extended use is *disquieting*. **[ORENA]'s eventual item.** |
+| 7 | **Deep Ear** (very rare, attunement). Hear the Astral's currents directly. Extended use is *disquieting*. **Orena's eventual item.** |
 | 8 | **Carrow Signet** (rare). Opens any lock bearing House Carrow's mark. There are more of these than there should be. |
 | 9 | **Anchor of the Honest Course** (very rare). Once per voyage, the ship arrives where the chart said, regardless of anything. |
 | 10 | **The Fifth Chair's Key** (legendary). Opens the sealed wing of the Stillpoint. Tier 3 or later, and it should be a story rather than a find. |
@@ -158,7 +158,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 
 # 7. SCATTERED CREW — WHAT STATE (d8)
 
-*When [ORENA] finds one. Never roll the same result twice.*
+*When Orena finds one. Never roll the same result twice.*
 
 | d8 | State |
 |---|---|

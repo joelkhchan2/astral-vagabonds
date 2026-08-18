@@ -21,7 +21,7 @@ Medical supplies to a mining colony on the Verge. *Complication:* the colony's o
 A Sallow Chain house wants a locked case moved without questions. *Complication:* it's legal, it's boring, and a Route Warden inspection at the halfway point will take four hours the crew doesn't have.
 
 **Passenger Work** — 900 gp · 16 days · 1 ton
-Carry a Delverane surveyor and her instruments to the Windward Edge. *Complication:* she is thirty-one, relentlessly curious, and asks [ORENA] questions about the logbook that nobody has ever asked. *(This is Aurel Delverane travelling under her own name and not mentioning the ship she captains.)*
+Carry a Delverane surveyor and her instruments to the Windward Edge. *Complication:* she is thirty-one, relentlessly curious, and asks Orena questions about the logbook that nobody has ever asked. *(This is Aurel Delverane travelling under her own name and not mentioning the ship she captains.)*
 
 **Livestock** — 1,100 gp · 11 days · 8 tons
 Forty head of something to a Bral Reach butcher. *Complication:* they are smarter than advertised. One of them can talk. It has opinions about the arrangement.
@@ -73,7 +73,7 @@ Vaelros boards for a liability sweep. Full detail in `House Windsong.md`.
 ---
 
 ## M3 — SOMEONE WHO WAS LOOKING (level 6)
-**[ORENA]'s first find**, and it should come early enough that the thread feels real rather than promised.
+**Orena's first find**, and it should come early enough that the thread feels real rather than promised.
 
 A name surfaces in a Verge settlement. One of her guild crew is alive, has been alive the whole time, and **has been looking for her.** Not thriving, not broken. Waiting, and working, and asking every ship that comes through.
 
@@ -140,6 +140,6 @@ The trail ends at Aeravellis.
 
 ## What Tier 1 has set up by level 9
 
-The Drift is a pattern, not an error. Senna and Delverane are allies-in-waiting. Aeris is owed a favour. Aeravellis is exposed and protected. Vaelros's priorities are known and his reason isn't. [ORENA] has found one person and heard one version of the story. The crew are somewhere in the low 300s on a Board that doesn't count.
+The Drift is a pattern, not an error. Senna and Delverane are allies-in-waiting. Aeris is owed a favour. Aeravellis is exposed and protected. Vaelros's priorities are known and his reason isn't. Orena has found one person and heard one version of the story. The crew are somewhere in the low 300s on a Board that doesn't count.
 
 And nobody has said the word Amberwake.

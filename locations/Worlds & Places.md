@@ -109,7 +109,7 @@ Approach in silence and the hull rings. Every ship rings at a different pitch. O
 
 **Secret:** the Shoal resonates in sympathy with nearby currents, so its pitch *changes* when a current shifts. It has been changing.
 **Danger:** prolonged exposure gives everyone aboard the same dream. This is unsettling and not harmful and nobody enjoys it.
-**Opportunity:** **[ORENA]'s place.** She can hear what it's doing, and she is the only person who can put words to it. Give her this in Tier 1.
+**Opportunity:** **Orena's place.** She can hear what it's doing, and she is the only person who can put words to it. Give her this in Tier 1.
 
 ---
 

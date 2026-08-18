@@ -98,7 +98,7 @@ Prices are PHB standard unless noted. The Float Market carries everything mundan
 | Scrivener's kit | 30 gp | Forms, stamps, and the correct forms |
 | Charter copy, certified | 12 gp | Meech will insist |
 | Spyglass | 1,000 gp | Standard PHB |
-| Sound-slate | 75 gp | A wax plate that holds one minute of recorded sound. **[ORENA] will want several.** |
+| Sound-slate | 75 gp | A wax plate that holds one minute of recorded sound. **Orena will want several.** |
 
 ## Apothecary & Medical
 

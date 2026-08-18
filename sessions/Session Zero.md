@@ -1,114 +1,40 @@
-# Session Zero #1 — Characters & Setting
+# Session Zero -- Recap (played)
 
-**This document is questions, not answers.** Everything below belongs to the players. Where I've listed options, they're prompts to react against, not a menu with a correct choice. Whatever they say at this table becomes canon that night, and the rest of the folder gets updated to match.
+What the table actually decided. This is canon; where it contradicts older prep docs, this wins.
 
-Run it conversational. No dice.
+## The characters
 
----
+**Aerion Kyoya Windsong** (Priscilla) -- astral elf Samurai Fighter, 132, Merchant background, Neutral Good. Bosun, Quartermaster, and Cargo Handler. Overlooked youngest son of the Windsong trading house; the family is happy to have him off-world. His secret long game is to amass a fortune and buy out his father's company. Baby silver dragon Flurry (non-combat). Full sheet: `npcs/Aerion Windsong.md`.
 
-## Part 1 — What This Campaign Is (DM talks, ~20 min)
+**Orena** (Gabrielle) -- water genasi Bard/Paladin, ~30, from Leilon on the Sword Coast. Navigator, Helmsman-in-training, and Scout. The newest aboard, joined ~6 months ago. Lost her six-person guild, the Wayfinder Knot, chasing the Stillwater Vocalise, a song said to calm any raging sea; the song stilled her crew and their ship and they vanished, and she alone survived because she is of the water. Searching for them. Full sheet: `npcs/Orena.md`.
 
-Cover, briefly:
+**How they know each other:** they trained together as teens under Aerion's uncle Vaelren, the "space samurai." Orena wanted to learn the sword and came to his camp; she and Aerion shared a bunk and became lifelong friends. Years later, after Aerion's ship blew up, they re-met and he hired her.
 
-**The premise.** Aerion has been handed 50,000 gp by his father and told to build something at the frontier. His three brothers got their own ventures. One inheritance is on the line. [ORENA] is the person he called.
+## The situation
 
-**Wildspace and the Astral Sea.** Systems with void between them, floating in a silvery medium. 100 million miles a day. Air envelopes that last 120 days. Gravity planes you can walk on both sides of. The Astral holds memory, and enough travel along one path wears a groove in it that other ships can follow. Those grooves are the roads.
+Aerion joined this (non-family) crew about **5 years ago** because it looked like the most successful treasure outfit around. They found Flurry and a hoard early, then failed job after job into near-destitution. The old ship then **blew up** (the cook's nightly smoke next to pre-loaded cannons). Most of the fourteen-person crew lost faith and left; the loyal few stayed. Insurance money, some family funds, and 10,000 gp from Aerion's trust fund bought a new ship.
 
-**Who owns the roads.** The Pale Reach is a consortium of merchant houses that owns the maps. Aerion's family is inside it. That's the whole political situation in one sentence and it's enough for tonight.
+## The ship
 
-**Deities exist**, people go to their planes when they die, nobody in this campaign is going to make it a whole thing. Paladin oaths are to principles, not gods.
+Bought prior-service from **Danforth Certified Hulls**. A **Sturdy Trader**: AC 19 + Plating I, 250 HP, damage threshold 20, ~45 ft (Trim Rig +5). Coilworks Mk IV standard helm, 2 ballistae, blunt ram, Sureshot Rotator and Ready Magazine on the guns, 50 standard shots. No life support upgrades, no signature feature, no fittings. **Left unnamed** for now; they fly under Captain Vane's good name. Full detail: `ships/The Last Honest Deal.md`.
 
-**Tone.** Mostly a workplace comedy about found family. Some cosmic wonder. Occasional real danger. The humor comes from the characters, not from the setting being a joke.
+**Money:** 50,000 start, about 14,350 left after outfitting, plus 10,000 from Aerion's trust fund held as a separate reserve. Operating cost is all-inclusive: 500 gp/month for up to 6 crew, +100 per additional, deducted each session. Repairs 20 gp/HP. They have sworn off jobs longer than 60 days so they never test the 120-day air clock.
 
-**The two session zeroes.** Tonight is characters and setting. Next time is buying the ship and hiring the crew.
+## The crew (7 aboard)
 
----
+Aerion and Orena, plus five hired/kept at the yard: **Captain Estra Vane** (captain/helm), **Tack** (engineer/gunner), **Brassica "Brass" Thorngage** (medic/cook, roll a d4 each morning), **Finny Groles** (halfling; rigger/deckhand/backup gunner), **Ozgood "Oz" Hammerfall** (security/scout). Not hired but still in the world: Dr. Quill Ashworth, Sable Duskmantle, Reeve, Wysp, Morrow. Full detail: `npcs/Crew Roster.md`.
 
-## Part 2 — [ORENA] (Gabrielle)
+## The world, as the table learned it
 
-### Established from the earlier conversation
-Bard, probably College of Swords, going Paladin. Possibly from the Elemental Plane of Water. Came out of a **sailors' guild** that took itself privateering. Three to six months out, chasing a legend, and then the crew was gone and she was the only one left. She and Aerion knew each other before this.
+- Space is bubbles: each solar system is a marble; outside is Wildspace and the Astral Sea. The dead travel to their deity's plane or get stuck in the Astral. Ships cross at 100 million miles a day via a spelljamming helm, a magic throne you attune to and steer by thought.
+- Currents form where many minds have traveled the same path, and **navigational data is a traded currency**.
+- The system is governed by a **board of five founding houses (companies)**: Vassara (oldest, richest, route data), Tethyn (security and enforcement), Delverane (inventors, engineers, shipmakers), Nightbreeze (financiers and insurers), and a **vacant fifth seat** (a house collapsed years ago). Aerion's family is among those vying for it; what House Windsong offers is Priscilla's to decide.
+- Home base is the **Rock of Bral**, an asteroid city outside any house's rule, where contracts are handed out and the **Manifest Board** ranks crews by reputation. The crew are **privateers**, not pirates.
 
-### The one big fact to give her
-Her crew **scattered rather than died**. When their ship came apart, the people were thrown across the settled worlds. Some are alive somewhere. Some are not. She has no way of knowing which, and **she will find them one at a time, in ports, over the course of the campaign.**
+## First mission
+A courier run: deliver a crate of snails to another trading post for about 550 gp.
 
-Give her this early in the evening. Everything else she decides works better once she knows the search is real and ongoing rather than a distant finale.
-
-### Questions for her
-
-**The guild.** What was it called? What did it actually do before it went privateering, and why did it stop being enough? Is it still operating? Does anyone there still speak to her?
-
-**How do they treat her?** Are they kind about it in a way that's unbearable? Do they think she's grieving and need managing? Do they believe her at all? Does she want their help?
-
-**The crew.** How many were there? Name two or three. What were they to her: family, colleagues, cousins, teachers, a first love, a rival? She doesn't have to fill the whole roster tonight, but the ones she names now are the ones the campaign will care about.
-
-**The legend.** They went after something. What did they think it was, what did they think it was worth, and does she still want it or does she only want them?
-
-**Why she went out the first time.** She's suggested "theory into practice, first job out of school." Is that it, or was it something else?
-
-**Why she went out the second time.** This is the important one, and it's different from the first. What made staying impossible?
-
-**The logbook.** She catalogues by **sound** rather than by species. Ask her why. Ask what it looks like, what's in it, and whether she sings any of it. Her player was warned there might be campfire songs.
-
-**The oath.** Non-religious, sworn to a code. "Never leave crew behind" is the obvious one given her history, and if she picks it, it stops being a principle in this campaign and becomes a logistical commitment.
-
-**Flurry.** How does she feel about a silver dragon living on the ship?
-
-### Held loosely, mention only if she asks
-There is a place in the deep Astral where the **substance** of lost vessels settles: hulls, cargo, matter. Not souls, which go where souls go. Some people hear it as a signal or a song. This material is unsettled and being revisited. Don't build her character on it tonight.
-
----
-
-## Part 3 — Aerion (Priscilla)
-
-### Established from her notes
-Elf Fighter, Merchant background, youngest of **four brothers**. Father runs a large merchant house and has declared that only the worthiest son will inherit. Mother divorced the father when he was ten and left; the marriage was arranged and they despised each other. He's closest to a **young uncle** who was in the same position and walked away to be an adventurer. Scrupulous, hard to read, keeps to himself. Ideal conversation length: three and a half minutes. Favourite food is plain white rice. Bad cook, bad sense of direction. Writes a YA fantasy series about seafaring on the astral plane.
-
-**Flurry**, a silver dragon he found as an egg two years ago on a treasure hunt and reluctantly took responsibility for, and secretly adores, and dresses in bows.
-
-### Errata to fix tonight
-Her notes list his age as **232 at the top and 132 in the family list**. Pick one. They also say he "excelled the most out of the three" when there are four boys. And **Vaelren has no name.**
-
-### Questions for her
-
-**The name.** Is he still Kyoya? Is the family still Ootori? The register affects every other name in the family, so settle it before naming anyone else.
-
-**The brothers.** Sketches exist (see `House Windsong.md`) but they're hers to confirm or overwrite. The eldest is decent, responsible, and secretly doesn't want the company. The second is the real rival, a political operator who helps generously and always at a price. The third is drowning and cutting corners. Does that match what she imagined? What are they to him personally?
-
-**The father.** Arrogant, narcissistic, genuinely capable, and utterly convinced the system he profits from is correct. What is Aerion actually trying to get from him: the company, or an admission?
-
-**The mother.** Her family is House Nightbreeze, one of the five founding houses of the Pale Reach, which makes the divorce a failed dynastic merger that everyone on the board remembers. Has he spoken to her since he was ten? Does he want to?
-
-**The uncle.** He lost the same contest a generation ago and left. Is he bitter, relieved, or something he won't name? Why did he train Aerion to fight when nobody asked him to? And what's his name?
-
-**The treasure hunt two years ago.** He had a crew then. Who were they, and would any of them come back? Some of them could be at the yard next session.
-
-**Flurry.** Does anyone else know how much he loves her? Who would he admit it to?
-
-**Why [ORENA]?** He made the call. Of everyone he could have hired, why her?
-
-**What does winning look like?** If he takes the company, what does he do with it?
-
----
-
-## Part 4 — The Two of Them
-
-**How do they know each other?** Long enough to trust, or long enough to have history?
-
-**Who's in charge?** He owns the venture. She's the bosun. Neither is the captain, because the captain is arriving next session and neither of them picked her. How do they feel about that before it happens?
-
-**What do they each think this trip is for?** They should have different answers.
-
----
-
-## Part 5 — Housekeeping
-
-Levels and starting gear. The 50,000 is **venture capital, not personal wealth**; their own money is separate and much smaller. Session cadence. Lines and veils. Confirm the tone split (mostly warm, sometimes eerie, occasionally dangerous) and confirm that cosmic material will be uncanny rather than frightening.
-
-Confirm the two mechanical facts that will shape their choices next session: **piloting requires an attuned spellcaster and takes concentration**, and **a hired helmsman costs roughly 18,000 gp a year**.
-
----
-
-## After the Session
-
-Update `Campaign Overview.md`, `House Windsong.md`, and `Crew Roster.md` with whatever they decided, and replace the placeholders everywhere. Then read `The Yard.md`.
+## Still open
+- Aerion's weapon and one uncommon magic item; Orena's, likewise.
+- What House Windsong offers for the fifth seat (Priscilla).
+- Whether the ship ever gets a name.

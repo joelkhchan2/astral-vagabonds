@@ -1,4 +1,6 @@
-# The Yard — Session 0 #2
+# The Yard — Session 0 (played)
+
+> **Outcome (canon).** This scene ran at session 0. The crew bought a **Sturdy Trader** from the Danforth lot (build in `ships/The Last Honest Deal.md`), left her **unnamed**, and hired a lean crew of seven (`npcs/Crew Roster.md`). Not hired: Dr. Quill, Sable, Reeve, Wysp, Morrow, who stay in the world. The material below is the prep menu the session drew from; treat it as backstory and a source of future NPCs, not as pending choices.
 
 One location, rolling beats. They arrive with 50,000 gp and leave with a ship, a crew, a name, and a problem.
 
@@ -119,7 +121,7 @@ Visibly built to be attacked and survive it.
 | First provisions | ~700 |
 | **Reserve for payroll** | **1,000/month if a PC flies, 2,500 if they hire** |
 
-**The lesson they should reach on their own:** the purchase is a one-time number and the payroll is forever. A hull at 20,000 and a Coilworks helm at 8,000 leaves about 22,000, which is **two years of runway if [ORENA] flies and about nine months if they hire a helmsman**. Let Aerion find that. Don't say it.
+**The lesson they should reach on their own:** the purchase is a one-time number and the payroll is forever. A hull at 20,000 and a Coilworks helm at 8,000 leaves about 22,000, which is **two years of runway if Orena flies and about nine months if they hire a helmsman**. Let Aerion find that. Don't say it.
 
 **The Deepline Survey Suite at 9,000** is the correct long-term purchase and they cannot afford it today. Show it to them anyway.
 
@@ -180,7 +182,7 @@ Present all three options explicitly. **The third one is the real question.**
 > "I've flown worse than whatever you're buying. Considerably worse."
 *Ask him:* what "worse" means. He'll tell a genuinely great story and it will be true and it will also be a warning nobody in the room clocks as one yet.
 
-**[ORENA] FLIES** — free. Saves roughly **18,000 gp a year** and triples the runway.
+**Orena FLIES** — free. Saves roughly **18,000 gp a year** and triples the runway.
 *Complication:* the helm requires concentration. Every voyage she flies, she is furniture. Every fight she joins instead, the ship isn't moving.
 
 > Do not steer this. Lay out the numbers and let them argue. Whatever they decide, **plant Wysp as the long-term answer** — the kid who wants it, can't do it yet, and grows into the chair around level 9.
