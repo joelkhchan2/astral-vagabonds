@@ -27,7 +27,7 @@ A brass grille in a basalt wall with a queue in front of it. This is where chart
 **Clerk: DEPUTY REGISTRAR HALVAR MEECH**, half-orc, forty years in the job, immune to charm, bribery, and enthusiasm. He is not corrupt. He is not helpful. He is *correct*, and he will explain at length which form they should have used.
 
 **One secret:** Meech has noticed that three frontier routes were quietly delisted last year with no incident reports attached. It bothers him. He hasn't told anyone because nobody has asked him a question he considers well-formed.
-> **That's a Tier 1 Drift breadcrumb sitting behind a service window, and it's free the moment a player is polite to a bureaucrat.**
+> **That's a Tier 1 Guttering breadcrumb sitting behind a service window, and it's free the moment a player is polite to a bureaucrat.**
 
 **One danger:** the CIV can suspend a charter faster than anyone can appeal it. House Obhal knows this.
 **One opportunity:** Meech respects competence and paperwork, in that order, and Priscilla has both.

@@ -39,7 +39,7 @@ Neutral ground and the densest traffic in known space, anchored on the **Rock of
 ## The Sallow Chain — the core
 Nine well-charted systems strung along the oldest and deepest current in known space. Highest traffic, most stable, most profitable, and the least interesting place in Wildspace. **House Vassara's territory**, and where Aeric runs the family's core route.
 
-The Chain is fine. The Chain will be fine for a long time. That's precisely why nobody in the Chain believes the Drift is real.
+The Chain is fine. The Chain will be fine for a long time. That's precisely why nobody in the Chain believes the Guttering is real.
 
 ## The Tollmarch — the chokepoint
 Contested space between two current systems, thick with hazards, and the only viable shortcut from the Chain to everything outward. **House Tethyn's territory.** Toll gates, patrol frigates, salvage rights, and a long tradition of piracy that Tethyn profits from suppressing.
@@ -72,7 +72,7 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 
 **Planar reach:** none, and they consider this a virtue. Strictly Material, strictly Wildspace, strictly what has always worked.
 
-**Drift stance:** denial, hardening into doubling down. The archive is correct. The operators are incompetent.
+**Guttering stance:** denial, hardening into doubling down. The archive is correct. The operators are incompetent.
 
 **Fleet:** twelve Heavy-class survey hulls, immaculately maintained, rarely flown.
 
@@ -83,7 +83,7 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 
 **Planar reach:** mercenary recruitment through Outer Planar contacts. They hire things that are not from here and are careful about who knows.
 
-**Drift stance:** opportunity, openly. Dangerous routes make security valuable. They want the Drift to continue exactly long enough to expand their enforcement remit and not one day longer.
+**Guttering stance:** opportunity, openly. Dangerous routes make security valuable. They want the Guttering to continue exactly long enough to expand their enforcement remit and not one day longer.
 
 **Fleet:** thirty-one Route Warden patrol hulls, mostly Sturdy Traders, plus four Dreadnoughts nobody has seen in the same place.
 
@@ -96,11 +96,11 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 
 **Planar reach:** a waystation on the **Elemental Plane of Water** and two survey outposts on the Windward Edge. The most planar-active founding house by a wide margin.
 
-**Drift stance:** adapt or die. They want to pivot to real-time collaborative data and cannot get the votes.
+**Guttering stance:** adapt or die. They want to pivot to real-time collaborative data and cannot get the votes.
 
 **Fleet:** nineteen Swift Traders and Cutters, cheap and fast and constantly out.
 
-## HOUSE MORRAINE — the exposure
+## HOUSE NIGHTBREEZE — the exposure
 **Net worth ~77,000,000 gp**, with **underwriting exposure near 400,000,000** · **Territory: none** · **Board function:** finance and insurance
 
 **Business:** the investment portfolio, the banking relationships, and the insurance book that covers most of chartered Wildspace, including the crew's 1,800 gp annual policy.
@@ -109,7 +109,7 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 
 **Planar reach:** banking relationships with the **mercane**, whose interplanar trade network predates the Reach by a very long time and does not particularly respect it.
 
-**Drift stance:** follow the money. Currently backing Vassara's denial because subscriptions still pay. Will pivot the instant claims outrun premiums, and they will see that turn coming before anyone else at the table.
+**Guttering stance:** follow the money. Currently backing Vassara's denial because subscriptions still pay. Will pivot the instant claims outrun premiums, and they will see that turn coming before anyone else at the table.
 
 **This is Aerynna's house.** Her personal holding within it is roughly **6,000,000 gp**, independent of the family trust, and it is hers outright.
 
@@ -124,7 +124,7 @@ The fifth founding house. Cartographers, like Vassara, but outward-facing: they 
 
 The official account is mismanagement. Vassara's position is that Carrow overextended into worthless space and paid for it.
 
-> **House Carrow was the Drift's first casualty, four decades before anyone had a word for it.**
+> **House Carrow was the Guttering's first casualty, four decades before anyone had a word for it.**
 >
 > The vacancy the entire family plot revolves around exists because a road stopped existing. Nobody connected it, because at the time there was nothing to connect it to.
 >
@@ -165,7 +165,7 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 
 # 5. QUICK REFERENCE
 
-| House | Worth | Territory | Sells the crew | Drift stance |
+| House | Worth | Territory | Sells the crew | Guttering stance |
 |---|---|---|---|---|
 | Vassara | 84M | Sallow Chain | The chart subscription | Denial |
 | Nightbreeze | 77M | none, insures everything | The insurance policy | Follow the money |

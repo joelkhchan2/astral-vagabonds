@@ -28,9 +28,9 @@ This is the monopoly argument in every industry -- compelling enough to be defen
    - Minor route variants or shortcuts: decent pay (200-500 GP)
    - New routes to uncharted systems: significant pay (500-2,000+ GP)
    - First survey data of an unknown system: major pay (2,000-10,000 GP)
-   - Anomaly reports (Drift events, current shifts, hazard discoveries): variable, often premium rates because the Pale Reach needs this data to maintain their archive accuracy
+   - Anomaly reports (Guttering events, current shifts, hazard discoveries): variable, often premium rates because the Pale Reach needs this data to maintain their archive accuracy
 
-   **The irony for Estra:** She sells data to the Pale Reach -- the organization that destroyed her fleet -- because it's one of the few reliable income streams for a bottom-ranked charter vessel. She also files copies of everything under a pseudonym in her private open-data archive. She's feeding them AND building the thing that will eventually replace them.
+   **The irony for Estra:** She sells data to the Pale Reach -- the organization that destroyed her fleet -- because it's one of the few reliable income streams for a bottom-ranked charter vessel. She also files copies of everything under a pseudonym in her own private chart of the living sky. She's feeding them AND quietly rebuilding the method that will eventually replace them.
 
 3. **Toll Routes** -- Certain high-value routes (shortcuts, safe passages through dangerous regions) are maintained exclusively by the Pale Reach. Using them costs a toll. Enforcement: Pale Reach patrol ships at route entry points, plus CIV cooperation (unlicensed use of a toll route is a charter violation).
 
@@ -44,7 +44,7 @@ The *Last Honest Deal* sells route data to the Pale Reach regularly. It's unglam
 
 This creates a natural recurring scene: docking at a port, Aerion negotiating with a Pale Reach data broker over the value of their latest route logs. The data brokers are mid-level Pale Reach employees -- not villains, just people doing a job. Some are pleasant. Some are condescending toward a bottom-ranked crew. All of them work for the organization that destroyed Estra's life, and none of them know it.
 
-**Gameplay hook:** As the Drift worsens, the Pale Reach's appetite for anomaly data increases dramatically. The crew's route logs become more valuable -- especially because they travel routes nobody else does. This creates a tension: the worse the Drift gets, the more money the crew makes selling data to the Pale Reach, and the more the Pale Reach depends on operators like them. The power dynamic shifts slowly.
+**Gameplay hook:** As the Guttering worsens, the Pale Reach's appetite for anomaly data increases dramatically. The crew's route logs become more valuable -- especially because they travel routes nobody else does. This creates a tension: the worse the Guttering gets, the more money the crew makes selling data to the Pale Reach, and the more the Pale Reach depends on operators like them. The power dynamic shifts slowly.
 
 ---
 
@@ -59,19 +59,19 @@ Each founding family holds a permanent seat. These families have held power for 
 
 1. **House Vassara** -- The oldest founding family. Cartographers by tradition. They view the Pale Reach as a legacy institution and themselves as stewards. Conservative, procedural, resistant to change. Currently the most powerful family on the Board.
    - *Vibe:* Old money. "We built this. We maintain this. You're welcome."
-   - *Drift stance:* Denial, then doubling down. The archives are fine. The problem is operator incompetence.
+   - *Guttering stance:* Denial, then doubling down. The archives are fine. The problem is operator incompetence.
 
 2. **House Tethyn** -- The military-adjacent family. They handle route security, toll enforcement, and patrol contracts. Their wealth comes from the toll routes and insurance partnerships. The family most likely to use force.
    - *Vibe:* Corporate security meets private military. Polite until they're not.
-   - *Drift stance:* Opportunity. If routes are dangerous, security is worth more. They want the Drift to continue just long enough to expand their enforcement contracts.
+   - *Guttering stance:* Opportunity. If routes are dangerous, security is worth more. They want the Guttering to continue just long enough to expand their enforcement contracts.
 
-3. **House Delverane** -- The innovators. Youngest founding family (joined ~80 years ago). They handle new route acquisition, frontier exploration, and technology. The family that actually employs most of the data brokers the crew interacts with. Most likely to see the Drift as a genuine problem requiring adaptation.
+3. **House Delverane** -- The innovators. Youngest founding family (joined ~80 years ago). They handle new route acquisition, frontier exploration, and technology. The family that actually employs most of the data brokers the crew interacts with. Most likely to see the Guttering as a genuine problem requiring adaptation.
    - *Vibe:* Tech startup energy trapped inside a legacy institution. Frustrated. Smart. Potentially sympathetic.
-   - *Drift stance:* Adapt or die. They want to pivot toward real-time data and open collaboration, but can't get the votes on the Board.
+   - *Guttering stance:* Adapt or die. They want to pivot toward real-time data and open collaboration, but can't get the votes on the Board.
 
 4. **House Nightbreeze** -- The financiers. They manage the Pale Reach's investment portfolio, insurance partnerships, and banking relationships. They don't care about navigation per se -- they care about revenue. Whatever model makes money, they'll support.
    - *Vibe:* Venture capital. Spreadsheets. "What's the margin on that?"
-   - *Drift stance:* Follow the money. Currently backing House Vassara's denial because the subscription model is still profitable. Will pivot the instant the numbers shift.
+   - *Guttering stance:* Follow the money. Currently backing House Vassara's denial because the subscription model is still profitable. Will pivot the instant the numbers shift.
 
 5. **[FIFTH SEAT -- VACANT]** -- Contested, not yet filled. **House Windsong** (Aerion's family) is one of the contenders -- see `House Windsong.md` for the family and the fifth-seat game.
 
@@ -114,7 +114,7 @@ The Pale Reach is part of the furniture. The crew sells them data, pays their to
 **Subtle seeds:** Estra turns down a lucrative Pale Reach contract with no explanation. A data broker mentions that the Pale Reach is "very interested" in anomaly data lately. A toll route the crew uses regularly has a price increase.
 
 ### Tier 2 (Levels 9-13): The Cracks Show
-The Drift worsens. The Pale Reach's data becomes less reliable. The crew's anomaly reports become more valuable. Priscilla starts noticing patterns -- the Pale Reach is paying premium rates for Drift data but not sharing what they're learning. Their public messaging says everything is fine while their buying behavior says otherwise.
+The Guttering worsens. The Pale Reach's data becomes less reliable. The crew's anomaly reports become more valuable. Priscilla starts noticing patterns -- the Pale Reach is paying premium rates for Guttering data but not sharing what they're learning. Their public messaging says everything is fine while their buying behavior says otherwise.
 
 **Key moments:**
 - The crew discovers that the *Last Honest Deal*'s CIV ranking is being actively sandbagged by someone inside the CIV. Priscilla traces it to Pale Reach influence.
@@ -123,25 +123,25 @@ The Drift worsens. The Pale Reach's data becomes less reliable. The crew's anoma
 - The Pale Reach approaches Priscilla directly (not through her family) with an offer: better data rates, CIV ranking improvement, access to premium routes -- in exchange for "preferred partner" status. Essentially: become our asset.
 
 ### Tier 3 (Levels 14-17): The Fight
-The Drift is undeniable. The Pale Reach is fracturing internally. House Delverane pushes for adaptation. House Vassara and House Tethyn double down on control. The Board of Ledgers is divided.
+The Guttering is undeniable. The Pale Reach is fracturing internally. House Delverane pushes for adaptation. House Vassara and House Tethyn double down on control. The Board of Ledgers is divided.
 
 **Key moments:**
-- The crew's open navigation network begins gaining traction. Other independent ships start sharing data through it. The Pale Reach notices.
+- The crew's nomadic network begins gaining traction. Other independent ships start sharing data through it. The Pale Reach notices.
 - The Assessor (Kael Duskwright) takes action against the network -- regulatory pressure, CIV complaints, possibly direct sabotage.
 - House Delverane secretly reaches out to the crew (or to Priscilla specifically) to discuss collaboration. They want to reform the Pale Reach from within. Can they be trusted?
 - The crew's relationship with the Pale Reach data brokers shifts. Some brokers quietly start feeding data back to the crew's network. Others become hostile.
 - If Priscilla's family is connected to the Pale Reach, this is where family loyalty vs. crew loyalty becomes acute.
 
 ### Tier 4 (Levels 18-20): The Reckoning
-The new current system is forming. The open navigation network is the only viable model for the post-Drift Astral. The Pale Reach faces its existential choice.
+The method is proven and the sky begins to relight where it takes hold. A nomadic, moving network is the only viable way to navigate a living sky, and a network that moves cannot be tolled or owned. The Pale Reach faces its existential choice.
 
 **Possible endings (not mutually exclusive):**
-- **Reform:** House Delverane leads a restructuring. The Pale Reach becomes a platform partner rather than a monopoly. They contribute their archive to the open network in exchange for a governance role. Priscilla negotiates the terms.
-- **Capture:** The Pale Reach tries to absorb the open network. Legal maneuvering, hostile acquisition, or regulatory capture. The crew has to fight -- politically, legally, or literally -- to keep the network open.
+- **Reform:** House Delverane leads a restructuring. The Pale Reach becomes a platform partner rather than a monopoly. They contribute their archive to the nomadic network in exchange for a governance role. Priscilla negotiates the terms.
+- **Capture:** The Pale Reach tries to absorb the nomadic network. Legal maneuvering, hostile acquisition, or regulatory capture. The crew has to fight -- politically, legally, or literally -- to keep the network open.
 - **Collapse:** The Pale Reach can't adapt. Their archive is obsolete, their toll routes are dissolving, their business model is dead. They fragment. Some families adapt independently, others cling to power and fail. The crew picks up the pieces.
-- **Coexistence:** The Pale Reach and the open network exist in tension. The Pale Reach provides curated, premium data for clients who want quality assurance. The open network provides real-time, crowd-sourced data for everyone else. Neither wins completely. This is the most realistic ending.
+- **Coexistence:** The Pale Reach and the nomadic network exist in tension. The Pale Reach provides curated, premium data for clients who want quality assurance. The nomadic network provides real-time, crowd-sourced data for everyone else. Neither wins completely. This is the most realistic ending.
 
-The specific ending depends on player choices, NPC alliances, and how the Drift resolves. Multiple endings should be viable.
+The specific ending depends on player choices, NPC alliances, and how the Guttering resolves. Multiple endings should be viable.
 
 ---
 
@@ -149,11 +149,11 @@ The specific ending depends on player choices, NPC alliances, and how the Drift 
 
 **The Broker:** Possible connection TBD. The Broker could be: a rogue Pale Reach operative, a former Board member, someone who profits from the tension between the Pale Reach and independents, or completely unrelated. The Broker's faceless nature makes any connection plausible.
 
-**The Vane Compact:** The Pale Reach destroyed it. The Compact's philosophy is the cure for the Drift. This is the central irony of the campaign.
+**The Vane Compact:** The Pale Reach destroyed it. The Compact's nomadic method is the prototype of the cure for the Guttering. This is the central irony of the campaign.
 
-**Gabrielle's Lost Crew:** Were they displaced on a route the Pale Reach later acquired and closed? Were they charting for an independent outfit that got squeezed? The Pale Reach's consolidation may have indirectly caused the conditions that led to their displacement.
+**Orena's Lost Crew:** they were following the living roads (the same method) when the region they were in guttered and sealed them off. A house stripping that region for profit may have accelerated it -- tying the cartel's practice directly to her loss.
 
-**The Empty Frequency:** The ancient navigation instrument broadcasting from deep Wildspace. The Pale Reach wants it. Whoever controls that data during the transition period controls the narrative about how the new Astral works. The crew wants it for the open network. The Pale Reach wants it for the archive.
+**The Empty Frequency:** The ancient navigation instrument broadcasting from deep Wildspace. The Pale Reach wants it. Whoever controls that data during the transition period controls the narrative about how the new Astral works. The crew wants it for the nomadic network. The Pale Reach wants it for the archive.
 
 ---
 

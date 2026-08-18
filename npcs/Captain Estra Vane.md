@@ -11,6 +11,8 @@ Aggressively, almost pathologically competent. Doesn't explain herself often, an
 
 ## The Vane Compact (Backstory)
 
+> **Reframed by `campaign/Story Spine.md`.** The Compact was the **first fleet to try the nomadic method** -- flying with the living sky, following the currents and the pods, sharing what they charted. The right instinct, a generation too early. It failed for two reasons, not one: the cartel crushed it (below), *and* it was scientifically premature -- they had the art of following the living roads but not the understanding of why the sky moved, so some of her crews were lost to guttering zones (the way Orena's crew was). Estra's double guilt -- the cartel destroyed her fleet, and her own unfinished method killed some of her own -- is the heart of her arc. The crew completes it by supplying the missing science.
+
 ### What She Built
 Fifteen years ago, Estra was **First Captain of the Vane Compact** -- a fleet of seven ships that operated as the most respected independent exploration-and-trade outfit in the Bral Reach. Not military, not corporate -- independent. They charted new routes, made first contact with uncontacted species, mapped uncharted systems, and sold the data to the CIV.
 
@@ -37,7 +39,7 @@ Left with nothing, she clawed her way back into a captain's chair (see The Broke
 
 ### The Seven Compact Captains (Recurring NPC Pool)
 1. **Estra Vane** -- herself. Circled on her chart. Still fighting.
-2. **[DEAD]** -- Circumstances TBD. Possibly connected to the Drift.
+2. **[DEAD]** -- Circumstances TBD. Possibly connected to the Guttering.
 3. **[DEAD]** -- Circumstances TBD. Possibly connected to Gabrielle's lost crew.
 4. **[DETAINED]** -- Imprisoned on fabricated charges. Jailbreak side quest. Justice theme.
 5. **[BOUGHT OUT]** -- Now works for the Pale Reach. Ashamed? Defiant? Both?
@@ -62,7 +64,7 @@ The Broker operates in the gaps between organizations. Trades in leverage, not c
 ### Broker Story Hooks
 - When does favor #2 get called in? What does it cost?
 - What was favor #1? (Someone out in the world was there and knows. Finding and unlocking that person is its own arc.)
-- Is the Broker connected to the Pale Reach? The Drift? Gabrielle's lost crew?
+- Is the Broker connected to the Pale Reach? The Guttering? Gabrielle's lost crew?
 - Can Estra clear the debt before it's called in?
 - When the crew finds out about the favors, do they stay?
 
@@ -77,7 +79,7 @@ Estra is **rebuilding the Compact** -- slowly, quietly, from the bottom of the M
 She hasn't told anyone. She thinks it's her burden. She's wrong -- it's the crew's story too.
 
 ### The Locked Chest
-In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have gone dark (Drift connection). Seven small markers -- one for each former captain.
+In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have gone dark (Guttering connection). Seven small markers -- one for each former captain.
 
 **If the PCs find this chart, it recontextualizes the entire campaign.**
 

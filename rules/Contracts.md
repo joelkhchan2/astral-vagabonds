@@ -2,7 +2,7 @@
 
 Two kinds of work. **Jobs** pay the bills and generate crew stories. **Main Missions** move the plot and run in sequence.
 
-Mechanics in `Rules & Systems.md`. Every contract states a **payout, duration in days, and tonnage**, and the burn comes off the other side at 1,000 gp/month with a PC flying or 2,500 with a hired helmsman.
+Mechanics in `Rules & Systems.md`. Every contract states a **payout, duration in days, and tonnage**, and the operating cost comes off the other side: an all-inclusive 500 gp/month for up to six crew, +100 per additional (600/month for the crew of seven).
 
 > **Tiers 2 through 4 are not written.** The Tier 1 spine below carries them from level 5 to 8 and sets up every reveal the campaign needs. Where it goes after that is the conversation we still owe each other.
 
@@ -35,7 +35,7 @@ Bulk grain, Bral to a Chain waystation. Genuinely routine. *Complication:* none.
 Recover what's recoverable from a wreck in the Tollmarch. *Complication:* Tethyn claims salvage rights in the Tollmarch and their claim is legally solid and morally nonsense.
 
 **The Long Cold** — 5,500 gp · 41 days · 18 tons
-Resupply three Verge colonies on one loop. *Complication:* the third colony is not where the chart says. It's four hours off. Nobody can explain it and the colonists have stopped mentioning it to visitors. **First Drift symptom. Play it as mild confusion.**
+Resupply three Verge colonies on one loop. *Complication:* the third colony is not where the chart says. It's four hours off. Nobody can explain it and the colonists have stopped mentioning it to visitors. **First Guttering symptom. Play it as mild confusion.**
 
 **Escort** — 6,000 gp · 38 days · 0 tons
 Shepherd two unarmed haulers through the Tollmarch. *Complication:* the thing that hits them is a boarding hull with grappling jaws, and it breaks off the moment it sees the crew is armed. It does not want a fight. It wants easy cargo. *(Seed for Aeravellis. Do not explain it.)*
@@ -57,7 +57,7 @@ Eight missions, levels 5 to 8, in order. Space them with two or three Jobs apiec
 ## M1 — FIRST JOB (level 5)
 **The shakedown.** A modest haul out to a Verge colony, taken because they need the money and the Board entry.
 
-**What happens:** the run takes a day and a half longer than the charts allow. The port is *fine*, the people are *fine*, and the only thing wrong is arithmetic. Nobody uses the word Drift. Nobody uses any word for it.
+**What happens:** the run takes a day and a half longer than the charts allow. The port is *fine*, the people are *fine*, and the only thing wrong is arithmetic. Nobody uses the word Guttering. Nobody uses any word for it.
 
 **What it plants:** the first symptom, played for mild confusion rather than alarm.
 **What it delivers:** completion posts them on the Manifest Board at **348th out of 351**. Finny prints it and throws a party. The three ships below them are a derelict, an impounded smuggler, and a vessel that has been on fire for six months.
@@ -140,6 +140,6 @@ The trail ends at Aeravellis.
 
 ## What Tier 1 has set up by level 9
 
-The Drift is a pattern, not an error. Senna and Delverane are allies-in-waiting. Aeris is owed a favour. Aeravellis is exposed and protected. Vaelros's priorities are known and his reason isn't. Orena has found one person and heard one version of the story. The crew are somewhere in the low 300s on a Board that doesn't count.
+The Guttering is a pattern, not an error. Senna and Delverane are allies-in-waiting. Aeris is owed a favour. Aeravellis is exposed and protected. Vaelros's priorities are known and his reason isn't. Orena has found one person and heard one version of the story. The crew are somewhere in the low 300s on a Board that doesn't count.
 
 And nobody has said the word Amberwake.

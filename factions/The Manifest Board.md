@@ -4,7 +4,7 @@ The CIV's public ranking of every chartered vessel, updated quarterly and posted
 
 **351 chartered vessels.** New charters start **unranked**. The crew appears at **348th** after their first completed job, and Finny throws a party.
 
-> **Why this matters more than it looks.** The Board is the one objective measure of an independent crew, and Aerion's family dismisses it because it ranks independent operators and they don't consider those real. Simply climbing it never changes their minds. **Making the Board matter does**, and that turns out to be the same project as the open navigation network, which is also the lever that eventually lets Aerion take over the company. See `House Windsong.md`.
+> **Why this matters more than it looks.** The Board is the one objective measure of an independent crew, and Aerion's family dismisses it because it ranks independent operators and they don't consider those real. Simply climbing it never changes their minds. **Making the Board matter does**, and that turns out to be the same project as the nomadic living-sky network, which is also the lever that eventually lets Aerion take over the company. See `campaign/Story Spine.md` and `House Windsong.md`.
 
 ---
 
@@ -33,7 +33,7 @@ These six are the crew's immediate neighbourhood for a long time, and they shoul
 
 They will not meet these people for a long time. They should hear the names constantly.
 
-**1. *Sallow Crown*** — House Vassara flagship. Runs the deepest, oldest, safest corridor in the Chain and has been first for nineteen years. Genuinely excellent, genuinely boring, and structurally incapable of noticing anything is wrong. **When the Drift finally reaches the Chain, the *Sallow Crown* will be the last to admit it.**
+**1. *Sallow Crown*** — House Vassara flagship. Runs the deepest, oldest, safest corridor in the Chain and has been first for nineteen years. Genuinely excellent, genuinely boring, and structurally incapable of noticing anything is wrong. **When the Guttering finally reaches the Chain, the *Sallow Crown* will be the last to admit it.**
 
 **2. *Tollkeeper*** — Tethyn's flagship patrol Dreadnought. Ranked partly on enforcement contracts, which is a category Tethyn lobbied to have added. Captained by **Warden-Commander Isolde Rask**, who is not corrupt, is not cruel, and is the single most dangerous person in the Tollmarch.
 

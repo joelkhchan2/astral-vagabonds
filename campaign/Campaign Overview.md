@@ -46,13 +46,13 @@ The humor comes from the characters, never from the setting being a joke. Cosmic
 
 Three things running at once, at different speeds.
 
-**The Drift (world, slow).** Astral currents are formed by accumulated travel and they are coming apart. Consolidation killed route diversity, a generation of conduits is dying, and underneath both a natural phase shift is reorganizing the whole system. Civilization survives this only by rebuilding a distributed, openly shared navigation network. Full detail in `Plot Threads.md`.
+**The Guttering (world, slow).** The Astral is a living ocean and the roads are a living ecosystem. Great whales (kindori) circulate the radiance that keeps systems lit; their predators kept them migrating. Civilization exterminated the predators, so the whales overgraze and stop moving, the radiance stops circulating, and stars gutter out (cut off, not killed). A cascade we caused, and reversible. The cure is learning to move *with* the living sky rather than own it. Full concept in `Story Spine.md`; hooks in `Plot Threads.md`.
 
 **The Windsong Game (family, medium).** Aerion is the overlooked youngest son of a trading house that is competing for a vacant seat on the board of founding houses. The family barely notices him, which is exactly the cover he needs: he is quietly amassing a fortune to buy out and take over his father's company on his own terms. Full detail in `House Windsong.md`.
 
 **The Lost Crew (personal, episodic).** Orena's guild, the Wayfinder Knot, was stilled and vanished by the Stillwater Vocalise. She does not know whether they are dead or scattered, and she means to find out, following the tales and the currents one lead at a time.
 
-These converge. The open navigation network is simultaneously the thing that saves Wildspace, the thing that lets Aerion beat his father, and the thing that makes finding the rest of the lost possible.
+These converge. Learning to move with the living sky -- the nomadic method -- is simultaneously the thing that saves Wildspace, the thing that lets Aerion remake his father's company, and the navigation skill that makes finding Orena's lost crew possible.
 
 ## Design Principles
 
@@ -67,7 +67,7 @@ These converge. The open navigation network is simultaneously the thing that sav
 
 Hold this line. It was drawn deliberately.
 
-**DM territory:** the world, its institutions, the Pale Reach, the CIV, the Drift, the Locker's physics, every NPC, Vaelros's scheme, prices, rules, and the contents of any given port.
+**DM territory:** the world, its institutions, the Pale Reach, the CIV, the Guttering, the Locker's physics, every NPC, Vaelros's scheme, prices, rules, and the contents of any given port.
 
 **Player territory:** both PCs' motivations, relationships, inner lives, what they want, what they believe, how their families and guilds treat them, and what their losses mean to them.
 
@@ -109,6 +109,6 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 |---|---|
 | `Crew Roster.md` | The seven aboard, their roles, and who was not hired |
 | `Captain Estra Vane.md` | The captain nobody chose |
-| `Plot Threads.md` | The Drift, the Trial, the scattered crew, and what we cut |
+| `Plot Threads.md` | The Guttering, the Trial, the scattered crew, and what we cut |
 | `Potential Endings.md` | Five shapes for the finale |
 | `Crew Comedy Bits.md` | Running gags, cutaways, quiet moments |

@@ -66,7 +66,7 @@ They communicate the way ships communicate: creaks, hums, resonance, the settlin
 
 And here is what that means:
 
-The Drift lore states that the phase shift has happened before on geological timescales, that previous civilizations survived because they were distributed and adaptable, and that **nobody alive remembers the last one.**
+The Guttering has happened before, in the deep past, wherever a keystone was lost and the Shine stopped circulating. The peoples who survived were the ones who lived nomadically *with* the sky, and **nobody alive remembers the last time.**
 
 **These ships were there.** They flew the old current system. They watched it come apart and re-form. They persisted because they were remembered, and they are now the only witnesses to the exact event the campaign is about.
 
@@ -112,7 +112,7 @@ That is why the scattering makes no physical sense, why they landed so far apart
 
 **The instrument is still there.** Tier 3's mission to recover it — the object that gives the reformed CIV its standard and breaks the Pale Reach's subscription model — takes place **at the exact site where Orena lost her crew.**
 
-Her guild found the answer to the Drift years before anyone thought to ask the question. It cost them everything and nobody knew. She will be standing in the spot when the campaign's most important object is finally recovered, and she will recognize the place before anyone tells her.
+Her guild found the answer to the Guttering years before anyone thought to ask the question. It cost them everything and nobody knew. She will be standing in the spot when the campaign's most important object is finally recovered, and she will recognize the place before anyone tells her.
 
 ### Testimony and telemetry
 

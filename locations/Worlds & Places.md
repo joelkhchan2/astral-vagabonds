@@ -58,7 +58,7 @@ Hulls at every angle, none of them agreeing on which way is down, and the gravit
 
 # THE VERGE — the frontier
 
-*Thin, poor, long hauls, small colonies. Nobody's territory. Where Aerion was sent and where the Drift is visible.*
+*Thin, poor, long hauls, small colonies. Nobody's territory. Where Aerion was sent and where the Guttering is visible.*
 
 ## HALLOW'S REST
 **A mining colony** on a tidally locked moon: one face in permanent daylight, one in permanent dark, and the town strung along the terminator where it's survivable.
@@ -98,7 +98,7 @@ Arriving is the scene. The system is *right*. The star is right, the planet is r
 
 Cluttered, young, loud. Instruments everywhere. Everyone here is under forty and slightly manic. The best coffee in Wildspace for reasons nobody can explain.
 
-**Secret:** Delverane has been charting the *new* currents forming behind the failing ones, and they don't have a framework for what they're seeing.
+**Secret:** Delverane has been quietly charting where the currents still run strong and fresh, and where the kindori pods still seed the dark, and they have no framework for why some regions stay lit while others gutter. They're seeing the living circulation without understanding it.
 **Danger:** the Edge itself. Beyond the station, charts are suggestions.
 **Opportunity:** Aurel Delverane, the *Farthing*, and the alliance that eventually matters most.
 
@@ -143,7 +143,7 @@ House Carrow's corridor, beyond the far side of the Verge. It ran deep and fast 
 
 **There is nothing here to visit.** That's the entry. Charts of the Amberwake exist, in a sealed wing of the Stillpoint and in annotations on Estra's locked star chart, and they do not resolve to anywhere.
 
-**The Drift's first casualty**, four decades before anyone had a word for it. Tier 3.
+**The Guttering's first casualty**, four decades before anyone had a word for it. Tier 3.
 
 ---
 

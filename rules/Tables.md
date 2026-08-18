@@ -104,7 +104,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 11 | An old spacer swears they heard singing in the deep Astral and everyone buys them a drink to stop |
 | 12 | House Obhal is spending money it doesn't have on people it shouldn't need |
 
-**Rumours 1, 5, 7, 8, 10 are all the Drift.** None of them are labelled. Deal them like ordinary gossip.
+**Rumours 1, 5, 7, 8, 10 are all the Guttering.** None of them are labelled. Deal them like ordinary gossip.
 
 ---
 

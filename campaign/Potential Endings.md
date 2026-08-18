@@ -5,7 +5,7 @@ These are not mutually exclusive -- the final ending will likely combine element
 ## A: "The Launch"
 **Core emotion:** Hope, construction. "We built something."
 
-The campaign ends with the formal launch of the open navigation network as the new infrastructure of Wildspace. Climax is a summit where factions negotiate the network's governance. Aerion (Priscilla) architects the framework. Orena's (Gabrielle's) charting of the newly forming currents provides the breakthrough that makes the network viable, then she leads the expedition to recover her lost crew as proof of concept. Estra watches from the background as her principle -- "chart it, share it" -- is spoken by strangers who don't know where it came from.
+The campaign ends with the first nomadic living-sky route proven and adopted, and the fixed-toll grid beginning to fall. Climax is a summit where the houses negotiate a world that can no longer be tolled. Aerion (Priscilla) architects the new institution -- the first nomadic house. Orena's (Gabrielle's) mastery of reading the living sky is the breakthrough that makes it work, and she leads the expedition to recover her lost crew as proof it can be navigated. Estra watches from the background as the method she died for is finally spoken by strangers who don't know where it came from.
 
 Final scene: Vagabonds back on the ship. Network is live. "Where to?" Nobody knows. They pick a direction nobody's charted yet.
 
@@ -16,7 +16,7 @@ Final scene: Vagabonds back on the ship. Network is live. "Where to?" Nobody kno
 ## B: "The Rescue"
 **Core emotion:** Adventure, homecoming. "We went further than anyone thought possible, and we brought people home."
 
-The campaign's final arc is the most dangerous voyage anyone has ever attempted -- into Drift-shifted currents to recover Orena's lost crew. The network, the Compact rebuild, everything was building toward this. A small fleet navigates the new Astral using Orena's charts of the newly formed currents, Aerion's network, and ancient instruments. The voyage itself IS the network's launch -- real-time data from every ship transmitted back as they fly.
+The campaign's final arc is the most dangerous voyage anyone has ever attempted -- into a guttered dark region to recover Orena's lost crew. The method, the Compact reborn, everything was building toward this. A small fleet navigates a dead-dark stretch of sky by reading the living currents around it, with Orena at the front and the ancient instruments as compasses. The voyage itself proves the nomadic method at its limit: if you can reach the unreachable, you can reach anywhere.
 
 Orena finds her crew, alive and changed. Some come home, some stay -- she has to accept who they are now. Aerion's network gains more coverage of the new Astral from this single voyage than the Pale Reach's entire archive. Estra captains or is honored by the voyage she spent her whole career making possible.
 
@@ -55,7 +55,7 @@ Final scene: The crew at the viewport. Same silver void. Now they know it's list
 ## E: "The Fleet"
 **Core emotion:** Triumph, expansion. "We became something bigger than ourselves."
 
-Everything at once -- the Drift's most chaotic phase, the Pale Reach's last play, the Broker's final favor, and Orena's crew finally within reach. The Vagabonds marshal everything they've built: every alliance, every ship, every piece of data, every favor on Brass's napkins. Orena commands a multi-ship fleet action from the helm. Aerion's architecture makes it possible -- every ship in formation is a line in his Index of Accounts. Estra sees the Compact reborn, better than before.
+Everything at once -- the Guttering at its worst, the Pale Reach's last play, the Broker's final favor, and Orena's crew finally within reach. The Vagabonds marshal everything they've built: every alliance, every ship, every piece of data, every favor on Brass's napkins. Orena commands a multi-ship fleet action from the helm. Aerion's architecture makes it possible -- every ship in formation is a line in his Index of Accounts. Estra sees the Compact reborn, better than before.
 
 Final scene: The fleet charting routes in formation. Tack talking to the engine, Brass feeding the whole fleet off almost nothing, Oz writing thank-you notes to allied captains, Finny running the rigging and the gossip both. A new ship joins -- one of Orena's recovered crew at the helm. Estra's mug on the table, whether she's there or not.
 
