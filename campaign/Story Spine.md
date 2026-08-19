@@ -19,6 +19,7 @@ Canon does most of the work here.
 - **Wildspace is an ocean.** *Astral Adventurer's Guide*: "Wildspace systems are airless oceans teeming with space-dwelling life forms, including spores, space plankton, and larger creatures that resemble fish and aquatic mammals." There is a real food web out there.
 - **The Shine.** The ambient astral radiance that suffuses Wildspace (canon: kindori "feed on ambient astral radiance"). Call it **the Shine.** It is the living substrate of the sky. A system *shines across the Astral* -- is visible and findable from far away -- because it sits in healthy Shine. The **currents** (the roads, the valuable nav-data) are rivers of concentrated Shine worn by travel.
 - **Kindori** (canon space whales): eighty-foot, mouthless, telepathic, drift in pods, sing by pulsing light, "considered near-sacred by spacefarers." They **graze the Shine** -- and, crucially, they migrate: grazing the thick radiance of busy regions, then drifting to the barren dark and **seeding it** (their wake fertilizes thin Shine). In balance they *circulate* the Shine: pruning the overgrown, kindling the empty, keeping old stars lit and sparking new ones. They are the circulatory system of the sky, sacred for a reason nobody remembers.
+  - **Elder kindori (greater/mountain-whales).** Most kindori are eighty feet; a rare few are *ancient* -- centuries old, mountain-sized, solitary, so slow and vast that a ship reads them as terrain until they move. They are the campaign's cathedral-scale wonder: sighting one is a once-a-tier event, awe with a held breath. When one finally dies, it doesn't just vanish -- its body drifts, cools, and becomes a **whale fall**: a slow-blooming reef of Shine and scavengers and salvage and small strange life, an entire temporary ecosystem hanging in the dark around a corpse the size of a hill. (Real deep-sea whale falls sustain a habitat for decades; ours does it with light.) The whale fall is a **future set-piece** -- see below and `campaign/Tier 1.md` -- part graveyard, part miracle, part salvage job, entirely the found-family crew standing very small in front of something enormous. It also literalizes the ecology: even in death the whale is *seeding* the dark.
 - **Void scavvers** (canon): "apex predator of the deep dark, old and large enough to consider a spelljamming ship a meal." They cull kindori and, more importantly, the *fear* of them keeps the pods **moving.** Predators drive migration; migration is the whole engine.
 - **Navigation is by the living sky, not fixed charts.** Canon: Wildspace systems drift "like corks bobbing in water," and you navigate the Astral by radiance and directional awareness, not a static map. So a system's findability depends on the Shine around it -- not on anyone remembering it.
 
@@ -113,6 +114,15 @@ They do not learn any of the above. They experience **weather.** The arc of Tier
 Concrete session-1 beats and the cold open are in `sessions/Session 1.md`.
 
 ---
+
+## Tone guardrail (holds for the whole campaign)
+
+**PG to mild T.** The two players run toward wonder and mystery, not fear. Uncanny, awe-struck, occasionally genuinely sad -- **never true horror.** No zombies, demons, undead, gore, or body horror; the scares are all *cosmic-uncanny* -- "the stars are in the wrong place," "something's aboard we can't see," "a beautiful thing is dying and we don't understand why." Magic and strangeness are the whole point; horror tropes are not. And every eerie beat **lands back in warmth** -- the workplace comedy and found family are the ground the wonder and dread stand on. When in doubt, dial toward *wonder*, not *terror*, and always come home to the crew. (This matches `campaign/Campaign Bible.md`'s horror calibration and `campaign/Tier 1.md`'s guardrail.)
+
+## Future set-pieces (planted here, run later)
+
+- **The whale fall** (any tier from mid-Tier-1 on, best when the crew already loves the whales): the crew finds the drifting body of an **elder kindori** and the impossible, temporary reef blooming around it. A salvage job, a graveyard, and a miracle at once; other salvagers may be working it (some reverent, some not), and there is one arc-relevant find in the bones. Awe, grief, and the crew being very small. See `campaign/Tier 1.md`.
+- **The Dreameater** (drop-in bottle episode, `sessions/Episode - The Dreameater.md`): an invisible astral drifter eats the crew's dreams until they work out how to see it. Eerie, warm, resolved by understanding rather than violence -- the tone guardrail in miniature.
 
 ## How this relates to the older docs
 

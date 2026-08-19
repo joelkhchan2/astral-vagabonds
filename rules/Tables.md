@@ -106,6 +106,8 @@ Roll or pick. Everything here is ours except where a published creature is named
 
 **Rumours 1, 5, 7, 8, 10 are all the Guttering.** None of them are labelled. Deal them like ordinary gossip.
 
+**Seeded rumour -- the thing that trades in secrets (berbalang).** Not a random roll; drop it deliberately in Tier 1 to set up a recurring bit. An old spacer at the Compass Rose, low and delighted to have listeners: *"there's a thing out past the Verge that trades in secrets. Won't take gold. You bring it something it doesn't know and it'll answer you true -- and it never forgets a face it hasn't got a secret from yet."* That's a **berbalang** (`references/Astral Sea Bestiary.md`): gaunt, vulture-headed astral loremaster, truesighted, speaks every language, splits into spectral duplicates so it seems to be several places at once. Ours is **not a fight** -- it's a lonely, amoral collector on one rule: **a secret for a secret.** It can't be bought or lied to (truesight, and it has heard every lie). The players have met berbalangs in past campaigns, so the table already knows the drill ("secrets for secrets") -- lean into that meta-rhythm; it's a bit *and* a mechanic. Use it to dispense a Guttering clue, a family secret, or a lead on Orena's crew, always at the price of the crew giving up a real secret of their own (whose secret do they spend?). Fits "knowledge as currency, silence as power" exactly. Full write-up in `campaign/Tier 1.md`.
+
 ---
 
 # 5. MINOR ITEMS (d20)

@@ -31,7 +31,7 @@ A rare wondrous item. Requires attunement by a spellcaster. The helm is a magic 
 
 **Think:** Treasure Planet meets Firefly meets Terry Pratchett's sense of the absurd, with the ensemble warmth of Parks & Rec.
 
-**Horror calibration:** Cosmic *eeriness and wonder* -- yes. Grotesque, violent, or traditional horror -- no. The Guttering should feel uncanny and unsettling, and resolve toward wonder as it's understood, not frightening. Think "the stars are in the wrong place and nobody can explain why" rather than body horror or jumpscares. The players enjoy mystery and the unknown, not being scared.
+**Horror calibration (PG to mild T):** Cosmic *eeriness and wonder* -- yes. Grotesque, violent, or traditional horror -- no. No zombies, demons, undead, gore, or body horror. The Guttering should feel uncanny and unsettling, and resolve toward wonder as it's understood, not frightening. Think "the stars are in the wrong place and nobody can explain why" rather than body horror or jumpscares. The players enjoy mystery and the unknown, not being scared -- so every eerie beat lands back in the warmth of the crew. When in doubt, dial toward wonder, not terror. (See the fuller guardrail in `campaign/Story Spine.md` and `campaign/Tier 1.md`.)
 
 **Pillar priorities:** Social encounters first, combat second, puzzles third. Gabrielle enjoys combat more than Priscilla. Design encounters so combat-optional paths exist for Priscilla and combat-forward paths exist for Gabrielle within the same scenario.
 

@@ -1,6 +1,6 @@
-# Session 1 -- "The Snail Run"
+# Session 1 -- The Resupply Run
 
-The first voyage. Establish the crew, the tone, and the money reality; run one clean voyage loop; plant the Guttering seeds; and end on the cold open that launches the whole campaign. See `campaign/Story Spine.md` for what any of it means.
+The first voyage. Establish the crew, the tone, and the money reality; run one clean voyage loop; plant the Guttering seeds (especially the human cost of navigation failing); and end on the cold open that launches the whole campaign. See `campaign/Story Spine.md` for what any of it means.
 
 ## Goals
 
@@ -12,19 +12,21 @@ The first voyage. Establish the crew, the tone, and the money reality; run one c
 
 ## The job
 
-Their first contract off the board at the Rock of Bral: **deliver a crate of live snails to a frontier trading post for ~550 gp.** The snails are real, alive, and faintly luminous (a delicacy? breeding stock? nobody says). Comedic freight that also needs *keeping alive* -- an air/temperature/feeding problem the crew has to manage, which is exactly the competence-under-constraint texture. Destination: a small colony out on the Verge (use Hallow's Rest or Seventy-One from `Worlds & Places.md`, or invent one).
+Their first contract off the board at the Rock of Bral: **a resupply run to a struggling Verge colony** -- food, medicine, and parts to people who are proud and nearly out of both. A modest payout (~1,500 gp, 6 tons, ~14 days; the "Cold Run" in `Contracts.md`). Warm, a little sad, and full of small competence problems: keeping perishable cargo good on the haul, triaging what the colony needs most against what they can pay.
+
+**The seed that matters -- why they're desperate:** the colony's *own* regular supply route stopped working. Their runner set out for the nearest depot weeks ago and **could not find it** -- the route had drifted, the charts didn't resolve, and they turned back late and empty, or limped in on fumes. So the colony isn't just low; they're cut off from the way they normally restock, and they don't understand why. That's the first Guttering symptom with a human face on it: *navigation failing has a body count,* and these people are living it before anyone has a word for it. (Use Hallow's Rest or Seventy-One from `Worlds & Places.md`, or invent one. If you want a callback, one crate in the manifest is, absurdly, live snails, and Finny will not stop talking about them.)
 
 ## The beats
 
 **1. Casting off from the Rock of Bral.** A quick homecoming-in-reverse (see `The Bral Reach.md`): Ottie on the gantry with gossip and a "buy info for candy" bit; Meech at the Charter Window stamping the contract and correcting their paperwork; provisioning at the Float Market (Brass haggling, Finny buying something stupid). Establish the money: the operating cost is **600 gp/month** for seven crew (500 for six, +100 for the seventh), it comes out of the account, and they are broke. Let Aerion feel the ledger.
 
-**2. First flight.** Their first time actually flying the new ship as a system. Estra at the helm, Orena shadowing to learn it. A short, low-stakes shakedown -- run the crew stations once (`Rules & Systems.md` section 8) so everyone knows their post. Tack talks to the ship; Finny secures the snails; Oz checks the guns.
+**2. First flight.** Their first time actually flying the new ship as a system. Estra at the helm, Orena shadowing to learn it. A short, low-stakes shakedown -- run the crew stations once (`Rules & Systems.md` section 8) so everyone knows their post. Tack talks to the ship; Finny lashes down the cargo; Oz checks the guns.
 
-**3. Transit -- one event.** Pick one, or run the wonder beat plus a short fight if Gabrielle wants combat:
-   - **Wonder (plant this):** a **pod of kindori** drifts across their course at distance, huge and slow, singing by pulses of light. Near-sacred; harmless if unprovoked (canon). The crew should feel awe. **Orena feels *something*** when they sing -- a pull, a familiarity she can't place. Do not explain it. This is the campaign's whole engine, introduced as beauty.
-   - **Combat (optional, Gabrielle's spotlight):** a small raider skiff or a hungry **gray/brown scavver** reads their fitted-out ship as an easy mark. One broadside should nearly settle it; let the crew choose to press or let it run. Good first look at the ship's teeth and the crew stations under fire. (Reuse Dev Ostrel's scrap-crew skiff from `The Yard.md` Beat 7 if you want a recurring face.)
+**3. Transit -- one event.** Pick *one* piece of cosmic content (don't overload session 1), and add a short fight if Gabrielle wants combat. Rotate the wonder each session -- the sky is full of strange things, not just whales:
+   - **Wonder options:** a **chwinga "astronaut"** perched on the forward rail that won't explain itself; a derelict with the table still set and no crew; a **mercane** vessel passing on business older than the cartel; a shoal of space guppies that adopts the ship; or, used *sparingly*, a distant **kindori** pod singing by light (awe, and a pull Orena can't place -- save the heavy whale beats for later so they stay special).
+   - **Combat (optional, Gabrielle's spotlight):** a small raider skiff or a hungry **gray/brown scavver** reads their fitted-out ship as an easy mark. One broadside should nearly settle it; let them choose to press or let it run. First look at the ship's teeth and the crew stations under fire. (Dev Ostrel's scrap-crew skiff from `The Yard.md` Beat 7 works if you want a recurring face.)
 
-**4. Arrival -- the first symptom.** Getting there is *slightly wrong*: the run took **a day longer than the charts allow**, and the port is **a few hours out of position** -- Orena has to find it by feel, not by the numbers. Played as bad-charts irritation. The colony is uneasy: a neighboring route "went quiet" last month, a supply ship never came, and nobody can raise the next settlement over. Deliver the snails (a warm, funny handoff -- the buyer is odd and particular), collect the ~550 gp. Give Aerion a beat: the payment's short, or the port fees are predatory, or a rival wants the same berth -- a problem he solves with the ledger and a cool head.
+**4. Arrival -- the first symptom, with a face.** Getting there is *slightly wrong*: the run took **a day longer than the charts allow**, and the colony is **a few hours out of position** -- Orena finds it by feel, not by the numbers. Then the real weight lands: the colonists explain that their *own* supply runner couldn't reach the depot -- the route just wouldn't resolve, and they turned back late and empty. They're not lazy or unlucky; the road stopped working, and they nearly starved for it. Deliver the supplies (a warm, grateful, slightly awkward handoff), collect the pay, and give Aerion a beat: they can't fully pay, or a rival factor is squeezing them, or the triage of who-gets-what is a real choice -- a problem he solves with the ledger and a cool head. Let the crew feel that this is bigger than one colony.
 
 **5. "Vagabonds."** Somewhere here, an NPC dismisses them -- "Estra's vagabonds" -- half insult. Let it stick.
 
@@ -33,15 +35,15 @@ Their first contract off the board at the Rock of Bral: **deliver a crate of liv
 ## Seeds planted (for your tracking)
 
 - **Seed 1 -- sluggish routes:** the run took a day longer than the charts allow. (Stripped Shine slows the current.)
-- **Seed 2 -- ports out of position:** the frontier colony has drifted off its charted spot. (The sky is rearranging as Shine fails.)
-- **Seed 3 -- the quiet:** a neighboring route went dark, a settlement can't be raised. (A region has guttered.)
-- **The whales:** introduced as awe, and as a pull Orena feels. The keystone, hiding in plain sight.
+- **Seed 2 -- ports out of position:** the colony has drifted off its charted spot. (The sky is rearranging as Shine fails.)
+- **Seed 3 (the important one) -- navigation failing has a body count:** the colony's own supply runner couldn't find the depot; the route wouldn't resolve; they nearly starved. The first Guttering symptom with a human face. (A route is quietly dying.)
+- **The whales (optional, and rare):** if you use the distant kindori, it's awe plus a pull Orena can't place. Save the big whale beats for later so they land.
 - **The Vocalise:** the closer ties the world mystery to Orena's personal loss on night one.
 
 ## Running it
 
 - **Keep it warm and funny.** The dread is one image at the very end. Everything before it is the crew being the crew.
-- **Competence is the reward.** Let the players *solve* the snail-keeping, the port problem, the fight -- don't hand them answers. Wins should feel earned.
+- **Competence is the reward.** Let the players *solve* the resupply triage, the port problem, the fight -- don't hand them answers. Wins should feel earned.
 - **Money is real.** Deduct the 600 gp operating cost at the top or the dock. Repairs are 20 gp/HP. Let the thinness bite; it's the genre.
 - **Both PCs lead once.** Aerion runs the port/logistics; Orena runs the navigation and the whales (and combat if Gabrielle wants it). Estra defers to them and only steps in to teach.
 - **Do not explain the ending.** Orena keeping it to herself for now is correct; let the table sit with it.

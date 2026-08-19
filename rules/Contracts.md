@@ -132,9 +132,9 @@ The trail ends at Aeravellis.
 
 **Vaelros buries it.** Not out of love for Aeravellis. Because an exposed fraud in a confirmation year would end the elevation bid, and the seat is worth more to him than either son.
 
-**What it plants:** everything. Aerion did the right thing and was punished for it. The father's priorities are now visible. And the question the whole of Tier 2 answers has been asked out loud for the first time: *if he'd rather bury this than lose the seat, what exactly does he think I'm for?*
+**What it plants:** everything. Aerion did the right thing and was punished for it. The father's priorities are now visible. And the question the whole of Tier 2 answers has been asked out loud for the first time: *if he'd rather bury this than lose the seat, what exactly is a son to him?*
 
-> **This is the doorway to Tier 2 and the deniable-son reveal.** Do not answer it yet.
+> **This is the doorway to Tier 2.** The overlooked youngest son stops trying to earn a place at his father's table and starts down the road to *taking the whole table* -- remaking the house himself. Do not answer it yet.
 
 ---
 
