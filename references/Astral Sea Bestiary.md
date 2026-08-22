@@ -1329,6 +1329,19 @@ STR 16(+3) DEX 14(+2) CON 15(+2) | Senses darkvision 60 ft. | **CR 2** (450 XP)
 Beloved mount of Wildspace gnomes and halflings — adorable, loyal, and capable of gnawing through a hull plate if sufficiently annoyed.
 - Void-Adapted; Beast of Burden (Large mount, 480 lb capacity); Bite (+5, 9 (2d6+3))
 
+## Scavvers -- how to use them (read before deploying)
+
+Scavvers are the **sharks and gulls of Wildspace**, not a boss monster -- four size classes of the same animal, ordinary fauna that are part of the living sky, not a recurring menace. Deploy them mostly as *ecology and texture*, and only occasionally as a real threat. The four (canon: *Boo's Astral Menagerie*):
+
+| Type | CR | Size | What it is at the table |
+|---|---|---|---|
+| **Gray Scavver** | 1/4 | Medium | Harmless shoal cleanup crew. Cloud of them tidying wreckage and dropped rations. Atmosphere, not a fight; a warning sign (they gather where something died) more than a danger. |
+| **Brown Scavver** | 4 | Large | Opportunist scavenger. Won't attack unless provoked or starving, but a wounded ship reads as an open buffet. A *complication*, not a villain -- often driven off, not killed. |
+| **Night Scavver** | 5 | Large | Genuine ambush predator near dead hulks and asteroid fields. This is the one you use when you *want* a scary scavver fight (see `sessions/Episode - The Quiet Hull.md`). |
+| **Void Scavver** | 11 | Huge | The rare apex predator, ship-eating, and the **keystone of the whole campaign** (`campaign/Story Spine.md`): civilization exterminated these to make the lanes safe, which broke the sky. Use sparingly, usually as awe-and-flee, not a fair fight. Its scarcity is its meaning. |
+
+**The point:** most scavver encounters should be the crew coexisting with wildlife -- routing around a shoal, shooing a hungry brown off the hull, reading a gathering as a sign something's out there -- exactly the "live alongside the danger" skill the cure is built on. Save the teeth for when it counts. A crew that learns to *read* scavvers rather than fear them is already practicing the campaign's thesis. See also Tables.md (Wildspace Encounters #6, "scavvers circling something -- whatever they're circling is the interesting part").
+
 ### Brown Scavver **[Verified CR]**
 *Boo's Astral Menagerie*
 Large monstrosity, unaligned
