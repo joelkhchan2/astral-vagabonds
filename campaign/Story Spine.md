@@ -123,6 +123,8 @@ Concrete session-1 beats and the cold open are in `sessions/Session 1.md`.
 
 - **The whale fall** (any tier from mid-Tier-1 on, best when the crew already loves the whales): the crew finds the drifting body of an **elder kindori** and the impossible, temporary reef blooming around it. A salvage job, a graveyard, and a miracle at once; other salvagers may be working it (some reverent, some not), and there is one arc-relevant find in the bones. Awe, grief, and the crew being very small. See `campaign/Tier 1.md`.
 - **The Dreameater** (drop-in bottle episode, `sessions/Episode - The Dreameater.md`): an invisible astral drifter eats the crew's dreams until they work out how to see it. Eerie, warm, resolved by understanding rather than violence -- the tone guardrail in miniature.
+- **The Ambassadors** (drop-in comedy, `sessions/Episode - The Ambassadors.md`): first contact inverted -- the crew are the feared aliens. An optional thread ties the world's isolation to a guttered route, and seeds a world the cure can visibly reconnect later.
+- **The Quiet Hull** (drop-in horror-lite, `sessions/Episode - The Quiet Hull.md`): a derelict with a **night scavver** aboard (the winnable fight) and a **void scavver** looming beyond it -- the crew's first sight of the exterminated keystone predator, alive. Stages the cascade's central creature as terror-and-awe before they understand what it means; pays off hard in Tier 2.
 
 ## How this relates to the older docs
 
