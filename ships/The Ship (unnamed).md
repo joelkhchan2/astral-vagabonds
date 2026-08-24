@@ -2,7 +2,7 @@
 
 > **Ship character sheet**, built from Session Zero (Aug 17, 2026 — character creation, ship outfitting, crew hiring). Source recording preserved in `transcripts/2026-08-17 Session Zero (transcript).md`. This replaces the previous pre-migration `The Last Honest Deal.md`, which described a differently-statted ship under the old premise.
 >
-> **On the name: the ship has no name.** At the table the crew chose to run her *nameless* and trade on Captain Estravane's reputation instead. "The Last Honest Deal" — the Major's closing line ("that's gonna be the last honest deal you ever make out there") — lives only in the GM's private notes and is **not** the ship's name. Rename this file the day the crew christens her; until then that silence is itself a character note. See *The Ship as a Character* below.
+> **On the name: the ship has no name.** At the table the crew chose to run her *nameless* and trade on Captain Estra Vane's reputation instead. "The Last Honest Deal" — the Major's closing line ("that's gonna be the last honest deal you ever make out there") — lives only in the GM's private notes and is **not** the ship's name. Rename this file the day the crew christens her; until then that silence is itself a character note. See *The Ship as a Character* below.
 
 ---
 
@@ -54,14 +54,14 @@ Baseline **120-day air envelope**, no upgrade fitted. The crew's hard rule as a 
 The gravity plane bisects the hull horizontally, so both faces of every deck are walkable — crew step off the side of the ship when they want to be alone. Whose space is whose is most of what makes her feel owned:
 
 **Upper deck (above the gravity plane)**
-- **Helm room:** the Captain's chair and the Coilworks throne, navigation charts. **Captain Estravane** flies her; **Orena** trains here as helmsman-in-training and stands the backup watch. Charts, route calculations, and survey logs pinned to every surface.
+- **Helm room:** the Captain's chair and the Coilworks throne, navigation charts. **Captain Estra Vane** flies her; **Orena** trains here as helmsman-in-training and stands the backup watch. Charts, route calculations, and survey logs pinned to every surface.
 - **Forecastle / crow's nest:** the scout's perch — **Osgood "Aussie" Hammerful** keeps watch and eyes ahead.
 - **Main deck:** open working space, rigging, the two ballista positions (port and starboard). **Finnik** works the rigging; **Aerion** runs crew operations from here as bosun.
 - **Galley:** **Brassica's** domain — cook by night, medic by day. The long table (if they ever spring for one) seats the whole crew.
 
 **Lower deck (below the gravity plane, gravity inverted)**
 - **Crew quarters:** berths for up to 11; running with 7, so bunks stand empty and made-up. Room to "pick up people along the way."
-- **Captain's quarters:** slightly larger. Where Estravane plays solitaire alone at night.
+- **Captain's quarters:** slightly larger. Where Estra Vane plays solitaire alone at night.
 - **Cargo holds:** 20 tons. **Aerion's** kingdom — every crate manifest-tagged, inventory counted, tabs and debts kept.
 - **Engineering:** **Tack's** workshop. Organized to his logic and no one else's; he names components and talks to them while he works.
 - **Sickbay:** **Brassica's** medical cabinet, restocked out of her own wages at every Rock of Brawl stop.
@@ -94,13 +94,13 @@ The five who stayed after the old ship blew and the rest lost faith and left, pl
 
 | Aboard | Role | In one line |
 |---|---|---|
-| **Captain Estravane** | Captain · primary helm | Late 50s, graying black hair, dry and exacting (Captain Amelia energy). Won't drink; plays solitaire alone at night. Rumored ex-Commodore who lost a fleet and won't say. |
+| **Captain Estra Vane** | Captain · primary helm | Late 50s, graying black hair, dry and exacting (Captain Amelia energy). Won't drink; plays solitaire alone at night. Rumored ex-Commodore who lost a fleet and won't say. |
 | **Tack** | Chief engineer (gunner 2nd) | Autognome, small construct. Cheerful, meticulous, no social read. Loves the ship like a pet; saved her flag; knows her guns without being a marksman. |
 | **Finnik "Finney"** | Rigger / deckhand (cook 2nd) | Halfling. Loud, gregarious, gossips relentlessly, runs game nights, can't keep a secret. Sends part of every paycheck to someone unnamed at the Rock of Brawl, and always gets the Manifest Board printed. |
 | **Osgood "Aussie" Hammerful** | Security · scout | Giff (hippo-folk), 7 ft, Large — counts against the 20-ton cargo. Absurdly polite, soft-spoken gentle giant with a comically large firearm he also swings as a melee weapon. Claims he's headbutted through steel. |
 | **Brassica** ("Brass") | Medic · cook (unlicensed) | Scrappy, fast-talking; never got her license, doesn't ask to be called doctor. "Always knows a guy" at every port. On the run from a deal gone bad; if she's recognized dockside, no one knows yet if that's good or bad. *(GM's D4-every-morning table is hers.)* |
 | **Aerion** — Priscilla's PC | **Bosun / Quartermaster** · cargo handler | Runs the crew and the manifests; keeps the tight ship, inventory, tabs, and debts. Family from a trading empire; holds the crew's trust-fund reserve. |
-| **Orena** — Gabrielle's PC | **Navigator · helmsman-in-training** (backup helm) | Newer aboard (~6 months), training up on the helm under Estravane. Her last crew was lost — part of why she's out here is to find them. Charts routes and logs survey data. |
+| **Orena** — Gabrielle's PC | **Navigator · helmsman-in-training** (backup helm) | Newer aboard (~6 months), training up on the helm under Estra Vane. Her last crew was lost — part of why she's out here is to find them. Charts routes and logs survey data. |
 
 > **Roster of the un-hired.** The candidates the crew passed on are still out there and make ready recruits/recurring faces: **Reeve** (sentient ooze, near-silent, eidetic memory), **Wysp** (young astral elf, scrappy runaway, eager to prove herself), **Moro** (thri-kreen-like insectoid, speaks in the third person, fiercely loyal), **Sable Dustmantle** (shadowfell elf, gallows-humor deadpan, keeps a jar of teeth), **Dr. Quill Ashworth** (human, type-A, terrible bedside manner, rumored to have lost her license).
 >

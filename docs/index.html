@@ -12,13 +12,12 @@
 <body>
 <style>
   :root{
-    /* light = "astral dusk" void; parchment is constant */
     --void:#c9cee6; --void-2:#dfe2f0; --star:rgba(52,60,104,.55); --star-bright:rgba(40,48,96,.8);
     --sheet:#fdf1dc; --sheet-2:#f6e7c8; --sheet-edge:#e4d2ab;
-    --ink:#241d14; --ink-soft:#6a5c45; --ink-faint:#93816120;
+    --ink:#241d14; --ink-soft:#6a5c45;
     --head:#58180d; --rule:#922610;
     --accent:#0f7386; --accent-glow:#3fb0c9;
-    --field-line:#c8b184; --field-bg:rgba(255,255,255,.28); --field-focus:rgba(63,176,201,.12);
+    --field-line:#c8b184; --field-focus:rgba(63,176,201,.12);
     --hud:rgba(14,18,32,.82); --hud-ink:#e8e6de; --hud-soft:#9aa0b8; --hud-line:rgba(255,255,255,.12);
     --shadow:0 24px 60px -20px rgba(10,12,26,.55), 0 4px 14px -6px rgba(10,12,26,.4);
   }
@@ -35,20 +34,17 @@
   html{-webkit-text-size-adjust:100%}
   body{
     margin:0; background:var(--void); color:var(--ink);
-    font-family:Spectral, Georgia, "Times New Roman", serif; font-size:17px; line-height:1.6;
-    min-height:100vh;
+    font-family:Spectral, Georgia, "Times New Roman", serif; font-size:17px; line-height:1.6; min-height:100vh;
   }
   #stars{position:fixed; inset:0; width:100%; height:100%; z-index:0; display:block}
 
-  /* ---- HUD toolbar ---- */
   .hud{
-    position:sticky; top:0; z-index:20;
-    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
-    padding:10px clamp(14px,3vw,32px);
-    background:var(--hud); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+    position:sticky; top:0; z-index:20; display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    padding:10px clamp(14px,3vw,32px); background:var(--hud);
+    backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
     border-bottom:1px solid var(--hud-line); color:var(--hud-ink);
   }
-  .hud .brand{font-family:Cinzel,serif; font-weight:600; letter-spacing:.14em; text-transform:uppercase; font-size:.82rem; color:var(--hud-ink)}
+  .hud .brand{font-family:Cinzel,serif; font-weight:600; letter-spacing:.14em; text-transform:uppercase; font-size:.82rem}
   .hud .brand .glow{color:var(--accent-glow)}
   .hud .spacer{flex:1 1 auto}
   .save-state{display:inline-flex; align-items:center; gap:7px; font-family:"IBM Plex Mono",monospace; font-size:.7rem; letter-spacing:.06em; color:var(--hud-soft); text-transform:uppercase}
@@ -64,140 +60,105 @@
   .hud button.danger:hover{background:rgba(146,38,16,.35); border-color:#c8563f}
   :focus-visible{outline:2px solid var(--accent-glow); outline-offset:2px; border-radius:3px}
 
-  /* ---- Sheet ---- */
   .wrap{position:relative; z-index:1; padding:clamp(16px,4vw,54px) clamp(10px,3vw,32px) 80px}
   .sheet{
-    max-width:940px; margin:0 auto; background:
-      linear-gradient(var(--sheet),var(--sheet));
-    background-color:var(--sheet);
-    border:1px solid var(--sheet-edge); border-radius:5px;
-    box-shadow:var(--shadow);
-    padding:clamp(22px,4vw,52px);
-    position:relative;
+    max-width:940px; margin:0 auto; background-color:var(--sheet);
+    border:1px solid var(--sheet-edge); border-radius:5px; box-shadow:var(--shadow);
+    padding:clamp(22px,4vw,52px); position:relative;
     background-image:
       radial-gradient(120% 80% at 8% 4%, rgba(0,0,0,.045), transparent 60%),
       radial-gradient(120% 90% at 96% 100%, rgba(120,70,20,.06), transparent 55%);
   }
-  .sheet::after{ /* worn edge */
-    content:""; position:absolute; inset:0; border-radius:5px; pointer-events:none;
-    box-shadow:inset 0 0 60px -18px rgba(90,60,20,.35), inset 0 0 0 1px rgba(255,255,255,.25);
-  }
+  .sheet::after{content:""; position:absolute; inset:0; border-radius:5px; pointer-events:none;
+    box-shadow:inset 0 0 60px -18px rgba(90,60,20,.35), inset 0 0 0 1px rgba(255,255,255,.25)}
 
-  /* ---- Nameplate ---- */
-  .plate{text-align:center; position:relative}
+  .plate{text-align:center}
   .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.28em; text-transform:uppercase; color:var(--rule)}
   input.shipname{
     font-family:Cinzel,serif; font-weight:700; color:var(--head);
     font-size:clamp(1.9rem,6vw,3.4rem); line-height:1.05; text-align:center;
-    width:100%; border:0; background:transparent; padding:4px 0 2px; margin:6px 0 2px; letter-spacing:.01em;
+    width:100%; border:0; background:transparent; padding:4px 0 2px; margin:6px 0 2px;
   }
-  input.shipname::placeholder{color:#a68a5e; font-style:normal; opacity:.75}
+  input.shipname::placeholder{color:#a68a5e; opacity:.75}
   input.shipname:focus{background:var(--field-focus); outline:none; box-shadow:0 2px 0 var(--accent-glow)}
   .subtitle-line{display:flex; gap:8px; align-items:baseline; justify-content:center; flex-wrap:wrap; color:var(--ink-soft); font-style:italic}
   .subtitle-line input{font-family:Spectral,serif; font-style:italic; font-size:1.02rem; color:var(--ink-soft); text-align:center;
     border:0; border-bottom:1px dashed var(--field-line); background:transparent; min-width:180px; padding:1px 4px}
   .subtitle-line input:focus{background:var(--field-focus); outline:none; border-bottom-color:var(--accent)}
 
-  /* ---- Tapered 5e rule ---- */
   .tapediv{display:block; width:100%; height:6px; margin:18px 0; color:var(--rule)}
   .tapediv svg{display:block; width:100%; height:6px}
 
-  /* ---- Core stat tiles ---- */
   .tiles{display:grid; grid-template-columns:repeat(6,1fr); gap:10px; margin:4px 0 2px}
   @media(max-width:720px){.tiles{grid-template-columns:repeat(3,1fr)}}
   @media(max-width:420px){.tiles{grid-template-columns:repeat(2,1fr)}}
-  .tile{
-    border:1.5px solid var(--rule); border-radius:9px; background:rgba(255,255,255,.22);
-    padding:10px 8px 9px; text-align:center; position:relative;
-  }
+  .tile{border:1.5px solid var(--rule); border-radius:9px; background:rgba(255,255,255,.22); padding:10px 8px 9px; text-align:center}
   .tile .tlabel{font-family:"IBM Plex Mono",monospace; font-size:.6rem; letter-spacing:.11em; text-transform:uppercase; color:var(--head); font-weight:600; display:block; margin-bottom:5px}
-  .tile input{
-    font-family:"IBM Plex Mono",monospace; font-weight:600; font-variant-numeric:tabular-nums;
-    font-size:1.5rem; color:var(--ink); text-align:center; width:100%; border:0; background:transparent; padding:0;
-  }
+  .tile input{font-family:"IBM Plex Mono",monospace; font-weight:600; font-variant-numeric:tabular-nums; font-size:1.5rem; color:var(--ink); text-align:center; width:100%; border:0; background:transparent; padding:0}
   .tile input:focus{outline:none; background:var(--field-focus); border-radius:5px}
   .tile .hp-row{display:flex; align-items:baseline; justify-content:center; gap:2px}
-  .tile .hp-row input{font-size:1.35rem; width:auto; max-width:3.2ch}
+  .tile .hp-row input{font-size:1.35rem; width:auto; max-width:3.4ch}
   .tile .hp-row .slash{font-family:"IBM Plex Mono",monospace; color:var(--ink-soft); font-size:1.1rem}
-  .tile .tsub{font-family:"IBM Plex Mono",monospace; font-size:.56rem; letter-spacing:.06em; color:var(--ink-soft); text-transform:uppercase; margin-top:3px}
+  .tile .tsub{font-family:"IBM Plex Mono",monospace; font-size:.56rem; letter-spacing:.05em; color:var(--ink-soft); text-transform:uppercase; margin-top:3px}
 
-  /* ---- Property lines (statblock body) ---- */
   .props{margin:2px 0}
-  .prop{display:flex; gap:8px; align-items:baseline; padding:3px 0; border-bottom:1px solid rgba(146,38,16,.12)}
+  .prop{display:flex; gap:10px; align-items:flex-start; padding:5px 0; border-bottom:1px solid rgba(146,38,16,.12)}
   .prop:last-child{border-bottom:0}
-  .prop .plabel{font-family:Spectral,serif; font-weight:600; font-style:italic; color:var(--head); flex:0 0 auto; min-width:130px}
-  .prop .pval{flex:1 1 auto}
-  .prop input, .prop textarea{
-    width:100%; font-family:Spectral,serif; font-size:1rem; color:var(--ink);
-    border:0; border-bottom:1px solid transparent; background:transparent; padding:1px 3px; resize:none; line-height:1.5;
+  .prop .plabel{font-family:Spectral,serif; font-weight:600; font-style:italic; color:var(--head); flex:0 0 130px; padding-top:2px}
+  .prop .pval{flex:1 1 auto; min-width:0}
+  .prop textarea{
+    width:100%; font-family:Spectral,serif; font-size:1rem; color:var(--ink); line-height:1.5;
+    border:0; border-bottom:1px solid transparent; background:transparent; padding:2px 3px;
+    resize:none; overflow:hidden; white-space:pre-wrap; word-break:break-word;
   }
-  .prop input:hover, .prop textarea:hover, .cell:hover input, .cell:hover textarea{border-bottom-color:var(--field-line)}
-  .prop input:focus, .prop textarea:focus{outline:none; background:var(--field-focus); border-bottom-color:var(--accent)}
+  .prop textarea:hover{border-bottom-color:var(--field-line)}
+  .prop textarea:focus{outline:none; background:var(--field-focus); border-bottom-color:var(--accent)}
 
-  /* ---- Section headings ---- */
-  h2.sec{
-    font-family:Cinzel,serif; font-weight:600; color:var(--head);
-    font-size:1.12rem; letter-spacing:.04em; text-transform:uppercase; margin:26px 0 6px; text-wrap:balance;
-    display:flex; align-items:center; gap:12px;
-  }
+  h2.sec{font-family:Cinzel,serif; font-weight:600; color:var(--head); font-size:1.12rem; letter-spacing:.04em;
+    text-transform:uppercase; margin:26px 0 6px; text-wrap:balance; display:flex; align-items:center; gap:12px}
   h2.sec::after{content:""; flex:1 1 auto; height:2px; background:linear-gradient(90deg,var(--rule),transparent)}
   .sec-note{font-family:Spectral,serif; font-style:italic; color:var(--ink-soft); font-size:.92rem; margin:0 0 12px}
 
-  /* ---- Editable tables ---- */
-  .tbl{width:100%; border-collapse:collapse; margin-top:6px}
-  .tbl thead th{
-    font-family:"IBM Plex Mono",monospace; font-size:.62rem; letter-spacing:.09em; text-transform:uppercase;
-    color:var(--head); text-align:left; padding:4px 8px; border-bottom:2px solid var(--rule); font-weight:600;
-  }
+  .tbl{width:100%; border-collapse:collapse; margin-top:6px; table-layout:fixed}
+  .tbl thead th{font-family:"IBM Plex Mono",monospace; font-size:.62rem; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--head); text-align:left; padding:4px 8px; border-bottom:2px solid var(--rule); font-weight:600}
   .tbl td{padding:0; border-bottom:1px solid rgba(146,38,16,.14); vertical-align:top}
-  .tbl td.cell input, .tbl td.cell textarea{
-    width:100%; font-family:Spectral,serif; font-size:.97rem; color:var(--ink);
-    border:0; background:transparent; padding:7px 8px; resize:none; line-height:1.45; border-bottom:1px solid transparent;
+  .tbl td.cell textarea{
+    width:100%; font-family:Spectral,serif; font-size:.97rem; color:var(--ink); line-height:1.45;
+    border:0; background:transparent; padding:7px 8px; resize:none; overflow:hidden;
+    white-space:pre-wrap; word-break:break-word; border-bottom:1px solid transparent;
   }
-  .tbl td.cell input:focus, .tbl td.cell textarea:focus{outline:none; background:var(--field-focus)}
+  .tbl td.cell textarea:focus{outline:none; background:var(--field-focus)}
   .tbl td.rm{width:26px; text-align:center}
   .rmbtn{border:0; background:transparent; color:#b9451f; opacity:.4; cursor:pointer; font-size:1.05rem; line-height:1; padding:6px 4px; transition:opacity .15s}
   tr:hover .rmbtn{opacity:.85}
   .rmbtn:hover{opacity:1; transform:scale(1.15)}
-  .addrow{
-    margin-top:8px; font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.06em; text-transform:uppercase;
-    color:var(--accent); background:transparent; border:1px dashed var(--field-line); border-radius:7px;
-    padding:6px 12px; cursor:pointer; transition:all .16s;
-  }
+  .addrow{margin-top:8px; font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--accent); background:transparent; border:1px dashed var(--field-line); border-radius:7px; padding:6px 12px; cursor:pointer; transition:all .16s}
   .addrow:hover{border-color:var(--accent); background:var(--field-focus)}
 
-  /* ---- Two-deck layout ---- */
   .decks{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:8px}
   @media(max-width:680px){.decks{grid-template-columns:1fr}}
   .deck{border:1px solid var(--sheet-edge); border-radius:9px; background:rgba(255,255,255,.18); padding:12px 14px}
   .deck h3{font-family:Cinzel,serif; font-size:.9rem; color:var(--head); margin:0 0 4px; letter-spacing:.03em}
   .deck .dsub{font-family:"IBM Plex Mono",monospace; font-size:.58rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:8px}
-  textarea.grow{width:100%; border:0; background:transparent; font-family:Spectral,serif; font-size:.96rem; color:var(--ink); line-height:1.55; resize:none; padding:4px; border-radius:6px; overflow:hidden}
+  textarea.grow{width:100%; border:0; background:transparent; font-family:Spectral,serif; font-size:.96rem; color:var(--ink);
+    line-height:1.55; resize:none; padding:4px; border-radius:6px; overflow:hidden; white-space:pre-wrap; word-break:break-word}
   textarea.grow:hover{background:rgba(255,255,255,.22)}
   textarea.grow:focus{outline:none; background:var(--field-focus)}
 
-  /* ---- Character / quirks ---- */
-  .quirks{display:grid; gap:10px; margin-top:8px}
-  .quirk{border-left:3px solid var(--rule); padding:4px 0 4px 14px}
-  .quirk .qh{font-family:Spectral,serif; font-weight:600; font-style:italic; color:var(--head)}
-  .callout{background:rgba(146,38,16,.06); border:1px solid rgba(146,38,16,.2); border-radius:9px; padding:12px 16px; margin:14px 0; font-style:italic; color:var(--ink-soft)}
-  .callout strong{color:var(--head); font-style:normal}
-
   .foot{max-width:940px; margin:20px auto 0; text-align:center; color:var(--hud-soft);
     font-family:"IBM Plex Mono",monospace; font-size:.66rem; letter-spacing:.06em; line-height:1.7}
-  .foot a{color:var(--accent-glow); text-decoration:none}
 
   @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 
-  /* ---- Print ---- */
   @media print{
     #stars,.hud,.addrow,.rmbtn,.foot{display:none!important}
     body{background:#fff}
     .wrap{padding:0}
     .sheet{box-shadow:none; border:none; max-width:none; padding:0 6px}
     .tile{border-color:#7a2d1c}
-    input,textarea{color:#000!important}
-    .quirk{break-inside:avoid}
+    textarea,input{color:#000!important}
     h2.sec{break-after:avoid}
   }
 </style>
@@ -218,7 +179,7 @@
 
     <div class="plate">
       <span class="eyebrow">Certified Prior-Service Hull · The Astral Sea</span>
-      <input class="shipname" data-key="name" value="" placeholder="— she has no name —" aria-label="Ship name" spellcheck="false">
+      <input class="shipname" data-key="name" value="" placeholder="she has no name" aria-label="Ship name" spellcheck="false">
       <div class="subtitle-line">
         <span>Class &amp; Profile:</span>
         <input data-key="class" value="Sturdy Trader" aria-label="Class and profile">
@@ -234,7 +195,7 @@
         <div class="tsub">current / max</div>
       </div>
       <div class="tile"><span class="tlabel">Dmg Threshold</span><input data-key="dt" value="20" inputmode="numeric" aria-label="Damage threshold"></div>
-      <div class="tile"><span class="tlabel">Tactical Speed</span><input data-key="spd" value="50 ft" aria-label="Tactical speed"><div class="tsub">Trader 55 −10 +5 rig</div></div>
+      <div class="tile"><span class="tlabel">Tactical Speed</span><input data-key="spd" value="50 ft" aria-label="Tactical speed"><div class="tsub">Trader 55, minus 10, plus 5 rig</div></div>
       <div class="tile"><span class="tlabel">Cargo</span><input data-key="cargo" value="20 tons" aria-label="Cargo capacity"></div>
       <div class="tile"><span class="tlabel">Complement</span><input data-key="crewcap" value="11" inputmode="numeric" aria-label="Crew complement"><div class="tsub">running 7</div></div>
     </div>
@@ -242,74 +203,65 @@
     <div class="tapediv" aria-hidden="true"><svg viewBox="0 0 100 6" preserveAspectRatio="none"><polygon points="0,3 50,0 100,3 50,6" fill="currentColor"/></svg></div>
 
     <div class="props">
-      <div class="prop"><span class="plabel">Spelljamming</span><span class="pval"><input data-key="sj" value="~7,000,000 km/h in open space"></span></div>
-      <div class="prop"><span class="plabel">Helm</span><span class="pval"><input data-key="helm" value='Coilworks Mk. I "Standard" — reliable, secondhand; the pilot must sit and attune to fly'></span></div>
-      <div class="prop"><span class="plabel">Weapons</span><span class="pval"><input data-key="weapons" value="2× ballista (Sureshot Rotator + Ready Magazine) · 1× blunt ram"></span></div>
-      <div class="prop"><span class="plabel">Ammunition</span><span class="pval"><input data-key="ammo" value="250 standard shots per ballista, loaded nightly"></span></div>
-      <div class="prop"><span class="plabel">Life Support</span><span class="pval"><input data-key="air" value="120-day air envelope · no upgrade fitted (rule: no job over 60 days)"></span></div>
-      <div class="prop"><span class="plabel">Signature</span><span class="pval"><input data-key="sig" value="None — she has no signature feature"></span></div>
-      <div class="prop"><span class="plabel">Provenance</span><span class="pval"><input data-key="prov" value='Bought destitute from "the Major" at Danforth Certified Prior-Service Hulls'></span></div>
+      <div class="prop"><span class="plabel">Spelljamming</span><span class="pval"><textarea data-key="sj" rows="1">Roughly 7,000,000 km/h in open space</textarea></span></div>
+      <div class="prop"><span class="plabel">Helm</span><span class="pval"><textarea data-key="helm" rows="1">Coilworks Mk. I "Standard". Reliable, secondhand; the pilot must sit and attune to fly.</textarea></span></div>
+      <div class="prop"><span class="plabel">Weapons</span><span class="pval"><textarea data-key="weapons" rows="1">2x ballista (Sureshot Rotator + Ready Magazine); 1x blunt ram</textarea></span></div>
+      <div class="prop"><span class="plabel">Ammunition</span><span class="pval"><textarea data-key="ammo" rows="1">250 standard shots per ballista, loaded nightly</textarea></span></div>
+      <div class="prop"><span class="plabel">Life Support</span><span class="pval"><textarea data-key="air" rows="1">120-day air envelope; no upgrade fitted (rule: no job over 60 days)</textarea></span></div>
+      <div class="prop"><span class="plabel">Signature</span><span class="pval"><textarea data-key="sig" rows="1">None</textarea></span></div>
+      <div class="prop"><span class="plabel">Provenance</span><span class="pval"><textarea data-key="prov" rows="1">Danforth Certified Prior-Service Hulls (secondhand)</textarea></span></div>
     </div>
 
     <h2 class="sec">Systems &amp; Add-ons Fitted</h2>
     <table class="tbl" data-table="addons">
-      <thead><tr><th style="width:34%">Item</th><th>Effect</th><th aria-label="remove"></th></tr></thead>
+      <thead><tr><th style="width:34%">Item</th><th>Effect</th><th style="width:26px" aria-label="remove"></th></tr></thead>
       <tbody></tbody>
     </table>
     <button class="addrow" data-add="addons" type="button">+ Add system</button>
 
     <h2 class="sec">Bastion Facilities</h2>
-    <p class="sec-note">The ship is the crew's bastion — two special facilities at level 5, more at 9/13/17, pooled between both PCs. Unassigned as of Session Zero; fill them in when the crew chooses.</p>
+    <p class="sec-note">The ship is the crew's bastion: two special facilities at level 5, more at 9 / 13 / 17, pooled between both PCs. Unassigned as of Session Zero.</p>
     <table class="tbl" data-table="facilities">
-      <thead><tr><th style="width:30%">Facility</th><th style="width:14%">Size</th><th>Where aboard</th><th style="width:20%">Hirelings</th><th aria-label="remove"></th></tr></thead>
+      <thead><tr><th style="width:30%">Facility</th><th style="width:14%">Size</th><th>Where aboard</th><th style="width:22%">Crew member</th><th style="width:26px" aria-label="remove"></th></tr></thead>
       <tbody></tbody>
     </table>
     <button class="addrow" data-add="facilities" type="button">+ Add facility</button>
 
     <h2 class="sec">Layout</h2>
-    <p class="sec-note">The gravity plane bisects the hull horizontally — both faces of every deck are walkable. Whose space is whose is most of what makes her feel owned.</p>
+    <p class="sec-note">Gravity plane bisects the hull; both faces of every deck are walkable.</p>
     <div class="decks">
       <div class="deck">
         <h3>Upper Deck</h3><div class="dsub">above the gravity plane</div>
-        <textarea class="grow" data-key="deckUp">• Helm room — the Captain's chair and the Coilworks throne, charts. Estravane flies her; Orena trains here as backup helm.
-• Forecastle / crow's nest — Aussie's watch.
-• Main deck — rigging + the two ballista positions. Finnik rigs; Aerion runs crew ops as bosun.
-• Galley — Brassica's domain, cook by night, medic by day.</textarea>
+        <textarea class="grow" data-key="deckUp">Helm room
+Forecastle / crow's nest
+Main deck (port &amp; starboard ballista)
+Galley</textarea>
       </div>
       <div class="deck">
         <h3>Lower Deck</h3><div class="dsub">gravity inverted</div>
-        <textarea class="grow" data-key="deckLow">• Crew quarters — berths for 11, running 7; made-up empty bunks.
-• Captain's quarters — where Estravane plays solitaire alone at night.
-• Cargo holds — 20 tons; Aerion's kingdom, everything manifest-tagged.
-• Engineering — Tack's workshop; he names every component.
-• Sickbay — Brassica's over-stocked cabinet.
-• Gun bay — ammunition and the nightly loading ritual.</textarea>
+        <textarea class="grow" data-key="deckLow">Crew quarters
+Captain's quarters
+Cargo holds
+Engineering
+Sickbay
+Gun bay</textarea>
       </div>
     </div>
 
-    <h2 class="sec">The Ship as a Character</h2>
-    <div class="quirks">
-      <div class="quirk"><span class="qh">"She's just talking."</span> A timber ship, she creaks. Tack insists it's her asking for attention and goes to fix a plank. Pure flavor — <strong>but if the creaking ever stops, something is very wrong.</strong></div>
-      <div class="quirk"><span class="qh">Tack's flag.</span> He saved the tattered colours from the old ship and re-stitched them onto this hull — her memory of the crew she replaced.</div>
-      <div class="quirk"><span class="qh">The empty berths.</span> Complement 11, running 7. A made-up bunk nobody uses is a hook waiting to be loaded.</div>
-      <div class="quirk"><span class="qh">No name.</span> She flies unnamed, on the Captain's reputation. Whether the crew ever christens her says exactly how they feel about home.</div>
-    </div>
-    <div class="callout"><strong>Your notes.</strong>
-      <textarea class="grow" data-key="notes" placeholder="Session notes, new quirks, damage taken, the day the creaking stopped…" style="margin-top:6px"></textarea>
-    </div>
-
     <h2 class="sec">Crew Aboard</h2>
-    <p class="sec-note">The loyal survivors, plus the two PCs. Wages &amp; budget are tracked off-sheet by the crew.</p>
     <table class="tbl" data-table="crew">
-      <thead><tr><th style="width:22%">Aboard</th><th style="width:26%">Role</th><th>In one line</th><th aria-label="remove"></th></tr></thead>
+      <thead><tr><th style="width:26%">Aboard</th><th style="width:30%">Role</th><th>Notes</th><th style="width:26px" aria-label="remove"></th></tr></thead>
       <tbody></tbody>
     </table>
     <button class="addrow" data-add="crew" type="button">+ Add crew</button>
 
+    <h2 class="sec">Notes</h2>
+    <textarea class="grow" data-key="notes" placeholder="Damage taken, repairs owed, running log…" style="min-height:70px"></textarea>
+
   </article>
 
   <p class="foot">
-    Ship's Papers · a fan-made, editable 5e ship sheet for the <em>Astral Vagabonds</em> crew · edits save to this browser only.<br>
+    Ship's Papers · a fan-made, editable 5e ship sheet · edits save to this browser only.<br>
     Not affiliated with or endorsed by Wizards of the Coast.
   </p>
 </main>
@@ -321,28 +273,28 @@
 
   var DEFAULTS={
     addons:[
-      ["Sturdy profile","AC 19, −10 ft speed, damage threshold 20"],
+      ["Sturdy profile","AC 19, minus 10 ft speed, damage threshold 20"],
       ['Coilworks Mk. I "Standard" helm',"The throne. Reliable, beige, secondhand."],
       ["Plating I","A single hit can't disable two systems; absorbs the first 4 damage each fight"],
-      ["Ballista ×2","3d10, 120/480 ft; base three actions to fire"],
-      ["— Sureshot Rotator (×2)","Aiming becomes a bonus action"],
-      ["— Ready Magazine (×2)","Loading becomes a bonus action — a 2–3 crew fires in ~one turn"],
+      ["Ballista x2","3d10, 120/480 ft; base three actions to fire"],
+      ["Sureshot Rotator (x2)","Aiming becomes a bonus action"],
+      ["Ready Magazine (x2)","Loading becomes a bonus action; a 2-3 crew fires in about one turn"],
       ["Blunt ram","Collision damage, safer for your own hull; ram-and-board in one initiative"],
-      ["Trim Rig","+5 ft; holds attitude unhelmed (she won't drift or sink off the helm)"],
-      ["Standard shot ×500","250 rounds per ballista"]
+      ["Trim Rig","Plus 5 ft; holds attitude unhelmed (she won't drift or sink off the helm)"],
+      ["Standard shot x500","250 rounds per ballista"]
     ],
     facilities:[
       ["","","",""],
       ["","","",""]
     ],
     crew:[
-      ["Captain Estravane","Captain · primary helm","Late 50s, dry and exacting. Won't drink; solitaire alone at night. Rumored ex-Commodore who lost a fleet."],
-      ["Tack","Chief engineer (gunner 2nd)","Autognome. Meticulous, no social read. Loves the ship like a pet; saved her flag."],
-      ["Finnik “Finney”","Rigger / deckhand (cook 2nd)","Halfling. Gregarious gossip; runs game nights. Wires coin to someone unnamed at every port."],
-      ["Osgood “Aussie” Hammerful","Security · scout","Giff, 7 ft. Absurdly polite gentle giant; comically large firearm. Claims he headbutted through steel."],
-      ["Brassica","Medic · cook (unlicensed)","Fast-talking; “knows a guy” everywhere. On the run from a deal gone bad."],
-      ["Aerion — Priscilla","Bosun / Quartermaster","Runs the crew and the manifests; keeps the inventory, tabs, and debts. Trading-house family."],
-      ["Orena — Gabrielle","Navigator · backup helm","Newer aboard; training on the helm. Lost her last crew; out here to find them. Keeps a bestiary."]
+      ["Captain Estra Vane","Captain · primary helm",""],
+      ["Tack","Chief engineer (gunner 2nd)",""],
+      ["Finnik “Finney”","Rigger / deckhand (cook 2nd)",""],
+      ["Osgood “Aussie” Hammerful","Security · scout",""],
+      ["Brassica","Medic · cook (unlicensed)",""],
+      ["Aerion (Priscilla)","Bosun / Quartermaster",""],
+      ["Orena (Gabrielle)","Navigator · backup helm",""]
     ]
   };
 
@@ -350,28 +302,21 @@
   var $=function(s,r){return (r||document).querySelector(s)};
   var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
 
-  /* ---------- render tables ---------- */
-  function makeCell(val,multiline){
+  function autogrow(el){ el.style.height="auto"; el.style.height=(el.scrollHeight)+"px"; }
+
+  function makeCell(val){
     var td=document.createElement("td"); td.className="cell";
-    var el=document.createElement(multiline?"textarea":"input");
-    if(multiline){el.rows=1;}
-    el.value=val||"";
-    el.addEventListener("input",function(){ if(multiline) autogrow(el); scheduleSave(); });
-    td.appendChild(el);
-    return td;
+    var el=document.createElement("textarea"); el.rows=1; el.value=val||"";
+    el.addEventListener("input",function(){ autogrow(el); scheduleSave(); });
+    td.appendChild(el); return td;
   }
   function makeRow(tableName,rowData){
-    var tr=document.createElement("tr");
-    var n=COLS[tableName];
-    for(var i=0;i<n;i++){
-      var multiline = (tableName!=="facilities") && (i===n-1); // last col of addons/crew is prose
-      tr.appendChild(makeCell(rowData?rowData[i]:"", multiline));
-    }
+    var tr=document.createElement("tr"); var n=COLS[tableName];
+    for(var i=0;i<n;i++){ tr.appendChild(makeCell(rowData?rowData[i]:"")); }
     var rm=document.createElement("td"); rm.className="rm";
     var b=document.createElement("button"); b.className="rmbtn"; b.type="button"; b.title="Remove row"; b.setAttribute("aria-label","Remove row"); b.textContent="×";
     b.addEventListener("click",function(){ tr.parentNode.removeChild(tr); scheduleSave(); });
-    rm.appendChild(b); tr.appendChild(rm);
-    return tr;
+    rm.appendChild(b); tr.appendChild(rm); return tr;
   }
   function renderTable(tableName,rows){
     var tb=$('[data-table="'+tableName+'"] tbody'); tb.innerHTML="";
@@ -381,65 +326,42 @@
   function readTable(tableName){
     var out=[]; var n=COLS[tableName];
     $$('[data-table="'+tableName+'"] tbody tr').forEach(function(tr){
-      var cells=$$(".cell input, .cell textarea", tr).map(function(el){return el.value});
+      var cells=$$(".cell textarea", tr).map(function(el){return el.value});
       out.push(cells.slice(0,n));
     });
     return out;
   }
 
-  /* ---------- autogrow textareas ---------- */
-  function autogrow(el){ el.style.height="auto"; el.style.height=(el.scrollHeight)+"px"; }
-
-  /* ---------- save / load ---------- */
   var saveTimer=null, dot=$("#dot"), saveTxt=$("#saveTxt");
-  function scheduleSave(){
-    dot.classList.add("saving"); saveTxt.textContent="Saving…";
-    clearTimeout(saveTimer);
-    saveTimer=setTimeout(save,350);
-  }
+  function scheduleSave(){ dot.classList.add("saving"); saveTxt.textContent="Saving…"; clearTimeout(saveTimer); saveTimer=setTimeout(save,350); }
   function collect(){
-    var fields={};
-    $$("[data-key]").forEach(function(el){ fields[el.getAttribute("data-key")]=el.value; });
+    var fields={}; $$("[data-key]").forEach(function(el){ fields[el.getAttribute("data-key")]=el.value; });
     return {fields:fields, tables:{addons:readTable("addons"),facilities:readTable("facilities"),crew:readTable("crew")}};
   }
   function save(){
-    try{
-      localStorage.setItem(KEY, JSON.stringify(collect()));
-      dot.classList.remove("saving");
+    try{ localStorage.setItem(KEY, JSON.stringify(collect())); dot.classList.remove("saving");
       var t=new Date(); saveTxt.textContent="Saved "+String(t.getHours()).padStart(2,"0")+":"+String(t.getMinutes()).padStart(2,"0");
     }catch(e){ dot.classList.remove("saving"); saveTxt.textContent="Save unavailable"; }
   }
   function loadState(){
-    var data=null;
-    try{ var raw=localStorage.getItem(KEY); if(raw) data=JSON.parse(raw); }catch(e){ data=null; }
-    if(data && data.fields){
-      $$("[data-key]").forEach(function(el){
-        var k=el.getAttribute("data-key");
-        if(Object.prototype.hasOwnProperty.call(data.fields,k)) el.value=data.fields[k];
-      });
-    }
-    ["addons","facilities","crew"].forEach(function(t){
-      renderTable(t, (data && data.tables && data.tables[t]) ? data.tables[t] : DEFAULTS[t]);
-    });
-    $$("textarea.grow").forEach(autogrow);
+    var data=null; try{ var raw=localStorage.getItem(KEY); if(raw) data=JSON.parse(raw); }catch(e){ data=null; }
+    if(data && data.fields){ $$("[data-key]").forEach(function(el){ var k=el.getAttribute("data-key");
+      if(Object.prototype.hasOwnProperty.call(data.fields,k)) el.value=data.fields[k]; }); }
+    ["addons","facilities","crew"].forEach(function(t){ renderTable(t, (data && data.tables && data.tables[t]) ? data.tables[t] : DEFAULTS[t]); });
+    $$("textarea").forEach(autogrow);
     if(data) saveTxt.textContent="Saved locally";
   }
 
-  /* ---------- wire up ---------- */
   $$("[data-key]").forEach(function(el){
-    el.addEventListener("input",function(){ if(el.classList.contains("grow")) autogrow(el); scheduleSave(); });
+    el.addEventListener("input",function(){ if(el.tagName==="TEXTAREA") autogrow(el); scheduleSave(); });
   });
   $$("[data-add]").forEach(function(btn){
     btn.addEventListener("click",function(){
-      var t=btn.getAttribute("data-add");
-      var tb=$('[data-table="'+t+'"] tbody');
-      var tr=makeRow(t,null); tb.appendChild(tr);
-      var first=$(".cell input, .cell textarea", tr); if(first) first.focus();
-      scheduleSave();
+      var t=btn.getAttribute("data-add"); var tb=$('[data-table="'+t+'"] tbody');
+      var tr=makeRow(t,null); tb.appendChild(tr); var first=$(".cell textarea", tr); if(first) first.focus(); scheduleSave();
     });
   });
 
-  /* theme toggle */
   var TKEY="ships-papers-theme";
   function applyTheme(v){ if(v) document.documentElement.setAttribute("data-theme",v); else document.documentElement.removeAttribute("data-theme"); }
   try{ var st=localStorage.getItem(TKEY); if(st) applyTheme(st); }catch(e){}
@@ -449,33 +371,28 @@
     var next = cur ? (cur==="dark"?"light":"dark") : (mqDark?"light":"dark");
     applyTheme(next); try{ localStorage.setItem(TKEY,next); }catch(e){}
   });
-
   $("#printBtn").addEventListener("click",function(){ window.print(); });
   $("#resetBtn").addEventListener("click",function(){
     if(!confirm("Reset the sheet to its Session Zero defaults? This clears your saved edits in this browser.")) return;
-    try{ localStorage.removeItem(KEY); }catch(e){}
-    location.reload();
+    try{ localStorage.removeItem(KEY); }catch(e){} location.reload();
   });
 
-  /* ---------- starfield ---------- */
   (function(){
-    var c=$("#stars"), ctx=c.getContext("2d"), stars=[], raf=null, dpr=Math.min(window.devicePixelRatio||1,2);
+    var c=$("#stars"), ctx=c.getContext("2d"), stars=[], dpr=Math.min(window.devicePixelRatio||1,2);
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion:reduce)").matches;
     function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
     function resize(){
       c.width=innerWidth*dpr; c.height=innerHeight*dpr; c.style.width=innerWidth+"px"; c.style.height=innerHeight+"px";
-      var count=Math.min(220, Math.floor(innerWidth*innerHeight/9000));
-      stars=[]; for(var i=0;i<count;i++){ stars.push({x:Math.random()*c.width,y:Math.random()*c.height,r:(Math.random()*1.3+0.2)*dpr,tw:Math.random()*Math.PI*2,sp:Math.random()*0.015+0.003,dy:(Math.random()*0.06+0.01)*dpr}); }
+      var count=Math.min(220, Math.floor(innerWidth*innerHeight/9000)); stars=[];
+      for(var i=0;i<count;i++){ stars.push({x:Math.random()*c.width,y:Math.random()*c.height,r:(Math.random()*1.3+0.2)*dpr,tw:Math.random()*Math.PI*2,sp:Math.random()*0.015+0.003,dy:(Math.random()*0.06+0.01)*dpr}); }
     }
     function draw(){
       ctx.clearRect(0,0,c.width,c.height);
       var base=css("--star")||"rgba(200,210,255,.5)", bright=css("--star-bright")||"rgba(150,220,255,.9)";
       for(var i=0;i<stars.length;i++){ var s=stars[i]; s.tw+=s.sp; var a=0.35+0.65*(0.5+0.5*Math.sin(s.tw));
-        ctx.globalAlpha=a; ctx.fillStyle = (i%9===0)?bright:base;
-        ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,6.283); ctx.fill();
-        s.y+=s.dy; if(s.y>c.height){ s.y=0; s.x=Math.random()*c.width; }
-      }
-      ctx.globalAlpha=1; raf=requestAnimationFrame(draw);
+        ctx.globalAlpha=a; ctx.fillStyle=(i%9===0)?bright:base; ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,6.283); ctx.fill();
+        s.y+=s.dy; if(s.y>c.height){ s.y=0; s.x=Math.random()*c.width; } }
+      ctx.globalAlpha=1; requestAnimationFrame(draw);
     }
     function still(){ ctx.clearRect(0,0,c.width,c.height); var base=css("--star")||"rgba(200,210,255,.5)";
       for(var i=0;i<stars.length;i++){ var s=stars[i]; ctx.globalAlpha=0.5+0.4*Math.sin(s.tw); ctx.fillStyle=base; ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,6.283); ctx.fill(); } ctx.globalAlpha=1; }
