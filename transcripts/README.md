@@ -10,5 +10,9 @@ Raw Granola meeting recordings for the Astral Vagabonds campaign, pulled to file
 
 **Provenance:** All captured by Joel Chan (joelkhchan2@gmail.com) in Joel's Granola workspace. The session-zero recording captured a single audio channel, so its transcript is labelled entirely "Me:" and reads as one stream; the notes file is the cleaner reference.
 
-**Naming discrepancy to reconcile:** these transcripts use the players' *character* concept names as first discussed (Arion/Orion the half-elf quartermaster-bosun; Priscilla the astral-elf navigator). The current canon in `CLAUDE.md` lists the PCs as **Gabrielle** (Bard/Paladin, Bosun) and **Priscilla** (Fighter, Navigator). Arion appears to be an earlier concept for the Gabrielle slot — flagged here so the difference isn't lost.
-</content>
+**Reading the names (settled with the DM):** the transcripts use in-progress character names and, in the Granola AI summary, mis-attribute some detail. The settled mapping is:
+
+- **Aerion** (the transcript's "Arion/Orion", half-elf quartermaster) is **Priscilla's** character — the ship's **Bosun / Quartermaster**.
+- **Orena** (the transcript's astral-elf navigator) is **Gabrielle's** character — **Navigator & backup helmsman** (helm-in-training).
+
+Note this differs from `CLAUDE.md`'s current PC role labels (which put Gabrielle as Bosun and Priscilla as Navigator); those labels predate this session and should be reconciled. Also: the ship is **currently unnamed** — "The Last Honest Deal" in the Session Zero notes was only the GM's private working title and was **not** adopted by the crew. The canonical write-up of all this is `ships/The Ship (unnamed).md`.

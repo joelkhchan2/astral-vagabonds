@@ -117,5 +117,3 @@
 - **Bring a budget sheet to the next session** — track hull repairs (20 gp/HP), crew wages (800 gp/month for 8), ammo costs (5 gp/standard shot), and the 10,000 gp trust fund reserve separately.
 - **Confirm Arion's starting personal gold** — GM to decide what 5 years of saving on a destitute ship actually amounts to.
 - **Clarify Priscilla's family's fifth-seat ambitions** — decide what the family would offer to compete for the vacant founding house seat.
-</content>
-</invoke>
