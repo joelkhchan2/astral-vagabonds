@@ -126,23 +126,43 @@ Columns **Level / Prereq / Order** are authoritative (from the DMG index). **Spa
 
 ---
 
-## Bastion Events (DM-only)
+## Voyage & Downtime Events (DM-only)
 
-Rolled **once each time a PC issues Maintain** (roll separately for each PC who Maintains, even in a combined bastion). Read the result to the owning player; resolve immediately, expanding story together. Great as cutscenes where players voice their hirelings.
+> **Campaign rework.** Because the ship travels *with* the crew, this replaces the DMG's static-manor "while you were away" events. It's a **voyage table**: things that happen on the long, isolating hauls between systems (the Maintain weeks when the ship is coasting) or while docked at the Rock of Brawl. Tuned to the campaign's ~70% warmth / ~15% wonder / ~15% danger mix. **Bastion Defenders are the ship's faceless recruited security detail — not the named crew** — so a "lost defender" is never Tack or Finny.
 
-| 1d100 | Event |
-|:---:|---|
-| 01–50 | **All Is Well** — nothing significant (roll 1d8 for color). |
-| 51–55 | **Attack** — a hostile force is beaten off. Roll **6d6**; each **1** kills a Bastion Defender. Zero Defenders → a random special facility is damaged and shut down for the PC's next bastion turn (then repaired free). |
-| 56–58 | **Criminal Hireling** — a warrant appears; pay a **1d6×100 GP** bribe to keep them, else they're arrested (the facility idles one turn, then a free replacement arrives). |
-| 59–63 | **Extraordinary Opportunity** — host a festival / fund a mage / appease a noble. Take it for **500 GP** → roll again on this table (reroll this result); decline → nothing. |
-| 64–72 | **Friendly Visitors** — outsiders pay **1d6×100 GP** to briefly use a facility (doesn't interrupt your orders). |
-| 73–76 | **Guest** — roll 1d4: renowned guest (letter of recommendation) / fugitive (gift 1d6×100 GP) / mercenary (+1 Defender) / friendly monster (defends once, no Defender loss). |
-| 77–79 | **Lost Hirelings** — a random facility loses its hirelings; idle one turn, then replaced free. |
-| 80–83 | **Magical Discovery** — gain an Uncommon **Potion or Scroll** of your choice, free. |
-| 84–91 | **Refugees** — 2d4 refugees seek shelter; they pay **1d6×100 GP** and stay until rehomed or attacked. |
-| 92–98 | **Request for Aid** — send Defenders (roll 1d6 each; total ≥10 solves it for a **1d6×100 GP** reward; <10 solves it but halves the reward and kills one Defender). |
-| 99–00 | **Treasure** — gain an art object or magic item (roll on the Treasure sub-table → the referenced Ch. 7 tables). |
+Rolled **once each time a PC issues Maintain** (separately for each PC who Maintains, even though the bastion is one hull). Read the result to the owning player and resolve it together — many of these are best run as cutscenes where players voice the crew.
+
+| 1d100 | Event | Tone |
+|:---:|---|:---:|
+| 01–33 | **All Is Quiet** — a calm leg. Roll 1d8 for color (see below). | 🟢 |
+| 34–41 | **Something in the Drift** — the ship crosses paths with a creature. Roll 1d8. | 🔵🔴 |
+| 42–49 | **A Heart-to-Heart** — a wall comes down aboard. Roll/pick on 1d6; grants a lasting **Bond** + one-time **morale** (Inspiration) for those involved. | 🟢 |
+| 50–56 | **A Ship Hails You** — another vessel signals mid-void to trade or to borrow a facility (their helm needs your Workshop). They pay **1d6×100 GP**; your orders aren't interrupted. | 🟢 |
+| 57–63 | **Salvage & Opportunity** — a find in transit: a derelict to strip, an unlisted current to chart and sell as **nav data**, a beacon with a bounty, a convoy needing escort. Spend a cost (a detour, air, fuel) → payoff + reputation, or pass. | 🟢 |
+| 64–70 | **A Wonder** — the ship passes something sublime. Roll 1d8. Charting/logging it → nav data or a lead. | 🔵 |
+| 71–76 | **She's Acting Up** — one of the hull's quirks fires. Roll 1d6. Almost always comedy + a minor repair; once in a long while, a warning. | 🟢🔴 |
+| 77–81 | **Aboard for the Haul** — a passenger, stowaway, or rescued castaway rides along. Roll 1d4: renowned figure (a useful letter) / someone seeking passage or sanctuary (gift **1d6×100 GP**) / a mercenary (**+1 Defender**) / a friendly astral creature that tags along and defends once (no Defender loss). | 🟢 |
+| 82–86 | **Castaways** — survivors adrift: a wrecked crew, a marooned traveler, refugees from a raided station (2d4). They pay **1d6×100 GP** or trade **information / a favor**, and stay until rehomed or attacked. *(Prime hook for Orena's lost crew.)* | 🟢🔴 |
+| 87–90 | **Word From the Board** — news catches up at the next beacon: a rival beat your route time, a creditor or Aerion's family sends a pointed message, an off-book contract is dangled, or your Manifest Board ranking moves. | 🟢🔴 |
+| 91–93 | **Someone's Having a Week** — a crew member is temporarily out (sick, injured, sulking, deep in a B-plot). Their facility idles one turn, then they're back. *Not* desertion. | 🟢 |
+| 94–96 | **A Windfall** — the ship comes into something. Roll 1d6 (see below): valuables, a free potion/scroll, or a genuinely useful minor item / paying lead. | 🟢🔵 |
+| 97–98 | **A Face From the Past** — someone's history catches up: a bounty hunter for **Brassica**, a collector about **Finny's** payments, a ghost of the **Captain's** old fleet. Pay them off (**1d6×100 GP** bribe), hide them, or face it. | 🔴 |
+|  99   | **Distress Call** — a contact or station needs help. Send Defenders (roll 1d6 each; total ≥10 solves it for **1d6×100 GP** + Manifest Board standing; <10 solves it but halves the reward and costs one Defender). | 🔴 |
+|  00   | **Contact!** — a hostile encounter. DM picks **ship-to-ship** (hull takes damage → repair cost) or **boarding** (defenders repel them: roll **6d6**, each **1** loses a security-detail Defender; **zero Defenders → a random ship system goes offline** for the PC's next bastion turn, then repaired free). | 🔴 |
+
+### Sub-tables
+
+**All Is Quiet (1d8)** — Tack names a new bolt and introduces it to the others · Finny's game-night bracket erupts in (friendly) scandal · the Captain wins at solitaire again, alone · Brassica invents a dish nobody asked for · a small repair goes suspiciously well · a lovely, harmless sight slides past the porthole · someone *swears* they saw something in the dark (they didn't) · the ram twitches but holds.
+
+**Something in the Drift (1d8)** — 1–2 **Scavvers** pick at the hull; shoo them (check / warning shot) or lose a fitting or bit of cargo 🔴 · 3–4 **Kindori pod** paces the ship: an omen, an escort, a moment of awe; Orena logs them → nav data 🔵 · 5 **Void-glitter school** swarms the galley porthole, harmless and gorgeous; Finny names them; morale 🟢 · 6 **A lone unclassified creature** — feeds Orena's bestiary; study it → survey payout or clue 🔵 · 7 **A "derelict" that's a sleeping creature**; sneak past or wake it 🔴 · 8 **Something watches and leaves** before you get close; no stat block, just a thread 🔵🔴.
+
+**A Heart-to-Heart (1d6)** — 1 two NPCs who grate on each other reconcile · 2 an NPC finally opens up to a PC · 3 the Captain lets her guard down (rare) · 4 a crew member shares a real piece of their secret (Brassica's deal / Finny's payments / Estravane's fleet / Orena's lost crew) · 5 an Aerion–Orena moment about their shared history · 6 the whole crew, over a meal at the long table.
+
+**A Wonder (1d8)** — a dead titan adrift, big as a moon · an impossible aurora across the marble's edge · a silent derelict cathedral-ship, its lights still lit · a current that runs on old memories (you hear voices that aren't there) · a reef of crystal or a garden of frozen comets · a star or a marble being *born* · a migration of thousands crossing the dark · a place that appears on no chart (chart it → nav data + a lead).
+
+**She's Acting Up (1d6)** — the ram self-deploys at nothing · the creaking changes pitch (usually nothing… usually) · the float bay hiccups and someone's coffee is on the ceiling · a Tack-named component throws a tantrum and Tack takes it personally · a door opens or locks for the wrong person · she runs a few degrees warm / hums one note — comfort, or omen.
+
+**A Windfall (1d6)** — 1–3 an art object or valuables (salvage, an inheritance, an admirer's gift) · 4–5 a free Uncommon **Potion or Scroll** (Tack's tinkering or lucky salvage) · 6 a genuinely useful minor magic item, or a lead worth real gold.
 
 ### Fall of a bastion
 - **Divestiture** — the PC gives it up; it's vacated and looted.

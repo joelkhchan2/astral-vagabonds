@@ -70,13 +70,13 @@ You **can't buy** special rooms — those come from leveling up. (Your DM also h
 
 ---
 
-## Life aboard while you're away
+## Life on the long haul
 
-When you're off adventuring and the ship is running itself (a **Maintain** week), things happen. Most of the time it's quiet — a fixed leak, a stray dog someone adopted, a letter from a friend. Sometimes it's more: a **boarding attempt** your defenders beat back, **visitors** who pay to use your workshop, a **guest** who stays a while, **refugees** looking for shelter, a **call for help** from a local, or a bit of **treasure** turning up. Your DM handles the dice; your job is to react — this is a great time to play out your crew.
+On the long, quiet legs between systems (a **Maintain** week, when the ship is just coasting), **things happen out there in the dark**. Most of the time it's calm — Tack naming a new bolt, Finny's game night, a beautiful nothing sliding past the porthole. Sometimes it's more: a **creature in the drift** (scavvers, a pod of kindori, something new for Orena's bestiary), a **ship hailing you** to trade, **salvage** worth chasing, a genuine **wonder**, a **castaway** to take in, a **heart-to-heart** that changes how two of you see each other — the ship **acting up** in her usual way — or, now and then, real trouble. Your DM rolls it; your job is to *live* it. These are some of the best moments to play your crew.
 
 Two things worth knowing:
-- **Defenders matter.** If the ship gets attacked and has no defenders, one of your rooms gets knocked out for a bit. A **Barrack** (and keeping it staffed) is cheap insurance.
-- **Don't abandon her.** A ship left with no orders for a long stretch — because you're stranded, captured, or worse — will eventually be left by its crew. Keep giving orders when you can.
+- **Defenders matter.** Those are the faceless security hands you recruit (not your named crew). If the ship is boarded and you have none, a system gets knocked out for a bit. A **Barrack** — and keeping it staffed — is cheap insurance.
+- **Don't abandon her.** A ship left with no orders for a long stretch — because you're stranded, captured, or worse — is eventually left by its crew. Keep giving orders when you can.
 
 ---
 
