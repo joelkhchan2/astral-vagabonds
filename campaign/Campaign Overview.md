@@ -95,6 +95,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `The Ship (unnamed).md` | The crew's ship character sheet, built from Session Zero (still unnamed) |
 | `Bastions.md` | Full 2024 bastion framework, the facility catalog, and the ship Voyage & Downtime events table |
 | `Bastions — Player Guide.md` | Plain-language player handout for running the ship as a bastion |
+| `Ship Combat — Player Guide.md` | Plain-language player handout for the ship-combat stations & maneuvers (companion to Rules & Systems §8) |
 
 ### The world
 | File | What's in it |
