@@ -8,7 +8,7 @@ Aerion and Orena each own a piece of the ship's workings, but it's **one hull, o
 
 ## How it works, in one minute
 
-- **Every so often between adventures, you take a "ship turn"** (about once a week of downtime). On a ship turn you tell your **special rooms** what to do — an **order** — and they do it in the background.
+- **Each voyage you take a "ship turn."** Once per trip (no matter how long the leg), you tell your **special rooms** what to do — an **order** — and they work on it in the background while you fly.
 - Your ship has two kinds of rooms:
   - **Basic rooms** — a galley, bunkroom, storeroom, common room. No rules, just home. Good for scenes.
   - **Special rooms (facilities)** — rooms that actually *do* something: a workshop that builds gear, a sickbay that brews remedies, an armory that arms the crew.

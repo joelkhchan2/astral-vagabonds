@@ -1,6 +1,8 @@
 # Bastions — DM Reference
 
-The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the ship is the bastion** — the crew's two PCs pool their facilities into one hull (see "Combining Bastions"). This doc is the rules reference; the table-facing handout is `Bastions — Player Guide.md`.
+The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the ship is the bastion** — the crew's two PCs pool their facilities into one hull (see "Combining Bastions"). This doc is the full rules reference; the table-facing handout is `Bastions — Player Guide.md`.
+
+> **This complements, and defers to, `Rules & Systems.md` §6 ("The Ship as Bastion").** That section is the short campaign house-ruling — where its two deliberate deviations from RAW (below) differ from the DMG defaults, **§6 wins**. `Rules & Systems.md` §8 covers ship *combat* (crew stations & maneuvers); this doc doesn't touch that. §6 also carries the fuller facilities-as-ship-rooms mapping — see "Adapting to the ship."
 
 > **Sourcing note.** The framework rules and the facility **index** (level, prerequisite, order) are transcribed from *Dungeon Master's Guide (2024), Ch. 8: Bastions* (attached at `fa7bd825-Dungeon_Masters_Guide_2024__Ch._8_Bastions.md`). The per-facility **Space, hireling counts, and effect summaries** are reconstructed from the 2024 DMG — the attachment's individual facility stat blocks were lazy-loaded placeholders that didn't render, and 5e.tools is blocked by the network proxy — so **verify the exact craftable lists, gp values, and boon wording against the book before they matter at the table.** Levels, prerequisites, and order types are authoritative; effect blurbs are directional.
 
@@ -9,7 +11,7 @@ The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the 
 ## The basics
 
 - **You gain a bastion at level 5.** Work has been happening "off-screen" during early adventuring, so it's ready when the PC hits 5. Here, that's the ship they bought at Session Zero.
-- **Bastion turns** happen every **7 days of in-game time** by default (slow this to monthly if there are long gaps between adventures). On a bastion turn a PC issues **orders** to their special facilities, or issues **Maintain** to the whole bastion.
+- **Bastion turns.** RAW is one every 7 days of in-game time. **This campaign house-rules it to one bastion turn per voyage leg** (`Rules & Systems.md` §6), so a transit is a single procedure regardless of length. On a bastion turn a PC issues **orders** to their special facilities, or issues **Maintain** to the whole bastion.
 - A bastion has **basic facilities** (flavor rooms) and **special facilities** (rooms with mechanical benefits).
 - **Facility space** caps a room's size:
 
@@ -22,7 +24,10 @@ The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the 
 - **Free structure features:** closets/washrooms (inside a facility), corridors/ramps/stairs, and one or more doors + shuttered windows per facility. **Defensive walls:** 20 ft high, **250 GP and 10 days per 5-ft square**; a fully walled bastion loses 2 fewer Defender-dice when attacked.
 
 ### Combining bastions (this campaign)
-Two PCs can merge their bastions into one structure — **the ship**. Merging does **not** change how many special facilities each PC has, how they work, or who issues their orders. **Each PC's hirelings stay theirs** and can't be shared. Exception: if an event kills one PC's Bastion Defenders, the other PC may absorb some/all of those losses onto their bastion instead (because they're combined).
+Two PCs can merge their bastions into one structure — **the ship**. Merging doesn't change how many special facilities each PC has or how they work.
+
+- **RAW:** each PC still owns and orders their own facilities, and hirelings stay with their owner (can't be shared); the one shared perk is that Defender losses from an event can be absorbed onto either combined bastion.
+- **Campaign house rule (`Rules & Systems.md` §6):** the ship is **fully pooled** — facilities are chosen jointly and **either PC can issue any order**. Use this; it keeps transit to one shared procedure. (The Defender-absorption perk still applies.)
 
 ---
 
