@@ -31,7 +31,7 @@ Final scene: The fleet returns. The deep Astral is chartable. Gabrielle's recove
 
 The Broker calls in favor #3: Estra must surrender her CIV charter. Walk away. This forces the question the entire campaign built toward -- can the Vagabonds exist without Estra? The crew chooses Gabrielle as captain. Priscilla runs everything else. Estra lets go -- the hardest thing she's ever done.
 
-Gabrielle's moment mirrors and inverts her backstory: she lost a crew she couldn't save, now a crew chooses her. Priscilla gets what she always wanted -- to be the person without whom nothing works, from the navigator's chair and the ledger. Estra trusts that what she built can stand without her.
+Gabrielle's moment mirrors and inverts her backstory: she lost a crew she couldn't save, now a crew chooses her. Priscilla gets what she always wanted -- to be the person without whom nothing works, from the bosun's post and the ledger. Estra trusts that what she built can stand without her.
 
 Final scene: The *Last Honest Deal* under new command. Coffee stain still on the captain's chair. The ship creaks. "She's just talking." "I know." They fly.
 

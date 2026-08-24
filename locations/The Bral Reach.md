@@ -93,7 +93,7 @@ Prices are PHB standard unless noted. The Float Market carries everything mundan
 
 | Item | Cost | Effect |
 |---|---|---|
-| Ledger, bound and locked | 35 gp | *For a certain navigator, this is a holy object* |
+| Ledger, bound and locked | 35 gp | *For a certain quartermaster, this is a holy object* |
 | Manifest seals, set of 50 | 15 gp | Tamper-evident. Customs likes them. |
 | Scrivener's kit | 30 gp | Forms, stamps, and the correct forms |
 | Charter copy, certified | 12 gp | Meech will insist |

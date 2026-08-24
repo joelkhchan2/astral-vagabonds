@@ -4,15 +4,15 @@ Total complement: 12 (2 PCs + 10 NPCs)
 
 ## Player Characters
 
-### Gabrielle's PC -- The Bosun (Bard/Paladin, Level 5)
-**Role:** Bosun -- oversees rigging, repairs, crew discipline, ship operations. Assists with piloting/navigation. Also documenting a personal bestiary of astral creatures.
+### Gabrielle's PC -- The Navigator (Bard/Paladin, Level 5)
+**Role:** Navigator -- plots courses, keeps the charts, logs survey data, and is training on the helm as the ship's backup helmsman. Also documenting a personal bestiary of astral creatures.
 **Hook:** New to this crew. Previous crew was lost under mysterious/traumatic circumstances she doesn't fully understand. Overcompensating with competence -- cataloguing creatures, drilling procedures -- because she couldn't save her last crew and refuses to lose another.
 **Bestiary subplot:** Both coping mechanism and scientific contribution. Recurring mechanic: each new creature encounter gives her reason to observe, sketch, document rather than just fight. Her old crew may have been lost to something she couldn't identify -- the bestiary is unconsciously preparing her to face it again.
 **Paladin oath (non-religious):** To a spacefarer's code -- never leave crew behind, always answer a distress signal, always chart what you find so others don't die in ignorance. Her oath is to the next crew that comes through here.
-**Spotlight moments:** Ship combat (calling maneuvers, directing crew), first-contact creature encounters, crew safety vs. mission tension.
+**Spotlight moments:** Ship combat (calling maneuvers from the helm), first-contact creature encounters, crew safety vs. mission tension.
 
-### Priscilla's PC -- The Navigator (Fighter, Level 5)
-**Role:** Navigator -- plots courses, manages charts, tracks fuel/supplies. De facto quartermaster-accountant-fixer. Knows what's in every crate, who owes what, where the money's going.
+### Priscilla's PC -- The Bosun (Fighter, Level 5)
+**Role:** Bosun & Quartermaster -- oversees rigging, repairs, crew discipline, and ship operations, and runs supply and cargo. The de facto quartermaster-accountant-fixer: knows what's in every crate, who owes what, where the money's going.
 **Hook -- The Shadow King:** Family runs a major Wildspace trading consortium. On this ship because [Option A: family's "investment" evaluating the crew / Option B: left voluntarily to build her own thing / Option C (recommended): both -- sent on family business but growing to see the crew as hers].
 **Kyouya energy:** Leather-bound ledger (the Index of Accounts) tracking every favor, debt, and supply manifest. Negotiates port fees, bribes dock officials, quietly solves problems before anyone notices. When threatened, calmly recites how much the threatening party owes her family and watches them recalculate.
 **What she wants:** To be indispensable. Not famous, not powerful in the loud way -- the person without whom nothing works. And for that to be her achievement, not her family's name. Tension: her family's resources make her effective, but using them reinforces that she's just an extension of the consortium.
@@ -41,7 +41,7 @@ Total complement: 12 (2 PCs + 10 NPCs)
 **Personality:** Grim, fatalistic, extremely deadpan funny. "I'll man the ballista. If we die, at least I got to shoot something." Collects small trophies from disabled ships. Has a jar of teeth on a shelf in the gun bay (mixed species -- don't ask).
 **Sitcom parallel:** Rosa Diaz (B99) -- terrifying, secretly sentimental, would kill for this crew but never admit it.
 **Secret:** Former githyanki raider crew. Deserted after being ordered to destroy a civilian vessel. Price on their head in certain Astral ports. Was present for the Broker's Favor #1 and won't discuss it.
-**Crew dynamic:** Respects Gabrielle's bosun authority immediately (recognizes military competence). Tolerates Finny's gossip (secretly appreciates it). Protective of Wysp in a way they'd deny.
+**Crew dynamic:** Respects Priscilla's bosun authority immediately (recognizes military competence). Tolerates Finny's gossip (secretly appreciates it). Protective of Wysp in a way they'd deny.
 
 ### 4. Finnick "Finny" Groles -- Deckhand / Ship's Cook
 **Race:** Hadozee (gliding monkey-folk).
@@ -76,7 +76,7 @@ Total complement: 12 (2 PCs + 10 NPCs)
 **Personality:** Polite. Absurdly polite. Opens doors, says "after you," writes thank-you notes after shore leave. Carries comically large firearm. Can headbutt through a bulkhead. The contrast IS the character. Believes in procedure, chain of command, firm handshakes.
 **Sitcom parallel:** Terry Jeffords (B99) -- intimidating physique, enormous heart, takes his responsibilities very seriously.
 **Secret:** Dishonorably discharged from a giff mercenary company for refusing to fire on unarmed civilians during a contract dispute. Branded a coward. Still processing whether honor and obedience are the same thing.
-**Crew dynamic:** Defers to Gabrielle's bosun authority without question (chain of command is sacred to him). Calls Estra "Captain" every single time. Treats Wysp like a younger sibling in need of protection and etiquette lessons.
+**Crew dynamic:** Defers to Priscilla's bosun authority without question (chain of command is sacred to him). Calls Estra "Captain" every single time. Treats Wysp like a younger sibling in need of protection and etiquette lessons.
 
 ### 9. Wysp -- Cabin Crew / General Runner / Helm Backup
 **Race:** Astral elf (young, equivalent of teenager).
