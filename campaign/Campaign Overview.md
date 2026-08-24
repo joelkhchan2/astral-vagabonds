@@ -1,6 +1,6 @@
 # Astral Vagabonds - Campaign Overview
 
-> **Naming note:** Player character and family names are still unsettled, except the house itself: it's **House Windsong**. This folder still uses placeholders for people: **[THE PC]** (Priscilla's character), **[ORENA]** (Gabrielle's character, name provisional), **[THE FATHER]**, **[ELDEST]**, **[SECOND]**, **[THIRD]**, **[UNCLE]**, **[MOTHER]**. Replace after session 0 #1.
+> **Naming note:** Family names are still unsettled, except the house itself: it's **House Windsong**. The two PCs' character names are now confirmed: **[THE PC]** = **Aerion** (Priscilla's character, the Bosun) and **[ORENA]** = **Orena** (Gabrielle's character, the Navigator). This folder still uses those placeholders in most docs; other people remain unset: **[THE FATHER]**, **[ELDEST]**, **[SECOND]**, **[THIRD]**, **[UNCLE]**, **[MOTHER]**. Replace after session 0 #1.
 
 ## The Pitch
 
@@ -12,9 +12,9 @@ Firefly meets Brooklyn Nine-Nine in the Astral Sea, with a family inheritance dr
 
 ## The Two Player Characters
 
-**[THE PC]** (Priscilla) - Fighter, Navigator, and owner of the venture. Youngest of four sons of a merchant house that sits one rung below real power. Wants the company. Has a silver dragon named **Flurry** who is, functionally, a very unusual dog.
+**[THE PC]** (Priscilla) - Fighter, **Bosun & Quartermaster**, and owner of the venture. Youngest of four sons of a merchant house that sits one rung below real power. Wants the company. Has a silver dragon named **Flurry** who is, functionally, a very unusual dog.
 
-**[ORENA]** (Gabrielle) - Bard/Paladin, Bosun. Came out of an old sailors' guild that went privateering and lost its ship. She is the only survivor anyone can account for. She keeps a logbook catalogued by **sound**. Her crew is out there somewhere, scattered, and she is the only person who believes it.
+**[ORENA]** (Gabrielle) - Bard/Paladin, **Navigator & backup helmsman** (training on the helm). Came out of an old sailors' guild that went privateering and lost its ship. She is the only survivor anyone can account for. She keeps a logbook catalogued by **sound**. Her crew is out there somewhere, scattered, and she is the only person who believes it.
 
 They knew each other before. [THE PC] made the call. [ORENA] answered.
 
@@ -89,10 +89,13 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 ### Rules and kit
 | File | What's in it |
 |---|---|
-| `Rules & Systems.md` | Canon reference, corrections, the voyage loop, bastions, money |
+| `Rules & Systems.md` | Canon reference, corrections, the voyage loop, bastions, ship combat, money |
 | `Ship Construction.md` | Classes, profiles, style, add-ons, signature features |
 | `Stat Blocks.md` | Numbers for the crew, Flurry, and the family |
-| `The Ship (template).md` | Blank ship doc. Fill it the night they buy one. |
+| `The Ship (unnamed).md` | The crew's ship character sheet, built from Session Zero (still unnamed) |
+| `Bastions.md` | Full 2024 bastion framework, the facility catalog, and the ship Voyage & Downtime events table |
+| `Bastions — Player Guide.md` | Plain-language player handout for running the ship as a bastion |
+| `Ship Combat — Player Guide.md` | Plain-language player handout for the ship-combat stations & maneuvers (companion to Rules & Systems §8) |
 
 ### The world
 | File | What's in it |

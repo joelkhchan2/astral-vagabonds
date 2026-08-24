@@ -99,7 +99,7 @@ Parents through structure and trust, not affection. She:
 
 The crew doesn't call her "mom" -- Finny tried once and she gave him a look that could strip paint. But when Wysp had nightmares at 0300, Estra's light was already on, and her voice said "Sit down, I'll make coffee, you don't have to talk about it."
 
-### With Gabrielle (Bosun)
+### With Gabrielle (Navigator)
 Estra sees herself in Gabrielle -- the version that lost a crew and didn't know how to carry it. This makes their dynamic complicated. She's harder on Gabrielle than anyone else, not from cruelty but because she knows what's coming.
 
 **Key beats:**
@@ -107,7 +107,7 @@ Estra sees herself in Gabrielle -- the version that lost a crew and didn't know 
 - **Mid-campaign:** Tells Gabrielle about losing the Compact (emotional truth, not full story): "I built something and I wasn't strong enough to hold it. You're going to build something too. Be stronger than I was." Gabrielle realizes Estra chose her, not hired her.
 - **Late-campaign:** Asks Gabrielle for advice. Not about the ship -- about what to do. Mentor admits student is now a peer.
 
-### With Priscilla (Navigator)
+### With Priscilla (Bosun)
 Doesn't push Priscilla. Watches. Recognized the family name on day one, said nothing -- understands the difference between who your family is and who you are.
 
 Their dynamic is intellectual. Treats Priscilla as a strategic equal early. Asks for opinions on routes, contracts, port politics -- not to test, but because she values the analysis. Mentors by treating competence as a given and judgment as the thing worth developing.

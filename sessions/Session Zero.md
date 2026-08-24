@@ -95,7 +95,7 @@ Her notes list his age as **232 at the top and 132 in the family list**. Pick on
 
 **How do they know each other?** Long enough to trust, or long enough to have history?
 
-**Who's in charge?** He owns the venture. She's the bosun. Neither is the captain, because the captain is arriving next session and neither of them picked her. How do they feel about that before it happens?
+**Who's in charge?** He owns the venture and runs it day to day as bosun and quartermaster. She's the navigator, training up on the helm. Neither is the captain, because the captain is arriving next session and neither of them picked her. How do they feel about that before it happens?
 
 **What do they each think this trip is for?** They should have different answers.
 
