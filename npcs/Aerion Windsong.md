@@ -18,7 +18,7 @@ To make his own fortune and, secretly, to **buy out and take over his father's c
 The family is among those competing for the **vacant fifth seat** on the board of founding houses. What exactly House Windsong offers for that seat is Priscilla's to decide.
 
 ## Flurry
-A young silver dragon Aerion found as an egg on a treasure hunt with this crew about 4.5 years ago and reluctantly, then secretly devotedly, took responsibility for. He dotes on her, dresses her up, and would deny all of it. **She is a baby: she does not fight and should never be in combat.**
+A young silver dragon Aerion found as an egg on a treasure hunt with this crew about 4.5 years ago and reluctantly, then secretly devotedly, took responsibility for. He dotes on her, dresses her up, and would deny all of it. **She is a baby: she does not fight and should never be in combat.** Under the surface she carries **lunar astral dragon blood** (an ancestor back in the line), which is latent for now and mostly shows as an uncanny sensitivity to the astral -- see `npcs/Flurry.md` for her heritage, her role as a GM "barometer" for the living sky, and the late-game payoff.
 
 ## How he came to this crew
 He joined this (non-family) crew about five years ago because it looked like the most successful treasure-finding outfit around, and his aim was to stockpile money. They found Flurry and a hoard early, then failed job after job into near-destitution, and he stayed anyway because, though he will not say it, he is attached to them. When his old ship blew up he used the insurance, some family money, and 10,000 gp from his trust fund to buy the new one, and re-met his old friend Orena and hired her on.

@@ -83,6 +83,8 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 19 | Estra receives a dispatch and does not discuss it |
 | 20 | Nothing goes wrong. Six weeks of peace. Play the dinner scene. |
 
+**Not on the roll -- Flurry as a barometer.** When you want to foreshadow the Guttering (or anything astral) without a random result, use Flurry: she goes quiet, won't eat, hides, or half-phases when the sky is wrong -- a tell the crew slowly learns to trust. She points; the players solve. See `npcs/Flurry.md`.
+
 ---
 
 # 4. PORT RUMOURS (d12)

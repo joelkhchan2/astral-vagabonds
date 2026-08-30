@@ -108,6 +108,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | File | What's in it |
 |---|---|
 | `Crew Roster.md` | The seven aboard, their roles, and who was not hired |
+| `Flurry.md` | Aerion's silver dragon: her lunar heritage, GM-barometer role, and payoff |
 | `Captain Estra Vane.md` | The captain nobody chose |
 | `Plot Threads.md` | The Guttering, the Trial, the scattered crew, and what we cut |
 | `Potential Endings.md` | Five shapes for the finale |
