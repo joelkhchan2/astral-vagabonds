@@ -1,0 +1,246 @@
+<title>Hallow's Rest Charter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  /* A deliberately single-world document: an official carriage charter on aged paper.
+     Painted explicitly so it holds on any host ground; print-optimized below. */
+  :root {
+    --paper: #f2ebd8;
+    --paper-edge: #e7dcc0;
+    --ink: #251d11;
+    --ink-soft: #5f5238;
+    --faint: #8a7c5d;
+    --rule: #c7ba98;
+    --rule-strong: #a89871;
+    --seal: #8c3a2e;
+    --civ: #2f5747;
+    --brass: #7d5f26;
+  }
+  * { box-sizing: border-box; }
+  html { background: #d9cfb4; }
+  body {
+    margin: 0; padding: 28px 16px 60px;
+    background: #d9cfb4;
+    color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif;
+    font-size: 16px; line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .toolbar { max-width: 820px; margin: 0 auto 16px; display: flex; justify-content: flex-end; gap: 10px; }
+  .btn {
+    font-family: "Courier Prime", monospace; font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
+    background: var(--civ); color: #f2ebd8; border: none; border-radius: 4px; padding: 9px 16px; cursor: pointer;
+  }
+  .btn:hover { filter: brightness(1.08); }
+  .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  .sheet {
+    max-width: 820px; margin: 0 auto; background: var(--paper);
+    background-image:
+      radial-gradient(circle at 18% 12%, rgba(150,120,60,.06), transparent 40%),
+      radial-gradient(circle at 85% 80%, rgba(120,90,40,.07), transparent 45%);
+    border: 1px solid var(--rule-strong);
+    box-shadow: 0 2px 6px rgba(60,45,20,.25), 0 18px 50px rgba(60,45,20,.28);
+    padding: 0;
+  }
+  .frame { border: 2px double var(--rule-strong); margin: 12px; padding: 30px 34px 34px; position: relative; }
+
+  /* Masthead */
+  .mast { text-align: center; border-bottom: 2px solid var(--ink); padding-bottom: 16px; }
+  .civ-mark { width: 46px; height: 46px; display: inline-block; color: var(--civ); }
+  .authority { font-family: "IM Fell English SC", Georgia, serif; font-size: 13px; letter-spacing: .16em; color: var(--ink-soft); margin: 8px 0 2px; text-transform: uppercase; }
+  .doctitle { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.5rem, 4.5vw, 2.15rem); letter-spacing: .04em; margin: 4px 0 2px; line-height: 1.05; }
+  .subtitle { font-style: italic; color: var(--ink-soft); font-size: .95rem; margin: 0; }
+  .fil { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px 20px; margin-top: 14px; font-family: "Courier Prime", monospace; font-size: 12px; color: var(--ink-soft); }
+  .fil b { color: var(--ink); font-weight: 700; }
+
+  h2.rule { font-family: "IM Fell English SC", Georgia, serif; font-size: 1rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft);
+    margin: 26px 0 10px; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
+
+  /* Parties */
+  .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 26px; }
+  @media (max-width: 560px) { .parties { grid-template-columns: 1fr; } }
+  .party .role { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); }
+  .party .val { font-size: 1.08rem; margin-top: 2px; }
+  .party .sub { font-size: .9rem; color: var(--ink-soft); font-style: italic; }
+
+  /* Terms grid */
+  .terms { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 4px 0; }
+  @media (max-width: 560px) { .terms { grid-template-columns: repeat(2, 1fr); } }
+  .terms .cell { background: var(--paper); padding: 12px 14px; }
+  .terms .k { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); }
+  .terms .v { font-family: "Courier Prime", monospace; font-size: 1.15rem; font-weight: 700; margin-top: 3px; color: var(--ink); }
+  .terms .v small { font-weight: 400; font-size: .72rem; color: var(--ink-soft); }
+
+  /* Manifest table */
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; margin: 4px 0; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); }
+  thead th { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); border-bottom: 1px solid var(--rule-strong); }
+  td.q, th.q { text-align: right; font-family: "Courier Prime", monospace; white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: 1px solid var(--rule-strong); }
+  .snail td { font-style: italic; color: var(--ink-soft); }
+
+  /* Clauses */
+  ol.clauses { margin: 6px 0 0; padding-left: 20px; font-size: .86rem; color: var(--ink-soft); }
+  ol.clauses li { margin: 7px 0; }
+  ol.clauses b { color: var(--ink); }
+
+  /* Signature + seals */
+  .attest { margin-top: 26px; display: grid; grid-template-columns: 1fr auto; gap: 20px 26px; align-items: end; }
+  @media (max-width: 560px) { .attest { grid-template-columns: 1fr; } }
+  .siglines { display: grid; gap: 18px; }
+  .sig { }
+  .sig .line { border-bottom: 1px solid var(--ink); height: 26px; }
+  .sig .cap { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); margin-top: 4px; }
+  .sig .named { font-family: "IM Fell English", serif; font-style: italic; font-size: 1.25rem; color: var(--ink); padding-bottom: 2px; }
+
+  .stampwrap { position: relative; width: 190px; height: 150px; }
+  .stamp {
+    position: absolute; top: 8px; left: 6px; transform: rotate(-8deg);
+    border: 2.5px solid var(--seal); color: var(--seal); border-radius: 6px;
+    padding: 8px 12px; text-align: center; opacity: .82;
+    font-family: "IM Fell English SC", serif;
+  }
+  .stamp .s1 { font-size: 11px; letter-spacing: .12em; }
+  .stamp .s2 { font-size: 15px; letter-spacing: .06em; font-weight: 700; margin: 2px 0; }
+  .stamp .s3 { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .05em; }
+  .wax {
+    position: absolute; right: 4px; bottom: 0; width: 78px; height: 78px; border-radius: 50%;
+    background: radial-gradient(circle at 38% 34%, #a34a3c, var(--seal) 60%, #6c2a20 100%);
+    box-shadow: inset 0 2px 6px rgba(255,255,255,.25), inset 0 -3px 8px rgba(0,0,0,.35), 0 2px 5px rgba(0,0,0,.3);
+    display: grid; place-items: center; color: #f2d9cf;
+    font-family: "IM Fell English SC", serif; font-size: 9px; letter-spacing: .12em; text-align: center; line-height: 1.2;
+    transform: rotate(6deg);
+  }
+
+  .margin-note {
+    margin-top: 22px; border-top: 1px dashed var(--rule-strong); padding-top: 12px;
+    font-family: "Courier Prime", monospace; font-size: 11.5px; color: var(--seal); font-style: normal;
+  }
+  .margin-note b { text-transform: uppercase; letter-spacing: .08em; font-size: 10.5px; }
+
+  .foot { text-align: center; font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .1em; color: var(--faint); margin-top: 22px; text-transform: uppercase; }
+
+  @media print {
+    html, body { background: #fff; padding: 0; }
+    .no-print { display: none !important; }
+    .sheet { box-shadow: none; border: none; max-width: 100%; }
+    .frame { margin: 0; }
+    @page { margin: 14mm; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+
+<div class="toolbar no-print">
+  <button class="btn" onclick="window.print()">Print this charter</button>
+</div>
+
+<div class="sheet">
+  <div class="frame">
+
+    <div class="mast">
+      <svg class="civ-mark" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="34" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <polygon points="50,8 57,50 50,92 43,50" fill="currentColor"/>
+        <polygon points="8,50 50,43 92,50 50,57" fill="currentColor"/>
+        <polygon points="50,20 54,50 50,80 46,50" fill="#f2ebd8"/>
+        <circle cx="50" cy="50" r="4" fill="currentColor"/>
+      </svg>
+      <p class="authority">Cartographers &amp; Independent Voyagers &middot; Charter Window, Rock of Bral</p>
+      <h1 class="doctitle">Carriage Charter &amp; Bill of Lading</h1>
+      <p class="subtitle">Registered carriage of goods under the seal of the Registry</p>
+      <div class="fil">
+        <span>Filing <b>7-C / BR-1187-Λ</b></span>
+        <span>Registered <b>this day, at the Window</b></span>
+        <span>Class <b>Verge Resupply</b></span>
+      </div>
+    </div>
+
+    <h2 class="rule">The Parties</h2>
+    <div class="parties">
+      <div class="party">
+        <div class="role">Carrier &mdash; Vessel &amp; Master</div>
+        <div class="val">Sturdy Trader, name unregistered</div>
+        <div class="sub">flying under the good name of Capt. Estra Vane &middot; complement of seven</div>
+      </div>
+      <div class="party">
+        <div class="role">Consignor &mdash; who ships the goods</div>
+        <div class="val">Corv'ess Provisioning, Float Market</div>
+        <div class="sub">licensed chandler &amp; medical factor, Rock of Bral</div>
+      </div>
+      <div class="party">
+        <div class="role">Consignee &mdash; who receives them</div>
+        <div class="val">The Township of Hallow's Rest</div>
+        <div class="sub">mining colony, the Verge &middot; terminator settlement, ~900 souls</div>
+      </div>
+      <div class="party">
+        <div class="role">Route &amp; Reckoning</div>
+        <div class="val">Bral &rarr; Hallow's Rest, return</div>
+        <div class="sub">last-filed coordinates; carrier to verify on approach</div>
+      </div>
+    </div>
+
+    <h2 class="rule">Terms of Carriage</h2>
+    <div class="terms">
+      <div class="cell"><div class="k">Payout</div><div class="v">1,400 <small>gp</small></div></div>
+      <div class="cell"><div class="k">Duration</div><div class="v">~14 <small>days</small></div></div>
+      <div class="cell"><div class="k">Tonnage</div><div class="v">6 <small>tons</small></div></div>
+      <div class="cell"><div class="k">Settlement</div><div class="v">on delivery</div></div>
+    </div>
+
+    <h2 class="rule">Manifest of Goods</h2>
+    <table>
+      <thead><tr><th>Lot</th><th>Description</th><th class="q">Weight</th></tr></thead>
+      <tbody>
+        <tr><td>I</td><td>Preserved foodstuffs, grain, and dried stores</td><td class="q">2.5 t</td></tr>
+        <tr><td>II</td><td>Medical supplies &mdash; draughts, antitoxin, healer's kits, filter masks</td><td class="q">1.0 t</td></tr>
+        <tr><td>III</td><td>Mining parts &mdash; drill bits, cabling, sealed lamp-oil</td><td class="q">2.0 t</td></tr>
+        <tr><td>IV</td><td>Sundries, tools, and correspondence</td><td class="q">0.4 t</td></tr>
+        <tr class="snail"><td>V</td><td>One (1) crate, live &mdash; land snails, edible, keep cool and damp</td><td class="q">0.1 t</td></tr>
+      </tbody>
+    </table>
+
+    <h2 class="rule">Conditions &amp; Endorsements</h2>
+    <ol class="clauses">
+      <li><b>Perishables.</b> Lots I and V are carried at the Carrier's care; spoilage in transit is deducted from the Payout at the Consignee's assessment.</li>
+      <li><b>Air &amp; complement.</b> The Carrier attests a breathable envelope adequate to the voyage and warrants it will not exceed its rated complement. The Registry assumes no liability for the air clock.</li>
+      <li><b>Inspection.</b> This carriage is subject to Route Warden inspection at any point without appeal. Delay so incurred is the Carrier's to bear.</li>
+      <li><b>Settlement in kind.</b> Where the Consignee cannot render coin, settlement may be tendered in refined ore at the prevailing Verge rate, at the Carrier's acceptance.</li>
+      <li><b>Salvage &amp; loss.</b> Goods lost to the void without negligence are noted, not charged. Goods recovered from the void remain the Registry's to adjudicate.</li>
+      <li><b>Course accuracy.</b> Filed coordinates are provided in good faith and are <i>not warranted current.</i> The Registry does not guarantee that any route remains as charted. Carriers sail the Verge at their own reckoning.</li>
+      <li><b>Reputation.</b> Completion is scored to the Carrier's standing on the Manifest Board. Non-delivery is likewise recorded.</li>
+    </ol>
+
+    <div class="attest">
+      <div class="siglines">
+        <div class="sig">
+          <div class="line"></div>
+          <div class="cap">Carrier &mdash; Master of the vessel</div>
+        </div>
+        <div class="sig">
+          <div class="named">Halvar Meech</div>
+          <div class="cap">Deputy Registrar, CIV Charter Window &middot; witnessed &amp; filed</div>
+        </div>
+      </div>
+      <div class="stampwrap" aria-hidden="true">
+        <div class="stamp">
+          <div class="s1">C &middot; I &middot; V</div>
+          <div class="s2">FILED</div>
+          <div class="s3">CHARTER WINDOW</div>
+          <div class="s3">ROCK OF BRAL</div>
+        </div>
+        <div class="wax">BRAL<br>REGISTRY</div>
+      </div>
+    </div>
+
+    <div class="margin-note">
+      <b>Registrar's hand, margin:</b> Filed on a 7-C. A resupply of this tonnage wants the 7-C annex. Allowed &mdash; once. &mdash; H.M.
+    </div>
+
+    <p class="foot">Retain this charter aboard for the duration of carriage &middot; produce on demand of any Warden</p>
+  </div>
+</div>

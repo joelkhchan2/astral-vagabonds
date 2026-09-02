@@ -8,6 +8,21 @@ The standing set. They'll come back here after every voyage, so it needs to be s
 
 ---
 
+## First Sighting -- the Rock, from the deck
+
+**Use this the first time the players actually see Bral.** They live here, but the campaign hasn't shown it yet, so give it a real arrival. Read or paraphrase, leading with sound and motion, not a list:
+
+> You come up on the Rock the way everyone does -- from below. First it's a bright smudge against the black, then it resolves: a mile of tumbling grey stone with a *city* growing off the top of it like barnacles on a hull, spires and gantries and lamplit windows stacked wherever they'll cling, all of it lit gold against the silver of the Astral. Ships hang around it in their hundreds, at every angle, none of them agreeing on which way is up. As you slide into the underside berths the gravity turns over -- your stomach lurches, "down" swings ninety degrees, and suddenly the city is above you and the void is a floor you could fall into. Then the smell reaches you through the opening lock: smoke, hot metal, fish, spice, ten thousand people and their dinners. Bar noise. A hawker. Somewhere, a bell. You're home, for whatever that's worth.
+
+**Three textures to sprinkle as they move through the city** (don't front-load them -- spend one per scene):
+- **The gravity is a local argument.** Bral has one gravity plane through its long axis, so the underside is "down-is-up" and newcomers walk into walls. Locals never notice. Tethered goods, drifting dust, and a dropped coin that falls *sideways* sell the strangeness for free.
+- **Everyone is from somewhere else.** Giff dockworkers, dohwar hawkers, a mercane gliding through a crowd that parts without being asked, astral elves who don't age and humans who do, all of it crammed into stone streets built for half as many. Nobody looks twice at a crew like theirs. That's the point of Bral.
+- **It is old and it remembers being lawless.** Two hundred years ago this was a pirate's bolt-hole; the merchants civilized it but the bones show -- a shrine to Captain Bral nobody tends, street names that used to be warnings, an upper city that's all marble and a lower city that's all rope.
+
+**One warm anchor for this crew:** homecoming means the same six faces. Ottie on the gantry, Meech behind his grille, the smell of the Compass Rose. Bral is enormous and indifferent; *their* Bral is small. Play the contrast.
+
+---
+
 ## The Six Places
 
 Keep it to six. Six is memorable. Everything else is scenery.
