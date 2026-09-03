@@ -31,7 +31,7 @@ Over the following eighteen months:
 
 The Compact was dismantled in eighteen months. Six former captains scattered across Wildspace -- some angry at Estra, some bought, one imprisoned, two dead.
 
-She acquired the *Last Honest Deal* at a CIV salvage auction. Paid with the last of her savings. Named it herself. **The name is not ironic. It's a thesis statement.**
+She acquired the *Last Honest Deal* at a CIV salvage auction. Paid with the last of her savings. Named it herself. **The name is not ironic. It's a thesis statement.** *(That ship is the one lost in the wreck that sent this crew to the Major's yard — see `ships/The Ship (unnamed).md`. The hull they fly now is a secondhand replacement and remains unnamed by the current crew's choice.)*
 
 ### The Seven Compact Captains (Recurring NPC Pool)
 1. **Estra Vane** -- herself. Circled on her chart. Still fighting.

@@ -66,7 +66,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 |---|---|
 | 1 | Two crew have stopped speaking and nobody will say why |
 | 2 | Something in the hold isn't on the manifest |
-| 3 | The ship's Signature Feature acts up at the worst moment |
+| 3 | Something about the hull briefly acts like it has a mind of its own |
 | 4 | Provisions math was wrong. Rations from here. |
 | 5 | Someone opened mail addressed to someone else |
 | 6 | A component from the Quirk table does the thing it does |

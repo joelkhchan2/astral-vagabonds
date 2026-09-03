@@ -1373,7 +1373,7 @@ AC 13 (motley armor) | HP 45 (10d6+10) | Speed 30 ft., fly 30 ft. (wildspace/ast
 STR 10(+0) DEX 17(+3) CON 13(+1) INT 12(+1) WIS 10(+0) CHA 16(+3)
 Skills Deception +5, Performance +7, Sleight of Hand +5 | Resist psychic | Condition Immunities frightened | Senses darkvision 60 ft. | Languages Common, telepathy 30 ft. | **CR 2** (450 XP)
 
-Garishly-painted fiend treating the multiverse as one long stage — hitches rides to prank and heckle crews. Its comedy has real teeth and a body count if you don't play along. Overdue material for the *Last Honest Deal*'s crew.
+Garishly-painted fiend treating the multiverse as one long stage — hitches rides to prank and heckle crews. Its comedy has real teeth and a body count if you don't play along. Overdue material for the Vagabonds' crew.
 - Comic Timing (bonus action feint, advantage next attack)
 - Multiattack: two Slapstick, or one Slapstick + Cream Pie
 - Slapstick/Rubber Mallet (+5, 9 (2d6+2))

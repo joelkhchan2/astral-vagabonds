@@ -26,7 +26,7 @@ Light comes from the hulls themselves, faintly, the way a banked fire does. Soun
 
 **The Astral is accumulated memory, and a ship persists if it was remembered hard enough to have become someone.**
 
-Not fame. Not merit. **Mass of feeling.** A hull that was loved by its crew, named, argued with, patched a hundred times, talked to, and mourned. The campaign is already full of the mechanism: Tack naming every component, the Signature Features, the whole ship-as-a-character doctrine in `The Ship (template).md`.
+Not fame. Not merit. **Mass of feeling.** A hull that was loved by its crew, named, argued with, patched a hundred times, talked to, and mourned. The campaign is already full of the mechanism: Tack naming every component, the whole ship-as-a-character doctrine in `The Ship (unnamed).md`.
 
 Ships that were merely used do not come here. Ships that were *someone* do.
 

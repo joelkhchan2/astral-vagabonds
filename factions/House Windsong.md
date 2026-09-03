@@ -150,7 +150,6 @@ Each item is a scene. Pass, divert, or hide.
 
 - Unlogged modifications, especially anything from the aftermarket table
 - Whatever Brass currently has in cargo
-- The ship's Signature Feature, if it's the kind that misbehaves
 - [WYSP], who is not legally crew and never was
 - The crew's real competence against the filed manifest
 - Estra's private copies of everything they've ever charted

@@ -220,25 +220,6 @@ CIV charter 1,500 Â· Pale Reach subscription 600 (Basic) or 2,400 (Commercial) Â
 
 ---
 
-# SIGNATURE FEATURE
-
-Every ship gets **one, free**, rolled or chosen at purchase. This is the narrative quirk and it is what makes her *her*. Extras cost 1,500 gp from the aftermarket, and the Major will absolutely sell one as an upgrade.
-
-| d12 | Feature |
-|---|---|
-| 1 | **The float bay.** One hold has a low-gravity anomaly nobody can fix. Fragile cargo. Also a court. |
-| 2 | **She talks.** Constant creaking. Whether it's structural is an unresolved argument. |
-| 3 | **The ram fires itself.** Once per voyage, unprompted, usually badly timed. |
-| 4 | **A berth that stays empty.** Complement is one higher than the crew. It's always made up. |
-| 5 | **Warm plating.** The hull runs a few degrees above ambient. Nobody knows why. Nice in the void. |
-| 6 | **A stubborn door.** One compartment opens for some people and not others, consistently. |
-| 7 | **Load-bearing enchantment.** Something in her is magical, structural, and undocumented. |
-| 8 | **She lists to port** unless someone's at the helm. Even docked. |
-| 9 | **A previous name** shows through the paint in certain light. Not the one on the registry. |
-| 10 | **Perfect acoustics** in one unlikely compartment. Conversations in it carry somewhere else. |
-| 11 | **She's fast when it matters.** Beats her rated speed under pressure, never in a yard. |
-| 12 | **Something aboard is not equipment.** It hasn't introduced itself. It hasn't caused trouble. |
-
 # PRIOR-SERVICE QUIRK TABLE
 
 Roll for any used component. The Major calls these "personality."

@@ -33,7 +33,7 @@ The Broker calls in favor #3: Estra must surrender her CIV charter. Walk away. T
 
 Gabrielle's moment mirrors and inverts her backstory: she lost a crew she couldn't save, now a crew chooses her. Priscilla gets what she always wanted -- to be the person without whom nothing works, from the bosun's post and the ledger. Estra trusts that what she built can stand without her.
 
-Final scene: The *Last Honest Deal* under new command. Coffee stain still on the captain's chair. The ship creaks. "She's just talking." "I know." They fly.
+Final scene: The ship, under new command. Coffee stain still on the captain's chair. The ship creaks. "She's just talking." "I know." They fly.
 
 **Pale Reach:** Inherited problem for the new leadership. | **Estra:** Dies or retires (the point is letting go).
 

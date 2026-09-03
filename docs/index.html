@@ -193,6 +193,7 @@
       <div class="tile"><span class="tlabel">Hull Points</span>
         <div class="hp-row"><input data-key="hpCur" value="250" inputmode="numeric" aria-label="Current hull points"><span class="slash">/</span><input data-key="hpMax" value="250" inputmode="numeric" aria-label="Maximum hull points"></div>
         <div class="tsub">current / max</div>
+        <div class="tsub" id="repairCost">repair: 0 gp</div>
       </div>
       <div class="tile"><span class="tlabel">Dmg Threshold</span><input data-key="dt" value="20" inputmode="numeric" aria-label="Damage threshold"></div>
       <div class="tile"><span class="tlabel">Tactical Speed</span><input data-key="spd" value="50 ft" aria-label="Tactical speed"><div class="tsub">Trader 55, minus 10, plus 5 rig</div></div>
@@ -208,7 +209,6 @@
       <div class="prop"><span class="plabel">Weapons</span><span class="pval"><textarea data-key="weapons" rows="1">2x ballista (Sureshot Rotator + Ready Magazine); 1x blunt ram</textarea></span></div>
       <div class="prop"><span class="plabel">Ammunition</span><span class="pval"><textarea data-key="ammo" rows="1">250 standard shots per ballista, loaded nightly</textarea></span></div>
       <div class="prop"><span class="plabel">Life Support</span><span class="pval"><textarea data-key="air" rows="1">120-day air envelope; no upgrade fitted (rule: no job over 60 days)</textarea></span></div>
-      <div class="prop"><span class="plabel">Signature</span><span class="pval"><textarea data-key="sig" rows="1">None</textarea></span></div>
       <div class="prop"><span class="plabel">Provenance</span><span class="pval"><textarea data-key="prov" rows="1">Danforth Certified Prior-Service Hulls (secondhand)</textarea></span></div>
     </div>
 
@@ -349,11 +349,21 @@ Gun bay</textarea>
       if(Object.prototype.hasOwnProperty.call(data.fields,k)) el.value=data.fields[k]; }); }
     ["addons","facilities","crew"].forEach(function(t){ renderTable(t, (data && data.tables && data.tables[t]) ? data.tables[t] : DEFAULTS[t]); });
     $$("textarea").forEach(autogrow);
+    updateRepairCost();
     if(data) saveTxt.textContent="Saved locally";
   }
 
+  var hpCurEl=$('[data-key="hpCur"]'), hpMaxEl=$('[data-key="hpMax"]'), repairEl=$("#repairCost");
+  function updateRepairCost(){
+    if(!repairEl) return;
+    var cur=parseInt(hpCurEl.value,10), max=parseInt(hpMaxEl.value,10);
+    if(isNaN(cur)||isNaN(max)){ repairEl.textContent="repair: —"; return; }
+    var missing=Math.max(0, max-cur);
+    repairEl.textContent="repair: "+(missing*20).toLocaleString()+" gp";
+  }
+
   $$("[data-key]").forEach(function(el){
-    el.addEventListener("input",function(){ if(el.tagName==="TEXTAREA") autogrow(el); scheduleSave(); });
+    el.addEventListener("input",function(){ if(el.tagName==="TEXTAREA") autogrow(el); if(el===hpCurEl||el===hpMaxEl) updateRepairCost(); scheduleSave(); });
   });
   $$("[data-add]").forEach(function(btn){
     btn.addEventListener("click",function(){

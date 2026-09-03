@@ -2,7 +2,7 @@
 
 The ship isn't just how you get around — it's your **bastion**: a home base that grows, works, and earns while you're off doing the dangerous parts. This is the plain-language version for the table. (The full rules reference lives in `Bastions.md`.)
 
-Aerion and Orena each own a piece of the ship's workings, but it's **one hull, one home** — you pool everything into the *Last Honest Deal*... or whatever you end up calling her.
+Aerion and Orena each own a piece of the ship's workings, but it's **one hull, one home** — you pool everything into one ship, whatever you end up calling her.
 
 ---
 

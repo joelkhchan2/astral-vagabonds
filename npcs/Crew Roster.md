@@ -1,4 +1,4 @@
-# Crew Roster -- The *Last Honest Deal*
+# Crew Roster -- The Ship *(unnamed)*
 
 Current complement: 7 (2 PCs + 5 NPCs aboard). Ship cap: 11.
 

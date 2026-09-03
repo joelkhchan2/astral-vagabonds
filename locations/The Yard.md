@@ -270,9 +270,9 @@ Do not have her take over. She defers on the purchase itself. It is not her mone
 
 ## Beat 6 — Purchase and Naming
 
-Buy the hull, roll or choose the **Signature Feature**, pick the style, and christen her.
+Buy the hull, pick the style, and christen her.
 
-The yard's slogan is on the sign the entire session. If nobody bites, [THE UNCLE] or the Major can say it one more time at the right moment. If they take it, the ship is the ***Last Honest Deal*** and it is not ironic, it's a thesis. If they don't, it's theirs either way.
+The yard's slogan is on the sign the entire session. If nobody bites, [THE UNCLE] or the Major can say it one more time at the right moment. **At the table, they didn't take it** — the ship flies unnamed, on the Captain's reputation instead (see `ships/The Ship (unnamed).md`). If a future table takes the slogan as the name, she becomes the ***Last Honest Deal*** and it's not ironic, it's a thesis.
 
 If they bought the Long Hauler, [WYSP] surfaces now. Estra finds them, looks at them for a moment, and decides without consulting anyone that they're staying.
 

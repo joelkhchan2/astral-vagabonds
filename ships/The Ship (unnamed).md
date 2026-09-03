@@ -17,7 +17,6 @@
 **Weapons:** 2× ballista (each fitted with Sureshot Rotator + Ready Magazine — see below) · 1× blunt ram
 **Ammunition:** 250 standard shots per ballista, loaded nightly. Aerion's standing rule: *"All I ask is when I need the shot, I have the shot."*
 **Helm:** Coilworks Mk. IV "Standard" *(called the "Standard Mark I" at the table)* — a reliable, unglamorous secondhand helm-throne. Orena must physically occupy the chair and attune to it to fly.
-**Signature Feature:** none — she has no signature feature.
 **Provenance:** bought secondhand and destitute from **"the Major"** (Major Danforth) at **Danforth Certified Prior-Service Hulls**, by a crew that had just watched their last ship explode. Runs a skeleton crew with no hired helmsman — the Captain flies backup.
 **Crew wages / repairs / budget:** tracked separately by the crew, not on this sheet.
 

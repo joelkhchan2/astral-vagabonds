@@ -19,7 +19,7 @@ The dominant licensing body for legitimate Wildspace operations. A cross between
 
 Every chartered vessel is ranked on the **Manifest Board** -- a public leaderboard updated quarterly based on contract completion rate, cargo value moved, client satisfaction, incident reports, and financial standing.
 
-**The *Last Honest Deal* is ranked 348th out of 351 chartered vessels.** The three below them: a derelict that hasn't moved in two years, a ship impounded for smuggling, and a vessel that has been literally on fire for six months (fire elemental situation). Finny has the Manifest Board printout pinned in the galley with number 347 crossed out and "ALMOST" written next to it.
+**The crew's charter is ranked 348th out of 351 chartered vessels.** The three below them: a derelict that hasn't moved in two years, a ship impounded for smuggling, and a vessel that has been literally on fire for six months (fire elemental situation). Finny has the Manifest Board printout pinned in the galley with number 347 crossed out and "ALMOST" written next to it.
 
 ### The Spelljamming Helm
 A rare wondrous item (5,000+ GP). Requires attunement by a spellcaster. The helm is a magic chair bolted to the ship -- when an attuned caster sits in it, they gain awareness of surroundings and steer by thought. Cannot cast concentration spells while piloting. Exhaustion after 8 continuous hours. Ship speed scales with the helmsman's highest spell slot.

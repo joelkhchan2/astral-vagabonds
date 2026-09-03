@@ -40,7 +40,7 @@ This is the monopoly argument in every industry -- compelling enough to be defen
 
 ### How the Crew Interacts with This
 
-The *Last Honest Deal* sells route data to the Pale Reach regularly. It's unglamorous but steady income. Priscilla handles the submissions (she knows exactly what data is worth and how to package it for maximum payout). Estra approves what gets sold -- and quietly withholds certain findings that she files in her private archive instead.
+The crew sells route data to the Pale Reach regularly. It's unglamorous but steady income. Priscilla handles the submissions (she knows exactly what data is worth and how to package it for maximum payout). Estra approves what gets sold -- and quietly withholds certain findings that she files in her private archive instead.
 
 This creates a natural recurring scene: docking at a port, Priscilla negotiating with a Pale Reach data broker over the value of their latest route logs. The data brokers are mid-level Pale Reach employees -- not villains, just people doing a job. Some are pleasant. Some are condescending toward a 348th-ranked crew. All of them work for the organization that destroyed Estra's life, and none of them know it.
 
@@ -94,12 +94,12 @@ Non-family positions filled by appointment or election. These give the Pale Reac
 These are the people the crew actually encounters.
 
 ### Data Brokers
-Mid-level employees stationed at major ports. They buy route data from independent operators, assess quality, and feed it into the archive. Most are professional, some are arrogant, a few are genuinely helpful. They have quotas. They have opinions about which ships bring good data. They know the *Last Honest Deal* by reputation (348th rank, but surprisingly good data quality -- Priscilla's packaging is excellent).
+Mid-level employees stationed at major ports. They buy route data from independent operators, assess quality, and feed it into the archive. Most are professional, some are arrogant, a few are genuinely helpful. They have quotas. They have opinions about which ships bring good data. They know this crew's charter by reputation (348th rank, but surprisingly good data quality -- Priscilla's packaging is excellent).
 
 **Named broker (recurring NPC):** TBD -- should be someone the crew develops a rapport with. A regular at their most frequent port. Friendly enough. Works for the machine without thinking too hard about it.
 
 ### Route Wardens
-Pale Reach patrol ships that enforce toll routes and investigate unlicensed navigation. Not military exactly -- more like corporate police. They have CIV authority to inspect, fine, and detain. They tend to be more aggressive with low-ranked vessels. The *Last Honest Deal* has been boarded by Route Wardens at least twice. Oz was very polite. Sable was not.
+Pale Reach patrol ships that enforce toll routes and investigate unlicensed navigation. Not military exactly -- more like corporate police. They have CIV authority to inspect, fine, and detain. They tend to be more aggressive with low-ranked vessels. Their ship has been boarded by Route Wardens at least twice. Oz was very polite. Sable was not.
 
 ### Field Cartographers
 Pale Reach employees who do the actual exploration work. They travel in Pale Reach-funded ships, chart new routes, and file proprietary data. Some are true believers in the mission. Some are just good at their jobs. Some secretly sympathize with independents. A few are former Compact members who took the buyout and now quietly hate themselves.
@@ -117,7 +117,7 @@ The Pale Reach is part of the furniture. The crew sells them data, pays their to
 The Drift worsens. The Pale Reach's data becomes less reliable. The crew's anomaly reports become more valuable. Priscilla starts noticing patterns -- the Pale Reach is paying premium rates for Drift data but not sharing what they're learning. Their public messaging says everything is fine while their buying behavior says otherwise.
 
 **Key moments:**
-- The crew discovers that the *Last Honest Deal*'s CIV ranking is being actively sandbagged by someone inside the CIV. Priscilla traces it to Pale Reach influence.
+- The crew discovers that their CIV ranking is being actively sandbagged by someone inside the CIV. Priscilla traces it to Pale Reach influence.
 - Estra tells someone (or both PCs) the truth about the Compact's destruction. Not all at once -- the story comes out in pieces.
 - The crew encounters a former Compact captain who now works for the Pale Reach. This person has complicated feelings.
 - The Pale Reach approaches Priscilla directly (not through her family) with an offer: better data rates, CIV ranking improvement, access to premium routes -- in exchange for "preferred partner" status. Essentially: become our asset.
