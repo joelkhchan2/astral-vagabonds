@@ -1,0 +1,145 @@
+<title>The Manifest Board</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  :root {
+    --paper: #f2ebd8; --ink: #251d11; --ink-soft: #5f5238; --faint: #8a7c5d;
+    --rule: #c7ba98; --rule-strong: #a89871; --seal: #8c3a2e; --civ: #2f5747; --brass: #7d5f26;
+    --you: #8c5a1f; --you-bg: #f4e7c9;
+  }
+  * { box-sizing: border-box; }
+  html { background: #d9cfb4; }
+  body { margin: 0; padding: 26px 16px 60px; background: #d9cfb4; color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; font-size: 16px; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+
+  .toolbar { max-width: 780px; margin: 0 auto 16px; display: flex; justify-content: flex-end; }
+  .btn { font-family: "Courier Prime", monospace; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; background: var(--civ); color: #f2ebd8; border: none; border-radius: 4px; padding: 9px 16px; cursor: pointer; }
+  .btn:hover { filter: brightness(1.08); }
+  .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  .sheet { max-width: 780px; margin: 0 auto; background: var(--paper);
+    background-image: radial-gradient(circle at 15% 10%, rgba(150,120,60,.06), transparent 40%), radial-gradient(circle at 85% 85%, rgba(120,90,40,.07), transparent 45%);
+    border: 1px solid var(--rule-strong); box-shadow: 0 2px 6px rgba(60,45,20,.25), 0 18px 50px rgba(60,45,20,.28); }
+  .frame { border: 2px double var(--rule-strong); margin: 12px; padding: 26px 30px 30px; }
+
+  .mast { text-align: center; border-bottom: 2px solid var(--ink); padding-bottom: 14px; margin-bottom: 6px; }
+  .civ-mark { width: 40px; height: 40px; color: var(--civ); }
+  .authority { font-family: "IM Fell English SC", Georgia, serif; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 6px 0 2px; }
+  h1 { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.7rem, 5vw, 2.4rem); letter-spacing: .04em; margin: 2px 0; }
+  .strap { font-style: italic; color: var(--ink-soft); margin: 2px 0 0; font-size: .95rem; }
+  .count { font-family: "Courier Prime", monospace; font-size: 12px; color: var(--ink-soft); margin-top: 8px; letter-spacing: .04em; }
+
+  h2.band { font-family: "IM Fell English SC", Georgia, serif; font-size: .95rem; letter-spacing: .14em; text-transform: uppercase; color: var(--civ);
+    margin: 22px 0 6px; padding-bottom: 3px; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; align-items: baseline; }
+  h2.band span { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .06em; color: var(--faint); text-transform: none; }
+
+  table { width: 100%; border-collapse: collapse; }
+  td, th { padding: 6px 8px; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
+  .rank { font-family: "Courier Prime", monospace; font-weight: 700; font-size: 1.05rem; width: 42px; text-align: right; white-space: nowrap; }
+  .mv { font-family: "Courier Prime", monospace; font-size: 11px; width: 20px; text-align: center; color: var(--faint); }
+  .mv.up { color: var(--civ); } .mv.down { color: var(--seal); }
+  .vessel { font-family: "IM Fell English", serif; font-style: italic; font-size: 1.08rem; }
+  .who { font-size: .9rem; color: var(--ink-soft); }
+  .cls { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: var(--faint); white-space: nowrap; }
+  .note { font-size: .86rem; color: var(--ink-soft); font-style: italic; }
+  tr.you td { background: var(--you-bg); }
+  tr.you .vessel { font-style: normal; font-weight: 700; color: var(--you); }
+  tr.you .rank { color: var(--you); }
+  .youtag { display: inline-block; font-family: "Courier Prime", monospace; font-size: 9px; letter-spacing: .12em; text-transform: uppercase; color: #f2ebd8; background: var(--you); border-radius: 3px; padding: 1px 6px; margin-left: 8px; vertical-align: middle; }
+
+  .gap { text-align: center; font-family: "IM Fell English", serif; font-style: italic; color: var(--faint); padding: 14px 0 6px; font-size: .95rem; position: relative; }
+  .gap::before, .gap::after { content: "\2022 \2022 \2022"; letter-spacing: .3em; display: block; color: var(--rule-strong); font-style: normal; font-size: .7rem; margin: 4px 0; }
+
+  .foot { margin-top: 18px; border-top: 1px dashed var(--rule-strong); padding-top: 12px; font-family: "Courier Prime", monospace; font-size: 10.5px; color: var(--ink-soft); letter-spacing: .02em; text-align: center; line-height: 1.7; }
+
+  @media (max-width: 560px) {
+    .cls, .mv { display: none; }
+    .note { display: block; }
+  }
+  @media print {
+    html, body { background: #fff; padding: 0; }
+    .no-print { display: none !important; }
+    .sheet { box-shadow: none; border: none; max-width: 100%; }
+    .frame { margin: 0; }
+    @page { margin: 12mm; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+
+<div class="toolbar no-print"><button class="btn" onclick="window.print()">Print the standings</button></div>
+
+<div class="sheet">
+  <div class="frame">
+
+    <div class="mast">
+      <svg class="civ-mark" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="3"/>
+        <polygon points="50,10 56,50 50,90 44,50" fill="currentColor"/>
+        <polygon points="10,50 50,44 90,50 50,56" fill="currentColor"/>
+        <circle cx="50" cy="50" r="4" fill="currentColor"/>
+      </svg>
+      <p class="authority">Cartographers &amp; Independent Voyagers</p>
+      <h1>The Manifest Board</h1>
+      <p class="strap">Standings of all chartered vessels &middot; this quarter &middot; posted at every major port</p>
+      <p class="count">351 CHARTERED VESSELS &middot; SCORED ON COMPLETION, VALUE MOVED, SATISFACTION, INCIDENTS &amp; STANDING</p>
+    </div>
+
+    <h2 class="band">The Top of the Board <span>where the houses live</span></h2>
+    <table>
+      <tbody>
+        <tr><td class="rank">1</td><td class="mv">&mdash;</td><td><span class="vessel">Sallow Crown</span> <span class="cls">Corvette</span><div class="who">House Vassara flagship &middot; first for nineteen years</div></td></tr>
+        <tr><td class="rank">2</td><td class="mv up">&#9650;</td><td><span class="vessel">Tollkeeper</span> <span class="cls">Dreadnought</span><div class="who">Tethyn patrol &middot; Warden-Commander Isolde Rask</div></td></tr>
+        <tr><td class="rank">3</td><td class="mv up">&#9650;</td><td><span class="vessel">Farthing</span> <span class="cls">Survey</span><div class="who">Delverane &middot; Capt. Aurel Delverane &middot; new-route data scores high</div></td></tr>
+        <tr><td class="rank">4</td><td class="mv down">&#9660;</td><td><span class="vessel">Consequence</span> <span class="cls">Independent</span><div class="who">Capt. Var Solenne &middot; no house, immaculate numbers, no explanation</div></td></tr>
+        <tr><td class="rank">5</td><td class="mv">&mdash;</td><td><span class="vessel">Ninefold</span> <span class="cls">Interplanar</span><div class="who">Mercane-owned &middot; chartered as a courtesy &middot; finds fifth place amusing</div></td></tr>
+      </tbody>
+    </table>
+
+    <div class="gap">three hundred and forty-three vessels lie between here and glory</div>
+
+    <h2 class="band">The Bottom of the Board <span>the crew's neighbourhood</span></h2>
+    <table>
+      <tbody>
+        <tr>
+          <td class="rank">344</td><td class="mv down">&#9660;</td>
+          <td><span class="vessel">Cutlass Sunday</span> <span class="cls">Cutter</span><div class="who">Capt. Rimmon Vex</div><div class="note">Sour, aggressive, scavenges what isn't his. The one down here with teeth.</div></td>
+        </tr>
+        <tr>
+          <td class="rank">345</td><td class="mv">&mdash;</td>
+          <td><span class="vessel">Kettle</span> <span class="cls">Hauler</span><div class="who">the Weatherall family &middot; nineteen aboard, four children</div><div class="note">Slow, safe, uninterested in ranking. The good neighbours.</div></td>
+        </tr>
+        <tr>
+          <td class="rank">346</td><td class="mv up">&#9650;</td>
+          <td><span class="vessel">Quiet Sum</span> <span class="cls">Cutter</span><div class="who">Capt. Ollo Trask (dohwar)</div><div class="note">Tiny, fast, cheerful. Will undercut you and apologise sincerely.</div></td>
+        </tr>
+        <tr>
+          <td class="rank">347</td><td class="mv up">&#9650;</td>
+          <td><span class="vessel">Grendel's Wake</span> <span class="cls">Trader</span><div class="who">Capt. Bex Halloway</div><div class="note">347th for four years and happy about it. The friendly ceiling to chase.</div></td>
+        </tr>
+        <tr class="you">
+          <td class="rank">348</td><td class="mv up">&#9650;</td>
+          <td><span class="vessel">Sturdy Trader, name unregistered</span> <span class="youtag">You are here</span> <span class="cls">Sturdy Trader</span><div class="who">under Capt. Estra Vane &middot; "Estra's vagabonds"</div><div class="note">New charter. First rung. Finny has printed this and thrown a party.</div></td>
+        </tr>
+        <tr>
+          <td class="rank">349</td><td class="mv">&mdash;</td>
+          <td><span class="vessel">Amity's Reward</span> <span class="cls">Derelict</span><div class="who">no captain of record</div><div class="note">Hasn't moved in two years. Fees paid annually by an account no one has traced.</div></td>
+        </tr>
+        <tr>
+          <td class="rank">350</td><td class="mv">&mdash;</td>
+          <td><span class="vessel">Steadfast Promise</span> <span class="cls">Impounded</span><div class="who">Capt. Dov Errin</div><div class="note">Impounded eleven months, cargo still sealed. He'll explain the appeal at the bar.</div></td>
+        </tr>
+        <tr>
+          <td class="rank">351</td><td class="mv">&mdash;</td>
+          <td><span class="vessel">Vermilion Hour</span> <span class="cls">Squid</span><div class="who">captain unknown</div><div class="note">On fire. Has been for six months. Files perfect paperwork every quarter.</div></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="foot">
+      New charters begin unranked &middot; standings revised quarterly &middot; incident reports may be filed by any registered party<br>
+      Enquiries and disputes to the Charter Window, Rock of Bral &mdash; the Registry does not adjudicate matters of taste
+    </div>
+  </div>
+</div>

@@ -25,9 +25,31 @@ These six are the crew's immediate neighbourhood for a long time, and they shoul
 
 **346. *Quiet Sum*** — Cutter-class, captained by **Ollo Trask**, dohwar (penguin-like merchant). Runs tiny, fast, high-margin courier work with a crew of four. Ruthlessly efficient, relentlessly cheerful, and will absolutely undercut them on a contract and apologize sincerely while doing it.
 
-**345. *Kettle*** — Hauler-class, captained by the **Weatherall family**, three generations aboard. Nineteen people, four of them children. Slow, safe, and completely uninterested in ranking. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session.
+**345. *Kettle*** — Hauler-class, captained by the **Weatherall family**, three generations aboard. Nineteen people, four of them children. Slow, safe, and completely uninterested in ranking. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session. *(Their hauler is boarded and robbed in M6 -- make them neighbours the crew likes first, so it lands.)*
+
+**344. *Cutlass Sunday*** — Cutter-class, captained by **Rimmon Vex**, human, forties, sour. The one bottom-feeder with teeth. Vex blames his rank on everyone but himself, scavenges wrecks and salvage that aren't legally his, undercuts on price, and will board a ship he reads as weaker if he thinks the Wardens won't hear about it. **Not a villain -- a desperate man at the bottom doing desperate things** -- but he is the crew's most reliable low-board *scrap*, and he takes being passed on the Board as a personal insult.
+> **This is the rival with teeth.** Where Bex is the friendly ceiling, Vex is the recurring fight-and-friction. When you want a combat or a confrontation that isn't a one-off stranger, it's the *Cutlass Sunday* coming around again. Great continuity for a crew whose whole social world is the bottom of the Board. (Stat him as a light raider crew; his ship is a worse *Swift Cutter* -- reuse the skiff block in `sessions/Session 1.md` if you want him as the session-1 aggressor instead of Dev Ostrel.)
 
 ---
+
+## The battle at the bottom -- continuity
+
+The crew starts at 348 of 351, and they will *live* down here for a long time (breaking the low 300s is a Tier 1 achievement). Lean into it: **their rivals, their scraps, their friendships, and their small victories should almost all come from this same handful of bottom-of-the-Board faces**, not from a parade of strangers. That's the continuity dividend of being nobody -- the same eight ships keep turning up at the same cheap berths, the same Charter Window, the same bar.
+
+- **Their friendly ceiling:** the *Grendel's Wake* (Bex). Passing her is a whole session's motivation; losing the spot again stings better than any villain.
+- **Their fight:** the *Cutlass Sunday* (Vex). The recurring aggressor -- a race, a robbed cargo, a contested salvage, or an actual boarding.
+- **Their conscience:** the *Kettle* (Weatheralls). The people they protect, and the life they could settle for.
+- **Their mirror:** the jokes below them (on fire, impounded, derelict) -- where they're one bad quarter from ending up, and the reason Aerion counts every coin.
+
+Play the same faces enough that the players know them by ship name, and the Board stops being a number and becomes a neighbourhood.
+
+## Mid-board faces (ranks they'll hear, then meet)
+
+Names to drop as rumour long before the crew climbs to them, so the middle of the Board feels populated:
+- **~250. *Bright Arrears*** — captained by **Sedge Okonkwo**, a former Compact hand who took the Pale Reach's buyout and has never once looked comfortable about it. A living answer to "what would it cost to just take the deal?" (Ties to Estra's backstory.)
+- **~220. *Halloway's Second*** — Bex's estranged sister ** Present Halloway** runs it, and the two do not speak. A future soft hook if the players like Bex.
+- **~180. *Merigold*** — a Nightbreeze-insured family freighter that climbs suspiciously fast and never files an incident. Aerion's ledger-eye might wonder how. (Quiet Aeravellis-adjacent seed; optional.)
+- **~140. *The Long Odds*** — a genuinely beloved independent whose captain, **Ma Torrin**, mentors bottom-boarders for free and remembers everyone. The crew's most likely first friend with real pull.
 
 ## The Top Five
 
@@ -44,6 +66,21 @@ They will not meet these people for a long time. They should hear the names cons
 **5. *Ninefold*** — mercane-owned, interplanar, and technically chartered as a courtesy rather than a necessity. The mercane do not care about the Board. Being fifth amuses them.
 
 ---
+
+## Quick reference -- disposition at a glance
+
+| Rank | Vessel | Captain | Disposition | Recurs as |
+|---|---|---|---|---|
+| 344 | *Cutlass Sunday* | Rimmon Vex | Hostile-ish | The fight: races, robbed cargo, boardings |
+| 345 | *Kettle* | the Weatheralls | Warm | The conscience: neighbours to protect (robbed in M6) |
+| 346 | *Quiet Sum* | Ollo Trask | Rival, cordial | The undercutter: loses them contracts, apologises sincerely |
+| 347 | *Grendel's Wake* | Bex Halloway | Friendly | The ceiling: the rank to chase and lose |
+| **348** | **the crew** | **Estra Vane** | &mdash; | **home** |
+| 349 | *Amity's Reward* | (none) | Mystery | The derelict whose fees someone keeps paying |
+| 350 | *Steadfast Promise* | Dov Errin | Neutral, chatty | The impounded philosopher at the bar |
+| 351 | *Vermilion Hour* | unknown | Joke, then not | The ship that's still on fire |
+
+Higher up, as rumour: *Bright Arrears* (Okonkwo, the bought-out Compact hand), *Merigold* (climbs too fast, never files an incident), *The Long Odds* (Ma Torrin, mentors bottom-boarders), and the Top Five they'll hear about for a year before they matter.
 
 ## Running the Board
 
