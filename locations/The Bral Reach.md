@@ -44,6 +44,12 @@ A brass grille in a basalt wall with a queue in front of it. This is where chart
 **One secret:** Meech has noticed that three frontier routes were quietly delisted last year with no incident reports attached. It bothers him. He hasn't told anyone because nobody has asked him a question he considers well-formed.
 > **That's a Tier 1 Guttering breadcrumb sitting behind a service window, and it's free the moment a player is polite to a bureaucrat.**
 
+**How Meech knows (and what he'll say if asked well).** Every route change crosses his desk as a filing, and the rulebook is absolute: a delisting *must* carry an incident annex saying why the route closed -- a wreck, a hazard, a dried-up port. That's the form. Last year, three delistings came through with the annex field blank and nobody made to correct it, which to Meech is not a mystery so much as a *procedural obscenity*. He filed his own margin notes and said nothing, because no one asked. If a player asks a precise question ("who filed them?" / "what reason was given?"), he produces the three:
+- **The Sable Crossing** -- the old lane out toward Amberwake. Delisted by a Pale Reach clerk; reason field blank; no successor route filed. (Amberwake is the Guttering's first casualty -- deep seed.)
+- **Kestrel's Ladder** -- a chain of Verge waystations. Marked "route consolidated," except there is *no consolidation filing* to consolidate it into. The paperwork points at nothing.
+- **The Tallow Run** -- to a frontier colony that, per its own filings, *is still there and still ordering provisions.* A live colony on a dead road. That one keeps Meech up.
+He does not connect them to anything cosmic. He connects them to bad paperwork, which is worse, because bad paperwork means someone is *choosing* not to explain. (Pays off at M4, `Contracts.md`; ties to the Story Spine's Guttering.)
+
 **One danger:** the CIV can suspend a charter faster than anyone can appeal it. House Obhal knows this.
 **One opportunity:** Meech respects competence and paperwork, in that order, and Priscilla has both.
 
@@ -87,9 +93,19 @@ Marble, quiet, and staffed by people who are unfailingly pleasant to everyone re
 
 # THE CHARACTER SHOP
 
-**Personal gear is a separate purse from the venture.** The 50,000 is capital and it is not theirs to spend on swords. Standard 5e starting wealth applies.
+**Personal gear is a separate purse from the venture.** The 50,000 is capital and it is not theirs to spend on swords. Standard 5e starting wealth applies. **What the PCs buy, or whether they buy at all, is entirely theirs -- present the stalls, never the purchase.**
 
-Prices are PHB standard unless noted. The Float Market carries everything mundane. Below is what makes it a *Wildspace* market.
+Prices are PHB standard unless noted. The Float Market carries everything mundane. Below is what makes it a *Wildspace* market, sorted into the four stalls worth naming. Each proprietor has one voice tic so you can play them again.
+
+## The named stalls
+
+**CORABEL'S, rope and rigging** -- run by **Corabel**, a rope-woman of terrifying seriousness who will not sell you a line she thinks you'll misuse and judges every knot she sees. *"That's a granny knot. On a tether. In vacuum. No."* Carries: tether line 100 ft (25 gp), cold-iron tether 60 ft (special, see Tables), grav-boots (300 gp), climbing kit, and -- if she likes you -- a *rope that remembers* (uncommon, ties the last knot on command).
+
+**THE SALT LOCKER, chandler and void kit** -- **"Salt" Merrin**, a one-armed old void-hand who upsells safety gear with a horror story attached to each item. *"Void suit, light? Four hours of air. Man I knew had three and a half."* Carries: void suit light (180 gp) / working (450 gp), envelope flask (40 gp), signal lantern (60 gp), cold-weather void liner (90 gp), astral compass (220 gp), rebreather pearl (see Tables).
+
+**PELL'S, apothecary** -- **Pell**, a dohwar who talks about side effects far too fast and cheerfully. *"Void-sickness draught, works in minutes, mild numbness, do not operate a helm, or do, your choice!"* Carries: healer's kit (5 gp), void-sickness draught (25 gp), foul-air filter mask (110 gp), potion of healing (50 gp, limited), antitoxin (50 gp).
+
+**QUILL &amp; SEAL, scrivener** -- **Odwin Quill**, a precise little man who reveres correct paperwork and is, in spirit, Meech's only friend (they have never met). *"A charter copy uncertified is a napkin with ambition."* Carries: bound-and-locked ledger (35 gp), manifest seals set of 50 (15 gp), scrivener's kit (30 gp), certified charter copy (12 gp), sound-slate (75 gp).
 
 ## Void Kit
 

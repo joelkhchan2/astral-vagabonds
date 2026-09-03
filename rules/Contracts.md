@@ -2,7 +2,11 @@
 
 Two kinds of work. **Jobs** pay the bills and generate crew stories. **Main Missions** move the plot and run in sequence.
 
-Mechanics in `Rules & Systems.md`. Every contract states a **payout, duration in days, and tonnage**, and the operating cost comes off the other side: an all-inclusive 500 gp/month for up to six crew, +100 per additional (600/month for the crew of seven).
+Mechanics in `Rules & Systems.md`. Every contract states a **payout, duration in days, and tonnage**, and the operating cost comes off the other side: an all-inclusive 500 gp/month for up to six crew, +100 per additional (**600/month for the crew of seven**).
+
+**The math, kept simple.** We don't track daily burn (`Rules & Systems.md` §9). Treat the operating cost as **one flat 600 gp deduction per voyage/session** -- the all-inclusive month, charged when they get home -- plus **30 gp berth rent** and **20 gp/HP** for any hull repairs. So a job's take-home is `payout − 600 − 30 − repairs`. That's deliberately thin: a routine haul barely clears cost, and the margin comes from higher-paying or riskier work. Payment is sometimes offered partly **in kind** (ore, goods) at a poor rate, which is a negotiation, not an automatic loss.
+
+> **Worked example (the Cold Run below):** 1,400 − 600 − 30 = **770 gp** clear on a clean run; one hull hit at, say, 23 HP would take another 460 off it. Thin margins are the genre.
 
 > **Tiers 2 through 4 are not written.** The Tier 1 spine below carries them from level 5 to 8 and sets up every reveal the campaign needs. Where it goes after that is the conversation we still owe each other.
 
@@ -15,7 +19,7 @@ Posted at the Charter Window. Rotate three or four at a time. Each has one compl
 ### Small (10–20 days, 800–2,000 gp)
 
 **The Cold Run** — 1,400 gp · 14 days · 6 tons
-Medical supplies to a mining colony on the Verge. *Complication:* the colony's order was placed nine months ago and they've since solved the problem. They still want the cargo. They cannot pay what they agreed.
+Food, medicine, and mining parts to **Hallow's Rest**, a struggling terminator colony on the Verge (`Worlds & Places.md`). *Complication:* the colony is cut off — their own supply runner set out for the depot and **couldn't find it**, the route wouldn't resolve, and they nearly starved. They're proud, grateful, and can't fully pay in coin; expect part of the fee tendered in ore at a poor rate. **This is the session-1 job with the Guttering seed — the first symptom with a body count.**
 
 **Sealed and Sworn** — 1,800 gp · 12 days · 2 tons
 A Sallow Chain house wants a locked case moved without questions. *Complication:* it's legal, it's boring, and a Route Warden inspection at the halfway point will take four hours the crew doesn't have.

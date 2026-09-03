@@ -69,6 +69,27 @@ Everything is lit from one side. Long shadows that never move. Nine hundred peop
 **Danger:** the mine, and the fact that nobody official will come if something goes wrong.
 **Opportunity:** they need everything, all the time, and they pay in ore.
 
+### Arriving -- the read-aloud
+> You come in over the daylit face and it never gets easier to look at: a whole hemisphere of raw white glare, no dawn, no dusk, just *on*. The town runs along the seam where the light dies -- a crooked line of low buildings, ore-tips, and lashed-down roofs following the terminator around the moon, half of every street in permanent gold and half in permanent black, and shadows that lie down long and never, ever move. The dock is a single scaffold clung to a spur of rock. As the lock opens: cold, and the smell of turned stone and machine-oil and, faintly, someone's dinner. A dozen people are already waiting, trying not to look as glad to see you as they are.
+
+### The place, in the senses
+- **Light and dark, no in-between.** People wear one-eye shades on the bright side and lamps on the dark side, and the whole town squints. The unmoving shadows unsettle newcomers within the hour.
+- **Cold and close.** Heat is rationed to the terminator strip; step twenty feet dark-side and you feel it bite. The bar (the **Long Shadow**) is the warmest room in town and everyone ends up there.
+- **Everything is patched.** Nothing here is new. Every machine is a machine that was broken and fixed by someone who couldn't afford to replace it -- which is the whole colony, really.
+
+### Who they'll meet
+- **Administrator Sesla Vint** -- runs the colony, mid-fifties, proud to a fault, would rather ration than beg. Voice: clipped, dignified, thanks you like it costs her. Tic: keeps a tally-book she never quite closes. Her want: to keep nine hundred people alive without becoming a place that gets pitied.
+- **Coll Aday** -- the young supply-runner who went for the depot and *couldn't find it.* Came back late, empty, on fumes, and blames themselves entirely. Voice: quiet, rehearsed apology. Tic: won't meet your eye. Coll is the seed's human face -- "the route just wasn't *there*, I flew the numbers three times" -- and the one who most needs to hear it wasn't their fault. **Whoever built this route is the recurring runner the colony is desperate to find.**
+- **Big Pol** -- runs the Long Shadow, feeds anyone who's short, keeps the town's mood. Comic warmth; knows every rumour on the terminator.
+
+### The delivery -- situations, not scripts
+Set these in front of the players and let them choose how to handle them (never decide for the PCs):
+- **Payment.** The colony agreed 1,400 gp and cannot fully make it in coin. They can cover part and tender the rest in **refined ore at a poor Verge rate** -- a real negotiation, not a foregone loss. How the crew handles proud people who can't pay is the scene.
+- **Triage.** More is needed than was ordered. Medicine or mining parts, the sick or the mine -- Administrator Vint will defer to the crew's call on what lands first, and live with it.
+- **The offer.** Vint, carefully, asks whether they'd consider being the colony's *regular* runner. It pays badly and reliably. Saying yes is a recurring-relationship hook; saying no is fine and human. Either way, Hallow's Rest is now a place on the map that knows their faces.
+
+**The one that matters:** somewhere in the delivery, Coll's account lands -- the depot route that *wasn't there.* Play it as a person's failure and grief, not a clue. Nobody says the word for it. (Story Spine: the first Guttering symptom with a body count.)
+
 ## THE COLD ANCHORAGE
 **A free port** built into a captured comet, functionally lawless and entirely practical. No charter required, no questions, no Route Wardens.
 
