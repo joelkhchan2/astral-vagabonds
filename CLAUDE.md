@@ -56,6 +56,16 @@ When writing read-aloud, scenes, or run-ready session material, follow these (fu
 - **Keep the tone compass** (70/20/10) and the PG-to-mild-T guardrail in every scene; land every eerie beat back in warmth.
 These live alongside the existing Output Rules; when the two overlap, both apply.
 
+## Writing voice -- a hard rule
+All campaign prose (read-aloud, DM notes, NPC lines, session docs, the HTML companions) must sound like a working DM wrote it, not a chatbot. Full reference and self-check: the `dnd-writing` skill; longer craft doc: `rules/DMing Craft.md`. The essentials:
+- **No em-dashes. None.** Do not use `--`, `&mdash;`, or `—` in campaign output. It is the loudest AI tell. Use a full stop, a comma pair, parentheses, or a colon instead. If a sentence only holds together with a dash, it is really two sentences.
+- **Drop the "not X, but Y" reflex.** Say what a thing is and stop. At most one real antithesis per document, and only when it earns the emphasis. Avoid "cut off, not killed" style hinges as a habit.
+- **Break the rule of three.** Do not stack adjectives and list items in threes. Vary the count. One strong word beats three weak ones.
+- **Banned filler vocabulary:** delve, tapestry, testament to, a symphony of, a dance of, nestled, bustling, vibrant/rich as filler, boasts, whimsical, navigate the complexities, at its core, it's worth noting, ultimately, in summary. Cut trailing "-ing" tails ("..., ensuring...", "..., making it...") and throat-clearing openers.
+- **Read-aloud is a script, not an essay:** two to four sentences, second person present, lead with two or three senses (sound and smell early), one ordinary anchor, end on a hook, then hand it back with "what do you do?" Say it out loud before committing it.
+- **DM notes are for scanning:** front-load the trigger/DC/number/reveal, bullets and bold keys over paragraphs, secrets as a list of facts, every NPC gets a line to actually say. Keep read-aloud, mechanics, and secrets in separate labeled blocks.
+Note: older docs in this repo still contain em-dashes from before this rule. Fix them when you touch a file; do not do a blind repo-wide sweep unasked.
+
 ## Key References
 - "Vagabonds" is the crew's unofficial name -- referenced in session 1
 - The humor comes from characters, not from the setting being a joke
