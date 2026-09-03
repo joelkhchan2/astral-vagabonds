@@ -66,7 +66,7 @@ They communicate the way ships communicate: creaks, hums, resonance, the settlin
 
 And here is what that means:
 
-The Guttering has happened before, in the deep past, wherever a keystone was lost and the Shine stopped circulating. The peoples who survived were the ones who lived nomadically *with* the sky, and **nobody alive remembers the last time.**
+The Guttering has happened before, in the deep past, wherever a keystone was lost and the Tide stopped moving and the currents died back. The peoples who survived were the ones who lived nomadically *with* the sky, and **nobody alive remembers the last time.**
 
 **These ships were there.** They flew the old current system. They watched it come apart and re-form. They persisted because they were remembered, and they are now the only witnesses to the exact event the campaign is about.
 

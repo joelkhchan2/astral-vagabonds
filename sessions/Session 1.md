@@ -34,8 +34,8 @@ Their first contract off the board at the Rock of Bral: **a resupply run to a st
 
 ## Seeds planted (for your tracking)
 
-- **Seed 1 -- sluggish routes:** the run took a day longer than the charts allow. (Stripped Shine slows the current.)
-- **Seed 2 -- ports out of position:** the colony has drifted off its charted spot. (The sky is rearranging as Shine fails.)
+- **Seed 1 -- sluggish routes:** the run took a day longer than the charts allow. (The Tide is thinning; the current runs weak and slow.)
+- **Seed 2 -- ports out of position:** the colony has drifted off its charted spot. (The currents are dissolving and rerouting as the Tide dies back.)
 - **Seed 3 (the important one) -- navigation failing has a body count:** the colony's own supply runner couldn't find the depot; the route wouldn't resolve; they nearly starved. The first Guttering symptom with a human face. (A route is quietly dying.)
 - **The whales (optional, and rare):** if you use the distant kindori, it's awe plus a pull Orena can't place. Save the big whale beats for later so they land.
 - **The Vocalise:** the closer ties the world mystery to Orena's personal loss on night one.

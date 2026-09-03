@@ -277,7 +277,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***Two Years Old.*** Flurry is a puppy with a breath weapon.
 
-> ***Lunar blood (latent).*** An ancestor was a lunar astral dragon. It grants no combat power now -- it shows only as an uncanny sensitivity to the astral (she feels the Shine and the Guttering; she half-phases when frightened or deep asleep). Use her as a "barometer" for the living sky, never as an answer. Full write-up: `npcs/Flurry.md`.
+> ***Lunar blood (latent).*** An ancestor was a lunar astral dragon. It grants no combat power now -- it shows only as an uncanny sensitivity to the astral (she feels the Tide and the Guttering; she half-phases when frightened or deep asleep). Use her as a "barometer" for the living sky, never as an answer. Full write-up: `npcs/Flurry.md`.
 
 > ***Devoted.*** **Flurry will not fight** unless Aerion is reduced below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die. This is a hard limitation, not a roleplay suggestion. She is a child and she is frightened of loud things.
 

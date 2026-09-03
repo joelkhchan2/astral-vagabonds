@@ -16,7 +16,7 @@ Why lunar fits so cleanly it barely needs explaining:
 - **Astral-native blood.** Lunar dragons phase in and out of reality and are at home in Wildspace and the Astral Sea. That is where her astral-sense comes from -- inherited, not learned.
 
 **What the heritage explains, all at once:**
-1. **Her astral-sense (the barometer -- see below) is native, and sharper than any ordinary silver's.** She feels the Shine and the Guttering because lunar blood reads the astral currents by instinct.
+1. **Her astral-sense (the barometer -- see below) is native, and sharper than any ordinary silver's.** She feels the Tide and the Guttering because lunar blood reads the living currents by instinct -- she's a tide-gauge, feeling the water thin or go still before any instrument.
 2. **Why a silver egg was out in Wildspace at all.** Silvers are a Material-Plane species; this line half-belongs to the void, so the egg being *out here* is the first thread of her origin, not a plot hole.
 3. **A latent phasing tell.** Frightened or deep asleep, baby Flurry sometimes half-*phases* -- goes briefly translucent, hard to focus on, there-and-not. Harmless now, played for uncanny charm. Grown, it becomes a real trait and a late-game payoff.
 
@@ -31,7 +31,7 @@ Why lunar fits so cleanly it barely needs explaining:
 - **Kindori song / the sky at its healthiest:** she lights up -- chirps, presses to the viewport, breath-frost on the glass. A bridge to Orena: the dragon and the navigator both feel the good sky, one by blood, one by ear.
 - **Something astral aboard (an invisible drifter, the Dreameater):** the fixed stare, hackles up, tracking a thing no one else can see. (Already used -- `sessions/Episode - The Dreameater.md`.)
 - **Fear / the truly wrong:** the half-phase. When even Flurry flickers out, the table should feel it.
-- **The Shine returning / a region relit (late game):** she's the first to *know it worked* -- joy before the instruments confirm it. A hopium beat.
+- **The Tide returning / a region relit (late game):** she's the first to *know it worked* -- joy before the instruments confirm it. A hopium beat.
 
 Use her sparingly and she stays special. "Flurry won't come out of the stable and nobody knows why" is a chill, not a solution.
 
