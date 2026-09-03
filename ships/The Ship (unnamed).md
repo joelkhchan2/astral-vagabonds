@@ -31,7 +31,7 @@
 | Ballista ×2 | 3d10, 120/480 ft, base three actions to fire |
 | — Sureshot Rotator (×2) | Aiming becomes a **bonus action** |
 | — Ready Magazine (×2) | Loading becomes a **bonus action** — so a 2–3 crew can aim, load, and fire in effectively one turn |
-| Blunt ram | Collision damage, safer for your own hull; ram-and-board in one initiative |
+| Blunt ram | 4d10 collision; ram-and-board in one initiative. The *Deal* takes half that back onto her own hull, but it still has to clear her DT 20 — so a typical ram (avg. 22, half 11) does nothing to her at all |
 | Trim Rig | +5 ft; **holds attitude unhelmed** (she won't drift or sink off the helm) |
 | Standard shot ×500 | 250 rounds per ballista |
 
@@ -55,8 +55,8 @@ The gravity plane bisects the hull horizontally, so both faces of every deck are
 
 **Upper deck (above the gravity plane)**
 - **Helm room:** the Captain's chair and the Coilworks throne, navigation charts. **Captain Estra Vane** flies her; **Orena** trains here as helmsman-in-training and stands the backup watch. Charts, route calculations, and survey logs pinned to every surface.
-- **Forecastle / crow's nest:** the scout's perch — **Osgood "Aussie" Hammerful** keeps watch and eyes ahead.
-- **Main deck:** open working space, rigging, the two ballista positions (port and starboard). **Finnik** works the rigging; **Aerion** runs crew operations from here as bosun.
+- **Forecastle / crow's nest:** the scout's perch — **Osgood "Ozzie" Hammerfall** keeps watch and eyes ahead.
+- **Main deck:** open working space, rigging, the two ballista positions (port and starboard). **Finnick "Finny" Groles** works the rigging; **Aerion** runs crew operations from here as bosun.
 - **Galley:** **Brassica's** domain — cook by night, medic by day. The long table (if they ever spring for one) seats the whole crew.
 
 **Lower deck (below the gravity plane, gravity inverted)**
@@ -96,12 +96,12 @@ The five who stayed after the old ship blew and the rest lost faith and left, pl
 |---|---|---|
 | **Captain Estra Vane** | Captain · primary helm | Late 50s, graying black hair, dry and exacting (Captain Amelia energy). Won't drink; plays solitaire alone at night. Rumored ex-Commodore who lost a fleet and won't say. |
 | **Tack** | Chief engineer (gunner 2nd) | Autognome, small construct. Cheerful, meticulous, no social read. Loves the ship like a pet; saved her flag; knows her guns without being a marksman. |
-| **Finnik "Finney"** | Rigger / deckhand (cook 2nd) | Halfling. Loud, gregarious, gossips relentlessly, runs game nights, can't keep a secret. Sends part of every paycheck to someone unnamed at the Rock of Brawl, and always gets the Manifest Board printed. |
-| **Osgood "Aussie" Hammerful** | Security · scout | Giff (hippo-folk), 7 ft, Large — counts against the 20-ton cargo. Absurdly polite, soft-spoken gentle giant with a comically large firearm he also swings as a melee weapon. Claims he's headbutted through steel. |
+| **Finnick "Finny" Groles** | Rigger / deckhand (cook 2nd) | Halfling. Loud, gregarious, gossips relentlessly, runs game nights, can't keep a secret. Sends part of every paycheck to someone unnamed at the Rock of Brawl, and always gets the Manifest Board printed. |
+| **Osgood "Ozzie" Hammerfall** | Security · scout | Giff (hippo-folk), 7 ft, Large — counts against the 20-ton cargo. Absurdly polite, soft-spoken gentle giant with a comically large firearm he also swings as a melee weapon. Claims he's headbutted through steel. |
 | **Brassica** ("Brass") | Medic · cook (unlicensed) | Scrappy, fast-talking; never got her license, doesn't ask to be called doctor. "Always knows a guy" at every port. On the run from a deal gone bad; if she's recognized dockside, no one knows yet if that's good or bad. *(GM's D4-every-morning table is hers.)* |
 | **Aerion** — Priscilla's PC | **Bosun / Quartermaster** · cargo handler | Runs the crew and the manifests; keeps the tight ship, inventory, tabs, and debts. Family from a trading empire; holds the crew's trust-fund reserve. |
 | **Orena** — Gabrielle's PC | **Navigator · helmsman-in-training** (backup helm) | Newer aboard (~6 months), training up on the helm under Estra Vane. Her last crew was lost — part of why she's out here is to find them. Charts routes and logs survey data. |
 
-> **Roster of the un-hired.** The candidates the crew passed on are still out there and make ready recruits/recurring faces: **Reeve** (sentient ooze, near-silent, eidetic memory), **Wysp** (young astral elf, scrappy runaway, eager to prove herself), **Moro** (thri-kreen-like insectoid, speaks in the third person, fiercely loyal), **Sable Dustmantle** (shadowfell elf, gallows-humor deadpan, keeps a jar of teeth), **Dr. Quill Ashworth** (human, type-A, terrible bedside manner, rumored to have lost her license).
+> **Roster of the un-hired.** The candidates the crew passed on are still out there and make ready recruits/recurring faces: **Reeve** (sentient ooze, near-silent, eidetic memory), **Wysp** (young astral elf, scrappy runaway, eager to prove herself), **Morrow** (thri-kreen, speaks in the third person, fiercely loyal), **Sable Duskmantle** (shadar-kai elf, gallows-humor deadpan, keeps a jar of teeth), **Dr. Quill Ashworth** (human, type-A, terrible bedside manner, rumored to have lost her license). Full write-ups and stat blocks for all five already exist (`npcs/Crew Roster.md`, `rules/Stat Blocks.md`) — they're prepped and ready to slot in whenever the party actually recruits them, not merely names on a list.
 >
 > **Naming note.** Session Zero's transcript records the bosun PC as "Arion/Orion"; that character is **Aerion** (Priscilla's PC, Bosun/Quartermaster). **Orena** is Gabrielle's PC (Navigator & backup helmsman). `CLAUDE.md` has been updated to match.

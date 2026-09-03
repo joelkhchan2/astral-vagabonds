@@ -1,6 +1,8 @@
 # Crew Roster -- The *Last Honest Deal*
 
-Total complement: 12 (2 PCs + 10 NPCs)
+Current complement: 7 (2 PCs + 5 NPCs aboard). Ship cap: 11.
+
+**Status key.** *(Aboard)* = currently serving. *(Prospective)* = built at Session Zero as an audition candidate the party didn't hire — write-up kept ready to slot in whenever they're actually recruited later. Nobody tagged *(Prospective)* below is on the ship yet.
 
 ## Player Characters
 
@@ -22,70 +24,70 @@ Total complement: 12 (2 PCs + 10 NPCs)
 
 ## NPC Crew
 
-### 1. Captain Estra Vane -- The Captain / Primary Helmsman
+### 1. Captain Estra Vane -- The Captain / Primary Helmsman *(Aboard)*
 **Race:** Human, late 50s.
 **Personality:** Dry, laconic, quietly hilarious. Orders as suggestions. Never raises her voice. Treats crew as adults -- lets them fail and learn. Dented tin mug. Plays cards alone at night.
 **DM shorthand:** Ron Swanson delivery + Captain Holt precision + Iroh grief + Mal Reynolds stubbornness.
 **Secret:** Former First Captain of the Vane Compact (top-10 ranked exploration fleet destroyed 15 years ago). Quietly rebuilding it from rank 348. Owes The Broker two remaining favors. Knows what happened to Gabrielle's old crew. Chose every crew member deliberately.
 **Full details:** See "Captain Estra Vane.md"
 
-### 2. Tack -- Chief Engineer
+### 2. Tack -- Chief Engineer *(Aboard)*
 **Race:** Autognome (small construct).
 **Personality:** Cheerful, meticulous, talks to the ship like it's a pet. Refers to hull breaches as "owies." Overpowered for this ship (built for a much larger vessel), so repairs happen suspiciously fast. No concept of personal space.
 **Sitcom parallel:** Gregory/Jacob hybrid (Abbott Elementary) -- excellent at job, oblivious to social dynamics, accidentally heartwarming.
 **Secret:** Creator is one of the Pale Reach consortium's chief shipwrights. If Priscilla's family comes calling, Tack may have divided loyalties -- or be a sleeper asset nobody activated.
 **Crew dynamic:** Genuinely loves the ship. Argues with Gabrielle about whether the creaking is structural ("she's just talking"). First to notice when something mechanical is wrong, last to notice when something emotional is wrong.
 
-### 3. Sable Duskmantle -- Chief Gunner
+### 3. Sable Duskmantle -- Chief Gunner *(Prospective)*
 **Race:** Shadar-kai (Shadowfell elf).
 **Personality:** Grim, fatalistic, extremely deadpan funny. "I'll man the ballista. If we die, at least I got to shoot something." Collects small trophies from disabled ships. Has a jar of teeth on a shelf in the gun bay (mixed species -- don't ask).
 **Sitcom parallel:** Rosa Diaz (B99) -- terrifying, secretly sentimental, would kill for this crew but never admit it.
 **Secret:** Former githyanki raider crew. Deserted after being ordered to destroy a civilian vessel. Price on their head in certain Astral ports. Was present for the Broker's Favor #1 and won't discuss it.
 **Crew dynamic:** Respects Priscilla's bosun authority immediately (recognizes military competence). Tolerates Finny's gossip (secretly appreciates it). Protective of Wysp in a way they'd deny.
 
-### 4. Finnick "Finny" Groles -- Deckhand / Ship's Cook
+### 4. Finnick "Finny" Groles -- Deckhand / Ship's Cook *(Aboard)*
 **Race:** Hadozee (gliding monkey-folk).
 **Personality:** Loud, gregarious, gossips relentlessly, makes incredible food from terrible ingredients. Emotional center of the crew -- organizes game nights, remembers birthdays, starts traditions. Cannot keep a secret. This is both his best and worst quality.
 **Sitcom parallel:** Andy Dwyer (Parks & Rec). Pure of heart, dumb of strategy.
 **Secret:** Sends a portion of his pay to someone on the Rock of Bral. Won't say who. (Actually can keep this one secret.)
 **Crew dynamic:** First to welcome Gabrielle aboard. Tries to call Estra "mom" (once -- the look could strip paint). The Manifest Board printout in the galley is his. Cooks as love language.
 
-### 5. Dr. Quill Ashworth -- Ship's Surgeon
+### 5. Dr. Quill Ashworth -- Ship's Surgeon *(Prospective)*
 **Race:** Human.
 **Personality:** Anxious, precise, over-prepares for everything. Medical kit for every scenario including "attacked by a kindori" and "spontaneous gravity reversal." Terrible bedside manner (gets flustered), brilliant under pressure. Hates space. Is on this ship anyway.
 **Sitcom parallel:** Charles Boyle meets Ann Perkins -- competent professional who's slightly too much in exactly the right way.
 **Secret:** Lost medical license planetside after malpractice accusation that was actually a cover-up by someone powerful. Can't go home until cleared or forgotten.
 **Crew dynamic:** Fusses over everyone's health to the point of annoyance. Keeps detailed injury logs. Quietly terrified every day but shows up anyway.
 
-### 6. Reeve -- Lookout / Scout
+### 6. Reeve -- Lookout / Scout *(Prospective)*
 **Race:** Plasmoid (sentient ooze).
 **Personality:** Quiet, observational, short precise sentences. Spends most time flattened against the hull in the crow's nest, watching everything. Eidetic memory for spatial relationships. Surprisingly philosophical when they speak at length. The crew forgets Reeve is in the room. Reeve prefers it that way.
 **Sitcom parallel:** The character who's been sitting in the corner the whole scene and then drops one line that reframes everything.
 **Secret:** Far older than anyone realizes. Crewed on dozens of ships over centuries. Watched every crew fall apart. Stays because they're still hoping to find one that lasts.
 **Crew dynamic:** Notices everything, says almost nothing. When Reeve does speak up, the crew has learned to listen. Has a strange kinship with Priscilla -- both watchers, both cataloguers, both quiet power.
 
-### 7. Brassica "Brass" Thorngage -- Quartermaster's Mate / Cargo Handler
+### 7. Brassica "Brass" Thorngage -- Quartermaster's Mate / Cargo Handler *(Aboard)*
 **Race:** Halfling.
 **Personality:** Scrappy, resourceful, talks fast, always has "a guy" at every port. Need a part, a forged manifest, a black market contact? Brass can get it -- for a price, a favor, or just because she likes you. Running tally of debts on increasingly chaotic napkins.
 **Sitcom parallel:** Donna Meagle meets Jake Peralta -- streetwise, connected, enjoys the hustle.
 **Secret:** On the run from a deal gone bad with a neogi slaver ring. They're still looking.
 **Crew dynamic:** Priscilla's natural complement -- where Priscilla is strategic mind, Brass is street-level operator. Think Leslie/Ann but for crime. Brass is the person who makes Priscilla's plans actually work at ground level.
 
-### 8. Ozgood "Oz" Hammerfall -- Ship Security / Heavy Weapons
+### 8. Osgood "Ozzie" Hammerfall -- Ship Security / Heavy Weapons *(Aboard)*
 **Race:** Giff (hippo-person, 7 feet tall).
 **Personality:** Polite. Absurdly polite. Opens doors, says "after you," writes thank-you notes after shore leave. Carries comically large firearm. Can headbutt through a bulkhead. The contrast IS the character. Believes in procedure, chain of command, firm handshakes.
 **Sitcom parallel:** Terry Jeffords (B99) -- intimidating physique, enormous heart, takes his responsibilities very seriously.
 **Secret:** Dishonorably discharged from a giff mercenary company for refusing to fire on unarmed civilians during a contract dispute. Branded a coward. Still processing whether honor and obedience are the same thing.
 **Crew dynamic:** Defers to Priscilla's bosun authority without question (chain of command is sacred to him). Calls Estra "Captain" every single time. Treats Wysp like a younger sibling in need of protection and etiquette lessons.
 
-### 9. Wysp -- Cabin Crew / General Runner / Helm Backup
+### 9. Wysp -- Cabin Crew / General Runner / Helm Backup *(Prospective)*
 **Race:** Astral elf (young, equivalent of teenager).
 **Personality:** Eager, curious, trying hard to seem experienced and failing adorably. Stowed away three ports ago -- Estra just let them stay. Has read every adventure novel ever written and is perpetually disappointed that real adventure involves inventory management. Worships Gabrielle's competence and Priscilla's cool factor equally.
 **Sitcom parallel:** April Ludgate if April actually tried hard and cared openly.
 **Secret:** Didn't run away from home -- was sent away quietly by a parent who saw something dangerous coming. Wysp doesn't know this. They think they're a rebel. They're actually a refugee.
 **Crew dynamic:** The crew's unofficial mascot. Everyone is protective; nobody agrees on how. Finny spoils them, Sable toughens them, Oz teaches them manners, Estra gives them real work. Wysp's admiration of both PCs is a useful spotlight tool.
 
-### 10. Morrow -- Second Helmsman / Rigger
+### 10. Morrow -- Second Helmsman / Rigger *(Prospective)*
 **Race:** Thri-kreen (insectoid, four arms).
 **Personality:** Speaks in third person. Processes emotions visually (carapace changes color with mood -- hates this). Exceptional multitasker (four arms = rigging while eating while reading a chart). Deeply private, fiercely loyal once trust is earned. Dry alien humor that lands 40% of the time and is devastating when it does.
 **Sitcom parallel:** Morrow is the deadpan straight man whose rare jokes are the funniest in the room.
@@ -95,6 +97,8 @@ Total complement: 12 (2 PCs + 10 NPCs)
 ---
 
 ## Crew Dynamics Summary
+
+**These groupings assume the full complement is aboard — they're forward-looking, written for once the Prospective crew is actually recruited. Right now only the *(Aboard)* five (Estra, Tack, Finnick, Brassica, Osgood) plus the two PCs are on the ship.**
 
 **Natural groupings:**
 - Gabrielle's direct reports: Tack (engineering), Sable (weapons), Oz (security), Finny (deck)

@@ -168,7 +168,7 @@ Whoever's at the helm. **Flying costs nothing** — per section 2, steering the 
 |---|---|---|
 | **Evasive Action** | Attacks against the ship have disadvantage until the start of the pilot's next turn | The ship's own weapons have disadvantage this round — nobody can aim while she's juking |
 | **Full Burn** | Ship's speed effectively doubles this round (close, disengage, or run) | Attacks against the ship have advantage until the start of the pilot's next turn — hard to hide going that fast |
-| **Ram** | If the hull has a ram, make one attack using the ram's listed damage, no weapon crew required | The ship takes half the damage it deals back, applied after the damage threshold |
+| **Ram** | If the hull has a ram, make one attack using the ram's listed damage (Blunt Ram: 4d10 — see `Ship Construction.md`), no weapon crew required | The ship takes half the damage it deals back onto its own hull. That self-damage is checked against the ship's own damage threshold like any other hit — a small ram may do nothing to you at all |
 | **Boarding Action** | Close and lock with a target ship the *Deal*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
 
 ### Gunner

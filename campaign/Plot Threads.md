@@ -122,6 +122,8 @@ A repeating signal from deep uncharted Wildspace. Ancient. Older than any known 
 
 ## Crew Personal Arcs (B-Plots)
 
+*Sable, Reeve, Wysp, and Morrow are currently Prospective, not aboard (see `npcs/Crew Roster.md`) — their rows below are forward-looking, ready to activate once the party recruits them.*
+
 | Crew Member | Arc | Trigger |
 |---|---|---|
 | Tack | Creator loyalty vs. crew loyalty | Pale Reach contact appears |

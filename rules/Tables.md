@@ -4,6 +4,8 @@ Roll or pick. Everything here is ours except where a published creature is named
 
 **Tone check before rolling:** 70% warmth, 20% wonder, 10% danger. Roughly two thirds of what happens out there should be strange or funny rather than hostile. These tables are weighted that way on purpose.
 
+**Crew status note:** entries referencing Sable, Reeve, or Morrow assume they're aboard, which they aren't yet — they're Prospective crew (see `npcs/Crew Roster.md`). Skip or reflavor those rows until the party actually recruits them.
+
 ---
 
 # 1. WILDSPACE ENCOUNTERS (d20)

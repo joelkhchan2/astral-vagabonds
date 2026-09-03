@@ -10,7 +10,9 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 # THE CREW
 
-## TACK
+**Status key.** *(Aboard)* = currently serving on the skeleton crew of 7 (2 PCs + 5 NPCs). *(Prospective)* = built at Session Zero as an audition candidate the party didn't hire — full write-up kept ready to slot in whenever they're actually recruited (see the "Roster of the un-hired" note in `ships/The Ship (unnamed).md` and the matching entries in `npcs/Crew Roster.md`). Nobody in the Prospective group is currently on the ship.
+
+## TACK *(Aboard)*
 *Small construct, Chief Engineer* · **CR 1** (200 XP)
 
 **AC** 15 (armored casing) · **HP** 33 (6d6 + 12) · **Speed** 25 ft.
@@ -37,7 +39,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## SABLE DUSKMANTLE
+## SABLE DUSKMANTLE *(Prospective)*
 *Medium humanoid (shadar-kai elf), Chief Gunner* · **CR 3** (700 XP)
 
 **AC** 15 (studded leather) · **HP** 58 (9d8 + 18) · **Speed** 30 ft.
@@ -68,7 +70,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## FINNICK "FINNY" GROLES
+## FINNICK "FINNY" GROLES *(Aboard)*
 *Medium humanoid (hadozee), Cook and Deckhand* · **CR 1/2** (100 XP)
 
 **AC** 13 · **HP** 27 (5d8 + 5) · **Speed** 30 ft., climb 30 ft.
@@ -94,7 +96,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## DR. QUILL ASHWORTH
+## DR. QUILL ASHWORTH *(Prospective)*
 *Medium humanoid (human), Ship's Surgeon* · **CR 1/2** (100 XP)
 
 **AC** 12 · **HP** 22 (5d8) · **Speed** 30 ft.
@@ -120,7 +122,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## REEVE
+## REEVE *(Prospective)*
 *Medium ooze (plasmoid), Lookout* · **CR 1** (200 XP)
 
 **AC** 14 · **HP** 45 (7d8 + 14) · **Speed** 30 ft., climb 30 ft.
@@ -146,7 +148,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## BRASSICA "BRASS" THORNGAGE
+## BRASSICA "BRASS" THORNGAGE *(Aboard)*
 *Small humanoid (halfling), Quartermaster's Mate* · **CR 1** (200 XP)
 
 **AC** 14 (leather) · **HP** 32 (7d6 + 7) · **Speed** 25 ft.
@@ -171,7 +173,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## OZGOOD "OZ" HAMMERFALL
+## OSGOOD "OZZIE" HAMMERFALL *(Aboard)*
 *Medium humanoid (giff), Ship's Security* · **CR 3** (700 XP)
 
 **AC** 16 (breastplate) · **HP** 82 (11d10 + 22) · **Speed** 30 ft.
@@ -199,7 +201,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## MORROW
+## MORROW *(Prospective)*
 *Medium humanoid (thri-kreen), Rigger and Second Helm* · **CR 2** (450 XP)
 
 **AC** 15 (chitin) · **HP** 49 (9d8 + 9) · **Speed** 35 ft., climb 30 ft.
@@ -223,7 +225,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## WYSP
+## WYSP *(Prospective)*
 *Medium humanoid (astral elf), Runner* · **CR 1/4** (50 XP)
 
 **AC** 13 · **HP** 18 (4d8) · **Speed** 30 ft.

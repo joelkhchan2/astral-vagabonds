@@ -224,7 +224,7 @@ Present all three options explicitly. **The third one is the real question.**
 **OZGOOD "OZ" HAMMERFALL** — giff, seven feet, absurdly polite, carries a gun the size of a person. Offers a firm handshake and a written summary of his qualifications.
 *What you get:* boarding defense. Nobody takes this deck while Oz is standing on it.
 *Wage:* 4 gp/day. *Complication:* dishonorably discharged for refusing to fire on civilians. Branded a coward. Still working out whether honour and obedience are the same thing.
-> "Good afternoon. Ozgood Hammerfall. I'd be glad to be of use, and I've brought references."
+> "Good afternoon. Osgood Hammerfall. I'd be glad to be of use, and I've brought references."
 *Ask him:* whether he'd fire on someone if ordered to. He'll answer completely honestly, and it takes him a moment, and that moment is the interview.
 *If Sable is also hired:* the two of them crossed paths years ago on opposite sides of a contract Oz refused to finish. Neither brings it up. See `Crew Roster.md`.
 

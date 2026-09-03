@@ -99,7 +99,7 @@ Plane Anchor matters more than it reads. Canon says the hull with more HP remain
 | Mangonel **[C]** | **100** | 4-5 | 5d10, 200/800, min 60 ft, four actions |
 | Giant Cannon **[C]** stats, **[H]** price | 6,000 | 4 | **16d10**, 600/2,400 |
 | Piercing Ram **[H]** | 1,500 | — | Collision |
-| Blunt Ram **[H]** | 1,200 | — | Collision, safer for you |
+| Blunt Ram **[H]** | 1,200 | — | 4d10 collision. The ship takes half that damage back onto her own hull, checked against her own damage threshold like any other hit — "safer for you" in practice, not just in name. |
 | Grappling Jaws **[H]** | 2,000 | 2 | Lock a hull for boarding |
 | Harpoon Battery **[H]** | 2,800 | 3 | 4d10 plus a line; tethered targets can't disengage |
 | Scatter Rack **[H]** | 1,900 | 3 | 4d8 to all Small craft in a 30-ft cube. Anti-tender. |

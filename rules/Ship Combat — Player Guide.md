@@ -20,7 +20,7 @@ Flying the ship is **free**: steering doesn't cost your action or your movement,
 |---|---|---|
 | **Evasive Action** | Attacks against the ship have **disadvantage** until your next turn | Your own weapons fire at disadvantage this round — nobody can aim while she's juking |
 | **Full Burn** | Ship's speed **doubles** this round (close, run, or disengage) | Attacks against the ship have **advantage** until your next turn — you're a fat target going that fast |
-| **Ram** | Make one attack with the ship's **blunt ram**, no gun crew needed | The ship takes **half** the damage it deals, back onto her own hull |
+| **Ram** | Make one attack with the ship's **blunt ram** (4d10), no gun crew needed | The ship takes **half** the damage it deals, back onto her own hull — but that self-damage still has to clear her own damage threshold (20) to count, so a middling hit does nothing to you at all |
 | **Boarding Action** | Lock onto a ship your size or smaller (contested piloting check) so people can cross over | Both ships are grappled — neither can Full Burn or disengage until someone breaks it |
 
 *Orena is the crew's helm-in-training, so this is usually her seat — but the Captain flies backup, and in a pinch anyone attuned can take the chair.*

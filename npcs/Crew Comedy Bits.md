@@ -2,6 +2,8 @@
 
 Drop-in moments, running gags, cutaways, and slice-of-life scenes. Use these to fill dead air, open sessions, reward downtime, or just make the ship feel lived-in. Organized by type.
 
+*Sable, Quill, Reeve, Wysp, and Morrow are currently Prospective, not aboard (see `npcs/Crew Roster.md`) — bits featuring them are ready to use once the party recruits them, not yet in play.*
+
 ---
 
 ## Running Gags (Recurring Bits That Build Over Time)
@@ -16,7 +18,7 @@ Tack has named every major component. The port ballista is "Gertrude." The starb
 Gabrielle: "That creak is load-bearing." Tack: "She's just *talking*." This exchange happens at least once per session in slightly different words. The day the crew catches Tack quietly inspecting the exact spot Gabrielle flagged, nobody says anything. Tack says nothing. Gabrielle says nothing. The ship creaks.
 
 **Oz's Thank-You Notes**
-After every port visit, Oz writes thank-you notes. To dock workers. To merchants. To the port authority officer who fined them. ("Dear Inspector Valdris, Thank you for your thoroughness in citing our expired ventilation permit. Your diligence keeps Wildspace safe. Warmly, Ozgood Hammerfall.") The crew finds these mortifying. The recipients are universally charmed. The crew has gotten out of at least two situations because the relevant official remembered Oz's note.
+After every port visit, Oz writes thank-you notes. To dock workers. To merchants. To the port authority officer who fined them. ("Dear Inspector Valdris, Thank you for your thoroughness in citing our expired ventilation permit. Your diligence keeps Wildspace safe. Warmly, Osgood Hammerfall.") The crew finds these mortifying. The recipients are universally charmed. The crew has gotten out of at least two situations because the relevant official remembered Oz's note.
 
 **Sable's Tooth Jar**
 Nobody asks about the tooth jar. New crew members (Gabrielle) instinctively ask about the tooth jar. The entire crew goes silent. Sable stares. The question is never answered. Later, Finny quietly explains: "We don't ask about the jar." "But what--" "We. Don't. Ask."
@@ -62,7 +64,7 @@ Finny names his dishes. The names have no relationship to the ingredients. "Toni
 Wysp installed a hammock on the main deck without asking. Priscilla (bosun) told them to take it down. Wysp argued it was "an efficiency improvement for off-duty lookout naps." Estra walked past, looked at the hammock, looked at Priscilla, and said nothing. The hammock is still there. Nobody knows what the silence meant. Priscilla has chosen not to die on this hill. Wysp considers this their greatest victory.
 
 **Oz at a Bar**
-The crew goes to a rough port bar. Everyone tenses. Oz walks up to the biggest, meanest-looking person in the room, extends his hand, and says, "Good evening. Fine establishment. Ozgood Hammerfall. May I buy you a drink?" The person is so confused that the entire bar's energy shifts. Two hours later, Oz is playing cards with the bartender and has made three friends. Sable, who brought four knives, is annoyed that none of them were necessary.
+The crew goes to a rough port bar. Everyone tenses. Oz walks up to the biggest, meanest-looking person in the room, extends his hand, and says, "Good evening. Fine establishment. Osgood Hammerfall. May I buy you a drink?" The person is so confused that the entire bar's energy shifts. Two hours later, Oz is playing cards with the bartender and has made three friends. Sable, who brought four knives, is annoyed that none of them were necessary.
 
 **Tack's Maintenance Log**
 Tack keeps a ship maintenance log that doubles as a diary. Entries include: "Replaced coupling on ventral pipe 7. Susan is jealous of the attention Gertrude got last week." "Kevin fired himself again at 0400. No one was hurt. Kevin seems unrepentant." "The bosun inspected my work today. The bosun's eyes said 'concerned.' I said 'she's just talking.' The bosun's eyes remained concerned."
