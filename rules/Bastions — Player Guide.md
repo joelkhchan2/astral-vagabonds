@@ -40,7 +40,7 @@ You each choose **2** of these. Room sizes on a ship run small — think tight b
 | **Workshop** | engineering / tinker bench | Craft | Build adventuring gear, tools, and gadgets. *(Very Tack.)* |
 | **Smithy** | forge | Craft | Make weapons and armor. |
 | **Armory** | gun bay / arms locker | Trade | Stock weapons so the crew is armed if the ship is boarded. |
-| **Barrack** | crew quarters | Recruit | House and add **defenders** who fight for the ship. *(Very Aussie.)* |
+| **Barrack** | crew quarters | Recruit | House and add **defenders** who fight for the ship. *(Very Ozzie.)* |
 | **Storehouse** | cargo hold | Trade | Turn cargo space into steady coin. *(Very Aerion.)* |
 | **Library** | chart room / archive | Research | Answer questions and hunt down lore. *(Good for Orena's maps.)* |
 | **Garden** | a grow-nook | Harvest | Raise herbs, food, or something nastier. |

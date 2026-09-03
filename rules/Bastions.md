@@ -181,7 +181,7 @@ A PC who loses a bastion can establish a new one (use the Acquisition table for 
 ## Adapting to the ship
 
 - **The hull is the shared bastion.** Aerion (Priscilla) and Orena (Gabrielle) each own their special facilities but pool them into the one ship; their hirelings are the loyal NPC crew, mapped to facilities.
-- **Facility ↔ crew mapping (natural fits):** Engineering/Tack → **Workshop** or **Smithy**; sickbay/Brassica → **Laboratory** or **Greenhouse**; gun bay → **Armory**; crew quarters/Aussie → **Barrack**; galley + long table → basic **Dining Room/Kitchen**; the helm/charts/Orena → **Observatory** (spelljammer-perfect at L13) or **Library** now; cargo/Aerion → **Storehouse**.
+- **Facility ↔ crew mapping (natural fits):** Engineering/Tack → **Workshop** or **Smithy**; sickbay/Brassica → **Laboratory** or **Greenhouse**; gun bay → **Armory**; crew quarters/Ozzie → **Barrack**; galley + long table → basic **Dining Room/Kitchen**; the helm/charts/Orena → **Observatory** (spelljammer-perfect at L13) or **Library** now; cargo/Aerion → **Storehouse**.
 - **Space on a ship is tight.** The Trader is 20 tons of cargo and 11 berths — lean toward **Cramped/Roomy** facilities and use the "both faces of every deck are walkable" gravity-plane trick to justify square counts.
 - **The `Ship Construction.md` "Bastion Improvements" table** (enlarge costs, extra hirelings, "Arm the Crew," second facility of a type, specialization) is this campaign's houseruled add-on layer on top of these rules — keep the two consistent when you build the ship's facility list.
 - **Two level-5 special facilities are unspent** right now — that's the deferred Session Zero task and the placeholder in `The Ship (unnamed).md`.

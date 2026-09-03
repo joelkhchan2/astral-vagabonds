@@ -26,7 +26,7 @@ Flying the ship is **free**: steering doesn't cost your action or your movement,
 *Orena is the crew's helm-in-training, so this is usually her seat — but the Captain flies backup, and in a pinch anyone attuned can take the chair.*
 
 ### 🎯 Gunner — the weapon crews
-The *Deal* carries **two ballistas** and the **blunt ram**. A ballista normally needs a crew and takes a few actions to load–aim–fire — **but ours are upgraded** (Sureshot + Ready Magazine), so aiming and loading are quick, and a small crew can get shots off fast. As a gunner you spend your action feeding that firing sequence. More hands on the guns = more shots per round. (Tack knows the guns; Aussie hits hard — either makes a fine gunner.)
+The *Deal* carries **two ballistas** and the **blunt ram**. A ballista normally needs a crew and takes a few actions to load–aim–fire — **but ours are upgraded** (Sureshot + Ready Magazine), so aiming and loading are quick, and a small crew can get shots off fast. As a gunner you spend your action feeding that firing sequence. More hands on the guns = more shots per round. (Tack knows the guns; Ozzie hits hard — either makes a fine gunner.)
 
 ### 🔧 Engineer — keeping her standing
 Not full repairs — that's gold and downtime afterward. **In the fight**, an Engineer can spend their action on an **Emergency Patch**: a check (DC 12); on a success the ship regains **hit points equal to your level**, once per fight per engineer. It's a bandage — it keeps the hull up long enough to finish, but it **doesn't lower the repair bill**. (Very Tack.)
