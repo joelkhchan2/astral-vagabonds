@@ -22,7 +22,7 @@ Drop-in moments, running gags, cutaways, and slice-of-life scenes to make the sh
 
 **Flurry Knew.** Flurry has moods, and the crew has learned to bet on them. She won't come out of the stable, or she won't eat, or she stares at a blank stretch of wall -- and Finny starts a pool on what it means while Aerion insists she's just being dramatic. She is not being dramatic. Half a day later the charts don't resolve, or a port's out of position, or the watch reports something strange, and everyone looks at the stable. Nobody says it out loud, but the crew has quietly started treating "how's Flurry today" as part of the pre-flight check. *(GM: this is your barometer -- `npcs/Flurry.md`. Point, don't answer.)*
 
-**Estra's Mug.** The mug just says "Captain." Nobody knows where she got it. It has survived every ship disaster; once, during a hull breach, Estra grabbed the mug before the railing. "Priorities." Finny knocked it off the table once and swears it didn't hit the ground, it just stopped.
+**Estra's Mug.** The dented tin mug reads "Captain." Look closely and it once read "World's Best Captain": someone dug those two words out with a knife, and the gouged chips are still there. She has never explained it, and nobody has been brave enough to ask whether she did it herself. It has survived every ship disaster; once, during a hull breach, Estra grabbed the mug before the railing. "Priorities." Finny knocked it off the table once and swears it didn't hit the ground, it just stopped.
 
 ---
 
