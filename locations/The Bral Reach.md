@@ -52,7 +52,7 @@ A brass grille in a basalt wall with a queue in front of it. This is where chart
 - **The Tallow Run** -- to a frontier colony that, per its own filings, *is still there and still ordering provisions.* A live colony on a dead road. That one keeps Meech up.
 He does not connect them to anything cosmic. He connects them to bad paperwork, which is worse, because bad paperwork means someone is *choosing* not to explain. (Pays off at M4, `Contracts.md`; ties to the Story Spine's Guttering.)
 
-**One danger:** the CIV can suspend a charter faster than anyone can appeal it. House Obhal knows this.
+**One danger:** the CIV can suspend a charter faster than anyone can appeal it. House Darkshade knows this.
 **One opportunity:** Meech respects competence and paperwork, in that order, and Priscilla has both.
 
 **A scene worth running: the Board, together.** The Manifest Board is posted here on a public wall, and people genuinely stand and read it. Bring the crew to it at least once as a group. Finny goes straight to their line and narrates it like sports. Somewhere down the wall, a sour rival clocks them and says it just loud enough to carry. Use **Rimmon Vex of the *Cutlass Sunday*** (ranked 344, `factions/The Manifest Board.md`), who takes being anywhere near the crew as a personal insult: *"Vane's boat. Three hundred forty-eighth. Didn't know they let the derelicts vote."*
@@ -67,7 +67,7 @@ A narrow office two levels up, all brass instruments and filing. Priscilla's rec
 
 **Senna is the crew's most important recurring relationship in Tier 1** and neither of them will realize it. She works for Delverane, the reform faction, and she's the thread that eventually reaches Aurel Delverane and the *Farthing*.
 
-**One secret:** Senna has been quietly flagging anomaly reports to her house rather than the central archive. She'd call it good practice. Vassara would call it something else.
+**One secret:** Senna has been quietly flagging anomaly reports to her house rather than the central archive. She'd call it good practice. Vellum would call it something else.
 **One danger:** everything sold here goes into an archive Aeravellis is poisoning.
 **One opportunity:** she'll pay above rate for data nobody else brings, and the Verge is data nobody else brings.
 
@@ -79,7 +79,7 @@ Not rough, not nice. Long shared tables, indifferent food that never changes, la
 **The regulars (a small recurring cast):**
 - **Bex Halloway**, captain of the *Grendel's Wake* off berth 39, the crew's next-dock neighbour and friendly rival. Ranked a comfortable few rungs above them and unbearable about it when she wins, generous about it when she loses, and secretly glad to have someone at the bottom to race. She is the friendly ceiling: beating her is a real, achievable win.
 - **Dov Errin**, once captain of the *Steadfast Promise*, now a man with a grievance and a stool. The CIV impounded his ship on a paperwork technicality he still can't undo, and he will tell anyone the whole story twice. He is a bore and a warning: his tale is exactly how the machine crushes a small operator, which is Estra's Compact writ small, and buried in the third retelling is real, usable intel about who files the complaints and why.
-- **Off-shift Route Wardens**, Tethyn enforcement in civilian coats, drinking where they can hear things. Inconvenient by default. One of them, **Warden Cathis**, is a decent and bored card player who will talk more freely across a dice table than she ever would on duty.
+- **Off-shift Route Wardens**, Stoneward enforcement in civilian coats, drinking where they can hear things. Inconvenient by default. One of them, **Warden Cathis**, is a decent and bored card player who will talk more freely across a dice table than she ever would on duty.
 - **Old Pemberly**, a spacer so old nobody buys his stories and everybody buys his drinks, who swears low and delighted that he has heard *singing in the deep Astral* (the Vocalise and the berbalang rumour live in his mouth; `rules/Tables.md` §4).
 
 **Tall tales and gossip.** This is the rumour engine of the campaign. Deal from the **Port Rumours** table (`rules/Tables.md` §4) as ordinary bar talk; several of those are the Guttering wearing a joke's clothes, and none are labelled. Between the true seeds, keep a stock of pure tall tales (a captain who married a mercane, a hold that was bigger inside than out, the ghost hull that only shows on Nightbreeze's books) so the real clues never stand out.

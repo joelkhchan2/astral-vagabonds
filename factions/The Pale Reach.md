@@ -57,11 +57,11 @@ The Pale Reach is governed by a council of founding families and appointed offic
 **Founding Family Seats (5):**
 Each founding family holds a permanent seat. These families have held power for generations. The seats pass through lineage, though the specific representative is chosen internally by each family.
 
-1. **House Vassara** -- The oldest founding family. Cartographers by tradition. They view the Pale Reach as a legacy institution and themselves as stewards. Conservative, procedural, resistant to change. Currently the most powerful family on the Board.
+1. **House Vellum** -- The oldest founding family. Cartographers by tradition. They view the Pale Reach as a legacy institution and themselves as stewards. Conservative, procedural, resistant to change. Currently the most powerful family on the Board.
    - *Vibe:* Old money. "We built this. We maintain this. You're welcome."
    - *Guttering stance:* Denial, then doubling down. The archives are fine. The problem is operator incompetence.
 
-2. **House Tethyn** -- The military-adjacent family. They handle route security, toll enforcement, and patrol contracts. Their wealth comes from the toll routes and insurance partnerships. The family most likely to use force.
+2. **House Stoneward** -- The military-adjacent family. They handle route security, toll enforcement, and patrol contracts. Their wealth comes from the toll routes and insurance partnerships. The family most likely to use force.
    - *Vibe:* Corporate security meets private military. Polite until they're not.
    - *Guttering stance:* Opportunity. If routes are dangerous, security is worth more. They want the Guttering to continue just long enough to expand their enforcement contracts.
 
@@ -71,7 +71,7 @@ Each founding family holds a permanent seat. These families have held power for 
 
 4. **House Nightbreeze** -- The financiers. They manage the Pale Reach's investment portfolio, insurance partnerships, and banking relationships. They don't care about navigation per se -- they care about revenue. Whatever model makes money, they'll support.
    - *Vibe:* Venture capital. Spreadsheets. "What's the margin on that?"
-   - *Guttering stance:* Follow the money. Currently backing House Vassara's denial because the subscription model is still profitable. Will pivot the instant the numbers shift.
+   - *Guttering stance:* Follow the money. Currently backing House Vellum's denial because the subscription model is still profitable. Will pivot the instant the numbers shift.
 
 5. **[FIFTH SEAT -- VACANT]** -- Contested, not yet filled. **House Windsong** (Aerion's family) is one of the contenders -- see `House Windsong.md` for the family and the fifth-seat game.
 
@@ -123,7 +123,7 @@ The Guttering worsens. The Pale Reach's data becomes less reliable. The crew's a
 - The Pale Reach approaches Priscilla directly (not through her family) with an offer: better data rates, CIV ranking improvement, access to premium routes -- in exchange for "preferred partner" status. Essentially: become our asset.
 
 ### Tier 3 (Levels 14-17): The Fight
-The Guttering is undeniable. The Pale Reach is fracturing internally. House Delverane pushes for adaptation. House Vassara and House Tethyn double down on control. The Board of Ledgers is divided.
+The Guttering is undeniable. The Pale Reach is fracturing internally. House Delverane pushes for adaptation. House Vellum and House Stoneward double down on control. The Board of Ledgers is divided.
 
 **Key moments:**
 - The crew's nomadic network begins gaining traction. Other independent ships start sharing data through it. The Pale Reach notices.

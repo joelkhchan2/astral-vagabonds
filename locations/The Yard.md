@@ -148,13 +148,13 @@ They hire **three or four** here with real scenes. The rest fill in offscreen so
 > "Oh! Oh, is this *my* ship now? I'll need to learn all her names."
 *Ask him:* what he was actually built for. He'll answer completely honestly and it will be a much bigger ship than this one.
 
-**HESSA OMBREY** — human, forties, ex-Tethyn yard foreman, immaculate coveralls, speaks in estimates. Genuinely excellent and knows exactly what she's worth.
+**HESSA OMBREY** — human, forties, ex-Stoneward yard foreman, immaculate coveralls, speaks in estimates. Genuinely excellent and knows exactly what she's worth.
 *Philosophy:* **fixes what's asked.** Precisely, on schedule, and not one bolt more. If you didn't specify it, she didn't touch it, and she will show you where you didn't specify it.
 *Wage:* 6 gp/day, double the going rate, non-negotiable.
-*Complication:* she'd file a routine fit-out report with her old Tethyn contacts out of sheer professional habit. Not spying. Worse, in a way: paperwork.
+*Complication:* she'd file a routine fit-out report with her old Stoneward contacts out of sheer professional habit. Not spying. Worse, in a way: paperwork.
 > "I can have her sound in nine days. I can have her *good* in twenty. You'll want the nine."
-*Ask her:* why she left the Tethyn yards. She'll give you the professional answer first and the real one only if you ask twice.
-*If Corwin Ashe is also auditioning today:* they know each other from the same Tethyn circuit. They'll clock each other mid-interview, and it briefly stops being an audition and becomes two old colleagues sizing each other up. See `Crew Roster.md`.
+*Ask her:* why she left the Stoneward yards. She'll give you the professional answer first and the real one only if you ask twice.
+*If Corwin Ashe is also auditioning today:* they know each other from the same Stoneward circuit. They'll clock each other mid-interview, and it briefly stops being an audition and becomes two old colleagues sizing each other up. See `Crew Roster.md`.
 
 **PELL CINDER** — gnome, indeterminate age, singed. Has ideas. Wants to talk about the ideas.
 *Philosophy:* **improves things.** Nobody asked. Some of the improvements are extraordinary and some of them are on fire.

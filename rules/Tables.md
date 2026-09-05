@@ -18,7 +18,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 4 | **Jammer leeches** attached to the hull. Nobody noticed. Speed has been down 5 ft for a week. |
 | 5 | A derelict, intact, air envelope holding, table still set. No crew. No damage. No signs of anything. |
 | 6 | **Scavvers** circling something. Whatever they're circling is the interesting part. |
-| 7 | A Tethyn Route Warden inspection. Routine. Four hours. Deeply inconvenient. |
+| 7 | A Stoneward Route Warden inspection. Routine. Four hours. Deeply inconvenient. |
 | 8 | **A chwinga astronaut** fishing off the bow from the back of a space guppy, casting a line into the void for something only it can see. (Or three of them on the forward rail.) They want to be here. They won't explain. |
 | 9 | A distress beacon on a heading the crew cannot afford to take |
 | 10 | Wreckage from a hull class that hasn't been built in ninety years, and it's fresh |
@@ -97,7 +97,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | d12 | Rumour |
 |---|---|
 | 1 | A Verge colony re-filed its coordinates again. Third time in four years. |
-| 2 | Somebody's boarding haulers in the Tollmarch and Tethyn isn't finding them |
+| 2 | Somebody's boarding haulers in the Tollmarch and Stoneward isn't finding them |
 | 3 | The *Vermilion Hour* filed her quarterly paperwork. She is still on fire. |
 | 4 | Delverane is hiring surveyors at absurd rates and won't say for where |
 | 5 | A Chain house quietly wrote off a route last month. No incident report. |
@@ -107,7 +107,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 9 | Bex Halloway lost a contract to a crew ranked below her and has been unbearable about it |
 | 10 | Nightbreeze adjusted its premiums on frontier routes. Sharply. Nobody was told why. |
 | 11 | An old spacer swears they heard singing in the deep Astral and everyone buys them a drink to stop |
-| 12 | House Obhal is spending money it doesn't have on people it shouldn't need |
+| 12 | House Darkshade is spending money it doesn't have on people it shouldn't need |
 
 **Rumours 1, 5, 7, 8, 10 are all the Guttering.** None of them are labelled. Deal them like ordinary gossip.
 

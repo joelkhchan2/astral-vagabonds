@@ -31,44 +31,44 @@ House Windsong is worth roughly **9.2 million gp**. The three older sons run par
 
 Six places that matter. Regions are **Reaches**, which is the trade term; systems inside them use the `-space` convention.
 
-## The Bral Reach — the hub
+## The Bral Reach: the hub
 Neutral ground and the densest traffic in known space, anchored on the **Rock of Bral**. No house owns it, every house operates in it, and the CIV is headquartered here. Every faction has a factor's office within a mile of the docks.
 
 **The crew is based here.** It's where contracts are let, data is sold, and the Manifest Board is posted.
 
-## The Sallow Chain — the core
-Nine well-charted systems strung along the oldest and deepest current in known space. Highest traffic, most stable, most profitable, and the least interesting place in Wildspace. **House Vassara's territory**, and where Aeric runs the family's core route.
+## The Sallow Chain: the core
+Nine well-charted systems strung along the oldest and deepest current in known space. Highest traffic, most stable, most profitable, and the least interesting place in Wildspace. **House Vellum's territory**, and where Aeric runs the family's core route.
 
 The Chain is fine. The Chain will be fine for a long time. That's precisely why nobody in the Chain believes the Guttering is real.
 
-## The Tollmarch — the chokepoint
-Contested space between two current systems, thick with hazards, and the only viable shortcut from the Chain to everything outward. **House Tethyn's territory.** Toll gates, patrol frigates, salvage rights, and a long tradition of piracy that Tethyn profits from suppressing.
+## The Tollmarch: the chokepoint
+Contested space between two current systems, thick with hazards, and the only viable shortcut from the Chain to everything outward. **House Stoneward's territory.** Toll gates, patrol frigates, salvage rights, and a long tradition of piracy that Stoneward profits from suppressing.
 
 **Aeravellis was posted here.** The franchise was legitimate. It just doesn't pay, and the Tollmarch is full of ships worth boarding.
 
-## The Verge — the frontier
+## The Verge: the frontier
 Thinly charted, low traffic, small colonies, long hauls. **Nobody's territory, because there's no margin in it.**
 
 **This is where Aerion is sent**, and it's where the currents are visibly failing. Ports slightly out of position. Runs that take a day longer than the charts allow. It's happening here first because the Verge was always the thinnest, and thin is what fails.
 
-## The Windward Edge — the boundary
+## The Windward Edge: the boundary
 The band between the charted Verge and genuine unknown. **House Delverane works here**, and they're the only founding house that does.
 
 > **Delverane and Aerion operate in the same space.** Their eventual alliance is geographic before it is ideological, which is why it's credible.
 
-## The Cartógrapha — the seat
+## The Cartógrapha: the seat
 Not a region. A private asteroid a day's sail from the Rock, hollowed into the **Board of Ledgers' archive-station**. Every route the Pale Reach owns is filed here. Entry is by invitation. The fifth chair in the Board chamber has been empty for forty years and is dusted weekly.
 
 ---
 
 # 3. THE FOUNDING HOUSES
 
-## HOUSE VASSARA — the archive
+## HOUSE VELLUM: the archive
 **Net worth ~84,000,000 gp** · **Territory:** the Sallow Chain · **Board function:** custody of the archive
 
 **Business:** subscription licensing on the oldest and best route data in existence. They don't explore, haul, or fight. They **rent the past**, and the past has been extremely reliable for two centuries.
 
-**The weakness:** almost none of that 84 million is liquid. It's archive, legacy routes, and property. Vassara is asset-rich and cash-poor and would have to sell something embarrassing to move quickly.
+**The weakness:** almost none of that 84 million is liquid. It's archive, legacy routes, and property. Vellum is asset-rich and cash-poor and would have to sell something embarrassing to move quickly.
 
 **Planar reach:** none, and they consider this a virtue. Strictly Material, strictly Wildspace, strictly what has always worked.
 
@@ -76,10 +76,10 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 
 **Fleet:** twelve Heavy-class survey hulls, immaculately maintained, rarely flown.
 
-## HOUSE TETHYN — the road tax
+## HOUSE STONEWARD: the road tax
 **Net worth ~61,000,000 gp** · **Territory:** the Tollmarch · **Board function:** enforcement and security
 
-**Business:** tolls on maintained passages, patrol contracts, salvage rights, and **arms manufacture**. Tethyn Defensive Solutions sells the ballistae, mangonels, rams and rotators on every price sheet in Wildspace, including the crew's.
+**Business:** tolls on maintained passages, patrol contracts, salvage rights, and **arms manufacture**. Stoneward Defensive Solutions sells the ballistae, mangonels, rams and rotators on every price sheet in Wildspace, including the crew's.
 
 **Planar reach:** mercenary recruitment through Outer Planar contacts. They hire things that are not from here and are careful about who knows.
 
@@ -87,7 +87,7 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 
 **Fleet:** thirty-one Route Warden patrol hulls, mostly Sturdy Traders, plus four Dreadnoughts nobody has seen in the same place.
 
-## HOUSE DELVERANE — the instrument makers
+## HOUSE DELVERANE: the instrument makers
 **Net worth ~29,000,000 gp** · **Territory:** the Windward Edge · **Board function:** acquisition and exploration
 
 **Business:** new route charting, survey instruments, and the data-broker network the crew actually deals with. **Delverane Instruments** makes the Standard Set, the Deepline Suite, and the Brightchair helm.
@@ -100,7 +100,7 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 
 **Fleet:** nineteen Swift Traders and Cutters, cheap and fast and constantly out.
 
-## HOUSE NIGHTBREEZE — the exposure
+## HOUSE NIGHTBREEZE: the exposure
 **Net worth ~77,000,000 gp**, with **underwriting exposure near 400,000,000** · **Territory: none** · **Board function:** finance and insurance
 
 **Business:** the investment portfolio, the banking relationships, and the insurance book that covers most of chartered Wildspace, including the crew's 1,800 gp annual policy.
@@ -109,20 +109,20 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 
 **Planar reach:** banking relationships with the **mercane**, whose interplanar trade network predates the Reach by a very long time and does not particularly respect it.
 
-**Guttering stance:** follow the money. Currently backing Vassara's denial because subscriptions still pay. Will pivot the instant claims outrun premiums, and they will see that turn coming before anyone else at the table.
+**Guttering stance:** follow the money. Currently backing Vellum's denial because subscriptions still pay. Will pivot the instant claims outrun premiums, and they will see that turn coming before anyone else at the table.
 
 **This is Aerynna's house.** Her personal holding within it is roughly **6,000,000 gp**, independent of the family trust, and it is hers outright.
 
 **Fleet:** none to speak of. Four Cutters for factors and auditors.
 
-## HOUSE CARROW — the empty chair
+## HOUSE CARROW: the empty chair
 **Net worth at collapse: ~40,000,000 gp** · **Territory:** the Amberwake, a region that no longer appears on charts · **Board function:** vacant, 40 years
 
-The fifth founding house. Cartographers, like Vassara, but outward-facing: they charted and settled the far side of the Verge and built their fortune on a corridor called the **Amberwake** that ran deep and fast and belonged to them.
+The fifth founding house. Cartographers, like Vellum, but outward-facing: they charted and settled the far side of the Verge and built their fortune on a corridor called the **Amberwake** that ran deep and fast and belonged to them.
 
 **Forty years ago the Amberwake stopped working.** Ships went out and arrived somewhere else, or late, or not at all. Within four years the corridor was uneconomic. Within nine it could not be found. House Carrow had everything in it: the routes, the settlements, the family seat, and most of the family.
 
-The official account is mismanagement. Vassara's position is that Carrow overextended into worthless space and paid for it.
+The official account is mismanagement. Vellum's position is that Carrow overextended into worthless space and paid for it.
 
 > **House Carrow was the Guttering's first casualty, four decades before anyone had a word for it.**
 >
@@ -157,9 +157,9 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 
 ## The other contenders
 
-**House Rennick** — 11,400,000 gp. Richer, better connected, and entirely a Chain operation. Their case is stability and volume. Their problem is that everyone already has stability and volume.
+**House Crestfall:** 11,400,000 gp. Richer, better connected, and entirely a Chain operation. Their case is stability and volume. Their problem is that everyone already has stability and volume.
 
-**House Obhal** — 7,100,000 gp. Behind, and playing dirty. Currently the most likely source of an anonymous complaint to the CIV about a certain 348th-ranked vessel.
+**House Darkshade:** 7,100,000 gp. Behind, and playing dirty. Currently the most likely source of an anonymous complaint to the CIV about a certain 348th-ranked vessel.
 
 ---
 
@@ -167,16 +167,16 @@ The official account is mismanagement. Vassara's position is that Carrow overext
 
 | House | Worth | Territory | Sells the crew | Guttering stance |
 |---|---|---|---|---|
-| Vassara | 84M | Sallow Chain | The chart subscription | Denial |
+| Vellum | 84M | Sallow Chain | The chart subscription | Denial |
 | Nightbreeze | 77M | none, insures everything | The insurance policy | Follow the money |
-| Tethyn | 61M | The Tollmarch | Every weapon aboard | Profitable danger |
+| Stoneward | 61M | The Tollmarch | Every weapon aboard | Profitable danger |
 | Delverane | 29M | Windward Edge | Instruments and helms | Adapt or die |
-| *Carrow* | *40M* | *the Amberwake, gone* | — | *Was the first casualty* |
+| *Carrow* | *40M* | *the Amberwake, gone* | n/a | *Was the first casualty* |
 | **Windsong** | **9.2M** | Chain route + Tollmarch | Nothing. They're family. | Hasn't noticed yet |
-| Rennick | 11.4M | Sallow Chain | — | Indifferent |
-| Obhal | 7.1M | Bral Reach | — | Indifferent |
+| Crestfall | 11.4M | Sallow Chain | n/a | Indifferent |
+| Darkshade | 7.1M | Bral Reach | n/a | Indifferent |
 
-**Every vendor on the crew's price sheet is a Board house.** They buy weapons from Tethyn, instruments from Delverane, charts from Vassara, and insurance from Nightbreeze, at session 0, before any of it means anything. The receipts are in Priscilla's ledger from day one.
+**Every vendor on the crew's price sheet is a Board house.** They buy weapons from Stoneward, instruments from Delverane, charts from Vellum, and insurance from Nightbreeze, at session 0, before any of it means anything. The receipts are in Priscilla's ledger from day one.
 
 ---
 

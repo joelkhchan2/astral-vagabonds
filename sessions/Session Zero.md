@@ -28,7 +28,7 @@ Aerion and Orena, plus five hired/kept at the yard: **Captain Estra Vane** (capt
 
 - Space is bubbles: each solar system is a marble; outside is Wildspace and the Astral Sea. The dead travel to their deity's plane or get stuck in the Astral. Ships cross at 100 million miles a day via a spelljamming helm, a magic throne you attune to and steer by thought.
 - Currents form where many minds have traveled the same path, and **navigational data is a traded currency**.
-- The system is governed by a **board of five founding houses (companies)**: Vassara (oldest, richest, route data), Tethyn (security and enforcement), Delverane (inventors, engineers, shipmakers), Nightbreeze (financiers and insurers), and a **vacant fifth seat** (a house collapsed years ago). Aerion's family is among those vying for it; what House Windsong offers is Priscilla's to decide.
+- The system is governed by a **board of five founding houses (companies)**: Vellum (oldest, richest, route data), Stoneward (security and enforcement), Delverane (inventors, engineers, shipmakers), Nightbreeze (financiers and insurers), and a **vacant fifth seat** (a house collapsed years ago). Aerion's family is among those vying for it; what House Windsong offers is Priscilla's to decide.
 - Home base is the **Rock of Bral**, an asteroid city outside any house's rule, where contracts are handed out and the **Manifest Board** ranks crews by reputation. The crew are **privateers**, not pirates.
 
 ## First mission

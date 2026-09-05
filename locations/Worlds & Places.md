@@ -22,12 +22,12 @@ Endless terraced grain, gold to the horizon, under a sun that has been described
 **Opportunity:** the granary factors pay well for bulk hauling and ask nothing.
 
 ## THE STILLPOINT
-**Vassara's archive-annexe**, a station rather than a world: a slow-turning ring of white stone where the House keeps its physical charts.
+**Vellum's archive-annexe**, a station rather than a world: a slow-turning ring of white stone where the House keeps its physical charts.
 
 Silent in a way that feels enforced. Sound doesn't carry. The air smells of dry paper and cold metal. Visitors are escorted and the escorts do not converse.
 
 **Secret:** a sealed wing holds the Amberwake charts, House Carrow's entire surveyed corridor, unexamined for forty years because the routes stopped resolving and nobody saw a reason to look at maps of somewhere that isn't there.
-**Danger:** Vassara does not prosecute intruders. It delists their charter, which is worse.
+**Danger:** Vellum does not prosecute intruders. It delists their charter, which is worse.
 **Opportunity:** everything the campaign eventually needs is in that wing.
 
 ---
@@ -43,14 +43,14 @@ Silent in a way that feels enforced. Sound doesn't carry. The air smells of dry 
 
 # THE TOLLMARCH: the chokepoint
 
-*Contested space, thick with hazards, and the only shortcut outward. Tethyn's.*
+*Contested space, thick with hazards, and the only shortcut outward. Stoneward's.*
 
 ## GALLOW GATE
 **The toll station.** A fortified asteroid straddling the narrowest point of the passage, bristling with weapon emplacements that all point inward at the queue.
 
 Ships wait in ranks. Loudspeakers repeat fee schedules. The lighting is orange and constant and there is no night. Everyone here is bored and armed.
 
-**Secret:** the Gate's own instruments have logged the passage drifting nine degrees over four years. Tethyn's engineers correct for it and file nothing, because a route that's moving is a route somebody might reprice.
+**Secret:** the Gate's own instruments have logged the passage drifting nine degrees over four years. Stoneward's engineers correct for it and file nothing, because a route that's moving is a route somebody might reprice.
 **Danger:** Warden-Commander Isolde Rask. Not corrupt, not cruel, and the most dangerous person in the region.
 **Opportunity:** the queue is where every independent captain in Wildspace waits, gossips, and trades. Four days at Gallow Gate is worth a month of listening anywhere else.
 
@@ -61,7 +61,7 @@ Hulls at every angle, none of them agreeing on which way is down, and the gravit
 
 **Secret:** the pinging is a Carrow-registry beacon, still transmitting, from a hull that should have been forty regions away.
 **Danger:** the gravity planes. This is where a **Plane Anchor** stops being a luxury.
-**Opportunity:** salvage, if you can outrun Tethyn's claim.
+**Opportunity:** salvage, if you can outrun Stoneward's claim.
 
 ---
 

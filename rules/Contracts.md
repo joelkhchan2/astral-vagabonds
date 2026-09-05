@@ -50,7 +50,7 @@ Bulk grain to **Ember & Rime**, a sun-locked asteroid where fire genasi live in 
 A minor noble house needs a **reputable, prestigious charter** to carry the family to a grand event well off the common lanes: a confirmation gala at a marble station, a houses' summit, a season ball where the guest list is the whole point. *Complication:* the crew are 348th on a Board that counts, flying an unnamed, battered hull under a borrowed name. The job is to *pass*. Keep the ranking buried, keep Tack from introducing Deborah to the valet, make the tattered flag read as heritage instead of salvage, and get the family through the doors without anyone asking what the *Vane boat* is doing at a gala. *Spotlight:* Aerion's poise and the family game he plays for real, Oz's flawless manners carrying the whole imposture, and the unnamed-ship bit paying comic dividends. Good money for pure farce, with a real bite if the mask slips.
 
 **Salvage Rights** · 4,200 gp · 34 days · up to 20 tons
-Recover what's recoverable from a wreck in the Tollmarch. *Complication:* Tethyn claims salvage rights in the Tollmarch and their claim is legally solid and morally nonsense.
+Recover what's recoverable from a wreck in the Tollmarch. *Complication:* Stoneward claims salvage rights in the Tollmarch and their claim is legally solid and morally nonsense.
 
 **The Long Cold** · 5,500 gp · 41 days · 18 tons
 Resupply three Verge colonies on one loop. *Complication:* the third colony is not where the chart says. It's four hours off. Nobody can explain it and the colonists have stopped mentioning it to visitors. **First Guttering symptom. Play it as mild confusion.**
