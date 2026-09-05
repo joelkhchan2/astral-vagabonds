@@ -27,6 +27,8 @@ They trained together as teenagers under Aerion's uncle, the "space samurai" **V
 
 ## NPC Crew (5)
 
+> **Full character files** with motives, dreams, secrets, and arcs: `npcs/Captain Estra Vane.md`, `npcs/Tack.md`, `npcs/Brass.md`, `npcs/Finny.md`, `npcs/Oz.md`. The blurbs below are the quick reference.
+
 ### 1. Captain Estra Vane -- Captain / Main Helmsman
 Human, late 50s. Serious, dry, tired demeanor, streaks of gray in black hair. Treasure Planet's Captain Amelia by way of a captain who expects excellence. You can catch her playing solitaire alone at night. She is also the ship's backup for training Orena on the helm.
 **Rumor among the crew:** she was once a **Commodore**, a captain over captains of a whole fleet, and something happened to it. She will not talk about it and refuses to drink to loose lips. Full GM detail in `Captain Estra Vane.md`.

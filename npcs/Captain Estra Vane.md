@@ -83,6 +83,14 @@ In her quarters: a locked chest containing a star chart showing every former Com
 
 **If the PCs find this chart, it recontextualizes the entire campaign.**
 
+## Why She's So Serious, and Why This Crew
+
+Two answers, and she would give neither out loud.
+
+**Why so serious.** She carries a double guilt (`campaign/Story Spine.md`). The Pale Reach destroyed the Vane Compact, seven ships and the people aboard them, for refusing to make route data proprietary. And her own method was ahead of its science: she taught crews to fly *with* the living sky before anyone understood why the sky moved, and some of them were lost to guttering zones for it, the same way Orena's guild was lost. So she was both the victim of a cartel and, in her own accounting, the author of some of her own dead. A person does not come back from that loud.
+
+**Why she cares about this one.** These five are the loyal few who stayed when the last ship came apart and the rest of the crew walked. She chose each of them for the fleet she is quietly rebuilding, but somewhere it stopped being strategy and started being people. She lost one crew to forces bigger than herself, and she swore she would never lose another to loneliness or neglect, the two things she actually can control. That is the whole reason behind her one unbreakable rule, **no one sleeps in the helm room alone after a bad job**: after the Compact fell she spent months doing exactly that, and she will not let it happen to anyone under her command again. She parents through structure and trust and never through affection, because affection is the thing she is most afraid of losing twice.
+
 ## Why the Ship is Ranked 348th
 
 **Layer 1 (what the crew believes):** Estra takes garbage contracts nobody else wants. Low-pay, weird, dangerous. She turns down lucrative jobs with no explanation. The Manifest Board rewards volume and value, not heroism.

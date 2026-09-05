@@ -12,43 +12,60 @@ Mechanics in `Rules & Systems.md`. Every contract states a **payout, duration in
 
 ---
 
-# PART 1 — THE JOB BOARD
+# PART 1: THE JOB BOARD
 
-Posted at the Charter Window. Rotate three or four at a time. Each has one complication and none of them are secretly the main plot, which is what makes them restful.
+Posted at the Charter Window. Rotate three or four at a time. Each has one complication and none of them is secretly the main plot, which is what makes them restful. Take-home is `payout − 630` before repairs.
 
-### Small (10–20 days, 800–2,000 gp)
+### Small (10-20 days, 800-2,000 gp)
 
-**The Cold Run** — 1,400 gp · 14 days · 6 tons
-Food, medicine, and mining parts to **Hallow's Rest**, a struggling terminator colony on the Verge (`Worlds & Places.md`). *Complication:* the colony is cut off — their own supply runner set out for the depot and **couldn't find it**, the route wouldn't resolve, and they nearly starved. They're proud, grateful, and can't fully pay in coin; expect part of the fee tendered in ore at a poor rate. **This is the session-1 job with the Guttering seed — the first symptom with a body count.**
+**The Cold Run** · 1,400 gp · 14 days · 6 tons
+Food, medicine, and mining parts to **Hallow's Rest**, a struggling terminator colony on the Verge (`Worlds & Places.md`). *Complication:* the colony is cut off. Their own supply runner set out for the depot and **couldn't find it**; the route wouldn't resolve, and they nearly starved. They're proud, grateful, and can't fully pay in coin, so expect part of the fee tendered in ore at a poor rate. **This is the session-1 job with the Guttering seed, the first symptom with a body count.**
 
-**Sealed and Sworn** — 1,800 gp · 12 days · 2 tons
-A Sallow Chain house wants a locked case moved without questions. *Complication:* it's legal, it's boring, and a Route Warden inspection at the halfway point will take four hours the crew doesn't have.
+**Sealed and Sworn** · 1,800 gp · 12 days · 2 tons
+A Sallow Chain house wants a locked case moved without questions. *Complication:* it's legal, it's boring, and a Route Warden inspection at the halfway point will take four hours the crew doesn't have. *(A no-questions job for a house that keeps its favours. Peeking risks the seal.)*
 
-**Passenger Work** — 900 gp · 16 days · 1 ton
+**Passenger Work** · 900 gp · 16 days · 1 ton
 Carry a Delverane surveyor and her instruments to the Windward Edge. *Complication:* she is thirty-one, relentlessly curious, and asks Orena questions about the currents and the tales she chases that nobody has ever asked. *(This is Aurel Delverane travelling under her own name and not mentioning the ship she captains.)*
 
-**Livestock** — 1,100 gp · 11 days · 8 tons
+**Ashfall Passage** · 900 gp · 13 days · 2 tons
+A close-knit spacer family charters the crew to carry their eldest home to **Ashfall**, the drift where their line began, for the gathering they hold once a generation. *Complication:* Ashfall has slipped off the charts, and two captains have already turned the family down as a lost cause. The way there is read, not calculated: Orena feels the old current, or **Flurry** locks onto the heading and will not look away, and the crew follows the living water back to a place the maps forgot. A warm job about finding a road home everyone said was gone. *(A soft Tide note played as wonder, not dread. If you want a hint, Ashfall itself is faintly thinning, the first gentle sign that even living roads can fade.)*
+
+**The Note Comes Due** · 1,600 gp · 12 days · 6 tons
+A neighbour two rungs up the Manifest Board took a cargo run to meet a balloon payment on their hull, then couldn't fly it (a sick pilot, an impound, a crew that walked), and sub-lets the job to the crew, quietly desperate. *Complication:* the creditor is a Pale Reach shell, and paying late doesn't mean a fee, it means the ship is "lost" to a manufactured debt, the same trick that took Estra's *Covenant*. *Spotlight:* Aerion's paperwork rescue, and Estra caring more than she will say. *(Standalone, but it rhymes with the arc. Do not explain why Estra cares.)*
+
+**Best in Show** · 1,200 gp · 9 days · 4 tons
+Deliver a giff colonel's champion prize animal to a Bral Reach exhibition, alive and immaculate. *Complication:* it hates the ship, adores **Oz**, escapes its pen twice, and Brass keeps eyeing it as inventory. *Spotlight:* Oz has a way with animals nobody expected; Finny opens a book on whether it survives the trip; Aerion discovers it ate the manifest.
+
+**Livestock** · 1,100 gp · 11 days · 8 tons
 Forty head of something to a Bral Reach butcher. *Complication:* they are smarter than advertised. One of them can talk. It has opinions about the arrangement.
 
-**The Rock and Back** — 800 gp · 10 days · 12 tons
+**The Rock and Back** · 800 gp · 10 days · 12 tons
 Bulk grain, Bral to a Chain waystation. Genuinely routine. *Complication:* none. Let one job be easy. The crew scene in transit is the point.
 
-### Medium (30–45 days, 3,000–6,000 gp)
+### Medium (20-45 days, 2,500-6,000 gp)
 
-**Salvage Rights** — 4,200 gp · 34 days · up to 20 tons
+**Dressing the Part** · 2,500 gp · 20 days · 2 tons
+A minor noble house needs a **reputable, prestigious charter** to carry the family to a grand event well off the common lanes: a confirmation gala at a marble station, a houses' summit, a season ball where the guest list is the whole point. *Complication:* the crew are 348th on a Board that counts, flying an unnamed, battered hull under a borrowed name. The job is to *pass*. Keep the ranking buried, keep Tack from introducing Deborah to the valet, make the tattered flag read as heritage instead of salvage, and get the family through the doors without anyone asking what the *Vane boat* is doing at a gala. *Spotlight:* Aerion's poise and the family game he plays for real, Oz's flawless manners carrying the whole imposture, and the unnamed-ship bit paying comic dividends. Good money for pure farce, with a real bite if the mask slips.
+
+**Salvage Rights** · 4,200 gp · 34 days · up to 20 tons
 Recover what's recoverable from a wreck in the Tollmarch. *Complication:* Tethyn claims salvage rights in the Tollmarch and their claim is legally solid and morally nonsense.
 
-**The Long Cold** — 5,500 gp · 41 days · 18 tons
+**The Long Cold** · 5,500 gp · 41 days · 18 tons
 Resupply three Verge colonies on one loop. *Complication:* the third colony is not where the chart says. It's four hours off. Nobody can explain it and the colonists have stopped mentioning it to visitors. **First Guttering symptom. Play it as mild confusion.**
 
-**Escort** — 6,000 gp · 38 days · 0 tons
+**Escort** · 6,000 gp · 38 days · 0 tons
 Shepherd two unarmed haulers through the Tollmarch. *Complication:* the thing that hits them is a boarding hull with grappling jaws, and it breaks off the moment it sees the crew is armed. It does not want a fight. It wants easy cargo. *(Seed for Aeravellis. Do not explain it.)*
 
-**The Quiet Contract** — 3,800 gp · 30 days · 4 tons
+**The Quiet Contract** · 3,800 gp · 30 days · 4 tons
 A Nightbreeze factor needs documents delivered by hand to four separate addresses. *Complication:* the fourth address is Aerynna's office and nobody warned Aerion.
 
-**Freight and Passengers** — 4,600 gp · 44 days · 15 tons
+**Freight and Passengers** · 4,600 gp · 44 days · 15 tons
 A family relocating from the Chain to the Verge, plus everything they own. *Complication:* they are moving because they can't afford the Chain any more, the Verge is worse than they've been told, and the crew will know it by day three. **Nineteen people aboard eats air noticeably faster.**
+
+### Special
+
+**Secrets for Secrets** · fee negotiable · out past the Verge
+A client hires the crew to carry a *question* to the thing that trades in secrets, because they dare not ask it themselves. Out past the settled lanes lives a **berbalang** (`references/Astral Sea Bestiary.md`, seeded in `Tier 1.md`): a lonely, amoral collector of knowledge that answers one truth for one truth and always knows a lie. *Complication:* it will not take the client's coin, only a secret, and the client's sealed question is not the whole price. To get the answer out, someone aboard has to spend a real secret of their own. Whose? *Spotlight:* the whole table, and the campaign's "knowledge as currency, silence as power" theme. Once they've met it, the bit runs itself.
 
 ---
 
