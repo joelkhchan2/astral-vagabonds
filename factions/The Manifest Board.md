@@ -56,22 +56,22 @@ Names to drop as rumour long before the crew climbs to them, so the middle of th
 
 They will not meet these people for a long time. They should hear the names constantly, and the higher the rank, the less anyone agrees on the facts.
 
-**1. *Heavy Crown*:** House Vassara's flagship, and not a Vassara at the helm. The family bought the best captain the Chain had ever produced rather than hand the wheel to a scion, and **Captain Ines Marrow** has never once failed a contract in eleven years flying it. That's exactly what the rumour mill argues about: is she Vassara's, or just the highest bidder's, for as long as they keep being the highest bidder? Runs the deepest, oldest, safest corridor in the Chain. Genuinely excellent, genuinely boring, and structurally incapable of noticing anything is wrong. **When the Guttering finally reaches the Chain, the *Heavy Crown* will be the last to admit it.**
+**1. *Heavy Crown*:** House Vassara's flagship, and not a Vassara at the helm. The family bought the best captain the Chain had ever produced rather than hand the wheel to a scion, and **Ines Marrow** has never once failed a contract in eleven years flying it. That's exactly what the rumour mill argues about: is she Vassara's, or just the highest bidder's, for as long as they keep being the highest bidder? Runs the deepest, oldest, safest corridor in the Chain. Genuinely excellent, genuinely boring, and structurally incapable of noticing anything is wrong. **When the Guttering finally reaches the Chain, the *Heavy Crown* will be the last to admit it.**
 > A standing dockside argument, pure background colour, is whether Marrow or Rask (below) would win a straight fight. Nobody agrees, and the two of them have history nobody can quite name: an old partnership, an old rivalry, told differently by everyone who claims to remember it.
 
-**2. *Tollkeeper*:** Tethyn's flagship escort charter, chartered out along the Tollmarch rather than run as house navy, which is how it qualifies for the Board at all. Ranked partly on enforcement contracts, a category Tethyn lobbied to have added. Captained by **Warden-Commander Isolde Rask**, who is not corrupt, is not cruel, has never lost a hull under her protection, and is the single most dangerous person in the Tollmarch.
+**2. *Tollkeeper*:** Tethyn's flagship escort charter, chartered out along the Tollmarch rather than run as house navy, which is how it qualifies for the Board at all. Ranked partly on enforcement contracts, a category Tethyn lobbied to have added. Captained by **Isolde Rask**, who is not corrupt, is not cruel, has never lost a hull under her protection, and is the single most dangerous person in the Tollmarch.
 
 **3. *Farthing*:** Delverane. Survey and acquisition. Third on the board despite being a third the size of the ships above her, because new route data scores enormously. Captained by **Aurel Delverane**, a younger daughter of the house, thirty-one, and the most likely person in Wildspace to eventually become the crew's ally. She works the Windward Edge. They work the Verge. **They are neighbours and neither knows it yet.**
 
 **4. *Consequence*:** independent, and nobody knows how, not any more: the rumour is she used to rank higher, top five once, and slid. No house backing, no visible patron, immaculate numbers, and a captain who won't discuss the fall. Captained by **Var Solenne**, who may or may not be related to the Cartographer General and declines to discuss that either. *Existence proof that an independent can reach the top. Also proof of how far there is to fall from it.*
 
-**5. *Ninefold*:** not one ship. A mercane fleet chartered as a courtesy rather than a necessity, ranked as a single entry because the CIV has no form for anything else. Answers to a **Commodore** whose name nobody's sure they're allowed to say, if they even know it. Ask three dockworkers how many hulls fly under Ninefold and get three different numbers, all confident. The mercane do not care about the Board. Being fifth amuses them.
+**5. *Ninefold*:** not one ship. A mercane fleet chartered as a courtesy rather than a necessity, ranked as a single entry because the CIV has no form for anything else. Answers to someone whose name nobody's sure they're allowed to say, if they even know it. Ask three dockworkers how many hulls fly under Ninefold and get three different numbers, all confident. The mercane do not care about the Board. Being fifth amuses them.
 
 **6. The Jumper:** rank ~12 to rank 6 in a single quarter, on one job. No house, no prior record, no captain of record the CIV will confirm, "callsign only" on the public listing. Three different versions of the job that got them here circulate dockside and no two agree on what it was: a salvage, a rescue, a kill. Leave this one thin. It's a hook for later, not a finished NPC yet.
 
 **7. *The Second Ledger*:** House Obhal, the founding house currently losing the race for the vacant fifth seat and playing dirty about it (see `Houses & Holdings.md`). Captained by **Thessaly Obhal**, a second daughter doing exactly what Aerion is doing: proving she doesn't need the inheritance to matter. She'd recognize his situation on sight. Whether she's warmer or colder about the resemblance than he expects is open, and so is whether she knows what her house is doing behind the scenes to a certain 348th-ranked vessel.
 
-**8. *Slack Water*:** a small outrider that doesn't fight the current so much as ride with one, in formation with a kindori pod along routes no other captain can find. Captained by **Sael Rowe**, who corrects anyone who calls her Captain: she goes by **Wavekeeper**. Delivers, impossibly, on time, and nobody's certain whether she's reading the whales or they're choosing the route for her. The one name on this list that could, someday, recognize exactly what Orena is carrying without being told.
+**8. *Slack Water*:** a small outrider that doesn't fight the current so much as ride with one, in formation with a kindori pod along routes no other captain can find. Captained by **Sael Rowe**. Delivers, impossibly, on time, and nobody's certain whether she's reading the whales or they're choosing the route for her. The one name on this list that could, someday, recognize exactly what Orena is carrying without being told.
 
 **9. *Compact Standard*:** one of the original seven hulls of the **Vane Compact**, Estra's fleet, still flying under its old name. Captained by **Dessa Kell**, formerly Estra's second, or a fellow Compact captain (leave which true until it matters in play). Ranked ninth today: she rebuilt something out of the Compact's collapse. Estra walked away with one unranked Sturdy Trader. Nobody aboard has the full story of why, and this is the person who does.
 
@@ -99,13 +99,13 @@ They will not meet these people for a long time. They should hear the names cons
 | Rank | Vessel | Captain | Hook |
 |---|---|---|---|
 | 1 | *Heavy Crown* | Ines Marrow | Hired, not born to it; never failed a contract; history with Rask |
-| 2 | *Tollkeeper* | Warden-Cmdr. Isolde Rask | Never lost a hull; history with Marrow |
+| 2 | *Tollkeeper* | Isolde Rask | Never lost a hull; history with Marrow |
 | 3 | *Farthing* | Aurel Delverane | Works the Windward Edge; likeliest future ally |
 | 4 | *Consequence* | Var Solenne | Fell from the top five; won't say why |
-| 5 | *Ninefold* | a Commodore, unnamed | A mercane fleet ranked as one entry |
+| 5 | *Ninefold* | unnamed | A mercane fleet ranked as one entry |
 | 6 | (unlisted) | callsign only | Jumped from ~12 in one quarter, on one disputed job |
 | 7 | *The Second Ledger* | Thessaly Obhal | House Obhal's second daughter; Aerion's mirror |
-| 8 | *Slack Water* | Sael Rowe, "Wavekeeper" | Rides with a kindori pod; reads the whales, or they read her |
+| 8 | *Slack Water* | Sael Rowe | Rides with a kindori pod; reads the whales, or they read her |
 | 9 | *Compact Standard* | Dessa Kell | Ex-Vane Compact; outranks the captain who used to command her |
 | 10 | withheld pending review | | The gap on the printed Board |
 | ~24 | *Windsong* | Vaelren Windsong | Aerion and Orena's old teacher, "space samurai," half-myth |
