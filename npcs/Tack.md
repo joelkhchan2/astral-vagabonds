@@ -15,6 +15,8 @@ Autognomes are built minds, and Tack was **built for a vessel far larger than th
 
 So when he talks to the ship, he needs her to talk back. He needs the creak to be a voice, because if the ship is a person then he is never the last one left aboard an empty hull again. It is the single loneliest and sweetest thing about him, and the crew has quietly decided to let him have it.
 
+**The projection runs deeper than comfort.** Tack has never said this aloud, and may not fully know it himself: if a hull of wood and rivets and cargo manifests can be a *person* and not just an asset, then so can he, whatever the paperwork says (see "Creator loyalty," below). Arguing the ship into personhood is the only way he knows how to argue his own case, without ever having to state it.
+
 ## The old ship, and the redemption (why he's like this now)
 Tack was the engineer when the previous ship blew up, and though nobody could have foreseen a cook smoking beside pre-loaded cannons, he holds it. He was the one responsible for keeping her whole, and she came apart, and most of the crew he was built to keep company walked away after. That is why his safety checks are now obsessive, why he apologizes to the ship when she takes a hit, and why this hull matters so much: **she is his second chance to keep everyone aboard.** The tattered flag stitched onto her is the old crew, carried.
 
@@ -23,11 +25,16 @@ Tack was made by a rock-gnome shipwright line whose yard was later bought up by 
 
 **Trigger (from Plot Threads):** a Pale Reach contact appears, and with it the possibility that someone claims Tack is property, or that his original maker resurfaces and asks him to come home. His test is **creator loyalty against crew loyalty**: the being who made him, or the company that owns the paper, against the family who never once treated him as a machine. It ties straight into the campaign's spine, *who owns the roads, who owns the people who fly them.* Whether the ship is more aware than a ship should be is a separate slow-burn question; leave it open.
 
+**Escalation, when you're ready to run it:**
+- **Plant** (already running): the creak-is-a-voice argument, warm and comedic, no stakes yet.
+- **Pressure:** the filing stops being a rumor and becomes a tool, someone with a real claim (a Pale Reach factor, a debt-collector, a legal dispute over the ship itself) cites it in the same breath as a threat to the *hull*, a repossession, an impound, a forced sale. Land both threats in one scene on purpose: the ship and Tack get claimed as the same kind of thing, out loud, in front of him.
+- **Climax:** Tack has to assert his own personhood directly, not by proxy through the ship's, for the first time. The crew backing him up is the found-family beat; Tack finding he doesn't need the ship as a shield anymore is the arc turning.
+
 ## With the two leads
 - **Aerion.** The daily creak argument: Aerion the bosun says "that creak is load-bearing," Tack says "she's just *talking*." The day the crew catches Tack quietly inspecting the exact spot Aerion flagged, nobody says a word, and neither do they. The ship creaks.
 - **Orena.** He'll teach her any system she cares to learn, patiently and at length, and he wants to know whether every route she plots has "any interesting structural features." He likes her because she talks to the sky the way he talks to the ship.
 
 ## Arc
-Grief over the old ship, resolving into trust that this one and these people will not be taken from him, and the harder reckoning of what he owes his maker versus what he owes his family. Play him as pure warmth with one deep crack. His growth is believing he gets to stay.
+Grief over the old ship, resolving into trust that this one and these people will not be taken from him, and the harder reckoning of what he owes his maker versus what he owes his family. Play him as pure warmth with one deep crack. His growth is believing he gets to stay, and, when the filing surfaces, believing he gets to say so himself.
 
 **Stat block:** `rules/Stat Blocks.md` (Field Repair; Reactive Repair). **Running gags:** `npcs/Crew Comedy Bits.md` (naming parts; the creaking argument; the maintenance log).
