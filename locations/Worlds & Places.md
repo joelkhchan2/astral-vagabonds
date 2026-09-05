@@ -76,7 +76,7 @@ Everything is lit from one side. Long shadows that never move. Nine hundred peop
 
 **Secret:** the colony has quietly moved twice. Not the town, the *coordinates*. The residents re-file their position every eighteen months and have stopped mentioning why to visitors, because the last ships they told didn't come back.
 **Danger:** the mine, and the fact that nobody official will come if something goes wrong.
-**Opportunity:** they need everything, all the time, and they pay in ore.
+**Opportunity:** they need everything, all the time, and they pay in copper, which is worth far more than they know.
 
 ### Arriving -- the read-aloud
 > You come in over the daylit face and it never gets easier to look at: a whole hemisphere of raw white glare, no dawn, no dusk, just *on*. The town runs along the seam where the light dies, a crooked line of low buildings, ore-tips, and lashed-down roofs following the terminator around the moon, half of every street in permanent gold and half in permanent black, and shadows that lie down long and never, ever move. The dock is a single scaffold clung to a spur of rock. As the lock opens: cold, and the smell of turned stone and machine-oil and, faintly, someone's dinner. A dozen people are already waiting, trying not to look as glad to see you as they are.
@@ -85,6 +85,26 @@ Everything is lit from one side. Long shadows that never move. Nine hundred peop
 - **Light and dark, no in-between.** People wear one-eye shades on the bright side and lamps on the dark side, and the whole town squints. The unmoving shadows unsettle newcomers within the hour.
 - **Cold and close.** Heat is rationed to the terminator strip; step twenty feet dark-side and you feel it bite. The bar (the **Long Shadow**) is the warmest room in town and everyone ends up there.
 - **Everything is patched.** Nothing here is new. Every machine is a machine that was broken and fixed by someone who couldn't afford to replace it -- which is the whole colony, really.
+
+### What they mine, why they're poor, and the way up
+**They mine copper,** a good seam of it, and they are broke anyway. That contradiction is the heart of the place, and fixing it is the best thing a crew can do here.
+
+**Why they're poor, three reasons stacked:**
+1. **They sell it in the wrong form.** They ship **raw ore**: heavy, low-grade, cheap, so the freight to any buyer eats almost the whole price. They mine a fortune and export it as gravel.
+2. **The road is failing (the Guttering).** Even that low-value ore can't reach a buyer reliably any more; the depot route drifted, and Coll's failed run is the proof. Isolated, and selling the cheap form.
+3. **They think the seam is dying.** It isn't. Copper was never worth the freight as ore, so a decade of "three years from exhaustion" is really a decade of "not worth hauling." There is plenty of copper left. The value was always in the form, not the quantity.
+
+**The way up (the Tack-and-Aerion play).** Raw ore is nearly worthless out here; **drawn copper wire is not.** Every spelljamming helm, astral compass, signal rig, and instrument in the Reach needs fine conductive wire, and on the Verge it's a scarce import. Turn the colony's copper into wire and the same mass is worth roughly fifty times as much, and light enough that freight stops mattering.
+
+| Copper, per 100 lb | Sells for | After Verge freight (~8 gp) |
+|---|---|---|
+| Raw ore | ~10 gp | ~2 gp (why they starve) |
+| Smelted bar | ~50 gp | ~42 gp |
+| **Drawn coilworks wire** | **~500 gp** | **~492 gp** |
+
+- **Tack makes it possible.** The colony has a smelter and strong backs; what they lack is draw-plates and the knack. Tack (built for a great ship, in love with any machine) can improvise draw-plates from mine gear and teach them to anneal and draw copper into coil-grade wire. A build montage, and a real Tack spotlight.
+- **Aerion makes it pay.** He runs the ladder, sees ore clears nothing while wire clears fifty times as much, and brokers the first coil to a Bral coilworks buyer or to Danforth, who build the helms that eat the stuff. He can set up a standing supply and name the crew as the runner, which quietly answers Vint's plea for a reliable one.
+- **Session-1 side-gold (small):** the crew carries the colony's first coil, about 50 lb, roughly 250 gp of wire, to Bral; a broker's cut or a buy-low-sell-high nets 100-200 gp. The real prize is the relationship: Hallow's Rest becomes a wire supplier and the crew its trusted runner, a recurring income and a place they made better. That is the campaign's whole thesis in miniature, industry growing up into stewardship (`campaign/Story Spine.md`).
 
 ### Who they'll meet
 - **Administrator Sesla Vint** -- runs the colony, mid-fifties, proud to a fault, would rather ration than beg. Voice: clipped, dignified, thanks you like it costs her. Tic: keeps a tally-book she never quite closes. Her want: to keep nine hundred people alive without becoming a place that gets pitied.
