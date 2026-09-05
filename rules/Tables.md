@@ -19,7 +19,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 5 | A derelict, intact, air envelope holding, table still set. No crew. No damage. No signs of anything. |
 | 6 | **Scavvers** circling something. Whatever they're circling is the interesting part. |
 | 7 | A Tethyn Route Warden inspection. Routine. Four hours. Deeply inconvenient. |
-| 8 | **Chwinga astronauts**, three of them, sitting on the forward rail. They want to be here. They won't explain. |
+| 8 | **A chwinga astronaut** fishing off the bow from the back of a space guppy, casting a line into the void for something only it can see. (Or three of them on the forward rail.) They want to be here. They won't explain. |
 | 9 | A distress beacon on a heading the crew cannot afford to take |
 | 10 | Wreckage from a hull class that hasn't been built in ninety years, and it's fresh |
 | 11 | A **dohwar** trader, cheerful, penguin-shaped, and offering a deal that is genuinely good |
@@ -32,6 +32,9 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 18 | **Githyanki** raiders, sizing the ship up. Nothing personal yet, but they have long memories and the crew is a long way from anyone who could help. |
 | 19 | A current *visibly dissolving*: silver light unravelling like rope. Beautiful and completely silent. |
 | 20 | Nothing at all for eleven days. Play the crew scene. |
+
+**Art reference (encounter 8, the chwinga astronaut):**
+![Chwinga astronaut](https://static.wikia.nocookie.net/forgottenrealms/images/6/69/Chwinga_astronaut_5e.jpg/revision/latest?cb=20220915083923)
 
 ---
 
