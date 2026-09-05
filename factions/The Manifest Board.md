@@ -67,7 +67,7 @@ They will not meet these people for a long time. They should hear the names cons
 
 **5. *Ninefold*:** not one ship. A mercane fleet chartered as a courtesy rather than a necessity, ranked as a single entry because the CIV has no form for anything else. Answers to someone whose name nobody's sure they're allowed to say, if they even know it. Ask three dockworkers how many hulls fly under Ninefold and get three different numbers, all confident. The mercane do not care about the Board. Being fifth amuses them.
 
-**6. The Jumper:** rank ~12 to rank 6 in a single quarter, on one job. No house, no prior record, no captain of record the CIV will confirm, "callsign only" on the public listing. Three different versions of the job that got them here circulate dockside and no two agree on what it was: a salvage, a rescue, a kill. Leave this one thin. It's a hook for later, not a finished NPC yet.
+**6. *Jumper*:** rank ~12 to rank 6 in a single quarter, on one job. No house, no prior record, leader unlisted on the public listing. Three different versions of the job that got them here circulate dockside and no two agree on what it was: a salvage, a rescue, a kill. Leave this one thin. It's a hook for later, not a finished NPC yet.
 
 **7. *The Second Ledger*:** House Obhal, the founding house currently losing the race for the vacant fifth seat and playing dirty about it (see `Houses & Holdings.md`). Captained by **Thessaly Obhal**, a second daughter doing exactly what Aerion is doing: proving she doesn't need the inheritance to matter. She'd recognize his situation on sight. Whether she's warmer or colder about the resemblance than he expects is open, and so is whether she knows what her house is doing behind the scenes to a certain 348th-ranked vessel.
 
@@ -102,8 +102,8 @@ They will not meet these people for a long time. They should hear the names cons
 | 2 | *Tollkeeper* | Isolde Rask | Never lost a hull; history with Marrow |
 | 3 | *Farthing* | Aurel Delverane | Works the Windward Edge; likeliest future ally |
 | 4 | *Consequence* | Var Solenne | Fell from the top five; won't say why |
-| 5 | *Ninefold* | unnamed | A mercane fleet ranked as one entry |
-| 6 | (unlisted) | callsign only | Jumped from ~12 in one quarter, on one disputed job |
+| 5 | *Ninefold* | unlisted | A mercane fleet ranked as one entry |
+| 6 | *Jumper* | unlisted | Jumped from ~12 in one quarter, on one disputed job |
 | 7 | *The Second Ledger* | Thessaly Obhal | House Obhal's second daughter; Aerion's mirror |
 | 8 | *Slack Water* | Sael Rowe | Rides with a kindori pod; reads the whales, or they read her |
 | 9 | *Compact Standard* | Dessa Kell | Ex-Vane Compact; outranks the captain who used to command her |
