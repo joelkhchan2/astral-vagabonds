@@ -24,6 +24,8 @@ Vaelren ran a hard, warm training camp for youths out on the quieter drifts: swo
 
 **Voice and tic:** unhurried, amused, exacting. He answers a question with a better question and will not draw his sword to prove a point he can make with a look. *"Don't show me the form. Show me you understand why the form exists, and then break it correctly."* A ready recurring NPC and a natural anchor for the opening flashback; keep him fond, sharp, and a little dangerous.
 
+> **He's on the Manifest Board.** ~24th, a small craft called the *Windsong*, crew of one to three depending who's asked. Half-myth by reputation. If Aerion (or Orena) ever checks the Board for their own name, his is already sitting well above them, unannounced. A small, sharp thing to let land without comment. See `factions/The Manifest Board.md`.
+
 ## Flurry
 A young silver dragon Aerion found as an egg on a treasure hunt with this crew about 4.5 years ago and reluctantly, then secretly devotedly, took responsibility for. He dotes on her, dresses her up, and would deny all of it. **She is a baby: she does not fight and should never be in combat.** Under the surface she carries **lunar astral dragon blood** (an ancestor back in the line), which is latent for now and mostly shows as an uncanny sensitivity to the astral -- see `npcs/Flurry.md` for her heritage, her role as a GM "barometer" for the living sky, and the late-game payoff.
 

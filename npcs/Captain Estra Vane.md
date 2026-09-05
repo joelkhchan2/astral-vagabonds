@@ -48,6 +48,8 @@ Left with nothing, she clawed her way back into a captain's chair (see The Broke
 
 Each former captain is a potential multi-session arc: rescue, recruitment, confrontation, or betrayal.
 
+> **A live candidate for one of these:** the Manifest Board currently ranks **9th** to a ship called the ***Compact Standard*** (one of the original seven hulls, still flying under its old name), captained by **Dessa Kell**, either Estra's former second or a fellow Compact captain (leave which true until it matters). She rebuilt something out of the collapse; Estra didn't. That gap alone is worth a scene someday. See `factions/The Manifest Board.md`. A second bought-out captain, **Sedge Okonkwo** (*Bright Arrears*, ~250th), gives the DM a contrasting read on the same choice: Kell defiant and climbing, Okonkwo still visibly uncomfortable with what he took.
+
 ## The Debt -- The Broker
 
 After the Compact fell, Estra was drowning. No ship, no crew, blacklisted. A figure known only as **The Broker** appeared with an offer.
