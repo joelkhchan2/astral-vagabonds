@@ -1,7 +1,7 @@
 # Captain Estra Vane
 
 ## The Surface Read
-A weathered human woman in her late 50s. Drinks black coffee from the same dented tin mug. Gives orders like polite suggestions. Has never raised her voice in a crisis. Calls everyone by their last name until she trusts them, then switches to first name without comment. Plays cards alone in the helm room at night.
+A weathered human woman in her late 50s. Drinks black coffee from the same dented tin mug. Gives orders like polite suggestions. Has never raised her voice in a crisis. Calls everyone by their last name until she trusts them, then switches to first name without comment. Plays solitaire alone in the helm room at night, and keeps a private journal in a locked book, writing by lamplight; nobody has read a word of it.
 
 Not warm -- but when Finny got spacesick his first week, she quietly adjusted the duty roster so he had lighter shifts and never mentioned it. When Oz froze during a boarding action, she stood next to him afterward and said, "That happens. Next time it'll be shorter." That was the entire conversation.
 

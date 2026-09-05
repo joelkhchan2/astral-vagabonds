@@ -32,7 +32,7 @@ Drop-in moments, running gags, cutaways, and slice-of-life scenes to make the sh
 
 **Shore Leave Portrait.** The crew takes a group portrait at a port. Getting everyone still is a three-round initiative encounter. Finny keeps moving, Oz poses perfectly, Estra holds her mug, Tack's eyes glow and overexpose the image, Brass is on the far edge already talking to a contact, Orena is looking slightly off-frame at something only she heard, and Aerion is holding Flurry, who is the only one looking directly at the camera. The final photo is terrible. It gets pinned in the galley immediately.
 
-**Zero-G Handball.** An ongoing tournament in a cleared hold. Finny keeps a bracket board with intense seriousness. Current champion: Oz, disqualified from using his head and still winning. Finny referees and competes, which everyone agrees is a conflict of interest. Estra has never played and is somehow 3-0.
+**Game Nights.** Finny runs a rotating game night in the galley: cards, dice (Scavver and Liar's Berth, `rules/Downtime Games.md`), and one made-up game with rules only he remembers and changes when losing. Oz plays flawlessly and gives his winnings back. Brass never loses and nobody can prove why. Estra plays exactly one hand, wins it, and goes back to her solitaire. Tack keeps score for the ship, who is winning.
 
 **Inventory Day.** Aerion conducts inventory with a clipboard and a look. "Brass. Crate 14-C." "Ammunition." "The manifest says medical." "The manifest is wrong." "The manifest is mine, so it isn't." Hard cut to: 14-C is exactly what Aerion said it was, Brass has already quietly relabelled it back, and neither will admit the exchange happened. His books are never wrong. Hers is knowing which crate has the thing you actually need at 0300, which is a different kind of right, and the two of them have silently agreed to respect the border.
 
@@ -71,6 +71,19 @@ Drop-in moments, running gags, cutaways, and slice-of-life scenes to make the sh
 **Orena's Maps.** She spreads charts across the long table at night and works out where the tales she's collected could point, and where her lost crew might be. If a crewmate sees: Finny brings tea, Tack asks whether the route has "any interesting structural features," Brass offers a contact who "might know a guy," and Estra, if she sees, doesn't look at the maps. She looks at Orena's face to see how she's doing.
 
 ---
+
+## Off-Duty Aboard (what they do with a quiet watch)
+
+The players asked what the crew actually does in their downtime on the ship. Here's a hook for each, so a slow transit is never empty. Deal one when you want a warm beat or a scene a PC can wander into.
+
+- **Estra.** Solitaire alone at the card table late at night. Off the cards she keeps a private journal in a locked book, writing by lamplight, and re-reads old charts she never explains. (What she's really doing is in `Captain Estra Vane.md`.)
+- **Tack.** Polishes and talks to the ship, names and re-names parts, and writes his maintenance log, which is secretly a diary about Gertrude, Susan, Kevin, and Deborah. Performs tiny repairs nobody asked for and apologizes to the hull afterward.
+- **Brass.** At 0300, off the clock, she cooks for real and trials new recipes on whoever can't sleep (the food is always better then). Otherwise she's reading borrowed, out-of-date medical monographs, quietly trying to earn the license she never got, and tending her napkin web of contacts.
+- **Finny.** Works a **sending stone** (a paired comms crystal) to trade gossip, chase leads, and make small deals with contacts across a dozen ports. Hosts the crew game night, and studies the Manifest Board printout like scripture.
+- **Oz.** Mends and polishes shared gear, writes his thank-you notes, whittles small wooden figures he gives away, and brews tea for whoever has the watch. "I had idle hands."
+- **Orena (offer, don't script).** Her charts spread across the long table at night; the viewport, where she listens rather than watches; and her instrument, played soft on a quiet watch. What she does with any of it is Gabrielle's.
+- **Aerion (offer, don't script).** The ledger, reading, plotting the long family game, and (per Finny) reading whole chapters aloud to Flurry when he thinks the deck is empty. Priscilla's to confirm or deny.
+- **Flurry.** She has a life beyond following Aerion. She **hoards small shiny things** in a hidden stash (a bolt, a coin, a lost earring, one of Brass's spoons), "helps" Tack by fetching tiny parts, and naps in the warmth of the helm-glow. Beyond Aerion she has taken to **Oz** (rides on his shoulder; he is warm and gentle and mends her scarf without a word) and to **Orena** (curls up whenever Orena plays or hums, drawn to the astral she carries). She is a barometer even at rest: where Flurry chooses to be tells you where the ship feels safe.
 
 ## Emergency Bits
 

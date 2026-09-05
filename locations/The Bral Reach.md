@@ -2,6 +2,8 @@
 
 The standing set. They'll come back here after every voyage, so it needs to be small enough to memorize and specific enough to miss.
 
+![The Rock of Bral](https://static.wikia.nocookie.net/forgottenrealms/images/9/97/Rock_of_Bral.jpg/revision/latest?cb=20220818013248)
+
 **Canon:** the **Rock of Bral** is a mile-wide asteroid dominated by a single city, founded roughly 200 years ago by the pirate Captain Bral as a refuge for scoundrels, and gradually civilized by merchants who wanted somewhere stable to do business. 5e deliberately never fixes its location. Everything below the Rock itself is ours.
 
 **The useful coincidence:** the Pale Reach incorporated within a generation of Bral's founding. The port created the trade and the trade created the cartel, and there are people on the Rock whose great-grandparents watched both happen.

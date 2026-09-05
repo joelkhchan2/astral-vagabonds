@@ -6,7 +6,9 @@ Rigger / Deckhand / backup Gunner. Halfling. Loud, warm, gossips relentlessly, r
 The heart of the ship and its leaky pipe. Finny knows everyone's business within a day and shares it within two, always meaning well and always making it worse. He organizes the zero-G handball bracket, buys something stupid at every port, and gets the Manifest Board printed so he can pore over a ranking that never moves. When the crew wins a rung he throws a party. When they lose it he throws a smaller one. He feels every rank in the standings personally.
 
 **Voice:** a firehose of gossip and enthusiasm, and hopeless at reading the room he's trying to cheer up.
-**Tics:** the bracket board; the stupid souvenir; the "ALMOST" note on the Board printout, crossed out and rewritten four times.
+**Tics:** the stupid souvenir from every port; the sending stone always in a pocket; the "ALMOST" note on the Board printout, crossed out and rewritten four times.
+
+**Off duty:** works a **sending stone** (a paired comms crystal) to trade gossip and make small deals with contacts across a dozen ports, hosts the crew game night in the galley (cards and dice, `rules/Downtime Games.md`), and studies the Manifest Board like scripture.
 
 ## Why he cares about ships so much
 Finny grew up **portless**, in a foundling house down in the rope city of the Rock of Bral, one of a dozen dock kids who slept three to a bunk and spent their days watching hulls come and go from a gantry rail. To those kids a ship wasn't a machine, it was the way out and the proof that somebody, somewhere, wanted a crew. A berth meant you existed. You counted. You had a place and people who noticed if you didn't show up.

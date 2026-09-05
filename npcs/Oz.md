@@ -2,11 +2,16 @@
 
 Ship Security / Scout. Giff (hippo-folk), seven feet and broad, a gentle giant who carries a comically large pistol he will also swing as a club and swears he has headbutted through steel.
 
+![Giff reference art](https://static0.srcdn.com/wordpress/wp-content/uploads/2022/09/DnD-Dungeons-Dragons-Giff-Playable-Race-Lore-Secret.jpg?w=1200&h=900&fit=crop)
+*Giff reference (a hippo-folk mercenary; Oz is one of these, seven feet and gentle).*
+
 ## The surface read
 The most alarming reassuring man alive. Oz is soft-spoken, formal, and relentlessly courteous, and he is also the largest and best-armed person in any room. He writes thank-you notes to dock workers, merchants, and the officer who fined the ship. He mends torn uniforms and polishes shared gear when he thinks no one is watching, and if caught he says "I had idle hands," which is a lie, because he never has idle hands.
 
 **Voice:** soft, formal, courteous. Never the first to raise the pistol.
 **Tics:** the thank-you notes; "I had idle hands"; walking up to the meanest person in a rough bar to offer them a drink.
+
+**Off duty:** mends and polishes shared gear, writes his thank-you notes, whittles small wooden figures he gives away, and brews tea for whoever has the watch. Flurry has decided he is hers: she rides on his shoulder, and he mends her scarf without a word.
 
 ## Why he's so polite
 Giff live and die by the company. They are a martial people who prize regulation, drill, the chain of command, and the honor of the unit above almost everything, and to be part of a good company is to be part of something clean and ordered and larger than yourself. Oz was raised to that and loved it.

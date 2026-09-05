@@ -8,6 +8,8 @@ The crew's fixer as much as its medic. Brass has "a guy" at every port, tracks d
 **Voice:** fast, wry, already three moves ahead, and prone to answering the question you *should* have asked instead of the one you did. She never walks into a room without clocking the exits, and it shows in how she talks: quick, useful, and slightly evasive, because part of her is always solving the next problem while you're still on this one.
 **Tics:** the napkin web of contacts, debts, and back-up plans; the morning cook-duty **d4**; naming dishes things like "Starfall Risotto" that have nothing to do with the ingredients.
 
+**Off duty:** at 0300, off the clock, she cooks for real and trials new recipes on whoever can't sleep. Otherwise she's reading borrowed, out-of-date medical monographs, quietly trying to earn the license she never got, and tending her napkin web of contacts.
+
 **The engine under it: she needs to be prepared and needed.** Always having a guy, an out, a lead, a plan is not showing off. It's insurance. A person who might have to vanish tomorrow makes herself impossible to do without today, so if Brass is the one who can always fix it, find it, or get everyone clear, then Brass is the one they keep. Usefulness is how she earns a place she's afraid isn't permanent, and how she stays a step ahead of the thing behind her.
 
 ## Why she's cheap, unlicensed, and always working an angle

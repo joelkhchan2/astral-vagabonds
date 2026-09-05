@@ -6,6 +6,14 @@
 
 A young silver dragon Aerion found **as an egg on a treasure hunt with this crew ~4.5 years ago**, in a hoard they turned up early (before the outfit's luck ran out). Now ~2 years old -- "a puppy with a breath weapon." He reluctantly, then secretly devotedly, took her on; he dotes, dresses her up, and denies all of it. She **will not fight** (hard rule -- see the stat block's *Devoted* clause) and is frightened of loud things. Cold breath, silver scale, understands Common, speaks Draconic.
 
+## Off duty: her life aboard (she isn't just Aerion's shadow)
+
+Flurry has a whole inner life on the ship, and the players asked to see it. Use these to make her a character rather than a prop.
+- **She hoards.** A dragon after all: she keeps a hidden stash of small shiny things (a bolt, a coin, a lost earring, one of Brass's spoons), rearranges it, and mourns loudly if it's disturbed.
+- **She "helps."** She fetches tiny parts for Tack, who narrates her assistance in his log, and she believes she is essential to engineering.
+- **She naps in the warm.** Her favourite spot is the heat of the helm-glow. Where Flurry chooses to sleep tells the crew where the ship feels safe, which is the barometer running even at rest.
+- **She has picked her people.** Beyond Aerion, she has taken hard to **Oz** (rides his shoulder; he mends her scarf and is gentle and warm) and to **Orena** (curls up whenever Orena plays or hums, drawn to the astral Orena carries). She tolerates Brass, adores Finny's chaos, and considers Estra a mystery to be solved from a safe distance.
+
 ## The heritage (GM canon -- latent, revealed slowly)
 
 **One of Flurry's parents or ancestors was a lunar astral dragon.** She reads as an ordinary silver, but the bloodline is part-astral, and that is the quiet engine under everything interesting about her.

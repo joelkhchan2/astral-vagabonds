@@ -8,6 +8,8 @@ Tack knows the ship better than anyone and loves her without embarrassment. He h
 **Voice:** cheerful, literal, talks *to* the ship, who "talks back."
 **Tics:** names every part (ballistae **Gertrude** and **Susan**, ram **Kevin**, helm **Deborah**); a maintenance log that doubles as a diary ("Kevin was gracious about the realignment").
 
+**Off duty:** polishes and talks to the ship, writes the maintenance-log-diary, performs tiny repairs nobody asked for, and keeps score at Finny's game night (for the ship, who is winning).
+
 ## Why the ship is a person to him
 Autognomes are built minds, and Tack was **built for a vessel far larger than this one**, a small consciousness meant to live inside something huge and crewed and alive with people. That is the only home-shape he was ever made for. The great ship he was built into is gone (scrapped, sold for parts, or simply moved on without him, however you want it), and ever since, Tack attaches to ships as family, because a hull full of a crew is the one place he was designed to belong.
 

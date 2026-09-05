@@ -1343,6 +1343,7 @@ Scavvers are the **sharks and gulls of Wildspace**, not a boss monster -- four s
 **The point:** most scavver encounters should be the crew coexisting with wildlife -- routing around a shoal, shooing a hungry brown off the hull, reading a gathering as a sign something's out there -- exactly the "live alongside the danger" skill the cure is built on. Save the teeth for when it counts. A crew that learns to *read* scavvers rather than fear them is already practicing the campaign's thesis. See also Tables.md (Wildspace Encounters #6, "scavvers circling something -- whatever they're circling is the interesting part").
 
 ### Brown Scavver **[Verified CR]**
+![Brown Scavver](https://static.wikia.nocookie.net/forgottenrealms/images/8/8a/Brown_Scavver.webp/revision/latest?cb=20230814113953)
 *Boo's Astral Menagerie*
 Large monstrosity, unaligned
 AC 14 (natural armor) | HP 90 (12d10+24) | Speed 0 ft., fly 60 ft. (wildspace/astral only)
@@ -1370,6 +1371,7 @@ Sleek, near-black ambush predator hunting near asteroid fields and dead hulks â€
 - Multiattack: two Bite (+7, 16 (2d10+5), DC 14 Str or prone)
 
 ### Void Scavver **[Verified]**
+![Void Scavver](https://static.wikia.nocookie.net/forgottenrealms/images/2/24/Void_Scavver.webp/revision/latest?cb=20230814114013)
 *Boo's Astral Menagerie*
 Huge monstrosity, unaligned
 AC 17 (natural armor) | HP 180 (19d12+57) | Speed 0 ft., fly 70 ft. (wildspace/astral only)
