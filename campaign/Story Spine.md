@@ -110,7 +110,7 @@ They do not learn any of the above. They experience **weather.** The arc of Tier
 - **The wonder seed:** a pod of kindori, sighted at distance, singing by light. Near-sacred, harmless, beautiful. Plant them as awe early so the Tier 2 reveal ("they're the cure, and it's a cascade") lands. Orena feels *something* when they sing.
 - **The personal seed:** Orena keeps hearing, under the silence of a guttering zone, the note from the night she lost her crew -- the Vocalise. (Session 1 ends on exactly this.)
 - **The money reality:** every voyage, the operating cost comes out of the account; they've sworn off jobs over 60 days; combat is frightening because it's *expensive*. Competence under constraint, always.
-- **Recurring texture:** homecomings at the Rock of Bral (Ottie, Meech, Senna, the Compass Rose), selling survey data (which is secretly the investigation), the Manifest Board creeping upward.
+- **Recurring texture:** homecomings at the Rock of Bral (Sprat, Meech, Senna, the Compass Rose), selling survey data (which is secretly the investigation), the Manifest Board creeping upward.
 - **Tier 1 end-state:** the crew has a *pattern* they can't explain (dark routes cluster; the frontier goes first; a house delisted routes with no incident reports -- Meech's breadcrumb), a growing unease about the whales, and Orena's private thread pulling them outward. That hands into Tier 2's "understand it."
 
 Concrete session-1 beats and the cold open are in `sessions/Session 1.md`.

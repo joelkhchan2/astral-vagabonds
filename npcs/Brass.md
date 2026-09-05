@@ -5,8 +5,10 @@ Medic / Cook. Plasmoid. Scrappy, fast-talking, resourceful, and always mid-angle
 ## The surface read
 The crew's fixer as much as its medic. Brass has "a guy" at every port, tracks debts and favors and contacts on a system of hundreds of napkins only she understands, and treats dinner as a second job she took under protest. She's a medic first and reminds everyone of it whenever they complain about the food.
 
-**Voice:** fast, wry, already three moves ahead. Never quite answers the question you asked.
-**Tics:** the napkin ledger; the morning cook-duty **d4**; naming dishes things like "Starfall Risotto" that have no relationship to the ingredients.
+**Voice:** fast, wry, already three moves ahead, and prone to answering the question you *should* have asked instead of the one you did. She never walks into a room without clocking the exits, and it shows in how she talks: quick, useful, and slightly evasive, because part of her is always solving the next problem while you're still on this one.
+**Tics:** the napkin web of contacts, debts, and back-up plans; the morning cook-duty **d4**; naming dishes things like "Starfall Risotto" that have nothing to do with the ingredients.
+
+**The engine under it: she needs to be prepared and needed.** Always having a guy, an out, a lead, a plan is not showing off. It's insurance. A person who might have to vanish tomorrow makes herself impossible to do without today, so if Brass is the one who can always fix it, find it, or get everyone clear, then Brass is the one they keep. Usefulness is how she earns a place she's afraid isn't permanent, and how she stays a step ahead of the thing behind her.
 
 ## Why she's cheap, unlicensed, and always working an angle
 Brass learned medicine rough and on the move, never in a hall that would stamp a license, because a license is a name in a registry and a name in a registry is how you get found. She keeps herself cheap and off the books for the same reason. Everyone owing her a small favor is not greed, it's an early-warning net: if trouble is coming for her, someone in the web hears it first and gets word out, in exchange for the debt she's been carefully keeping them in.
@@ -22,7 +24,7 @@ She has been mobile and off-book ever since. The napkins, the aliases, the guy a
 Off the clock at 0300, in the galley, Brass never rolls the d4 and the food is always better. When someone can't sleep, she's already up, and she plates another portion and doesn't ask why they're awake. That is the truest thing about her: a woman who has to keep everyone at arm's length by daylight, feeding them quietly in the dark.
 
 ## With the two leads
-- **Aerion.** The great napkin-versus-ledger cold war. He has tried three times to formalize her system into his books; each time she sabotages it with more napkins, and each time the terrifying part is that the napkins are *right*. He suspects she's running from something and has chosen, so far, not to pull the thread.
+- **Aerion.** They don't compete, they complement. Aerion runs the books and runs them better than anyone, and Brass has no interest in the ledger; his is the truth *on* paper. Hers is the truth *off* it: not what they have but who they can call and how to get out. He's the only one aboard who has quietly clocked that her web of napkins is really an escape plan, and he has chosen, so far, not to pull the thread.
 - **Orena.** Brass offers her "a guy who might know a guy" about the Wayfinder Knot, and means it. For a woman who trades in favors, giving Orena a lead for nothing is how she says she cares.
 
 ## Arc

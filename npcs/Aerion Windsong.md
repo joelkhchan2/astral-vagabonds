@@ -17,6 +17,13 @@ To make his own fortune and, secretly, to **buy out and take over his father's c
 
 The family is among those competing for the **vacant fifth seat** on the board of founding houses. What exactly House Windsong offers for that seat is Priscilla's to decide.
 
+## Vaelren, and the camp where Aerion met Orena
+**Vaelren Windsong** (300), the father's youngest brother, is the one Windsong who left the ledgers behind: a wandering "space samurai," part swordmaster, part adventurer, part rogue, who believes a person is worth exactly what they can earn with their own two hands and their own held word. Where Vaelros measures his sons against the house, Vaelren measured young Aerion against the blade and found something worth teaching, and it is the reason Aerion carries a code at all. Aerion is closer to his uncle than to anyone in his blood family.
+
+Vaelren ran a hard, warm training camp for youths out on the quieter drifts: sword and discipline, taught by refusing to hand you the answer. Aerion was sent there as the overlooked youngest, expecting to be overlooked again. **Orena came to the same camp** off the Sword Coast wanting to learn the blade, the two of them were made to share a bunk, and a guarded merchant's son and an open-hearted genasi who heard the sea in everything became, against the odds, lifelong friends. Years later, when Aerion's ship blew up and he needed a navigator he could trust with his life, he went looking for her.
+
+**Voice and tic:** unhurried, amused, exacting. He answers a question with a better question and will not draw his sword to prove a point he can make with a look. *"Don't show me the form. Show me you understand why the form exists, and then break it correctly."* A ready recurring NPC and a natural anchor for the opening flashback; keep him fond, sharp, and a little dangerous.
+
 ## Flurry
 A young silver dragon Aerion found as an egg on a treasure hunt with this crew about 4.5 years ago and reluctantly, then secretly devotedly, took responsibility for. He dotes on her, dresses her up, and would deny all of it. **She is a baby: she does not fight and should never be in combat.** Under the surface she carries **lunar astral dragon blood** (an ancestor back in the line), which is latent for now and mostly shows as an uncanny sensitivity to the astral -- see `npcs/Flurry.md` for her heritage, her role as a GM "barometer" for the living sky, and the late-game payoff.
 

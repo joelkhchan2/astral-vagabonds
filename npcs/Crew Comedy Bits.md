@@ -14,7 +14,7 @@ Drop-in moments, running gags, cutaways, and slice-of-life scenes to make the sh
 
 **Oz's Thank-You Notes.** After every port visit, Oz writes thank-you notes. To dock workers, to merchants, to the officer who fined them. ("Dear Inspector Valdris, thank you for your thoroughness in citing our expired ventilation permit. Warmly, Ozgood Hammerfall.") The crew finds these mortifying; the recipients are universally charmed. They have gotten out of at least two situations because an official remembered Oz's note.
 
-**Brass's Napkin System.** Brass tracks debts, contacts, and favors on napkins. Hundreds of them, organized in a way only she understands. Aerion has tried to formalize the system into his ledger three times; each time Brass sabotages it by adding more napkins. "The napkins work." The terrifying thing is that they do.
+**Brass's Napkins.** Brass tracks contacts, debts, and back-up plans on napkins, hundreds of them, in a system only she understands. It is not the ship's books (those are Aerion's, and immaculate); it is her private web of who-owes-whom and how-to-get-out. Aerion offered once to fold it into the ledger. Brass looked at him the way you'd look at a man offering to fold your spine into a ledger. They have an understanding now: his numbers, her people. The terrifying thing is that her napkins are never wrong either.
 
 **The Morning Roll.** Brass cooks breakfast, and each morning the crew watch her roll her d4 to see what kind of day the food is going to make it. A good roll and someone stands a little taller; a bad one and everyone quietly braces. She is a medic first and she reminds them of this whenever anyone complains about dinner.
 
@@ -34,7 +34,7 @@ Drop-in moments, running gags, cutaways, and slice-of-life scenes to make the sh
 
 **Zero-G Handball.** An ongoing tournament in a cleared hold. Finny keeps a bracket board with intense seriousness. Current champion: Oz, disqualified from using his head and still winning. Finny referees and competes, which everyone agrees is a conflict of interest. Estra has never played and is somehow 3-0.
 
-**Inventory Day.** Aerion conducts inventory with a clipboard and a look. "Brass, what's in crate 14-C?" "Ammunition." "That's not what the manifest says." "The manifest is wrong." "The manifest is never wrong." Hard cut to: the manifest was wrong, and Aerion is re-labeling crate 14-C with suppressed fury while Brass eats an apple nearby and says nothing helpful.
+**Inventory Day.** Aerion conducts inventory with a clipboard and a look. "Brass. Crate 14-C." "Ammunition." "The manifest says medical." "The manifest is wrong." "The manifest is mine, so it isn't." Hard cut to: 14-C is exactly what Aerion said it was, Brass has already quietly relabelled it back, and neither will admit the exchange happened. His books are never wrong. Hers is knowing which crate has the thing you actually need at 0300, which is a different kind of right, and the two of them have silently agreed to respect the border.
 
 **Brass's Specials.** Brass names her dishes and the names have no relationship to the ingredients. "Tonight's special is Starfall Risotto." It's rice with whatever protein was cheapest at the last port. "And for dessert, Nebula Crumble." Rehydrated fruit and crumbled hardtack. On a good d4 it is inexplicably delicious; on a bad one the name is the best part.
 

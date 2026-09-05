@@ -18,7 +18,7 @@ Their first contract off the board at the Rock of Bral: **a resupply run to a st
 
 ## The beats
 
-**1. Casting off from the Rock of Bral.** A quick homecoming-in-reverse (see `The Bral Reach.md`): Ottie on the gantry with gossip and a "buy info for candy" bit; Meech at the Charter Window stamping the contract and correcting their paperwork; provisioning at the Float Market (Brass haggling, Finny buying something stupid). Establish the money: the operating cost is **600 gp/month** for seven crew (500 for six, +100 for the seventh), it comes out of the account, and they are broke. Let Aerion feel the ledger.
+**1. Casting off from the Rock of Bral.** A quick homecoming-in-reverse (see `The Bral Reach.md`): Sprat on the gantry with gossip and a "buy info for candy" bit; Meech at the Charter Window stamping the contract and correcting their paperwork; provisioning at the Float Market (Brass haggling, Finny buying something stupid). Establish the money: the operating cost is **600 gp/month** for seven crew (500 for six, +100 for the seventh), it comes out of the account, and they are broke. Let Aerion feel the ledger.
 
 **2. First flight.** Their first time actually flying the new ship as a system. Estra at the helm, Orena shadowing to learn it. A short, low-stakes shakedown -- run the crew stations once (`Rules & Systems.md` section 8) so everyone knows their post. Tack talks to the ship; Finny lashes down the cargo; Oz checks the guns.
 

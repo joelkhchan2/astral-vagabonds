@@ -135,7 +135,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 15 | **Chart-glass.** Reveals erasures and alterations on any document. *(Priscilla. The audit.)* |
 | 16 | **Warmstone.** A palm-sized rock that never cools. Worth more than it should be, out here. |
 | 17 | **Feathered ballast.** Reduces the weight of one object by half. Nobody knows how. |
-| 18 | **Ottie's marble.** Ordinary. Ottie will sell it to you sincerely. It is a marble. |
+| 18 | **Sprat's marble.** Ordinary. Sprat will sell it to you sincerely. It is a marble. |
 | 19 | **Rebreather pearl.** Held in the mouth: ten minutes of air, once per day. |
 | 20 | **A key.** Nobody knows what it opens. The seller doesn't either. It is very old. |
 

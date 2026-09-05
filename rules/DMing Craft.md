@@ -28,7 +28,7 @@ A working reference for running *Astral Vagabonds*, distilled from published GM 
 
 ## NPCs and voices
 
-**One voice tic, one physical tic, one want.** That is the whole kit for a memorable NPC: a way they sound (Meech explains the correct form; Ottie trades in candy), a thing they do with their body or hands (Estra's mug, Tack patting a bulkhead), and something they want in the scene. You can play anyone again with those three.
+**One voice tic, one physical tic, one want.** That is the whole kit for a memorable NPC: a way they sound (Meech explains the correct form; Sprat trades in candy), a thing they do with their body or hands (Estra's mug, Tack patting a bulkhead), and something they want in the scene. You can play anyone again with those three.
 
 **Let NPCs be competent and human, not exposition.** Even a one-scene factor has a reason they're squeezing the colony. Complexity over alignment: people act from curiosity, fear, survival, or ambition. Villains are rare here; problems are the antagonist.
 

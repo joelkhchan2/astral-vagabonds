@@ -8,7 +8,7 @@ Every entry follows the house format: **one secret, one danger, one opportunity.
 
 ---
 
-# THE SALLOW CHAIN — the core
+# THE SALLOW CHAIN: the core
 
 *Nine systems on the oldest, deepest current in known space. Everything works here. That's the problem.*
 
@@ -32,7 +32,7 @@ Silent in a way that feels enforced. Sound doesn't carry. The air smells of dry 
 
 ---
 
-# THE TOLLMARCH — the chokepoint
+# THE TOLLMARCH: the chokepoint
 
 *Contested space, thick with hazards, and the only shortcut outward. Tethyn's.*
 
@@ -56,7 +56,7 @@ Hulls at every angle, none of them agreeing on which way is down, and the gravit
 
 ---
 
-# THE VERGE — the frontier
+# THE VERGE: the frontier
 
 *Thin, poor, long hauls, small colonies. Nobody's territory. Where Aerion was sent and where the Guttering is visible.*
 
@@ -70,7 +70,7 @@ Everything is lit from one side. Long shadows that never move. Nine hundred peop
 **Opportunity:** they need everything, all the time, and they pay in ore.
 
 ### Arriving -- the read-aloud
-> You come in over the daylit face and it never gets easier to look at: a whole hemisphere of raw white glare, no dawn, no dusk, just *on*. The town runs along the seam where the light dies -- a crooked line of low buildings, ore-tips, and lashed-down roofs following the terminator around the moon, half of every street in permanent gold and half in permanent black, and shadows that lie down long and never, ever move. The dock is a single scaffold clung to a spur of rock. As the lock opens: cold, and the smell of turned stone and machine-oil and, faintly, someone's dinner. A dozen people are already waiting, trying not to look as glad to see you as they are.
+> You come in over the daylit face and it never gets easier to look at: a whole hemisphere of raw white glare, no dawn, no dusk, just *on*. The town runs along the seam where the light dies, a crooked line of low buildings, ore-tips, and lashed-down roofs following the terminator around the moon, half of every street in permanent gold and half in permanent black, and shadows that lie down long and never, ever move. The dock is a single scaffold clung to a spur of rock. As the lock opens: cold, and the smell of turned stone and machine-oil and, faintly, someone's dinner. A dozen people are already waiting, trying not to look as glad to see you as they are.
 
 ### The place, in the senses
 - **Light and dark, no in-between.** People wear one-eye shades on the bright side and lamps on the dark side, and the whole town squints. The unmoving shadows unsettle newcomers within the hour.
@@ -86,9 +86,15 @@ Everything is lit from one side. Long shadows that never move. Nine hundred peop
 Set these in front of the players and let them choose how to handle them (never decide for the PCs):
 - **Payment.** The colony agreed 1,400 gp and cannot fully make it in coin. They can cover part and tender the rest in **refined ore at a poor Verge rate** -- a real negotiation, not a foregone loss. How the crew handles proud people who can't pay is the scene.
 - **Triage.** More is needed than was ordered. Medicine or mining parts, the sick or the mine -- Administrator Vint will defer to the crew's call on what lands first, and live with it.
-- **The offer.** Vint, carefully, asks whether they'd consider being the colony's *regular* runner. It pays badly and reliably. Saying yes is a recurring-relationship hook; saying no is fine and human. Either way, Hallow's Rest is now a place on the map that knows their faces.
+- **The offer.** Vint, carefully, asks whether they'd consider being the colony's *regular* runner. It pays badly and reliably. Saying yes is a recurring-relationship hook. **Saying no opens a thread instead:** swallowing her pride, Vint offers an extra **100 gp** if the crew will at least help her *find* someone dependable, put the word out at Bral, ask around the Board, keep an ear open for a runner who won't vanish. A decline becomes a small paid errand, and the crew ends up part of the colony's lifeline anyway. It also seeds the mystery quietly: nobody reliable will take a route that keeps drifting, and Vint is starting to suspect that's the real problem.
 
-**The one that matters:** somewhere in the delivery, Coll's account lands -- the depot route that *wasn't there.* Play it as a person's failure and grief, not a clue. Nobody says the word for it. (Story Spine: the first Guttering symptom with a body count.)
+**The one that matters:** somewhere in the delivery, Coll's account lands, the depot route that *wasn't there.* Play it as a person's failure and grief, not a clue. Nobody says the word for it. (Story Spine: the first Guttering symptom with a body count.)
+
+### More at Hallow's Rest (it isn't only the delivery)
+- **The Long Shadow, after dark.** Big Pol's bar is the warmest room on the moon and the whole town funnels through it. There's a dice game most nights (`rules/Downtime Games.md`), Big Pol feeds anyone short whether they can pay or not, and a night here is where the crew hears what the colony will never say to Vint's face.
+- **The dark-side prospect (a ready side-hook).** An old prospector, **Meggs**, swears the richest seam runs out under the permanent-night face, past where the heat gives out, and that the last crew who went to check came back one short and won't say what turned them around. It could be nothing (cold, a fall, nerves), or a night-side cold pocket, or something denning in the dark rock. It pays in ore and goodwill and gives the crew a reason to matter here beyond one crate of supplies.
+- **The standing shadows.** Terminator kids tell it: the shadows never move because they're *waiting*, and if yours ever moves on its own, the moon has decided to keep you. A ghost story, and close enough to the campaign's real eeriness that an old miner should tell it deadpan and let it sit.
+- **The mine itself.** Three years from exhaustion for a decade. The colony's whole economy hangs on a seam everyone quietly knows is nearly done, and the standing danger is a cave-in or a bad-air pocket while the crew is aboard. If they want to change Hallow's Rest instead of just supplying it, the mine is the lever.
 
 ## THE COLD ANCHORAGE
 **A free port** built into a captured comet, functionally lawless and entirely practical. No charter required, no questions, no Route Wardens.
@@ -110,7 +116,7 @@ Arriving is the scene. The system is *right*. The star is right, the planet is r
 
 ---
 
-# THE WINDWARD EDGE — the boundary
+# THE WINDWARD EDGE: the boundary
 
 *Between charted and unknown. Delverane's, and the crew's neighbours.*
 
@@ -134,7 +140,7 @@ Approach in silence and the hull rings. Every ship rings at a different pitch. O
 
 ---
 
-# THE BRAL REACH — the hub
+# THE BRAL REACH: the hub
 
 Home port, fully detailed in `The Bral Reach.md`. Two other places in the region:
 
@@ -158,7 +164,7 @@ Improvised, crowded, and warmer than it looks. Laundry lines in null-gravity. Ev
 
 ---
 
-# THE AMBERWAKE — the region that isn't
+# THE AMBERWAKE: the region that isn't
 
 House Carrow's corridor, beyond the far side of the Verge. It ran deep and fast and it belonged to them, and forty years ago it stopped working. Ships arrived elsewhere, or late, or never. Within nine years it could not be found.
 

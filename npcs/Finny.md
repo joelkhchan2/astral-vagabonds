@@ -18,7 +18,28 @@ Every visit to the Rock, Finny quietly deposits part of his pay with **Sef**, th
 
 He will not say who or why, and it is the one secret the biggest gossip aboard keeps perfectly. Partly he doesn't want it to be a *thing*, partly he can't stand to be pitied, and partly it is the single private tender act of a man who gives everything else away. The crew has noticed the deposits and, in their one great kindness to him, has never once asked.
 
-**Trigger (from Plot Threads):** the crew docks at Bral. **Reveal paths:** a kid from the house recognizes him on the gantry; Sef falls ill or the house's rent is called in by a landlord who smells the Guttering's squeeze on the lower city; or Ottie, who knows everything, lets a corner of it slip for candy and then looks stricken. Any of these turns the ship's warmest running gag into a real scene, and gives the found family a chance to become the thing Finny has quietly been paying forward.
+**Trigger (from Plot Threads):** the crew docks at Bral. **Reveal paths:** a kid from the house recognizes him on the gantry; Sef falls ill or the house's rent is called in by a landlord who smells the Guttering's squeeze on the lower city; or Sprat, who knows everything, lets a corner of it slip for candy and then looks stricken. Any of these turns the ship's warmest running gag into a real scene, and gives the found family a chance to become the thing Finny has quietly been paying forward.
+
+## Finny's gossip (drop one, or roll a d12)
+
+The point of Finny is that he's a delivery system for character. Deal one of these whenever the ship is quiet, a transit is dull, or a player asks him a question he cannot resist answering. Each one hands the table a real thread about a crewmate, wrapped in a joke. He believes all of it; he's right about most of it.
+
+| d12 | What Finny says |
+|---|---|
+| 1 | "Cap's mug used to say 'World's Best.' Somebody knifed those two words clean out and left the 'Captain.' I have six theories. Two of them make me sad." |
+| 2 | "She turned down a job last month that would've cleared our whole debt. Didn't blink. Who *does* that? What does she know that we don't?" |
+| 3 | "Tack leaves his maintenance log open where I'll read it now. Last night's entry was a poem. To a pipe. It rhymed. I've read it four times." |
+| 4 | "A man in a very good coat asked Tack his 'make and serial number' at the yard. Tack answered him, cheerful as anything. I did not like that man, and I did not like that question." |
+| 5 | "Brass swears she's never been to the Cold Anchorage. Brass has two guys at the Cold Anchorage. You do the math, because I can't and it keeps me up." |
+| 6 | "She keeps a bag packed. Not a go-bag. A *gone*-bag. I found it once, put it back exactly, and didn't sleep that night." |
+| 7 | "Oz still writes to the inspector who fined us. They write *back*. They're pen pals now. I am not part of it and I am, frankly, a little hurt." |
+| 8 | "Ask Oz about his old company and his whole face closes like a hatch. Somebody hurt that big polite man, and I think he believes it was him." |
+| 9 | "The bosun reads to Flurry when he thinks the deck's clear. Whole chapters. Does the voices. You didn't hear that from me and neither did I." |
+| 10 | "Orena hums the same three notes on the night watch, in her sleep sometimes. Brass says leave it. Brass knows something. Brass always knows something." |
+| 11 | "Don't tell anyone, but I set a little aside every time we hit Bral. Good reasons. Warm reasons. That's all you get, and it's more than I've told anyone, so we're close now, you and me." |
+| 12 | "I know I talk too much. But somebody's got to carry all of it, and it might as well be the one who actually cares what happens to you lot." |
+
+**On the two about the PCs (9 and 10):** these are Finny's *observations*, offered to the table as colour, never as fact the player has to accept. Aerion doting on Flurry and Orena's three notes (the Vocalise) are hooks the players can confirm, wave off, or quietly make true at their own pace. Finny is often right and always talking; what's real about a PC stays the player's call.
 
 ## With the two leads
 - **Orena.** He brings her tea when she's up late at the chart table with her maps, and he never asks what she's looking for, because he knows what it is to look for your people. Of anyone aboard, Finny understands the search without needing it explained.
