@@ -1,6 +1,6 @@
-# Crew Roster -- the ship (currently unnamed)
+# Crew Roster -- the Night Fury
 
-**Total complement: 7** (2 PCs + 5 NPCs). The ship is officially **unnamed** for now; the crew flies under Captain Vane's good name. The DM's working title for it is *the Last Honest Deal*.
+**Total complement: 7** (2 PCs + 5 NPCs). The ship is the ***Night Fury***, christened by the crew in session 1 (flew unnamed under Captain Vane's good name before that).
 
 > **Canon (session 0, played).** Aerion joined this crew about **5 years ago** on what looked like a very successful venture. They found the silver dragon Flurry and a treasure hoard on a hunt roughly 4.5 years ago, then a long run of failed jobs left them near destitute. Their **old ship blew up** (the cook was having his nightly smoke next to pre-loaded cannons); most of the fourteen-person crew lost faith and left, and the loyal few remained. Insurance money, some family funds, and 10,000 gp from Aerion's trust fund bought the new **Sturdy Trader**. **Orena (Gabrielle's PC) is the newest aboard, joined ~6 months ago.** They hired back up to a lean crew of seven at the Danforth yard.
 

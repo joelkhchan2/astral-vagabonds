@@ -75,7 +75,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 
 ## Document Index
 
-**Session 0 has been played.** Current character/crew/ship canon: `npcs/Aerion Windsong.md`, `npcs/Orena.md`, `npcs/Crew Roster.md`, `ships/The Last Honest Deal.md`, and `sessions/Session Zero.md` (the recap of what was decided). Then `Contracts.md` for the job board.
+**Session 0 has been played.** Current character/crew/ship canon: `npcs/Aerion Windsong.md`, `npcs/Orena.md`, `npcs/Crew Roster.md`, `ships/Night Fury.md`, and `sessions/Session Zero.md` (the recap of what was decided). Then `Contracts.md` for the job board.
 
 ### Running the game
 | File | What's in it |

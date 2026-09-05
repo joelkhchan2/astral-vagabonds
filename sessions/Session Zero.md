@@ -16,7 +16,7 @@ Aerion joined this (non-family) crew about **5 years ago** because it looked lik
 
 ## The ship
 
-Bought prior-service from **Danforth Certified Hulls**. A **Sturdy Trader**: AC 19 + Plating I, 250 HP, damage threshold 20, ~45 ft (Trim Rig +5). Coilworks Mk IV standard helm, 2 ballistae, blunt ram, Sureshot Rotator and Ready Magazine on the guns, 50 standard shots. No life support upgrades, no signature feature, no fittings. **Left unnamed** for now; they fly under Captain Vane's good name. Full detail: `ships/The Last Honest Deal.md`.
+Bought prior-service from **Danforth Certified Hulls**. A **Sturdy Trader**: AC 19 + Plating I, 250 HP, damage threshold 20, ~45 ft (Trim Rig +5). Coilworks Mk IV standard helm, 2 ballistae, blunt ram, Sureshot Rotator and Ready Magazine on the guns, 50 standard shots. No life support upgrades, no signature feature, no fittings. **Left unnamed** for now; they fly under Captain Vane's good name. (Christened the *Night Fury* in session 1.) Full detail: `ships/Night Fury.md`.
 
 **Money:** 50,000 start, about 14,350 left after outfitting, plus 10,000 from Aerion's trust fund held as a separate reserve. Operating cost is all-inclusive: 500 gp/month for up to 6 crew, +100 per additional, deducted each session. Repairs 20 gp/HP. They have sworn off jobs longer than 60 days so they never test the 120-day air clock.
 

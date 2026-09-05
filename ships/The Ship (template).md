@@ -2,7 +2,7 @@
 
 **Fill this in the night they buy her.** Then rename the file to her name.
 
-*(This replaces the old `The Last Honest Deal.md`, which described a ship Estra owned under the previous premise. Its best material survives below as guidance, and "The Last Honest Deal" is still available as a name if they take it off the yard's sign.)*
+*(Already used once: the crew's current ship is filled in at `ships/Night Fury.md`, christened session 1. This template stays here for the next hull, if there ever is one.)*
 
 ---
 

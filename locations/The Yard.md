@@ -1,6 +1,6 @@
 # The Yard — Session 0 (played)
 
-> **Outcome (canon).** This scene ran at session 0. The crew bought a **Sturdy Trader** from the Danforth lot (build in `ships/The Last Honest Deal.md`), left her **unnamed**, and hired a lean crew of seven (`npcs/Crew Roster.md`). Not hired: Dr. Quill, Sable, Reeve, Wysp, Morrow, who stay in the world. The material below is the prep menu the session drew from; treat it as backstory and a source of future NPCs, not as pending choices.
+> **Outcome (canon).** This scene ran at session 0. The crew bought a **Sturdy Trader** from the Danforth lot (build in `ships/Night Fury.md`), left her **unnamed**, and hired a lean crew of seven (`npcs/Crew Roster.md`). Not hired: Dr. Quill, Sable, Reeve, Wysp, Morrow, who stay in the world. They christened her the ***Night Fury*** in session 1, not the yard's own slogan, so "the Last Honest Deal" stayed a joke on the sign rather than becoming the ship's name. The material below is the prep menu the session drew from; treat it as backstory and a source of future NPCs, not as pending choices.
 
 One location, rolling beats. They arrive with 50,000 gp and leave with a ship, a crew, a name, and a problem.
 

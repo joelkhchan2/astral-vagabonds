@@ -20,7 +20,7 @@ These six are the crew's immediate neighbourhood for a long time, and they shoul
 
 **348. THE CREW.** Starting position after job one.
 
-**347. *Grendel's Wake*:** Trader-class, captained by **Bex Halloway**, human, fifties, permanently amused. She has been 347th for four years and has stopped trying. She likes it here. When the crew passes her she will buy them a drink and mean it, and she will be back above them within two quarters, and neither of them will ever quite understand how.
+**347. *Grendel's Wake*:** Trader-class, captained by **Bex Halloway**, human, fifties, permanently amused. She has been 347th for four years and has stopped trying. She likes it here. When the crew passes her she will buy them a drink and mean it, and she will be back above them within two quarters, and neither of them will ever quite understand how. **She and Estra have real history**, unresolved: a contract Bex wanted once that Estra's crew took instead, which by Bex's own telling ended in a burning ship that wasn't Estra's. Estra deflects hard the one time it's come up so far ("she's no one to judge, look at her, she fumbled from 330 to the mid-340s"). Worth pulling on eventually.
 > **This is the rival to lean on.** Not an antagonist. A friendly ceiling. "We passed the *Grendel's Wake*" is a whole session's motivation, and losing the position again is a better sting than any villain provides.
 
 **346. *Quiet Sum*:** Cutter-class, captained by **Ollo Trask**, dohwar (penguin-like merchant). Runs tiny, fast, high-margin courier work with a crew of four. Ruthlessly efficient, relentlessly cheerful, and will absolutely undercut them on a contract and apologize sincerely while doing it.

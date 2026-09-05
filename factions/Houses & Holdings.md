@@ -138,13 +138,15 @@ The official account is mismanagement. Vellum's position is that Carrow overexte
 
 **Net worth ~9,200,000 gp** · **Tier:** chartered member house · **Territory:** a core route in the Sallow Chain, plus the Tollmarch franchise · **Board function:** none, yet
 
-**Business:** bulk hauling and regional distribution along a licensed Chain corridor, plus warehousing at three Bral Reach ports and a modest brokerage arm. Solid, unglamorous, and profitable for a hundred and ninety years.
+**Business:** bulk hauling and regional distribution along a licensed Chain corridor, warehousing at three Bral Reach ports, a modest brokerage arm, and **shipbuilding**, a hull yard that's quietly one of the family's steadier lines. Solid, unglamorous, and profitable for a hundred and ninety years.
+
+> **The irony, confirmed at the table and worth playing up:** Aerion's own ship blew up, and he bought a used, rattling Sturdy Trader off a stranger's yard (`ships/Night Fury.md`) rather than draw on his own family's hulls. He refused the easy path on purpose, and it's exactly the kind of detail an NPC (Vaelros, a broker, a dockhand who recognizes the family name) can needle him with without ever raising their voice.
 
 **Planar reach:** effectively none. This is a sore point and part of why the elevation case matters.
 
 **Holdings:**
 - Core Chain route and fleet, ~4,100,000 (operated by Aeric)
-- Warehousing and port leases, ~2,300,000
+- Warehousing and port leases, ~2,300,000 (the family's small hull yard is folded in here rather than broken out)
 - Brokerage and paper, ~1,400,000
 - Tollmarch franchise, ~700,000 (operated by Aeravellis, underwater)
 - Liquid reserve, ~700,000

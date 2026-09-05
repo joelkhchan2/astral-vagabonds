@@ -6,6 +6,8 @@
 
 A young silver dragon Aerion found **as an egg on a treasure hunt with this crew ~4.5 years ago**, in a hoard they turned up early (before the outfit's luck ran out). Now ~2 years old -- "a puppy with a breath weapon." He reluctantly, then secretly devotedly, took her on; he dotes, dresses her up, and denies all of it. She **will not fight** (hard rule -- see the stat block's *Devoted* clause) and is frightened of loud things. Cold breath, silver scale, understands Common, speaks Draconic.
 
+**A live, silly hook: the International Space Dog Show.** Established session 1: Aerion has a tailor at the Float Market making Flurry custom show outfits, and he's floated entering her. Fully optional, but worth paying off, a warm, low-stakes future scene (and a reason for Aerion to keep insisting, coldly, that dressing her up is purely practical).
+
 ## Off duty: her life aboard (she isn't just Aerion's shadow)
 
 Flurry has a whole inner life on the ship, and the players asked to see it. Use these to make her a character rather than a prop.

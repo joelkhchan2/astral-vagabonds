@@ -1,6 +1,6 @@
-# The Ship (currently unnamed)
+# Night Fury
 
-> The crew bought her at session 0 and chose **not to name her yet**, flying under Captain Vane's good name instead. The DM's working title, from the yard-seller's line that this was "the last honest deal you'll ever make," is *the Last Honest Deal*. Update this doc if and when they christen her.
+> Christened in session 1, on the way out of port on the *Sealed and Sworn* run: the crew bounced between "the Black Pearl" and "Night Fury" and settled on **Night Fury**. Before this she flew unnamed under Captain Vane's good name; the DM's old working title, from the yard-seller's line that this was "the last honest deal you'll ever make," was *the Last Honest Deal*, and is retired now that she has a real one.
 
 ## Ship Profile
 **Class / Profile:** Sturdy Trader (bought prior-service from Danforth Certified Hulls).
