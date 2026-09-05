@@ -32,6 +32,15 @@ Silent in a way that feels enforced. Sound doesn't carry. The air smells of dry 
 
 ---
 
+## REEFSIDE
+**A Chain waystation** grown inside the bleached skeleton of a titanic dead astral coral: lamplit chambers hollowed in its branches, faint bioluminescence everywhere, brine and ozone in the air. The Chain farms the living coral still creeping along the outer hull for medicine and dye, and the whole place sings low when the currents run through it.
+
+**Secret:** one whole wing has gone grey and silent where the current thinned, and the Chain's filings still list it "productive."
+**Danger:** a Route Warden checkpoint sits on the approach, and the Chain does not love questions.
+**Opportunity:** the living coral is worth real money to an apothecary like Pell, if you can take a little without being seen.
+
+**Side-gold (150-300 gp):** harvested coral, a discretion tip, or a small Warden bounty. (Destination for the **Sealed and Sworn** job.)
+
 # THE TOLLMARCH: the chokepoint
 
 *Contested space, thick with hazards, and the only shortcut outward. Tethyn's.*
@@ -116,9 +125,34 @@ Arriving is the scene. The system is *right*. The star is right, the planet is r
 
 ---
 
+## EMBER & RIME
+**A sun-locked asteroid** that faces its star forever on one side and never on the other, and does not turn. Two peoples, two climates, one rock, joined only at a thin seam of survivable twilight.
+
+The blaze side, **Emberhold**, is fire genasi and heat-geared folk in mirror-suits: forges that never cool, glass towers, everything shimmering with heat-haze. The dark side, **Rime**, is ice genasi and cold-geared folk: halls carved from blue ice, hushed and slow, breath fogging even indoors. They meet only at **the Seam**, a band of perpetual dusk where hot air and cold collide in a permanent curtain of steam and a market runs on neutral ground. They almost never cross into each other's sky.
+
+**Secret:** the two sides have not shared a governing council in two generations, and each quietly believes it keeps the other alive. Both are right. Neither will say it.
+**Danger:** the thermal shear at the Seam tears at a hull and a temper alike; step wrong and you freeze or you cook. The feud is one insult from turning cold.
+**Opportunity:** they import everything edible, and they will pay a broker to carry what neither side will hand the other directly. Emberhold sells ember-steel and sun-glass; Rime sells rime-ice and coldfire; each is dear on the far side.
+
+**Who they'll meet:** **Forge-Mother Kessa Kiln**, who runs Emberhold's smiths and has never once felt cold; **Warden Solet of Rime**, an ice genasi who keeps the dark side's ledgers and has never seen the sun; and **a smith and a carver**, one from each side, quietly fond across the Seam while the whole colony pretends not to notice.
+
+**Side-gold (150-400 gp):** arbitrage across the Seam, a forge commission, or a fee to carry a message between two estranged sides.
+**Use it for:** the Rock and Back grain haul (they cannot farm), or as a swap destination for any resupply when you want spectacle instead of sorrow.
+
+## ASHFALL
+**A falling-light drift** in the long wake of a dead comet, where a fine luminous snow falls forever in the near-weightless dark and never lands. Off the current charts, because the Tide that reached it thinned. A family's ancestral markers hang here like lanterns; once a generation the drift's slow orbit brings them into alignment and the line comes home to gather.
+
+**Secret:** Ashfall is dying quietly. The living current that fed it is nearly gone, and this gathering may be the last that can reach it at all.
+**Danger:** none violent. The danger is the finding: two captains have already turned back, unable to make the road resolve.
+**Opportunity:** a family grateful past words to a crew that gets them home, and old wrecks the receding Tide has bared in the drift that nobody else has been able to reach.
+
+**Side-gold (150-300 gp):** a gifted heirloom (roll uncommon on the minor-items list), or salvage from an uncovered wreck.
+
 # THE WINDWARD EDGE: the boundary
 
 *Between charted and unknown. Delverane's, and the crew's neighbours.*
+
+**The Edge itself is a place.** Where two great currents shear, the living sea **breaks like surf**: standing walls of silver light, spray that fizzes and glows on the hull, and edge-runners in tiny craft tacking the wavefronts for salvage and sport. You don't cross it, you **ride it**, surfing a standing wave while your business gets done, and the light-spray leaves a glowing rime on everything for a day. The surf has lately started to move inward, which is the Guttering wearing its most beautiful face. (Destination for the **Passenger Work** job; Aurel Delverane is out here charting exactly that.)
 
 ## THE FARTHING STATION
 **Delverane's forward survey base**, a cluster of tethered modules that gets disassembled and moved outward every few years.

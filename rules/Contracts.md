@@ -16,6 +16,8 @@ Mechanics in `Rules & Systems.md`. Every contract states a **payout, duration in
 
 Posted at the Charter Window. Rotate three or four at a time. Each has one complication and none of them is secretly the main plot, which is what makes them restful. Take-home is `payout − 630` before repairs.
 
+**Side-gold (house rule):** every destination carries one honest extra earner beyond the fee, roughly 100-400 gp, so a clever crew clears more than the sheet says: a salvage, a brokered deal, a bounty, a bet, a favour called in. Kept small so the money reality holds. The fantastical settlements and their side-gold are fleshed in `locations/Worlds & Places.md` and the session-1 companion.
+
 ### Small (10-20 days, 800-2,000 gp)
 
 **The Cold Run** · 1,400 gp · 14 days · 6 tons
@@ -40,7 +42,7 @@ Deliver a giff colonel's champion prize animal to a Bral Reach exhibition, alive
 Forty head of something to a Bral Reach butcher. *Complication:* they are smarter than advertised. One of them can talk. It has opinions about the arrangement.
 
 **The Rock and Back** · 800 gp · 10 days · 12 tons
-Bulk grain, Bral to a Chain waystation. Genuinely routine. *Complication:* none. Let one job be easy. The crew scene in transit is the point.
+Bulk grain to **Ember & Rime**, a sun-locked asteroid where fire genasi live in eternal blaze on one face and ice genasi in eternal freeze on the other, meeting only at a thin twilight Seam (`Worlds & Places.md`). Genuinely routine cargo; the spectacle and the crew are the point. *Complication:* none. *Side-gold:* arbitrage or a broker's fee across the two estranged sides.
 
 ### Medium (20-45 days, 2,500-6,000 gp)
 
