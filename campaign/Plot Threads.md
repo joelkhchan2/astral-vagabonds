@@ -117,6 +117,7 @@ A repeating signal from deep uncharted Wildspace. Ancient. Older than any known 
 ## Future Sessions (Unscheduled)
 
 - **The Inspection.** Vaelros (or a family agent) comes aboard to sweep for anything that could embarrass the house while it angles for the fifth seat, and undermines Estra's authority doing it. Scripted in `House Windsong.md`. Needs a crew and at least one voyage behind them.
+- **The Vellum Visit.** Fires automatically: the first time the crew completes a contract after session 1's Reefside job. Vellum currently believes the lockbox was destroyed in the wreckage and isn't chasing it, they're only watching. Proof the crew is alive, active, and taking work again is enough to send someone to have a conversation, polite and probing, testing what this crew is and whether they're worth further attention. Full context: `campaign/Story Spine.md` and `campaign/Arc Map.md`.
 
 ## Session 1 Hooks
 - **The snail run.** Their first job out of session 0: deliver a crate of snails to another trading post for about 550 gp. A routine courier job to open on. Arrive at the delivery port and something is off -- evacuated, cargo on the docks, no people; or the port is a few hours out of position and the run took a day longer than the charts allow. First Guttering symptom, played for mild confusion, not alarm. Aerion works the supply/logistics angle; Orena reads the currents and keeps watch.
