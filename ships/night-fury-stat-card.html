@@ -1,0 +1,144 @@
+<title>Night Fury Ship Card</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Alfa+Slab+One&family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root {
+    --paper: #fdf1dc; --paper-edge: #e6d2ae;
+    --ink: #1c1608; --ink-soft: #4b3f2a;
+    --red: #7a1f1a; --red-deep: #58150f;
+    --bg: #e9e2d3;
+  }
+  :root:not([data-theme="light"]) { color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #1b1712; } }
+  :root[data-theme="dark"] { --bg: #1b1712; }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); font-family: "Libre Baskerville", Georgia, serif; padding: 28px 16px 70px; color: var(--ink); }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1.page-title { font-family: "Alfa Slab One", serif; color: var(--red-deep); text-align: center; font-size: 1.6rem; margin: 0 0 6px; }
+  p.page-sub { text-align: center; font-family: "IBM Plex Sans", sans-serif; color: var(--ink-soft); font-size: .85rem; margin: 0 0 26px; }
+
+  .toolbar { max-width: 900px; margin: 0 auto 18px; text-align: right; }
+  .btn { font-family: "IBM Plex Sans", sans-serif; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; background: var(--red-deep); color: #fdf1dc; border: none; border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+
+  .card { background: var(--paper); border: 1px solid var(--paper-edge); box-shadow: 0 1px 0 #fff inset, 0 6px 18px rgba(30,20,5,.18); padding: 22px 26px 26px; border-radius: 2px; }
+  .name { font-family: "Alfa Slab One", serif; color: var(--red-deep); font-size: 1.7rem; margin: 0; }
+  .subtitle { font-style: italic; font-size: .92rem; color: var(--ink-soft); margin: 2px 0 8px; }
+
+  .taper { height: 9px; margin: 8px 0; }
+  .taper svg { width: 100%; height: 9px; display: block; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin: 10px 0 4px; }
+  .tile { background: #fffdf7; border: 1px solid var(--paper-edge); border-radius: 4px; padding: 8px 10px; text-align: center; }
+  .tile .k { font-family: "IBM Plex Sans", sans-serif; font-size: .65rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+  .tile .v { font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 1.15rem; color: var(--red-deep); }
+
+  .props p { margin: 4px 0; font-size: .92rem; }
+  .props b { color: var(--red-deep); }
+
+  h4.section { font-family: "Alfa Slab One", serif; font-size: 1rem; color: var(--red-deep); border-bottom: 1px solid var(--red-deep); margin: 16px 0 8px; padding-bottom: 2px; }
+
+  table.weapons { width: 100%; border-collapse: collapse; font-size: .88rem; margin: 6px 0; }
+  table.weapons th { font-family: "IBM Plex Sans", sans-serif; font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; color: var(--red-deep); text-align: left; border-bottom: 1px solid var(--red-deep); padding: 4px 6px; }
+  table.weapons td { padding: 5px 6px; border-bottom: 1px solid var(--paper-edge); vertical-align: top; }
+
+  .trait { margin: 6px 0; font-size: .9rem; line-height: 1.45; }
+  .trait b.traitname { font-style: italic; font-weight: 700; }
+
+  .hpfield { display: inline-flex; align-items: baseline; gap: 6px; font-family: "IBM Plex Sans", sans-serif; margin-left: 6px; }
+  .hpbox { display: inline-block; border: 1px solid var(--ink-soft); background: #fffdf7; width: 60px; height: 20px; border-radius: 2px; vertical-align: middle; }
+  .hplabel { font-size: .68rem; color: var(--ink-soft); letter-spacing: .04em; text-transform: uppercase; }
+
+  .track-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-top: 14px; }
+  .track { border-top: 1px dashed var(--paper-edge); padding-top: 8px; }
+  .notesarea { width: 100%; height: 46px; border: 1px solid var(--ink-soft); background: #fffdf7; border-radius: 2px; margin-top: 4px; }
+
+  .stations { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 6px 0; }
+  .station { background: #fffdf7; border: 1px solid var(--paper-edge); border-radius: 4px; padding: 8px 10px; }
+  .station .k { font-family: "IBM Plex Sans", sans-serif; font-weight: 700; font-size: .78rem; color: var(--red-deep); text-transform: uppercase; letter-spacing: .04em; }
+  .station p { margin: 3px 0 0; font-size: .84rem; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar { display: none; }
+    .card { box-shadow: none; border: 1px solid #ccc; }
+  }
+</style>
+
+<div class="toolbar no-print"><button class="btn" onclick="window.print()">Print / Save as PDF</button></div>
+
+<div class="wrap">
+  <h1 class="page-title">Vehicle Stat Block</h1>
+  <p class="page-sub">Full build detail and money in <code>ships/Night Fury.md</code>; action economy in <code>rules/Rules &amp; Systems.md</code> &sect;8. This page is the table reference, with boxes for tracking current HP and shots by hand.</p>
+
+  <div class="card">
+    <p class="name">Night Fury</p>
+    <p class="subtitle">Colossal object (Sturdy Trader), crew capacity 11 &middot; unnamed captain of record: Estra Vane</p>
+
+    <div class="taper"><svg viewBox="0 0 400 9" preserveAspectRatio="none"><polygon points="0,4.5 400,0 400,9" fill="#7a1f1a"/></svg></div>
+
+    <div class="tiles">
+      <div class="tile"><div class="k">Armor Class</div><div class="v">19 (+Plating I)</div></div>
+      <div class="tile"><div class="k">Hit Points</div><div class="v">250</div></div>
+      <div class="tile"><div class="k">Damage Threshold</div><div class="v">20</div></div>
+      <div class="tile"><div class="k">Speed</div><div class="v">~45 ft.</div></div>
+      <div class="tile"><div class="k">Cargo</div><div class="v">20 tons</div></div>
+      <div class="tile"><div class="k">Air</div><div class="v">120 days</div></div>
+    </div>
+    <p class="props" style="margin:8px 0 0;font-size:.82rem;color:var(--ink-soft)">Damage threshold: a single hit under 20 does nothing to the hull. Speed: Trader 55 ft., &minus;10 ft. for the Sturdy hull, +5 ft. from the Trim Rig, which also holds attitude when unhelmed. 100 million miles/day in open space.</p>
+
+    <div class="hpfield"><span class="hplabel">Current HP</span><span class="hpbox"></span> <span class="hplabel">/ 250</span></div>
+
+    <div class="taper"><svg viewBox="0 0 400 9" preserveAspectRatio="none"><polygon points="0,4.5 400,0 400,9" fill="#7a1f1a"/></svg></div>
+
+    <div class="props">
+      <p><b>Crew</b> 11 (running with 7); one seat is always the helm</p>
+      <p><b>Hull</b> Sturdy Trader, Danforth Certified Hulls (prior-service)</p>
+      <p><b>Helm</b> Coilworks Mk IV (standard); piloting requires an attuned spellcaster holding concentration (Intelligence save to maintain it)</p>
+      <p><b>Mobility</b> Trim Rig (+5 ft., holds attitude unhelmed)</p>
+      <p><b>Life Support</b> none beyond base air envelope</p>
+    </div>
+
+    <div class="taper"><svg viewBox="0 0 400 9" preserveAspectRatio="none"><polygon points="0,4.5 400,0 400,9" fill="#7a1f1a"/></svg></div>
+
+    <h4 class="section">Weapons</h4>
+    <table class="weapons">
+      <tr><th>Weapon</th><th>Attack</th><th>Damage</th><th>Crew / Notes</th></tr>
+      <tr>
+        <td>Ballista &times;2</td>
+        <td>+6 to hit, range 120/480 ft.</td>
+        <td>16 (3d10) piercing</td>
+        <td>Sureshot Rotator (aim = bonus action), Ready Magazine (load = bonus action); 2 gunners fire one, 3 gunners fire both in the same round. 50 standard shots.</td>
+      </tr>
+      <tr>
+        <td>Ram (blunt)</td>
+        <td>One attack, no weapon crew required</td>
+        <td>Hull's listed ram damage</td>
+        <td>The <em>Night Fury</em> takes half the damage dealt back, applied after her own damage threshold.</td>
+      </tr>
+    </table>
+
+    <div class="taper"><svg viewBox="0 0 400 9" preserveAspectRatio="none"><polygon points="0,4.5 400,0 400,9" fill="#7a1f1a"/></svg></div>
+
+    <h4 class="section">Crew Stations</h4>
+    <div class="stations">
+      <div class="station"><div class="k">Pilot</div><p>Flying is free. One maneuver per round: Evasive Action, Full Burn, Ram, or Boarding Action.</p></div>
+      <div class="station"><div class="k">Gunner</div><p>Crews a ballista. See the weapons table for the action-economy math.</p></div>
+      <div class="station"><div class="k">Engineer</div><p>Emergency Patch: Technology or Intelligence DC 12, ship regains HP equal to the engineer's level, once per encounter.</p></div>
+      <div class="station"><div class="k">Coordinator</div><p>Once per round: grant advantage, impose disadvantage, or let a station act again out of order.</p></div>
+    </div>
+
+    <div class="taper"><svg viewBox="0 0 400 9" preserveAspectRatio="none"><polygon points="0,4.5 400,0 400,9" fill="#7a1f1a"/></svg></div>
+
+    <div class="trait"><b class="traitname">Reactive Repair</b> (Tack, if aboard and not otherwise engaged). When the ship takes damage exceeding its damage threshold, reduces that damage by 10.</div>
+    <div class="trait"><b class="traitname">She Talks Back.</b> Not a mechanical trait. Tack will insist otherwise.</div>
+
+    <div class="track-grid">
+      <div class="track"><span class="hplabel">Ballista shots remaining</span><div class="hpbox" style="width:80px"></div></div>
+      <div class="track"><span class="hplabel">Repairs owed (20 gp/HP)</span><div class="hpbox" style="width:80px"></div></div>
+    </div>
+    <div class="track" style="margin-top:10px"><span class="hplabel">Conditions / Notes</span><div class="notesarea"></div></div>
+  </div>
+</div>

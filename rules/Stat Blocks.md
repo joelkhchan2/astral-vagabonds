@@ -178,20 +178,22 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ---
 
 ## BRASSICA "BRASS" THORNGAGE
-*Small humanoid (halfling), Medic / Cook* · **CR 1** (200 XP)
+*Small ooze (plasmoid), Medic / Cook* · **CR 1** (200 XP)
 
-**AC** 14 (leather) · **HP** 32 (7d6 + 7) · **Speed** 25 ft.
+**AC** 14 (leather, fitted oddly) · **HP** 32 (7d6 + 7) · **Speed** 25 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
 | 8 (−1) | 18 (+4) | 12 (+1) | 14 (+2) | 12 (+1) | 16 (+3) |
 
 **Skills** Deception +5, Insight +3, Persuasion +5, Sleight of Hand +6; thieves' tools +6
+**Damage Resistances** poison
+**Condition Immunities** poisoned
 **Senses** passive Perception 11 · **Languages** Common, Halfling, Thieves' Cant
 
-***Lucky.*** When Brass rolls a 1 on a d20, she can reroll and must use the new roll.
+***Amorphous.*** Brass can move through a space as narrow as 1 inch wide without squeezing, which she uses constantly and never explains.
 
-***Brave.*** Advantage on saves against being frightened.
+***Spongy.*** Advantage on saving throws against being poisoned, and resistance to poison damage.
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. **It always costs something**, and she will mention what, later, at an inconvenient moment.
 
