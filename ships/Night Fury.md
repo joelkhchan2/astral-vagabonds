@@ -1,14 +1,14 @@
-# The Ship *(currently unnamed)*
+# The *Night Fury*
 
 > **Ship character sheet**, built from Session Zero (Aug 17, 2026 — character creation, ship outfitting, crew hiring). Source recording preserved in `transcripts/2026-08-17 Session Zero (transcript).md`. This replaces the previous pre-migration `The Last Honest Deal.md`, which described a differently-statted ship under the old premise.
 >
-> **On the name: the ship has no name.** At the table the crew chose to run her *nameless* and trade on Captain Estra Vane's reputation instead. "The Last Honest Deal" — the Major's closing line ("that's gonna be the last honest deal you ever make out there") — lives only in the GM's private notes and is **not** the ship's name. Rename this file the day the crew christens her; until then that silence is itself a character note. See *The Ship as a Character* below.
+> **On the name:** at the table the crew initially chose to run her *nameless* and trade on Captain Estra Vane's reputation instead. "The Last Honest Deal" — the Major's closing line ("that's gonna be the last honest deal you ever make out there") — lived only in the GM's private notes and was never adopted. The crew has since christened her the ***Night Fury***. This file was renamed from `The Ship (unnamed).md` to match. See *The Ship as a Character* below.
 
 ---
 
 ## Profile
 
-**Name:** *none* — the crew has not christened her; she flies unnamed on the Captain's reputation *(see above)*
+**Name:** *Night Fury*
 **Class / Profile:** Sturdy Trader *(see `Ship Construction.md`)*
 **Style:** timber hull, standard astral-trader silhouette, sails; the deliberately-kept detail is the **tattered flag of the old ship**, salvaged from the wreck and re-stitched onto this hull by Tack. Silhouette otherwise unclaimed — the crew never picked a creature shape.
 **AC:** 19 · **HP:** 250 · **Damage Threshold:** 20 *(an attack must deal 20+ damage to mark the hull at all)*
@@ -77,7 +77,7 @@ She should feel like a member of the crew — a living space with a personality.
 - **"She's just talking."** She's a timber ship and she creaks. **Tack** — the autognome chief engineer who treats her like a beloved dog — insists the creaking is her asking for attention, and goes off to fix a plank whenever she does. Pure flavor, no mechanic. **If the creaking ever stops, something is very wrong.**
 - **Tack's flag.** He saved the tattered colours from the old ship and re-attached them to this one. That flag is the ship's memory of the crew she replaced, and the through-line of Tack's grief and redemption.
 - **The empty berths.** Complement 11, running 7. Right now that's just poverty and a small loyal crew — but a made-up bunk nobody sleeps in is a hook waiting to be loaded. Let the table decide what, if anything, it means.
-- **No name.** She goes unnamed by choice, flying on the Captain's reputation. A ship the crew won't name is its own quiet character beat — whether they ever christen her, and what they choose, will say exactly how they feel about home.
+- **The *Night Fury*.** The crew flew her nameless for a while, trading on the Captain's reputation instead — until they christened her. What they chose says exactly how they feel about home.
 
 **Moments to deploy across the campaign:**
 - The first time she takes serious damage and the whole crew rallies to save her.
