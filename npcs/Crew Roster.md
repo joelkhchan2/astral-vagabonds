@@ -1,4 +1,4 @@
-# Crew Roster -- The *Last Honest Deal*
+# Crew Roster -- The *Night Fury*
 
 Total complement: 12 (2 PCs + 10 NPCs)
 

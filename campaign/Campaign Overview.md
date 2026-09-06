@@ -92,7 +92,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `Rules & Systems.md` | Canon reference, corrections, the voyage loop, bastions, ship combat, money |
 | `Ship Construction.md` | Classes, profiles, style, add-ons, signature features |
 | `Stat Blocks.md` | Numbers for the crew, Flurry, and the family |
-| `The Ship (unnamed).md` | The crew's ship character sheet, built from Session Zero (still unnamed) |
+| `Night Fury.md` | The crew's ship character sheet, built from Session Zero |
 | `Bastions.md` | Full 2024 bastion framework, the facility catalog, and the ship Voyage & Downtime events table |
 | `Bastions — Player Guide.md` | Plain-language player handout for running the ship as a bastion |
 | `Ship Combat — Player Guide.md` | Plain-language player handout for the ship-combat stations & maneuvers (companion to Rules & Systems §8) |

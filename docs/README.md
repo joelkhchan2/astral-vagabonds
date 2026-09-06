@@ -16,5 +16,5 @@ Note: the private repo must allow Pages (GitHub Free serves Pages from public re
 ## Notes
 - Edits are **per-browser** — each person who opens it keeps their own copy; nothing syncs between the DM and players. If you later want one shared, synced sheet, that needs a hosted backend (say the word).
 - Fan-made; not affiliated with or endorsed by Wizards of the Coast. Uses Google Fonts (Cinzel, Spectral, IBM Plex Mono).
-- Source of the stat values: `../ships/The Ship (unnamed).md`.
+- Source of the stat values: `../ships/Night Fury.md`.
 </content>

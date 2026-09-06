@@ -15,4 +15,4 @@ Raw Granola meeting recordings for the Astral Vagabonds campaign, pulled to file
 - **Aerion** (the transcript's "Arion/Orion", half-elf quartermaster) is **Priscilla's** character — the ship's **Bosun / Quartermaster**.
 - **Orena** (the transcript's astral-elf navigator) is **Gabrielle's** character — **Navigator & backup helmsman** (helm-in-training).
 
-`CLAUDE.md` and the campaign docs have been updated to match this mapping (earlier drafts had the two roles reversed). Also: the ship is **currently unnamed** — "The Last Honest Deal" in the Session Zero notes was only the GM's private working title and was **not** adopted by the crew. The canonical write-up of all this is `ships/The Ship (unnamed).md`.
+`CLAUDE.md` and the campaign docs have been updated to match this mapping (earlier drafts had the two roles reversed). Also: the ship flew unnamed for a while — "The Last Honest Deal" in the Session Zero notes was only the GM's private working title and was **not** adopted by the crew. She has since been christened the ***Night Fury***. The canonical write-up of all this is `ships/Night Fury.md`.

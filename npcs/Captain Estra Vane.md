@@ -31,7 +31,7 @@ Over the following eighteen months:
 
 The Compact was dismantled in eighteen months. Six former captains scattered across Wildspace -- some angry at Estra, some bought, one imprisoned, two dead.
 
-She acquired the *Last Honest Deal* at a CIV salvage auction. Paid with the last of her savings. Named it herself. **The name is not ironic. It's a thesis statement.**
+She acquired the *Night Fury* at a CIV salvage auction. Paid with the last of her savings. She flew it nameless for a long while, running on reputation alone -- the crew christened it later. **Nothing about how she runs this ship is ironic. It's a thesis statement.**
 
 ### The Seven Compact Captains (Recurring NPC Pool)
 1. **Estra Vane** -- herself. Circled on her chart. Still fighting.
@@ -50,7 +50,7 @@ After the Compact fell, Estra was drowning. No ship, no crew, blacklisted. A fig
 
 The Broker operates in the gaps between organizations. Trades in leverage, not currency. Bets on outcomes and arranges conditions to ensure they pay off. Think: Wildspace loan shark dealing in event futures. **The Broker is a faceless force** -- never appears on screen, operates only through intermediaries, dead drops, and proxied instructions. The dread is in never knowing who's working for them or when the next favor will be called.
 
-**The deal:** The *Last Honest Deal* (the auction was rigged in her favor), a clean-enough CIV charter, and enough seed money to crew up. In exchange: **three favors. Unspecified. Non-negotiable. Called in at the Broker's discretion.**
+**The deal:** The *Night Fury* (the auction was rigged in her favor), a clean-enough CIV charter, and enough seed money to crew up. In exchange: **three favors. Unspecified. Non-negotiable. Called in at the Broker's discretion.**
 
 ### Favor Status
 - **Favor #1:** Completed. Estra doesn't talk about it. Sable was on the crew when it happened. Sable doesn't talk about it either -- which is how you know it was bad.
