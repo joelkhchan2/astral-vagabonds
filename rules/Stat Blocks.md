@@ -13,7 +13,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, plus **Flurry**. The blocks for Sable, Dr. Quill, Reeve, Morrow, and Wysp are kept further down under "Not Aboard," since they auditioned but were not hired and may join later.
 
 ## CAPTAIN ESTRA VANE
-*Medium humanoid (human), Captain / Main Helmsman* · **CR 2** (450 XP)
+*Medium humanoid (human), Fighter (Battle Master), Captain / Main Helmsman* · **CR 2** (450 XP)
 
 **AC** 15 (studded leather, no shield, never fussed over it) · **HP** 58 (9d8 + 18) · **Speed** 30 ft.
 
@@ -27,20 +27,22 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***Fifteen Years at the Bottom.*** Estra has advantage on saving throws against being frightened or charmed. She has already lost everything once and it doesn't move her the way it used to.
 
-***Once a Commodore (Recharges after a Short Rest).*** As a bonus action, Estra can steady one ally within 30 feet who can see or hear her: they gain advantage on their next attack roll, save, or ability check. She rarely uses it on herself.
+***Superiority Dice (d8, x3).*** Estra regains all expended superiority dice after a short or long rest. She spends them on the maneuvers below.
 
 **Actions**
 ***Rapier.*** *Melee:* +4 to hit, reach 5 ft. *Hit:* 6 (1d8 + 2) piercing. Estra is competent with a blade and visibly bored by needing one; she would rather the conversation had gone differently.
 
-***Command the Deck (1/Combat).*** Estra directs one crew station (Pilot, Gunner, Engineer, or Coordinator, `Rules & Systems.md` &sect;8) to act immediately, out of the normal order. This does not require her to be the Coordinator herself.
+***Rallying Cry (Maneuver, 1 Superiority Die).*** Bonus action: one ally within 60 feet who can see or hear her gains temporary hit points equal to the superiority die roll (1d8) plus her Charisma modifier. She rarely uses it on herself.
+
+***Command the Deck (Maneuver, 1 Superiority Die).*** Estra directs one crew station (Pilot, Gunner, Engineer, or Coordinator, `Rules & Systems.md` &sect;8) to act immediately, out of the normal order. This does not require her to be the Coordinator herself.
 
 **Reactions**
-***Steady Hand.*** When the ship's pilot would lose concentration from damage, Estra can spend her reaction to grant them advantage on the concentration save, whether or not she's the one flying.
+***Steady Hand (Maneuver, 1 Superiority Die).*** When the ship's pilot would lose concentration from damage, Estra spends a superiority die to grant them advantage on the concentration save, whether or not she's the one flying.
 
 ---
 
 ## TACK
-*Small construct, Chief Engineer* · **CR 1** (200 XP)
+*Small construct (autognome), Artificer, Chief Engineer* · **CR 1** (200 XP)
 
 **AC** 15 (armored casing) · **HP** 33 (6d6 + 12) · **Speed** 25 ft.
 
@@ -54,7 +56,9 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***Construct Nature.*** Tack doesn't eat, drink, breathe, or sleep. **He does not count against the ship's air envelope**, which nobody has thought about and Priscilla will eventually notice.
 
-***Built for Something Larger.*** Tack was made for a vessel far bigger than this one. He has advantage on all checks made to repair or diagnose a ship.
+***Built for More.*** Tack was made for a vessel far bigger than this one. He has advantage on all checks made to repair or diagnose a ship.
+
+***Artificer Spellcasting.*** Intelligence is Tack's spellcasting ability (spell save DC 13). He always has **mending** prepared and casts it at will on anything that will hold still.
 
 **Actions**
 ***Wrench.*** *Melee:* +2 to hit, reach 5 ft. *Hit:* 3 (1d6) bludgeoning.
@@ -98,16 +102,16 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ---
 
 ## FINNICK "FINNY" GROLES
-*Small humanoid (halfling), Rigger / Deckhand / backup Gunner* · **CR 1/2** (100 XP)
+*Small humanoid (halfling), Rogue (Thief), Rigger / Deckhand / backup Gunner* · **CR 1** (200 XP)
 
-**AC** 13 · **HP** 27 (5d8 + 5) · **Speed** 25 ft., climb 20 ft.
+**AC** 14 (studded leather) · **HP** 33 (6d8 + 6) · **Speed** 25 ft., climb 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
 | 12 (+1) | 16 (+3) | 12 (+1) | 10 (+0) | 12 (+1) | 16 (+3) |
 
-**Skills** Acrobatics +5, Athletics +3, Insight +3, Perception +3, Persuasion +5
-**Senses** passive Perception 13 · **Languages** Common, Halfling, and gossip in four more
+**Skills** Acrobatics +5, Athletics +3, Insight +3, Perception +3, Persuasion +5, Sleight of Hand +5; thieves' tools +5
+**Senses** passive Perception 13 · **Languages** Common, Halfling, Thieves' Cant, and gossip in four more
 
 ***Lucky (Halfling).*** When Finny rolls a 1 on the d20 for an attack, ability check, or save, he can reroll and must use the new roll.
 
@@ -115,10 +119,14 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***Sure Hands Aloft.*** Finny has advantage on checks made to rig sails, secure cargo, or crew a ship weapon in a hurry. He is the fastest hands on deck.
 
-***Cannot Keep a Secret.*** Any secret told to Finny has a real chance of surfacing within 1d4 days. He will feel terrible about it.
+***Fast Hands.*** Finny can use the bonus action granted by Cunning Action to make a Sleight of Hand check, use thieves' tools to disarm a trap or open a lock, or take the Use an Object action. Confirmed in play at Reefside, session 1, on a factor's own pocket.
+
+***Cannot Keep a Secret.*** Any secret told to Finny has a real chance of surfacing within 1d4 days. He will feel terrible about it. His own secrets are the one exception; see `npcs/Finny.md`.
 
 **Actions**
 ***Boarding Knife.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 6 (1d4 + 3) piercing.
+
+***Sneak Attack (1/Turn).*** +7 (2d6) damage on an attack with advantage, or when an ally is adjacent to the target.
 
 **Reactions**
 ***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny shouts something so irrelevant that the attacker has disadvantage on the roll.
@@ -178,40 +186,39 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ---
 
 ## BRASSICA "BRASS" THORNGAGE
-*Small ooze (plasmoid), Medic / Cook* · **CR 1** (200 XP)
+*Medium humanoid (human), Cleric (Life Domain), Medic / Cook* · **CR 2** (450 XP)
 
-**AC** 14 (leather, fitted oddly) · **HP** 32 (7d6 + 7) · **Speed** 25 ft.
+**AC** 13 (chain shirt) · **HP** 33 (6d8 + 6) · **Speed** 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 8 (−1) | 18 (+4) | 12 (+1) | 14 (+2) | 12 (+1) | 16 (+3) |
+| 10 (+0) | 12 (+1) | 13 (+1) | 12 (+1) | 16 (+3) | 13 (+1) |
 
-**Skills** Deception +5, Insight +3, Persuasion +5, Sleight of Hand +6; thieves' tools +6
-**Damage Resistances** poison
-**Condition Immunities** poisoned
-**Senses** passive Perception 11 · **Languages** Common, Halfling, Thieves' Cant
+**Skills** Insight +5, Medicine +8, Persuasion +3
+**Senses** passive Perception 13 · **Languages** Common, Halfling (picked up from years crewing with small folk)
 
-***Amorphous.*** Brass can move through a space as narrow as 1 inch wide without squeezing, which she uses constantly and never explains.
-
-***Spongy.*** Advantage on saving throws against being poisoned, and resistance to poison damage.
+> **On the "Cleric" of it:** her gift isn't worship, in this setting nobody's is. Brass channels vital energy on instinct, the same family of phenomenon as psionics or the Tide itself, and would be genuinely confused if you asked her which god. She'd say the same thing Estra would: it works, and that's enough to know.
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. **It always costs something**, and she will mention what, later, at an inconvenient moment.
 
-***No License, All Instinct.*** Brass can look at a creature and know what is wrong with it: proficiency (expertise) on Medicine checks to diagnose, and she never asks to be called doctor.
-
 ***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, roll a **d4** for the day's result (DM tracks what it means). Dinner aboard is a gamble and the crew have made peace with it.
 
+***Spellcasting.*** Brass is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). She has the following cleric spells prepared:
+- Cantrips (at will): *guidance*, *spare the dying*
+- 1st level (4 slots): *bless*, *cure wounds*, *healing word*
+- 2nd level (2 slots): *lesser restoration*, *prayer of healing*
+
+***Channel Divinity: Preserve Life (1/Short Rest).*** Brass restores a number of hit points equal to five times her cleric level (15), divided among any creatures within 30 feet as she chooses, and no creature can be brought above half its hit point maximum this way.
+
 **Actions**
-***Dagger.*** *Melee or Ranged:* +6 to hit, reach 5 ft. or range 20/60. *Hit:* 6 (1d4 + 4) piercing.
+***Mace.*** *Melee:* +2 to hit, reach 5 ft. *Hit:* 3 (1d6) bludgeoning. She almost never needs it.
 
-***Sneak Attack (1/Turn).*** +7 (2d6) damage when she has advantage or an ally is adjacent to the target.
-
-***Field Patch (3/Day).*** One creature within 5 feet regains **2d8 + 2 hit points**, or a dying creature becomes stable. Improvised, effective, and she will complain about the supplies.
+***Field Patch (Cure Wounds, cast at 1st level).*** One creature she touches regains **1d8 + 3 hit points**. Improvised, effective, and she will complain about the supplies the whole time.
 
 ---
 
 ## OZGOOD "OZ" HAMMERFALL
-*Medium humanoid (giff), Ship's Security* · **CR 3** (700 XP)
+*Medium humanoid (giff), Fighter, Ship's Security* · **CR 3** (700 XP)
 
 **AC** 16 (breastplate) · **HP** 82 (11d10 + 22) · **Speed** 30 ft.
 

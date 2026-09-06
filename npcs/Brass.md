@@ -1,6 +1,6 @@
 # Brassica "Brass" Thorngage
 
-Medic / Cook. Plasmoid. Scrappy, fast-talking, resourceful, and always mid-angle. She never got her medical license, which is why she's cheap and won't be called doctor, and she can look at a person and know what's wrong with them before they finish the sentence.
+Medic / Cook. Human, a battlefield-trained cleric who channels vital energy on instinct rather than in anyone's name. Scrappy, fast-talking, resourceful, and always mid-angle. She never got her medical license, which is why she's cheap and won't be called doctor, and she can look at a person and know what's wrong with them before they finish the sentence.
 
 ## The surface read
 The crew's fixer as much as its medic. Brass has "a guy" at every port, tracks debts and favors and contacts on a system of hundreds of napkins only she understands, and treats dinner as a second job she took under protest. She's a medic first and reminds everyone of it whenever they complain about the food.
@@ -20,7 +20,7 @@ Brass was most of the way through earning her medical license, placed as ship's 
 
 That one decision cost her twice, in the same breath: it cost the neogi a sale, and neogi price a debt like that against your life and remember your face across a hundred systems, and it cost her the placement that would have finished her training, she had to vanish before she could ever sit for the license. The debt and the lost credential aren't two separate wounds. They're the same five minutes.
 
-She has been mobile and off-book ever since. The napkins, the aliases, the guy at every port, the refusal to be a doctor on any record, all of it is a plasmoid staying one jump ahead of a slaver's ledger, wearing the unfinished credential as a joke so nobody asks about the real one. She has never told the crew, because telling them makes them a target too, and because she isn't sure they'd stay.
+She has been mobile and off-book ever since. The napkins, the aliases, the guy at every port, the refusal to be a doctor on any record, all of it is a woman staying one jump ahead of a slaver's ledger, wearing the unfinished credential as a joke so nobody asks about the real one. She has never told the crew, because telling them makes them a target too, and because she isn't sure they'd stay.
 
 **Trigger (from Plot Threads):** a neogi ship is encountered, or a contact at a port recognizes her and the wrong people learn where she flies. The scene is the test: does she run to keep the crew clear, or does the crew refuse to let her? Found family, put on the scale.
 

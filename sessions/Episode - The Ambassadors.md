@@ -4,7 +4,7 @@
 
 ## The pitch
 
-The crew makes planetfall (or docks at an isolated habitat / generation ship / sky-island) somewhere so far off the lanes that **the locals have never seen a spelljammer, and don't believe in them.** To these people, a ship descending out of the black sky crewed by a water genasi, an astral elf, a plasmoid, a talking-to-the-hull engineer, and *a small dragon* is not "a trade vessel." It is an omen. The crew are the aliens. They are here to buy fresh water and offload cargo; the locals are fairly sure they are here to end the world.
+The crew makes planetfall (or docks at an isolated habitat / generation ship / sky-island) somewhere so far off the lanes that **the locals have never seen a spelljammer, and don't believe in them.** To these people, a ship descending out of the black sky crewed by a water genasi, an astral elf, a woman who mends wounds with a touch, a talking-to-the-hull engineer, and *a small dragon* is not "a trade vessel." It is an omen. The crew are the aliens. They are here to buy fresh water and offload cargo; the locals are fairly sure they are here to end the world.
 
 **Why they're stopping:** pick the least dramatic reason -- topping off water and air, a repair that needs a gravity well, waiting out a hazard, a cargo drop the manifest insists exists here. The comedy engine is that the crew's stakes are *tiny and mundane* ("we just need forty barrels of water and we'll go") while the locals' stakes are *cosmic and total* ("the Sky People have come, as the old warnings said"). Neither side can hear the other over their own frame.
 
@@ -22,7 +22,7 @@ Whichever you pick, the load-bearing fact is: **they are not stupid, they are no
 Every crew member's ordinary behavior reads to the locals as a portent. Lean into it:
 
 - **The astral elf (Aerion) doesn't age and speaks too well** -- clearly the deathless herald from the warnings. He's just trying to negotiate a water price. His perfect manners make it *worse*.
-- **The plasmoid (Brass) is a person made of colour and hunger** -- the locals have a very specific and very wrong idea about what she eats. She is offended. She is also, unhelpfully, hungry.
+- **Brass closes a wound with a touch and no scar** -- to people without that word for it, that's not medicine, that's a bargain with something, and somebody always wants to know what she took in trade. She's offended by the accusation and, unhelpfully, can't actually explain the trick either.
 - **Tack talks to the ship and the ship talks back** -- to the locals this is a person conversing with a god, or a demon, or the sky itself. Tack finds the whole thing very normal and cannot understand the fuss.
 - **Flurry.** A dragon. It's a *baby* and it's *adorable* and to the locals it is the beast from the worst page of the book. Flurry, sensing fear, does something either terrifying or unbearably cute at the exact wrong moment.
 - **Oz keeps trying to reassure people** in his big, sincere, heavily-armed way, which is the single most frightening thing that has happened to this settlement in a century.
