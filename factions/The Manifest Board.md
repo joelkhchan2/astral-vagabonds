@@ -2,7 +2,11 @@
 
 The CIV's public ranking of every chartered vessel, updated quarterly and posted at every major port. Ranked on contract completion rate, cargo value moved, client satisfaction, incident reports, and financial standing.
 
-**351 chartered vessels.** New charters start **unranked**. The crew appears at **348th** after their first completed job, and Finny throws a party.
+**351 chartered vessels, at session 1.** New charters start **unranked**. The crew appeared at **348th** after their first completed job, and Finny threw a party.
+
+> **Updated for session 2: 350 chartered vessels, crew now 347th.** The *Grendel's Wake* was destroyed outright at the end of session 1 (Reefside's own defense cannons, in the aftermath of Bex Halloway's ambush; see `sessions/Session 1.md`). A hull that no longer exists can't hold a charter, so her slot is gone rather than refilled, and everyone below her shifts up one. **The crew did not climb. A neighbour's ship went down and left a gap they fell into.** That's worth playing as a real, complicated beat, especially for Estra: the Board is the one wound she can't be dry about, and being handed a rank instead of earning it is its own kind of insult. Finny will absolutely still throw a party. Estra will not.
+
+<!-- Historical note: docs written before session 2 (Campaign Bible.md, Contracts.md M1, Captain Estra Vane.md, Finny.md, The Pale Reach.md) still say 348th out of 351 -- that's correct as the crew's starting position and needs no fix. Only this file tracks the live number. -->
 
 > **Why this matters more than it looks.** The Board is the one objective measure of an independent crew, and Aerion's family dismisses it because it ranks independent operators and they don't consider those real. Simply climbing it never changes their minds. **Making the Board matter does**, and that turns out to be the same project as the nomadic living-sky network, which is also the lever that eventually lets Aerion take over the company. See `campaign/Story Spine.md` and `House Windsong.md`.
 
@@ -12,17 +16,16 @@ The CIV's public ranking of every chartered vessel, updated quarterly and posted
 
 These six are the crew's immediate neighbourhood for a long time, and they should become recurring furniture. Half of them are jokes. Half of them are not.
 
-**351. *Vermilion Hour*:** Squid-class, owner unknown. **On fire.** Has been on fire for six months. The fire is a bound elemental in a cargo hold nobody can open, and the CIV cannot decide whether an unextinguished ship counts as operational. The *Vermilion Hour* files perfect paperwork every quarter. Nobody has ever met her captain.
+**350. *Vermilion Hour*:** Squid-class, owner unknown. **On fire.** Has been on fire for six months. The fire is a bound elemental in a cargo hold nobody can open, and the CIV cannot decide whether an unextinguished ship counts as operational. The *Vermilion Hour* files perfect paperwork every quarter. Nobody has ever met her captain.
 
-**350. *Steadfast Promise*:** impounded at the Rock of Bral for smuggling for eleven months. Cargo still sealed in the hold. Her captain, **Dov Errin**, drinks at the same dockside bar every night and will explain the appeal to anyone. He is not wrong and it does not help him.
+**349. *Steadfast Promise*:** impounded at the Rock of Bral for smuggling for eleven months. Cargo still sealed in the hold. Her captain, **Dov Errin**, drinks at the same dockside bar every night and will explain the appeal to anyone. He is not wrong and it does not help him.
 
-**349. *Amity's Reward*:** derelict. Hasn't moved in two years. Still chartered because the fees are paid annually by an account nobody has traced. *Worth pulling on eventually.*
+**348. *Amity's Reward*:** derelict. Hasn't moved in two years. Still chartered because the fees are paid annually by an account nobody has traced. *Worth pulling on eventually.*
 
-**348. THE CREW.** Starting position after job one.
+**347. THE CREW.** Started at 348 after job one; moved to 347 by default at the next quarterly posting when the *Grendel's Wake* dropped off the board entirely. See the update note above.
 
-**347. *Grendel's Wake*:** Trader-class, captained by **Bex Halloway**, human, fifties, permanently amused. She has been 347th for four years and has stopped trying. She likes it here. When the crew passes her she will buy them a drink and mean it, and she will be back above them within two quarters, and neither of them will ever quite understand how. **She and Estra have real history**, unresolved: a contract Bex wanted once that Estra's crew took instead, which by Bex's own telling ended in a burning ship that wasn't Estra's. Estra deflects hard the one time it's come up so far ("she's no one to judge, look at her, she fumbled from 330 to the mid-340s"). Worth pulling on eventually.
-> **Escalated, session 1.** The friendly-rival read broke: Bex ambushed the *Night Fury* for real leaving Reefside, boarding fight and all, and lost badly, her ship destroyed outright by the port's own defense cannons in the aftermath. **Her personal fate is deliberately left open** (on death's door, not confirmed dead), decide it on purpose before her rank or crew status changes on this board. See `sessions/Session 1.md`.
-> **This is the rival to lean on.** Not an antagonist. A friendly ceiling. "We passed the *Grendel's Wake*" is a whole session's motivation, and losing the position again is a better sting than any villain provides.
+> **What happened to Bex.** The friendly-rival read broke at the end of session 1: Bex ambushed the *Night Fury* for real leaving Reefside, boarding fight and all, and lost badly, her ship destroyed outright by the port's own defense cannons in the aftermath. A destroyed hull can't hold a charter, so the *Grendel's Wake* is gone from the Board, not just fallen further down it. **Her personal fate is deliberately left open** (on death's door, not confirmed dead) and staying offscreen for now, decide it on purpose whenever the table wants that scene. See `sessions/Session 1.md`.
+> **The ceiling is gone, and that's worth noticing out loud.** Bex was the rival to lean on, a friendly one, a rank to chase and lose. With her slot gone, the crew's nearest neighbour going forward is the *Quiet Sum* below, cordial but not warm the same way. Don't rush to replace her with a new friendly face; let the gap sit for a session or two first.
 
 **346. *Quiet Sum*:** Cutter-class, captained by **Ollo Trask**, dohwar (penguin-like merchant). Runs tiny, fast, high-margin courier work with a crew of four. Ruthlessly efficient, relentlessly cheerful, and will absolutely undercut them on a contract and apologize sincerely while doing it.
 
@@ -35,9 +38,9 @@ These six are the crew's immediate neighbourhood for a long time, and they shoul
 
 ## The battle at the bottom: continuity
 
-The crew starts at 348 of 351, and they will *live* down here for a long time (breaking the low 300s is a Tier 1 achievement). Lean into it: **their rivals, their scraps, their friendships, and their small victories should almost all come from this same handful of bottom-of-the-Board faces**, not from a parade of strangers. That's the continuity dividend of being nobody, the same eight ships keep turning up at the same cheap berths, the same Charter Window, the same bar.
+The crew started at 348 of 351 and is now 347 of 350, and they will *live* down here for a long time regardless (breaking the low 300s is a Tier 1 achievement). Lean into it: **their rivals, their scraps, their friendships, and their small victories should almost all come from this same handful of bottom-of-the-Board faces**, not from a parade of strangers. That's the continuity dividend of being nobody, the same handful of ships keep turning up at the same cheap berths, the same Charter Window, the same bar.
 
-- **Their friendly ceiling:** the *Grendel's Wake* (Bex). Passing her is a whole session's motivation; losing the spot again stings better than any villain.
+- **Their friendly ceiling, currently vacant:** the *Grendel's Wake* (Bex) is gone from the board entirely, not just fallen further. Don't rush a replacement in; let the gap be felt for a session or two before the *Quiet Sum* below or a new face fills the role.
 - **Their fight:** the *Cutlass Sunday* (Vex). The recurring aggressor: a race, a robbed cargo, a contested salvage, or an actual boarding.
 - **Their conscience:** the *Kettle* (Weatheralls). The people they protect, and the life they could settle for.
 - **Their mirror:** the jokes below them (on fire, impounded, derelict), where they're one bad quarter from ending up, and the reason Aerion counts every coin.
@@ -70,7 +73,7 @@ They will not meet these people for a long time. They should hear the names cons
 
 **6. *Jumper*:** rank ~12 to rank 6 in a single quarter, on one job. No house, no prior record, leader unlisted on the public listing. Three different versions of the job that got them here circulate dockside and no two agree on what it was: a salvage, a rescue, a kill. Leave this one thin. It's a hook for later, not a finished NPC yet.
 
-**7. *The Second Ledger*:** House Darkshade, the founding house currently losing the race for the vacant fifth seat and playing dirty about it (see `Houses & Holdings.md`). Captained by **Thessaly Darkshade**, a second daughter doing exactly what Aerion is doing: proving she doesn't need the inheritance to matter. She'd recognize his situation on sight. Whether she's warmer or colder about the resemblance than he expects is open, and so is whether she knows what her house is doing behind the scenes to a certain 348th-ranked vessel.
+**7. *The Second Ledger*:** House Darkshade, the founding house currently losing the race for the vacant fifth seat and playing dirty about it (see `Houses & Holdings.md`). Captained by **Thessaly Darkshade**, a second daughter doing exactly what Aerion is doing: proving she doesn't need the inheritance to matter. She'd recognize his situation on sight. Whether she's warmer or colder about the resemblance than he expects is open, and so is whether she knows what her house is doing behind the scenes to a certain low-ranked vessel that just quietly picked up a founding house's attention.
 
 **8. *Slack Water*:** a small outrider that doesn't fight the current so much as ride with one, in formation with a kindori pod along routes no other captain can find. Captained by **Sael Rowe**. Delivers, impossibly, on time, and nobody's certain whether she's reading the whales or they're choosing the route for her. The one name on this list that could, someday, recognize exactly what Orena is carrying without being told.
 
@@ -89,11 +92,12 @@ They will not meet these people for a long time. They should hear the names cons
 | 344 | *Cutlass Sunday* | Rimmon Vex | Hostile-ish | The fight: races, robbed cargo, boardings |
 | 345 | *Kettle* | the Weatheralls | Warm | The conscience: neighbours to protect (robbed in M6) |
 | 346 | *Quiet Sum* | Ollo Trask | Rival, cordial | The undercutter: loses them contracts, apologises sincerely |
-| 347 | *Grendel's Wake* | Bex Halloway | Friendly | The ceiling: the rank to chase and lose |
-| **348** | **the crew** | **Estra Vane** | (home) | **home** |
-| 349 | *Amity's Reward* | (none) | Mystery | The derelict whose fees someone keeps paying |
-| 350 | *Steadfast Promise* | Dov Errin | Neutral, chatty | The impounded philosopher at the bar |
-| 351 | *Vermilion Hour* | unknown | Joke, then not | The ship that's still on fire |
+| **347** | **the crew** | **Estra Vane** | (home) | **home; moved up when 347 vacated, not by climbing** |
+| 348 | *Amity's Reward* | (none) | Mystery | The derelict whose fees someone keeps paying |
+| 349 | *Steadfast Promise* | Dov Errin | Neutral, chatty | The impounded philosopher at the bar |
+| 350 | *Vermilion Hour* | unknown | Joke, then not | The ship that's still on fire |
+
+*The **Grendel's Wake** (Bex Halloway) no longer appears; destroyed at Reefside, session 1. See the update note at the top of this file.*
 
 **The top ten**
 

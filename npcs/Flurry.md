@@ -6,7 +6,7 @@
 
 A young silver dragon Aerion found **as an egg on a treasure hunt with this crew ~4.5 years ago**, in a hoard they turned up early (before the outfit's luck ran out). Now ~2 years old -- "a puppy with a breath weapon." He reluctantly, then secretly devotedly, took her on; he dotes, dresses her up, and denies all of it. She **will not fight** (hard rule -- see the stat block's *Devoted* clause) and is frightened of loud things. Cold breath, silver scale, understands Common, speaks Draconic.
 
-**A live, silly hook: the International Space Dog Show.** Established session 1: Aerion has a tailor at the Float Market making Flurry custom show outfits, and he's floated entering her. Fully optional, but worth paying off, a warm, low-stakes future scene (and a reason for Aerion to keep insisting, coldly, that dressing her up is purely practical).
+**A live, silly hook: the International Space Dog Show.** Established session 1: Aerion has a tailor at the Float Market making Flurry custom show outfits, and he's floated entering her. Fully optional, but worth paying off, a warm, low-stakes future scene (and a reason for Aerion to keep insisting, coldly, that dressing her up is purely practical). Full hook written up and ready to run: `sessions/Episode - The International Space Dog Show.md`.
 
 ## Off duty: her life aboard (she isn't just Aerion's shadow)
 
@@ -62,6 +62,7 @@ She scales with the crew: wyrmling now, potentially *young* by the campaign's en
 
 ## Guardrails
 
+- **Mechanically thin, on purpose.** Her profile in `rules/Stat Blocks.md` is not a full monster block, no ability scores, no CR, nothing to optimize. AC 13, HP 2, one breath weapon at 2d6 cold with no paralysis option. If a scene needs Flurry to matter, it should be about who she is, not what she rolls. Two hit points is the mechanical expression of "she is not built to survive being hit," which is the whole point of the *Devoted* clause below.
 - **Non-combat, a baby, PG -- always.** The heritage expresses as *sensitivity and mystery,* not power; she gets more attuned, never scarier. No dragon-in-peril horror, no killing her for pathos -- the tone won't take it (`campaign/Story Spine.md`).
 - **She's Priscilla's.** Float the heritage reveal, the grown/phasing moment, and any "someone wants the dragon" plot to Priscilla first -- it's really Aerion's story.
 - **Barometer, not oracle.** She points; the players solve. Never let Flurry hand them a conclusion.

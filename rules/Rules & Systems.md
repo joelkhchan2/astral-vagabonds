@@ -145,6 +145,18 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 
 **The thesis: the vehicle is bought, the home is earned.** Hull, helm, plating, guns and instruments cost gold. Rooms and what happens inside them cost levels. They cannot buy a home; they accumulate one by surviving together.
 
+### Facilities chosen so far
+
+Both PCs are level 5, which unlocks the pooled bastion's **two free facilities** from the level-5 row above. They don't have to be chosen at once, but the table shouldn't sit on both indefinitely, either.
+
+**Aerion has chosen Storehouse (the cargo hold), locked in going into session 2.** Mechanically, a Storehouse runs the **Trade** bastion order: the facility can buy or sell goods at a favorable rate between voyages, and cargo kept there doesn't need to be itemized line by line on the manifest the way the rest of the hold does. That's exactly the kind of quiet, deniable space a warded box benefits from, and precisely why Aerion wanted it formalized rather than left as "somewhere in the hold": a Storehouse is a real facility with a real function, not a euphemism, and having one gives him a defensible, on-the-books answer for where things live aboard his ship. Play it as a small, satisfying character beat, the quartermaster finally gets a room with his name on the order sheet.
+
+**The second facility is still open.** A live session 2 decision, not a DM ruling, since the bastion is pooled and either PC can propose one. Candidates worth putting in front of the table: **Library** (the chart room, Orena's natural fit, and it runs the **Research** order, useful for exactly the kind of survey-data and delisted-route digging M4 and the lockbox both reward), **Sanctuary** (the quiet berth, a room for sitting with things, no order attached, pure found-family value), or **Arcane Study** (the helm room, formalizing what Estra and Orena already use daily). Don't decide this one for them; surface the options and let the choice say something about what the crew values right now.
+
+### How a facility order actually resolves
+
+Keep it as light as everything else in this section. When a PC wants to spend a bastion turn on a facility's order (Trade for the Storehouse, Research for a Library, etc.), it's a scene, not a subsystem, roll the relevant DMG-style check if there's real uncertainty, narrate the result, and move on. **One bastion turn per voyage leg still governs**, per section 5; a facility order and a bastion event aren't the same thing and don't compete for the same turn unless the story wants them to collide on purpose.
+
 ## 8. Ship Combat: Crew Stations & Maneuvers **[H]**
 
 Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.

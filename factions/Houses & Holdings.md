@@ -124,6 +124,8 @@ The fifth founding house. Cartographers, like Vellum, but outward-facing: they c
 
 The official account is mismanagement. Vellum's position is that Carrow overextended into worthless space and paid for it.
 
+> **Vellum's position is also a lie of omission, and there's paper proving it.** The crew's lockbox (`campaign/Story Spine.md`, "What session 1 already changed") holds internal Vellum correspondence showing the house watched the Amberwake fail in real time, understood roughly what was happening, said nothing, and quietly bought up Carrow's abandoned routes and contracts while backing the "mismanagement" story in public. Vellum didn't cause Carrow's fall. It profited from being the only house that knew what it actually was and let Carrow take the blame alone.
+
 > **House Carrow was the Guttering's first casualty, four decades before anyone had a word for it.**
 >
 > The vacancy the entire family plot revolves around exists because a road stopped existing. Nobody connected it, because at the time there was nothing to connect it to.

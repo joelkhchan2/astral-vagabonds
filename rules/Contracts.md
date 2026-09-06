@@ -23,8 +23,16 @@ Posted at the Charter Window. Rotate three or four at a time. Each has one compl
 **The Cold Run** · 1,400 gp · 14 days · 6 tons
 Food, medicine, and mining parts to **Hallow's Rest**, a struggling terminator colony on the Verge (`Worlds & Places.md`). *Complication:* the colony is cut off. Their own supply runner set out for the depot and **couldn't find it**; the route wouldn't resolve, and they nearly starved. They're proud, grateful, and can't fully pay in coin, so expect part of the fee tendered in ore at a poor rate. **This is the session-1 job with the Guttering seed, the first symptom with a body count.**
 
-**Sealed and Sworn** · 1,800 gp · 12 days · 2 tons
-A Sallow Chain house wants a locked case moved without questions. *Complication:* it's legal, it's boring, and a Route Warden inspection at the halfway point will take four hours the crew doesn't have. *(A no-questions job for a house that keeps its favours. Peeking risks the seal.)*
+> **Sealed and Sworn is done, session 1.** Played as the actual session-1 job (`sessions/Session 1.md`), not a Cold Run resupply as originally planned. Off the board now; see the three new postings below, rotated in for session 2.
+
+**Quiet Water** · 1,300 gp · 15 days · 3 tons
+A tightly-run Chain family wants their eldest chaperoned to a betrothal meeting on a station two rungs up the social ladder from anywhere this crew has ever docked. *Complication:* the family patriarch has heard the *Night Fury*'s name from somewhere he won't specify and keeps almost-mentioning it. *(A quiet, low-danger job that puts a founding-house-adjacent stranger at close range right when the crew least wants one. Nothing has to come of it. Something can, if you want it to.)*
+
+**The Ledger Run** · 2,100 gp · 18 days · 5 tons
+A Delverane clerk needs a season's worth of survey backlogs hand-carried between two archive stations, because the usual courier route "isn't resolving cleanly" and nobody there wants to say more than that on paper. *Complication:* one of the two stations is Reefside. *(A soft, deniable way to put the crew back at the scene of last session's ambush, on someone else's errand this time.)*
+
+**Two Chairs Short** · 2,600 gp · 22 days · 4 tons
+A small independent outfit lost half its crew to a rival's counter-offer mid-contract and needs a hull to finish the job before the penalty clause bites. *Complication:* the outfit is ranked in the mid-340s, close enough to be a face the crew half-recognizes from the Compass Rose, and finishing their job well is the kind of favour that gets remembered at the bottom of the Board. *(A chance to build a new bottom-of-the-Board relationship now that the Grendel's Wake's slot has gone quiet; see `factions/The Manifest Board.md`.)*
 
 **Passenger Work** · 900 gp · 16 days · 1 ton
 Carry a Delverane surveyor and her instruments to the Windward Edge. *Complication:* she is thirty-one, relentlessly curious, and asks Orena questions about the currents and the tales she chases that nobody has ever asked. *(This is Aurel Delverane travelling under her own name and not mentioning the ship she captains.)*

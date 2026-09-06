@@ -26,6 +26,8 @@ Bought and outfitted at session 0 for roughly 35,650 gp of the 50,000 budget.
 | Life support | none (base 120-day air) |
 | Signature feature | none chosen |
 | Fittings / instruments / aftermarket | none |
+| Bastion facility (level 5, first of two) | **Storehouse** -- Aerion's, the cargo hold formalized. Runs the Trade order. See `rules/Rules & Systems.md` §6. |
+| Bastion facility (level 5, second of two) | not yet chosen -- open going into session 2 |
 
 ## Action Economy in Ship Combat
 
@@ -68,7 +70,7 @@ Aerion's previous ship blew up when the cook took his nightly smoke beside pre-l
 ### Lower deck (below the gravity plane, gravity inverted)
 - **Crew quarters:** berths for the seven, close.
 - **Captain's quarters:** Estra's, sparse.
-- **Cargo holds:** inventory tagged and tracked because Aerion insists.
+- **Cargo holds:** inventory tagged and tracked because Aerion insists. One bay is now the **Storehouse**, formally, his first bastion facility, and where a certain warded lockbox currently lives.
 - **Engineering:** Tack's workshop, organized chaos, every component named.
 - **Sick bay / galley stores:** Brass's, doubling as her medical cabinet, which she restocks out of her own wages at Bral.
 

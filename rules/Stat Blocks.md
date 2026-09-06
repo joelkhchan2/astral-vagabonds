@@ -298,18 +298,9 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ---
 
 ## FLURRY (RHEE)
-*Medium dragon (silver wyrmling), Ship's Dragon* · **CR 2** (450 XP)
+*Tiny dragon (silver wyrmling), Ship's Dragon* -- not a combatant, by design. No ability scores, saves, skills, or CR here on purpose; see the guardrail in `npcs/Flurry.md`.
 
-**AC** 17 (natural armor) · **HP** 45 (6d8 + 18) · **Speed** 30 ft., fly 60 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 18 (+4) | 10 (+0) | 17 (+3) | 12 (+1) | 11 (+0) | 15 (+2) |
-
-**Saving Throws** Dex +2, Con +5, Wis +2, Cha +4
-**Skills** Perception +4, Stealth +2
-**Damage Immunities** cold
-**Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 14 · **Languages** Draconic, understands Common
+**AC** 13 (natural) · **HP** 2 · **Speed** 20 ft., fly 40 ft.
 
 ***Two Years Old.*** Flurry is a puppy with a breath weapon.
 
@@ -318,11 +309,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 > ***Devoted.*** **Flurry will not fight** unless Aerion is reduced below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die. This is a hard limitation, not a roleplay suggestion. She is a child and she is frightened of loud things.
 
 **Actions**
-***Bite.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 9 (1d10 + 4) piercing.
-
-***Breath Weapons (Recharge 6).*** Untrained, so this recharges on a 6 rather than 5-6. Flurry uses one:
-- ***Cold Breath.*** 15-foot cone, DC 13 Con save, 18 (4d8) cold damage, half on a success.
-- ***Paralyzing Breath.*** 15-foot cone, DC 13 Con save or paralyzed for 1 minute, repeating the save at the end of each turn.
+***Breath Weapon (Recharge 6).*** 15-foot cone, DC 13 Constitution save, 2d6 cold damage, half as much on a success. That's the whole combat kit, no bite, no second option, no save-or-lose. If a fight ever comes down to Flurry, something has already gone very wrong.
 
 ---
 

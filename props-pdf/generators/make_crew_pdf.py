@@ -120,34 +120,36 @@ def draw_card(c, data):
     taper_rule(c, x0, y, CONTENT_W)
     y -= 16
 
-    # ability score table
-    abbrs = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
-    col_w = CONTENT_W / 6
-    c.setFont(FONT_LABEL_B, 8.5)
-    c.setFillColor(RED_DEEP)
-    for i, ab in enumerate(abbrs):
-        cx = x0 + i * col_w + col_w / 2
-        c.drawCentredString(cx, y, ab)
-    y -= 12
-    c.setFont(FONT_BODY, 9.5)
-    c.setFillColor(INK)
-    for i, val in enumerate(data["abilities"]):
-        cx = x0 + i * col_w + col_w / 2
-        c.drawCentredString(cx, y, val)
-    y -= 10
-    taper_rule(c, x0, y, CONTENT_W)
-    y -= 14
-
-    c.setFont(FONT_BODY, 9.5)
-    for line in data["props"]:
+    # ability score table -- skipped for creatures with no "abilities" entry (Flurry: mechanically thin on purpose)
+    if data.get("abilities"):
+        abbrs = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
+        col_w = CONTENT_W / 6
+        c.setFont(FONT_LABEL_B, 8.5)
+        c.setFillColor(RED_DEEP)
+        for i, ab in enumerate(abbrs):
+            cx = x0 + i * col_w + col_w / 2
+            c.drawCentredString(cx, y, ab)
+        y -= 12
+        c.setFont(FONT_BODY, 9.5)
         c.setFillColor(INK)
-        lines = wrap_text(line, FONT_BODY, 9.5, CONTENT_W)
-        for ln in lines:
-            c.drawString(x0, y, ln)
-            y -= 12
-    y -= 2
-    taper_rule(c, x0, y, CONTENT_W)
-    y -= 16
+        for i, val in enumerate(data["abilities"]):
+            cx = x0 + i * col_w + col_w / 2
+            c.drawCentredString(cx, y, val)
+        y -= 10
+        taper_rule(c, x0, y, CONTENT_W)
+        y -= 14
+
+    if data.get("props"):
+        c.setFont(FONT_BODY, 9.5)
+        for line in data["props"]:
+            c.setFillColor(INK)
+            lines = wrap_text(line, FONT_BODY, 9.5, CONTENT_W)
+            for ln in lines:
+                c.drawString(x0, y, ln)
+                y -= 12
+        y -= 2
+        taper_rule(c, x0, y, CONTENT_W)
+        y -= 16
 
     if data.get("traits"):
         y = draw_traits(c, x0, y, CONTENT_W, data["traits"])
@@ -258,22 +260,14 @@ CREW = [
                   ("Headbutt.", "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.")],
          reactions=[("After You.", "When an ally within 5 ft. is hit by an attack, Oz swaps places with them and takes the damage instead.")]),
 
-    dict(id="flurry", name="Flurry (Rhee)", subtitle="Medium dragon (silver wyrmling), Ship's Dragon · CR 2 (450 XP)",
-         ac="17 (natural armor)", hp="45 (6d8 + 18)", speed="30 ft., fly 60 ft.",
-         abilities=["18 (+4)", "10 (+0)", "17 (+3)", "12 (+1)", "11 (+0)", "15 (+2)"],
-         props=["Saving Throws Dex +2, Con +5, Wis +2, Cha +4",
-                "Skills Perception +4, Stealth +2",
-                "Damage Immunities cold",
-                "Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14",
-                "Languages Draconic, understands Common",
-                "Challenge 2 (450 XP)"],
+    dict(id="flurry", name="Flurry (Rhee)", subtitle="Tiny dragon (silver wyrmling), Ship's Dragon · not a combatant, by design",
+         ac="13 (natural)", hp="2", speed="20 ft., fly 40 ft.",
+         abilities=None,
+         props=None,
          traits=[("Two Years Old.", "Flurry is a puppy with a breath weapon."),
                  ("Lunar Blood (latent).", "An uncanny sensitivity to the astral. No combat effect. See npcs/Flurry.md."),
                  ("Devoted.", "Flurry will not fight unless Aerion is below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die.")],
-         actions=[("Bite.", "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage."),
-                  ("Breath Weapon (Recharge 6).", "Flurry uses one option below."),
-                  ("Cold Breath.", "15-ft. cone, each creature makes a DC 13 Constitution save, taking 18 (4d8) cold damage on a failure, half as much on a success."),
-                  ("Paralyzing Breath.", "15-ft. cone, DC 13 Constitution save or paralyzed for 1 minute, repeating the save at the end of each of its turns.")]),
+         actions=[("Breath Weapon (Recharge 6).", "15-ft. cone, DC 13 Constitution save, 2d6 cold damage, half as much on a success. That's the whole combat kit.")]),
 ]
 
 
