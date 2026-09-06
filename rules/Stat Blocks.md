@@ -12,6 +12,33 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, plus **Flurry**. The blocks for Sable, Dr. Quill, Reeve, Morrow, and Wysp are kept further down under "Not Aboard," since they auditioned but were not hired and may join later.
 
+## CAPTAIN ESTRA VANE
+*Medium humanoid (human), Captain / Main Helmsman* · **CR 2** (450 XP)
+
+**AC** 15 (studded leather, no shield, never fussed over it) · **HP** 58 (9d8 + 18) · **Speed** 30 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+|---|---|---|---|---|---|
+| 12 (+1) | 14 (+2) | 14 (+2) | 16 (+3) | 15 (+2) | 13 (+1) |
+
+**Saving Throws** Int +6, Wis +5
+**Skills** Insight +5, Investigation +6, Persuasion +4, Piloting +6 (see `Rules & Systems.md` &sect;8)
+**Senses** passive Perception 12 · **Languages** Common, Elvish, Draconic
+
+***Fifteen Years at the Bottom.*** Estra has advantage on saving throws against being frightened or charmed. She has already lost everything once and it doesn't move her the way it used to.
+
+***Once a Commodore (Recharges after a Short Rest).*** As a bonus action, Estra can steady one ally within 30 feet who can see or hear her: they gain advantage on their next attack roll, save, or ability check. She rarely uses it on herself.
+
+**Actions**
+***Rapier.*** *Melee:* +4 to hit, reach 5 ft. *Hit:* 6 (1d8 + 2) piercing. Estra is competent with a blade and visibly bored by needing one; she would rather the conversation had gone differently.
+
+***Command the Deck (1/Combat).*** Estra directs one crew station (Pilot, Gunner, Engineer, or Coordinator, `Rules & Systems.md` &sect;8) to act immediately, out of the normal order. This does not require her to be the Coordinator herself.
+
+**Reactions**
+***Steady Hand.*** When the ship's pilot would lose concentration from damage, Estra can spend her reaction to grant them advantage on the concentration save, whether or not she's the one flying.
+
+---
+
 ## TACK
 *Small construct, Chief Engineer* · **CR 1** (200 XP)
 

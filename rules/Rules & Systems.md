@@ -147,9 +147,13 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 
 ## 8. Ship Combat: Crew Stations & Maneuvers **[H]**
 
-Standing rule as of the *Deal*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
+Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
 
 Every PC and any crew NPC actually named in a fight sits at a **station** for the encounter. Stations aren't classes — anyone can crew any of them, and the same person can swap stations between encounters or between rounds if the fiction allows it (moving from the gun deck to the helm takes movement, not an action).
+
+**Ruling, settled at the table (session 1):** holding the helm's concentration is an **Intelligence** save, not Wisdom or Survival. The helm reads physical star-charts against reality in real time, that's reasoning against a record, not instinct or wilderness-sense. A headband of intellect is a legitimate build choice for anyone training up as a second pilot.
+
+**Ship HP is pooled at the hull, not the crew.** One HP total for the ship; nobody aboard has a separate "ship damage" pool, and a hit that clears the damage threshold comes off that one number.
 
 ### Pilot
 Whoever's at the helm. **Flying costs nothing** — per section 2, steering the ship is not an action or movement spent, so the pilot's own action is free every round. That free action is spent on one of the **maneuvers** below, or held to do something else entirely (fight, cast, aid another station).
@@ -161,10 +165,21 @@ Whoever's at the helm. **Flying costs nothing** — per section 2, steering the 
 | **Evasive Action** | Attacks against the ship have disadvantage until the start of the pilot's next turn | The ship's own weapons have disadvantage this round — nobody can aim while she's juking |
 | **Full Burn** | Ship's speed effectively doubles this round (close, disengage, or run) | Attacks against the ship have advantage until the start of the pilot's next turn — hard to hide going that fast |
 | **Ram** | If the hull has a ram, make one attack using the ram's listed damage, no weapon crew required | The ship takes half the damage it deals back, applied after the damage threshold |
-| **Boarding Action** | Close and lock with a target ship the *Deal*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
+| **Boarding Action** | Close and lock with a target ship the *Night Fury*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
 
 ### Gunner
 Per section 1, each weapon has a crew size and an action count to fire (ballista: 3, crew of 3; mangonel: 4, crew of 4-5). A PC or NPC gunner contributes their action to that sequence same as always — this section doesn't change weapon crewing, it just names the station.
+
+**Working the math with weapon upgrades (settled at the table, session 1).** The *Night Fury*'s ballistae carry the **Sureshot Rotator** (aim can be done as a bonus action) and **Ready Magazine** (load can be done as a bonus action). A ballista still needs three things done, **load, aim, fire**, but load and aim can each be done as *either* a bonus action or a full action, gunner's choice; fire always costs an action. Think of each ballista as needing **three units of work** (one of which, fire, must be an action) rather than three fixed crew slots, and spend the ship's pooled actions and bonus actions on it however makes sense that round.
+
+- **Two dedicated gunners fire one ballista in a round**, no third crew needed: one person spends their action on fire and their bonus on load, the other spends just their bonus on aim (their action is free for anything else, including feeding the second ballista).
+- **Three dedicated gunners can fire both ballistae in one round.** Between three people you have three actions and three bonus actions, six units total, exactly enough to cover both guns' load+aim+fire (six units). Split it however the table likes; it doesn't have to be an even 3-and-3 per gun, as long as every gun's fire comes from an action and every gun's total hits three units.
+- **Fewer than two people on a gun means it doesn't fire that round.** There's no partial credit for a lone gunner short a bonus action.
+
+### Boarding: two different things with the same name
+**The Pilot's Boarding Action maneuver** (above) is about the *ships*: closing and locking them together so neither can disengage. It's a contested check, it's the pilot's one maneuver for the round, and it doesn't move anyone.
+
+**A PC or NPC jumping to the other ship** is a separate, personal choice, not the maneuver. Once the ships are close enough (grappled by a Boarding Action, or just flown alongside), anyone can spend their own movement and an Athletics or Acrobatics check to physically cross, same as clearing any other gap, and fight there as an individual. The ships don't need to be locked for a PC to leap it if the pilot's flown them side by side on purpose; locking just guarantees the gap stays crossable.
 
 ### Engineer
 Not full repair — that's still 20 gp/HP and downtime, per section 4. In combat, an Engineer can spend their action on:
