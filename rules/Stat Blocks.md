@@ -29,23 +29,23 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Old Compact Discipline.*** Advantage on saving throws against being frightened.
 
-***One Good Blade (Fighting Style: Dueling).*** While wielding a melee weapon in one hand and no other weapon, Estra deals +2 damage with it.
+***One Good Blade.*** While wielding a melee weapon in one hand and no other weapon, Estra deals +2 damage with it.
 
-***Command of the Deck (Combat Superiority).*** Estra has **4 superiority dice (d8)**, regained on a short or long rest. Save DC to resist a maneuver's effect is **15**.
-- ***Call the Shot (Commander's Strike).*** When Estra takes the Attack action, she can forgo one attack to direct an ally within 30 feet who can hear her: that ally can immediately use its reaction to make one weapon attack, adding the superiority die to the damage.
-- ***No Opening (Parry, Reaction).*** When hit by a melee attack, Estra reduces the damage by the superiority die + her Dex modifier (4).
-- ***Make It Count (Precision Attack).*** After an attack roll but before the result is known, Estra adds the superiority die to the roll.
+***Command of the Deck.*** Estra has **4 superiority dice (d8)**, regained on a short or long rest. Save DC to resist a maneuver's effect is **15**.
+- ***Call the Shot.*** When Estra takes the Attack action, she can forgo one attack to direct an ally within 30 feet who can hear her: that ally can immediately use its reaction to make one weapon attack, adding the superiority die to the damage.
+- ***No Opening (Reaction).*** When hit by a melee attack, Estra reduces the damage by the superiority die + her Dex modifier (4).
+- ***Make It Count.*** After an attack roll but before the result is known, Estra adds the superiority die to the roll.
 
 **Actions**
 ***Multiattack.*** Two attacks, in any combination of the below.
 ***"Dead Reckoning" (Rapier) or Shortsword.*** *Melee:* +7 to hit, reach 5 ft. *Hit:* 10 (1d8 + 6) piercing.
-***"Port" and "Starboard" (Brace of Pistols).*** *Ranged:* +7 to hit, range 30/90. *Hit:* 8 (1d10 + 4) piercing. Both fire without reloading; reloading either after takes an action.
+***"Port" and "Starboard" (Brace of Pistols).*** *Ranged:* +7 to hit, range 30/90. *Hit:* 8 (1d8 + 4) piercing. Both fire without reloading; reloading either after takes an action.
 
 **Bonus Actions**
-***Black Coffee (Second Wind, Recharges after a Short Rest).*** Regains 15 (1d10 + 5) hit points.
+***Black Coffee (Recharges after a Short Rest).*** Regains 10 (1d10 + 5) hit points.
 
 **Reactions**
-***One More Order (Action Surge, Recharges after a Short Rest).*** Takes one additional action on her turn.
+***One More Order (Recharges after a Short Rest).*** Takes one additional action on her turn.
 
 ---
 
@@ -59,25 +59,25 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 | 10 (+0) | 14 (+2) | 14 (+2) | 18 (+4) | 12 (+1) | 10 (+0) |
 
 **Saving Throws** Int +7 · **Proficiency Bonus** +3
-**Skills** **Arcana +10, Investigation +10** (Precision Calibration — expertise), History +4, Perception +4, Insight +4; tinker's tools +7
+**Skills** **Arcana +10, Investigation +10** (expertise), History +4, Perception +4, Insight +4; tinker's tools +7
 **Damage Immunities** poison · **Condition Immunities** charmed, exhaustion, paralyzed, poisoned
 **Senses** darkvision 60 ft., passive Perception 14 · **Languages** Common, Gnomish
 
 ***Construct Nature.*** Tack doesn't eat, drink, breathe, or sleep. **He does not count against the ship's air envelope.**
 
-***Built for More.*** Tack was made for a vessel far bigger than this one. He has advantage on all checks made to repair or diagnose a ship.
+***Built for More.*** Tack has advantage on all checks made to repair or diagnose a ship.
 
-***Many Small Adjustments (Helpful).*** Tack can take the Help action as a bonus action.
+***Many Small Adjustments.*** Tack can take the Help action as a bonus action.
 
-***Skitter (Cunning Action).*** On his turn, Tack can take the Dash, Disengage, or Hide action as a bonus action.
+***Skitter.*** On his turn, Tack can take the Dash, Disengage, or Hide action as a bonus action.
 
 **Actions**
-***Wrench.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 4 (1d6 + 2) bludgeoning.
+***Wrench.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 5 (1d6 + 2) bludgeoning.
 
 ***Field Repair (Recharges after a Short Rest).*** Restores 2d10 hit points to the ship, or fully repairs one disabled ship weapon.
 
 **Reactions**
-***Reactive Repair.*** When the ship takes damage exceeding its damage threshold, Tack reduces that damage by 10.
+***Reactive Repair.*** When the ship takes damage exceeding its damage threshold (after that threshold check is resolved), Tack reduces the damage taken by an amount equal to his sidekick level (currently 5).
 
 ---
 
@@ -113,31 +113,31 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ---
 
 ## FINNICK "FINNY" GROLES
-*Medium humanoid (hadozee), Cook and Deckhand* · **Expert Sidekick 5**
+*Small humanoid (halfling), Deckhand* · **Expert Sidekick 5**
 
-**AC** 13 · **HP** 33 (5d8 + 5) · **Speed** 30 ft., climb 30 ft.
+**AC** 15 (leather) · **HP** 33 (5d8 + 5) · **Speed** 25 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 12 (+1) | 16 (+3) | 12 (+1) | 10 (+0) | 12 (+1) | 18 (+4) |
+| 8 (−1) | 18 (+4) | 12 (+1) | 10 (+0) | 12 (+1) | 16 (+3) |
 
-**Saving Throws** Cha +7 · **Proficiency Bonus** +3
-**Skills** Athletics +4, **Insight +7, Persuasion +10** (Word Travels Fast — expertise), Perception +4; cook's utensils +7
-**Senses** passive Perception 14 · **Languages** Common, Hadozee, and gossip in four more
+**Saving Throws** Dex +7 · **Proficiency Bonus** +3
+**Skills** **Deception +9, Sleight of Hand +10** (expertise), Stealth +7, Persuasion +6, Insight +4; thieves' tools +7
+**Senses** passive Perception 11 · **Languages** Common, Halfling, and gossip in four more
 
-***Glide.*** When Finny falls at least 10 feet, he can spread his skin flaps to move up to 5 feet horizontally per foot descended, taking no falling damage.
+***Lucky.*** When Finny rolls a 1 on a d20, he can reroll and must use the new roll.
 
-***Hot Meal.*** If Finny has cooked in the last 24 hours, then once per short rest one creature who ate can regain **1d8 + 3 hit points** and gains advantage on its next saving throw against fear or exhaustion.
+***Brave.*** Advantage on saves against being frightened.
 
-***Vouching (Helpful).*** Finny can take the Help action as a bonus action.
+***Word on the Street.*** Finny can take the Help action as a bonus action.
 
-***Deckhand's Reflexes (Cunning Action).*** On his turn, Finny can take the Dash, Disengage, or Hide action as a bonus action.
+***Light Fingers.*** On his turn, Finny can take the Dash, Disengage, or Hide action as a bonus action.
 
 **Actions**
-***Cleaver.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 6 (1d6 + 3) slashing.
+***+1 Dagger.*** *Melee or Ranged:* +8 to hit, reach 5 ft. or range 20/60. *Hit:* 7 (1d4 + 5) piercing.
 
 **Reactions**
-***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny shouts something so irrelevant that the attacker has disadvantage on the roll.
+***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny creates a distraction, giving the attacker disadvantage on the roll.
 
 ---
 
@@ -203,7 +203,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 | 8 (−1) | 20 (+5) | 12 (+1) | 14 (+2) | 12 (+1) | 16 (+3) |
 
 **Saving Throws** Dex +8 · **Proficiency Bonus** +3
-**Skills** **Deception +9, Sleight of Hand +11** (Practiced Hands — expertise), Persuasion +6, Insight +4, Perception +4; thieves' tools +8
+**Skills** **Deception +9, Sleight of Hand +11** (expertise), Persuasion +6, Insight +4, Perception +4; thieves' tools +8
 **Senses** passive Perception 14 · **Languages** Common, Halfling, Thieves' Cant
 
 ***Lucky.*** When Brass rolls a 1 on a d20, she can reroll and must use the new roll.
@@ -212,9 +212,9 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces one of the following: a contact (advantage on the next Charisma check made with an NPC at this port), a favor (one non-combat service performed for the party), or an item worth up to 100 gp. Each use adds one mark to Brass's ledger; the DM can spend a mark to introduce a complication tied to that favor at any later point.
 
-***For a Friend (Helpful).*** Brass can take the Help action as a bonus action.
+***For a Friend.*** Brass can take the Help action as a bonus action.
 
-***Slip the Crowd (Cunning Action).*** On her turn, Brass can take the Dash, Disengage, or Hide action as a bonus action.
+***Slip the Crowd.*** On her turn, Brass can take the Dash, Disengage, or Hide action as a bonus action.
 
 **Actions**
 ***Dagger.*** *Melee or Ranged:* +8 to hit, reach 5 ft. or range 20/60. *Hit:* 7 (1d4 + 5) piercing.
@@ -234,23 +234,23 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 **Skills** Athletics +8, Perception +4, Persuasion +5
 **Senses** passive Perception 14 · **Languages** Common, Giff
 
-***Astral Spark.*** Once per turn, when Oz hits with a weapon attack, he deals an extra 4 (1d8) force damage.
+***Standard Procedure.*** Once per turn, when Oz hits with a weapon attack, he deals an extra 4 (1d8) force damage.
 
 ***Impeccable.*** Oz has advantage on Charisma checks made to be polite to someone who does not expect it, which is more often decisive than it sounds.
 
-***Dead Aim (Improved Critical).*** Oz's weapon attacks score a critical hit on a roll of 19 or 20.
+***Firm Handshake.*** Oz's weapon attacks score a critical hit on a roll of 19 or 20.
 
-***Shake It Off (Second Wind, Recharges after a Short Rest).*** Bonus action; regains 15 (1d10 + 5) hit points.
+***Shake It Off (Recharges after a Short Rest).*** Bonus action; regains 10 (1d10 + 5) hit points.
 
 **Actions**
-***"The Chaperone."*** Oz's signature weapon — an oversized flintlock that fires like a cannon and, gripped by the barrel, swings like a maul.
-- *Cannonshot (Ranged):* +8 to hit, range 60/240. *Hit:* 16 (2d10 + 5) piercing. Must be reloaded (one action) after firing.
-- *Maul Bash (Melee):* +8 to hit, reach 5 ft. *Hit:* 12 (2d6 + 5) bludgeoning.
+***"The Chaperone," Cannonshot.*** *Ranged:* +8 to hit, range 60/240. *Hit:* 16 (2d10 + 5) piercing. Must be reloaded (one action) after firing.
 
-***Headbutt.*** *Melee:* +8 to hit, reach 5 ft. *Hit:* 13 (2d6 + 5) bludgeoning, and the target must succeed on a **DC 16 Strength save** or be knocked prone.
+***"The Chaperone," Maul Bash.*** *Melee:* +8 to hit, reach 5 ft. *Hit:* 12 (2d6 + 5) bludgeoning.
+
+***Headbutt.*** *Melee:* +8 to hit, reach 5 ft. *Hit:* 12 (2d6 + 5) bludgeoning, and the target must succeed on a **DC 16 Strength save** or be knocked prone.
 
 **Reactions**
-***"After You" (Defender).*** When a creature within 5 feet of Oz attacks a target other than him, and Oz can see the attacker, he can impose disadvantage on that attack roll.
+***"After You."*** When a creature within 5 feet of Oz attacks a target other than him, and Oz can see the attacker, he can impose disadvantage on that attack roll.
 
 ---
 
