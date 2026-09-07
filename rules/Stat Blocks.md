@@ -29,12 +29,12 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Old Compact Discipline.*** Advantage on saving throws against being frightened. She has already had the worst day of her career. It set the bar low.
 
-***Fighting Style: Dueling.*** While wielding a melee weapon in one hand and no other weapon, Estra deals +2 damage with it.
+***One Good Blade (Fighting Style: Dueling).*** While wielding a melee weapon in one hand and no other weapon, Estra deals +2 damage with it. She has carried the same rapier since the Compact fell and has never once explained why.
 
-***Combat Superiority.*** Estra has **4 superiority dice (d8)**, regained on a short or long rest. She spends them on the maneuvers below; save DC to resist a maneuver's effect is **15**.
-- ***Commander's Strike.*** When Estra takes the Attack action, she can forgo one attack to direct an ally within 30 feet who can hear her: that ally can immediately use its reaction to make one weapon attack, adding the superiority die to the damage. This is her default move — she delegates the kill and watches.
-- ***Parry (Reaction).*** When hit by a melee attack, Estra reduces the damage by the superiority die + her Dex modifier (4).
-- ***Precision Attack.*** After an attack roll but before the result is known, Estra adds the superiority die to the roll. Saved for when it actually has to land.
+***Command of the Deck (Combat Superiority).*** Estra has **4 superiority dice (d8)**, regained on a short or long rest, representing the split-second calls she's made from a bridge for thirty years. She spends them on the maneuvers below; save DC to resist a maneuver's effect is **15**.
+- ***Call the Shot (Commander's Strike).*** When Estra takes the Attack action, she can forgo one attack to direct an ally within 30 feet who can hear her: that ally can immediately use its reaction to make one weapon attack, adding the superiority die to the damage. This is her default move — she delegates the kill and watches. Orders as suggestions, remember.
+- ***Never Raises Her Voice (Parry, Reaction).*** When hit by a melee attack, Estra reduces the damage by the superiority die + her Dex modifier (4). She doesn't flinch. She barely moves.
+- ***Make It Count (Precision Attack).*** After an attack roll but before the result is known, Estra adds the superiority die to the roll. Saved for the one hit that actually has to land.
 
 **Actions**
 ***Multiattack.*** Two attacks, in any combination of the below.
@@ -42,10 +42,10 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ***Brace of Pistols.*** *Ranged:* +7 to hit, range 30/90. *Hit:* 8 (1d10 + 4) piercing. Estra carries two — she can fire both without reloading, but must spend an action to reload after.
 
 **Bonus Actions**
-***Second Wind (Recharges after a Short Rest).*** Regains 15 (1d10 + 5) hit points.
+***Black Coffee (Second Wind, Recharges after a Short Rest).*** Regains 15 (1d10 + 5) hit points. She doesn't stop for it. She just keeps talking, tin mug in hand, and it happens.
 
 **Reactions**
-***Action Surge (Recharges after a Short Rest).*** Takes one additional action on her turn. She rarely announces when she's using it.
+***One More Order (Action Surge, Recharges after a Short Rest).*** Takes one additional action on her turn. She rarely announces when she's using it.
 
 > **Playing her in combat:** Estra is not the one who wants the kill shot. She spends most fights setting someone else up (Commander's Strike) or quietly no-selling a hit (Parry) and only closes distance herself when the fight has already gone wrong. If she's fighting to win personally, that's the tell that something's off.
 
@@ -61,7 +61,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 | 10 (+0) | 14 (+2) | 14 (+2) | 18 (+4) | 12 (+1) | 10 (+0) |
 
 **Saving Throws** Int +7 · **Proficiency Bonus** +3
-**Skills** **Arcana +10, Investigation +10** (expertise), History +4, Perception +4, Insight +4; tinker's tools +7
+**Skills** **Arcana +10, Investigation +10** (Precision Calibration — expertise), History +4, Perception +4, Insight +4; tinker's tools +7
 **Damage Immunities** poison · **Condition Immunities** charmed, exhaustion, paralyzed, poisoned
 **Senses** darkvision 60 ft., passive Perception 14 · **Languages** Common, Gnomish
 
@@ -69,9 +69,9 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Built for Something Larger.*** Tack was made for a vessel far bigger than this one. He has advantage on all checks made to repair or diagnose a ship.
 
-***Helpful.*** Tack can take the Help action as a bonus action.
+***Many Small Adjustments (Helpful).*** Tack can take the Help action as a bonus action — he's already three steps into fixing it before anyone finishes asking.
 
-***Cunning Action.*** On his turn, Tack can take the Dash, Disengage, or Hide action as a bonus action — usually to get out from under something before it finishes falling.
+***Skitter (Cunning Action).*** On his turn, Tack can take the Dash, Disengage, or Hide action as a bonus action — usually to get out from under something before it finishes falling.
 
 **Actions**
 ***Wrench.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 4 (1d6 + 2) bludgeoning.
@@ -124,7 +124,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 | 12 (+1) | 16 (+3) | 12 (+1) | 10 (+0) | 12 (+1) | 18 (+4) |
 
 **Saving Throws** Cha +7 · **Proficiency Bonus** +3
-**Skills** Athletics +4, **Insight +7, Persuasion +10** (expertise), Perception +4; cook's utensils +7
+**Skills** Athletics +4, **Insight +7, Persuasion +10** (Word Travels Fast — expertise), Perception +4; cook's utensils +7
 **Senses** passive Perception 14 · **Languages** Common, Hadozee, and gossip in four more
 
 ***Glide.*** When Finny falls at least 10 feet, he can spread his skin flaps to move up to 5 feet horizontally per foot descended, taking no falling damage.
@@ -133,9 +133,9 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Cannot Keep a Secret.*** Any secret told to Finny has a real chance of surfacing within 1d4 days. He will feel terrible about it.
 
-***Helpful.*** Finny can take the Help action as a bonus action — usually to loudly vouch for someone he's known for six days.
+***Vouching (Helpful).*** Finny can take the Help action as a bonus action — usually to loudly vouch for someone he's known for six days.
 
-***Cunning Action.*** On his turn, Finny can take the Dash, Disengage, or Hide action as a bonus action.
+***Deckhand's Reflexes (Cunning Action).*** On his turn, Finny can take the Dash, Disengage, or Hide action as a bonus action.
 
 **Actions**
 ***Cleaver.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 6 (1d6 + 3) slashing.
@@ -207,7 +207,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 | 8 (−1) | 20 (+5) | 12 (+1) | 14 (+2) | 12 (+1) | 16 (+3) |
 
 **Saving Throws** Dex +8 · **Proficiency Bonus** +3
-**Skills** **Deception +9, Sleight of Hand +11** (expertise), Persuasion +6, Insight +4, Perception +4; thieves' tools +8
+**Skills** **Deception +9, Sleight of Hand +11** (Practiced Hands — expertise), Persuasion +6, Insight +4, Perception +4; thieves' tools +8
 **Senses** passive Perception 14 · **Languages** Common, Halfling, Thieves' Cant
 
 ***Lucky.*** When Brass rolls a 1 on a d20, she can reroll and must use the new roll.
@@ -216,9 +216,9 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. **It always costs something**, and she will mention what, later, at an inconvenient moment.
 
-***Helpful.*** Brass can take the Help action as a bonus action.
+***For a Friend (Helpful).*** Brass can take the Help action as a bonus action. She's keeping count of who owes her one.
 
-***Cunning Action.*** On her turn, Brass can take the Dash, Disengage, or Hide action as a bonus action.
+***Slip the Crowd (Cunning Action).*** On her turn, Brass can take the Dash, Disengage, or Hide action as a bonus action.
 
 **Actions**
 ***Dagger.*** *Melee or Ranged:* +8 to hit, reach 5 ft. or range 20/60. *Hit:* 7 (1d4 + 5) piercing.
@@ -242,17 +242,21 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Impeccable.*** Oz has advantage on Charisma checks made to be polite to someone who does not expect it, which is more often decisive than it sounds.
 
-***Second Wind (Recharges after a Short Rest).*** Bonus action; regains 15 (1d10 + 5) hit points.
+***No Wasted Motion (Improved Critical).*** Oz's weapon attacks score a critical hit on a roll of 19 or 20.
+
+***Shake It Off (Second Wind, Recharges after a Short Rest).*** Bonus action; regains 15 (1d10 + 5) hit points. He apologizes for the delay.
 
 > **No Extra Attack yet.** Oz gets one attack per Attack action until sidekick level 6 — a real, intentional gap against his old fixed-CR self. It reads correctly at the table: he's still learning to be as dangerous as he looks.
 
 **Actions**
-***Great Gun.*** *Ranged:* +4 to hit, range 100/400. *Hit:* 12 (2d10 + 1) piercing. Must be reloaded (one action) after two shots.
+***"Old Manners."*** Oz's signature weapon: an absurdly oversized flintlock that fires like a cannon and, gripped by the barrel, swings like a maul. He treats both uses as equally reasonable.
+- *Cannonshot (Ranged):* +8 to hit, range 60/240. *Hit:* 16 (2d10 + 5) piercing. Must be reloaded (one action) after firing.
+- *Maul Bash (Melee):* +8 to hit, reach 5 ft. *Hit:* 12 (2d6 + 5) bludgeoning.
 
-***Headbutt.*** *Melee:* +8 to hit, reach 5 ft. *Hit:* 13 (2d6 + 5) bludgeoning, critical hit on a 19–20, and the target must succeed on a **DC 16 Strength save** or be knocked prone.
+***Headbutt.*** *Melee:* +8 to hit, reach 5 ft. *Hit:* 13 (2d6 + 5) bludgeoning, and the target must succeed on a **DC 16 Strength save** or be knocked prone. He will apologize for this one too, but not until after.
 
 **Reactions**
-***Defender.*** When a creature within 5 feet of Oz attacks a target other than him, and Oz can see the attacker, he can impose disadvantage on that attack roll. He still says "after you."
+***"After You" (Defender).*** When a creature within 5 feet of Oz attacks a target other than him, and Oz can see the attacker, he can impose disadvantage on that attack roll.
 
 ---
 
