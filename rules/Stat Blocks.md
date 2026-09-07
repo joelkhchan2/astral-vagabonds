@@ -194,17 +194,17 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ---
 
 ## BRASSICA "BRASS" THORNGAGE
-*Small humanoid (halfling), Quartermaster's Mate* · **Expert Sidekick 5**
+*Small humanoid (halfling), Quartermaster's Mate, Temporary Doctor & Cook* · **Expert Sidekick 5**
 
-**AC** 16 (leather) · **HP** 33 (5d8 + 5) · **Speed** 25 ft.
+**AC** 12 (leather) · **HP** 33 (5d8 + 5) · **Speed** 25 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 8 (−1) | 20 (+5) | 12 (+1) | 14 (+2) | 12 (+1) | 16 (+3) |
+| 8 (−1) | 12 (+1) | 12 (+1) | 12 (+1) | 18 (+4) | 16 (+3) |
 
-**Saving Throws** Dex +8 · **Proficiency Bonus** +3
-**Skills** **Deception +9, Sleight of Hand +11** (expertise), Persuasion +6, Insight +4, Perception +4; thieves' tools +8
-**Senses** passive Perception 14 · **Languages** Common, Halfling, Thieves' Cant
+**Saving Throws** Cha +6 · **Proficiency Bonus** +3
+**Skills** **Medicine +10, Persuasion +9** (expertise), Insight +7, Perception +7; cook's utensils +7
+**Senses** passive Perception 17 · **Languages** Common, Halfling
 
 ***Lucky.*** When Brass rolls a 1 on a d20, she can reroll and must use the new roll.
 
@@ -212,12 +212,14 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces one of the following: a contact (advantage on the next Charisma check made with an NPC at this port), a favor (one non-combat service performed for the party), or an item worth up to 100 gp. Each use adds one mark to Brass's ledger; the DM can spend a mark to introduce a complication tied to that favor at any later point.
 
+***Hot Meal.*** If Brass has cooked in the last 24 hours, then once per short rest one creature who ate can regain **1d8 + 3 hit points** and gains advantage on its next saving throw against fear or exhaustion.
+
 ***For a Friend.*** Brass can take the Help action as a bonus action.
 
-***Slip the Crowd.*** On her turn, Brass can take the Dash, Disengage, or Hide action as a bonus action.
+***On Her Feet.*** On her turn, Brass can take the Dash, Disengage, or Hide action as a bonus action.
 
 **Actions**
-***Dagger.*** *Melee or Ranged:* +8 to hit, reach 5 ft. or range 20/60. *Hit:* 7 (1d4 + 5) piercing.
+***Cleaver.*** *Melee:* +4 to hit, reach 5 ft. *Hit:* 4 (1d6 + 1) slashing.
 
 ---
 

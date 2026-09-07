@@ -43,12 +43,12 @@ Total complement: 12 (2 PCs + 10 NPCs)
 **Secret:** Former githyanki raider crew. Deserted after being ordered to destroy a civilian vessel. Price on their head in certain Astral ports. Was present for the Broker's Favor #1 and won't discuss it.
 **Crew dynamic:** Respects Priscilla's bosun authority immediately (recognizes military competence). Tolerates Finny's gossip (secretly appreciates it). Protective of Wysp in a way they'd deny.
 
-### 4. Finnick "Finny" Groles -- Deckhand / Ship's Cook
-**Race:** Hadozee (gliding monkey-folk).
-**Personality:** Loud, gregarious, gossips relentlessly, makes incredible food from terrible ingredients. Emotional center of the crew -- organizes game nights, remembers birthdays, starts traditions. Cannot keep a secret. This is both his best and worst quality.
-**Sitcom parallel:** Andy Dwyer (Parks & Rec). Pure of heart, dumb of strategy.
+### 4. Finnick "Finny" Groles -- Deckhand
+**Race:** Halfling.
+**Personality:** Loud, gregarious, gossips relentlessly. Emotional center of the crew -- organizes game nights, remembers birthdays, starts traditions. Light-fingered without entirely meaning to be -- hand him something to hold and you may get it back a beat later than you expected. Cannot keep a secret. This is both his best and worst quality.
+**Sitcom parallel:** Gina Linetti (B99) energy with Andy Dwyer's warmth -- chaotic, gossipy, a little too handy with other people's pockets, impossible to stay mad at.
 **Secret:** Sends a portion of his pay to someone on the Rock of Bral. Won't say who. (Actually can keep this one secret.)
-**Crew dynamic:** First to welcome Gabrielle aboard. Tries to call Estra "mom" (once -- the look could strip paint). The Manifest Board printout in the galley is his. Cooks as love language.
+**Crew dynamic:** First to welcome Gabrielle aboard. Tries to call Estra "mom" (once -- the look could strip paint). The Manifest Board printout in the galley is his. Knows everyone's business before they do, and has an uncanny habit of ending up with things that were in your pocket a moment ago. Always gives them back.
 
 ### 5. Dr. Quill Ashworth -- Ship's Surgeon
 **Race:** Human.
@@ -64,9 +64,9 @@ Total complement: 12 (2 PCs + 10 NPCs)
 **Secret:** Far older than anyone realizes. Crewed on dozens of ships over centuries. Watched every crew fall apart. Stays because they're still hoping to find one that lasts.
 **Crew dynamic:** Notices everything, says almost nothing. When Reeve does speak up, the crew has learned to listen. Has a strange kinship with Priscilla -- both watchers, both cataloguers, both quiet power.
 
-### 7. Brassica "Brass" Thorngage -- Quartermaster's Mate / Cargo Handler
+### 7. Brassica "Brass" Thorngage -- Quartermaster's Mate, Temporary Doctor & Cook
 **Race:** Halfling.
-**Personality:** Scrappy, resourceful, talks fast, always has "a guy" at every port. Need a part, a forged manifest, a black market contact? Brass can get it -- for a price, a favor, or just because she likes you. Running tally of debts on increasingly chaotic napkins.
+**Personality:** Scrappy, resourceful, talks fast, always has "a guy" at every port. Need a part, a forged manifest, a black market contact? Brass can get it -- for a price, a favor, or just because she likes you. Running tally of debts on increasingly chaotic napkins. Also, somehow, competent enough with a needle and a stove that she's become the crew's backup doctor and occasional cook when Quill's overwhelmed or the galley's short-handed -- she'd rather not explain where she picked up either skill.
 **Sitcom parallel:** Donna Meagle meets Jake Peralta -- streetwise, connected, enjoys the hustle.
 **Secret:** On the run from a deal gone bad with a neogi slaver ring. They're still looking.
 **Crew dynamic:** Priscilla's natural complement -- where Priscilla is strategic mind, Brass is street-level operator. Think Leslie/Ann but for crime. Brass is the person who makes Priscilla's plans actually work at ground level.
