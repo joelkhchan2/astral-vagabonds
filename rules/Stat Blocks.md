@@ -38,8 +38,8 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 **Actions**
 ***Multiattack.*** Two attacks, in any combination of the below.
-***Rapier or Shortsword.*** *Melee:* +7 to hit, reach 5 ft. *Hit:* 10 (1d8 + 6) piercing.
-***Brace of Pistols.*** *Ranged:* +7 to hit, range 30/90. *Hit:* 8 (1d10 + 4) piercing. Both fire without reloading; reloading either after takes an action.
+***"Dead Reckoning" (Rapier) or Shortsword.*** *Melee:* +7 to hit, reach 5 ft. *Hit:* 10 (1d8 + 6) piercing.
+***"Port" and "Starboard" (Brace of Pistols).*** *Ranged:* +7 to hit, range 30/90. *Hit:* 8 (1d10 + 4) piercing. Both fire without reloading; reloading either after takes an action.
 
 **Bonus Actions**
 ***Black Coffee (Second Wind, Recharges after a Short Rest).*** Regains 15 (1d10 + 5) hit points.
@@ -243,7 +243,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ***Shake It Off (Second Wind, Recharges after a Short Rest).*** Bonus action; regains 15 (1d10 + 5) hit points.
 
 **Actions**
-***"Old Manners."*** Oz's signature weapon — an oversized flintlock that fires like a cannon and, gripped by the barrel, swings like a maul.
+***"The Chaperone."*** Oz's signature weapon — an oversized flintlock that fires like a cannon and, gripped by the barrel, swings like a maul.
 - *Cannonshot (Ranged):* +8 to hit, range 60/240. *Hit:* 16 (2d10 + 5) piercing. Must be reloaded (one action) after firing.
 - *Maul Bash (Melee):* +8 to hit, reach 5 ft. *Hit:* 12 (2d6 + 5) bludgeoning.
 
