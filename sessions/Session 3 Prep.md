@@ -8,9 +8,16 @@ Working doc for whichever contract gets picked at the end of session 2. Payout n
 
 No combat content by design. This is the one to steer toward if the table's still recovering from session 1 and 2 and wants a genuinely light night.
 
-- **The hook:** the patriarch keeps almost-mentioning that he's heard the *Night Fury*'s name from somewhere he won't specify.
-- **Branch A:** the crew lets it go. Uneventful, warm trip, good character material, no follow-up required.
-- **Branch B:** someone pushes on it. Keep the reveal small and mundane if you go there, dockside gossip, an old business dealing with a house Aerion's family touches, nothing that needs to connect to the lockbox. Resist the urge to make everything the same conspiracy.
+**The client. OSRIC PRYNNE**, patriarch of House Prynne, a Chain merchant family with old manners and thin margins. **Voice tic:** speaks entirely in appraisals, "that'll do," "acceptable," "below the mark," never a plain yes or no. **Physical tic:** checks a brass chronometer he doesn't actually need to check, a tell for nerves he'd never admit to. **Want:** this match saves the family, and he knows it, and he hates that everyone at the Concourse will know it too.
+
+**Who's actually being chaperoned. ISOLDE PRYNNE**, the eldest, pragmatic about the arrangement in a way her father mistakes for indifference. She isn't devastated and she isn't thrilled, she's watching everything, gathering information the way someone does when nobody's ever asked their opinion before. **Want:** to be taken seriously by exactly one person on this trip. Good spotlight material for whichever PC actually listens.
+
+**Why Osric's heard the name, resolved and mundane on purpose.** House Prynne carries a **Nightbreeze policy**, and Nightbreeze's claims office has been buzzing about the *Grendel's Wake*'s total loss and the unranked crew that walked away from it, standard underwriter gossip, nothing sinister. Osric almost-mentions it because he's trying to work out whether hiring the crew that survived Bex Halloway is a good story to tell at the Concourse or a bad one, and he can't decide.
+
+**Branch points:**
+1. **The almost-mention.** The crew lets it go (uneventful, warm trip, no follow-up needed) or presses (Osric admits the Nightbreeze source easily, there's nothing to hide, and the scene becomes about *why he's so nervous about status* rather than a mystery to solve).
+2. **A private moment with Isolde.** At some point on the voyage, she seeks out whichever PC has been paying attention to her rather than her father, and offers something real in return, a piece of Chain gossip, a genuine compliment about the ship, a small kindness. Let her be a person, not a plot device.
+3. **At the Concourse, optional light color:** a rival merchant house present, a status-comedy beat (Oz's manners, Aerion's poise, the unnamed-ship-reads-as-heritage bit from `Dressing the Part` reused lightly), nothing that needs to escalate.
 
 ---
 
