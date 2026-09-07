@@ -56,6 +56,15 @@ Started with 50,000 gp. After the ship and outfit, about **14,350 gp** remained 
 
 **Session 1, played:** the Sealed and Sworn delivery paid **1,800 gp on contract**, plus a **~400 gp discretion tip** Factor Calder handed Estra personally for keeping quiet, about 2,200 gp gross before the standard deductions. The Bex Halloway fight afterward (see `sessions/Session 1.md`) added a **1,021 gp hoard** plus three items: an **oil of slipperiness**, a **potion of frost giant strength**, and a **javelin of lightning** (Aerion kept the javelin). Treat the ship's ledger as Priscilla's character sheet from here forward rather than re-deriving totals from this doc each session.
 
+## Track Record
+
+**What the crew has actually earned, for future job qualifiers to reference** (`rules/Contracts.md` §Qualifiers, the Experience gate). Keep this current; a job wanting a crew who's done a specific thing before should cite something on this list by name rather than inventing generic toughness.
+
+- **One completed contract on file:** Sealed and Sworn, session 1.
+- **Survived a void scavver sighting at close range**, Reefside. Not a fight, a survival, still counts.
+- **Boarded and defeated a hostile crewed hull**, the *Grendel's Wake* (Bex Halloway), session 1, including a personal boarding action by both PCs.
+- **347th of 350 on the Manifest Board**, moved up by circumstance, not by climbing (`factions/The Manifest Board.md`).
+
 ## History
 Aerion's previous ship blew up when the cook took his nightly smoke beside pre-loaded cannons. The ship was insured; the payout, plus some family money and Aerion's trust-fund draw, bought this replacement. Tack, the engineer, saved the tattered flag from the old ship and reattached it to this one. Most of the old fourteen-person crew lost faith and left after the explosion; the loyal few stayed, and this is their fresh start.
 
