@@ -55,8 +55,8 @@ Ongoing tournament in the float bay. Finny maintains a bracket board with intens
 **Inventory Day**
 Priscilla conducts quarterly inventory. The entire crew dreads it. She walks through the ship with a clipboard and a look. "Sable, what's in crate 14-C?" "Ammunition." "That's not what the manifest says." "The manifest is wrong." "The manifest is never wrong." Hard cut to: the manifest was wrong, and Priscilla is re-labeling crate 14-C with suppressed fury while Brass eats an apple nearby and says nothing helpful.
 
-**Finny's Specials**
-Finny names his dishes. The names have no relationship to the ingredients. "Tonight's special is Starfall Risotto." It's rice with whatever protein was cheapest at the last port. "And for dessert, Nebula Crumble." It's rehydrated fruit with crumbled hardtack. The food is inexplicably, consistently delicious. Quill has tried to figure out why and failed. Finny's secret: love. (Actual secret: an absurd amount of butter.)
+**Brass's Specials**
+Brass names her dishes. The names have no relationship to the ingredients. "Tonight's special is Starfall Risotto." It's rice with whatever protein was cheapest at the last port. "And for dessert, Nebula Crumble." It's rehydrated fruit with crumbled hardtack. The food is inexplicably, consistently delicious. Quill has tried to figure out why and failed. Brass's secret: love. (Actual secret: an absurd amount of butter.)
 
 **The Hammock Incident**
 Wysp installed a hammock on the main deck without asking. Priscilla (bosun) told them to take it down. Wysp argued it was "an efficiency improvement for off-duty lookout naps." Estra walked past, looked at the hammock, looked at Priscilla, and said nothing. The hammock is still there. Nobody knows what the silence meant. Priscilla has chosen not to die on this hill. Wysp considers this their greatest victory.
@@ -84,14 +84,14 @@ Estra calls a crew briefing for a new contract. Within three minutes: Finny has 
 Gabrielle decides the crew needs performance reviews -- which is not, strictly, the navigator's job (that's Priscilla's, as bosun), but nobody stops her. First review: Oz. Goes perfectly. Oz has self-evaluated, prepared talking points, and brought a pen. Second review: Sable. Sable sits down, stares, and says, "My performance is that everyone is alive." Review concluded. Third review: Finny. Somehow becomes a therapy session. Fourth review: Tack. Tack reviews Gabrielle. Fifth review: Brass. Brass tries to negotiate a raise. Gabrielle didn't have the authority to give raises. She does now, somehow. Priscilla finds out via the ledger discrepancy and has questions.
 
 **The Suggestion Box**
-Someone installs a suggestion box. Anonymous entries include: "More butter" (Finny, not anonymous, signed it), "Fewer chores" (Wysp, also signed), "The tooth jar should be secured against gravitational inversion" (Quill), "Morrow suggests better ventilation in the rigging crawlspace" (Morrow, anonymous in theory, speaks in third person), "Nothing. Everything is fine. Stop asking." (Sable), and a napkin that just says "IOU - Brass" which isn't a suggestion but is now in the box. Estra's suggestion, if she submitted one: unclear. One note just says "More coffee." The handwriting matches the mug.
+Someone installs a suggestion box. Anonymous entries include: "More butter" (Brass, not anonymous, signed it), "Fewer chores" (Wysp, also signed), "The tooth jar should be secured against gravitational inversion" (Quill), "Morrow suggests better ventilation in the rigging crawlspace" (Morrow, anonymous in theory, speaks in third person), "Nothing. Everything is fine. Stop asking." (Sable), and a napkin that just says "IOU - Brass" which isn't a suggestion but is now in the box. Estra's suggestion, if she submitted one: unclear. One note just says "More coffee." The handwriting matches the mug.
 
 ---
 
 ## Quiet Moments (For Emotional Beats Between Comedy)
 
-**Finny's Late-Night Cooking**
-Can't sleep. Cooks instead. Whoever else can't sleep ends up in the galley. No one talks about why they're awake. Finny doesn't ask. He just makes another plate. The food is always better at 0300.
+**Brass's Late-Night Cooking**
+Can't sleep. Cooks instead. Whoever else can't sleep ends up in the galley. No one talks about why they're awake. Brass doesn't ask. She just makes another plate. The food is always better at 0300.
 
 **Oz Mending Things**
 Oz is frequently found sewing torn uniforms, polishing shared equipment, or quietly fixing something that isn't his job. If caught, he says, "I had idle hands." He never has idle hands.
@@ -113,10 +113,10 @@ Morrow occasionally leaves small useful items where crew members will find them 
 ## Emergency Bits (When Things Go Wrong, Comedy Style)
 
 **Hull Breach Drill**
-Gabrielle runs a hull breach drill. Estra times it with her mug in hand, leaning against a wall. Results: Oz reaches his station in 4 seconds. Sable was already at hers. Morrow seals three sections simultaneously. Finny runs to the galley first to secure "the sourdough starter, it's irreplaceable." Quill arrives with Kit 2A ("Hull Breach - Standard") and Kit 2B ("Hull Breach - With Fire"). Brass arrives last, having stopped to secure three specific crates that contain "inventory that cannot get wet, don't ask." Wysp narrates their own performance: "Wysp scrambles to the rigging with catlike grace--" (they trip). Reeve was already in position. Gabrielle's review: "...we'll do this again tomorrow." Estra's review: she takes a sip of coffee.
+Gabrielle runs a hull breach drill. Estra times it with her mug in hand, leaning against a wall. Results: Oz reaches his station in 4 seconds. Sable was already at hers. Morrow seals three sections simultaneously. Brass runs to the galley first to secure "the sourdough starter, it's irreplaceable," then doubles back for three specific crates that contain "inventory that cannot get wet, don't ask." Quill arrives with Kit 2A ("Hull Breach - Standard") and Kit 2B ("Hull Breach - With Fire"). Wysp narrates their own performance: "Wysp scrambles to the rigging with catlike grace--" (they trip). Reeve was already in position. Gabrielle's review: "...we'll do this again tomorrow." Estra's review: she takes a sip of coffee.
 
 **Everyone's Battle Stations Quirk**
-When the alarm sounds: Oz says "excuse me" to whoever he's talking to before sprinting to his station. Sable is already there (how?). Tack whispers "it's okay, Darling" to the helm. Finny turns off the stove first. Every time. Even mid-combat. "I am NOT burning the stew for pirates." Quill grabs three kits. Always three. Different three depending on the alarm type. Brass pockets something valuable "just in case we have to abandon." Morrow unfolds into full height and their carapace goes steel-grey (focus). Wysp tries to say something dramatic and Gabrielle talks over them with actual orders.
+When the alarm sounds: Oz says "excuse me" to whoever he's talking to before sprinting to his station. Sable is already there (how?). Tack whispers "it's okay, Darling" to the helm. Brass turns off the stove first, every time, even mid-combat ("I am NOT burning the stew for pirates."), then still finds a second to pocket something valuable "just in case we have to abandon." Quill grabs three kits. Always three. Different three depending on the alarm type. Morrow unfolds into full height and their carapace goes steel-grey (focus). Wysp tries to say something dramatic and Gabrielle talks over them with actual orders.
 
 **The Time the Ram Fired at Nothing**
 2 AM. Everyone asleep. THOOM. Kevin fires the piercing ram into empty space. The entire crew scrambles to battle stations. There's nothing there. Estra stares into the void for a long moment, then goes back to bed. Tack spends two hours talking to Kevin. The next morning, Reeve says: "There was something there. It left." Nobody sleeps well for a week.
