@@ -2,6 +2,8 @@
 
 Working doc for whichever contract gets picked at the end of session 2. Payout now tracks danger across the board: **Quiet Water stays the cheap, genuinely safe pick**, and the two pricier options both carry real combat risk, on the level of last session's Bex fight, not a token scuffle. Don't run all three, prep the one the table actually takes.
 
+**Expect Two Chairs Short.** Given a choice, this table reaches for the biggest number on the sheet, that's exactly what happened with the 6,000 gp Escort job before a level-appropriateness check was needed. Two Chairs Short is deliberately the highest payout this rotation *and* has been calibrated to actually be fair for a level-5 crew, the raider is dangerous but built to break off once resisted, and it's a joint fight with the *Quiet Sum* rather than a solo one, so the crew isn't facing Aeravellis's full spec sheet alone. Prep that one first if you're short on time; the other two are here in case the table surprises you.
+
 ## Quiet Water · 1,300 gp · the safe pick
 
 No combat content by design. This is the one to steer toward if the table's still recovering from session 1 and 2 and wants a genuinely light night.
