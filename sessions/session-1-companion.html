@@ -1,0 +1,1221 @@
+<title>The Sealed Case</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #e7ecf1; --surface: #f6f8fb; --surface-2: #eef2f6;
+    --ink: #18202e; --muted-text: #566173;
+    --accent: #8a6a2c; --accent-soft: #b98f3f; --teal: #256d67;
+    --line: #d3dae2; --line-strong: #b9c3ce;
+    --dm: #7a3f6e; --dm-bg: #f3e9f1;
+    --danger: #a23b3b; --danger-bg: #f6e7e5;
+    --opp: #2f6b45; --opp-bg: #e6f0ea;
+    --cost: #8a5a1f; --cost-bg: #f4ebdd;
+    --read: #1f4f6b; --read-bg: #e9f0f4;
+    --pc: #4a4396; --pc-bg: #ecebf6;
+    --shadow: 0 1px 2px rgba(24,32,46,.06), 0 6px 20px rgba(24,32,46,.06);
+  }
+  :root:not([data-theme="light"]) { color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+      --ink: #e7ecf3; --muted-text: #93a0b3;
+      --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+      --line: #262f3d; --line-strong: #33404f;
+      --dm: #cf95c2; --dm-bg: #221722;
+      --danger: #e08a83; --danger-bg: #241615;
+      --opp: #86c79c; --opp-bg: #14201a;
+      --cost: #e0b877; --cost-bg: #201a12;
+      --read: #8fc6e0; --read-bg: #101c24;
+      --pc: #a9a3e6; --pc-bg: #16162a;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+    --ink: #e7ecf3; --muted-text: #93a0b3;
+    --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+    --line: #262f3d; --line-strong: #33404f;
+    --dm: #cf95c2; --dm-bg: #221722;
+    --danger: #e08a83; --danger-bg: #241615;
+    --opp: #86c79c; --opp-bg: #14201a;
+    --cost: #e0b877; --cost-bg: #201a12;
+    --read: #8fc6e0; --read-bg: #101c24;
+    --pc: #a9a3e6; --pc-bg: #16162a;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 16px; line-height: 1.62; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  .topbar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar .wrap { display: flex; align-items: center; gap: 20px; height: 60px; }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 17px; letter-spacing: .01em; white-space: nowrap; }
+  .brand .anchor-mark { color: var(--accent); }
+  .navlinks { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; }
+  .navlinks a { color: var(--muted-text); text-decoration: none; font-size: 12.5px; font-weight: 500; padding: 6px 10px; border-radius: 6px; white-space: nowrap; letter-spacing: .02em; }
+  .navlinks a:hover { color: var(--ink); background: var(--surface-2); }
+  .toggle { flex: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); border-radius: 7px; height: 34px; width: 34px; cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+  .toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .toggle:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .hero { padding: 72px 0 48px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background:
+      radial-gradient(1px 1px at 12% 30%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78% 18%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 62% 62%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 78%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90% 74%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 22% 54%, var(--line-strong) 50%, transparent 51%); }
+  .hero .wrap { position: relative; z-index: 1; }
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  h1 { font-family: "Fraunces", serif; font-weight: 600; letter-spacing: -.01em; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02; margin: 16px 0 0; text-wrap: balance; max-width: 15ch; }
+  .hero .lede { font-size: 1.16rem; color: var(--muted-text); max-width: 62ch; margin: 22px 0 0; }
+  .hero .slogan { margin-top: 28px; font-family: "Fraunces", serif; font-style: italic; font-size: 1.05rem; color: var(--ink); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; max-width: 60ch; }
+
+  section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 8px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); font-weight: 500; }
+  h2 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.7rem, 3.4vw, 2.4rem); line-height: 1.08; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+  .sec-intro { color: var(--muted-text); max-width: 66ch; margin: 14px 0 30px; font-size: 1.03rem; }
+  h3 { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.3rem; margin: 8px 0 4px; letter-spacing: -.005em; text-wrap: balance; }
+  h4 { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 1rem; margin: 22px 0 6px; }
+  p { margin: 12px 0; }
+  a.inline { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+  .measure { max-width: 68ch; }
+  .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-text); font-weight: 500; }
+
+  .grid { display: grid; gap: 18px; }
+  .grid.two { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .grid.three { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: var(--shadow); }
+  .card h3 { margin-top: 0; }
+  .card h4:first-child { margin-top: 0; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 4px 0 8px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .tile .k { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted-text); }
+  .tile .v { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.5rem; margin-top: 3px; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+  .tile .v small { font-family: "IBM Plex Mono", monospace; font-size: .7rem; font-weight: 500; color: var(--muted-text); letter-spacing: .02em; }
+
+  .quote { font-family: "Fraunces", serif; font-style: italic; color: var(--ink); border-left: 2px solid var(--accent-soft); padding-left: 12px; margin: 14px 0; font-size: 1rem; }
+  .quote .who { display:block; font-family: "IBM Plex Mono", monospace; font-style: normal; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); margin-bottom: 4px; }
+
+  .read { background: var(--read-bg); border: 1px solid color-mix(in srgb, var(--read) 32%, transparent); border-left: 3px solid var(--read); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .read .read-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; color: var(--read); display: block; margin-bottom: 6px; }
+  .read p { margin: 6px 0; color: var(--ink); }
+  .read p:first-of-type { margin-top: 0; }
+  .read p:last-child { margin-bottom: 0; }
+
+  .call { border-radius: 10px; padding: 14px 16px; margin: 14px 0; border: 1px solid; font-size: .95rem; }
+  .call .call-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; display: block; margin-bottom: 4px; }
+  .call p:first-of-type { margin-top: 2px; }
+  .call p:last-child { margin-bottom: 0; }
+  .call.dm { background: var(--dm-bg); border-color: color-mix(in srgb, var(--dm) 40%, transparent); }
+  .call.dm .call-label { color: var(--dm); }
+  .call.danger { background: var(--danger-bg); border-color: color-mix(in srgb, var(--danger) 40%, transparent); }
+  .call.danger .call-label { color: var(--danger); }
+  .call.opp { background: var(--opp-bg); border-color: color-mix(in srgb, var(--opp) 40%, transparent); }
+  .call.opp .call-label { color: var(--opp); }
+  .call.cost { background: var(--cost-bg); border-color: color-mix(in srgb, var(--cost) 40%, transparent); }
+  .call.cost .call-label { color: var(--cost); }
+  .call.pc { background: var(--pc-bg); border-color: color-mix(in srgb, var(--pc) 40%, transparent); }
+  .call.pc .call-label { color: var(--pc); }
+
+  .beat { border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; margin: 18px 0; background: var(--surface); box-shadow: var(--shadow); }
+  .beat > .beat-head { display: flex; align-items: baseline; gap: 12px; }
+  .beat .bnum { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--accent); font-size: .95rem; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line-strong)); border-radius: 7px; padding: 1px 9px; flex: none; }
+  .beat h3 { margin: 0; }
+  .beat .who-leads { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .04em; color: var(--muted-text); margin-top: 2px; }
+
+  .crew { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .crew .card { padding: 20px; }
+  .crew .c-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .crew h4 { margin: 0; font-size: 1.08rem; font-family: "Fraunces", serif; font-weight: 600; }
+  .crew .c-role { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+  .crew dl { margin: 12px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 5px 12px; font-size: .9rem; }
+  .crew dt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); padding-top: 3px; white-space: nowrap; }
+  .crew dd { margin: 0; }
+
+  .tablewrap { overflow-x: auto; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  thead th { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted-text); font-weight: 600; background: var(--surface-2); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.ctr, th.ctr { text-align: center; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.name { font-weight: 600; }
+  tbody tr:hover { background: var(--surface-2); }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+  .hit { color: var(--danger); font-weight: 600; }
+  .neg { color: var(--muted-text); }
+  .miss { color: var(--muted-text); }
+
+  .spec { display: grid; grid-template-columns: repeat(auto-fit, minmax(88px,1fr)); gap: 2px 14px; margin: 12px 0; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; }
+  .spec div { display: flex; flex-direction: column; padding: 4px 0; }
+  .spec .k { color: var(--muted-text); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+  .spec .v { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  ul.clean { margin: 12px 0; padding-left: 20px; }
+  ul.clean li { margin: 6px 0; }
+  ul.tight { margin: 6px 0; padding-left: 18px; }
+  ul.tight li { margin: 3px 0; }
+  ol.clean { margin: 12px 0; padding-left: 20px; }
+  ol.clean li { margin: 6px 0; }
+
+  .propbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 0; }
+  .proplink { display: inline-flex; align-items: center; gap: 7px; font-family: "IBM Plex Mono", monospace; font-size: 12px; text-decoration: none; color: var(--teal); border: 1px solid color-mix(in srgb, var(--teal) 40%, var(--line-strong)); border-radius: 8px; padding: 7px 12px; background: var(--surface); }
+  .proplink:hover { border-color: var(--teal); background: var(--surface-2); }
+
+  footer { padding: 40px 0 70px; color: var(--muted-text); font-size: .86rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+  .divider-note { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted-text); letter-spacing: .04em; }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="anchor-mark">&#9875;</span> The Sealed Case</span>
+    <nav class="navlinks">
+      <a href="#run">Run Sheet</a>
+      <a href="#premiere">Premiere</a>
+      <a href="#crew">The Crew</a>
+      <a href="#bral">The Rock</a>
+      <a href="#board">The Board</a>
+      <a href="#voyage">The Voyage</a>
+      <a href="#handoff">The Handoff</a>
+      <a href="#fight">Combat</a>
+      <a href="#money">Money</a>
+      <a href="#cold">Cold Open</a>
+    </nav>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">&#9681;</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Astral Vagabonds &middot; Session One Companion</span>
+    <h1>The Sealed Case.</h1>
+    <p class="lede">The first voyage, run like a season premiere: introduce the crew, show the Rock of Bral for the first time, let the players choose a contract off the board, teach the loop, and end on the image that launches the whole campaign, a star going out. Warm and funny for an hour, then one cold minute.</p>
+    <div class="call opp" style="margin-top:20px"><span class="call-label">Played in full, Sep 5</span><p>The table took <strong>Sealed and Sworn</strong>, not the Cold Run this page was first built around, and the whole session ran to its cold open: the boot camp, the Rock of Bral, departure, the transit, the Reefside handoff, an ambush from Bex Halloway that escalated into a real fight and a close void scavver encounter, and the ending. Full account: <span class="mono">sessions/Session 1.md</span>. This page is left in its run-sheet shape (useful reference and reusable material), with played-confirmation notes marking where the table went further than planned. The ship is named: the <strong>Night Fury</strong>.</p></div>
+    <p class="slogan">Keep it warm. The dread is a single image, and it is the last thing that happens.</p>
+    <div class="call pc" style="margin-top:24px"><span class="call-label">The one rule that outranks this page</span><p><strong>Never decide for the players.</strong> Orena and Aerion are Gabrielle's and Priscilla's. This page gives you situations, options, and spotlight <em>opportunities</em> to offer them, never what they buy, say, feel, or choose. Where you see a violet box, it's a reminder that the next move is a player's, not yours.</p></div>
+    <div class="call dm" style="margin-top:14px"><span class="call-label">How to use this page</span><p>Plum blocks are GM-only. Blue <strong>Read aloud</strong> boxes are narration. Numbers come from the canon docs. Printable props for the table are linked in <a href="#board" class="inline">&sect;05</a>. Narration follows <span class="mono">rules/DMing Craft.md</span>.</p></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- 0. COLD OPEN -->
+  <section id="teaser">
+    <div class="sec-head"><span class="sec-num">00</span><h2>Cold open: the boot camp</h2></div>
+    <p class="sec-intro">Open the premiere before the title card with a playable flashback: the day Orena and Aerion met, years ago, at Vaelren Windsong's training camp. It plants the friendship the whole crew hangs on, gives both players a real scene with dice and choices, and introduces Vaelren for later. Aim for ten to fifteen minutes. <strong>They play their younger selves on their current sheets</strong> (it's a flashback, not a balance puzzle; everything here is easy on purpose).</p>
+    <div class="read">
+      <span class="read-label">Read aloud: years ago, a long way from here</span>
+      <p>A training drift under a borrowed sun. Bare rock, chalk lines, racks of padded practice blades, and the smell of sweat and cheap lamp oil. Twenty-odd students from twenty-odd worlds, and a lean, grey-templed swordsman named Vaelren Windsong who runs the place the way weather runs a coast, patient and without apology. This morning he reads two names off his list and points them at the same starting line. One of you is the overlooked youngest son of a merchant house, sent here because the house barely noticed you were gone. The other came a very long way, off the Sword Coast, and is the only student who came for the sea and not the sword. He looks the two of you over, and something in his face decides it's going to enjoy this.</p>
+    </div>
+    <div class="grid two">
+      <div class="card">
+        <div class="c-top"><h4>Vaelren Windsong</h4><span class="c-role">the uncle, the teacher</span></div>
+        <p>Aerion's uncle, a "space samurai" who left the ledgers for a wandering blade. Warm, exacting, a little dangerous, and the reason Aerion carries a code at all.</p>
+        <dl>
+          <dt>Voice</dt><dd>Unhurried and amused. Answers a question with a better one.</dd>
+          <dt>Creed</dt><dd>"A person is worth what they can earn with their own two hands and their own held word."</dd>
+          <dt>Want</dt><dd>To see what these two become. He already suspects, and he pairs them on purpose.</dd>
+        </dl>
+      </div>
+      <div class="call pc"><span class="call-label">The one rule, again: they play, you don't</span><p>This is the two leads' scene. Set the yard, play Vaelren and everyone else, run the dice, and hand every beat to the players. Never say what Orena or Aerion feels, wants, or decides; offer the moment and ask. The whole point is that <em>they</em> discover the first thread of this friendship, so the wins and the words are theirs.</p></div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-head"><span class="bnum">1</span><div><h3>The Wall (a paired obstacle)</h3><div class="who-leads">Athletics &amp; Acrobatics &middot; teamwork is the lesson</div></div></div>
+      <div class="read">
+        <span class="read-label">Read aloud</span>
+        <p>Vaelren's obstacle run ends at a smooth stone wall, ten feet of it, no handholds, slick with the morning's damp. There is no ladder and no way around that he'll respect. He blows a whistle, starts a sand-timer, and says one thing before he walks off to watch: "The run's built for two. Figure out why."</p>
+      </div>
+      <p>The wall can't be soloed, and that's the point: it wants one of them thrown or boosted up, then that one hauling the other after. <strong>Let the players invent the plan</strong> and reward any version that needs both of them.</p>
+      <div class="grid two">
+        <div class="card">
+          <p class="label">If they throw / boost (the classic)</p>
+          <ul class="tight">
+            <li><strong>Aerion</strong> launches Orena: Strength (Athletics) <strong>DC 12</strong> for a clean, high throw.</li>
+            <li><strong>Orena</strong> turns it into a catch at the lip: Dexterity (Acrobatics) <strong>DC 12</strong>.</li>
+            <li>Both succeed and she's up. One of two succeeds and she catches the edge and hangs there (laughing or swearing, the player's call) for a free second try.</li>
+            <li>Then <strong>Orena</strong> hauls Aerion up (Athletics <strong>DC 10</strong>) or drops a line for him to climb; working together grants advantage.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <p class="label">Running it</p>
+          <ul class="tight">
+            <li><strong>Other plans are good plans.</strong> Shoulders-and-jump, a thrown rope, a run-and-vault off a braced hand: anything that takes both of them earns the wall.</li>
+            <li><strong>Failure is never punishing.</strong> A slip, a graze, a dry line from Vaelren, reset the timer, go again. Nobody is hurt and the clock never actually matters.</li>
+            <li><strong>Going around</strong> is possible, and it is exactly the thing Vaelren will note, mildly, that they chose not to trust each other. Let that sit; don't lecture.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="call pc"><span class="call-label">The beat under the beat</span><p>This is the physical birth of the trust the whole campaign rests on: the first time one of them literally put themselves in the other's hands. Do not narrate that for them. Let the plan they chose and the dice they rolled say it, and ask each player how it felt to be the thrower or the thrown.</p></div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-head"><span class="bnum">2</span><div><h3>The Bout (light combat, same side)</h3><div class="who-leads">Padded weapons, nonlethal, fast and funny</div></div></div>
+      <p>Over the wall, Vaelren pairs them <em>against</em> another duo and calls a bout: first pair knocked down loses. Padded blades, nonlethal bludgeoning, everyone on the mat has done this a hundred times. Now the two of them are a side, and covering for each other is the whole game.</p>
+      <div class="read">
+        <span class="read-label">Read aloud: the rival pair</span>
+        <p>Two older students stroll up twirling their padded blades, already grinning like the outcome's decided. "The runt and the tourist," one of them says, loud enough. Vaelren drops a cloth. "Begin."</p>
+      </div>
+      <div class="spec">
+        <div><span class="k">Student duelist &times;2</span><span class="v">weak</span></div>
+        <div><span class="k">AC</span><span class="v">12</span></div>
+        <div><span class="k">HP</span><span class="v">9</span></div>
+        <div><span class="k">Padded strike</span><span class="v">+3, 1d4+1 nonlethal</span></div>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Round</th><th class="ctr">A strike (+3)</th><th class="ctr">B strike (+3)</th><th>Read it as</th></tr></thead>
+          <tbody>
+            <tr><td class="name">1</td><td class="ctr">8 (miss)</td><td class="ctr">14</td><td>All swagger, little aim. B's swing is the only real one; compare to a PC's AC.</td></tr>
+            <tr><td class="name">2</td><td class="ctr">17 (hit, 3)</td><td class="ctr">6 (miss)</td><td>One of them lands a stinging thump. Someone will have a bruise to laugh about later.</td></tr>
+            <tr><td class="name">3</td><td class="ctr" colspan="2">Both drop once the PCs have landed a couple of clean hits</td><td>Give the leads the win; this is a confidence beat, not a fair fight.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="grid two">
+        <div class="call pc"><span class="call-label">Offer the team move, don't script it</span><p>Somewhere in here, give each player the <em>chance</em> to cover the other: a shouted warning, a blade knocked aside, a boost into a leaping strike. Whether they take it, and how, is the chemistry, and it's theirs. If they'd rather show off solo, that's a character choice too.</p></div>
+        <div class="card">
+          <p class="label">Swap: a reason that isn't a rival</p>
+          <p>Prefer a common enemy to cocky teens? A stray astral critter blunders into the yard mid-drill (a startled, harmless thing the size of a dog, or a training construct that won't power down), and the paired students have to corral it together. Same weak stats, same nonlethal stakes, no bruised egos, and the "same side" is instant.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-head"><span class="bnum">3</span><div><h3>The Bunk (the chemistry beat)</h3><div class="who-leads">Roleplay &middot; the point of the whole cold open</div></div></div>
+      <div class="read">
+        <span class="read-label">Read aloud</span>
+        <p>Lights-out. You've been assigned the same bunk, top and bottom, and neither of you is tired. Somewhere down the row someone snores. Vaelren's lamp is still on in his quarters; you can hear him not-sleeping, the way teachers do. The dark is full of other people's breathing and the small metal sounds of a drift settling for the night.</p>
+      </div>
+      <p>Now hand it over and let it run. These are prompts to <em>offer</em>, never answers to give. Play Vaelren once from the doorway if the scene needs a spark, then get out of the way.</p>
+      <div class="grid two">
+        <div class="card">
+          <p class="label">Conversation seeds (offer what the table bites on)</p>
+          <ul class="tight">
+            <li>"Why did you really come here? Not the reason you gave Vaelren."</li>
+            <li>"What was the first thing you noticed about the other one today?"</li>
+            <li>"What do you want that you'd never say out loud in daylight?"</li>
+            <li>"What's the thing about home you're not telling anyone?"</li>
+          </ul>
+        </div>
+        <div class="call pc"><span class="call-label">Character choices, theirs entirely</span><p>Two gifts you can put in front of the players, to take or keep: does <strong>Aerion</strong> hint, even now, at the thing he's quietly saving toward? Does <strong>Orena</strong> talk about the guild waiting back home, still whole, the Wayfinder Knot she has not yet lost? What they reveal and what they hold back <em>is</em> the scene. Vaelren's creed hangs over all of it; let it land differently on each of them, however they choose to take it.</p></div>
+      </div>
+      <div class="call dm"><span class="call-label">Vaelren's button</span><p>To close the flashback, Vaelren appears in the doorway without knocking, unbothered that it's the middle of the night: <em>"Good. You found the wall's trick faster than most. And Windsong, stop counting the doors. She's not going anywhere."</em> A beat. <em>"Are you?"</em> Then he's gone, and so is the light. Hold one second of dark, and cut.</p></div>
+    </div>
+
+    <div class="read">
+      <span class="read-label">Read aloud: bridge to now (the crew, months in)</span>
+      <p>Cut hard, and years forward. The same two, older, on a ship that runs like a body that has forgotten it was ever strangers. Brass is swearing at a pan at three in the morning. Tack is telling a bulkhead it's doing beautifully. Finny is halfway through a story nobody asked for. Oz is mending something that isn't his. Estra's light is on and her cards are out. A small silver dragon is asleep in the warm of the helm-glow. Orena has been aboard six months and it already feels like six years. And ahead, through the forward port, coming up gold against the black, is the Rock of Bral.</p>
+    </div>
+    <div class="call dm"><span class="call-label">Why open here (the premiere shape)</span><p>A pilot has to do two things at once: introduce the show, and imply a history so the show feels lived-in. The boot camp gives you the deep past (these two chose each other long before the ship did), and the bridge gives you the recent past (a crew that has clearly been running for months). Play both warm and keep the whole cold open to about fifteen minutes, then roll the title and cut to <a href="#bral" class="inline">the Rock</a>. If a table would rather start in the present, run just the bunk beat and the bridge; the chemistry is the part you don't skip.</p></div>
+  </section>
+
+  <!-- 1. RUN SHEET -->
+  <section id="run">
+    <div class="sec-head"><span class="sec-num">01</span><h2>The run sheet</h2></div>
+    <p class="sec-intro">One screen for the whole night. If you look at nothing else while you run, look at this.</p>
+    <p class="measure" style="font-family:'Fraunces',serif;font-style:italic;font-size:1.08rem;color:var(--ink);border-left:3px solid var(--accent);padding:2px 0 2px 14px;margin:0 0 26px">A broke crew takes on a locked case and a client who wants no questions asked. They deliver, they get paid, they scrape by. On the way home, a star goes out.</p>
+    <div class="tiles">
+      <div class="tile"><div class="k">Op cost</div><div class="v">600 <small>gp / voyage</small></div></div>
+      <div class="tile"><div class="k">Berth rent</div><div class="v">30 <small>gp</small></div></div>
+      <div class="tile"><div class="k">Repairs</div><div class="v">20 <small>gp / HP</small></div></div>
+      <div class="tile"><div class="k">Board rank</div><div class="v">~348 <small>of 351</small></div></div>
+      <div class="tile"><div class="k">Take-home</div><div class="v">~1,170 <small>gp, clear</small></div></div>
+    </div>
+    <div class="grid two" style="margin-top:22px">
+      <div class="card">
+        <h4>What tonight has to do</h4>
+        <ul class="clean">
+          <li><strong>Open the show.</strong> The players meet the crew, meet the two leads, and get a feel for a normal working week. Underneath it, something is wrong with the sky.</li>
+          <li><strong>Hand them the work.</strong> They pick a job off the Charter Window board. Then they run the loop once: provision, fly out, one thing happens, arrive, deliver, get paid, the bills bite.</li>
+          <li><strong>Open a door for each lead, equally.</strong> Aerion gets the contract call, the delivery negotiation, a family beat, and a ledger that won't reconcile. Orena gets the helm, the sky that won't match the charts, and the watch. Whether they walk through is the players' call.</li>
+          <li><strong>Plant three Guttering seeds,</strong> said small. Mild unease, never alarm. (Listed below.)</li>
+          <li><strong>Land the ending.</strong> Two quiet scenes, Aerion with a dragon that won't settle and Orena alone on watch, and then the star.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Order of play</h4>
+        <ol class="clean">
+          <li><strong>Cold open: the boot camp.</strong> A playable flashback: the wall, a light bout, the bunk. How Orena and Aerion met. <span class="mono">(&sect;00) ~15m</span></li>
+          <li><strong>The Rock of Bral.</strong> First sighting, a few faces, the market open. <span class="mono">(&sect;04) ~40m</span></li>
+          <li><strong>The board.</strong> They read the postings and choose. <span class="mono">(&sect;05) ~15m</span></li>
+          <li><strong>Cast off and fly out.</strong> Run the stations, one wonder, then the action set-piece: a skiff, a scavenger, and one glimpse of something worse. <span class="mono">(&sect;06, &sect;08) ~50m</span></li>
+          <li><strong>The handoff, in the Sallow Chain.</strong> A discretion problem, not a triage one, and a wrongness that shouldn't exist here. <span class="mono">(&sect;07) ~30m</span></li>
+          <li><strong>Pay, "vagabonds," and turn for home.</strong> <span class="mono">(&sect;07, &sect;09) ~15m</span></li>
+          <li><strong>The cold open,</strong> in two scenes. <span class="mono">(&sect;10) ~15m</span></li>
+        </ol>
+        <div class="call opp"><span class="call-label">Protect the ending</span><p>The last fifteen minutes are the point of the session. If the market or the fight is eating the clock, cut it short. Do not arrive at the star out of breath.</p></div>
+      </div>
+    </div>
+    <div class="grid two" style="margin-top:18px">
+      <div class="card">
+        <h4>The seeds (drop them, don't sell them)</h4>
+        <ol class="clean">
+          <li><strong>The road ran long.</strong> The leg took a day more than the charts allow. Orena notices; nobody panics.</li>
+          <li><strong>The checkpoint has drifted.</strong> The Chain waystation sits a few hours off its charted spot, in the Chain, where that's supposed to be impossible. She finds it by feel.</li>
+          <li><strong>Deferred, not tonight.</strong> The body-count seed (a colony's own runner couldn't find the depot) needs a struggling Verge colony to land on, and this job doesn't visit one. Plant it properly the first time they actually fly to Hallow's Rest or somewhere like it.</li>
+        </ol>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Aerion's paper face of the same seeds: an off-shift Warden gripes that lanes "won't resolve" and blames the crew's charts first. Same symptom, colder mouth.</p>
+      </div>
+      <div class="card">
+        <h4>Keep in your pocket</h4>
+        <ul class="clean">
+          <li><strong>Both leads are players', not yours.</strong> Set situations in front of Orena and Aerion. Never write what they buy, say, or decide.</li>
+          <li><strong>The ship is the Night Fury,</strong> christened in play on departure. Before that scene, she's fair game as "Estra's ship" on the docks.</li>
+          <li><strong>The action beat is pre-rolled</strong> in &sect;08 (a three-move set-piece) so it stays fast and fun.</li>
+          <li><strong>Two dark beats, both brief.</strong> The void scavver glimpse on the way out (Estra's fear), and the star on the way home. Keep everything between them warm.</li>
+          <li><strong>Don't explain the endings.</strong> Neither the thing that scared Estra nor the Vocalise gets a word tonight. Let the table sit in it.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. PREMIERE -->
+  <section id="premiere">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Run it like a season premiere</h2></div>
+    <p class="sec-intro">A pilot introduces the show. By the end, the table should be able to answer four things: who is this crew, what do the two leads want, what does a job feel like, and what's the mystery? The resupply run carries all four, it leaves every choice in the players' hands, and it gives the two leads equal weight.</p>
+
+    <h3>The two leads: what to offer, never what they do</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Aerion Kyoya Windsong <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; Priscilla</span></h4>
+        <p>Astral elf samurai; bosun, quartermaster, cargo handler. The overlooked youngest son of the Windsong trading house, quietly saving to buy his father's company out from under him. He runs the crew's day-to-day, keeps every book and tab and debt, and secretly dotes on a baby dragon.</p>
+        <div class="call pc"><span class="call-label">His plot, and his spotlight</span><p><strong>The mystery has a paper face, and it's his.</strong> Where Orena reads the sky going wrong, Aerion reads the <em>books</em> going wrong: a checkpoint waystation the filings swear is current that his own delivery proves has drifted, an off-shift Warden blaming the crew's charts for lanes that "won't resolve." Offer him the ledger that won't reconcile. On top of that: <strong>the contract choice is his</strong> (Estra hands it over, &sect;05), the <strong>delivery is his negotiation</strong> (&sect;07), and his <strong>family is close tonight</strong> (the Underwriters' Hall is his mother's house, &sect;04). His want, his own house on his own terms, is Priscilla's to reveal at her pace.</p></div>
+      </div>
+      <div class="card">
+        <h4>Orena <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; Gabrielle</span></h4>
+        <p>Water genasi bard/paladin; navigator, helmsman-in-training, scout. Newest aboard (six months). She lost her whole guild, the Wayfinder Knot, to a song called the Stillwater Vocalise, and she alone survived. She is looking for them.</p>
+        <div class="call pc"><span class="call-label">Her plot, and her spotlight</span><p><strong>The mystery has a sky face, and it's hers.</strong> A leg that runs long, a port out of position, and at the end a star that goes out and the edge of a song she has heard exactly once. Offer her the helm to shadow or take, the arrival read, and the final watch. How Orena responds, and what she does with the Vocalise when it returns, is Gabrielle's entirely.</p></div>
+      </div>
+    </div>
+
+    <h3>The A-plot, and the two-faced B-plot</h3>
+    <div class="grid two">
+      <div class="card">
+        <span class="label">A-plot, episodic</span>
+        <h3 style="margin-top:6px">The job they chose</h3>
+        <p>Take a contract off the board, provision, fly, deliver, get paid, pay the bills. It <strong>starts and finishes tonight</strong>, and the reward is competence. This is the "normal week" the show runs on, roughly 70% of the session.</p>
+      </div>
+      <div class="card">
+        <span class="label">B-plot, the arc</span>
+        <h3 style="margin-top:6px">Something is wrong, and both leads feel it</h3>
+        <p>Under the ordinary job, the same wrongness shows two faces. <strong>Orena reads it in the sky.</strong> <strong>Aerion reads it in the books:</strong> filings that don't match the road, a checkpoint waystation drifted off its charted spot, numbers that swear a stable Chain lane is fine when it clearly isn't. Nothing resolves tonight; it's all planted. Give the sky beats to Gabrielle and the paper beats to Priscilla, and the mystery belongs to them equally. <span class="mono">The arc lands whatever contract they pick</span> (&sect;05).</p>
+      </div>
+    </div>
+    <div class="call dm"><span class="call-label">Balancing the two leads (a self-check while you run)</span><p>It is easy to let a navigator's session become the navigator's session. Guard against it. The rough split tonight: <strong>Orena</strong> owns casting-off and the helm, the arrival read, and the final watch. <strong>Aerion</strong> owns the contract call, the delivery negotiation, the family thread, and the ledger that won't reconcile. They <strong>share</strong> the wall, the bout, and the fight. If one player has been quiet for fifteen minutes, that is your cue to hand their lead the next beat.</p></div>
+
+    <h3>Two things a premiere needs, and this session almost forgot</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Give every crewmate one moment</h4>
+        <p>Tick each off across the night so the found family actually lands:</p>
+        <ul class="clean">
+          <li><strong>Estra:</strong> hands Aerion the contract, and breaks once (the Board, or the void scavver).</li>
+          <li><strong>Tack:</strong> the creaking argument with Aerion, and "hold together, Deborah" under fire.</li>
+          <li><strong>Brass:</strong> the morning dinner roll, and a "guy" she offers at the port.</li>
+          <li><strong>Finny:</strong> reads the Board aloud and throws a party at 348th; drops one piece of gossip.</li>
+          <li><strong>Oz:</strong> defuses a tense dock moment, and stays polite through the fight.</li>
+          <li><strong>Flurry:</strong> content in flight, and refuses to settle at the end.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Roleplay prompts for the leads</h4>
+        <p>Drop one when a scene has room. They invite character, never answers:</p>
+        <ul class="clean">
+          <li><strong>Aerion:</strong> "Your mother's house is one floor up. Do you go in? What would it cost you?" and "The numbers don't lie, and they don't add up. Who do you tell?"</li>
+          <li><strong>Orena:</strong> "You've flown this stretch before. When did it start feeling wrong?" and "The helm is yours if you want it. Do you take it, or shadow Estra one more run?"</li>
+          <li><strong>Both:</strong> "You've known each other longer than anyone aboard. What does this crew still not know about you two?"</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="call dm"><span class="call-label">The ship is the Night Fury</span><p>Christened in play this session, on the way out of port: the crew bounced between "the Black Pearl" and "Night Fury" and landed on <strong>Night Fury</strong>. Before this scene she's still fair game as <strong>"Estra's ship"</strong> or "the Vane boat" on the docks, unnamed until the moment they actually pick it.</p></div>
+  </section>
+
+  <!-- 3. THE CREW -->
+  <section id="crew">
+    <div class="sec-head"><span class="sec-num">03</span><h2>The crew, up close</h2></div>
+    <p class="sec-intro">The five NPC crew plus Flurry, all the DM's to play. Give each a single defining moment tonight: a voice, a tic, and a want is enough to make them a person. (The two PCs aren't here: they're the players'.) Running gags in <span class="mono">npcs/Crew Comedy Bits.md</span>.</p>
+
+    <div class="crew">
+      <div class="card">
+        <div class="c-top"><h4>Captain Estra Vane</h4><span class="c-role">Captain</span></div>
+        <p>Human, late 50s, dry as bone. Teaches instead of ordering, and only steps in to correct. The crew trade a rumour that she was once a commodore over a whole fleet and that something took it from her. She won't say, and she won't drink to loose lips.</p>
+        <dl>
+          <dt>Voice</dt><dd>Flat, precise, warm underneath. Never raised, not even in a hull breach.</dd>
+          <dt>Tic</dt><dd>The dented tin mug that reads <strong>"Captain."</strong> Look close and it once read "World's Best Captain": someone dug those two words out with a knife, and the chips are still there. She has never explained it. Solitaire alone at night.</dd>
+          <dt>Wants</dt><dd>To rebuild what was taken from her, quietly, from the bottom of the Board where nobody watches. She thinks the burden is hers alone to carry. She's wrong; it's the crew's story too.</dd>
+          <dt>With the leads</dt><dd>Harder on Orena than on anyone, because she sees the captain she used to be, the one who lost a crew. Treats Aerion as a strategic equal and hands him real decisions without second-guessing.</dd>
+          <dt>Tonight</dt><dd>Hands the contract choice to the table and lives with the outcome. Offers the helm to teach, then steps back.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Tack</h4><span class="c-role">Engineer / gunner</span></div>
+        <p>Autognome, built for a ship far larger than this one. Treats her like a beloved giant dog, and saved the old ship's tattered flag to stitch onto this one. Oblivious to personal space, to food in mouths, to the warmth of touch.</p>
+        <dl>
+          <dt>Voice</dt><dd>Cheerful, literal, talks <em>to</em> the ship, who "talks back."</dd>
+          <dt>Tic</dt><dd>Names every part: ballistae <strong>Gertrude</strong> &amp; <strong>Susan</strong>, ram <strong>Kevin</strong>, helm <strong>Deborah</strong>. His maintenance log doubles as a diary ("Kevin was gracious about the realignment").</dd>
+          <dt>Wants</dt><dd>This ship to be his redemption. The last one came apart, and he will not lose another.</dd>
+          <dt>With the leads</dt><dd>The daily creak argument with Aerion ("she's just talking" against "that creak is load-bearing"). Would teach Orena any system she cares to learn.</dd>
+          <dt>Tonight</dt><dd>Pats a bulkhead and tells Deborah she's doing beautifully at the worst possible moment.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Brass Thorngage</h4><span class="c-role">Medic / cook</span></div>
+        <p>Plasmoid; never got the license, so she's cheap and won't be called doctor. Reads an ailment at a glance and has "a guy" at every port. On the run from a deal gone bad.</p>
+        <dl>
+          <dt>Voice</dt><dd>Fast, wry, always mid-angle. Runs debts, contacts, and favours on a system of napkins only she understands.</dd>
+          <dt>Tic</dt><dd>The morning <span class="mono">d4</span> for what dinner will do to you. At 0300, off the clock, she never rolls it, and the food is better.</dd>
+          <dt>Wants</dt><dd>To stay a step ahead of whatever she's running from, and to keep the crew fed and patched while she does it.</dd>
+          <dt>With the leads</dt><dd>The napkin-versus-ledger cold war with Aerion; he keeps a shadow inventory, she keeps winning. Offers Orena "a guy who might know a guy" about the lost crew.</dd>
+          <dt>Tonight</dt><dd>Names the dish "Starfall Risotto." It's rice.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Finny Groles</h4><span class="c-role">Rigger / gossip</span></div>
+        <p>Halfling; loud, warm, and cannot keep a secret except his own. Runs game nights and reveres the Manifest Board.</p>
+        <dl>
+          <dt>Voice</dt><dd>A firehose of gossip and enthusiasm, and hopeless at reading the room he's trying to cheer up.</dd>
+          <dt>Tic</dt><dd>Buys something stupid every port; runs the crew's game nights. Every visit to Bral he quietly deposits part of his pay with someone he won't name.</dd>
+          <dt>Wants</dt><dd>For this crew to matter and climb the Board. The deposit is the one thing he keeps to himself.</dd>
+          <dt>With the leads</dt><dd>Brings Orena tea when she's up late with the maps. Starts the pool on Flurry's moods while Aerion insists she's just being dramatic.</dd>
+          <dt>Tonight</dt><dd>Prints the ranking (~348th) and throws a party anyway. Floats three ship names nobody approves.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Oz Hammerfall</h4><span class="c-role">Security / scout</span></div>
+        <p>Giff, seven feet, gentle, absurdly polite, carries a comically large pistol he'll also swing. Writes thank-you notes to everyone, the officer who fined them included. <a class="inline" href="https://static0.srcdn.com/wordpress/wp-content/uploads/2022/09/DnD-Dungeons-Dragons-Giff-Playable-Race-Lore-Secret.jpg?w=1200&amp;h=900&amp;fit=crop" target="_blank" rel="noopener">Reference art</a>.</p>
+        <dl>
+          <dt>Voice</dt><dd>Soft, formal, courteous. The most alarming reassuring man alive.</dd>
+          <dt>Tic</dt><dd>"I had idle hands." He never has idle hands; he's mending someone's uniform.</dd>
+          <dt>Wants</dt><dd>To be useful and to belong, and to keep quiet about how his last posting ended.</dd>
+          <dt>With the leads</dt><dd>Would step in front of a shot for either without a word. Says "excuse me" to whoever he was mid-sentence with before he sprints to Aerion's called stations.</dd>
+          <dt>Tonight</dt><dd>Defuses a tense dock moment by offering to buy the meanest person in the room a drink.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Flurry</h4><span class="c-role">Baby dragon</span></div>
+        <p>Aerion's silver dragon, latent lunar heritage (<span class="mono">npcs/Flurry.md</span>). Non-combat, a baby, in a tiny scarf nobody mentions. Her senses reach a hair into the astral.</p>
+        <dl>
+          <dt>Voice</dt><dd>Chirps, trills, hides in Aerion's coat.</dd>
+          <dt>Tic</dt><dd>The outfits Aerion coldly insists are not doting.</dd>
+          <dt>Wants</dt><dd>To be wherever Aerion is. The rest is instinct she has no way to explain.</dd>
+          <dt>With the leads</dt><dd>Aerion's whole soft heart, worn on the outside where he thinks nobody sees. The crew's kindness is never mentioning it.</dd>
+          <dt>Tonight</dt><dd>Content at the good sky in flight, <strong>and refuses to settle the night of the cold open</strong> (&sect;10).</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="grid two" style="margin-top:20px">
+      <div class="card">
+        <h4>How the crew see each other</h4>
+        <p>These five are the ones who <strong>stayed</strong> when the old ship blew up and the rest of the fourteen walked. That's the emotional core: they chose to be broke together. Estra parents through structure and trust, never affection. She eats every meal with them, remembers things nobody told her, and keeps one rule above the rest: <em>no one sleeps in the helm room alone after a bad job.</em> Finny is the heart and the leak, Brass is the fixer as much as the medic, Oz's manners run exactly opposite to his size, and Tack is slowly convincing everyone the ship talks back. Seven people wearing fourteen hats, pretending it's fine.</p>
+      </div>
+      <div class="card">
+        <h4>The two leads, together</h4>
+        <p>Orena and Aerion aren't strangers thrown aboard. They trained together as teenagers under Aerion's uncle, the "space samurai" <strong>Vaelren Windsong</strong>, got made to share a bunk, and came out lifelong friends. Years later, when Aerion's ship came apart and he needed a navigator he trusted, he found her and brought her on. Their friendship predates the crew, and it's the beam the whole found family is nailed to. Play it in the small moments: the shorthand, the old argument reheated, the thing only one of them knows about the other.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h4>Off-duty aboard (what they do on a quiet watch)</h4>
+      <p class="measure">The players wanted to see the crew's downtime. Deal one when a transit is slow or a PC wanders in.</p>
+      <div class="grid two">
+        <ul class="clean">
+          <li><strong>Estra:</strong> solitaire alone at night, and a private journal in a locked book that nobody has read.</li>
+          <li><strong>Tack:</strong> polishing and talking to the ship, and the maintenance log that's secretly a diary.</li>
+          <li><strong>Brass:</strong> cooking for real at 0300 and trialing new recipes; reading old medical monographs to earn the license she never got.</li>
+          <li><strong>Finny:</strong> working a sending stone to trade gossip and small deals across ports; hosting game night; studying the Board.</li>
+        </ul>
+        <ul class="clean">
+          <li><strong>Oz:</strong> mending shared gear, writing thank-you notes, whittling little figures, brewing tea for whoever has the watch.</li>
+          <li><strong>Flurry:</strong> hoards small shiny things, "helps" Tack with tiny parts, naps in the helm-glow, and has adopted <strong>Oz</strong> (rides his shoulder) and <strong>Orena</strong> (curls up when she plays or hums).</li>
+          <li><strong>Orena &amp; Aerion (offer, don't script):</strong> her charts, the viewport, an instrument played soft; his ledger, his reading, and (per Finny) chapters read aloud to Flurry. What's true is the players'.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. THE ROCK -->
+  <section id="bral">
+    <div class="sec-head"><span class="sec-num">04</span><h2>Arriving at the Rock of Bral</h2></div>
+    <p class="sec-intro">The crew lives here, but the campaign hasn't shown it yet, so give it a real arrival. Then hit a few of the six faces of their Bral (Sprat, the Charter Window, the Delverane window, the Compass Rose, the Float Market, the Underwriters' Hall), and let the market be open. Each face keeps a secret (<span class="mono">locations/The Bral Reach.md</span>); tonight let only one or two carry a faint wrongness and play the rest warm.</p>
+    <div class="call opp"><span class="call-label">Played</span><p>This whole homecoming ran, close to this content: Sprat's Hallow's Rest rumor, Meech at the window, a data sale to Senna, the Compass Rose regulars, and the Float Market. The one real deviation, kept below and worth carrying forward: <strong>Bex Halloway confronted Orena directly</strong> and it went sideways, surfacing real unresolved history between Bex and Estra. Full blow-by-blow: <span class="mono">sessions/Session 1.md</span>.</p></div>
+
+    <div class="read">
+      <span class="read-label">Read aloud: first sighting</span>
+      <p>You see it long before you arrive: a whole mountain of a city burning gold against the black. A mile of grey rock crusted over with spires and gantries and ten thousand lit windows, stacked wherever they could be made to cling, and around it a slow endless storm of ships coming and going.</p>
+      <p>As you slip into the lower berths the sound reaches you first through the opening lock, then the smell: smoke and hot metal, fish and spice, ten thousand people and their dinners. A bell rings somewhere. A hawker calls your ship the wrong name. You're home, for whatever that's worth.</p>
+    </div>
+    <div class="call dm"><span class="call-label">Three textures, one per scene (don't front-load)</span><p><strong>Gravity is a local argument</strong> (a dropped coin falls sideways; locals never notice). <strong>Everyone's from somewhere else</strong> (giff dockers, dohwar hawkers, a mercane the crowd parts for). <strong>It remembers being lawless</strong> (an untended shrine to the pirate Captain Bral; marble up top, rope down below). Full detail: <span class="mono">locations/The Bral Reach.md</span>.</p></div>
+
+    <h3>Their Bral, in brief</h3>
+    <p class="measure">A mile-wide asteroid under a single city, founded about two hundred years ago by the pirate Captain Bral as a bolt-hole and civilized since by merchants who wanted somewhere stable to do business. One gravity plane runs the long axis, so the underside is "down-is-up" and newcomers walk into walls. The upper city is marble; the lower city is rope. One quiet fact worth knowing and never saying: the Pale Reach incorporated within a generation of Bral's founding, so there are people here whose great-grandparents watched both the port and the cartel be born. Bral is enormous and indifferent. <em>Their</em> Bral is six places and a handful of faces. <a class="inline" href="https://static.wikia.nocookie.net/forgottenrealms/images/9/97/Rock_of_Bral.jpg/revision/latest?cb=20220818013248" target="_blank" rel="noopener">Reference art</a>.</p>
+    <div class="grid two">
+      <div class="card">
+        <h4>The six places, at a glance</h4>
+        <div class="tablewrap"><table><tbody>
+          <tr><td><strong>Lowside Berth 40</strong></td><td>home berth, 30 gp/mo, on a gantry that flexes; the <em>Grendel's Wake</em> is next door at 39</td></tr>
+          <tr><td><strong>The Charter Window</strong></td><td>the CIV: charters stamped, contracts filed, the Board posted. Meech's grille</td></tr>
+          <tr><td><strong>The Delverane window</strong></td><td>where survey data gets sold. Senna Oric buys</td></tr>
+          <tr><td><strong>The Compass Rose</strong></td><td>the crew bar. Rumours, Wardens, and Madam Ulve</td></tr>
+          <tr><td><strong>The Float Market</strong></td><td>provisioning and the character shop (below)</td></tr>
+          <tr><td><strong>The Underwriters' Hall</strong></td><td>Nightbreeze: insurance, and Aerion's mother's house</td></tr>
+        </tbody></table></div>
+      </div>
+      <div class="card">
+        <h4>What they can do here</h4>
+        <ul class="clean">
+          <li><strong>Work the window:</strong> pick a contract off the Board and get it stamped (Meech), and sell the last voyage's survey data (Senna, above rate for anything off the Verge).</li>
+          <li><strong>Provision:</strong> the Float Market for void kit, medicine, rope, and paperwork. One uncommon item is always for sale.</li>
+          <li><strong>Listen:</strong> the Compass Rose. Every rumour in the Reach passes through within four days.</li>
+          <li><strong>Money:</strong> renew the hull's insurance at Nightbreeze, then payroll and repairs come off the account.</li>
+          <li><strong>Downtime the crew runs on their own:</strong> the galley game night (cards and dice), the terrible shore-leave portrait, Finny working his sending stone and making his quiet deposit to someone he won't name, Brass vanishing to "see a guy," Oz befriending the meanest person in a rough bar.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>The faces to hit</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Sprat, the runner <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; Berth 40</span></h4>
+        <p>Twelve years old, knows everything, sells information for candy and honours the deal. First face of every homecoming.</p>
+        <div class="quote"><span class="who">Sprat</span>"Heard you're finally shipping out. I know three things you'd want to know. First one's free. The other two are candy."</div>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Free: a Hallow's Rest hauler limped in last week, empty, spooked. Candy: the Board updated; and Bex Halloway's been asking what the Vanes are hauling.</p>
+      </div>
+      <div class="card">
+        <h4>Meech, the Charter Window <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; the CIV</span></h4>
+        <p>Deputy Registrar Halvar Meech. Half-orc, forty years behind the grille, immune to charm and bribery. He isn't corrupt and isn't helpful. He's <em>correct</em>. Stamps the chosen contract and explains which form they should have used.</p>
+        <div class="quote"><span class="who">Meech</span>"Filed on a 7-C. A resupply of this tonnage wants the 7-C annex. I'll allow it. Once."</div>
+      </div>
+      <div class="card">
+        <h4>Senna Oric, the Delverane window <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; two levels up</span></h4>
+        <p>Human, early thirties, sharp and tired and on a quota. Buys survey data and has opinions about which ships bring it. Professionally condescending to a 348th-ranked crew exactly once, then she reads what they filed and stops. This is Aerion's recurring negotiation scene, and the crew's most important relationship in Tier 1, which neither side will notice for a long time.</p>
+        <div class="quote"><span class="who">Senna</span>"The Verge. Nobody good brings me the Verge. What did you see out there that the charts don't?"</div>
+      </div>
+      <div class="card">
+        <h4>The Compass Rose <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; the bar</span></h4>
+        <p>Not rough, not nice: where crews drink rather than tourists. Run by <strong>Madam Ulve</strong>, plasmoid, who greets Estra by name on the first visit and never explains how they know each other. <strong>Bex Halloway</strong> of the <em>Grendel's Wake</em> drinks here, so does <strong>Dov Errin</strong> of the impounded <em>Steadfast Promise</em> (who will tell you all about it), and so do off-shift Route Wardens, which is inconvenient.</p>
+      </div>
+    </div>
+    <div class="call dm"><span class="call-label">Meech's breadcrumb (only if a player earns it)</span><p>If someone asks Meech a genuinely precise question, he'll produce three frontier routes delisted last year <em>with the incident-reason field left blank</em>. To him that's a procedural obscenity, not a mystery. <strong>The Sable Crossing</strong> (toward Amberwake; filed by a Pale Reach clerk, no reason, no successor route). <strong>Kestrel's Ladder</strong> (marked "consolidated," but there's no consolidation filing to point to). <strong>The Tallow Run</strong> (to a colony that is <em>still filing provisioning orders</em>: a live colony on a dead road). He connects them to bad paperwork. He'd never think of the cosmos. Pays off at M4. Don't volunteer it; it's a reward for curiosity.</p></div>
+    <div class="call opp"><span class="call-label">Two more, lightly</span><p><strong>The Underwriters' Hall</strong> (Nightbreeze, Aerion's mother's house): a door he can open any time, at a cost he'll feel. The <strong>Manifest Board</strong> printout is on the public wall by the Charter Window, where Finny heads first for the ranking. The <strong>Float Market</strong> gets its own section below.</p></div>
+
+    <div class="call pc"><span class="call-label">Aerion's Bral: the family is close, and the numbers are wrong</span><p>Two beats for Priscilla, both optional, both hers to take or leave. This is the session's ledger where Orena's is the sky. <strong>The letter.</strong> A sealed note is waiting for Aerion at the Charter Window, in his mother's hand or a family agent's. It says almost nothing and means several things: they know where he is, and they want him to know they know. Whether he opens it at the window, in private, or not at all is his. <strong>The paper that won't reconcile.</strong> While he files or provisions, a number snags him. A route the manifest marks "current" that the crew's own logs show running long, or a Windsong survey Senna mentions that contradicts what is actually out there. It's the first loose thread of the archive fraud that becomes his Tier 1 spine, and it's the Guttering wearing a clerk's face. Plant it; don't solve it.</p></div>
+
+    <div class="call dm"><span class="call-label">A scene worth running: the Board, together (still on the table, if you want it)</span><p>This didn't run this session, Bex's confrontation covered the "someone challenges them" beat instead, but it's still good material for a future homecoming. Bring the crew to the Manifest Board on the public wall as a group. Finny goes straight to their line (~348th) and narrates it like sports. Down the wall, <strong>Rimmon Vex</strong> of the <em>Cutlass Sunday</em> (ranked 344) clocks them and says it just loud enough: <em>"Vane's boat. Three hundred forty-eighth. Didn't know they let the derelicts vote."</em> Play the reactions, because they tell the table who these people are. <strong>Oz</strong> takes it in perfect stride and may offer to buy Vex a drink. <strong>Estra</strong> is the one who bristles: the captain who's bored by hull breaches goes very still, because the Board is the one wound she can't be dry about (she was top ten once, with a fleet). She says one cold, exact thing and holds his eye. If it tips over, run a short, low-stakes brawl, best finished at the Compass Rose, and take it as the crew's first "we are a unit" beat.</p></div>
+
+    <h3>The Compass Rose, up close</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Who's at the bar</h4>
+        <ul class="clean">
+          <li><strong>Madam Ulve</strong> (plasmoid, ageless): keeps a debt-ledger entirely in her head, more accurate than the CIV's. Greets Estra by name, and neither explains.</li>
+          <li><strong>Bex Halloway</strong> (<em>Grendel's Wake</em>, berth 39): the friendly rival and the ceiling worth chasing. Unbearable when she wins, generous when she loses. <strong>Played:</strong> she confronted Orena directly this session, wrongly convinced the crew was asking after her, and it surfaced real history: a contract Bex wanted once that Estra's crew took instead, ending (by Bex's telling) in a burning ship that wasn't Estra's. Estra deflected hard when asked about it.</li>
+          <li><strong>Dov Errin</strong> (impounded <em>Steadfast Promise</em>): a bore with a grievance, and buried in the third retelling is real intel on how the machine crushes a small operator.</li>
+          <li><strong>Warden Cathis</strong>: an off-shift Route Warden who talks more freely across a dice table than she ever would on duty.</li>
+          <li><strong>Old Pemberly</strong>: swears he heard singing in the deep Astral (the Vocalise and the berbalang rumour live in his mouth).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>The back table (gambling, full rules)</h4>
+        <p>There's always a game going, stakes small and mean (1 to 10 gp a hand fits their money). Both PCs like a game, so roll it for real at the table. Best played <em>for information</em>: a side bet is how Cathis, Errin, or Bex say things they'd never sell.</p>
+        <p><strong>Scavver</strong> (nerve). Everyone antes. On your turn roll a <span class="mono">d6</span> at a time, adding to your total, and stop whenever you like. Over <strong>20</strong> and the scavver gets you: bust, out of the hand. Highest total 20 or under takes the pot; ties split. A house dealer (Big Pol) plays last and holds on <strong>16+</strong>.</p>
+        <p><strong>Liar's Berth</strong> (bluff, 3+ players). Each player secretly rolls <span class="mono">3d6</span> under a cup. On your turn, claim how many of a face are on the <em>whole</em> table (e.g. "five threes"); each claim must raise the last (higher count, or same count of a higher face); ones are wild. Or call <strong>"Berth"</strong> to challenge: reveal all dice. If the claim was true, the caller loses a die; if false, the claimer loses a die. Lose all three and you're out; last player holding dice wins.</p>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Cheating: Dexterity (Sleight of Hand) vs the sharpest opponent's passive Perception shifts one die or one count. Getting caught at the Rose costs a favour with Ulve; at a rough table it starts the brawl.</p>
+      </div>
+    </div>
+
+    <h3>The Float Market, open for business</h3>
+    <p class="measure">Three tiers of stalls in low gravity; goods drift, everything's tethered, haggling is expected. Four stalls worth naming, each proprietor an NPC with one voice tic. <strong>What the PCs buy, or whether they buy at all, is entirely up to the players.</strong> Present the shelves, take their coin, and leave their bags for them to fill.</p>
+    <div class="grid two">
+      <div class="card">
+        <h4>Corabel's, rope &amp; rigging</h4>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Corabel judges every knot she sees. <em>"That's a granny knot. On a tether. In vacuum. No."</em></p>
+        <ul class="clean" style="font-size:.9rem">
+          <li><strong>Tether line, 100 ft</strong> <span class="mono" style="color:var(--muted-text)">25 gp</span>. Void-silk over wire, rated for the yank when "down" changes; she won't sell until she's watched you tie a knot.</li>
+          <li><strong>Grav-boots</strong> <span class="mono" style="color:var(--muted-text)">300 gp</span>. Grip a hull's gravity plane and walk any surface. Slow, ugly, life-saving.</li>
+          <li><strong>Cold-iron tether, 60 ft</strong> <span class="mono" style="color:var(--muted-text)">special</span>. Nothing nonmagical can cut it, for when the far end must stay attached.</li>
+          <li><strong>Rope that remembers</strong> <span class="mono" style="color:var(--muted-text)">uncommon</span>. Ties your last knot on command. Only if she respects your knots, which costs more than money.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>The Salt Locker, chandler &amp; void kit</h4>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">"Salt" Merrin upsells with a horror story per item. <em>"Man I knew had three and a half hours of air."</em></p>
+        <ul class="clean" style="font-size:.9rem">
+          <li><strong>Void suit, light / working</strong> <span class="mono" style="color:var(--muted-text)">180 / 450 gp</span>. Four hours of air (Stealth disadvantage) or eight with magnetic soles and no penalty. The gap between them, he'll say, is a walk versus a funeral.</li>
+          <li><strong>Envelope flask</strong> <span class="mono" style="color:var(--muted-text)">40 gp</span>. Ten minutes of air for one, for the gap between "the lock failed" and "we fixed the lock."</li>
+          <li><strong>Astral compass</strong> <span class="mono" style="color:var(--muted-text)">220 gp</span>. Advantage on checks to hold a heading in the Astral. Reads the ordinary currents, not the living ones.</li>
+          <li><strong>Signal lantern / cold liner</strong> <span class="mono" style="color:var(--muted-text)">60 / 90 gp</span>. Coded shutters visible two miles in the void; and a quilted layer that resists the cold of a dark hold (buy two for Hallow's Rest).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Pell's, apothecary</h4>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Pell (dohwar) lists side effects far too cheerfully. <em>"Do not operate a helm. Or do! Your choice!"</em></p>
+        <ul class="clean" style="font-size:.9rem">
+          <li><strong>Healer's kit</strong> <span class="mono" style="color:var(--muted-text)">5 gp</span>. Ten uses, stabilizes a dying friend with no roll. Buy two.</li>
+          <li><strong>Void-sickness draught</strong> <span class="mono" style="color:var(--muted-text)">25 gp</span>. Ends one bout of gravity-flip nausea. "Do not operate a helm. Or do!"</li>
+          <li><strong>Foul-air filter mask</strong> <span class="mono" style="color:var(--muted-text)">110 gp</span>. Ignore the poisoned condition from foul air for 24 hours.</li>
+          <li><strong>Potion of healing / antitoxin</strong> <span class="mono" style="color:var(--muted-text)">50 gp</span>. Standard 2d4+2 (limited stock); or advantage on poison saves for an hour, "for social occasions."</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Quill &amp; Seal, scrivener</h4>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Odwin Quill reveres correct paperwork. <em>"A charter copy uncertified is a napkin with ambition."</em></p>
+        <ul class="clean" style="font-size:.9rem">
+          <li><strong>Bound &amp; locked ledger</strong> <span class="mono" style="color:var(--muted-text)">35 gp</span>. Brass-cornered, real lock. To Aerion this is a holy object.</li>
+          <li><strong>Manifest seals, set of 50</strong> <span class="mono" style="color:var(--muted-text)">15 gp</span>. Tamper-evident; customs and Wardens like them, which shortens an inspection.</li>
+          <li><strong>Certified charter copy</strong> <span class="mono" style="color:var(--muted-text)">12 gp</span>. The stamped duplicate Meech insists on and a Warden demands.</li>
+          <li><strong>Sound-slate</strong> <span class="mono" style="color:var(--muted-text)">75 gp</span>. A wax plate that holds one minute of recorded sound. Orena will want several, and won't say why.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="call opp"><span class="call-label">The one uncommon find (rotate; never the same twice)</span><p>Each visit the market has exactly one uncommon item for sale, from a seller you won't see again. Offer it; never assign it. Tonight's shelf, plus a few that recur:</p>
+      <ul class="clean">
+        <li><strong>Engraved sound-slate</strong> (uncommon). Holds ten minutes of recorded sound, not one. On the shelf tonight, and Orena's eye lingers.</li>
+        <li><strong>Cup of Small Mercies.</strong> Fills once a day with whatever hot drink the holder most wants.</li>
+        <li><strong>Twinned bells.</strong> A pair; ring one and its twin rings, any distance, no message. A poor spacer's sending stone.</li>
+        <li><strong>Warmstone.</strong> A palm-sized rock that never cools. Worth more than it should be, out here.</li>
+        <li><strong>Rebreather pearl.</strong> Held in the mouth: ten minutes of air, once a day.</li>
+        <li><strong>Gravebird charm.</strong> Points toward the nearest wreck within ten miles.</li>
+      </ul>
+      <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Rare and up isn't sold here; that's a commission, a mercane contact, or a favour from Brass, and each should be a scene.</p></div>
+  </section>
+
+  <!-- 5. THE BOARD -->
+  <section id="board">
+    <div class="sec-head"><span class="sec-num">05</span><h2>The board: they pick the work</h2></div>
+    <p class="sec-intro">Four contracts are posted at the Charter Window. Let the players read them and choose. The choice is real, and it's theirs. Take-home is <span class="mono">payout &minus; 600 (op) &minus; 30 (berth) &minus; repairs</span>. The printable board and the signed charter are props you can hand across the table.</p>
+    <div class="call opp"><span class="call-label">Played: they took Sealed and Sworn</span><p>Estra ruled out the Escort as out of reach (a hundred ranks below the required record), and the table picked <strong>Sealed and Sworn</strong> over the Cold Run for the money. The Cold Run and the other five in-reach jobs below are all still fully built and ready to flip to for a future session, they just weren't tonight's pick.</p></div>
+
+    <div class="propbar">
+      <a class="proplink" href="https://claude.ai/code/artifact/01ba1502-7555-4812-83af-14c6755d964f" target="_blank" rel="noopener">&#128203; Printable job board</a>
+      <a class="proplink" href="https://claude.ai/code/artifact/1bb6831f-2b85-44f3-93a6-006d2a8b9828" target="_blank" rel="noopener">&#128220; Printable charter (Cold Run template; adapt for Sealed and Sworn)</a>
+      <a class="proplink" href="https://claude.ai/code/artifact/aca0e6a0-a105-47ec-a9e3-c17e0001cbc1" target="_blank" rel="noopener">&#127942; The Manifest Board (standings)</a>
+    </div>
+
+    <p class="measure">Eight are posted. Six are a crew like theirs can actually fly; two are the ceiling, posted to tempt. Take-home is <span class="mono">pay &minus; 630</span> (op 600 + berth 30) before repairs. The <strong>Suited to</strong> column is the steer.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Contract</th><th class="num">Pay</th><th class="num">Days</th><th class="num">Tons</th><th class="num">Clear</th><th>Suited to</th><th>The catch</th></tr></thead>
+        <tbody>
+          <tr><td class="name">The Cold Run</td><td class="num">1,400</td><td class="num">14</td><td class="num">6</td><td class="num">~770</td><td class="mono" style="color:var(--opp)">L5 &middot; in reach</td><td>Resupply cut-off Hallow's Rest; part-pay in ore. <strong>Carries the deferred seed.</strong></td></tr>
+          <tr><td class="name">Ashfall Passage</td><td class="num">900</td><td class="num">13</td><td class="num">2</td><td class="num">~270</td><td class="mono" style="color:var(--opp)">L5 &middot; in reach</td><td>Carry a family home to a drift that slipped off the charts. Flurry or Orena find the road. Warm.</td></tr>
+          <tr><td class="name">Best in Show</td><td class="num">1,200</td><td class="num">9</td><td class="num">4</td><td class="num">~570</td><td class="mono" style="color:var(--opp)">L5 &middot; in reach</td><td>A giff colonel's prize animal, alive and immaculate. It adores Oz. Pure sitcom.</td></tr>
+          <tr><td class="name">The Rock and Back</td><td class="num">800</td><td class="num">10</td><td class="num">12</td><td class="num">~170</td><td class="mono" style="color:var(--opp)">L5 &middot; in reach</td><td>Bulk grain, genuinely routine. The safe, thin, crew-scene pick.</td></tr>
+          <tr><td class="name">Passenger Work</td><td class="num">900</td><td class="num">16</td><td class="num">1</td><td class="num">~270</td><td class="mono" style="color:var(--opp)">L5 &middot; in reach</td><td>Carry the surveyor Aurel Delverane. Low pay, best relationship in Tier 1.</td></tr>
+          <tr><td class="name">Sealed and Sworn <span class="mono" style="color:var(--accent)">&#9733;</span></td><td class="num">1,800</td><td class="num">12</td><td class="num">2</td><td class="num">~1,170</td><td class="mono" style="color:var(--opp)">L5 &middot; in reach</td><td>A locked case, no questions; a Warden checkpoint. Best margin, real itch. <strong>Chosen.</strong></td></tr>
+          <tr><td class="name">Salvage Rights</td><td class="num">4,200</td><td class="num">34</td><td class="num">20</td><td class="num">~3,570</td><td class="mono" style="color:var(--cost)">L7+ &middot; a stretch</td><td>A Tollmarch wreck, and Stoneward's salvage claim is legal and immoral. Big money, bigger fight.</td></tr>
+          <tr><td class="name">Escort</td><td class="num">6,000</td><td class="num">38</td><td class="num">0</td><td class="num">~5,370</td><td class="mono" style="color:var(--danger)">L7&ndash;8 &middot; out of reach</td><td>Shepherd two haulers; a jawed raider that would actually hurt a level-5 crew. The ceiling, and a warning.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="call dm"><span class="call-label">Estra's steer (which are actually theirs to take)</span><p>The six <strong>L5 &middot; in reach</strong> jobs are a crew like theirs can do, and Estra quietly points at those and lets them choose among them. The two big-money runs are posted to show the ceiling and to tempt, and they are <em>not</em> a level-5, rank-348 crew's to take yet: Salvage Rights drags in Stoneward's lawyers, and the Escort's jawed raider will put someone in Brass's sick-bay. If they insist, don't forbid it; let the danger or the paperwork teach the lesson and seed a rival or a debt. Estra's line: <em>"That one's not ours yet. This one is."</em></p></div>
+    <h3>Each in-reach contract, fleshed</h3>
+    <p class="sec-intro">All six in-reach jobs are built to carry the night. Pick is about flavour, spotlight, and which future thread gets seeded, not about whether the session works.</p>
+    <div class="grid two">
+      <div class="card">
+        <h4>The Cold Run <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; clear ~770, not this session</span></h4>
+        <p>A mercy run to a proud colony that lost its supply road. The warmest version of the night, and the cleanest seed.</p>
+        <dl>
+          <dt>Where</dt><dd>Hallow's Rest, a terminator mining colony on the Verge (&sect;07).</dd>
+          <dt>Leads</dt><dd>Orena reads the drifted port in by feel; Aerion works the ore-for-coin shortfall and triages what the colony gets first.</dd>
+          <dt>Wonder</dt><dd>Save a distant kindori for here if you want the pull to mean something, or the chwinga on the rail.</dd>
+          <dt>The seed</dt><dd>Coll Aday's depot route that "wasn't there." The symptom with a body count.</dd>
+          <dt>The catch</dt><dd>They can't fully pay; part in ore at a poor rate; proud people are hard to help.</dd>
+          <dt>Seeds forward</dt><dd>Hallow's Rest now knows their faces; Vint's badly-paid regular-runner offer; the deeper hook, the colony is desperate to find whoever first charted their road.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>Sealed and Sworn <span class="mono" style="color:var(--accent)">&#9733;</span> <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; clear ~1,170, best margin, chosen</span></h4>
+        <p>The best money on the board, and the coldest. The pick that tested who they are, and the one the table actually took.</p>
+        <dl>
+          <dt>Where</dt><dd>An address in the Sallow Chain owned by the largest family in <strong>House Vellum</strong>, with a Route Warden checkpoint at the halfway mark. Full arrival scene: <a href="#handoff" class="inline">&sect;07</a>.</dd>
+          <dt>Leads</dt><dd>Aerion (sign for a case you can't inspect, hold your nerve at the checkpoint); Oz (the inspection).</dd>
+          <dt>Wonder</dt><dd>Attach any; the checkpoint waystation sits a few hours off its charted spot.</dd>
+          <dt>The seed</dt><dd>The off-shift Warden gripes that three lanes "won't resolve" and it's fouling his schedule, and he blames the crew's charts first. Same symptom, colder mouth.</dd>
+          <dt>The catch</dt><dd>The money is real and so is the itch. It's a no-questions job for a house that keeps its favours. Peeking risks the seal (voids the pay, and the client is not someone to disappoint). Do they look? Their call, not yours.</dd>
+          <dt>Seeds forward</dt><dd>The Chain house remembers a crew that delivers sealed and stays quiet. A relationship with a shadier neighbour, for good or ill.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>The Rock and Back <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; clear ~170, the easy one</span></h4>
+        <p>Let one job be easy. The crew scene in transit is the whole point.</p>
+        <dl>
+          <dt>Where</dt><dd>Bulk grain, Bral to a Sallow Chain waystation. Genuinely routine.</dd>
+          <dt>Leads</dt><dd>The whole crew. This is the found-family transit episode: the terrible shore-leave portrait, the galley game night, Brass's dinner roll, the chore wheel.</dd>
+          <dt>Wonder</dt><dd>Keep it light; a shoal of space guppies adopts the ship.</dd>
+          <dt>The seed</dt><dd>Even the milk run runs a day long, and a hauler at the waystation mentions its sister depot went quiet. Mild, no body count.</dd>
+          <dt>The catch</dt><dd>It barely clears cost. Aerion feels every gold of the thinness.</dd>
+          <dt>Seeds forward</dt><dd>Low stakes, maximum warmth. The pick for a table that wants comedy over danger tonight.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>Passenger Work <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; clear ~270</span></h4>
+        <p>Low pay, the richest relationship on the board, and Orena's clearest spotlight.</p>
+        <dl>
+          <dt>Where</dt><dd>Carry the surveyor Aurel Delverane (under her own name) to the Windward Edge. Sixteen days.</dd>
+          <dt>Leads</dt><dd>Orena. Aurel asks her about the currents and the tales she chases, questions no one has asked, and takes "the sky is off" seriously.</dd>
+          <dt>Wonder</dt><dd>Aurel's instruments read the same wrongness Orena feels. A quiet two-person scene at a viewport.</dd>
+          <dt>The seed</dt><dd>Aurel is out here because the frontier routes are failing, and she's mapping it. The seed arrives as an ally who already half-believes.</dd>
+          <dt>The catch</dt><dd>Long, low-paying, and a passenger changes the crew's rhythm: air, privacy, manners.</dd>
+          <dt>Seeds forward</dt><dd>The single most valuable relationship in Tier 1 (Delverane, the reform faction, and the <em>Farthing</em>). Neither side realizes it yet.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>Ashfall Passage <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; clear ~270</span></h4>
+        <p>Find a road home that everyone said was gone. The warmest of the small jobs, and a Flurry showcase.</p>
+        <dl>
+          <dt>Where</dt><dd>Carry a spacer family's eldest home to Ashfall, the drift their line began on, for a once-a-generation gathering.</dd>
+          <dt>Leads</dt><dd>Orena feels the old current, or Flurry locks onto the heading and won't look away. Two captains already refused this as a lost cause.</dd>
+          <dt>Wonder</dt><dd>The living road itself: they follow the water back to a place the maps forgot.</dd>
+          <dt>The seed</dt><dd>Ashfall is faintly thinning, a gentle first hint that even living roads can fade. No body count.</dd>
+          <dt>Seeds forward</dt><dd>A grateful family, and Flurry proven as more than a mascot. Play it as wonder, not dread.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>Best in Show <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; clear ~570</span></h4>
+        <p>Deliver a champion animal, alive and immaculate. Pure sitcom, and Oz's episode.</p>
+        <dl>
+          <dt>Where</dt><dd>A giff colonel's prize animal to a Bral Reach exhibition.</dd>
+          <dt>Leads</dt><dd>Oz, who turns out to have a way with animals nobody expected. Finny opens a book on whether it survives the trip.</dd>
+          <dt>Wonder</dt><dd>Keep it light; the animal escapes its pen twice, and befriends the chwinga if you run one.</dd>
+          <dt>The seed</dt><dd>Lightest of all: a day-long leg and a hauler's offhand word about a quiet depot. Barely there.</dd>
+          <dt>The catch</dt><dd>It hates the ship, adores Oz, and ate the manifest. Brass keeps eyeing it as inventory.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="call dm"><span class="call-label">It doesn't matter which they pick, and that's by design</span><p>Under any of the six in-reach jobs, the night's spine is the same: provision at Bral, one wonder in transit (&sect;06), the action beat (&sect;08), a Guttering seed with the destination a little wrong, and the cold open on the way home (&sect;10). What changes is the flavour, the destination, the lead who gets the spotlight, and which future thread you seed. Prep the spine once and let the contract colour it. The signed <strong>charter prop</strong> is written for the Cold Run; for Sealed and Sworn, describe the filing or adapt the prop.</p></div>
+    <div class="call opp"><span class="call-label">"Won't they just take the money?" (they did)</span><p>Sealed and Sworn clears the most (~1,170), so maybe they do. If a broke crew grabs it, that's a real read on who they are, and the itch is the price: a no-questions case, a tense checkpoint, no warm landing. The Cold Run's draw was never gold; it's warmth and the cleanest seed, which is why it wears the &#9733;. But the call belongs to Priscilla and Gabrielle. Estra deliberately hands Aerion the contract decision and doesn't second-guess it (one of her early beats with him), so let the outcome teach. Whatever they choose, the arc lands.</p></div>
+  </section>
+
+  <!-- 6. THE VOYAGE -->
+  <section id="voyage">
+    <div class="sec-head"><span class="sec-num">06</span><h2>The voyage out</h2></div>
+    <p class="sec-intro">Casting off, the first real flight as a system, and one thing in transit. Read-aloud is a starting point; paraphrase freely.</p>
+
+    <div class="beat">
+      <div class="beat-head"><span class="bnum">1</span><div><h3>Casting off &amp; first flight</h3><div class="who-leads">Run the crew stations once</div></div></div>
+      <div class="read">
+        <span class="read-label">Read aloud</span>
+        <p>The clamps release and the Rock falls away beneath you, then above you, then wherever it likes. The helm-glow settles. For a moment the silver of the Astral is the only thing in every direction, and the ship is a warm bright bubble of air and lamplight moving through it faster than the eye can hold. Then Tack pats a bulkhead, tells Deborah she's doing beautifully, and the moment's over.</p>
+      </div>
+      <p>Their first time flying her as a <em>system</em>. Run the crew stations once here so everyone knows their post: who pilots, who's on Gertrude and Susan, who watches, who coordinates from the deck. The assignments are the crew's and the players' to sort; Estra teaches, she doesn't dictate. The full rules live right here so you never have to look them up.</p>
+      <div class="grid two">
+        <div class="card">
+          <p class="label">Crew stations (the rules)</p>
+          <ul class="tight">
+            <li><strong>Pilot.</strong> Flying is free (not an action). Each round spend the free action on one maneuver: <strong>Evasive Action</strong> (attacks vs the ship have disadvantage, but the ship's own guns do too this round), <strong>Full Burn</strong> (speed doubles to close or run, but attacks vs the ship have advantage), or <strong>Boarding Action</strong> (contested Piloting to lock ships together). Piloting takes concentration, so the helm can't also hold a spell. One maneuver per round.</li>
+            <li><strong>Gunner.</strong> Crews a ballista. Normally 3 crew and 3 actions to fire; with this ship's Sureshot Rotator and Ready Magazine, one gunner fires it in a single action. Ballista: +6, 16 (3d10).</li>
+            <li><strong>Engineer.</strong> <strong>Emergency Patch:</strong> Technology or Intelligence check DC 12; on a success the hull regains HP equal to the engineer's level, once per encounter. Temporary; it doesn't reduce the repair bill.</li>
+            <li><strong>Coordinator.</strong> One benefit per round: grant advantage on an ally's roll, impose disadvantage on an enemy, or let one station act again out of turn.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <p class="label">The ship at a glance</p>
+          <div class="spec">
+            <div><span class="k">AC</span><span class="v">19 +Plating</span></div>
+            <div><span class="k">HP</span><span class="v">250</span></div>
+            <div><span class="k">Threshold</span><span class="v">20</span></div>
+            <div><span class="k">Speed</span><span class="v">~45 ft</span></div>
+            <div><span class="k">Guns</span><span class="v">2 ballistae, ram</span></div>
+            <div><span class="k">Crew</span><span class="v">7 of 11</span></div>
+          </div>
+          <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Threshold 20: any single hit under 20 does nothing. Ram is a separate hull attack, not a pilot maneuver. Full pre-rolled combat in &sect;08.</p>
+        </div>
+      </div>
+      <div class="call dm"><span class="call-label">Flurry, content</span><p>Free and optional: crossing into open sky, Flurry presses to a viewport, breath-frost on the glass, perfectly happy. Bank the image. Its opposite is the cold open (&sect;10).</p></div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-head"><span class="bnum">2</span><div><h3>Transit: the wonder (play this one in full)</h3><div class="who-leads">One real scene, not a die roll</div></div></div>
+      <p>Rather than roll a random encounter for the premiere, run one wonder properly and let it breathe. The default is <strong>a chwinga astronaut, fishing from the back of a space guppy</strong>, because it's warm, funny, interactive, and asks nothing of the plot. Combat is a separate beat, in <a href="#fight" class="inline">&sect;08</a>; a menu of swaps is at the bottom.</p>
+      <div class="read">
+        <span class="read-label">Read aloud: something is fishing off the bow</span>
+        <p>Two days out, on a quiet watch, a single fat space guppy drifts up alongside the hull, unhurried, finning at nothing. Riding on its back, astride it like a pony, is a figure about a foot tall in a bulbous handmade spacesuit of driftwood and glass and starlight. It is holding a little rod, and it has cast a line and a hook out into the empty black, and it is <em>fishing</em>. It has clearly been at this a while. When it notices you noticing, it lifts one small gloved hand and waves, then goes right back to watching its line.</p>
+      </div>
+      <p>It's a <strong>chwinga astronaut</strong> (a tiny nature-spirit of the Astral that has kitted itself out for the void, <a class="inline" href="https://static.wikia.nocookie.net/forgottenrealms/images/6/69/Chwinga_astronaut_5e.jpg/revision/latest?cb=20220915083923" target="_blank" rel="noopener">reference art</a>), harmless and never a fight, mounted on a tame <strong>space guppy</strong>. It has no Common and no interest in explaining itself; it speaks in small images pressed gently into your head, a warmth, a picture, a feeling. It will pace the ship for a day or two, and fish the whole time.</p>
+      <h4>What it does (offer these; let the players choose how to meet it)</h4>
+      <ul class="clean">
+        <li><strong>It's fishing, and it'll show you for what.</strong> Ask, and it presses an image into your head of the catch it's after: a star that hasn't been born yet, a half-heard song, a fish made of light. It never reels anything in that you can see, and it doesn't seem to mind.</li>
+        <li><strong>It'll share the rod.</strong> If a crewmember sits down and fishes alongside it, that's the whole scene. Let them "catch" something small and strange after a while (no roll needed; just describe the gift the void hands up).</li>
+        <li><strong>The guppy is friendly.</strong> It noses the hull, follows the ship, and lets Flurry chase it in slow delighted circles. Flurry is <em>fascinated</em> and perfectly calm, which quietly tells the table the sky here is fine.</li>
+        <li><strong>It likes warm and shining bait,</strong> not food: offer it a Warmstone, a coin, one of Flurry's shed scales, and it will thread the treasure onto its hook and cast it joyfully into the dark, as if that were the entire point.</li>
+        <li><strong>It can give a gift.</strong> Before it and the guppy peel away, it presses a small blessing into the hand of anyone who was kind to it (a charm: advantage on one save, a heading that feels true for a day, a token that stays warm). Offer the chance; whether a PC earns it or wants it is theirs.</li>
+      </ul>
+      <div class="call dm"><span class="call-label">How it leaves, and the whisper under it</span><p>At some quiet moment the guppy turns, the chwinga reels in its empty line, tips an imaginary hat, and the two of them fin off into the black. Play it warm; this is the 20% wonder, not a plot beat. <strong>The faint seed (optional, deniable):</strong> once, the chwinga stops fishing, looks a long moment along the leg ahead, and pointedly will <em>not</em> cast its line that way. Flurry looks the same direction. The water in front of the ship is thinning, and the little astronaut won't fish a stretch that's going quiet. Don't explain it. File it beside the cold open.</p></div>
+      <ul class="clean">
+        <li><strong>Swaps, if you'd rather (rotate weekly):</strong> a derelict with the table still set and no crew; a mercane vessel on business older than the cartel; a colour that isn't on the spectrum drifting past, incurious; or, sparingly, a distant kindori pod singing by light. Full menu: <span class="mono">rules/Tables.md</span> &sect;1.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7. HALLOW'S REST -->
+  <section id="handoff">
+    <div class="sec-head"><span class="sec-num">07</span><h2>Arrival: the Chain handoff</h2></div>
+    <p class="sec-intro">Where the weight lands, reworked from the ground up: this crew is delivering a locked case, no questions, to a House Vellum address in the Sallow Chain, not resupplying a struggling colony. The shape of the beat changes with it: a discretion problem instead of a triage one, and a wrongness that shouldn't be possible in the one part of Wildspace that's supposed to be fine.</p>
+    <div class="call opp"><span class="call-label">Played, and it went further than this section plans for</span><p>The handoff itself ran almost exactly as written below, Calder, Kellan, the refused inspection, the discretion tip, Finny picking Calder's pocket for the key. What this section doesn't yet cover: leaving Reefside triggered a real ambush from <strong>Bex Halloway</strong>, a boarding fight, Reefside's own defense cannons destroying her ship, a void scavver ramming the port itself, and the delivered lockbox tumbling loose in the wreckage, where <strong>Aerion caught it</strong>, it's aboard the <em>Night Fury</em> right now, unopened, warded, and the crew is working out how to get past that. Full account: <span class="mono">sessions/Session 1.md</span>. Treat everything below as what was planned and mostly played; the ambush and its fallout are a separate, bigger escalation layered on top.</p></div>
+
+    <p><strong>Getting there is slightly wrong, and it lands harder for where it happens.</strong> The run takes a day longer than the charts allow, and the checkpoint waystation sits a few hours off its charted spot. That's a Verge symptom, not a Chain one, on Vellum's own well-managed lane. Play it exactly as mild as it would be anywhere else, a shrug, a recheck, nothing alarming, and let Orena be the one who clocks that it shouldn't be happening <em>here.</em></p>
+
+    <div class="read">
+      <span class="read-label">Read aloud: making the Chain</span>
+      <p>The Sallow Chain reads like money looks when it stops trying: wide, lit, current running thick and gold underneath you the whole final approach, every buoy exactly where the chart says it'll be. You've never flown a lane this easy. Ahead, grown into the flank of a bleached, titanic dead coral the size of a district, is the waystation: lamplit chambers hollowed through its branches, the air when the lock cycles thick with brine and ozone and something faintly, constantly humming. A private berth flies House Vellum's colors and nobody else's. Someone is already waiting on the dock, and they do not look glad to see you. They look like they were told to expect a delivery, and here it is.</p>
+    </div>
+
+    <div class="grid three">
+      <div class="card">
+        <h4>Factor Ren Calder</h4>
+        <p>House Vellum's household steward, here to receive the case. Correct, unhurried, and utterly incurious on purpose, the opposite of a grateful client. Doesn't ask what's in the box because that's the one question the contract pays them not to ask either. Wants this over cleanly and the crew forgotten by morning.</p>
+      </div>
+      <div class="card">
+        <h4>Warden Rhiz Kellan</h4>
+        <p>Runs the checkpoint at the halfway mark. Brisk, not unkind, entirely by the book. Gripes, if given an opening, that three lanes through here "won't resolve" lately and it's fouling his schedule, and he blames the crew's charts before he'd ever consider the lane itself. The paper seed's colder mouth.</p>
+      </div>
+      <div class="card">
+        <h4>Corvath</h4>
+        <p>Tends the living coral that still creeps along the station's outer hull. Warm, a little odd, the only person here who'll actually talk to the crew like people. Has noticed the grey, silent wing where the coral died and the Chain won't discuss it, and will say so if anyone asks.</p>
+      </div>
+    </div>
+
+    <div class="call pc"><span class="call-label">Situations to set down (the players decide how to meet them)</span><p><strong>The inspection.</strong> Warden Kellan wants to log the case's contents at the checkpoint, standard procedure. The contract's own terms protect them precisely because they don't know what's inside, so refusing is correct, and also exactly the kind of refusal that makes a by-the-book Warden suspicious. <strong>The discretion fee.</strong> Calder offers a small personal tip for keeping this quiet, on top of the contract pay, phrased as a favour rather than a bribe. Taking it, and what it implies about future work for Vellum, is theirs. <strong>The itch.</strong> The whole table spent real time this session wondering what's in the box. Let that keep being funny here: nobody has to open it, but nobody's going to stop thinking about it either.</p></div>
+    <div class="card">
+      <h4>Aerion's set-piece: holding the line at the checkpoint</h4>
+      <p>Give the checkpoint real teeth so it plays as a scene, not a line, and make it Aerion's the way the arrival read is Orena's. Warden Kellan wants the case logged and opened; the contract says he can't compel that without cause, and Aerion is the one who has to make that stick to a man with a badge and a schedule to keep.</p>
+      <ul class="clean">
+        <li><strong>The paperwork is the fight.</strong> A calm Charisma (Persuasion) case that the charter is properly filed and the CIV's own rules protect an unopened seal: <strong>DC 13</strong> to get waved through, <strong>DC 16</strong> to get it <em>and</em> leave Kellan feeling like he did his job properly rather than got talked past. Insight tells Aerion that Kellan isn't looking for a fight, he's looking for a reason to stop looking, so the win is giving him one.</li>
+        <li><strong>Calder is the ethics.</strong> Take the discretion fee, and what does that make this crew going forward, a Chain house's quiet errand-runners? Decline, and does Calder respect it or just note it? No wrong answer, just a call the crew has to own.</li>
+        <li><strong>The paper is the seed (his half of the arc).</strong> Somewhere in the filing, Aerion catches it: the checkpoint waystation is logged "current and on-position" in the Chain's own records. His own delivery just proved it's drifted. The books say the lane is fine; the lane is not fine, and it's happening in the one place that's supposed to be safe from all this. Don't resolve it; let it bother him.</li>
+      </ul>
+    </div>
+    <div class="call dm"><span class="call-label">Play it cold, not warm (the tonal pivot from the original plan)</span><p>Hallow's Rest was built to be warm and grateful; this arrival is deliberately the opposite. Calder gives nothing back, Kellan is procedure not menace, and the only real warmth in the scene comes from Corvath or from the crew's own banter, not from the client. That contrast is the point: competence still gets rewarded, it just doesn't get thanked here.</p></div>
+
+    <h3>More at Reefside</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Things to do (it isn't only the handoff)</h4>
+        <ul class="clean">
+          <li><strong>The grey wing.</strong> Corvath will show anyone curious the silent, colorless stretch of coral where the reef's constant hum has died out entirely. Nobody official will discuss why. A live, open thread.</li>
+          <li><strong>The checkpoint itself.</strong> Kellan's gripe about lanes that "won't resolve," if the crew is polite enough to draw it out of him, is the same symptom Meech has noticed at Bral, from a very different mouth.</li>
+          <li><strong>A dice game, off duty.</strong> Reefside's dockhands run the same Scavver and Liar's Berth games as the Compass Rose (full rules in <a href="#bral" class="inline">&sect;04</a>), and it's as good a place as any to hear what the station won't say to Calder's face.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>The senses (drop one per scene)</h4>
+        <ul class="clean">
+          <li><strong>The reef sings.</strong> A low, constant hum runs through the living coral when the current moves through it, audible as a vibration in the deck before it's audible as sound.</li>
+          <li><strong>Brine and ozone.</strong> The whole station smells faintly of a tide pool and a lightning strike at once.</li>
+          <li><strong>Everything here is correct.</strong> Polished brass, exact paperwork, a dock that flies a house's colors properly. The opposite texture of a struggling colony, and worth playing up for contrast.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h4>The cool thing: a reef that sings, and one wing that's gone silent</h4>
+      <p>The coral <em>sings</em>, low and constant, when the currents run through it, alive in a way most Chain infrastructure never bothers to be. One whole wing has gone grey and silent where the current thinned, and the Chain will not discuss it, an official filing calls it "productive." That's the Guttering, unnamed, sitting inside the safest lane in Wildspace, and nobody here has the vocabulary for it yet.</p>
+      <ul class="clean">
+        <li><strong>Side-gold, small and honest.</strong> Harvest a little living coral for Pell back at Bral if it can be done unseen, take Calder's discretion tip, or pick up a small bounty Kellan mentions in passing (roughly 100 to 400 gp total, per the house rule below).</li>
+        <li><strong>Not a fix tonight.</strong> Unlike Hallow's Rest's copper economy, this isn't a problem the crew can solve in one visit, it's a first, cold glimpse of the same rot reaching somewhere it isn't supposed to be able to reach. Let it sit unresolved.</li>
+      </ul>
+    </div>
+    <div class="call opp"><span class="call-label">Side-gold: a house rule for every mission</span><p>Every run carries one honest extra earner on top of the contract, so a clever crew clears more than the sheet says. Keep each small (roughly 100 to 400 gp) so the money reality holds, and make it a scene: a salvage, a brokered deal, a bounty, a bet, a favour called in.</p></div>
+
+    <h3>If they'd taken another contract: the destination in full</h3>
+    <p class="sec-intro">Kept fully built and ready to flip to for a future session. Every destination is a fantastical place, gives both leads a scene, and carries side-gold on top of the contract. The spine still holds: a leg that runs long, a place a little wrong, a Guttering seed, and the cold open on the way home (&sect;10).</p>
+    <div class="grid two">
+      <div class="card">
+        <h4>The Cold Run <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; Hallow's Rest, a terminator mining colony</span></h4>
+        <p>A mercy run to a proud colony that lost its supply road. The warmest version of the night, and the cleanest version of the deferred body-count seed, use it the first time the crew actually flies to a struggling Verge settlement. Full depth below; it's built out at the same level this section used to be.</p>
+        <dl>
+          <dt>Where</dt><dd>Hallow's Rest, a tidally locked mining moon on the Verge. Half the town in permanent gold light, half in permanent black, shadows that never move.</dd>
+          <dt>The people</dt><dd><strong>Administrator Sesla Vint</strong>, proud, would rather ration than beg; <strong>Coll Aday</strong>, the young runner who couldn't find the depot road and blames themselves; <strong>Big Pol</strong>, who runs the warmest room in town.</dd>
+          <dt>Aerion</dt><dd>An ore-for-coin negotiation with real numbers: the colony owes 1,400 gp, holds ~600 in coin, offers the rest in ore at a poor Verge rate. DC 13 for a fair rate, DC 16 for fair and dignified.</dd>
+          <dt>Orena</dt><dd>Finds the drifted colony by feel, not the charts.</dd>
+          <dt>The seed (the important one, deferred from tonight)</dt><dd>Coll's own depot run that "wasn't there." The symptom with a body count.</dd>
+          <dt>The prosperity hook</dt><dd>A full Tack-and-Aerion copper-wire economy is built out for this destination (raw ore ~10 gp/100 lb sells for ~2 after freight; drawn wire ~500 gp sells for ~492): they mine copper and starve on it because they export the wrong form. See <span class="mono">Worlds &amp; Places.md</span> for the complete version.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>Passenger Work <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; the Windward Edge</span></h4>
+        <p>The <strong>Windward Edge</strong> is where two great currents shear and the living sea <em>breaks like surf</em>: standing walls of silver light, spray that fizzes and glows on the hull, and edge-runners in tiny craft tacking the wavefronts for salvage and sport. Aurel Delverane is out here charting where the surf has begun to move.</p>
+        <dl>
+          <dt>Cool thing</dt><dd>You don't land, you <em>ride the edge</em>, surfing a standing wave of light while the passenger works. The spray leaves a glowing rime on everything for a day.</dd>
+          <dt>The scene</dt><dd>Deliver Aurel and her instruments. She asks Orena the questions nobody has asked, and the two of them read the same wrongness, one by feel and one by brass.</dd>
+          <dt>Orena</dt><dd>Surf-reads the shear to hold position; Aurel treats her as a colleague, not a deckhand.</dd>
+          <dt>Aerion</dt><dd>Aurel pays partly in a Delverane letter of introduction (a real asset) and shows him a survey filing that's been altered. The paper seed, handed over by an ally.</dd>
+          <dt>Side-gold</dt><dd>Strip a wreck caught in the surf before the edge-runners do, or take Aurel's bonus for good survey data, or sell a fresh chart to Senna back at Bral.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>The Rock and Back <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; Ember &amp; Rime, the sun-locked asteroid</span></h4>
+        <p>The grain goes to <strong>Ember &amp; Rime</strong>, an asteroid locked to its sun so that one face never leaves the blaze and the other never leaves the freeze, and it does not turn. Sun side is <strong>Emberhold</strong>: fire genasi and heat-geared folk in mirror-suits, forges that never cool, glass and brass and shimmer. Dark side is <strong>Rime</strong>: ice genasi and cold-geared folk in halls carved from blue ice, hushed and slow. They meet only at <strong>the Seam</strong>, a thin band of twilight where a market runs and each side trades what only the other can make. They almost never mix.</p>
+        <dl>
+          <dt>Cool thing</dt><dd>Two peoples who have never seen the other's sky, sharing one rock. A smith who has never been cold and a carver who has never been warm, doing business through a curtain of steam where hot air meets cold.</dd>
+          <dt>The scene</dt><dd>Genuinely routine cargo (they can't farm; they import everything edible), so the spectacle and the crew are the point. Docking threads the thermal shear where the two airs collide.</dd>
+          <dt>Aerion</dt><dd>Brokers the grain sale between two sides that won't deal face to face, and can charge both for the privilege. A quartermaster's showcase.</dd>
+          <dt>Orena</dt><dd>Flies the shear to reach the Seam, reading where the hot and cold currents tear at each other.</dd>
+          <dt>Side-gold</dt><dd>Arbitrage: carry ember-steel or sun-glass from the blaze side to sell as rare rime-ice on the freeze side, take a small forge commission, or ferry a message between two estranged sides who will pay to avoid each other.</dd>
+          <dt>Warm hook</dt><dd>An Emberhold smith and a Rime carver, quietly fond across the Seam, and a crew that could nudge it. Play it light.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>Ashfall Passage <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; Ashfall, the falling-light drift</span></h4>
+        <p><strong>Ashfall</strong> is a slow drift in the wake of a long-dead comet, where a fine luminous snow falls forever and never lands, hanging in the near-weightless dark like a held breath. A family's ancestral markers drift here like lanterns, and the gathering happens once a generation, when the drift's slow orbit brings the markers back into alignment.</p>
+        <dl>
+          <dt>Cool thing</dt><dd>Forever-falling glowing ash you can cup in a hand; the markers of a whole lineage hanging in the dark; a reunion held in silence and light.</dd>
+          <dt>The scene</dt><dd>Find the road (Flurry locks the heading, or Orena feels the current), carry the family home, witness the gathering. Warm, wondrous, a little bittersweet.</dd>
+          <dt>Orena / Flurry</dt><dd>The whole navigation <em>is</em> the scene: reaching a place two captains called impossible, by feel.</dd>
+          <dt>Aerion</dt><dd>A proud, near-broke family, like the crew, and a gentle negotiation. Their own logbook lists Ashfall "current" when the charts dropped it. Paper seed.</dd>
+          <dt>Side-gold</dt><dd>The family gifts a small heirloom (roll an uncommon on the minor-items list), or the thinning Tide has bared an old wreck near the drift to salvage.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h4>Best in Show <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; the Bral Exhibition (returns to Bral)</span></h4>
+        <p>No new port: the destination is the glittering menagerie-fair on an upper tier of the Rock, all velvet ropes, judges, and a very "spirited" animal. The spectacle is the crowd.</p>
+        <dl>
+          <dt>The scene</dt><dd>Deliver the animal alive and immaculate. It escapes twice, adores Oz, and ate the manifest.</dd>
+          <dt>Oz</dt><dd>The animal whisperer nobody expected.</dd>
+          <dt>Aerion</dt><dd>Registration paperwork and the wager ledger.</dd>
+          <dt>Side-gold</dt><dd>Prize money if it wins its class immaculate, plus Finny's side bets, plus a breeder who tips for the crew's discretion about the escapes.</dd>
+        </dl>
+      </div>
+    </div>
+    <p class="mono" style="font-size:.82rem;color:var(--muted-text)">If one of these ever gets flown for real, run the action beat (&sect;08) en route and land the cold open (&sect;10) on the way home, same as tonight.</p>
+
+    <h3>"Vagabonds," then home</h3>
+    <div class="read">
+      <span class="read-label">Read aloud</span>
+      <p>Somebody on the dock, another crew or a factor or a bored Warden, watches the unload, takes in the battered hull and the mismatched crew, and says it not quite under their breath: "Estra's vagabonds." Like it's the punchline to a joke everybody already knows.</p>
+    </div>
+    <p>Let it land. By the end of the campaign it should feel less like an insult and more like the name the ship doesn't have yet, waiting.</p>
+  </section>
+
+  <!-- 8. COMBAT -->
+  <section id="fight">
+    <div class="sec-head"><span class="sec-num">08</span><h2>The action beat, with pre-rolled rounds</h2></div>
+    <p class="sec-intro">The premiere's action beat is <strong>one set-piece in three moves</strong>: a boarding scrap with a bottom-of-the-Board rival, a scavenger drawn to the noise, and then one glimpse of something that empties the sky. It's tuned to cost the hull <strong>nothing</strong> (the lesson is "we can take a hit"), the enemy dice are pre-rolled so you can stay in the fiction, and it ends on the campaign's keystone seen once and fled, not fought.</p>
+    <div class="call opp"><span class="call-label">Played, and it went bigger than this pre-rolled version</span><p>The actual attacker was <strong>Bex Halloway's <em>Grendel's Wake</em></strong>, not Vex, a real ambush paying off her earlier confrontation with Orena. The leads boarded her ship personally, put her on death's door, and looted the wreck (1,021 gp plus three items). Reefside's own defense cannons then destroyed the drifting <em>Grendel's Wake</em> outright, and the explosion drew a void scavver that <strong>rammed the port itself</strong>, not a distant glimpse this time, close, named aloud by Estra, and violent. The delivered lockbox came loose in the wreckage and Aerion caught it, it's aboard the ship right now, unopened and warded, actively being worked on. Full account and the new house rulings this fight produced (gunnery action-economy math, ship HP pooled at the hull): <span class="mono">sessions/Session 1.md</span> and <span class="mono">rules/Rules &amp; Systems.md</span> &sect;8. This means Bex's fate, not Vex's rank, is now the live rival thread, and <span class="mono">Episode - The Quiet Hull.md</span> needs a look before it's run, its "first close encounter" premise has already happened.</p></div>
+    <div class="call dm"><span class="call-label">Calibrate to the table</span><p>Gabrielle enjoys combat more than Priscilla does, so give it teeth for her (a gun, the helm, the Coordinator chair) while keeping it quick. Combat-light week? Shrink the scrap to one exchange and go straight to the scavver and the glimpse. Whether the crew fights, boards, or talks their way clear is, as ever, the players'.</p></div>
+    <div class="call dm"><span class="call-label">Who attacks: use Vex, for continuity</span><p>Dev Ostrel (the yard grudge) still works, but the cleaner choice is <strong>Rimmon Vex of the <em>Cutlass Sunday</em></strong> (ranked 344), especially if you ran the Board scene at Bral where he insulted them. He scavenges what isn't his and took being passed as an insult, so hitting the crew on a lonely leg is exactly his style. Beating him here plants a rival they'll see for a year (<span class="mono">factions/The Manifest Board.md</span>).</p></div>
+
+    <div class="grid two">
+      <div class="card">
+        <h4>Vex's skiff <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; the Cutlass Sunday</span></h4>
+        <div class="spec">
+          <div><span class="k">Swift Cutter</span><span class="v">skiff</span></div>
+          <div><span class="k">AC</span><span class="v">13</span></div>
+          <div><span class="k">HP</span><span class="v">120</span></div>
+          <div><span class="k">Threshold</span><span class="v">15</span></div>
+          <div><span class="k">Ballista</span><span class="v">+6, 3d10</span></div>
+        </div>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Plus 3 scrappers who board: AC 12, HP 11, scrap-blade +3 (1d6+1). Weak, and the point is the beats they set up, not the threat.</p>
+      </div>
+      <div class="card">
+        <h4>The ship in a fight <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; Estra's ship</span></h4>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">19 +Plating</span></div>
+          <div><span class="k">HP</span><span class="v">250</span></div>
+          <div><span class="k">Threshold</span><span class="v">20</span></div>
+          <div><span class="k">Speed</span><span class="v">~45 ft</span></div>
+          <div><span class="k">Guns</span><span class="v">2 ballistae, ram</span></div>
+        </div>
+        <p><strong>Damage threshold 20:</strong> any single hit under 20 does nothing. <strong>Gunnery:</strong> one gunner fires a ballista in a single action (Sureshot Rotator + Ready Magazine). Ballista: +6, 16 (3d10).</p>
+      </div>
+    </div>
+
+    <h4>Move 1: the scrap and the boarding <span class="mono" style="font-weight:400;color:var(--muted-text)">(rounds 1&ndash;2)</span></h4>
+    <p class="measure">Vex opens with the ballista, then grapples alongside to board, because he wants your cargo, not a gun duel. His shots do nothing to the plating (pre-rolled below), and the fun is what happens when his people hit the deck.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Round</th><th class="ctr">Skiff ballista (+6)</th><th class="ctr">vs AC 19</th><th class="ctr">Damage (3d10)</th><th>Result</th></tr></thead>
+        <tbody>
+          <tr><td class="name">1</td><td class="ctr">22</td><td class="ctr">hit</td><td class="ctr">12</td><td class="neg">Under threshold. Sparks off the plating, 0 damage. Vex closes to board.</td></tr>
+          <tr><td class="name">2</td><td class="ctr">14</td><td class="ctr">miss</td><td class="ctr">&ndash;</td><td class="miss">Wide; his gunner is busy with the grapples. Three scrappers swing across.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Scrappers pre-rolled: A +3 &rarr; 9 (miss), B +3 &rarr; 15 (compare to a PC's AC), C never gets a swing (see Tack, below).</p>
+    <div class="grid two">
+      <div class="card">
+        <h4>Three beats to hand the players</h4>
+        <ul class="clean">
+          <li><strong>Aerion calls the fight.</strong> As bosun he runs it from the deck (the Coordinator station): give Priscilla the command spotlight. An Intelligence or Charisma read of where the boarders are weak sets up the next move, and once per round he can grant a crewmate advantage, foul an enemy with disadvantage, or let a gunner fire again. His other stake is the books: every point of hull is 20 gp he'll be accounting for at the dock, so he wants this fast and clean.</li>
+          <li><strong>Tack ties one to Deborah.</strong> Tack, wanting to help and with no grasp of danger, lashes a boarder to the helm-throne with a tether line "so he'll hold still." Treat it as done: the scrapper is <strong>restrained</strong>, furious, and now sitting in Estra's chair. Estra: "Tack." Tack: "He was in the way of Deborah."</li>
+          <li><strong>Oz throws one into the skiff.</strong> Oz grapples a scrapper (he's enormous, call it automatic) and hurls him bodily back across the gap into the <em>Cutlass Sunday's</em> flank. The scrapper takes <strong>2d6</strong> and cracks a plank where he lands; the ship's next ballista shot at that spot has <strong>advantage</strong>, or just deal it <strong>15</strong> to the skiff. Oz, the whole time: "Terribly sorry. Mind the rail."</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Ending Move 1</h4>
+        <p>Between one threshold-piercing broadside (two ballistae) and Oz's cracked plank, the skiff is <strong>bloodied</strong> in two rounds and Vex is already regretting this. He is about to break off with a curse and a promise to remember them.</p>
+        <p><strong>Then he doesn't get to leave on his own terms,</strong> because the noise and the leaking skiff have drawn something. Roll straight into Move 2.</p>
+      </div>
+    </div>
+
+    <h4>Move 2: something answers the noise <span class="mono" style="font-weight:400;color:var(--muted-text)">(brown scavver, round 3)</span></h4>
+    <p class="measure">A <strong>brown scavver</strong> (a shark-bodied Wildspace scavenger, <a class="inline" href="https://static.wikia.nocookie.net/forgottenrealms/images/8/8a/Brown_Scavver.webp/revision/latest?cb=20230814113953" target="_blank" rel="noopener">reference art</a>) arrives out of the dark, drawn to the damage and the exposed crew. It reads the whole scene as a buffet and lunges at whoever's on deck. Pure animal, no malice, and its bite is under the ship's threshold, so it menaces the <em>crew</em>, not the hull. Now it's three-way: Vex wants out, the scavver wants supper, the crew wants the deck cleared. Vex breaks off <em>in earnest</em>, and a wise crew lets him.</p>
+    <div class="spec">
+      <div><span class="k">Brown Scavver</span><span class="v">CR 4</span></div>
+      <div><span class="k">AC</span><span class="v">14</span></div>
+      <div><span class="k">HP</span><span class="v">90</span></div>
+      <div><span class="k">Bite &times;2</span><span class="v">+7, 2d10+4</span></div>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Round</th><th class="ctr">Bite A (+7)</th><th class="ctr">Bite B (+7)</th><th class="ctr">Damage if it hits</th></tr></thead>
+        <tbody>
+          <tr><td class="name">3</td><td class="ctr">21</td><td class="ctr">10</td><td class="ctr">13 / &ndash;</td></tr>
+          <tr><td class="name">4</td><td class="ctr">24</td><td class="ctr">16</td><td class="ctr">16 / 11</td></tr>
+          <tr><td class="name">5</td><td class="ctr" colspan="2">Bloodied at &le;45 HP: disengages, bolts into the dark</td><td class="ctr">&ndash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Compare the to-hit totals to whichever crewmember it lunges at (their AC is the players' to state). Oz fires on it while apologizing: "I'm sorry, big fellow. You've picked the wrong supper." He means both parts.</p>
+
+    <h4>Move 3: the thing the scavver was running from</h4>
+    <p class="measure">Here's the turn. The brown scavver doesn't just flee because it's hurt. It flees because something worse is here, and for one moment the crew sees it too.</p>
+    <div class="read">
+      <span class="read-label">Read aloud: out past the fight</span>
+      <p>The scavver breaks and runs, and it isn't running from you. Out past the drifting skiff, a long way off and not nearly far enough, something moves. Bigger than a ship. Pitch black, so black it reads as a hole cut in the stars, and it slides through the dark without a sound and without hurry. The little scavver is fleeing it the way a fish flees a shark. Wherever that shape is pointed, the sky around it feels <em>emptied</em>, like a held breath. It has not noticed you. You very much want to keep it that way.</p>
+    </div>
+    <div class="call danger"><span class="call-label">Estra breaks, and takes the helm</span><p>This is the reveal of the whole session, and it isn't a monster stat block, it's <strong>Estra's face</strong>. The captain who is bored by hull breaches goes <strong>white</strong>. Whatever that thing is, she has seen one before, and it is the only thing in the sky that frightens her. Play it straight and quiet: she crosses to the helm and takes it out of Orena's hands without a word, or gives the order to run in a voice that cracks, and she burns them away hard. Every instinct in her says run all the way back to Bral and never speak of it.</p></div>
+    <div class="call pc"><span class="call-label">Hand the helm to the table</span><p>Orena has been flying this leg to practice for the handoff ahead, so make the helm a real moment for Gabrielle, two ways, her choice:</p>
+      <ul class="clean">
+        <li><strong>Estra takes over,</strong> and Orena feels the captain's hands close over hers on the helm, feels her <em>afraid</em>, which Orena has never seen. She yields it or she doesn't.</li>
+        <li><strong>Estra is too rattled to fly,</strong> and it falls to Orena to get them clear while the captain grips the rail. Her first time flying them out of real danger, and she does it, or improvises trying.</li>
+      </ul>
+      <p>Then the second choice, once they're clear and breathing: <strong>run home to Bral</strong> (Estra's raw instinct, and a fine cliffhanger), or steady the ship and <strong>press on to finish the delivery.</strong> Recommend pressing on so the session completes its loop, but it's the crew's call, not yours.</p></div>
+    <div class="call dm"><span class="call-label">GM only: what it was, and don't spend it</span><p>It's a <strong>void scavver</strong> (CR 11, twenty feet of pitch-black hide and teeth, <a class="inline" href="https://static.wikia.nocookie.net/forgottenrealms/images/2/24/Void_Scavver.webp/revision/latest?cb=20230814114013" target="_blank" rel="noopener">reference art</a>), the exterminated apex predator the entire campaign turns on. <strong>Do not fight it and do not name it.</strong> Session 1 gets only a distant, terrifying glimpse: they never close, it never engages, nobody has a word for it, and Estra won't explain. The first <em>close</em> encounter and the understanding come much later (<span class="mono">sessions/Episode - The Quiet Hull.md</span>). Tonight it plants two things at once: the keystone, and the crack in Estra. File it beside the cold open, and keep everything between here and the star warm to balance the two dark beats.</p></div>
+
+    <div class="grid two" style="margin-top:8px">
+      <div class="card">
+        <p class="label">Crew stations (recap of &sect;06)</p>
+        <ul class="tight">
+          <li><strong>Pilot.</strong> Flying is free; spend the free action on one maneuver: Evasive Action, Full Burn, or Boarding Action. (Ramming is the hull's ram attack, a separate option, not one of these three.)</li>
+          <li><strong>Gunner.</strong> Crews a ballista (one action, with the upgrades).</li>
+          <li><strong>Engineer.</strong> Emergency Patch: DC 12, regain HP = level, once per encounter.</li>
+          <li><strong>Coordinator.</strong> Grant advantage, impose disadvantage, or let a station act again. One per round.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Funny under fire</h4>
+        <ul class="tight">
+          <li>Tack murmurs "hold together, Deborah" to the helm as she takes the hit.</li>
+          <li>Finny turns off the stove <em>first</em>, every time, even mid-combat.</li>
+          <li>Oz says "excuse me" to whoever he was mid-sentence with before sprinting to his post.</li>
+          <li>Oz stays scrupulously polite <em>through</em> the violence: "Terribly sorry" as he throws a boarder, "no offence meant, big fellow" as he fires on the scavver. He means every word, and he does not stop.</li>
+          <li>Brass pockets something valuable "just in case we have to abandon."</li>
+          <li>Estra never stands up, until the one moment she does, and that is when everyone should be afraid.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. MONEY -->
+  <section id="money">
+    <div class="sec-head"><span class="sec-num">09</span><h2>The money is real</h2></div>
+    <p class="sec-intro">Competence under constraint is the substance of the genre. One flat deduction per voyage keeps it simple; do the math out loud at the dock and let the thinness bite.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Line</th><th class="num">Sealed and Sworn</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Contract payout</td><td class="num">+1,800 gp</td><td>Paid in coin, no negotiation, that's the whole appeal of this one</td></tr>
+          <tr><td class="name">Operating cost</td><td class="num">&minus;600 gp</td><td>The all-inclusive month (wages, food, air, upkeep), charged per voyage</td></tr>
+          <tr><td class="name">Berth 40 rent</td><td class="num">&minus;30 gp</td><td>Cheap because the last three tenants left owing money</td></tr>
+          <tr><td class="name">Hull repairs</td><td class="num">&minus;0 gp</td><td>The tuned intro fight costs no hull; the plating held</td></tr>
+          <tr><td class="name" style="border-top:2px solid var(--line-strong)">Clear this voyage</td><td class="num" style="border-top:2px solid var(--line-strong)"><strong>~1,170 gp</strong></td><td style="border-top:2px solid var(--line-strong)">Best margin on the board. Thin overall, but a good night.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid two">
+      <div class="card">
+        <h4>The shape of their finances</h4>
+        <p>They walked into this session holding roughly <span class="mono">14,350 gp</span> in the venture account (plus the 150 gp just paid in from the prior job, minus the 30 gp berth fee) and a <span class="mono">10,000 gp</span> trust-fund reserve Aerion would rather die than touch. A good voyage nets a few hundred to twelve hundred; a routine one barely clears cost. Treat the ship's ledger as Priscilla's character sheet from here forward rather than re-deriving it each session.</p>
+      </div>
+      <div class="card">
+        <h4>When repairs <em>do</em> bite</h4>
+        <p>Repairs are 20 gp/HP. This fight was tuned to cost nothing, but a real one won't be: a single 23-HP hull hit is <span class="mono">460 gp</span>, more than a third of tonight's whole take-home. That's the lesson to bank for later, not to spring tonight. Let Aerion's math make combat frightening because it's <em>expensive.</em></p>
+        <div class="call cost"><span class="call-label">The Manifest Board</span><p>Confirmed at 348th of 351 walking into this session, played, not a result of tonight's job. Finny reacted hardest to Jumper's rank-6 leap. The three below the crew: a derelict, an impounded smuggler, and a ship that's been on fire for six months.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. COLD OPEN -->
+  <section id="cold">
+    <div class="sec-head"><span class="sec-num">10</span><h2>The cold open, two scenes</h2></div>
+    <p class="sec-intro">This is why the session exists. Everything before it is the crew being the crew. Give <strong>both</strong> leads a quiet end beat, Aerion up with a dragon who won't settle and Orena alone on watch, and let the star land on the second. Set the scene, offer the stimulus, and hand each moment to its player. Don't narrate their feelings for them.</p>
+    <div class="call opp"><span class="call-label">Played, exactly as written</span><p>This landed almost word for word: Flurry paced, refused food, wouldn't settle; Orena, alone on watch the same hour, caught a star off its charted position and watched it dim and go out. Both leads rolled Perception (15 each) at the same moment. Session ended here, on cut to black, as designed.</p></div>
+
+    <div class="read">
+      <span class="read-label">Read aloud: Scene one, Aerion</span>
+      <p>It's late, and Flurry won't settle. She won't eat, not even the thing she always eats. She paces the cabin, climbs into your coat and back out, presses against the hull and pulls away from it, trilling low in a register you've never quite heard from her. There's nothing wrong that you can find. No fever, no hurt, no draft. She just will not be still, and she keeps turning to look at the same stretch of empty dark outside the port, as if something out there has her whole attention and she can't tell you what.</p>
+    </div>
+    <div class="call pc"><span class="call-label">Hand it to Priscilla</span><p>This is Aerion's scene: his baby is frightened of nothing, at midnight, and won't be comforted. Ask what he does, and don't answer why. He can wake someone, sit up with her, check the ship, dismiss it. Whatever he chooses, Flurry does not settle. (She's a barometer; the sky is wrong. <span class="mono">npcs/Flurry.md</span>.)</p></div>
+
+    <div class="read">
+      <span class="read-label">Read aloud: Scene two, Orena on watch</span>
+      <p>Elsewhere on the ship, the same hour. You're alone at the chart table, updating the log by lamplight, heading home. You look up to check your bearing against the stars you steer by, and one of them is wrong. Off by a hair. Not where it was an hour ago, not where the chart says.</p>
+      <p>You check the instruments. Twice. The instruments are fine. The sky is wrong.</p>
+      <p>And while you're looking <em>right at it</em>, the star dims. And goes out. No flare, no sound. It's just gone, and the dark where it was is seamless, as though it was never there.</p>
+      <p>Except, if you hold very still, there's the faint edge of a note. A single held tone at the edge of hearing. You've heard it once before. You heard it the night you lost your crew.</p>
+    </div>
+    <div class="call dm"><span class="call-label">Running the two scenes</span><p>You can play them in sequence or <strong>intercut</strong> them, Aerion soothing a dragon who won't be soothed at the very moment Orena watches the star go out, so the table feels they're the same event before anyone says so. Then stop. Don't cut away, don't offer a check, don't answer the question. Give each player the beat and let it sit. When it's landed: <strong>"That's where we'll stop."</strong> Cut to black.</p></div>
+    <div class="call dm"><span class="call-label">What the note actually is (GM only, long game)</span><p>The Vocalise is a <strong>kindori death-song</strong>, the dirge of a starving, stranded pod as its water goes dark, and it <em>lingers and echoes</em> in dead water long after. It's a real, recurring sound in the world, not only Orena's memory. <strong>Plant it as a drip</strong> across the campaign (tonight's note; a half-heard echo on a dark leg; a rumour of "singing in the deep") so it pays off much later at a <strong>whale fall</strong>, where an elder kindori's song is still echoing and Orena recognizes it. Don't explain any of this now. (`campaign/Story Spine.md`, `campaign/Plot Threads.md`.)</p></div>
+
+    <h3>Seeds planted, for your tracking</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Seed</th><th>How it showed</th><th>What it really is</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Sluggish routes</td><td>The run took a day longer than the charts allow, even in the Chain</td><td>The Tide is thinning; the current runs weak, and it's spreading</td></tr>
+          <tr><td class="name">Checkpoints out of position</td><td>The Reefside waystation drifted hours off its charted spot</td><td>Currents dissolving as the Tide dies back, closer to home than expected</td></tr>
+          <tr><td class="name">A body count <span class="mono">(deferred, not tonight)</span></td><td>Not planted this session, this job never reached a struggling colony</td><td>Save it for the first real Verge run (Hallow's Rest is ready)</td></tr>
+          <tr><td class="name">Flurry &amp; the Vocalise</td><td>The dragon won't settle; the note under the dying star</td><td>The astral is wrong, and it's tied to Orena's loss</td></tr>
+          <tr><td class="name">The books lie <span class="mono">(Aerion's)</span></td><td>A checkpoint the filings mark "current" that his own delivery proves has drifted; a Warden who blames the crew's charts first</td><td>The navigation archive is being poisoned; his Tier 1 thread</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid two">
+      <div class="call opp"><span class="call-label">Where it goes next</span><p>Session 2+ is the voyage loop with the pattern thickening: more dark routes, the occasional whale, and Meech's delisted routes if a player earns it. Full arc: <span class="mono">campaign/Tier 1.md</span> and <span class="mono">campaign/Story Spine.md</span>.</p></div>
+      <div class="call dm"><span class="call-label">After the session</span><p><strong>Leveling:</strong> milestone, not XP. Hold them at 5 through the shakedown and bump to <strong>6</strong> once the pattern first bites (end of session 1 if it ran long and full, otherwise after session 2). <strong>What each player should walk away with:</strong> Gabrielle, a private dread she hasn't shared (the star and the song); Priscilla, a number that won't reconcile and a family that knows where she is; the table, a crew that already feels like one and a sky that has just stopped being safe.</p></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Astral Vagabonds &middot; a D&amp;D 5e campaign aboard the Night Fury</span>
+    <span class="divider-note">Session One companion &middot; GM reference</span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('themeToggle');
+    function current() {
+      if (root.getAttribute('data-theme')) return root.getAttribute('data-theme');
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      btn.innerHTML = next === 'dark' ? '&#9681;' : '&#9680;';
+    });
+  })();
+</script>

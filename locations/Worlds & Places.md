@@ -8,7 +8,7 @@ Every entry follows the house format: **one secret, one danger, one opportunity.
 
 ---
 
-# THE SALLOW CHAIN — the core
+# THE SALLOW CHAIN: the core
 
 *Nine systems on the oldest, deepest current in known space. Everything works here. That's the problem.*
 
@@ -22,26 +22,35 @@ Endless terraced grain, gold to the horizon, under a sun that has been described
 **Opportunity:** the granary factors pay well for bulk hauling and ask nothing.
 
 ## THE STILLPOINT
-**Vassara's archive-annexe**, a station rather than a world: a slow-turning ring of white stone where the House keeps its physical charts.
+**Vellum's archive-annexe**, a station rather than a world: a slow-turning ring of white stone where the House keeps its physical charts.
 
 Silent in a way that feels enforced. Sound doesn't carry. The air smells of dry paper and cold metal. Visitors are escorted and the escorts do not converse.
 
 **Secret:** a sealed wing holds the Amberwake charts, House Carrow's entire surveyed corridor, unexamined for forty years because the routes stopped resolving and nobody saw a reason to look at maps of somewhere that isn't there.
-**Danger:** Vassara does not prosecute intruders. It delists their charter, which is worse.
+**Danger:** Vellum does not prosecute intruders. It delists their charter, which is worse.
 **Opportunity:** everything the campaign eventually needs is in that wing.
 
 ---
 
-# THE TOLLMARCH — the chokepoint
+## REEFSIDE
+**A Chain waystation** grown inside the bleached skeleton of a titanic dead astral coral: lamplit chambers hollowed in its branches, faint bioluminescence everywhere, brine and ozone in the air. The Chain farms the living coral still creeping along the outer hull for medicine and dye, and the whole place sings low when the currents run through it.
 
-*Contested space, thick with hazards, and the only shortcut outward. Tethyn's.*
+**Secret:** one whole wing has gone grey and silent where the current thinned, and the Chain's filings still list it "productive."
+**Danger:** a Route Warden checkpoint sits on the approach, and the Chain does not love questions.
+**Opportunity:** the living coral is worth real money to an apothecary like Pell, if you can take a little without being seen.
+
+**Side-gold (150-300 gp):** harvested coral, a discretion tip, or a small Warden bounty. (Destination for the **Sealed and Sworn** job.)
+
+# THE TOLLMARCH: the chokepoint
+
+*Contested space, thick with hazards, and the only shortcut outward. Stoneward's.*
 
 ## GALLOW GATE
 **The toll station.** A fortified asteroid straddling the narrowest point of the passage, bristling with weapon emplacements that all point inward at the queue.
 
 Ships wait in ranks. Loudspeakers repeat fee schedules. The lighting is orange and constant and there is no night. Everyone here is bored and armed.
 
-**Secret:** the Gate's own instruments have logged the passage drifting nine degrees over four years. Tethyn's engineers correct for it and file nothing, because a route that's moving is a route somebody might reprice.
+**Secret:** the Gate's own instruments have logged the passage drifting nine degrees over four years. Stoneward's engineers correct for it and file nothing, because a route that's moving is a route somebody might reprice.
 **Danger:** Warden-Commander Isolde Rask. Not corrupt, not cruel, and the most dangerous person in the region.
 **Opportunity:** the queue is where every independent captain in Wildspace waits, gossips, and trades. Four days at Gallow Gate is worth a month of listening anywhere else.
 
@@ -52,13 +61,13 @@ Hulls at every angle, none of them agreeing on which way is down, and the gravit
 
 **Secret:** the pinging is a Carrow-registry beacon, still transmitting, from a hull that should have been forty regions away.
 **Danger:** the gravity planes. This is where a **Plane Anchor** stops being a luxury.
-**Opportunity:** salvage, if you can outrun Tethyn's claim.
+**Opportunity:** salvage, if you can outrun Stoneward's claim.
 
 ---
 
-# THE VERGE — the frontier
+# THE VERGE: the frontier
 
-*Thin, poor, long hauls, small colonies. Nobody's territory. Where [THE PC] was sent and where the Drift is visible.*
+*Thin, poor, long hauls, small colonies. Nobody's territory. Where Aerion was sent and where the Guttering is visible.*
 
 ## HALLOW'S REST
 **A mining colony** on a tidally locked moon: one face in permanent daylight, one in permanent dark, and the town strung along the terminator where it's survivable.
@@ -67,7 +76,54 @@ Everything is lit from one side. Long shadows that never move. Nine hundred peop
 
 **Secret:** the colony has quietly moved twice. Not the town, the *coordinates*. The residents re-file their position every eighteen months and have stopped mentioning why to visitors, because the last ships they told didn't come back.
 **Danger:** the mine, and the fact that nobody official will come if something goes wrong.
-**Opportunity:** they need everything, all the time, and they pay in ore.
+**Opportunity:** they need everything, all the time, and they pay in copper, which is worth far more than they know.
+
+### Arriving -- the read-aloud
+> You come in over the daylit face and it never gets easier to look at: a whole hemisphere of raw white glare, no dawn, no dusk, just *on*. The town runs along the seam where the light dies, a crooked line of low buildings, ore-tips, and lashed-down roofs following the terminator around the moon, half of every street in permanent gold and half in permanent black, and shadows that lie down long and never, ever move. The dock is a single scaffold clung to a spur of rock. As the lock opens: cold, and the smell of turned stone and machine-oil and, faintly, someone's dinner. A dozen people are already waiting, trying not to look as glad to see you as they are.
+
+### The place, in the senses
+- **Light and dark, no in-between.** People wear one-eye shades on the bright side and lamps on the dark side, and the whole town squints. The unmoving shadows unsettle newcomers within the hour.
+- **Cold and close.** Heat is rationed to the terminator strip; step twenty feet dark-side and you feel it bite. The bar (the **Long Shadow**) is the warmest room in town and everyone ends up there.
+- **Everything is patched.** Nothing here is new. Every machine is a machine that was broken and fixed by someone who couldn't afford to replace it -- which is the whole colony, really.
+
+### What they mine, why they're poor, and the way up
+**They mine copper,** a good seam of it, and they are broke anyway. That contradiction is the heart of the place, and fixing it is the best thing a crew can do here.
+
+**Why they're poor, three reasons stacked:**
+1. **They sell it in the wrong form.** They ship **raw ore**: heavy, low-grade, cheap, so the freight to any buyer eats almost the whole price. They mine a fortune and export it as gravel.
+2. **The road is failing (the Guttering).** Even that low-value ore can't reach a buyer reliably any more; the depot route drifted, and Coll's failed run is the proof. Isolated, and selling the cheap form.
+3. **They think the seam is dying.** It isn't. Copper was never worth the freight as ore, so a decade of "three years from exhaustion" is really a decade of "not worth hauling." There is plenty of copper left. The value was always in the form, not the quantity.
+
+**The way up (the Tack-and-Aerion play).** Raw ore is nearly worthless out here; **drawn copper wire is not.** Every spelljamming helm, astral compass, signal rig, and instrument in the Reach needs fine conductive wire, and on the Verge it's a scarce import. Turn the colony's copper into wire and the same mass is worth roughly fifty times as much, and light enough that freight stops mattering.
+
+| Copper, per 100 lb | Sells for | After Verge freight (~8 gp) |
+|---|---|---|
+| Raw ore | ~10 gp | ~2 gp (why they starve) |
+| Smelted bar | ~50 gp | ~42 gp |
+| **Drawn coilworks wire** | **~500 gp** | **~492 gp** |
+
+- **Tack makes it possible.** The colony has a smelter and strong backs; what they lack is draw-plates and the knack. Tack (built for a great ship, in love with any machine) can improvise draw-plates from mine gear and teach them to anneal and draw copper into coil-grade wire. A build montage, and a real Tack spotlight.
+- **Aerion makes it pay.** He runs the ladder, sees ore clears nothing while wire clears fifty times as much, and brokers the first coil to a Bral coilworks buyer or to Danforth, who build the helms that eat the stuff. He can set up a standing supply and name the crew as the runner, which quietly answers Vint's plea for a reliable one.
+- **Session-1 side-gold (small):** the crew carries the colony's first coil, about 50 lb, roughly 250 gp of wire, to Bral; a broker's cut or a buy-low-sell-high nets 100-200 gp. The real prize is the relationship: Hallow's Rest becomes a wire supplier and the crew its trusted runner, a recurring income and a place they made better. That is the campaign's whole thesis in miniature, industry growing up into stewardship (`campaign/Story Spine.md`).
+
+### Who they'll meet
+- **Administrator Sesla Vint** -- runs the colony, mid-fifties, proud to a fault, would rather ration than beg. Voice: clipped, dignified, thanks you like it costs her. Tic: keeps a tally-book she never quite closes. Her want: to keep nine hundred people alive without becoming a place that gets pitied.
+- **Coll Aday** -- the young supply-runner who went for the depot and *couldn't find it.* Came back late, empty, on fumes, and blames themselves entirely. Voice: quiet, rehearsed apology. Tic: won't meet your eye. Coll is the seed's human face -- "the route just wasn't *there*, I flew the numbers three times" -- and the one who most needs to hear it wasn't their fault. **Whoever built this route is the recurring runner the colony is desperate to find.**
+- **Big Pol** -- runs the Long Shadow, feeds anyone who's short, keeps the town's mood. Comic warmth; knows every rumour on the terminator.
+
+### The delivery -- situations, not scripts
+Set these in front of the players and let them choose how to handle them (never decide for the PCs):
+- **Payment.** The colony agreed 1,400 gp and cannot fully make it in coin. They can cover part and tender the rest in **refined ore at a poor Verge rate** -- a real negotiation, not a foregone loss. How the crew handles proud people who can't pay is the scene.
+- **Triage.** More is needed than was ordered. Medicine or mining parts, the sick or the mine -- Administrator Vint will defer to the crew's call on what lands first, and live with it.
+- **The offer.** Vint, carefully, asks whether they'd consider being the colony's *regular* runner. It pays badly and reliably. Saying yes is a recurring-relationship hook. **Saying no opens a thread instead:** swallowing her pride, Vint offers an extra **100 gp** if the crew will at least help her *find* someone dependable, put the word out at Bral, ask around the Board, keep an ear open for a runner who won't vanish. A decline becomes a small paid errand, and the crew ends up part of the colony's lifeline anyway. It also seeds the mystery quietly: nobody reliable will take a route that keeps drifting, and Vint is starting to suspect that's the real problem.
+
+**The one that matters:** somewhere in the delivery, Coll's account lands, the depot route that *wasn't there.* Play it as a person's failure and grief, not a clue. Nobody says the word for it. (Story Spine: the first Guttering symptom with a body count.)
+
+### More at Hallow's Rest (it isn't only the delivery)
+- **The Long Shadow, after dark.** Big Pol's bar is the warmest room on the moon and the whole town funnels through it. There's a dice game most nights (`rules/Downtime Games.md`), Big Pol feeds anyone short whether they can pay or not, and a night here is where the crew hears what the colony will never say to Vint's face.
+- **The dark-side prospect (a ready side-hook).** An old prospector, **Meggs**, swears the richest seam runs out under the permanent-night face, past where the heat gives out, and that the last crew who went to check came back one short and won't say what turned them around. It could be nothing (cold, a fall, nerves), or a night-side cold pocket, or something denning in the dark rock. It pays in ore and goodwill and gives the crew a reason to matter here beyond one crate of supplies.
+- **The standing shadows.** Terminator kids tell it: the shadows never move because they're *waiting*, and if yours ever moves on its own, the moon has decided to keep you. A ghost story, and close enough to the campaign's real eeriness that an old miner should tell it deadpan and let it sit.
+- **The mine itself.** Three years from exhaustion for a decade. The colony's whole economy hangs on a seam everyone quietly knows is nearly done, and the standing danger is a cave-in or a bad-air pocket while the crew is aboard. If they want to change Hallow's Rest instead of just supplying it, the mine is the lever.
 
 ## THE COLD ANCHORAGE
 **A free port** built into a captured comet, functionally lawless and entirely practical. No charter required, no questions, no Route Wardens.
@@ -89,16 +145,41 @@ Arriving is the scene. The system is *right*. The star is right, the planet is r
 
 ---
 
-# THE WINDWARD EDGE — the boundary
+## EMBER & RIME
+**A sun-locked asteroid** that faces its star forever on one side and never on the other, and does not turn. Two peoples, two climates, one rock, joined only at a thin seam of survivable twilight.
+
+The blaze side, **Emberhold**, is fire genasi and heat-geared folk in mirror-suits: forges that never cool, glass towers, everything shimmering with heat-haze. The dark side, **Rime**, is ice genasi and cold-geared folk: halls carved from blue ice, hushed and slow, breath fogging even indoors. They meet only at **the Seam**, a band of perpetual dusk where hot air and cold collide in a permanent curtain of steam and a market runs on neutral ground. They almost never cross into each other's sky.
+
+**Secret:** the two sides have not shared a governing council in two generations, and each quietly believes it keeps the other alive. Both are right. Neither will say it.
+**Danger:** the thermal shear at the Seam tears at a hull and a temper alike; step wrong and you freeze or you cook. The feud is one insult from turning cold.
+**Opportunity:** they import everything edible, and they will pay a broker to carry what neither side will hand the other directly. Emberhold sells ember-steel and sun-glass; Rime sells rime-ice and coldfire; each is dear on the far side.
+
+**Who they'll meet:** **Forge-Mother Kessa Kiln**, who runs Emberhold's smiths and has never once felt cold; **Warden Solet of Rime**, an ice genasi who keeps the dark side's ledgers and has never seen the sun; and **a smith and a carver**, one from each side, quietly fond across the Seam while the whole colony pretends not to notice.
+
+**Side-gold (150-400 gp):** arbitrage across the Seam, a forge commission, or a fee to carry a message between two estranged sides.
+**Use it for:** the Rock and Back grain haul (they cannot farm), or as a swap destination for any resupply when you want spectacle instead of sorrow.
+
+## ASHFALL
+**A falling-light drift** in the long wake of a dead comet, where a fine luminous snow falls forever in the near-weightless dark and never lands. Off the current charts, because the Tide that reached it thinned. A family's ancestral markers hang here like lanterns; once a generation the drift's slow orbit brings them into alignment and the line comes home to gather.
+
+**Secret:** Ashfall is dying quietly. The living current that fed it is nearly gone, and this gathering may be the last that can reach it at all.
+**Danger:** none violent. The danger is the finding: two captains have already turned back, unable to make the road resolve.
+**Opportunity:** a family grateful past words to a crew that gets them home, and old wrecks the receding Tide has bared in the drift that nobody else has been able to reach.
+
+**Side-gold (150-300 gp):** a gifted heirloom (roll uncommon on the minor-items list), or salvage from an uncovered wreck.
+
+# THE WINDWARD EDGE: the boundary
 
 *Between charted and unknown. Delverane's, and the crew's neighbours.*
+
+**The Edge itself is a place.** Where two great currents shear, the living sea **breaks like surf**: standing walls of silver light, spray that fizzes and glows on the hull, and edge-runners in tiny craft tacking the wavefronts for salvage and sport. You don't cross it, you **ride it**, surfing a standing wave while your business gets done, and the light-spray leaves a glowing rime on everything for a day. The surf has lately started to move inward, which is the Guttering wearing its most beautiful face. (Destination for the **Passenger Work** job; Aurel Delverane is out here charting exactly that.)
 
 ## THE FARTHING STATION
 **Delverane's forward survey base**, a cluster of tethered modules that gets disassembled and moved outward every few years.
 
 Cluttered, young, loud. Instruments everywhere. Everyone here is under forty and slightly manic. The best coffee in Wildspace for reasons nobody can explain.
 
-**Secret:** Delverane has been charting the *new* currents forming behind the failing ones, and they don't have a framework for what they're seeing.
+**Secret:** Delverane has been quietly charting where the currents still run strong and fresh, and where the kindori pods still seed the dark, and they have no framework for why some regions stay lit while others gutter. They're seeing the living circulation without understanding it.
 **Danger:** the Edge itself. Beyond the station, charts are suggestions.
 **Opportunity:** Aurel Delverane, the *Farthing*, and the alliance that eventually matters most.
 
@@ -109,11 +190,11 @@ Approach in silence and the hull rings. Every ship rings at a different pitch. O
 
 **Secret:** the Shoal resonates in sympathy with nearby currents, so its pitch *changes* when a current shifts. It has been changing.
 **Danger:** prolonged exposure gives everyone aboard the same dream. This is unsettling and not harmful and nobody enjoys it.
-**Opportunity:** **[ORENA]'s place.** She can hear what it's doing, and she is the only person who can put words to it. Give her this in Tier 1.
+**Opportunity:** **Orena's place.** She can hear what it's doing, and she is the only person who can put words to it. Give her this in Tier 1.
 
 ---
 
-# THE BRAL REACH — the hub
+# THE BRAL REACH: the hub
 
 Home port, fully detailed in `The Bral Reach.md`. Two other places in the region:
 
@@ -137,13 +218,13 @@ Improvised, crowded, and warmer than it looks. Laundry lines in null-gravity. Ev
 
 ---
 
-# THE AMBERWAKE — the region that isn't
+# THE AMBERWAKE: the region that isn't
 
 House Carrow's corridor, beyond the far side of the Verge. It ran deep and fast and it belonged to them, and forty years ago it stopped working. Ships arrived elsewhere, or late, or never. Within nine years it could not be found.
 
 **There is nothing here to visit.** That's the entry. Charts of the Amberwake exist, in a sealed wing of the Stillpoint and in annotations on Estra's locked star chart, and they do not resolve to anywhere.
 
-**The Drift's first casualty**, four decades before anyone had a word for it. Tier 3.
+**The Guttering's first casualty**, four decades before anyone had a word for it. Tier 3.
 
 ---
 

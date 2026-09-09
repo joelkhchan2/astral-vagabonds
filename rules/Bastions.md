@@ -140,7 +140,7 @@ Rolled **once each time a PC issues Maintain** (separately for each PC who Maint
 | 1d100 | Event | Tone |
 |:---:|---|:---:|
 | 01–33 | **All Is Quiet** — a calm leg. Roll 1d8 for color (see below). | 🟢 |
-| 34–41 | **Something in the Drift** — the ship crosses paths with a creature. Roll 1d8. | 🔵🔴 |
+| 34–41 | **Something Adrift** — the ship crosses paths with a creature. Roll 1d8. | 🔵🔴 |
 | 42–49 | **A Heart-to-Heart** — a wall comes down aboard. Roll/pick on 1d6; grants a lasting **Bond** + one-time **morale** (Inspiration) for those involved. | 🟢 |
 | 50–56 | **A Ship Hails You** — another vessel signals mid-void to trade or to borrow a facility (their helm needs your Workshop). They pay **1d6×100 GP**; your orders aren't interrupted. | 🟢 |
 | 57–63 | **Salvage & Opportunity** — a find in transit: a derelict to strip, an unlisted current to chart and sell as **nav data**, a beacon with a bounty, a convoy needing escort. Spend a cost (a detour, air, fuel) → payoff + reputation, or pass. | 🟢 |
@@ -159,7 +159,7 @@ Rolled **once each time a PC issues Maintain** (separately for each PC who Maint
 
 **All Is Quiet (1d8)** — Tack names a new bolt and introduces it to the others · Finny's game-night bracket erupts in (friendly) scandal · the Captain wins at solitaire again, alone · Brassica invents a dish nobody asked for · a small repair goes suspiciously well · a lovely, harmless sight slides past the porthole · someone *swears* they saw something in the dark (they didn't) · the ram twitches but holds.
 
-**Something in the Drift (1d8)** — 1–2 **Scavvers** pick at the hull; shoo them (check / warning shot) or lose a fitting or bit of cargo 🔴 · 3–4 **Kindori pod** paces the ship: an omen, an escort, a moment of awe; Orena logs them → nav data 🔵 · 5 **Void-glitter school** swarms the galley porthole, harmless and gorgeous; Finny names them; morale 🟢 · 6 **A lone unclassified creature** — feeds Orena's bestiary; study it → survey payout or clue 🔵 · 7 **A "derelict" that's a sleeping creature**; sneak past or wake it 🔴 · 8 **Something watches and leaves** before you get close; no stat block, just a thread 🔵🔴.
+**Something Adrift (1d8)** — 1–2 **Scavvers** pick at the hull; shoo them (check / warning shot) or lose a fitting or bit of cargo 🔴 · 3–4 **Kindori pod** paces the ship: an omen, an escort, a moment of awe; Orena logs them → nav data 🔵 · 5 **Void-glitter school** swarms the galley porthole, harmless and gorgeous; Finny names them; morale 🟢 · 6 **A lone unclassified creature** — feeds Orena's bestiary; study it → survey payout or clue 🔵 · 7 **A "derelict" that's a sleeping creature**; sneak past or wake it 🔴 · 8 **Something watches and leaves** before you get close; no stat block, just a thread 🔵🔴.
 
 **A Heart-to-Heart (1d6)** — 1 two NPCs who grate on each other reconcile · 2 an NPC finally opens up to a PC · 3 the Captain lets her guard down (rare) · 4 a crew member shares a real piece of their secret (Brassica's deal / Finny's payments / Estravane's fleet / Orena's lost crew) · 5 an Aerion–Orena moment about their shared history · 6 the whole crew, over a meal at the long table.
 

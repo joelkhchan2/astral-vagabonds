@@ -8,81 +8,70 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-# THE CREW
+# THE CREW (aboard)
 
-**A note on how these five are built.** Estra, Brass, Finny, Oz, and Tack are the only crew currently built to level with the party rather than sit at a fixed CR. Estra runs a full class (Fighter, Battlemaster) — she has too much narrative weight and potential stage time to flatten into a support chassis. Brass, Finny, and Tack run the *Tasha's Cauldron of Everything* **Expert** sidekick class; Oz runs **Warrior** (Defender). All four are currently sidekick level 5, matching the party. Sidekick level is a DM call made every time the party levels — there's no separate milestone gate, so bump these by one whenever Orena and Aerion do. Each keeps the bespoke, non-class traits from their original write-up (Hot Meal, Field Repair, etc.) layered on top of the class chassis, per the sidekick rule that class features add to a stat block rather than replace it. The rest of the crew (Sable, Quill, Reeve, Morrow, Wysp, Flurry) are untouched, fixed-CR blocks as before.
-
----
+The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, plus **Flurry**. The blocks for Sable, Dr. Quill, Reeve, Morrow, and Wysp are kept further down under "Not Aboard," since they auditioned but were not hired and may join later.
 
 ## CAPTAIN ESTRA VANE
-*Medium humanoid (human), Captain / Primary Helmsman* · **Fighter 5 (Battlemaster)**
+*Medium humanoid (human), Fighter (Battle Master), Captain / Main Helmsman* · **CR 2** (450 XP)
 
-**AC** 16 (studded leather) · **HP** 49 (5d10 + 15) · **Speed** 30 ft.
+**AC** 15 (studded leather, no shield, never fussed over it) · **HP** 58 (9d8 + 18) · **Speed** 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 12 (+1) | 18 (+4) | 16 (+3) | 12 (+1) | 16 (+3) | 14 (+2) |
+| 12 (+1) | 14 (+2) | 14 (+2) | 16 (+3) | 15 (+2) | 13 (+1) |
 
-**Saving Throws** Str +4, Con +6 · **Proficiency Bonus** +3
-**Skills** Athletics +4, Insight +6, Perception +6, Persuasion +5; navigator's tools +4
-**Senses** passive Perception 16 · **Languages** Common, two more from thirty years of ports
+**Saving Throws** Int +6, Wis +5
+**Skills** Insight +5, Investigation +6, Persuasion +4, Piloting +6 (see `Rules & Systems.md` &sect;8)
+**Senses** passive Perception 12 · **Languages** Common, Elvish, Draconic
 
-***Old Compact Discipline.*** Advantage on saving throws against being frightened.
+***Fifteen Years at the Bottom.*** Estra has advantage on saving throws against being frightened or charmed. She has already lost everything once and it doesn't move her the way it used to.
 
-***One Good Blade.*** While wielding a melee weapon in one hand and no other weapon, Estra deals +2 damage with it.
-
-***Command of the Deck.*** Estra has **4 superiority dice (d8)**, regained on a short or long rest. Save DC to resist a maneuver's effect is **15**.
-- ***Call the Shot.*** When Estra takes the Attack action, she can forgo one attack to direct an ally within 30 feet who can hear her: that ally can immediately use its reaction to make one weapon attack, adding the superiority die to the damage.
-- ***No Opening (Reaction).*** When hit by a melee attack, Estra reduces the damage by the superiority die + her Dex modifier (4).
-- ***Make It Count.*** After an attack roll but before the result is known, Estra adds the superiority die to the roll.
+***Superiority Dice (d8, x3).*** Estra regains all expended superiority dice after a short or long rest. She spends them on the maneuvers below.
 
 **Actions**
-***Multiattack.*** Two attacks, in any combination of the below.
-***"Dead Reckoning" (Rapier) or Shortsword.*** *Melee:* +7 to hit, reach 5 ft. *Hit:* 10 (1d8 + 6) piercing.
-***"Port" and "Starboard" (Brace of Pistols).*** *Ranged:* +7 to hit, range 30/90. *Hit:* 8 (1d8 + 4) piercing. Both fire without reloading; reloading either after takes an action.
+***Rapier.*** *Melee:* +4 to hit, reach 5 ft. *Hit:* 6 (1d8 + 2) piercing. Estra is competent with a blade and visibly bored by needing one; she would rather the conversation had gone differently.
 
-**Bonus Actions**
-***Black Coffee (Recharges after a Short Rest).*** Regains 10 (1d10 + 5) hit points.
+***Rallying Cry (Maneuver, 1 Superiority Die).*** Bonus action: one ally within 60 feet who can see or hear her gains temporary hit points equal to the superiority die roll (1d8) plus her Charisma modifier. She rarely uses it on herself.
+
+***Command the Deck (Maneuver, 1 Superiority Die).*** Estra directs one crew station (Pilot, Gunner, Engineer, or Coordinator, `Rules & Systems.md` &sect;8) to act immediately, out of the normal order. This does not require her to be the Coordinator herself.
 
 **Reactions**
-***One More Order (Recharges after a Short Rest).*** Takes one additional action on her turn.
+***Steady Hand (Maneuver, 1 Superiority Die).*** When the ship's pilot would lose concentration from damage, Estra spends a superiority die to grant them advantage on the concentration save, whether or not she's the one flying.
 
 ---
 
 ## TACK
-*Small construct, Chief Engineer* · **Expert Sidekick 5**
+*Small construct (autognome), Artificer, Chief Engineer* · **CR 1** (200 XP)
 
-**AC** 15 (armored casing) · **HP** 38 (5d8 + 10) · **Speed** 25 ft.
+**AC** 15 (armored casing) · **HP** 33 (6d6 + 12) · **Speed** 25 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 10 (+0) | 14 (+2) | 14 (+2) | 18 (+4) | 12 (+1) | 10 (+0) |
+| 10 (+0) | 14 (+2) | 14 (+2) | 16 (+3) | 12 (+1) | 10 (+0) |
 
-**Saving Throws** Int +7 · **Proficiency Bonus** +3
-**Skills** **Arcana +10, Investigation +10** (expertise), History +4, Perception +4, Insight +4; tinker's tools +7
+**Skills** Arcana +5, Investigation +5, Perception +3; tinker's tools +7
 **Damage Immunities** poison · **Condition Immunities** charmed, exhaustion, paralyzed, poisoned
-**Senses** darkvision 60 ft., passive Perception 14 · **Languages** Common, Gnomish
+**Senses** darkvision 60 ft., passive Perception 13 · **Languages** Common, Gnomish
 
-***Construct Nature.*** Tack doesn't eat, drink, breathe, or sleep. **He does not count against the ship's air envelope.**
+***Construct Nature.*** Tack doesn't eat, drink, breathe, or sleep. **He does not count against the ship's air envelope**, which nobody has thought about and Priscilla will eventually notice.
 
-***Built for More.*** Tack has advantage on all checks made to repair or diagnose a ship.
+***Built for More.*** Tack was made for a vessel far bigger than this one. He has advantage on all checks made to repair or diagnose a ship.
 
-***Many Small Adjustments.*** Tack can take the Help action as a bonus action.
-
-***Skitter.*** On his turn, Tack can take the Dash, Disengage, or Hide action as a bonus action.
+***Artificer Spellcasting.*** Intelligence is Tack's spellcasting ability (spell save DC 13). He always has **mending** prepared and casts it at will on anything that will hold still.
 
 **Actions**
-***Wrench.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 5 (1d6 + 2) bludgeoning.
+***Wrench.*** *Melee:* +2 to hit, reach 5 ft. *Hit:* 3 (1d6) bludgeoning.
 
 ***Field Repair (Recharges after a Short Rest).*** Restores 2d10 hit points to the ship, or fully repairs one disabled ship weapon.
 
 **Reactions**
-***Reactive Repair.*** When the ship takes damage exceeding its damage threshold (after that threshold check is resolved), Tack reduces the damage taken by an amount equal to his sidekick level (currently 5).
+***Reactive Repair.*** When the ship takes damage exceeding its damage threshold, Tack reduces that damage by 10. He will apologize to the ship afterward.
 
 ---
 
-## SABLE DUSKMANTLE
-*Medium humanoid (shadar-kai elf), Chief Gunner* · **CR 3** (700 XP)
+## SABLE DUSKMANTLE — not aboard (world NPC / potential hire)
+*Medium humanoid (shadar-kai elf), gunner* · **CR 3** (700 XP)
 
 **AC** 15 (studded leather) · **HP** 58 (9d8 + 18) · **Speed** 30 ft.
 
@@ -113,36 +102,39 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ---
 
 ## FINNICK "FINNY" GROLES
-*Small humanoid (halfling), Deckhand* · **Expert Sidekick 5**
+*Small humanoid (halfling), Rogue (Thief), Rigger / Deckhand / backup Gunner* · **CR 1** (200 XP)
 
-**AC** 15 (leather) · **HP** 33 (5d8 + 5) · **Speed** 25 ft.
+**AC** 14 (studded leather) · **HP** 33 (6d8 + 6) · **Speed** 25 ft., climb 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 8 (−1) | 18 (+4) | 12 (+1) | 10 (+0) | 12 (+1) | 16 (+3) |
+| 12 (+1) | 16 (+3) | 12 (+1) | 10 (+0) | 12 (+1) | 16 (+3) |
 
-**Saving Throws** Dex +7 · **Proficiency Bonus** +3
-**Skills** **Deception +9, Sleight of Hand +10** (expertise), Stealth +7, Persuasion +6, Insight +4; thieves' tools +7
-**Senses** passive Perception 11 · **Languages** Common, Halfling, and gossip in four more
+**Skills** Acrobatics +5, Athletics +3, Insight +3, Perception +3, Persuasion +5, Sleight of Hand +5; thieves' tools +5
+**Senses** passive Perception 13 · **Languages** Common, Halfling, Thieves' Cant, and gossip in four more
 
-***Lucky.*** When Finny rolls a 1 on a d20, he can reroll and must use the new roll.
+***Lucky (Halfling).*** When Finny rolls a 1 on the d20 for an attack, ability check, or save, he can reroll and must use the new roll.
 
 ***Brave.*** Advantage on saves against being frightened.
 
-***Word on the Street.*** Finny can take the Help action as a bonus action.
+***Sure Hands Aloft.*** Finny has advantage on checks made to rig sails, secure cargo, or crew a ship weapon in a hurry. He is the fastest hands on deck.
 
-***Light Fingers.*** On his turn, Finny can take the Dash, Disengage, or Hide action as a bonus action.
+***Fast Hands.*** Finny can use the bonus action granted by Cunning Action to make a Sleight of Hand check, use thieves' tools to disarm a trap or open a lock, or take the Use an Object action. Confirmed in play at Reefside, session 1, on a factor's own pocket.
+
+***Cannot Keep a Secret.*** Any secret told to Finny has a real chance of surfacing within 1d4 days. He will feel terrible about it. His own secrets are the one exception; see `npcs/Finny.md`.
 
 **Actions**
-***+1 Dagger.*** *Melee or Ranged:* +8 to hit, reach 5 ft. or range 20/60. *Hit:* 7 (1d4 + 5) piercing.
+***Boarding Knife.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 6 (1d4 + 3) piercing.
+
+***Sneak Attack (1/Turn).*** +7 (2d6) damage on an attack with advantage, or when an ally is adjacent to the target.
 
 **Reactions**
-***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny creates a distraction, giving the attacker disadvantage on the roll.
+***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny shouts something so irrelevant that the attacker has disadvantage on the roll.
 
 ---
 
-## DR. QUILL ASHWORTH
-*Medium humanoid (human), Ship's Surgeon* · **CR 1/2** (100 XP)
+## DR. QUILL ASHWORTH — not aboard (world NPC / potential hire)
+*Medium humanoid (human), surgeon* · **CR 1/2** (100 XP)
 
 **AC** 12 · **HP** 22 (5d8) · **Speed** 30 ft.
 
@@ -167,8 +159,8 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## REEVE
-*Medium ooze (plasmoid), Lookout* · **CR 1** (200 XP)
+## REEVE — not aboard (world NPC / potential hire)
+*Medium ooze (plasmoid), lookout* · **CR 1** (200 XP)
 
 **AC** 14 · **HP** 45 (7d8 + 14) · **Speed** 30 ft., climb 30 ft.
 
@@ -194,70 +186,67 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ---
 
 ## BRASSICA "BRASS" THORNGAGE
-*Small humanoid (halfling), Quartermaster's Mate, Temporary Doctor & Cook* · **Expert Sidekick 5**
+*Medium humanoid (human), Cleric (Life Domain), Medic / Cook* · **CR 2** (450 XP)
 
-**AC** 12 (leather) · **HP** 33 (5d8 + 5) · **Speed** 25 ft.
+**AC** 13 (chain shirt) · **HP** 33 (6d8 + 6) · **Speed** 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 8 (−1) | 12 (+1) | 12 (+1) | 12 (+1) | 18 (+4) | 16 (+3) |
+| 10 (+0) | 12 (+1) | 13 (+1) | 12 (+1) | 16 (+3) | 13 (+1) |
 
-**Saving Throws** Cha +6 · **Proficiency Bonus** +3
-**Skills** **Medicine +10, Persuasion +9** (expertise), Insight +7, Perception +7; cook's utensils +7
-**Senses** passive Perception 17 · **Languages** Common, Halfling
+**Skills** Insight +5, Medicine +8, Persuasion +3
+**Senses** passive Perception 13 · **Languages** Common, Halfling (picked up from years crewing with small folk)
 
-***Lucky.*** When Brass rolls a 1 on a d20, she can reroll and must use the new roll.
+> **On the "Cleric" of it:** her gift isn't worship, in this setting nobody's is. Brass channels vital energy on instinct, the same family of phenomenon as psionics or the Tide itself, and would be genuinely confused if you asked her which god. She'd say the same thing Estra would: it works, and that's enough to know.
 
-***Brave.*** Advantage on saves against being frightened.
+***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. **It always costs something**, and she will mention what, later, at an inconvenient moment.
 
-***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces one of the following: a contact (advantage on the next Charisma check made with an NPC at this port), a favor (one non-combat service performed for the party), or an item worth up to 100 gp. Each use adds one mark to Brass's ledger; the DM can spend a mark to introduce a complication tied to that favor at any later point.
+***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, roll a **d4** for the day's result (DM tracks what it means). Dinner aboard is a gamble and the crew have made peace with it.
 
-***Hot Meal.*** If Brass has cooked in the last 24 hours, then once per short rest one creature who ate can regain **1d8 + 3 hit points** and gains advantage on its next saving throw against fear or exhaustion.
+***Spellcasting.*** Brass is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). She has the following cleric spells prepared:
+- Cantrips (at will): *guidance*, *spare the dying*
+- 1st level (4 slots): *bless*, *cure wounds*, *healing word*
+- 2nd level (2 slots): *lesser restoration*, *prayer of healing*
 
-***For a Friend.*** Brass can take the Help action as a bonus action.
-
-***On Her Feet.*** On her turn, Brass can take the Dash, Disengage, or Hide action as a bonus action.
+***Channel Divinity: Preserve Life (1/Short Rest).*** Brass restores a number of hit points equal to five times her cleric level (15), divided among any creatures within 30 feet as she chooses, and no creature can be brought above half its hit point maximum this way.
 
 **Actions**
-***Cleaver.*** *Melee:* +4 to hit, reach 5 ft. *Hit:* 4 (1d6 + 1) slashing.
+***Mace.*** *Melee:* +2 to hit, reach 5 ft. *Hit:* 3 (1d6) bludgeoning. She almost never needs it.
+
+***Field Patch (Cure Wounds, cast at 1st level).*** One creature she touches regains **1d8 + 3 hit points**. Improvised, effective, and she will complain about the supplies the whole time.
 
 ---
 
 ## OZGOOD "OZ" HAMMERFALL
-*Medium humanoid (giff), Ship's Security* · **Warrior Sidekick 5 (Defender)**
+*Medium humanoid (giff), Fighter, Ship's Security* · **CR 3** (700 XP)
 
-**AC** 16 (half plate) · **HP** 44 (5d10 + 10) · **Speed** 30 ft.
+**AC** 16 (breastplate) · **HP** 82 (11d10 + 22) · **Speed** 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 20 (+5) | 12 (+1) | 15 (+2) | 10 (+0) | 12 (+1) | 14 (+2) |
+| 18 (+4) | 12 (+1) | 15 (+2) | 10 (+0) | 12 (+1) | 14 (+2) |
 
-**Saving Throws** Str +8 · **Proficiency Bonus** +3
-**Skills** Athletics +8, Perception +4, Persuasion +5
-**Senses** passive Perception 14 · **Languages** Common, Giff
+**Skills** Athletics +6, Persuasion +4
+**Senses** passive Perception 11 · **Languages** Common, Giff
 
-***Standard Procedure.*** Once per turn, when Oz hits with a weapon attack, he deals an extra 4 (1d8) force damage.
+***Astral Spark.*** Once per turn, when Oz hits with a weapon attack, he deals an extra 4 (1d8) force damage.
 
 ***Impeccable.*** Oz has advantage on Charisma checks made to be polite to someone who does not expect it, which is more often decisive than it sounds.
 
-***Firm Handshake.*** Oz's weapon attacks score a critical hit on a roll of 19 or 20.
-
-***Shake It Off (Recharges after a Short Rest).*** Bonus action; regains 10 (1d10 + 5) hit points.
-
 **Actions**
-***"The Chaperone," Cannonshot.*** *Ranged:* +8 to hit, range 60/240. *Hit:* 16 (2d10 + 5) piercing. Must be reloaded (one action) after firing.
+***Multiattack.*** Two attacks.
 
-***"The Chaperone," Maul Bash.*** *Melee:* +8 to hit, reach 5 ft. *Hit:* 12 (2d6 + 5) bludgeoning.
+***Great Gun.*** *Ranged:* +5 to hit, range 100/400. *Hit:* 12 (2d10 + 1) piercing. Must be reloaded (one action) after two shots.
 
-***Headbutt.*** *Melee:* +8 to hit, reach 5 ft. *Hit:* 12 (2d6 + 5) bludgeoning, and the target must succeed on a **DC 16 Strength save** or be knocked prone.
+***Headbutt.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 11 (2d6 + 4) bludgeoning, and the target must succeed on a **DC 14 Strength save** or be knocked prone.
 
 **Reactions**
-***"After You."*** When a creature within 5 feet of Oz attacks a target other than him, and Oz can see the attacker, he can impose disadvantage on that attack roll.
+***After You.*** When an ally within 5 feet is hit by an attack, Oz swaps places with them and takes the damage instead. He says "after you" while doing it.
 
 ---
 
-## MORROW
-*Medium humanoid (thri-kreen), Rigger and Second Helm* · **CR 2** (450 XP)
+## MORROW — not aboard (world NPC / potential hire)
+*Medium humanoid (thri-kreen), rigger and second helm* · **CR 2** (450 XP)
 
 **AC** 15 (chitin) · **HP** 49 (9d8 + 9) · **Speed** 35 ft., climb 30 ft.
 
@@ -280,8 +269,8 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## WYSP
-*Medium humanoid (astral elf), Runner* · **CR 1/4** (50 XP)
+## WYSP — not aboard (world NPC / potential hire)
+*Medium humanoid (astral elf), runner* · **CR 1/4** (50 XP)
 
 **AC** 13 · **HP** 18 (4d8) · **Speed** 30 ft.
 
@@ -296,7 +285,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 > ***Not Yet.*** **Wysp cannot attune to a spelljamming helm.** They have tried. They are learning, slowly, and they want this more than anything.
 >
-> **This is the campaign's answer to the helm problem.** Around level 9, Wysp grows into the chair, and the crew's largest recurring expense resolves through a character they raised rather than a hire they made. Plant it early. Let them fail at it twice.
+> Note: the crew did not hire Wysp, so the ship's second-pilot answer is **Orena**, who is training on the helm now. If Wysp is ever brought aboard, they make a natural third pilot and a character the crew can raise into the chair.
 
 ***Trance.*** Wysp doesn't sleep; four hours of meditation counts as a long rest.
 
@@ -309,35 +298,24 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 ---
 
 ## FLURRY (RHEE)
-*Medium dragon (silver wyrmling), Ship's Dragon* · **CR 2** (450 XP)
+*Tiny dragon (silver wyrmling), Ship's Dragon* -- not a combatant, by design. No ability scores, saves, skills, or CR here on purpose; see the guardrail in `npcs/Flurry.md`.
 
-**AC** 17 (natural armor) · **HP** 45 (6d8 + 18) · **Speed** 30 ft., fly 60 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 18 (+4) | 10 (+0) | 17 (+3) | 12 (+1) | 11 (+0) | 15 (+2) |
-
-**Saving Throws** Dex +2, Con +5, Wis +2, Cha +4
-**Skills** Perception +4, Stealth +2
-**Damage Immunities** cold
-**Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 14 · **Languages** Draconic, understands Common
+**AC** 13 (natural) · **HP** 2 · **Speed** 20 ft., fly 40 ft.
 
 ***Two Years Old.*** Flurry is a puppy with a breath weapon.
 
-> ***Devoted.*** **Flurry will not fight** unless [THE PC] is reduced below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die. This is a hard limitation, not a roleplay suggestion. She is a child and she is frightened of loud things.
+> ***Lunar blood (latent).*** An ancestor was a lunar astral dragon. It grants no combat power now -- it shows only as an uncanny sensitivity to the astral (she feels the Tide and the Guttering; she half-phases when frightened or deep asleep). Use her as a "barometer" for the living sky, never as an answer. Full write-up: `npcs/Flurry.md`.
+
+> ***Devoted.*** **Flurry will not fight** unless Aerion is reduced below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die. This is a hard limitation, not a roleplay suggestion. She is a child and she is frightened of loud things.
 
 **Actions**
-***Bite.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 9 (1d10 + 4) piercing.
-
-***Breath Weapons (Recharge 6).*** Untrained, so this recharges on a 6 rather than 5-6. Flurry uses one:
-- ***Cold Breath.*** 15-foot cone, DC 13 Con save, 18 (4d8) cold damage, half on a success.
-- ***Paralyzing Breath.*** 15-foot cone, DC 13 Con save or paralyzed for 1 minute, repeating the save at the end of each turn.
+***Breath Weapon (Recharge 6).*** 15-foot cone, DC 13 Constitution save, 2d6 cold damage, half as much on a success. That's the whole combat kit, no bite, no second option, no save-or-lose. If a fight ever comes down to Flurry, something has already gone very wrong.
 
 ---
 
 # HOUSE WINDSONG
 
-## [THIRD] — the brother who is drowning
+## Aeravellis — the brother who is drowning
 *Medium humanoid, boarding captain* · **CR 6** (2,300 XP)
 
 **AC** 17 (half plate) · **HP** 110 (13d8 + 52) · **Speed** 30 ft.
@@ -350,7 +328,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 **Skills** Acrobatics +7, Athletics +5, Deception +5, Intimidation +5
 **Senses** passive Perception 10 · **Proficiency Bonus** +3
 
-***Boarder's Rush.*** On any turn [THIRD] boards a hostile vessel, he has advantage on all attack rolls.
+***Boarder's Rush.*** On any turn Aeravellis boards a hostile vessel, he has advantage on all attack rolls.
 
 ***He Is Not Brave.*** He is cornered, in debt, and out of options, and he knows exactly what he has become. Play him as a man arguing with himself.
 
@@ -368,7 +346,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ---
 
-## [UNCLE] — the one who left
+## Vaelren — the one who left
 *Medium humanoid (elf), adventurer* · **CR 7** (2,900 XP)
 
 **AC** 16 (studded leather) · **HP** 119 (14d8 + 56) · **Speed** 30 ft.
@@ -385,7 +363,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 ***Fey Ancestry.*** Advantage against being charmed; magic can't put him to sleep.
 
-> ***The Form He Taught.*** Once per turn, while [THE PC] is within 30 feet and can see him, [THE PC] may add **1d6** to one attack roll or saving throw.
+> ***The Form He Taught.*** Once per turn, while Aerion is within 30 feet and can see him, Aerion may add **1d6** to one attack roll or saving throw.
 >
 > This is the mechanical expression of "he trained you," and it should be the first thing the players notice about fighting alongside him.
 
@@ -403,7 +381,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 # THE ONES WHO DON'T FIGHT
 
-**[THE FATHER], [ELDEST], [SECOND], and [MOTHER] are deliberately not built as combatants.**
+**Vaelros, Aeric, Aeris, and Aerynna are deliberately not built as combatants.**
 
 This is a design choice, not an omission. The moment a political antagonist has a satisfying AC, the table starts evaluating whether they can take him, and these four are specifically constructed to be unsolvable by violence. Their real statistics are social.
 
@@ -411,15 +389,15 @@ If a scene genuinely collapses into combat, use **Noble** (CR 1/8) or **Bandit C
 
 | | AC / HP | Insight DC | Deception | Persuasion | Their actual weapon |
 |---|---|---|---|---|---|
-| **[THE FATHER]** | 13 / 58 | **20** | +9 | +9 | A word to the Board. He can end their charter with a letter. |
-| **[ELDEST]** | 14 / 52 | **11** | +2 | +6 | Nothing. He has never used what he has. That's the tragedy. |
-| **[SECOND]** | 13 / 45 | **22** | +11 | +10 | A favor you already accepted. He never threatens; he reminds. |
-| **[MOTHER]** | 12 / 40 | **19** | +8 | +9 | A founding-house vote and the money behind it. |
+| **Vaelros** | 13 / 58 | **20** | +9 | +9 | A word to the Board. He can end their charter with a letter. |
+| **Aeric** | 14 / 52 | **11** | +2 | +6 | Nothing. He has never used what he has. That's the tragedy. |
+| **Aeris** | 13 / 45 | **22** | +11 | +10 | A favor you already accepted. He never threatens; he reminds. |
+| **Aerynna** | 12 / 40 | **19** | +8 | +9 | A founding-house vote and the money behind it. |
 
-**Reading the Insight DCs.** [ELDEST] is an open book and cannot lie to save himself, which is worth knowing early because it makes him trustworthy and useless in equal measure. [SECOND] is the hardest read in the campaign, harder than his father, because his father is arrogant enough to tell you what he thinks.
+**Reading the Insight DCs.** Aeric is an open book and cannot lie to save himself, which is worth knowing early because it makes him trustworthy and useless in equal measure. Aeris is the hardest read in the campaign, harder than his father, because his father is arrogant enough to tell you what he thinks.
 
-***[SECOND] travels with two bodyguards.*** Use **Veteran** (CR 3). He will apologize for them.
+***Aeris travels with two bodyguards.*** Use **Veteran** (CR 3). He will apologize for them.
 
 ---
 
-**Sources:** [Boo's Astral Menagerie](https://www.dndbeyond.com/sources/dnd/sais/bam) for species baselines · [Astral Adventurer's Guide](https://www.dndbeyond.com/sources/dnd/sais/aag) for firearms · *Tasha's Cauldron of Everything* for the Expert and Warrior sidekick classes (Brass, Finny, Oz, Tack)
+**Sources:** [Boo's Astral Menagerie](https://www.dndbeyond.com/sources/dnd/sais/bam) for species baselines · [Astral Adventurer's Guide](https://www.dndbeyond.com/sources/dnd/sais/aag)

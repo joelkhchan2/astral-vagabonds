@@ -58,29 +58,21 @@ Two things needed a stated position. These are ours and they hold everywhere.
 
 One standing number, and repairs. That's the whole economy.
 
-### Monthly payroll **[A]**
+### Monthly operating cost **[HR -- session 0 ruling]**
 
-Paid when they dock. Changes only when the crew changes.
+The table simplified the whole payroll-plus-upkeep question into one all-inclusive number, deducted each session:
 
-| Configuration | Per month |
-|---|---|
-| Full crew of 12, **hired** helmsman | **2,500 gp** |
-| Full crew of 12, **a PC flies** | **1,000 gp** |
-| Skeleton crew of 6, a PC flies | 500 gp |
+**500 gp/month for up to 6 crew, +100 gp/month per additional crew member.** This covers wages, maintenance, food, and air together. With their crew of seven, that is 600 gp/month.
 
-A hired spellcaster on the helm is the single largest line item in the venture, worth roughly **18,000 gp a year**. [ORENA] can attune to a helm. Every day she flies, that money stays in the account.
-
-But flying requires concentration, so a helming bard is furniture. **This is the campaign's one genuinely hard recurring choice**, and it should be settled permanently around level 9 by hiring someone they trust or fitting a second helm. A great decision made once beats a good decision made twenty times.
+No separate hired-helmsman line: the ship flies on Captain Vane at the helm and Orena training up as the second pilot, so both pilots are already crew. Piloting still requires an attuned spellcaster holding concentration, so whoever flies is furniture for that voyage; the standing goal is to have Orena fully helm-capable so the ship always has two.
 
 ### Repairs **[C]**
 
 **20 gp per hit point.** A 250-HP hull taking 100 points is a 2,000 gp bill, which is most of a month. Combat in this campaign is frightening because it is expensive, not because it is lethal. Lean on that.
 
-### Annual fixed costs **[H]**
+### Annual fixed costs -- world flavor
 
-CIV charter 1,500 · Pale Reach subscription 600 (Basic) or 2,400 (Commercial) · Morraine insurance 1,800, which requires a subscription, and without which every repair is entirely theirs.
-
-Insurance is the tempting cut. It is also the one that ends them.
+The CIV charter, the Pale Reach chart subscription, and Nightbreeze insurance exist in the world and are worth naming in fiction, but at the table they are folded into the all-inclusive operating cost above rather than billed as separate lines. Surface them narratively (a lapsed charter, an insurance fight) rather than as a spreadsheet.
 
 ### Income
 
@@ -105,10 +97,10 @@ Take a contract: payout, duration in days, cargo tonnage required. Load. Confirm
 ### Transit
 **One bastion turn per voyage leg**, regardless of length. Both PCs issue orders together. One bastion event fires. Play the scenes that come out of it. That is the entirety of transit as a system, and everything else that happens in transit is story.
 
-**Drift events are placed by the DM, never rolled.** There is no stability score and no navigation check. When the story wants the route to fail, it fails.
+**Guttering events are placed by the DM, never rolled.** There is no stability score and no navigation check. When the story wants the route to fail, it fails.
 
 ### Arrive
-Deliver and collect. Sell survey data (Priscilla's recurring negotiation scene with a Pale Reach broker). Settle repairs at 20 gp/HP. Pay the month's payroll. File with the CIV, because the Manifest Board is watching and the Trial is scored in public.
+Deliver and collect. Sell survey data (Aerion's recurring negotiation scene with a Pale Reach broker). Settle repairs at 20 gp/HP. Pay the month's operating cost. File with the CIV, because the Manifest Board is watching and reputation is scored in public.
 
 ## 6. The Ship as Bastion
 
@@ -138,26 +130,42 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 | 5 | Arcane Study | The helm room |
 | 5 | Sanctuary | The quiet berth (no shrine; a room for sitting with things) |
 | 9 | Gaming Hall | The float bay and the zero-G court |
-| 9 | Theater | Where [ORENA] performs |
+| 9 | Theater | Where Orena performs |
 | 9 | Stable | Flurry's berth |
 | 9 | Scriptorium | Chart copying, which is literally the data business |
-| 9 | Trophy Room | The bestiary, displayed |
+| 9 | Trophy Room | Orena's charts, curios, and finds, displayed |
 | 9 | Laboratory | The sickbay |
 | 9 | Training Area, Greenhouse, Sacristy, Teleportation Circle | as needed |
 | 13 | Observatory | The deep instrument suite |
 | 13 | Menagerie | Living astral creatures aboard |
-| 13 | Archive | The open navigation network's first node |
+| 13 | Archive | The nomadic network's first shared node |
 | 13 | Pub, Meditation Chamber, Reliquary | as needed |
-| 17 | Guildhall | [ORENA]'s dead guild, rebuilt |
+| 17 | Guildhall | Orena's dead guild, rebuilt |
 | 17 | War Room, Sanctum, Demiplane | as needed |
 
 **The thesis: the vehicle is bought, the home is earned.** Hull, helm, plating, guns and instruments cost gold. Rooms and what happens inside them cost levels. They cannot buy a home; they accumulate one by surviving together.
 
+### Facilities chosen so far
+
+Both PCs are level 5, which unlocks the pooled bastion's **two free facilities** from the level-5 row above. They don't have to be chosen at once, but the table shouldn't sit on both indefinitely, either.
+
+**Aerion has chosen Storehouse (the cargo hold), locked in going into session 2.** Mechanically, a Storehouse runs the **Trade** bastion order: the facility can buy or sell goods at a favorable rate between voyages, and cargo kept there doesn't need to be itemized line by line on the manifest the way the rest of the hold does. That's exactly the kind of quiet, deniable space a warded box benefits from, and precisely why Aerion wanted it formalized rather than left as "somewhere in the hold": a Storehouse is a real facility with a real function, not a euphemism, and having one gives him a defensible, on-the-books answer for where things live aboard his ship. Play it as a small, satisfying character beat, the quartermaster finally gets a room with his name on the order sheet.
+
+**The second facility is still open.** A live session 2 decision, not a DM ruling, since the bastion is pooled and either PC can propose one. Candidates worth putting in front of the table: **Library** (the chart room, Orena's natural fit, and it runs the **Research** order, useful for exactly the kind of survey-data and delisted-route digging M4 and the lockbox both reward), **Sanctuary** (the quiet berth, a room for sitting with things, no order attached, pure found-family value), or **Arcane Study** (the helm room, formalizing what Estra and Orena already use daily). Don't decide this one for them; surface the options and let the choice say something about what the crew values right now.
+
+### How a facility order actually resolves
+
+Keep it as light as everything else in this section. When a PC wants to spend a bastion turn on a facility's order (Trade for the Storehouse, Research for a Library, etc.), it's a scene, not a subsystem, roll the relevant DMG-style check if there's real uncertainty, narrate the result, and move on. **One bastion turn per voyage leg still governs**, per section 5; a facility order and a bastion event aren't the same thing and don't compete for the same turn unless the story wants them to collide on purpose.
+
 ## 8. Ship Combat: Crew Stations & Maneuvers **[H]**
 
-Standing rule as of the *Deal*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
+Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
 
 Every PC and any crew NPC actually named in a fight sits at a **station** for the encounter. Stations aren't classes — anyone can crew any of them, and the same person can swap stations between encounters or between rounds if the fiction allows it (moving from the gun deck to the helm takes movement, not an action).
+
+**Ruling, settled at the table (session 1):** holding the helm's concentration is an **Intelligence** save, not Wisdom or Survival. The helm reads physical star-charts against reality in real time, that's reasoning against a record, not instinct or wilderness-sense. A headband of intellect is a legitimate build choice for anyone training up as a second pilot.
+
+**Ship HP is pooled at the hull, not the crew.** One HP total for the ship; nobody aboard has a separate "ship damage" pool, and a hit that clears the damage threshold comes off that one number.
 
 ### Pilot
 Whoever's at the helm. **Flying costs nothing** — per section 2, steering the ship is not an action or movement spent, so the pilot's own action is free every round. That free action is spent on one of the **maneuvers** below, or held to do something else entirely (fight, cast, aid another station).
@@ -169,10 +177,21 @@ Whoever's at the helm. **Flying costs nothing** — per section 2, steering the 
 | **Evasive Action** | Attacks against the ship have disadvantage until the start of the pilot's next turn | The ship's own weapons have disadvantage this round — nobody can aim while she's juking |
 | **Full Burn** | Ship's speed effectively doubles this round (close, disengage, or run) | Attacks against the ship have advantage until the start of the pilot's next turn — hard to hide going that fast |
 | **Ram** | If the hull has a ram, make one attack using the ram's listed damage, no weapon crew required | The ship takes half the damage it deals back, applied after the damage threshold |
-| **Boarding Action** | Close and lock with a target ship the *Deal*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
+| **Boarding Action** | Close and lock with a target ship the *Night Fury*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
 
 ### Gunner
 Per section 1, each weapon has a crew size and an action count to fire (ballista: 3, crew of 3; mangonel: 4, crew of 4-5). A PC or NPC gunner contributes their action to that sequence same as always — this section doesn't change weapon crewing, it just names the station.
+
+**Working the math with weapon upgrades (settled at the table, session 1).** The *Night Fury*'s ballistae carry the **Sureshot Rotator** (aim can be done as a bonus action) and **Ready Magazine** (load can be done as a bonus action). A ballista still needs three things done, **load, aim, fire**, but load and aim can each be done as *either* a bonus action or a full action, gunner's choice; fire always costs an action. Think of each ballista as needing **three units of work** (one of which, fire, must be an action) rather than three fixed crew slots, and spend the ship's pooled actions and bonus actions on it however makes sense that round.
+
+- **Two dedicated gunners fire one ballista in a round**, no third crew needed: one person spends their action on fire and their bonus on load, the other spends just their bonus on aim (their action is free for anything else, including feeding the second ballista).
+- **Three dedicated gunners can fire both ballistae in one round.** Between three people you have three actions and three bonus actions, six units total, exactly enough to cover both guns' load+aim+fire (six units). Split it however the table likes; it doesn't have to be an even 3-and-3 per gun, as long as every gun's fire comes from an action and every gun's total hits three units.
+- **Fewer than two people on a gun means it doesn't fire that round.** There's no partial credit for a lone gunner short a bonus action.
+
+### Boarding: two different things with the same name
+**The Pilot's Boarding Action maneuver** (above) is about the *ships*: closing and locking them together so neither can disengage. It's a contested check, it's the pilot's one maneuver for the round, and it doesn't move anyone.
+
+**A PC or NPC jumping to the other ship** is a separate, personal choice, not the maneuver. Once the ships are close enough (grappled by a Boarding Action, or just flown alongside), anyone can spend their own movement and an Athletics or Acrobatics check to physically cross, same as clearing any other gap, and fight there as an individual. The ships don't need to be locked for a PC to leap it if the pilot's flown them side by side on purpose; locking just guarantees the gap stays crossable.
 
 ### Engineer
 Not full repair — that's still 20 gp/HP and downtime, per section 4. In combat, an Engineer can spend their action on:
@@ -192,6 +211,6 @@ The person actually running the fight from the deck or the chart table — usual
 
 ## 9. What We Deliberately Are Not Tracking
 
-Daily or per-voyage burn. Provisions as units. Air as a running total (it's a date on a calendar). Tonnage as a ledger (it's a yes/no at the dock: can this hull carry that contract). Route stability. Drift detection rolls. Crew morale as a stat.
+Daily or per-voyage burn. Provisions as units. Air as a running total (it's a date on a calendar). Tonnage as a ledger (it's a yes/no at the dock: can this hull carry that contract). Route stability. Guttering detection rolls. Crew morale as a stat.
 
 If a system isn't on this page, it isn't in the game.

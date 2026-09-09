@@ -1329,7 +1329,21 @@ STR 16(+3) DEX 14(+2) CON 15(+2) | Senses darkvision 60 ft. | **CR 2** (450 XP)
 Beloved mount of Wildspace gnomes and halflings — adorable, loyal, and capable of gnawing through a hull plate if sufficiently annoyed.
 - Void-Adapted; Beast of Burden (Large mount, 480 lb capacity); Bite (+5, 9 (2d6+3))
 
+## Scavvers -- how to use them (read before deploying)
+
+Scavvers are the **sharks and gulls of Wildspace**, not a boss monster -- four size classes of the same animal, ordinary fauna that are part of the living sky, not a recurring menace. Deploy them mostly as *ecology and texture*, and only occasionally as a real threat. The four (canon: *Boo's Astral Menagerie*):
+
+| Type | CR | Size | What it is at the table |
+|---|---|---|---|
+| **Gray Scavver** | 1/4 | Medium | Harmless shoal cleanup crew. Cloud of them tidying wreckage and dropped rations. Atmosphere, not a fight; a warning sign (they gather where something died) more than a danger. |
+| **Brown Scavver** | 4 | Large | Opportunist scavenger. Won't attack unless provoked or starving, but a wounded ship reads as an open buffet. A *complication*, not a villain -- often driven off, not killed. |
+| **Night Scavver** | 5 | Large | Genuine ambush predator near dead hulks and asteroid fields. This is the one you use when you *want* a scary scavver fight (see `sessions/Episode - The Quiet Hull.md`). |
+| **Void Scavver** | 11 | Huge | The rare apex predator, ship-eating, and the **keystone of the whole campaign** (`campaign/Story Spine.md`): civilization exterminated these to make the lanes safe, which broke the sky. Use sparingly, usually as awe-and-flee, not a fair fight. Its scarcity is its meaning. |
+
+**The point:** most scavver encounters should be the crew coexisting with wildlife -- routing around a shoal, shooing a hungry brown off the hull, reading a gathering as a sign something's out there -- exactly the "live alongside the danger" skill the cure is built on. Save the teeth for when it counts. A crew that learns to *read* scavvers rather than fear them is already practicing the campaign's thesis. See also Tables.md (Wildspace Encounters #6, "scavvers circling something -- whatever they're circling is the interesting part").
+
 ### Brown Scavver **[Verified CR]**
+![Brown Scavver](https://static.wikia.nocookie.net/forgottenrealms/images/8/8a/Brown_Scavver.webp/revision/latest?cb=20230814113953)
 *Boo's Astral Menagerie*
 Large monstrosity, unaligned
 AC 14 (natural armor) | HP 90 (12d10+24) | Speed 0 ft., fly 60 ft. (wildspace/astral only)
@@ -1357,6 +1371,7 @@ Sleek, near-black ambush predator hunting near asteroid fields and dead hulks �
 - Multiattack: two Bite (+7, 16 (2d10+5), DC 14 Str or prone)
 
 ### Void Scavver **[Verified]**
+![Void Scavver](https://static.wikia.nocookie.net/forgottenrealms/images/2/24/Void_Scavver.webp/revision/latest?cb=20230814114013)
 *Boo's Astral Menagerie*
 Huge monstrosity, unaligned
 AC 17 (natural armor) | HP 180 (19d12+57) | Speed 0 ft., fly 70 ft. (wildspace/astral only)
@@ -1373,7 +1388,7 @@ AC 13 (motley armor) | HP 45 (10d6+10) | Speed 30 ft., fly 30 ft. (wildspace/ast
 STR 10(+0) DEX 17(+3) CON 13(+1) INT 12(+1) WIS 10(+0) CHA 16(+3)
 Skills Deception +5, Performance +7, Sleight of Hand +5 | Resist psychic | Condition Immunities frightened | Senses darkvision 60 ft. | Languages Common, telepathy 30 ft. | **CR 2** (450 XP)
 
-Garishly-painted fiend treating the multiverse as one long stage — hitches rides to prank and heckle crews. Its comedy has real teeth and a body count if you don't play along. Overdue material for the *Last Honest Deal*'s crew.
+Garishly-painted fiend treating the multiverse as one long stage — hitches rides to prank and heckle crews. Its comedy has real teeth and a body count if you don't play along. Overdue material for the *Night Fury*'s crew.
 - Comic Timing (bonus action feint, advantage next attack)
 - Multiattack: two Slapstick, or one Slapstick + Cream Pie
 - Slapstick/Rubber Mallet (+5, 9 (2d6+2))

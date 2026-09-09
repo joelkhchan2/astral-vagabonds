@@ -30,7 +30,7 @@ Not fame. Not merit. **Mass of feeling.** A hull that was loved by its crew, nam
 
 Ships that were merely used do not come here. Ships that were *someone* do.
 
-> **[ORENA]'s ship is here because she never stopped looking.**
+> **Orena's ship is here because she never stopped looking.**
 >
 > Her refusal to let go is the reason it still exists. The guild told her to accept it and move on. Everyone treated her grief as a pathology to be managed. **Had she listened, the ship would have dissolved.**
 >
@@ -52,11 +52,11 @@ A living crew entering the harbour is the rarest event that happens here, and hu
 
 They communicate the way ships communicate: creaks, hums, resonance, the settling of timbers, the note a hull rings at when something passes near it.
 
-> **[ORENA] has been cataloguing exactly this by sound for the entire campaign.**
+> **Orena is the one person who can hear what they are saying.**
 >
-> The guild treated her logbook as grief processing. It is the only linguistics anyone in Wildspace possesses. She built it by accident, as a coping mechanism, and nobody taught her.
+> She is a water genasi bard who survived a song that stilled everyone around her, and being of the water is why it did not take her. She hears the void differently than anyone aboard, and she has spent the campaign chasing the tales and resonances that might lead her back to her crew. Nobody taught her this; it grew out of what happened to her.
 >
-> **Protect this above almost anything else in the campaign.** It is the single best payoff available and it was constructed out of a player's own character choice.
+> **Protect this above almost anything else in the campaign.** It is the single best payoff available and it was built out of the player's own character.
 
 ---
 
@@ -66,11 +66,11 @@ They communicate the way ships communicate: creaks, hums, resonance, the settlin
 
 And here is what that means:
 
-The Drift lore states that the phase shift has happened before on geological timescales, that previous civilizations survived because they were distributed and adaptable, and that **nobody alive remembers the last one.**
+The Guttering has happened before, in the deep past, wherever a keystone was lost and the Tide stopped moving and the currents died back. The peoples who survived were the ones who lived nomadically *with* the sky, and **nobody alive remembers the last time.**
 
 **These ships were there.** They flew the old current system. They watched it come apart and re-form. They persisted because they were remembered, and they are now the only witnesses to the exact event the campaign is about.
 
-[ORENA] goes looking for her ship and finds the answer to the world plot moored three berths down.
+Orena goes looking for her ship and finds the answer to the world plot moored three berths down.
 
 ---
 
@@ -78,7 +78,7 @@ The Drift lore states that the phase shift has happened before on geological tim
 
 **You need the instrument.** The ancient current-readers can find the way, and the way is a current that is not always there. Without one, the Locker is unreachable and unprovable.
 
-Which means **[ORENA]'s finale is only possible because of [THE PC]'s network.** Not thematically. Mechanically. She cannot go until he has built the thing, and he is not building it for her.
+Which means **Orena's finale is only possible because of Aerion's network.** Not thematically. Mechanically. She cannot go until he has built the thing, and he is not building it for her.
 
 ---
 
@@ -94,11 +94,11 @@ Run it as hospitality that does not take no for an answer and does not understan
 
 ---
 
-## What happened to [ORENA]'s crew
+## What happened to Orena's crew
 
 > **DM only. Gabrielle learns none of this at session 0 and all of it through play.**
 
-Her guild chased a legend. Whatever she names it at session 0 — a siren song, a harp, a voice in the void — it resolves to the same object, because a folk legend about a sound in the deep is precisely what a pre-civilization current-reader becomes after ten thousand years of retelling.
+Her guild chased a legend: the **Stillwater Vocalise**, a song said to calm any raging sea. It resolves to the same object, because a folk legend about a sound in the deep is precisely what a pre-civilization current-reader becomes after ten thousand years of retelling.
 
 **They found one of the ancient instruments. The instrument is the door. It opened.**
 
@@ -110,9 +110,9 @@ That is why the scattering makes no physical sense, why they landed so far apart
 
 ### The convergence
 
-**The instrument is still there.** Tier 3's mission to recover it — the object that gives the reformed CIV its standard and breaks the Pale Reach's subscription model — takes place **at the exact site where [ORENA] lost her crew.**
+**The instrument is still there.** Tier 3's mission to recover it — the object that gives the reformed CIV its standard and breaks the Pale Reach's subscription model — takes place **at the exact site where Orena lost her crew.**
 
-Her guild found the answer to the Drift years before anyone thought to ask the question. It cost them everything and nobody knew. She will be standing in the spot when the campaign's most important object is finally recovered, and she will recognize the place before anyone tells her.
+Her guild found the answer to the Guttering years before anyone thought to ask the question. It cost them everything and nobody knew. She will be standing in the spot when the campaign's most important object is finally recovered, and she will recognize the place before anyone tells her.
 
 ### Testimony and telemetry
 
@@ -128,7 +128,7 @@ Neither is sufficient. That is why the campaign needs both halves and why the vo
 
 **Tiers 1–2: folklore only.** Drunks mention it. The guild uses it to mean "stop looking." Nobody credible believes in it.
 
-**Tier 3: it becomes plausible.** The instrument is recovered, the current-reading works, and somebody realizes what the readings imply. This is also where [ORENA] stands at the site.
+**Tier 3: it becomes plausible.** The instrument is recovered, the current-reading works, and somebody realizes what the readings imply. This is also where Orena stands at the site.
 
 **Tier 4: the voyage.** The first crossing, the harbour, the ancient fleet, the ship, and the answer.
 
@@ -138,7 +138,7 @@ Neither is sufficient. That is why the campaign needs both halves and why the vo
 
 ## Still open
 
-- How many of her crew there were, and their names — **Gabrielle's, at session 0**
+- The exact members of the Wayfinder Knot and their names — **Gabrielle's to fill in** (the guild is established; the individuals aren't yet)
 - Whether anything here can leave, and what that would mean
 - What the ancient ships want, if anything, after this long
 - Whether the harbour's tidiness has an explanation or is simply what a society of ships does

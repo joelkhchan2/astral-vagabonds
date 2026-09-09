@@ -1,0 +1,300 @@
+<title>Night Fury Crew Stat Cards</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Alfa+Slab+One&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
+<style>
+  :root {
+    --paper: #fdf1dc; --paper-edge: #e6d2ae;
+    --ink: #1c1608; --ink-soft: #4b3f2a;
+    --red: #7a1f1a; --red-deep: #58150f;
+    --bg: #e9e2d3;
+  }
+  :root:not([data-theme="light"]) { color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #1b1712; }
+  }
+  :root[data-theme="dark"] { --bg: #1b1712; }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); font-family: "Libre Baskerville", Georgia, serif; padding: 28px 16px 70px; color: var(--ink); }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+  h1.page-title { font-family: "Alfa Slab One", serif; color: var(--red-deep); text-align: center; font-size: 1.6rem; margin: 0 0 6px; letter-spacing: .01em; }
+  p.page-sub { text-align: center; font-family: "IBM Plex Sans", sans-serif; color: var(--ink-soft); font-size: .85rem; margin: 0 0 26px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 22px; }
+
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--paper-edge);
+    box-shadow: 0 1px 0 #fff inset, 0 6px 18px rgba(30,20,5,.18);
+    padding: 18px 20px 20px;
+    border-radius: 2px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .name { font-family: "Alfa Slab One", serif; color: var(--red-deep); font-size: 1.3rem; margin: 0; letter-spacing: .01em; }
+  .subtitle { font-style: italic; font-size: .82rem; color: var(--ink-soft); margin: 2px 0 6px; }
+
+  .taper { height: 8px; margin: 6px 0 8px; position: relative; }
+  .taper svg { width: 100%; height: 8px; display: block; }
+
+  .topstats p { margin: 2px 0; font-size: .88rem; }
+  .topstats b { color: var(--red-deep); }
+
+  table.abilities { width: 100%; border-collapse: collapse; margin: 4px 0; text-align: center; font-size: .86rem; }
+  table.abilities th { font-family: "IBM Plex Sans", sans-serif; font-size: .68rem; letter-spacing: .06em; color: var(--red-deep); font-weight: 700; padding-bottom: 2px; border-bottom: 1px solid var(--paper-edge); }
+  table.abilities td { padding: 3px 2px; border-right: 1px solid var(--paper-edge); }
+  table.abilities td:last-child { border-right: none; }
+
+  .props p { margin: 3px 0; font-size: .86rem; }
+  .props b { color: var(--red-deep); }
+
+  h4.section { font-family: "Alfa Slab One", serif; font-size: .92rem; color: var(--red-deep); border-bottom: 1px solid var(--red-deep); margin: 12px 0 6px; padding-bottom: 1px; letter-spacing: .01em; }
+
+  .trait { margin: 5px 0; font-size: .87rem; line-height: 1.42; }
+  .trait b.traitname { font-style: italic; font-weight: 700; }
+
+  .hpfield { display: inline-flex; align-items: baseline; gap: 4px; font-family: "IBM Plex Sans", sans-serif; }
+  .hpbox { display: inline-block; border: 1px solid var(--ink-soft); background: #fffdf7; width: 46px; height: 18px; border-radius: 2px; vertical-align: middle; }
+  .hplabel { font-size: .68rem; color: var(--ink-soft); letter-spacing: .04em; text-transform: uppercase; }
+
+  .notesbox { margin-top: 10px; border-top: 1px dashed var(--paper-edge); padding-top: 8px; }
+  .notesbox .hplabel { display: block; margin-bottom: 3px; }
+  .notesarea { width: 100%; height: 34px; border: 1px solid var(--ink-soft); background: #fffdf7; border-radius: 2px; }
+
+  .toolbar { max-width: 1180px; margin: 0 auto 18px; text-align: right; }
+  .btn { font-family: "IBM Plex Sans", sans-serif; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; background: var(--red-deep); color: #fdf1dc; border: none; border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar { display: none; }
+    .card { box-shadow: none; border: 1px solid #ccc; }
+    .grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+
+<div class="toolbar no-print"><button class="btn" onclick="window.print()">Print / Save as PDF</button></div>
+
+<div class="wrap">
+  <h1 class="page-title">The Night Fury &middot; Crew</h1>
+  <p class="page-sub">Five NPCs aboard, plus Flurry. Full character detail in <code>npcs/</code>; this page is numbers only, for the table. Blank boxes are for tracking current HP by hand or ink.</p>
+
+  <div class="grid">
+
+    <!-- CAPTAIN ESTRA VANE -->
+    <div class="card">
+      <p class="name">Captain Estra Vane</p>
+      <p class="subtitle">Medium humanoid (human), Fighter (Battle Master), Captain / Main Helmsman &middot; CR 2 (450 XP)</p>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="topstats">
+        <p><b>Armor Class</b> 15 (studded leather)</p>
+        <p><b>Hit Points</b> 58 (9d8 + 18) <span class="hpfield"><span class="hplabel">current</span><span class="hpbox"></span></span></p>
+        <p><b>Speed</b> 30 ft.</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <table class="abilities">
+        <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+        <tr><td>12 (+1)</td><td>14 (+2)</td><td>14 (+2)</td><td>16 (+3)</td><td>15 (+2)</td><td>13 (+1)</td></tr>
+      </table>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="props">
+        <p><b>Saving Throws</b> Int +6, Wis +5</p>
+        <p><b>Skills</b> Insight +5, Investigation +6, Persuasion +4, Piloting +6</p>
+        <p><b>Senses</b> passive Perception 12</p>
+        <p><b>Languages</b> Common, Elvish, Draconic</p>
+        <p><b>Challenge</b> 2 (450 XP)</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+
+      <div class="trait"><b class="traitname">Fifteen Years at the Bottom.</b> Advantage on saving throws against being frightened or charmed.</div>
+      <div class="trait"><b class="traitname">Superiority Dice (d8, x3).</b> Estra regains all expended superiority dice after a short or long rest. She spends them on the maneuvers below.</div>
+
+      <h4 class="section">Actions</h4>
+      <div class="trait"><b class="traitname">Rapier.</b> <i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (1d8 + 2) piercing damage.</div>
+      <div class="trait"><b class="traitname">Rallying Cry</b> (Maneuver, 1 Superiority Die). Bonus action: one ally within 60 ft. who can see or hear her gains temporary hit points equal to the superiority die roll (1d8) plus her Charisma modifier.</div>
+      <div class="trait"><b class="traitname">Command the Deck</b> (Maneuver, 1 Superiority Die). Directs one crew station (Pilot, Gunner, Engineer, or Coordinator) to act immediately, out of the normal order.</div>
+
+      <h4 class="section">Reactions</h4>
+      <div class="trait"><b class="traitname">Steady Hand</b> (Maneuver, 1 Superiority Die). When the ship's pilot would lose concentration from damage, Estra spends a superiority die to grant them advantage on the concentration save.</div>
+
+      <div class="notesbox"><span class="hplabel">Conditions / Notes</span><div class="notesarea"></div></div>
+    </div>
+
+    <!-- TACK -->
+    <div class="card">
+      <p class="name">Tack</p>
+      <p class="subtitle">Small construct (autognome), Artificer, Chief Engineer &middot; CR 1 (200 XP)</p>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="topstats">
+        <p><b>Armor Class</b> 15 (armored casing)</p>
+        <p><b>Hit Points</b> 33 (6d6 + 12) <span class="hpfield"><span class="hplabel">current</span><span class="hpbox"></span></span></p>
+        <p><b>Speed</b> 25 ft.</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <table class="abilities">
+        <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+        <tr><td>10 (+0)</td><td>14 (+2)</td><td>14 (+2)</td><td>16 (+3)</td><td>12 (+1)</td><td>10 (+0)</td></tr>
+      </table>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="props">
+        <p><b>Skills</b> Arcana +5, Investigation +5, Perception +3; tinker's tools +7</p>
+        <p><b>Damage Immunities</b> poison</p>
+        <p><b>Condition Immunities</b> charmed, exhaustion, paralyzed, poisoned</p>
+        <p><b>Senses</b> darkvision 60 ft., passive Perception 13</p>
+        <p><b>Languages</b> Common, Gnomish</p>
+        <p><b>Challenge</b> 1 (200 XP)</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+
+      <div class="trait"><b class="traitname">Construct Nature.</b> Doesn't eat, drink, breathe, or sleep, and does not count against the ship's air envelope.</div>
+      <div class="trait"><b class="traitname">Built for More.</b> Advantage on all checks made to repair or diagnose a ship.</div>
+      <div class="trait"><b class="traitname">Artificer Spellcasting.</b> Intelligence is Tack's spellcasting ability (spell save DC 13). He always has <i>mending</i> prepared and casts it at will on anything that will hold still.</div>
+
+      <h4 class="section">Actions</h4>
+      <div class="trait"><b class="traitname">Wrench.</b> <i>Melee Weapon Attack:</i> +2 to hit, reach 5 ft., one target. <i>Hit:</i> 3 (1d6) bludgeoning damage.</div>
+      <div class="trait"><b class="traitname">Field Repair</b> (Recharges after a Short Rest). Restores 2d10 hit points to the ship, or fully repairs one disabled ship weapon.</div>
+
+      <h4 class="section">Reactions</h4>
+      <div class="trait"><b class="traitname">Reactive Repair.</b> When the ship takes damage exceeding its damage threshold, reduces that damage by 10.</div>
+
+      <div class="notesbox"><span class="hplabel">Conditions / Notes</span><div class="notesarea"></div></div>
+    </div>
+
+    <!-- BRASSICA THORNGAGE -->
+    <div class="card">
+      <p class="name">Brassica "Brass" Thorngage</p>
+      <p class="subtitle">Medium humanoid (human), Cleric (Life Domain), Medic / Cook &middot; CR 2 (450 XP)</p>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="topstats">
+        <p><b>Armor Class</b> 13 (chain shirt)</p>
+        <p><b>Hit Points</b> 33 (6d8 + 6) <span class="hpfield"><span class="hplabel">current</span><span class="hpbox"></span></span></p>
+        <p><b>Speed</b> 30 ft.</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <table class="abilities">
+        <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+        <tr><td>10 (+0)</td><td>12 (+1)</td><td>13 (+1)</td><td>12 (+1)</td><td>16 (+3)</td><td>13 (+1)</td></tr>
+      </table>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="props">
+        <p><b>Skills</b> Insight +5, Medicine +8, Persuasion +3</p>
+        <p><b>Senses</b> passive Perception 13</p>
+        <p><b>Languages</b> Common, Halfling</p>
+        <p><b>Challenge</b> 2 (450 XP)</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+
+      <div class="trait"><b class="traitname">I Know a Guy</b> (1/Port). Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. It always costs something.</div>
+      <div class="trait"><b class="traitname">The Morning Roll.</b> She is the cook too. Each morning she is on breakfast, roll a d4 for the day's result.</div>
+      <div class="trait"><b class="traitname">Spellcasting.</b> 3rd-level caster, Wisdom-based (save DC 13, +5 to hit). Cantrips: <i>guidance, spare the dying</i>. 1st level (4 slots): <i>bless, cure wounds, healing word</i>. 2nd level (2 slots): <i>lesser restoration, prayer of healing</i>.</div>
+      <div class="trait"><b class="traitname">Channel Divinity: Preserve Life</b> (1/Short Rest). Restores 15 hit points, divided among creatures within 30 ft. as she chooses; no creature can be brought above half its hit point maximum this way.</div>
+
+      <h4 class="section">Actions</h4>
+      <div class="trait"><b class="traitname">Mace.</b> <i>Melee Weapon Attack:</i> +2 to hit, reach 5 ft., one target. <i>Hit:</i> 3 (1d6) bludgeoning damage.</div>
+      <div class="trait"><b class="traitname">Field Patch</b> (Cure Wounds, cast at 1st level). One creature she touches regains 1d8 + 3 hit points.</div>
+
+      <div class="notesbox"><span class="hplabel">Conditions / Notes</span><div class="notesarea"></div></div>
+    </div>
+
+    <!-- FINNY -->
+    <div class="card">
+      <p class="name">Finnick "Finny" Groles</p>
+      <p class="subtitle">Small humanoid (halfling), Rogue (Thief), Rigger / Deckhand / backup Gunner &middot; CR 1 (200 XP)</p>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="topstats">
+        <p><b>Armor Class</b> 14 (studded leather)</p>
+        <p><b>Hit Points</b> 33 (6d8 + 6) <span class="hpfield"><span class="hplabel">current</span><span class="hpbox"></span></span></p>
+        <p><b>Speed</b> 25 ft., climb 20 ft.</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <table class="abilities">
+        <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+        <tr><td>12 (+1)</td><td>16 (+3)</td><td>12 (+1)</td><td>10 (+0)</td><td>12 (+1)</td><td>16 (+3)</td></tr>
+      </table>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="props">
+        <p><b>Skills</b> Acrobatics +5, Athletics +3, Insight +3, Perception +3, Persuasion +5, Sleight of Hand +5; thieves' tools +5</p>
+        <p><b>Senses</b> passive Perception 13</p>
+        <p><b>Languages</b> Common, Halfling, Thieves' Cant, and gossip in four more</p>
+        <p><b>Challenge</b> 1 (200 XP)</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+
+      <div class="trait"><b class="traitname">Lucky.</b> When Finny rolls a 1 on the d20 for an attack roll, ability check, or saving throw, he can reroll and must use the new roll.</div>
+      <div class="trait"><b class="traitname">Brave.</b> Advantage on saving throws against being frightened.</div>
+      <div class="trait"><b class="traitname">Sure Hands Aloft.</b> Advantage on checks made to rig sails, secure cargo, or crew a ship weapon in a hurry.</div>
+      <div class="trait"><b class="traitname">Fast Hands.</b> Finny can use the bonus action granted by Cunning Action to make a Sleight of Hand check, use thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</div>
+
+      <h4 class="section">Actions</h4>
+      <div class="trait"><b class="traitname">Boarding Knife.</b> <i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (1d4 + 3) piercing damage.</div>
+      <div class="trait"><b class="traitname">Sneak Attack</b> (1/Turn). +7 (2d6) damage on an attack with advantage, or when an ally is adjacent to the target.</div>
+
+      <h4 class="section">Reactions</h4>
+      <div class="trait"><b class="traitname">"HEY!"</b> (Recharges after a Short Rest). When an ally within 30 ft. is attacked, the attacker has disadvantage on the roll.</div>
+
+      <div class="notesbox"><span class="hplabel">Conditions / Notes</span><div class="notesarea"></div></div>
+    </div>
+
+    <!-- OZ -->
+    <div class="card">
+      <p class="name">Ozgood "Oz" Hammerfall</p>
+      <p class="subtitle">Medium humanoid (giff), Fighter, Ship's Security &middot; CR 3 (700 XP)</p>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="topstats">
+        <p><b>Armor Class</b> 16 (breastplate)</p>
+        <p><b>Hit Points</b> 82 (11d10 + 22) <span class="hpfield"><span class="hplabel">current</span><span class="hpbox"></span></span></p>
+        <p><b>Speed</b> 30 ft.</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <table class="abilities">
+        <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+        <tr><td>18 (+4)</td><td>12 (+1)</td><td>15 (+2)</td><td>10 (+0)</td><td>12 (+1)</td><td>14 (+2)</td></tr>
+      </table>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="props">
+        <p><b>Skills</b> Athletics +6, Persuasion +4</p>
+        <p><b>Senses</b> passive Perception 11</p>
+        <p><b>Languages</b> Common, Giff</p>
+        <p><b>Challenge</b> 3 (700 XP)</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+
+      <div class="trait"><b class="traitname">Astral Spark.</b> Once per turn, when Oz hits with a weapon attack, he deals an extra 4 (1d8) force damage.</div>
+      <div class="trait"><b class="traitname">Impeccable.</b> Advantage on Charisma checks made to be polite to someone who does not expect it.</div>
+
+      <h4 class="section">Actions</h4>
+      <div class="trait"><b class="traitname">Multiattack.</b> Oz makes two attacks.</div>
+      <div class="trait"><b class="traitname">Great Gun.</b> <i>Ranged Weapon Attack:</i> +5 to hit, range 100/400 ft., one target. <i>Hit:</i> 12 (2d10 + 1) piercing damage. Must be reloaded (one action) after two shots.</div>
+      <div class="trait"><b class="traitname">Headbutt.</b> <i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 11 (2d6 + 4) bludgeoning damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</div>
+
+      <h4 class="section">Reactions</h4>
+      <div class="trait"><b class="traitname">After You.</b> When an ally within 5 ft. is hit by an attack, Oz swaps places with them and takes the damage instead.</div>
+
+      <div class="notesbox"><span class="hplabel">Conditions / Notes</span><div class="notesarea"></div></div>
+    </div>
+
+    <!-- FLURRY -->
+    <div class="card">
+      <p class="name">Flurry (Rhee)</p>
+      <p class="subtitle">Tiny dragon (silver wyrmling), Ship's Dragon &middot; not a combatant, by design</p>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+      <div class="topstats">
+        <p><b>Armor Class</b> 13 (natural)</p>
+        <p><b>Hit Points</b> 2 <span class="hpfield"><span class="hplabel">current</span><span class="hpbox"></span></span></p>
+        <p><b>Speed</b> 20 ft., fly 40 ft.</p>
+      </div>
+      <div class="taper"><svg viewBox="0 0 400 8" preserveAspectRatio="none"><polygon points="0,4 400,0 400,8" fill="#7a1f1a"/></svg></div>
+
+      <div class="trait"><b class="traitname">Two Years Old.</b> Flurry is a puppy with a breath weapon.</div>
+      <div class="trait"><b class="traitname">Lunar Blood (latent).</b> An uncanny sensitivity to the astral. No combat effect. See <code>npcs/Flurry.md</code>.</div>
+      <div class="trait"><b class="traitname">Devoted.</b> Flurry will not fight unless Aerion is below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die.</div>
+
+      <h4 class="section">Actions</h4>
+      <div class="trait"><b class="traitname">Breath Weapon</b> (Recharge 6). 15-ft. cone, DC 13 Constitution save, 2d6 cold damage, half as much on a success. That's the whole combat kit.</div>
+
+      <div class="notesbox"><span class="hplabel">Conditions / Notes</span><div class="notesarea"></div></div>
+    </div>
+
+  </div>
+</div>

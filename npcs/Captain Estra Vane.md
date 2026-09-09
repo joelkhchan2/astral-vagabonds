@@ -1,7 +1,7 @@
 # Captain Estra Vane
 
 ## The Surface Read
-A weathered human woman in her late 50s. Drinks black coffee from the same dented tin mug. Gives orders like polite suggestions. Has never raised her voice in a crisis. Calls everyone by their last name until she trusts them, then switches to first name without comment. Plays cards alone in the helm room at night.
+A weathered human woman in her late 50s. Drinks black coffee from the same dented tin mug. Gives orders like polite suggestions. Has never raised her voice in a crisis. Calls everyone by their last name until she trusts them, then switches to first name without comment. Plays solitaire alone in the helm room at night, and keeps a private journal in a locked book, writing by lamplight; nobody has read a word of it.
 
 Not warm -- but when Finny got spacesick his first week, she quietly adjusted the duty roster so he had lighter shifts and never mentioned it. When Oz froze during a boarding action, she stood next to him afterward and said, "That happens. Next time it'll be shorter." That was the entire conversation.
 
@@ -10,6 +10,8 @@ Aggressively, almost pathologically competent. Doesn't explain herself often, an
 **DM shorthand for playing Estra:** Ron Swanson's delivery + Captain Holt's precision + Iroh's buried grief + Mal Reynolds' stubbornness. She's funny because she's dry, not because she's trying to be.
 
 ## The Vane Compact (Backstory)
+
+> **Reframed by `campaign/Story Spine.md`.** The Compact was the **first fleet to try the nomadic method** -- flying with the living sky, following the currents and the pods, sharing what they charted. The right instinct, a generation too early. It failed for two reasons, not one: the cartel crushed it (below), *and* it was scientifically premature -- they had the art of following the living roads but not the understanding of why the sky moved, so some of her crews were lost to guttering zones (the way Orena's crew was). Estra's double guilt -- the cartel destroyed her fleet, and her own unfinished method killed some of her own -- is the heart of her arc. The crew completes it by supplying the missing science.
 
 ### What She Built
 Fifteen years ago, Estra was **First Captain of the Vane Compact** -- a fleet of seven ships that operated as the most respected independent exploration-and-trade outfit in the Bral Reach. Not military, not corporate -- independent. They charted new routes, made first contact with uncontacted species, mapped uncharted systems, and sold the data to the CIV.
@@ -31,11 +33,13 @@ Over the following eighteen months:
 
 The Compact was dismantled in eighteen months. Six former captains scattered across Wildspace -- some angry at Estra, some bought, one imprisoned, two dead.
 
-She acquired the *Night Fury* at a CIV salvage auction. Paid with the last of her savings. She flew it nameless for a long while, running on reputation alone -- the crew christened it later. **Nothing about how she runs this ship is ironic. It's a thesis statement.**
+Left with nothing, she clawed her way back into a captain's chair (see The Broker, below) and eventually built the crew she captains now. That crew's ship blew up not long ago; the one they fly today is the new, still-unnamed Sturdy Trader that Aerion's money bought to replace it. Estra did not buy this hull, but the crew is hers.
+
+**On the public rumor:** the version the crew trade is that she was once a "Commodore" over a whole fleet, and that something happened to it, and that she will not talk about it. The Vane Compact is the truth under that rumor. Nobody aboard has the full story.
 
 ### The Seven Compact Captains (Recurring NPC Pool)
 1. **Estra Vane** -- herself. Circled on her chart. Still fighting.
-2. **[DEAD]** -- Circumstances TBD. Possibly connected to the Drift.
+2. **[DEAD]** -- Circumstances TBD. Possibly connected to the Guttering.
 3. **[DEAD]** -- Circumstances TBD. Possibly connected to Gabrielle's lost crew.
 4. **[DETAINED]** -- Imprisoned on fabricated charges. Jailbreak side quest. Justice theme.
 5. **[BOUGHT OUT]** -- Now works for the Pale Reach. Ashamed? Defiant? Both?
@@ -44,23 +48,25 @@ She acquired the *Night Fury* at a CIV salvage auction. Paid with the last of he
 
 Each former captain is a potential multi-session arc: rescue, recruitment, confrontation, or betrayal.
 
+> **A live candidate for one of these:** the Manifest Board currently ranks **9th** to a ship called the ***Compact Standard*** (one of the original seven hulls, still flying under its old name), captained by **Dessa Kell**, either Estra's former second or a fellow Compact captain (leave which true until it matters). She rebuilt something out of the collapse; Estra didn't. That gap alone is worth a scene someday. See `factions/The Manifest Board.md`. A second bought-out captain, **Sedge Okonkwo** (*Bright Arrears*, ~250th), gives the DM a contrasting read on the same choice: Kell defiant and climbing, Okonkwo still visibly uncomfortable with what he took.
+
 ## The Debt -- The Broker
 
 After the Compact fell, Estra was drowning. No ship, no crew, blacklisted. A figure known only as **The Broker** appeared with an offer.
 
 The Broker operates in the gaps between organizations. Trades in leverage, not currency. Bets on outcomes and arranges conditions to ensure they pay off. Think: Wildspace loan shark dealing in event futures. **The Broker is a faceless force** -- never appears on screen, operates only through intermediaries, dead drops, and proxied instructions. The dread is in never knowing who's working for them or when the next favor will be called.
 
-**The deal:** The *Night Fury* (the auction was rigged in her favor), a clean-enough CIV charter, and enough seed money to crew up. In exchange: **three favors. Unspecified. Non-negotiable. Called in at the Broker's discretion.**
+**The deal:** a ship to captain again (an earlier vessel, years before the current one), a clean-enough CIV charter, and enough seed money to crew up. In exchange: **three favors. Unspecified. Non-negotiable. Called in at the Broker's discretion.**
 
 ### Favor Status
-- **Favor #1:** Completed. Estra doesn't talk about it. Sable was on the crew when it happened. Sable doesn't talk about it either -- which is how you know it was bad.
+- **Favor #1:** Completed. It predates this crew, and Estra doesn't talk about it. Whoever was there at the time doesn't either, which is how you know it was bad.
 - **Favor #2:** Outstanding. The Broker has been quiet for years. This means it's bigger.
 - **Favor #3:** Outstanding.
 
 ### Broker Story Hooks
 - When does favor #2 get called in? What does it cost?
-- What was favor #1? (Sable knows. Getting Sable to talk is its own arc.)
-- Is the Broker connected to the Pale Reach? The Drift? Gabrielle's lost crew?
+- What was favor #1? (Someone out in the world was there and knows. Finding and unlocking that person is its own arc.)
+- Is the Broker connected to the Pale Reach? The Guttering? Gabrielle's lost crew?
 - Can Estra clear the debt before it's called in?
 - When the crew finds out about the favors, do they stay?
 
@@ -75,9 +81,17 @@ Estra is **rebuilding the Compact** -- slowly, quietly, from the bottom of the M
 She hasn't told anyone. She thinks it's her burden. She's wrong -- it's the crew's story too.
 
 ### The Locked Chest
-In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have gone dark (Drift connection). Seven small markers -- one for each former captain.
+In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have gone dark (Guttering connection). Seven small markers -- one for each former captain.
 
 **If the PCs find this chart, it recontextualizes the entire campaign.**
+
+## Why She's So Serious, and Why This Crew
+
+Two answers, and she would give neither out loud.
+
+**Why so serious.** She carries a double guilt (`campaign/Story Spine.md`). The Pale Reach destroyed the Vane Compact, seven ships and the people aboard them, for refusing to make route data proprietary. And her own method was ahead of its science: she taught crews to fly *with* the living sky before anyone understood why the sky moved, and some of them were lost to guttering zones for it, the same way Orena's guild was lost. So she was both the victim of a cartel and, in her own accounting, the author of some of her own dead. A person does not come back from that loud.
+
+**Why she cares about this one.** These five are the loyal few who stayed when the last ship came apart and the rest of the crew walked. She chose each of them for the fleet she is quietly rebuilding, but somewhere it stopped being strategy and started being people. She lost one crew to forces bigger than herself, and she swore she would never lose another to loneliness or neglect, the two things she actually can control. That is the whole reason behind her one unbreakable rule, **no one sleeps in the helm room alone after a bad job**: after the Compact fell she spent months doing exactly that, and she will not let it happen to anyone under her command again. She parents through structure and trust and never through affection, because affection is the thing she is most afraid of losing twice.
 
 ## Why the Ship is Ranked 348th
 
@@ -97,18 +111,18 @@ Parents through structure and trust, not affection. She:
 - Never punishes failure, only dishonesty
 - Has a rule: "No one sleeps in the helm room alone after a bad job." (Reason: after the Compact fell, she spent months alone in a helm room. Won't let that happen to anyone else.)
 
-The crew doesn't call her "mom" -- Finny tried once and she gave him a look that could strip paint. But when Wysp had nightmares at 0300, Estra's light was already on, and her voice said "Sit down, I'll make coffee, you don't have to talk about it."
+The crew doesn't call her "mom" -- Finny tried once and she gave him a look that could strip paint. But when someone has a bad night at 0300, Estra's light is already on, and her voice says "Sit down, I'll make coffee, you don't have to talk about it."
 
-### With Gabrielle (Navigator)
-Estra sees herself in Gabrielle -- the version that lost a crew and didn't know how to carry it. This makes their dynamic complicated. She's harder on Gabrielle than anyone else, not from cruelty but because she knows what's coming.
+### With Gabrielle (Orena, Navigator)
+Estra sees herself in Orena -- the version that lost a crew and didn't know how to carry it. This makes their dynamic complicated. She's harder on Gabrielle than anyone else, not from cruelty but because she knows what's coming.
 
 **Key beats:**
 - **Early:** Gives Gabrielle responsibility before she's ready, watches without intervening. Success: says nothing. Failure: debriefs without judgment. "What would you do differently?" Never "here's what you should have done."
 - **Mid-campaign:** Tells Gabrielle about losing the Compact (emotional truth, not full story): "I built something and I wasn't strong enough to hold it. You're going to build something too. Be stronger than I was." Gabrielle realizes Estra chose her, not hired her.
 - **Late-campaign:** Asks Gabrielle for advice. Not about the ship -- about what to do. Mentor admits student is now a peer.
 
-### With Priscilla (Bosun)
-Doesn't push Priscilla. Watches. Recognized the family name on day one, said nothing -- understands the difference between who your family is and who you are.
+### With Priscilla (Aerion, Bosun / Quartermaster)
+Doesn't push Aerion. Watches. Recognized the Windsong name on day one, said nothing -- understands the difference between who your family is and who you are.
 
 Their dynamic is intellectual. Treats Priscilla as a strategic equal early. Asks for opinions on routes, contracts, port politics -- not to test, but because she values the analysis. Mentors by treating competence as a given and judgment as the thing worth developing.
 

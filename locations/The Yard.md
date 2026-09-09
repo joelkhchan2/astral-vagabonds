@@ -1,4 +1,6 @@
-# The Yard — Session 0 #2
+# The Yard — Session 0 (played)
+
+> **Outcome (canon).** This scene ran at session 0. The crew bought a **Sturdy Trader** from the Danforth lot (build in `ships/Night Fury.md`), left her **unnamed**, and hired a lean crew of seven (`npcs/Crew Roster.md`). Not hired: Dr. Quill, Sable, Reeve, Wysp, Morrow, who stay in the world. They christened her the ***Night Fury*** in session 1, not the yard's own slogan, so "the Last Honest Deal" stayed a joke on the sign rather than becoming the ship's name. The material below is the prep menu the session drew from; treat it as backstory and a source of future NPCs, not as pending choices.
 
 One location, rolling beats. They arrive with 50,000 gp and leave with a ship, a crew, a name, and a problem.
 
@@ -27,10 +29,10 @@ Shopping is fun for about forty-five minutes. Break it with beats.
 
 | Beat | When | What |
 |---|---|---|
-| **1. The uncle opens the yard** | Start | [THE UNCLE] walks them in. He knows the Major from somewhere and neither will explain how. He is the only family member who has ever done this. |
+| **1. The uncle opens the yard** | Start | Vaelren walks them in. He knows the Major from somewhere and neither will explain how. He is the only family member who has ever done this. |
 | **2. Browsing** | ~45 min | Hulls, spec sheets, the catalogue, the Major's patter |
 | **3. The crew surface** | Mid | Yard hands stop pretending to work and start asking about berths |
-| **4. The rival bidder** | Break the arithmetic | [SECOND]'s agent, unhurried, bidding on nothing in particular |
+| **4. The rival bidder** | Break the arithmetic | Aeris's agent, unhurried, bidding on nothing in particular |
 | **5. Estra arrives** | The turn | Unannounced. Already hired. Already the captain. |
 | **6. Purchase, naming, and what's living in the hull** | End | |
 
@@ -61,7 +63,7 @@ Magnificent. Polished. Everyone falls in love on sight.
 More places to hide a person than any hull here.
 > *Major:* "Roomy. You'll never want for somewhere to put a thing."
 
-**Truth:** slow, capacious, and **[WYSP] has been living aboard for eleven weeks.** They know every compartment and have strong opinions about the ship. Buy her and they inherit a teenager.
+**Truth:** slow, capacious, and **Wysp has been living aboard for eleven weeks.** They know every compartment and have strong opinions about the ship. Buy her and they inherit a teenager.
 **Defect (DC 12 to notice someone's aboard, DC 16 to find them).**
 
 ### The Living Ship — 25,000
@@ -93,13 +95,13 @@ Visibly built to be attacked and survive it.
 
 **Truth:** fifteen wages to carry six tons. There is no legitimate trade case for this ship and everyone in the industry knows what it's for. Buying one announces something.
 **Defect (DC 15):** the registry has been amended twice. She has had three names.
-> **PLANT THIS.** [THIRD] flies a hull of exactly this type. Nobody at the table knows that yet. When they work it out in Tier 2, they will remember standing on this lot being told what the ship is for.
+> **PLANT THIS.** Aeravellis flies a hull of exactly this type. Nobody at the table knows that yet. When they work it out in Tier 2, they will remember standing on this lot being told what the ship is for.
 
 ### The Standard Trader — 20,000
 **Balanced Trader.** AC 15, 250 HP, 55 ft, 13 t, crew 10, ballista and mangonel.
 > *Major:* "Honest ship. Honest ship."
 
-**Truth:** completely fine, and slightly worse than the Scarred Runner in every measurable way for identical money. Only visible if someone compares spec sheets. [THE PC] will.
+**Truth:** completely fine, and slightly worse than the Scarred Runner in every measurable way for identical money. Only visible if someone compares spec sheets. Aerion will.
 **Defect (DC 10):** nothing. It's the least interesting object in the yard.
 
 ---
@@ -119,7 +121,7 @@ Visibly built to be attacked and survive it.
 | First provisions | ~700 |
 | **Reserve for payroll** | **1,000/month if a PC flies, 2,500 if they hire** |
 
-**The lesson they should reach on their own:** the purchase is a one-time number and the payroll is forever. A hull at 20,000 and a Coilworks helm at 8,000 leaves about 22,000, which is **two years of runway if [ORENA] flies and about nine months if they hire a helmsman**. Let [THE PC] find that. Don't say it.
+**The lesson they should reach on their own:** the purchase is a one-time number and the payroll is forever. A hull at 20,000 and a Coilworks helm at 8,000 leaves about 22,000, which is **two years of runway if Orena flies and about nine months if they hire a helmsman**. Let Aerion find that. Don't say it.
 
 **The Deepline Survey Suite at 9,000** is the correct long-term purchase and they cannot afford it today. Show it to them anyway.
 
@@ -146,13 +148,13 @@ They hire **three or four** here with real scenes. The rest fill in offscreen so
 > "Oh! Oh, is this *my* ship now? I'll need to learn all her names."
 *Ask him:* what he was actually built for. He'll answer completely honestly and it will be a much bigger ship than this one.
 
-**HESSA OMBREY** — human, forties, ex-Tethyn yard foreman, immaculate coveralls, speaks in estimates. Genuinely excellent and knows exactly what she's worth.
+**HESSA OMBREY** — human, forties, ex-Stoneward yard foreman, immaculate coveralls, speaks in estimates. Genuinely excellent and knows exactly what she's worth.
 *Philosophy:* **fixes what's asked.** Precisely, on schedule, and not one bolt more. If you didn't specify it, she didn't touch it, and she will show you where you didn't specify it.
 *Wage:* 6 gp/day, double the going rate, non-negotiable.
-*Complication:* she'd file a routine fit-out report with her old Tethyn contacts out of sheer professional habit. Not spying. Worse, in a way: paperwork.
+*Complication:* she'd file a routine fit-out report with her old Stoneward contacts out of sheer professional habit. Not spying. Worse, in a way: paperwork.
 > "I can have her sound in nine days. I can have her *good* in twenty. You'll want the nine."
-*Ask her:* why she left the Tethyn yards. She'll give you the professional answer first and the real one only if you ask twice.
-*If Corwin Ashe is also auditioning today:* they know each other from the same Tethyn circuit. They'll clock each other mid-interview, and it briefly stops being an audition and becomes two old colleagues sizing each other up. See `Crew Roster.md`.
+*Ask her:* why she left the Stoneward yards. She'll give you the professional answer first and the real one only if you ask twice.
+*If Corwin Ashe is also auditioning today:* they know each other from the same Stoneward circuit. They'll clock each other mid-interview, and it briefly stops being an audition and becomes two old colleagues sizing each other up. See `Crew Roster.md`.
 
 **PELL CINDER** — gnome, indeterminate age, singed. Has ideas. Wants to talk about the ideas.
 *Philosophy:* **improves things.** Nobody asked. Some of the improvements are extraordinary and some of them are on fire.
@@ -180,7 +182,7 @@ Present all three options explicitly. **The third one is the real question.**
 > "I've flown worse than whatever you're buying. Considerably worse."
 *Ask him:* what "worse" means. He'll tell a genuinely great story and it will be true and it will also be a warning nobody in the room clocks as one yet.
 
-**[ORENA] FLIES** — free. Saves roughly **18,000 gp a year** and triples the runway.
+**Orena FLIES** — free. Saves roughly **18,000 gp a year** and triples the runway.
 *Complication:* the helm requires concentration. Every voyage she flies, she is furniture. Every fight she joins instead, the ship isn't moving.
 
 > Do not steer this. Lay out the numbers and let them argue. Whatever they decide, **plant Wysp as the long-term answer** — the kid who wants it, can't do it yet, and grows into the chair around level 9.
@@ -233,7 +235,7 @@ Present all three options explicitly. **The third one is the real question.**
 *Wage:* 6 gp/day. *Complication:* if it does come to a fight, he is useless and he'll tell you so up front.
 > "You can buy a gunner. You'll use him four times a year. You'll use me every port."
 *Ask him:* the worst room he ever talked his way out of. He has several and picks the funniest one, not the truest one.
-*Optional, if it fits her backstory:* he's old enough and travelled enough to have crewed a treasure-hunt job two years back. If [THE PC]'s player has said his old crew is still out there, Corwin can simply *be* one of them — see `Crew Roster.md`, "Open Hooks." Offer it, don't assign it.
+*Optional, if it fits her backstory:* he's old enough and travelled enough to have crewed a treasure-hunt job two years back. If Aerion's player has said his old crew is still out there, Corwin can simply *be* one of them — see `Crew Roster.md`, "Open Hooks." Offer it, don't assign it.
 *If Hessa Ombrey is also auditioning today:* see her entry above.
 
 > **Shoot it, stop it, or talk it down.** Hiring Corwin instead of a gunner is a real and defensible choice for this crew, and it's the one Priscilla will be tempted by. It should be viable. It should also mean the first boarding action goes very badly.
@@ -248,9 +250,9 @@ Whoever they don't audition — surgeon, lookout, quartermaster's mate, rigger �
 
 ## Beat 4 — The Rival Bidder
 
-An agent of [SECOND] is at the yard. Unhurried, well-dressed, taking notes. Bidding just enough on hulls they don't want to move the prices, or simply watching and being seen watching.
+An agent of Aeris is at the yard. Unhurried, well-dressed, taking notes. Bidding just enough on hulls they don't want to move the prices, or simply watching and being seen watching.
 
-They are not hostile. They are **pleasant**, they know [THE PC]'s name, they ask after his health, and they mention that [SECOND] sends his regards and is delighted about the venture. Everything they say is a courtesy and none of it is.
+They are not hostile. They are **pleasant**, they know Aerion's name, they ask after his health, and they mention that Aeris sends his regards and is delighted about the venture. Everything they say is a courtesy and none of it is.
 
 **What this establishes:** the Trial is live from hour one, the brothers are real, and someone is already reporting on them.
 
@@ -260,7 +262,7 @@ They are not hostile. They are **pleasant**, they know [THE PC]'s name, they ask
 
 Mid-purchase, unannounced, a woman in her late fifties walks onto the lot with a duffel and a dented tin mug and introduces herself as their captain.
 
-They did not hire her. [THE FATHER] did, as a condition of the money, and the paperwork was filed a week ago.
+They did not hire her. Vaelros did, as a condition of the money, and the paperwork was filed a week ago.
 
 **Play her as immediately, quietly useful.** She is the only person in the yard who has actually done this. Ask her opinion and she gives a real one. Her opinions are correct. And her first substantive act should be **steering them gently off the Galleon**, which signals she's theirs long before they have any reason to think so.
 
@@ -272,9 +274,9 @@ Do not have her take over. She defers on the purchase itself. It is not her mone
 
 Buy the hull, roll or choose the **Signature Feature**, pick the style, and christen her.
 
-The yard's slogan is on the sign the entire session. If nobody bites, [THE UNCLE] or the Major can say it one more time at the right moment. If they take it, the ship is the ***Last Honest Deal*** and it is not ironic, it's a thesis. If they don't, it's theirs either way.
+The yard's slogan is on the sign the entire session. If nobody bites, Vaelren or the Major can say it one more time at the right moment. If they take it, the ship is the ***Last Honest Deal*** and it is not ironic, it's a thesis. If they don't, it's theirs either way.
 
-If they bought the Long Hauler, [WYSP] surfaces now. Estra finds them, looks at them for a moment, and decides without consulting anyone that they're staying.
+If they bought the Long Hauler, Wysp surfaces now. Estra finds them, looks at them for a moment, and decides without consulting anyone that they're staying.
 
 ---
 
