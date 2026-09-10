@@ -10,7 +10,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 # THE CREW (aboard)
 
-The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, plus **Flurry**. The blocks for Sable, Dr. Quill, Reeve, Morrow, and Wysp are kept further down under "Not Aboard," since they auditioned but were not hired and may join later.
+The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, plus **Flurry**.
 
 ## CAPTAIN ESTRA VANE
 *Medium humanoid (human), Fighter (Battle Master), Captain / Main Helmsman* · **CR 2** (450 XP)
@@ -70,37 +70,6 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ---
 
-## SABLE DUSKMANTLE — not aboard (world NPC / potential hire)
-*Medium humanoid (shadar-kai elf), gunner* · **CR 3** (700 XP)
-
-**AC** 15 (studded leather) · **HP** 58 (9d8 + 18) · **Speed** 30 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 12 (+1) | 18 (+4) | 14 (+2) | 11 (+0) | 13 (+1) | 10 (+0) |
-
-**Skills** Perception +3, Stealth +6, Survival +3
-**Senses** darkvision 60 ft., passive Perception 13 · **Languages** Common, Elvish, Gith
-
-***Fey Ancestry.*** Advantage against being charmed; magic can't put Sable to sleep.
-
-***Master Gunner.*** While Sable crews a ship weapon, that weapon gains **+2 to hit and scores a critical hit on a 19 or 20.** This is the single best reason to keep them alive.
-
-***Raider-Trained.*** Sable learned to fight from githyanki. Anyone with githyanki training who watches them fight recognizes it immediately, including Estra.
-
-**Actions**
-***Multiattack.*** Two attacks.
-***Shortsword.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 7 (1d6 + 4) piercing.
-***Heavy Crossbow.*** *Ranged:* +6 to hit, range 100/400. *Hit:* 9 (1d10 + 4) piercing.
-
-**Bonus Actions**
-***Blessing of the Raven Queen (1/Day).*** Teleport up to 30 feet to an unoccupied space they can see, gaining resistance to all damage until the start of their next turn.
-
-**Reactions**
-***Covering Fire.*** When an ally within 60 feet is attacked, Sable makes one ranged attack against the attacker. They will deny doing this on purpose.
-
----
-
 ## FINNICK "FINNY" GROLES
 *Small humanoid (halfling), Rogue (Thief), Rigger / Deckhand / backup Gunner* · **CR 1** (200 XP)
 
@@ -130,58 +99,6 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 **Reactions**
 ***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny shouts something so irrelevant that the attacker has disadvantage on the roll.
-
----
-
-## DR. QUILL ASHWORTH — not aboard (world NPC / potential hire)
-*Medium humanoid (human), surgeon* · **CR 1/2** (100 XP)
-
-**AC** 12 · **HP** 22 (5d8) · **Speed** 30 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 10 (+0) | 14 (+2) | 10 (+0) | 16 (+3) | 16 (+3) | 10 (+0) |
-
-**Skills** **Medicine +9** (expertise), Investigation +5, Perception +5; herbalism kit +5
-**Senses** passive Perception 15 · **Languages** Common, two academic tongues
-
-***No Magic Whatsoever.*** Everything Quill does is training, supplies, and nerve. He finds the distinction important and mentions it often.
-
-***The Right Kit (1/Day).*** Quill has, against all reasonable odds, prepared exactly the correct supplies for the current situation. What that means is the DM's call and it should be specific and slightly absurd.
-
-**Actions**
-***Scalpel.*** *Melee:* +4 to hit, reach 5 ft. *Hit:* 4 (1d4 + 2) piercing. He hates this.
-
-***Field Surgery (3/Day).*** One creature within 5 feet regains **2d8 + 3 hit points.**
-
-**Bonus Actions**
-***Stabilize.*** A dying creature within 5 feet becomes stable. No roll. He does not miss this.
-
----
-
-## REEVE — not aboard (world NPC / potential hire)
-*Medium ooze (plasmoid), lookout* · **CR 1** (200 XP)
-
-**AC** 14 · **HP** 45 (7d8 + 14) · **Speed** 30 ft., climb 30 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 14 (+2) | 14 (+2) | 14 (+2) | 12 (+1) | 18 (+4) | 8 (−1) |
-
-**Skills** **Perception +8** (expertise), Insight +6, Stealth +4
-**Damage Resistances** acid, poison · **Condition Immunities** prone
-**Senses** darkvision 60 ft., **passive Perception 22** · **Languages** Common
-
-***Amorphous.*** Reeve can squeeze through a space as narrow as 1 inch without squeezing rules, and can hold their breath for 1 hour.
-
-***Always Watching.*** Reeve cannot be surprised and has advantage on Wisdom (Perception) checks. If something is visible from the ship, Reeve has seen it.
-
-***Hull-Set.*** Reeve can flatten against any surface, gaining advantage on Stealth and becoming easy to overlook entirely. The crew will forget Reeve is in the room. Reeve prefers this.
-
-***Centuries.*** Reeve is far older than anyone aboard suspects and has advantage on checks to recall a ship, a port, a route, or a person from any point in the last three hundred years.
-
-**Actions**
-***Pseudopod.*** *Melee:* +4 to hit, reach 10 ft. *Hit:* 5 (1d6 + 2) bludgeoning.
 
 ---
 
@@ -242,58 +159,6 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 **Reactions**
 ***After You.*** When an ally within 5 feet is hit by an attack, Oz swaps places with them and takes the damage instead. He says "after you" while doing it.
-
----
-
-## MORROW — not aboard (world NPC / potential hire)
-*Medium humanoid (thri-kreen), rigger and second helm* · **CR 2** (450 XP)
-
-**AC** 15 (chitin) · **HP** 49 (9d8 + 9) · **Speed** 35 ft., climb 30 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 14 (+2) | 16 (+3) | 13 (+1) | 11 (+0) | 14 (+2) | 10 (+0) |
-
-**Skills** Athletics +4, Perception +4, Stealth +5, Survival +4
-**Senses** darkvision 60 ft., passive Perception 14 · **Languages** Common, Thri-kreen
-
-***Secondary Arms.*** Morrow has four arms. They can take **two object interactions per turn**, and can **operate two ship stations simultaneously** — rigging and a ballista, the helm and a chart, whatever the moment needs. This is the most quietly valuable ability on the ship.
-
-***Sleepless.*** Morrow doesn't sleep. Four hours of light activity counts as a long rest, which means Morrow is awake for every night watch and has seen things nobody discusses at breakfast.
-
-***Chameleon Carapace.*** Morrow's carapace shifts color with mood and can be consciously controlled for camouflage, granting advantage on Stealth. Morrow finds the involuntary version deeply undignified and insists it is a medical condition.
-
-**Actions**
-***Multiattack.*** Two attacks.
-***Scimitar.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 6 (1d6 + 3) slashing.
-
----
-
-## WYSP — not aboard (world NPC / potential hire)
-*Medium humanoid (astral elf), runner* · **CR 1/4** (50 XP)
-
-**AC** 13 · **HP** 18 (4d8) · **Speed** 30 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 8 (−1) | 16 (+3) | 10 (+0) | 12 (+1) | 12 (+1) | 14 (+2) |
-
-**Skills** Acrobatics +5, Perception +3, Performance +4
-**Senses** darkvision 60 ft., passive Perception 13 · **Languages** Common, Elvish
-
-***Starlight Trinkets.*** Wysp knows the *light* and *dancing lights* cantrips. That is the entire extent of it.
-
-> ***Not Yet.*** **Wysp cannot attune to a spelljamming helm.** They have tried. They are learning, slowly, and they want this more than anything.
->
-> Note: the crew did not hire Wysp, so the ship's second-pilot answer is **Orena**, who is training on the helm now. If Wysp is ever brought aboard, they make a natural third pilot and a character the crew can raise into the chair.
-
-***Trance.*** Wysp doesn't sleep; four hours of meditation counts as a long rest.
-
-**Actions**
-***Shortsword.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 6 (1d6 + 3) piercing.
-
-**Bonus Actions**
-***Underfoot.*** Wysp can Dash as a bonus action. They are always already there.
 
 ---
 

@@ -110,7 +110,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `Story Spine.md` | **GM-only, full spoilers.** The current canonical overarching plot; wins over older plot docs where they conflict |
 | `Tier 1.md` | The beginning, mission by mission (levels 5-8), companion to `Contracts.md` |
 | `Arc Map.md` | **GM-only, full spoilers.** How the five running threads interleave from Tier 1 to the endgame, beginning to middle to end |
-| `Crew Roster.md` | The seven aboard, their roles, and who was not hired |
+| `Crew Roster.md` | The seven aboard and their roles |
 | `Flurry.md` | Aerion's silver dragon: her lunar heritage, GM-barometer role, and payoff |
 | `Captain Estra Vane.md` | The captain nobody chose |
 | `Plot Threads.md` | The Guttering, the Trial, the scattered crew, and what we cut |

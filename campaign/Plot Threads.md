@@ -110,8 +110,6 @@ A repeating signal from deep uncharted Wildspace. Ancient. Older than any known 
 | Oz | Honor vs. obedience; discharge shame | Giff mercenary company appears |
 | Estra | The Compact, the Broker, the rebuild | Everything |
 
-**Not aboard (world NPCs; these arcs activate only if they're hired later):** Sable (Favor #1 truth; githyanki bounty), Dr. Quill (clearing her name), Reeve (why they stay; centuries of lost crews), Wysp (true origin; the danger a parent foresaw), Morrow (enslaved clutch-mates).
-
 ---
 
 ## Future Sessions (Unscheduled)

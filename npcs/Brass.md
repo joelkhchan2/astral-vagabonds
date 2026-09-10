@@ -24,8 +24,6 @@ She has been mobile and off-book ever since. The napkins, the aliases, the guy a
 
 **Trigger (from Plot Threads):** a neogi ship is encountered, or a contact at a port recognizes her and the wrong people learn where she flies. The scene is the test: does she run to keep the crew clear, or does the crew refuse to let her? Found family, put on the scale.
 
-**A mirror, if you ever want one:** Dr. Quill Ashworth, the anxious over-prepared medic who auditioned at the Danforth yard and wasn't hired (`Crew Roster.md`), is carrying her own dormant thread, clearing her name after a whispered malpractice accusation. She kept the license and lost the reputation; Brass has the crew's trust and none of the paper. If Quill ever recurs as a rival, a contact, or a hire, that contrast plays itself, no new set-up required.
-
 ## The kindness under the angles
 Off the clock at 0300, in the galley, Brass never rolls the d4 and the food is always better. When someone can't sleep, she's already up, and she plates another portion and doesn't ask why they're awake. That is the truest thing about her: a woman who has to keep everyone at arm's length by daylight, feeding them quietly in the dark.
 

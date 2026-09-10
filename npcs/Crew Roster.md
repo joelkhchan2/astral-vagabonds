@@ -48,16 +48,6 @@ Giff (hippo-person), seven feet tall and large. Absurdly polite, soft-spoken, a 
 
 ---
 
-## Not Aboard -- World NPCs and Potential Future Hires
-
-These five auditioned at the Danforth yard and were **not hired**. They stay in the world and can be brought aboard later, met on a rival's deck, or recurred as contacts. None are current crew.
-
-- **Dr. Quill Ashworth** -- human medic, type-A, anxious, over-prepares for every disaster, terrible bedside manner but supposedly brilliant. Rumor: lost her medical license after a malpractice accusation. (Her medic slot went to Brass.)
-- **Sable Duskmantle** -- shadar-kai (Shadowfell elf), grim, gallows humor, dead-pan to the point you cannot tell she is joking. Collects small trophies; keeps a jar of teeth though she is no dentist.
-- **Reeve** -- a sentient ooze, very quiet, wet, observational, speaks in few words if at all, eidetic memory, easily forgotten in a room and prefers it that way. Age unknown.
-- **Wysp** -- astral elf, young (equivalent of a teenager, ~30). Gives off the sense she ran away from home, though nobody has asked. Scrappy, earnest, eager to prove herself, does not always do the best job, always open to learn.
-- **Morrow** -- thri-kreen, four-armed insectoid humanoid, speaks in the third person, wears its opinions plainly, an excellent multitasker, very private and fiercely loyal.
-
 ---
 
 ## Crew Dynamics
