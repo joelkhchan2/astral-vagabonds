@@ -1,0 +1,64 @@
+# Episode -- BoyBoy McGee (drop-in, from the joke job board posting)
+
+> **Fires whenever someone takes the 20 gp cookie delivery** (`rules/Contracts.md`, Special). Reads as a throwaway gag on the board. Isn't one. This is the campaign's version of session 1's lesson, don't over-engineer a "safe" encounter assuming it stays safe, write the hot version so it's easy to reach for live. Tone stays PG and mostly funny even at its hardest point; the danger is real, the horror is not. **Recurring character, not a one-off**: BoyBoy is built to become a reluctant-respect rival, the underworld's answer to the Manifest Board rivals, so play this first meeting for a relationship's opening move, not a finished story.
+
+## The twist
+
+**BoyBoy McGee is a real person, and the name is not a joke to him, it's a weapon.** He's spent his whole life being underestimated because of it, so he built a whole method around that: post something too small and stupid to take seriously, see who shows up alone, and find out in five minutes what actually matters about a person, whether they're careful, whether they're capable, whether they're worth knowing. Most of the crews who answer this posting are exactly what the name promises: nothing. This time it isn't.
+
+## The Burnouts, and why they're doing this
+
+**They used to be a real charter crew, and they lost their ship.** The *Bottle Rocket*, a cheap little skiff, sat impounded at a Lowside yard after a bad string of contracts left the berth fees unpaid, the same kind of thin-margin spiral the *Night Fury*'s own crew lives one bad month away from. Nobody bought them out. Nobody had family money or an insurance payout waiting. They're too small-time to have ever charted on the Manifest Board, no charter means no legal work, no legal work means no money, and no money means the *Bottle Rocket* keeps sitting in impound accruing fees they fall further behind on every quarter.
+
+**So now they're the Burnouts**, a name that means exactly what it looks like from three different angles at once: a crew that burned out on their own venture, a rig that runs loud and smoky enough to leave scorch marks on a wall, and a bunch of people who ran out of road and stopped pretending otherwise. They run small, sharp jobs, of which the cookie posting is the cheapest and cruelest, testing marks for exactly the kind of crew that might be worth robbing properly, all of it going toward either the impound fee or a down payment on a hull that isn't theirs anymore.
+
+**This is the crew's own origin story, one uninsured break away from being true.** Play that resemblance for real weight if it ever comes up, don't state it outright, let the table notice.
+
+## Their signature: rocket backpacks
+
+**The Burnouts fight the way Lowside pickpockets already work Bral's gravity, just weaponized.** Each of them wears a battered personal thruster rig, cheap surplus gear, loud, a little smoky, entirely effective. In a fight they don't hold a line, they use short jet-bursts to reposition off walls and ceilings, hit from an angle nobody's watching, and peel away before a return swing lands. **Mechanically:** a Burnout thug can spend its move as a short flight (20 ft, any direction, including straight up a wall) instead of walking, which is what makes them read as unpredictable and fast rather than just numerous. It's also their weakness, the rigs are loud, smell like burnt fuel, and give a round's warning to anyone who knows to listen for the whine before the strike.
+
+## BoyBoy McGee
+
+**Small, on purpose.** Halfling-scale, easy to overlook in a room, which is the whole method twice over, the name undersells him and so does his height. The rocket rig erases the difference the instant it matters.
+
+**Surprisingly royal, and warm with it.** Real bearing, precise diction, a host's instinct that never got the memo about his actual circumstances. Not cold calculation like Aeris, not a performance, genuine hospitality from a man who's kept his manners as the one thing poverty couldn't take. **Voice tic:** apologizes for everything around him, mid-crisis included, "do forgive the state of the place, we don't get much company down here." **Physical tic:** finishes whatever food is in front of him before discussing anything, always, no exceptions, and today that's the cookies. **The one thing he keeps immaculate:** his rocket rig, polished, cared for, the single possession he refuses to let go to ruin. **Want:** the *Bottle Rocket* back, or something like her, and to be read correctly, just once, by someone who isn't fooled by the size and the name before they've met the man. Both of those are the whole engine of the scheme, and both are doors out of it.
+
+**Run him as a Veteran (CR 3)**, reflavored: rapier and a hand crossbow, calm, economical, genuinely capable of hurting someone who mistakes him for a punchline, plus his own rocket rig for the same mobility his crew has.
+
+## The rest of the Burnouts
+
+Not faceless muscle. **They're loyal because BoyBoy never once cut them loose when the *Bottle Rocket* went into impound**, when scattering and finding separate work would have been the easier, smarter move for everyone. That's the whole reason the crew holds together with nothing material to offer, and it's worth being genuinely likeable people, not mooks, even mid-fight.
+
+**The house style for their names:** a short, ordinary name hiding whole inside a longer, sillier word, the same joke as "Gary," short for Su**gary**, or "Cal," short for Verti**cal**. The nickname reads as a person's actual name right up until someone says the long version out loud.
+
+**"CAL," short for Vertical.** The *Bottle Rocket*'s former navigator and the crew's part-time engineer both, she's the one who keeps every thruster rig in the Burnouts running (including BoyBoy's) the same practiced way she used to keep a ship on course. Calls corrections and openings mid-fight out of pure habit, and shoots from range while she does it. The name fits a gravity-plane world before anyone even needs the long version. **Run her as a Spy (CR 1)**, reflavored, hand crossbow instead of the standard loadout, in place of one Thug.
+
+**"GARY," short for Sugary, and it's literal, not ironic.** He's the Burnouts' baker and their enforcer, genuinely sweet-natured and genuinely effective in a fight, a combination that disarms people faster than either one alone would. Bakes when he's nervous, which is often, and **he's the one who baked the tin of cookies used as bait for the posting itself**, so whoever answers the ad is, technically, about to eat something made with real care by the person who helped set the trap. Big, warm, hums while he works, and none of that makes him any less dangerous once it's actually time to be.
+
+**"KEN," short for Kraken.** A small, mild-looking **locathah** (fish-humanoid, gilled, wide pale eyes), the exact opposite of what the name promises, and the joke lands twice, once for the size, once for the species. He may have picked the nickname himself trying to sound tough, and it backfired into the funniest possible version of the truth. Genuinely a live wire in a fight, unpredictable in a way that reads as a little unhinged next to BoyBoy's total composure. Devoted to him specifically, for something small and real BoyBoy once did that neither of them talks about.
+
+**Run Gary and Ken as Thugs (CR 1/2 each)**, with Cal as the Spy above rounding out the three. Let their names and their loyalty to BoyBoy and each other come through even in the fight, banter, calling out for each other, not silent mooks going down in one hit.
+
+## The shape of the scene
+
+1. **The handoff.** A dead-end alley off Lowside, exactly as advertised. BoyBoy takes the tin, sits, and starts eating a cookie immediately, unhurried, while he looks the responder over. Small talk. He's genuinely curious who showed up.
+2. **The tell.** Somewhere in the conversation, the responder either reads the room (the alley has exactly one way out, there's old scorch-marks on the walls at odd heights that don't belong to any fire, and it's no longer as clear as it was when they walked in) or doesn't. This is a real Perception or Insight moment, not a forced reveal, let them notice on their own merits.
+3. **The fork.** How the responder handles being sized up decides everything:
+   - **Dismissive, scared, or trying to bluff past him** reads as exactly the nothing he expected. This is where it goes hostile, fast, and the fight is real: a Veteran and two Thugs, all mobile, against however many showed up, in a bad tactical spot, and it should feel genuinely dangerous for the first several rounds.
+   - **Calm, honest, or willing to actually talk to him as a person** gets a different reaction entirely. He respects being read correctly more than he wants a fight, and a responder who treats him like a man instead of a joke has a real shot at walking out with nothing worse than a strange story, possibly a contact worth having later.
+4. **The out, if it goes hot.** BoyBoy is a professional, not a maniac. If the fight turns clearly against his crew, or if reinforcements arrive (the rest of the crew, noticing someone's late), he calls it, pays a token "toll" for the trouble, and disengages rather than dying on this hill. This isn't a fight to the death on either side; it's a test that got expensive.
+
+## Why this works as "surprisingly tough"
+
+The whole joke of the posting is that nobody brings backup to a 20 gp cookie run. That's also exactly why it's dangerous: whoever answers it is likely to be alone, in a dead end, against a real threat they walked into expecting a punchline. Let the mismatch between the posting's absurdity and the fight's real stakes be the horror-comedy engine, the same one session 1 already proved this table responds to. Don't soften the Burnouts to make the joke land easier. The joke *is* that it doesn't.
+
+## Aftermath, and the recurring shape going forward
+
+**If it went hostile and the crew won:** BoyBoy remembers being beaten, specifically, by name. Not a grudge that wants blood, a rival who wants a rematch, on his terms, once he's better prepared. He'll surface again, always testing, sometimes with the whole crew of Burnouts, sometimes alone just to talk, and every appearance is a chance to measure how far the crew's come, the same way passing a rank on the Board used to be for Bex.
+
+**If it stayed civil:** the relationship starts a rung friendlier, but the underlying want (the ship, being taken seriously) doesn't go away just because nobody got hurt. He's a reluctant respect rival either way, the friction is the point, not a prelude to enmity.
+
+**A standing hook worth keeping live:** the crew will eventually be in a position, financially, to notice a small impound fee or a cheap hull sale that would let the Burnouts get the *Bottle Rocket* back, or close to it. Whether they ever do that on purpose, and what it does to BoyBoy to be handed the thing he's been stealing to earn, is a good scene to hold in reserve for whenever the table wants it.
+
+**Either way, the posting keeps running** on quieter rotations, testing the next hungry crew, right up until the day it doesn't need to anymore.
