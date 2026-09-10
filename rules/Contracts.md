@@ -14,7 +14,7 @@ Mechanics in `Rules & Systems.md`. Every contract states a **payout, duration in
 
 # PART 1: THE JOB BOARD
 
-Posted at the Charter Window. Rotate three or four at a time. Each has one complication and none of them is secretly the main plot, which is what makes them restful. Take-home is `payout − 630` before repairs.
+Posted at the Charter Window. **Rotate ten at a time**, enough for a real choice without turning the board into homework. Each has one complication and none of them is secretly the main plot, which is what makes them restful. Take-home is `payout − 630` before repairs. One slot most rotations goes to something not worth taking seriously, see **BoyBoy McGee**, Special, below, since a real Charter Window has trash on it too and reading the board critically is its own skill.
 
 **Side-gold (house rule):** every destination carries one honest extra earner beyond the fee, roughly 100-400 gp, so a clever crew clears more than the sheet says: a salvage, a brokered deal, a bounty, a bet, a favour called in. Kept small so the money reality holds. The fantastical settlements and their side-gold are fleshed in `locations/Worlds & Places.md` and the session-1 companion.
 
@@ -97,6 +97,16 @@ A Nightbreeze factor needs documents delivered by hand to four separate addresse
 A family relocating from the Chain to the Verge, plus everything they own. *Complication:* they are moving because they can't afford the Chain any more, the Verge is worse than they've been told, and the crew will know it by day three. **Nineteen people aboard eats air noticeably faster.** **Qualifier:** none, but 15 of the *Night Fury*'s 20 cargo tons is a real capacity squeeze, worth a line where Aerion actually checks the hold numbers before agreeing.
 
 ### Special
+
+**Deliver Cookies to BoyBoy McGee** · 20 gp · same day · negligible
+A scrap of paper pinned crooked to the Charter Window, not filed through Meech, not stamped, not anything: *"Wanted, one (1) crew to carry a tin of cookies to BoyBoy McGee, Lowside, urgent, will pay 20 gold on arrival."* The address is a two-minute walk from the berth. The pay is less than a round of drinks. **Qualifiers (both hard, and both the joke):** no tonnage to speak of and no real distance, this "contract" is less travel than walking to the Compass Rose, and the payout doesn't clear the ink it was written in. Nobody who could afford a real courier posts like this.
+
+*What it actually is:* **BoyBoy McGee is real, and the ridiculous name is the whole trick.** He runs a small, genuinely competent information and leverage outfit out of Lowside, and this posting is how he finds out, cheaply, who's careless enough to walk into a dead-end alley alone for 20 gold and who isn't. Most crews are exactly what the name promises. **This one might not be, and he has no way to know that going in.** Not a comic mismatch, a real one: whoever answers this alone is genuinely at risk, and how they handle being read decides whether it turns into a fight or a contact. Full encounter, his crew, and the branches: `sessions/Episode - BoyBoy McGee.md`.
+
+**Wanted: Discretion** · fee negotiable · wherever the Show is stopping
+A posting that doesn't say what it actually is any more than the cookie job does: *"A client with an interest in the outcome of the International Space Dog Show seeks a capable, close-mouthed crew to ensure, by any means necessary, that a certain entrant does not place this year. Discretion paid at a premium."* **Qualifier:** none printed, the client is choosing this crew for being unranked and forgettable, not for anything they've proven.
+
+*What it actually is:* the client is **Verity Gilt**, a show veteran three seasons deep into a winning streak she's terrified of losing, and "any means necessary" means judge bribes, misfiled paperwork, and petty rumour-mongering, not anything that touches an animal. Played for pure comedy, never real danger. **The gag, if the crew's own entrant is in the running:** she has no idea whose dog she's hiring them to sabotage. Full posting, her characterization, and the reveal: `sessions/Episode - The International Space Dog Show.md`.
 
 **Secrets for Secrets** · fee negotiable · out past the Verge
 A client hires the crew to carry a *question* to the thing that trades in secrets, because they dare not ask it themselves. Out past the settled lanes lives a **berbalang** (`references/Astral Sea Bestiary.md`, seeded in `Tier 1.md`): a lonely, amoral collector of knowledge that answers one truth for one truth and always knows a lie. *Complication:* it will not take the client's coin, only a secret, and the client's sealed question is not the whole price. To get the answer out, someone aboard has to spend a real secret of their own. Whose? *Spotlight:* the whole table, and the campaign's "knowledge as currency, silence as power" theme. Once they've met it, the bit runs itself. **Qualifier (crew, the entire premise of the job):** no rank, no reference, no bond means anything to a berbalang. The only thing that gets this job done is a crew member willing to actually give something up. Fee is negotiable because the real cost was never gold.
