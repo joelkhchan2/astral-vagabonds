@@ -30,13 +30,15 @@
 
 Not faceless muscle. **They're loyal because BoyBoy never once cut them loose when the *Bottle Rocket* went into impound**, when scattering and finding separate work would have been the easier, smarter move for everyone. That's the whole reason the crew holds together with nothing material to offer, and it's worth being genuinely likeable people, not mooks, even mid-fight.
 
-**PERPETUA "PERCY" VOSS.** The *Bottle Rocket*'s former navigator, and the crew's real name among the nicknames. Can't stop being a professional even now, calls out flight corrections mid-ambush purely out of habit ("that's a twelve-degree miss, try again"), and is quietly the best shot of the three.
+**The house style for their names:** an ordinary-sounding nickname that turns out to be short for something specific, technical, and slightly absurd, the same joke as "Norm," short for Normalize, or "Connie," short for Convenience Store. Nobody who meets them clocks it until they hear the long version.
 
-**"KNUCKLES" FENN.** A deeply silly nickname for the gentlest person in the crew. Genuinely bad in a fight, everyone knows it, they protect him anyway, because he's the one who keeps every rig in the Jetsam running, including BoyBoy's. If the crew ever wants a way into this group that isn't through violence, Knuckles is it.
+**"TRUDY," short for Trajectory.** The *Bottle Rocket*'s former navigator, and the reason the Jetsam's ambushes actually land, she calls corrections and openings mid-fight the way she used to call headings, and shoots from range while she does it. **Run her as a Spy (CR 1)**, reflavored, hand crossbow instead of the standard loadout, in place of one Thug.
 
-**GRUBB.** One name, sounds like a joke until you learn it's short for *Grubstake*, an old spacer term for the loan that gets a venture started, which is what his parents hoped he'd be for the family. Quiet, the muscle, and fiercely loyal to BoyBoy specifically for something small and real BoyBoy once did for him that neither of them talks about.
+**"GARY," short for Gargantuan.** A genuinely huge presence, and nothing at all like Oz. Where Oz is disciplined, formal, a soldier through and through, Gary is soft-spoken, easily flustered, keeps a bucket of scavenged plants he waters between jobs, and has to be talked into every fight he's ever been in. He ended up muscle because of his size, not his temperament, and it shows. The crew's best chance at a non-violent way through the Jetsam runs straight through Gary, he doesn't want this any more than a smart responder should want it from him.
 
-**Run the crew as Two to three Thugs (CR 1/2 each)**, real fighters, not comic relief, positioned to block the alley's one exit and its walls and ceiling before anyone notices they've done it, but let their names and their loyalty to BoyBoy and each other come through even in the fight, banter, calling out for each other, not silent mooks going down in one hit.
+**GRUBB**, still short for *Grubstake*, the old spacer term for the loan that starts a venture, which is what his parents hoped he'd be for the family. Small, wiry, and genuinely a live wire in a fight, unpredictable in a way that reads as a little unhinged next to BoyBoy's total composure. Devoted to him specifically, for something small and real BoyBoy once did that neither of them talks about, and all of whatever intensity was supposed to go toward saving the family landed on that loyalty instead.
+
+**Run Gary and Grubb as Thugs (CR 1/2 each)**, with Trudy as the Spy above rounding out the three. Let their names and their loyalty to BoyBoy and each other come through even in the fight, banter, calling out for each other, not silent mooks going down in one hit.
 
 ## The shape of the scene
 
