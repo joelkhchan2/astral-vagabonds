@@ -20,9 +20,23 @@
 
 ## BoyBoy McGee
 
-**Voice tic:** unnervingly, courtly polite, the register of a man who has never once needed to threaten anyone loudly. **Physical tic:** he finishes whatever food is in front of him before discussing business, always, no exceptions, and today that's the cookies. **Want:** the *Bottle Rocket* back, or something like her, and to be read correctly, just once, by someone who isn't fooled by the name before they've met the man. Both of those are the whole engine of the scheme, and both are doors out of it.
+**Small, on purpose.** Halfling-scale, easy to overlook in a room, which is the whole method twice over, the name undersells him and so does his height. The rocket rig erases the difference the instant it matters.
 
-**Run him as a Veteran (CR 3)**, reflavored: rapier and a hand crossbow, calm, economical, genuinely capable of hurting someone who mistakes him for a punchline, plus his own rocket rig for the same mobility his crew has. **Two to three Thugs (CR 1/2 each)** round out the Jetsam, real fighters, not comic relief, positioned to block the alley's one exit and its walls and ceiling before anyone notices they've done it.
+**Surprisingly royal, and warm with it.** Real bearing, precise diction, a host's instinct that never got the memo about his actual circumstances. Not cold calculation like Aeris, not a performance, genuine hospitality from a man who's kept his manners as the one thing poverty couldn't take. **Voice tic:** apologizes for everything around him, mid-crisis included, "do forgive the state of the place, we don't get much company down here." **Physical tic:** finishes whatever food is in front of him before discussing anything, always, no exceptions, and today that's the cookies. **The one thing he keeps immaculate:** his rocket rig, polished, cared for, the single possession he refuses to let go to ruin. **Want:** the *Bottle Rocket* back, or something like her, and to be read correctly, just once, by someone who isn't fooled by the size and the name before they've met the man. Both of those are the whole engine of the scheme, and both are doors out of it.
+
+**Run him as a Veteran (CR 3)**, reflavored: rapier and a hand crossbow, calm, economical, genuinely capable of hurting someone who mistakes him for a punchline, plus his own rocket rig for the same mobility his crew has.
+
+## The rest of the Jetsam
+
+Not faceless muscle. **They're loyal because BoyBoy never once cut them loose when the *Bottle Rocket* went into impound**, when scattering and finding separate work would have been the easier, smarter move for everyone. That's the whole reason the crew holds together with nothing material to offer, and it's worth being genuinely likeable people, not mooks, even mid-fight.
+
+**PERPETUA "PERCY" VOSS.** The *Bottle Rocket*'s former navigator, and the crew's real name among the nicknames. Can't stop being a professional even now, calls out flight corrections mid-ambush purely out of habit ("that's a twelve-degree miss, try again"), and is quietly the best shot of the three.
+
+**"KNUCKLES" FENN.** A deeply silly nickname for the gentlest person in the crew. Genuinely bad in a fight, everyone knows it, they protect him anyway, because he's the one who keeps every rig in the Jetsam running, including BoyBoy's. If the crew ever wants a way into this group that isn't through violence, Knuckles is it.
+
+**GRUBB.** One name, sounds like a joke until you learn it's short for *Grubstake*, an old spacer term for the loan that gets a venture started, which is what his parents hoped he'd be for the family. Quiet, the muscle, and fiercely loyal to BoyBoy specifically for something small and real BoyBoy once did for him that neither of them talks about.
+
+**Run the crew as Two to three Thugs (CR 1/2 each)**, real fighters, not comic relief, positioned to block the alley's one exit and its walls and ceiling before anyone notices they've done it, but let their names and their loyalty to BoyBoy and each other come through even in the fight, banter, calling out for each other, not silent mooks going down in one hit.
 
 ## The shape of the scene
 
