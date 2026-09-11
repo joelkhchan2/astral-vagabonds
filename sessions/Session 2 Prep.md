@@ -29,20 +29,32 @@ Working doc, not a script. Session 1 ran hot and ended heavy (a real ambush, a b
 
 ---
 
-## 2. Orena and Estra: the Shine
+## 2. Orena and Estra: what the sky just did
 
-Orena caught a current dying on watch. This is Estra's scene to receive that and explain what actually happened, not as an infodump, but as a captain who has watched this exact thing happen before and never quite made peace with it.
+Orena caught a current dying on watch. This is Estra's scene to receive that, not as an infodump, a captain who has watched this exact thing happen before and never quite made peace with it. **Simplified per `campaign/Story Spine.md`:** one mechanic, not a chain of them. Estra explains the *what*, never the *why*, that stays locked for Tier 2, and it's locked because Estra herself never fully learned it either. Her crews had the art of following the living roads, not the science of why they moved. Play her as certain about what she saw and honestly unsure about what caused it.
 
-**Trigger it naturally**: Orena still turning the image over, maybe can't sleep, finds Estra on the helm or over solitaire.
+**Trigger it naturally.** Orena still turning the image over, maybe can't sleep, finds Estra where she always is at this hour: the helm room, one lamp lit, a hand of solitaire going nowhere, the dented tin mug long since gone cold. She doesn't look up right away. She already knows why Orena's here.
 
-**What Estra actually explains, hers to deliver, not read aloud:**
-- The system's fine. Nothing died there. What Orena watched die was the road, the Tide's own glow along the current that led to it, "the Shine," same word old spacers have used for it longer than the fancy new one.
-- There's no fallback. No fixed stars to shoot a bearing off out here, nothing to dead-reckon with. Lose the glow, lose the only way anyone's ever had of finding that place again.
-- **She's seen it before.** More than once. She doesn't say how many. She doesn't say what it cost her.
+**Staging.** Keep it small and quiet, this is the whole scene: two people, one lamp, the hum of the ship, cards clicking down one at a time while Estra talks around the thing before she talks about it.
 
-**A line for her, roughly:** *"Systems don't die, Orena. Roads do. The sun's probably still coming up over there right now, same as always, and not one soul down there knows we just watched their whole world go quiet from a thousand miles off. That's the part that never sits right. Nothing ends. It just stops being findable."*
+**The conversation, broken into real beats, not one speech:**
+1. **She lets Orena describe it first.** Doesn't rush to explain, asks what she saw, exactly, in her own words. Estra confirms it rather than narrates it: yes, that's what it looks like. This is a captain drawing out a witness, not delivering a lecture.
+2. **The system is fine.** First thing she settles, because it's the thing that will eat at Orena worst if left open: nobody died there. Whatever world was on the other end of that light is having an ordinary day right now, sun up, people going about it, none of them touched.
+3. **What actually went dark was the road.** Not the star, the current, the living glow that ran along it, the same light every ship out here steers by because there's nothing else to steer by. No fixed stars to shoot a bearing off, no dead reckoning, no backup method. Lose that glow and there was never a second way of finding the place again.
+4. **She's seen it before.** More than once. She doesn't say how many, doesn't say where, doesn't say what it cost her. Let the silence after this line do the work.
 
-**Hand it back to Orena.** Let her ask the next question rather than getting the whole picture from Estra in one go, what happens to anyone caught inside when it goes, whether it's ever come back, whether Estra's ever lost anyone to it. That last one is the door to Estra's own history; open it exactly as far as Gabrielle wants to push, and no further tonight. This is subtext-only per `campaign/Tier 1.md` thread D, a chill, not an answer.
+**A line for her, roughly:** *"Systems don't die, Orena. Roads do. Somebody's sun is still coming up over there right now, same as always, and not one soul on the ground knows we just watched their whole world go quiet from a thousand miles off. That's the part that never sits right. Nothing ends. It just stops being findable."*
+
+**Hand it back to Orena.** Let her ask the next question rather than getting the whole picture in one go: what happens to anyone caught inside when it goes, whether it's ever come back, whether Estra's ever lost anyone to it. That last one is the door to Estra's own history; open it exactly as far as Gabrielle wants to push, and no further tonight. Subtext-only per `campaign/Tier 1.md` thread D, a chill, not an answer. If Orena asks *why* it happens, Estra can honestly say she doesn't know, only that it's happened enough times that she's stopped believing it's chance. That admission of not-knowing is itself the seed for Tier 2, not a dodge.
+
+**What this scene covers, at a glance:**
+- Confirms Orena's sighting was real and gives it a name without over-explaining the mechanism (the cause stays locked for Tier 2).
+- Establishes the core, table-facing rule of the Guttering: a guttered system is alive and intact, only unreachable, "cut off, not killed."
+- Establishes why there's no workaround: no fixed stars, no dead reckoning, the living current was the only method there ever was.
+- Plants that Estra has personal history with this, repeated, unspecified, and clearly still unresolved in her, without cashing in any of it yet.
+- Models the DM's information policy for the whole arc: Estra knows the symptoms cold and does not know the cause, so nothing she says here can accidentally give away the cascade.
+- Gives Gabrielle a real choice about how far to push Estra's history, rather than a scripted reveal.
+- Functions as a quiet, two-hander character scene between beats 1 and 3, correct pacing for a session that's counterweighting toward warmth after session 1 ran hot.
 
 ---
 
