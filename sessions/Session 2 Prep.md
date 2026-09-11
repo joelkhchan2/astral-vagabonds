@@ -71,7 +71,7 @@ Three linked beats, not three separate scenes, they can flow into each other ove
 
 **A quiet one with Tack.** He saved the old ship's tattered flag and reattached it here; give Aerion a scene actually helping Tack with post-fight repairs, hull patching, a scorched line resecured, something with his hands. Tack is oblivious to social cues and will say something devastatingly earnest mid-task ("she held. She always holds. I don't know what I'd do if she didn't hold") that lands harder for not being aimed at anyone. Let Aerion just be present for it rather than having to say something back.
 
-**Flurry, one on one.** The found-family thesis in miniature. She's still rattled from the fight (see the cold open). Give Priscilla a quiet scene, no audience, where the "purely practical" mask can slip exactly as much as she wants it to. This is the intimate counterpart to the ensemble gag in the cold open, don't front-load it there.
+**Flurry, the private follow-through, not a second ask.** The cold open already spent the public version of this beat, the paw held up in front of everyone, whatever Aerion chose to do about it. Don't re-run that. This scene is what happens once it's just the two of them, the actual tending to the paw (or the actual conversation about why he didn't), no audience left to perform "purely practical" for. Give Priscilla a quiet moment to take it exactly as far as she wants, entirely shaped by how the public beat landed, the private half of one beat, not a new one.
 
 ---
 
