@@ -187,6 +187,41 @@ Roll or pick. Everything here is ours except where a published creature is named
 
 Their accounts of the loss will contradict each other. That is the mystery, and it assembles from testimony rather than from a dungeon.
 
+---
+
+# 8. COMMON MAGIC ITEMS (Storehouse stock -- pick, don't roll)
+
+**[Reconstructed from memory, cross-check against Xanathar's Guide to Everything's common items table before it hits the table.]** Genuine common-rarity items, small and no-DC, meant as a pick-list for a player outfitting the ship's shared stock, not a random table. Good fit for Aerion's Storehouse pass, "what's already in here, and what do we add." No attunement on any of these unless noted.
+
+| Item | What it does |
+|---|---|
+| **Bag of Beans** | A dozen dried beans. Bury one, wait a day, get a random and sometimes very strange effect. Crew-comedy gold. |
+| **Boots of False Tracks** | Leaves the tracks of a different creature entirely. Useful for a crew that gets chased. |
+| **Cloak of Billowing** | An action makes it billow dramatically. Pure theater. Aerion would never admit to owning one and definitely does. |
+| **Clockwork Amulet** | Once per day, spend an action to wind it; it can later cast *Alarm* for you. |
+| **Ear Horn of Hearing** | Advantage on Wisdom (Perception) checks that rely on hearing while worn. |
+| **Enduring Spellbook** | An ordinary spellbook, immune to fire and water damage. Cheap insurance for a caster. |
+| **Gloves of Thievery** | +5 bonus to Dexterity (Sleight of Hand) checks and to Thieves' Tools checks while worn. |
+| **Heward's Handy Spice Pouch** | Never runs out. Can flavor up to five stale or bland meals a day to taste of whatever the crew most wants. **Very Brass, dangerous in the wrong hands, hilarious in hers.** |
+| **Horn of Silent Alarm** | Set it to a location; if anyone enters that area, you feel a mental alarm up to 600 ft away. |
+| **Instrument of Illusions** | A performance instrument. While playing, can produce a *minor illusion*-scale effect as part of the performance. |
+| **Lock of Trickery** | A padlock, DC 15 to pick. Anyone without thieves' tools proficiency who tries anyway does so with advantage. |
+| **Magic Chalk** | Writes in any of ten colors and can't be erased by anyone but the writer. **Aerion's ledger, but on a hull.** |
+| **Mariner's Armor** | Light or medium armor that lets the wearer breathe underwater and swim at their normal walking speed. |
+| **Mystery Key** | Opens one particular lock, somewhere in the multiverse. Nobody knows which. Worth keeping just to find out someday. |
+| **Orb of Direction** | Always knows which way is north (or "spaceward," reflavored) and roughly how deep underground/off a gravity plane it is. |
+| **Orb of Time** | Always knows the current time. Nearly useless out here, and Estra keeps one on her desk anyway. |
+| **Perfume of Bewitching** | Wear it: advantage on the next Charisma (Persuasion) check made within the hour, once per day. |
+| **Pole of Angling** | A fishing pole. Advantage on checks to catch something with it, and it can tell if anything edible is within 1 mile of water (or Tide). |
+| **Pot of Awakening** | Grow a Tiny or smaller plant in it for a year and a day, tending it daily, and it becomes eligible for the *Awaken* spell. A slow-burn hook, not a quick pick. |
+| **Rope of Mending** | 5 feet of this rope laid across a break in a larger rope repairs it seamlessly. |
+| **Spell Scroll (cantrip)** | A scroll of any one cantrip. Cheap, useful, unglamorous. |
+| **Talking Doll** | Squeeze it: says one of a handful of set phrases in a squeaky voice. **Sprat would absolutely try to sell this as something else.** |
+| **Unbreakable Arrow (or Bolt)** | A piece of magic ammunition that can't break and, if retrieved within a day, reappears in its quiver. |
+| **Wind-Up Toy** | A tiny clockwork animal that performs one simple trick when wound. **Flurry's, unambiguously, the day it arrives.** |
+
+**Suggested use, this session:** Aerion's player picks **three** for the crew's shared Storehouse stock, paid for out of the account like any other supply purchase (treat as a modest one-time cost, 50-150 gp each, reasonable for common rarity). He can also name something not on this list; adjudicate it live and add it here afterward if it's good enough to keep.
+
 **Result 8 is a late-campaign card.** Do not play it early.
 
 ---
