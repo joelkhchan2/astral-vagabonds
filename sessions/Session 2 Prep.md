@@ -31,7 +31,9 @@ Working doc, not a script. Session 1 ran hot and ended heavy (a real ambush, a b
 
 ## 2. Orena and Estra: what the sky just did
 
-Orena caught a current dying on watch. This is Estra's scene to receive that, not as an infodump, a captain who has watched this exact thing happen before and never quite made peace with it. **Simplified per `campaign/Story Spine.md`:** one mechanic, not a chain of them. Estra explains the *what*, never the *why*, that stays locked for Tier 2, and it's locked because Estra herself never fully learned it either. Her crews had the art of following the living roads, not the science of why they moved. Play her as certain about what she saw and honestly unsure about what caused it.
+Orena caught a current dying on watch. This is Estra's scene to receive that, not as an infodump. **Simplified per `campaign/Story Spine.md`:** one mechanic, not a chain of them. Estra explains the *what*, never the *why*, that stays locked for Tier 2, and it's locked because Estra herself never fully learned it either. Her crews had the art of following the living roads, not the science of why they moved. Play her as certain about what she saw and honestly unsure about what caused it.
+
+**Play this reaction differently than session 1's.** The void scavver got Estra visceral and badly shaken, a wound touched by accident. Don't run the same shape twice. This time she's brisk, almost bored, treating a dead route as routine occupational math rather than a fresh nerve. The dismissal itself is the tell, a captain this good doesn't get that clinical about something that costs her nothing.
 
 **Trigger it naturally.** Orena still turning the image over, maybe can't sleep, finds Estra where she always is at this hour: the helm room, one lamp lit, a hand of solitaire going nowhere, the dented tin mug long since gone cold. She doesn't look up right away. She already knows why Orena's here.
 
@@ -41,19 +43,22 @@ Orena caught a current dying on watch. This is Estra's scene to receive that, no
 1. **She lets Orena describe it first.** Doesn't rush to explain, asks what she saw, exactly, in her own words. Estra confirms it rather than narrates it: yes, that's what it looks like. This is a captain drawing out a witness, not delivering a lecture.
 2. **The system is fine.** First thing she settles, because it's the thing that will eat at Orena worst if left open: nobody died there. Whatever world was on the other end of that light is having an ordinary day right now, sun up, people going about it, none of them touched.
 3. **What actually went dark was the road.** Not the star, the current, the living glow that ran along it, the same light every ship out here steers by because there's nothing else to steer by. No fixed stars to shoot a bearing off, no dead reckoning, no backup method. Lose that glow and there was never a second way of finding the place again.
-4. **She's seen it before.** More than once. She doesn't say how many, doesn't say where, doesn't say what it cost her. Let the silence after this line do the work.
+4. **She closes it, not opens it.** Flat, closer to a foreman clocking a broken part than a captain confessing anything: this happens, it's not the first route she's watched drop off a chart, it won't be the last. No vague hint dangled, no "more than once, and I won't say how many," she's not giving Orena a second grief to carry tonight on top of her own. **The one crack, and it's non-verbal.** She's mid-hand of solitaire when Orena found her; she never finishes it, sweeps the cards before the game resolves, says she's turning in. She never leaves a hand unfinished. Gabrielle can clock that or not, nothing needs to be said about it either way.
 
-**A line for her, roughly:** *"Systems don't die, Orena. Roads do. Somebody's sun is still coming up over there right now, same as always, and not one soul on the ground knows we just watched their whole world go quiet from a thousand miles off. That's the part that never sits right. Nothing ends. It just stops being findable."*
+**A line for her, roughly, plain and clipped:** *"Systems don't die. Roads do. Somebody's sun is still coming up over there right now, same as always, and they've got no idea we just watched their whole world go quiet from a thousand miles off. Nothing ends out here. It just stops being findable."*
 
-**Hand it back to Orena.** Let her ask the next question rather than getting the whole picture in one go: what happens to anyone caught inside when it goes, whether it's ever come back, whether Estra's ever lost anyone to it. That last one is the door to Estra's own history; open it exactly as far as Gabrielle wants to push, and no further tonight. Subtext-only per `campaign/Tier 1.md` thread D, a chill, not an answer. If Orena asks *why* it happens, Estra can honestly say she doesn't know, only that it's happened enough times that she's stopped believing it's chance. That admission of not-knowing is itself the seed for Tier 2, not a dodge.
+**And when Orena tries to go further, the close:** *"It happens. Not the first route I've watched fall off a chart. Get some sleep, you're not going to think your way out of it tonight."*
+
+**Hand it back to Orena within the beats above**, not after them. She can push on the mechanics (what happens to anyone caught inside, whether it's ever come back) and get real answers; if she pushes on Estra personally, this is the night that door stays shut, on purpose, by a captain choosing not to hand her a second grief. Subtext-only per `campaign/Tier 1.md` thread D, still a chill, delivered as brisk competence this time instead of a hinted wound. If Orena asks *why* it happens, Estra can honestly say she doesn't know, only that it's happened often enough she's stopped calling it chance. That admission of not-knowing is itself the seed for Tier 2, not a dodge.
 
 **What this scene covers, at a glance:**
 - Confirms Orena's sighting was real and gives it a name without over-explaining the mechanism (the cause stays locked for Tier 2).
 - Establishes the core, table-facing rule of the Guttering: a guttered system is alive and intact, only unreachable, "cut off, not killed."
 - Establishes why there's no workaround: no fixed stars, no dead reckoning, the living current was the only method there ever was.
-- Plants that Estra has personal history with this, repeated, unspecified, and clearly still unresolved in her, without cashing in any of it yet.
+- Gives Estra a second, deliberately different reaction to a Guttering-adjacent event than session 1's scavver scene, brisk dismissal instead of visceral shock, so the "Estra has history with this" beat doesn't repeat itself in shape twice running.
+- Plants that history anyway, through one unexplained physical tell (the unfinished hand of solitaire) rather than a spoken hint, so nothing is cashed in yet and nothing feels reused.
 - Models the DM's information policy for the whole arc: Estra knows the symptoms cold and does not know the cause, so nothing she says here can accidentally give away the cascade.
-- Gives Gabrielle a real choice about how far to push Estra's history, rather than a scripted reveal.
+- Gives Gabrielle a real choice about how far to push, and a real, in-character reason (not a DM fiat) for why tonight isn't the night that door opens.
 - Functions as a quiet, two-hander character scene between beats 1 and 3, correct pacing for a session that's counterweighting toward warmth after session 1 ran hot.
 
 ---
