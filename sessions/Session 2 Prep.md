@@ -15,15 +15,17 @@ Working doc, not a script. Session 1 ran hot and ended heavy (a real ambush, a b
 
 ## 1. Cold open: the loot argument (comedic, warm)
 
-**Cuts hard against session 1's ending on purpose.** No mention of the star yet. Open minutes after the cut to black, adrenaline still up, and let the first thing that happens be completely mundane and very funny: **splitting the spoils from the Bex fight.**
+**Cuts hard against session 1's ending on purpose.** No mention of the star yet. Open on the burn back to Bral, the fight hours behind them now, adrenaline finally draining, and let the first thing that happens be completely mundane and very funny: **actually going through the spoils from the Bex fight**, spread out on a mess table or across a bunk, the oil of slipperiness, the potion of frost giant strength, the javelin of lightning, the 1,021 gp counted out in stacks.
 
-- **Aerion** already has the ledger out, trying to itemize an oil of slipperiness, a potion of frost giant strength, a javelin of lightning, and 1,021 gp while everyone's still catching their breath.
+- **Aerion** already has the ledger out, itemizing everything as it's handled, more a running commentary than a scene of his own.
 - **Finny** immediately claims "finder's fee" on something he didn't find.
 - **Brass** wants the potion "for medical reasons," transparently not medical reasons.
 - **Oz** presents the loot like a small ceremony, utterly sincere, which somehow settles the room faster than anyone arguing did.
-- **Flurry**, still keyed up from the fight she wasn't part of, inspects every crew member for injury in her own way (nudging, sniffing, one dramatic huff), and fixates on someone's minor scratch while ignoring an actual bruise on someone else. Played for one quick laugh, not a scene, the real Flurry beat comes later with Aerion.
+- **Flurry**, still keyed up from a fight she wasn't part of, works her way around the room checking everyone over in her own fashion (nudging, sniffing, one dramatic huff), fixating on someone's minor scratch while ignoring an actual bruise on someone else.
 
-**Land it on a punchline, then cut.** Something like Aerion finally saying "we are not naming the javelin," and someone immediately starting to name the javelin.
+**A beat in the middle, not the ending:** Aerion finally says something like "we are not naming the javelin," and someone immediately starts naming the javelin anyway.
+
+**Land it here instead.** Last in the scene, after the javelin joke has already had its laugh: Flurry finishes her rounds at Aerion and holds up one paw, plainly asking him to kiss it better. **She asks. What he does about it, in front of the whole crew, is entirely Priscilla's to play.** Whatever he does or doesn't do, cut right there, no joke stacked on top of it.
 
 ---
 
