@@ -66,6 +66,25 @@ The fix isn't choosing nature over industry, it's industry learning to move like
 
 ---
 
+## Downstream effects, so the world feels lived-in
+
+The cascade doesn't stop at "stars go dark." It has a face on every rung of the food chain and every layer of the economy that depends on it. None of this needs explaining to the players, it's a bench of details to reach for when a scene wants a body attached to the mechanic, not a checklist to run through.
+
+### On wildlife
+- **The small tier boils or starves with the water.** Space guppies filter-feed on astral dust, grazing the Tide at the smallest scale, and space eels hunt the guppy schools. A dying stretch of water thins the guppies first, then the eels, then anything further up. A ship crossing dead water should read as quiet in a way that's wrong, no guppy schools catching the light, no eels working a shoal, before anyone works out why.
+- **Scavvers are the visible symptom, already built for this.** Gray and brown scavvers gather wherever something died, a wreck, a stranded pod, a stretch of water gone bad. More of them than usual, somewhere that shouldn't have any, is the food chain's own warning light. Night scavvers move into a guttered region once its resident void scavver goes quiet or moves on, so a genuinely dangerous ambush predator turning up somewhere new is itself a sign the region's ecology just changed hands. No new creatures required, the existing tiers already double as evidence.
+- **Kindori pods stall unevenly, not politely.** A pod overgrazing a rich system gets crowded and short-tempered, calves born into a shrinking range, a pod noticeably bigger and hungrier than the old stories describe. Occasionally one strands, grazes its own pocket down to nothing and finds nowhere left to go, a rescue-shaped scene (see `Episode - Sparky the Behir.md` for the tone, scaled up).
+- **Symbiotic riders lose their ride.** Jammer leeches latch onto hulls and siphon magic; nothing stops one latching onto a becalmed kindori instead. A stalled pod picking up an infestation it wouldn't carry while migrating is a small, gross, very readable sign it's been stationary too long.
+
+### On people
+- **Frontier colonies lose the road before they lose anything else.** Hallow's Rest (`locations/Worlds & Places.md`) is the concrete case already in play: a colony doesn't go dark because its own resources fail, it goes dark because the route that used to reach it does. Nine hundred people don't relocate, they get harder to reach, then harder to help, then eventually unfindable if nobody's paying attention.
+- **A whole industry hunts the fix.** Whalers and the houses spent a century exterminating void scavvers for the hide, and that economy doesn't vanish just because the crew understands the cascade. Poachers and hide-traders are a live, morally uncomplicated antagonist for exactly this reason: they're not wrong that a scavver is dangerous, they're wrong about what killing one costs everyone else. The Trapline crew from `Episode - Sparky the Behir.md` already sits in this niche and can recur.
+- **Static infrastructure has its own workforce, and it won't go quietly.** Route Wardens, chart-brokers, toll agents, the whole apparatus of the fixed grid, have jobs and pensions riding on the highways staying put. The nomadic cure isn't just a science problem for the houses to deny, it's a livelihood threat for a lot of ordinary people who had nothing to do with the cull. Worth a face or two who aren't cartel villains, just people who correctly understand that "the sky needs to move" means their job doesn't exist anymore.
+- **Kindori are near-sacred, and that cuts both ways.** Spacer culture already reveres them (canon), which makes "the whales are the problem" a genuinely hard thing to say out loud once Tier 2 lands it. Not because it's false, because it sounds like blasphemy to the people who most need to hear it. A character or faction who reacts to the cascade's truth as heresy rather than science is good friction that needs no new villain, just an old belief colliding with new evidence.
+- **Salvage and whale-fall economies are the upside.** Not everything downstream is loss. A whale fall, or a newly guttered wreck field, is a boomtown to somebody, salvagers, small operators, crews exactly like the *Night Fury* one bad month from doing this for real. The same cascade that starves a colony feeds a scrapyard economy a system over. Keep both true at once.
+
+---
+
 ## The three acts (hopium structure)
 
 1. **Survive it (The Martian).** Tier 1 (levels 5-8). The symptoms. Routes fail, a port goes dark, a star gutters. The crew flies the dying edges and improvises through the wreckage without knowing why.

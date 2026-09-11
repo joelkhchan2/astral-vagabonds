@@ -1231,6 +1231,8 @@ Tiny nature-spirit bonded to a place, object, or spelljamming helm — chose the
 
 ## 10. Wildspace Fauna
 
+**Read this tier as one food web, not a species list.** Guppies filter-feed on the Tide itself, eels hunt the guppy schools, scavvers clean up and occasionally hunt further up, kindori graze and reseed the whole thing by migrating. A stretch of dying water shows up here before it shows up on any chart: guppy schools thin out, eels go quiet with them, and scavver activity (see below) spikes wherever something's died or stalled. See `campaign/Story Spine.md` ("Downstream effects") for how to use this at the table.
+
 ### Kindori **[Reconstructed]**
 *Boo's Astral Menagerie*
 Gargantuan celestial, unaligned
