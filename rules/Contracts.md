@@ -108,6 +108,16 @@ A posting that doesn't say what it actually is any more than the cookie job does
 
 *What it actually is:* the client is **Verity Gilt**, a show veteran three seasons deep into a winning streak she's terrified of losing, and "any means necessary" means judge bribes, misfiled paperwork, and petty rumour-mongering, not anything that touches an animal. Played for pure comedy, never real danger. **The gag, if the crew's own entrant is in the running:** she has no idea whose dog she's hiring them to sabotage. Full posting, her characterization, and the reveal: `sessions/Episode - The International Space Dog Show.md`.
 
+**Lost: Sparky, Very Good Girl** · 500 gp reward · same day · negligible
+Giant handwriting on a normal sheet of paper, folded down to fit: *"LOST: SPARKY, VERY GOOD GIRL, ANSWERS TO WHISTLE (TWO NOTES, HIGH THEN LOW). LAST SEEN NEAR THE BERTH. PLEASE DO NOT APPROACH IF SHE SEEMS FRIGHTENED, SHE ONLY SPARKS WHEN SCARED. REWARD: 500 GP."* **Qualifier:** none, five hundred gold is a fortune to this crew and pocket change to whoever posted it, which is the tell before anyone's even met the client.
+
+*What it actually is:* the client is a **storm giant trading crew**, and "Sparky" is their young pet behir, a lapdog to a family of giants and the biggest thing this crew has met all week. She's not the danger. A wild rival and a professional poaching outfit who found her first are. **Real fight, real stakes, Sparky herself never in danger on-screen.** Full encounter, the poachers, and the branches: `sessions/Episode - Sparky the Behir.md`.
+
+**Wanted: Lively Entertainer(s)** · pay generous · same day · negligible
+*"Wanted: lively entertainer(s) for a children's birthday, games and tricks preferred, pay generous, please arrive in costume."* Reads exactly like what it says. **Qualifier:** none, any crew bored or broke enough to take a kids' party gig is exactly who this posting is fishing for.
+
+*What it actually is:* two rival Board captains, co-hosting their kids' joint birthday out of necessity and love for their children alone, each secretly hired their own entertainment without telling the other. **The gag:** the crew arrives to find a rival troupe already there, and the resulting one-upmanship is the whole episode. Full posting, the clients, the rival crew: `sessions/Episode - Two Crews, One Cake.md`.
+
 **Secrets for Secrets** · fee negotiable · out past the Verge
 A client hires the crew to carry a *question* to the thing that trades in secrets, because they dare not ask it themselves. Out past the settled lanes lives a **berbalang** (`references/Astral Sea Bestiary.md`, seeded in `Tier 1.md`): a lonely, amoral collector of knowledge that answers one truth for one truth and always knows a lie. *Complication:* it will not take the client's coin, only a secret, and the client's sealed question is not the whole price. To get the answer out, someone aboard has to spend a real secret of their own. Whose? *Spotlight:* the whole table, and the campaign's "knowledge as currency, silence as power" theme. Once they've met it, the bit runs itself. **Qualifier (crew, the entire premise of the job):** no rank, no reference, no bond means anything to a berbalang. The only thing that gets this job done is a crew member willing to actually give something up. Fee is negotiable because the real cost was never gold.
 
