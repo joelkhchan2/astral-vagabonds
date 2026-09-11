@@ -29,5 +29,29 @@ Whatever else happens, end on Aerion. Whether Flurry places, panics, or simply r
 ## Adjustable knobs
 
 - **Standalone cold open or full half-session:** works as a five-minute scene between other business, or as the entire lightweight session if the table needs one.
-- **A running rival:** if you want continuity, give Flurry a recurring show rival, a perfectly-groomed creature owned by someone insufferable, for future years' installments.
+- **A running rival:** for continuity, Flurry now has one. See below.
 - **A soft plot hook, if you ever want one:** one of the judges or exhibitors is from a settlement the crew hasn't met yet, or recognizes a species/heritage marker on Flurry that raises a quiet question (never an answer) about her lunar blood. Entirely optional; the episode works with zero plot content at all.
+
+## The rival: Verity Gilt
+
+A recurring show veteran, the kind of person the Show exists for. Three consecutive category wins with her void-adapted mastiff, a wall of ribbons at home, and a genuine terror that this is the year the streak ends. **Voice tic:** talks about her own dog like a portfolio, "proven bloodline," "the grooming budget paid for itself again," warmth switched on and off for whoever's watching. **Physical tic:** straightens something on herself the instant she's rattled, a cuff, a pin, a stray hair, never the dog, always herself. **Want:** not the ribbon. To still be the one everyone else measures themselves against.
+
+**Her mastiff, Paragon.** Enormous, immaculate, void-black coat groomed to a shine, genuinely a good dog underneath the show polish. Not a villain, just an animal doing what he's trained to do, and part of the comedy is that Paragon and Flurry would probably get along fine if nobody's owner were involved.
+
+## The petty rival posting (job board twist, drop in whenever it fits)
+
+**A companion contract, not a replacement for the scene above.** Somewhere on the rotation, before or during a Show stop, a posting goes up that doesn't say what it actually is any more than BoyBoy's cookie job did.
+
+**"Wanted: Discretion."** No payout printed, negotiable in person. *"A client with an interest in the outcome of the International Space Dog Show seeks a capable, close-mouthed crew to ensure, by any means necessary, that a certain entrant does not place this year. Discretion paid at a premium."*
+
+**Verity Gilt is the client**, and she will not say the word sabotage out loud, not once, she calls it "levelling the field" and means every syllable of the euphemism. Meeting her is its own scene: gracious, precise, name-drops judges she's cultivated for years, and never quite explains why this particular entrant has her rattled enough to hire outside help for the first time in three seasons.
+
+**What "any means necessary" actually means at this table**, since nobody is hurting an animal to win a ribbon: bribing a judge, swapping Paragon's rival's show treats for something merely unflattering, starting a rumour about a competitor's grooming regimen, misfiling a rival's entry paperwork, staging a small, harmless mishap at exactly the wrong moment. Petty, funny, and completely beneath the dignity of everyone involved, which is the entire joke. **Keep it there.** This posting never gets a hard version the way BoyBoy's does; the whole bit is that the stakes are this small and everyone's still treating them like they're enormous.
+
+**The reveal, if Flurry's entered:** somewhere in the meeting, Verity produces a program, or a rumour, or a judge's shortlist, and the entrant she wants discouraged is **Flurry**. Let this land as its own beat, don't rush past it. She has no idea whose dragon she's asking the crew to sabotage; the posting went up before she ever learned the ship's name. That's the whole gag: a crew took a job to knock out their own dog.
+
+**Hand it to the table, don't resolve it for them.** Once the reveal lands, what happens is entirely theirs to decide, not a script: keep the fee and throw the whole thing on purpose, keep the fee and quietly do nothing, tell Verity exactly who Flurry belongs to and watch her recalibrate in real time, or turn the sabotage around on Paragon out of spite and then feel bad about it. Any of these is a good scene. None of them is yours to write in advance.
+
+**If Flurry isn't entered yet**, the posting still runs fine on its own, the client wants some other unlucky entrant discouraged and the crew gets a small, silly moral-hazard job with no personal stake. Bank it now, cash the Flurry version in whenever she's actually competing.
+
+**Aftermath:** however it lands, Verity remembers. A loss to underhanded means still stings, a refusal still earns a strange respect, and either way she's a standing rival now, worth a cameo at the next Show stop, sharper, better prepared, still absolutely certain she's the injured party.
