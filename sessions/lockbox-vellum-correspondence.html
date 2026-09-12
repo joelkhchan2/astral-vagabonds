@@ -1,0 +1,148 @@
+<title>Vellum Correspondence</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  :root {
+    --paper: #f2ebd8; --paper-deep: #e9dfc4; --ink: #251d11; --ink-soft: #5f5238; --faint: #8a7c5d;
+    --rule: #c7ba98; --rule-strong: #a89871; --seal: #8c3a22; --brass: #7d5f26; --pin: #7a3324;
+  }
+  * { box-sizing: border-box; }
+  html { background: #cabb99; }
+  body { margin: 0; padding: 26px 16px 70px; background: #cabb99; color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  .header { text-align: center; margin-bottom: 22px; }
+  .header .file { font-family: "Courier Prime", monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft);
+    background: var(--paper); border: 1px solid var(--rule-strong); display: inline-block; padding: 5px 14px; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .header h1 { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.5rem, 5vw, 2rem); letter-spacing: .03em; margin: 10px 0 2px; color: var(--ink); }
+  .header .sub { font-style: italic; color: var(--ink-soft); font-size: .95rem; }
+
+  .stack { display: flex; flex-direction: column; gap: 22px; }
+
+  .sheet { background: var(--paper); border: 1px solid var(--rule-strong); box-shadow: 0 3px 9px rgba(40,26,12,.28); position: relative; padding: 26px 28px 22px; }
+  .sheet::before { content: ""; position: absolute; inset: 8px; border: 1px solid var(--rule); pointer-events: none; }
+  .sheet.slip { background: var(--paper-deep); }
+
+  .crest { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px; }
+  .crest svg { width: 30px; height: 30px; flex: none; }
+  .crest .name { font-family: "IM Fell English SC", Georgia, serif; letter-spacing: .1em; font-size: 1rem; text-align: left; }
+  .crest .office { display: block; font-family: "Courier Prime", monospace; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+
+  .meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px 16px; font-family: "Courier Prime", monospace; font-size: 11px;
+    color: var(--ink-soft); border-top: 1px dashed var(--rule-strong); border-bottom: 1px dashed var(--rule-strong); padding: 7px 0; margin: 8px 0 16px; }
+  .meta b { color: var(--ink); font-weight: 700; }
+
+  .body p { margin: 0 0 12px; }
+  .body p:last-of-type { margin-bottom: 0; }
+
+  .sign { margin-top: 16px; text-align: right; font-style: italic; }
+  .sign .name { font-weight: 700; font-style: normal; display: block; }
+  .sign .title { font-family: "Courier Prime", monospace; font-style: normal; font-size: 11px; letter-spacing: .04em; color: var(--ink-soft); display: block; }
+
+  .stamp { position: absolute; font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
+    border: 1.5px solid var(--seal); color: var(--seal); padding: 3px 8px; transform: rotate(-6deg); border-radius: 2px; opacity: .85; }
+  .stamp.forwarded { top: 18px; right: 22px; }
+  .stamp.burn { border-color: var(--pin); color: var(--pin); bottom: 20px; left: 24px; transform: rotate(4deg); }
+
+  .clip { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 46px; height: 20px; }
+  .clip svg { width: 100%; height: 100%; filter: drop-shadow(0 2px 2px rgba(0,0,0,.35)); }
+
+  .caption { text-align: center; font-style: italic; color: var(--ink-soft); font-size: .92rem; margin: -6px 0 0; }
+
+  @media (max-width: 480px) {
+    .sheet { padding: 22px 18px 18px; }
+    .meta { flex-direction: column; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="header">
+    <span class="file">Archive File 147-C &middot; Amberwake, Withdrawn</span>
+    <h1>The Vellum Correspondence</h1>
+    <div class="sub">recovered from a sealed courier case, provenance unconfirmed</div>
+  </div>
+
+  <div class="stack">
+
+    <div class="sheet">
+      <div class="crest">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="none" stroke="#8c3a22" stroke-width="2"/><path d="M11 24 L20 12 L29 24" fill="none" stroke="#251d11" stroke-width="1.6"/><line x1="14" y1="24" x2="26" y2="24" stroke="#251d11" stroke-width="1.6"/></svg>
+        <div class="name">VELLUM HOUSE<span class="office">Office of the Archive, Sallow Chain</span></div>
+      </div>
+      <div class="meta">
+        <span><b>To:</b> Registrar I. Marsh, Archive Office</span>
+        <span><b>14th of Stormwane, RY 147</b></span>
+      </div>
+      <div class="body">
+        <p>Registrar Marsh,</p>
+        <p>Filing the third correction to the Amberwake plot this season, and I would rather be filing a fourth than say what I actually think, which is that the corridor has moved again and I cannot promise the next set of bearings will hold either.</p>
+        <p>Two independent ships report arriving late against Warden-issued headings, both blaming crew error, and I do not believe either of them made an error. The old sightline off the Corvath Shoal no longer resolves at all. I have walked the plot myself, twice, and I get a different answer each time I take it.</p>
+        <p>I am not asking the office to alarm anyone. I am asking for a proper survey vessel out here before I file a fourth correction that some captain trusts with their whole crew.</p>
+      </div>
+      <div class="sign">
+        <span class="name">T. Yarrow</span>
+        <span class="title">Surveying Warden, Amberwake Station</span>
+      </div>
+    </div>
+
+    <div class="sheet slip">
+      <div class="clip"><svg viewBox="0 0 46 20"><path d="M6 2 C2 2 2 8 6 8 L34 8 C40 8 40 16 34 16 L14 16" fill="none" stroke="#8a7c5d" stroke-width="2.6"/></svg></div>
+      <div class="crest">
+        <div class="name" style="text-align:center; width:100%;">INTERNAL ROUTING SLIP<span class="office">Archive Office, Sallow Chain</span></div>
+      </div>
+      <div class="stamp forwarded">Forwarded</div>
+      <div class="meta">
+        <span><b>Attached:</b> Warden Yarrow's report, 14th of Stormwane</span>
+        <span><b>Routed to:</b> the First Archivist</span>
+      </div>
+      <div class="body">
+        <p>Yarrow is not an alarmist and I have known him twelve years. That said, we hold three other corridors on the frontier showing the same early pattern (files 112, 119, 138), and in each of those the correction settled inside a season and traffic resumed without incident.</p>
+        <p>My recommendation: continue internal monitoring, hold Yarrow's report as file record rather than public advisory, pending further characterization of the pattern. A subscriber notice this early, on a corridor this valuable, would cost the Archive more in confidence than the delay would cost in risk.</p>
+        <p>I would rather be wrong quietly than wrong in front of every chart-holder in the Chain.</p>
+      </div>
+      <div class="sign">
+        <span class="name">I. Marsh</span>
+        <span class="title">Registrar, Archive Office</span>
+      </div>
+    </div>
+
+    <div class="sheet">
+      <div class="crest">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="none" stroke="#8c3a22" stroke-width="2"/><path d="M11 24 L20 12 L29 24" fill="none" stroke="#251d11" stroke-width="1.6"/><line x1="14" y1="24" x2="26" y2="24" stroke="#251d11" stroke-width="1.6"/></svg>
+        <div class="name">OFFICE OF THE FIRST ARCHIVIST<span class="office">Vellum House</span></div>
+      </div>
+      <div class="meta">
+        <span><b>To:</b> Registrar I. Marsh</span>
+        <span><b>Re:</b> File 147-C</span>
+      </div>
+      <div class="body">
+        <p>Registrar Marsh,</p>
+        <p>Agreed. Hold the Amberwake file as internal record. No subscriber notice, no public revision, until the pattern resolves one way or the other. I trust your judgment on the timeline.</p>
+        <p>Separately, and unrelated to the above: have the acquisitions office make quiet inquiries with House Carrow's creditors regarding the Amberwake's attached route rights and contracts. If the corridor is troubled and the pattern resolves within a season as you describe, then there is nothing to act on. If it does not resolve, those rights will be worth considerably less to Carrow than to us, and less again once anyone else notices what you have just described to me. Approach this quietly and early. There is no advantage in waiting for Carrow to reach the same conclusion.</p>
+      </div>
+      <div class="stamp burn">Burn After Reading</div>
+      <div class="sign">
+        <span class="name">P. Vellum</span>
+        <span class="title">First Archivist</span>
+      </div>
+    </div>
+
+    <div class="sheet slip">
+      <div class="crest">
+        <div class="name" style="text-align:center; width:100%;">ARCHIVE OFFICE, ANNUAL FILE REVIEW<span class="office">five years following</span></div>
+      </div>
+      <div class="body">
+        <p>Amberwake file (147-C) formally closed and withdrawn from circulation per the First Archivist's standing order. Corridor confirmed non-recoverable as of this review. Acquisitions confirms full transfer of the attached route rights, completed at favorable terms during House Carrow's dissolution proceedings.</p>
+        <p>Cross-reference: public statement on the Amberwake's loss, filed under House Carrow, mismanagement. No Archive involvement noted or required.</p>
+        <p style="font-family:'Courier Prime',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); margin-top:16px;">File closed.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="caption">four sheets, one ribbon, filed together for forty years</p>
+</div>

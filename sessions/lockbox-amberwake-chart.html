@@ -1,0 +1,141 @@
+<title>The Amberwake Chart</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  :root {
+    --paper: #f2ebd8; --ink: #251d11; --ink-soft: #5f5238; --faint: #8a7c5d;
+    --rule: #c7ba98; --rule-strong: #a89871; --seal: #8c3a22; --brass: #7d5f26; --pin: #7a3324;
+  }
+  * { box-sizing: border-box; }
+  html { background: #cabb99; }
+  body { margin: 0; padding: 26px 16px 70px; background: #cabb99; color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+
+  .wrap { max-width: 900px; margin: 0 auto; }
+
+  .header { text-align: center; margin-bottom: 18px; }
+  .header .file { font-family: "Courier Prime", monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft);
+    background: var(--paper); border: 1px solid var(--rule-strong); display: inline-block; padding: 5px 14px; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .header h1 { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.5rem, 5vw, 2rem); letter-spacing: .03em; margin: 10px 0 2px; }
+  .header .sub { font-style: italic; color: var(--ink-soft); font-size: .95rem; }
+
+  .chart-frame { background: var(--paper); border: 1px solid var(--rule-strong); box-shadow: 0 4px 12px rgba(40,26,12,.32); position: relative; padding: 20px 20px 10px; }
+  .chart-frame::before { content: ""; position: absolute; inset: 9px; border: 1px solid var(--rule); pointer-events: none; }
+  svg.chart { display: block; width: 100%; height: auto; }
+
+  figcaption { text-align: center; font-style: italic; color: var(--ink-soft); font-size: .9rem; margin: 10px 0 0; }
+
+  .legend { margin-top: 18px; background: var(--paper); border: 1px solid var(--rule-strong); box-shadow: 0 2px 6px rgba(40,26,12,.22); padding: 14px 18px; }
+  .legend h2 { font-family: "IM Fell English SC", Georgia, serif; font-size: 1rem; letter-spacing: .05em; margin: 0 0 10px; text-align: center; }
+  .legend table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  .legend td { padding: 4px 6px; border-bottom: 1px dashed var(--rule); vertical-align: middle; }
+  .legend tr:last-child td { border-bottom: none; }
+  .legend .swatch { width: 26px; }
+  .legend .swatch span { display: inline-block; width: 20px; height: 4px; border-radius: 2px; }
+  .legend .date { font-family: "Courier Prime", monospace; font-size: 11px; white-space: nowrap; color: var(--ink-soft); }
+  .legend .gap { font-family: "Courier Prime", monospace; font-size: 10.5px; color: var(--faint); text-align: right; white-space: nowrap; }
+
+  .memo-wrap { display: flex; justify-content: center; margin-top: 22px; }
+  .memo { background: #ece2c8; border: 1px solid var(--rule-strong); box-shadow: 0 3px 10px rgba(40,26,12,.3); padding: 18px 22px 16px; max-width: 380px; position: relative; transform: rotate(-1.4deg); }
+  .memo::after { content: ""; position: absolute; top: -9px; left: 50%; transform: translateX(-50%); width: 14px; height: 14px; border-radius: 50%;
+    background: radial-gradient(circle at 38% 34%, #b9532f, var(--pin) 65%, #5a2317 100%); box-shadow: inset 0 1px 2px rgba(255,255,255,.3), 0 1px 3px rgba(0,0,0,.45); }
+  .memo h3 { font-family: "IM Fell English SC", Georgia, serif; text-align: center; font-size: 1rem; letter-spacing: .06em; margin: 0 0 2px; }
+  .memo .off { display: block; text-align: center; font-family: "Courier Prime", monospace; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 10px; }
+  .memo .row { display: flex; justify-content: space-between; font-family: "Courier Prime", monospace; font-size: 10.5px; color: var(--ink-soft); border-top: 1px dashed var(--rule-strong); padding-top: 6px; margin-top: 6px; }
+  .memo p { font-size: .92rem; margin: 10px 0; }
+  .memo .filed { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--seal); text-align: center; margin: 10px 0 4px; }
+  .memo .sign { text-align: right; font-style: italic; font-size: .9rem; }
+
+  @media (max-width: 560px) {
+    .legend .date { font-size: 10px; }
+    .legend td { padding: 4px 3px; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="header">
+    <span class="file">Archive File 147-C &middot; enclosure</span>
+    <h1>The Amberwake Corridor</h1>
+    <div class="sub">working chart, Vellum Cartographic Service, retired from circulation</div>
+  </div>
+
+  <div class="chart-frame">
+    <figure style="margin:0;">
+      <svg class="chart" viewBox="0 0 860 460" role="img" aria-label="A star chart of the Amberwake corridor showing six successive corrections to the plotted route, each revision closer in date than the last, ending in an unfinished line that does not reach House Carrow's settlements.">
+        <!-- starfield -->
+        <g fill="#8a7c5d" opacity="0.5">
+          <circle cx="60" cy="60" r="1.3"/><circle cx="140" cy="120" r="1"/><circle cx="220" cy="50" r="1.4"/><circle cx="320" cy="90" r="1"/>
+          <circle cx="410" cy="40" r="1.2"/><circle cx="500" cy="100" r="1"/><circle cx="600" cy="60" r="1.3"/><circle cx="700" cy="110" r="1"/>
+          <circle cx="780" cy="70" r="1.4"/><circle cx="90" cy="380" r="1.2"/><circle cx="200" cy="410" r="1"/><circle cx="330" cy="390" r="1.3"/>
+          <circle cx="470" cy="420" r="1"/><circle cx="610" cy="400" r="1.2"/><circle cx="740" cy="390" r="1"/><circle cx="800" cy="350" r="1.3"/>
+        </g>
+
+        <!-- endpoints -->
+        <g font-family="IM Fell English SC, Georgia, serif" font-size="15" fill="#251d11">
+          <circle cx="90" cy="240" r="6" fill="#251d11"/>
+          <text x="90" y="270" text-anchor="middle">SALLOW CHAIN</text>
+          <text x="90" y="288" text-anchor="middle" font-family="Courier Prime, monospace" font-size="10" fill="#5f5238">vellum territory</text>
+
+          <circle cx="770" cy="230" r="6" fill="#251d11"/>
+          <text x="770" y="270" text-anchor="middle">CARROW SETTLEMENTS</text>
+          <text x="770" y="288" text-anchor="middle" font-family="Courier Prime, monospace" font-size="10" fill="#5f5238">the Amberwake</text>
+        </g>
+
+        <!-- revision 1: RY144 Longreach, confident and near-straight -->
+        <path d="M 96 240 C 300 210, 550 215, 764 232" fill="none" stroke="#251d11" stroke-width="2.2"/>
+        <text x="260" y="196" font-family="Courier Prime, monospace" font-size="10.5" fill="#251d11">RY144, Longreach &middot; R.V.</text>
+
+        <!-- revision 2: RY146 Emberfall -->
+        <path d="M 96 240 C 300 235, 540 255, 764 232" fill="none" stroke="#7d5f26" stroke-width="2" stroke-dasharray="7 3"/>
+        <text x="260" y="270" font-family="Courier Prime, monospace" font-size="10.5" fill="#7d5f26" transform="translate(0,-2)">RY146, Emberfall &middot; R.V.</text>
+
+        <!-- revision 3: RY147 Longreach -->
+        <path d="M 96 240 C 280 260, 520 290, 764 232" fill="none" stroke="#7d5f26" stroke-width="2" stroke-dasharray="3 3"/>
+
+        <!-- revision 4: RY147 Stormwane (letter 1's date) -->
+        <path d="M 96 240 C 260 270, 480 320, 764 232" fill="none" stroke="#8c3a22" stroke-width="2" stroke-dasharray="7 3"/>
+        <text x="330" y="330" font-family="Courier Prime, monospace" font-size="10.5" fill="#8c3a22">RY147, Stormwane &middot; T.Y.</text>
+
+        <!-- revision 5: RY147 Tallowmoon, wobbling -->
+        <path d="M 96 240 C 220 280, 300 200, 400 300 S 560 360, 764 232" fill="none" stroke="#8c3a22" stroke-width="2"/>
+        <text x="470" y="380" font-family="Courier Prime, monospace" font-size="10.5" fill="#8c3a22">RY147, Tallowmoon &middot; T.Y.</text>
+
+        <!-- revision 6: RY148, unfinished, trails off before reaching the far end -->
+        <path d="M 96 240 C 200 300, 260 190, 340 260 S 460 210, 520 300" fill="none" stroke="#7a3324" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 5"/>
+        <circle cx="520" cy="300" r="3.5" fill="#7a3324"/>
+        <text x="530" y="304" font-family="Courier Prime, monospace" font-size="10.5" fill="#7a3324">RY148, Longreach &middot; unfinished</text>
+
+        <!-- start marker -->
+        <circle cx="96" cy="240" r="3" fill="#251d11"/>
+      </svg>
+      <figcaption>six plotted lines, one corridor, the last one never reaches the far side</figcaption>
+    </figure>
+  </div>
+
+  <div class="legend">
+    <h2>Revision Log</h2>
+    <table>
+      <tr><td class="swatch"><span style="background:#251d11;"></span></td><td class="date">RY144, Longreach</td><td>original survey, R. Voss</td><td class="gap">&mdash;</td></tr>
+      <tr><td class="swatch"><span style="background:#7d5f26;"></span></td><td class="date">RY146, Emberfall</td><td>first correction, R. Voss</td><td class="gap">2 yrs, 4 mo later</td></tr>
+      <tr><td class="swatch"><span style="background:#7d5f26; opacity:.7;"></span></td><td class="date">RY147, Longreach</td><td>second correction, T. Yarrow</td><td class="gap">8 mo later</td></tr>
+      <tr><td class="swatch"><span style="background:#8c3a22;"></span></td><td class="date">RY147, Stormwane</td><td>third correction, T. Yarrow</td><td class="gap">4 mo later</td></tr>
+      <tr><td class="swatch"><span style="background:#8c3a22;"></span></td><td class="date">RY147, Tallowmoon</td><td>fourth correction, T. Yarrow</td><td class="gap">2 mo later</td></tr>
+      <tr><td class="swatch"><span style="background:#7a3324;"></span></td><td class="date">RY148, Longreach</td><td>fifth attempt, unsigned, incomplete</td><td class="gap">6 wks later</td></tr>
+    </table>
+  </div>
+
+  <div class="memo-wrap">
+    <div class="memo">
+      <h3>Order of Withdrawal</h3>
+      <span class="off">Office of the Archive, Vellum House</span>
+      <div class="row"><span>Corridor</span><span>The Amberwake</span></div>
+      <div class="row"><span>Effective</span><span>immediately</span></div>
+      <p>By direction of the First Archivist, the Amberwake corridor is withdrawn from all public charts, all subscriber editions, and all future printings, effective immediately.</p>
+      <p>Existing chart-holders are not to be issued a service disruption notice. Direct inquiries to the Registrar's office.</p>
+      <div class="filed">Filed: Non-Disclosure, Category C</div>
+      <div class="sign">P. Vellum, First Archivist</div>
+    </div>
+  </div>
+</div>
