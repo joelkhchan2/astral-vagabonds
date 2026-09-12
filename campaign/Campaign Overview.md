@@ -102,7 +102,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `House Windsong.md` | The father, three brothers, mother, uncle, and the fifth-seat contest |
 | `Worlds & Places.md` | Thirteen destinations across the six regions |
 | `The Manifest Board.md` | The public ranking, the crew's neighbours, and the top five |
-| `The Locker.md` | The demiplane of moored ships, and what happened to Orena's crew |
+| `The Locker.md` | The demiplane of moored ships, and the ancient current-reader's resting place |
 
 ### People and plot
 | File | What's in it |

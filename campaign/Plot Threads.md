@@ -75,16 +75,9 @@ Her guild were ordinary Sword Coast navigators, still entirely on the Material P
 
 > **The whale-fall payoff (plant early, cash later).** The Vocalise is a *real recurring sound in the world,* not just Orena's private memory. Seed it as hints across the campaign -- a note under a guttering star (session 1), a half-heard echo on a dark leg, a spacer's rumour of "singing in the deep." Then, when the crew eventually finds a **whale fall** (`campaign/Story Spine.md`, `Tier 1.md`), the dead elder kindori's song is *still echoing* through the reef around its body -- and **Orena recognizes it. It is the Stillwater Vocalise.** The thing she has chased and dreaded since night one is the song of a dying whale, and now she is standing inside one. That is the moment her private grief and the cosmic mystery are revealed as the same thing -- and the moment she understands that to follow the song is to learn to read the dying sea, the exact skill that saves it.
 
-**CONFIRMED:** Alive. Recoverable. The Astral is timeless, so they haven't aged, but they're sealed inside a dark region that is, by definition, off every chart.
+**CONFIRMED:** four of the five alive, together, thriving as their own charter crew, the *Steady Line*. Full detail, including who they are and how the reunion actually surfaces, in `npcs/The Wayfinder Knot.md`.
 
-**Estra's role:** Investigator who found partial answers through quiet research; she recognizes the Knot's fate because it's how she lost her own people. Ally, not suspect.
-
-**Finding them requires mastering the reading of the living sky** -- the exact skill that is the campaign's cure. She can't find her crew until the crew (and she) can navigate the living sea. Her habit of chasing the tales and mapping where things should be is that skill in its infancy. (See `The Locker.md`: the dark pockets and the moored-but-unreachable are the same phenomenon; the ancient instrument is the door.)
-
-**Open questions (Gabrielle's to fill in):**
-- The members of the Knot and their names.
-- How many survived inside, and in what condition.
-- What they've learned living inside a guttered region.
+**Finding them no longer requires mastering the living sky.** That skill is still Orena's arc and still the campaign's cure, it's just not the literal key to this reunion, which runs on ordinary rumor and reputation instead, once the *Night Fury*'s own name carries far enough. All open questions about the Knot's members and fates are resolved, see the doc above.
 
 ---
 

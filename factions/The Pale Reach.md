@@ -151,7 +151,7 @@ The specific ending depends on player choices, NPC alliances, and how the Gutter
 
 **The Vane Compact:** The Pale Reach destroyed it. The Compact's nomadic method is the prototype of the cure for the Guttering. This is the central irony of the campaign.
 
-**Orena's Lost Crew:** they were following the living roads (the same method) when the region they were in guttered and sealed them off. A house stripping that region for profit may have accelerated it -- tying the cartel's practice directly to her loss.
+**Orena's Lost Crew:** updated, `npcs/The Wayfinder Knot.md`. They were ordinary Material Plane sailors, not living-road navigators, pulled into the Astral by a dying kindori's death-song at a natural thin place between the planes. No house involvement, no cartel tie, this loss isn't the Pale Reach's doing.
 
 **The Empty Frequency:** The ancient navigation instrument broadcasting from deep Wildspace. The Pale Reach wants it. Whoever controls that data during the transition period controls the narrative about how the new Astral works. The crew wants it for the nomadic network. The Pale Reach wants it for the archive.
 

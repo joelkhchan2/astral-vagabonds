@@ -1,5 +1,7 @@
 # The Locker
 
+> **Refactored.** This location no longer ties to Orena's lost crew, that thread now resolves entirely differently and much earlier, see `npcs/The Wayfinder Knot.md`. The Locker stands on its own as a wondrous, optional Tier 3-4 location: a demiplane harbor for ships loved enough to persist, and the resting place of the ancient current-reading fleet tied to Plot C (`campaign/Story Spine.md`, "The Empty Frequency"). Use it for that, or shelve it, it no longer needs to serve any one PC's personal arc.
+
 **A demiplane for lost ships worthy of still existing.**
 
 Deities have realms. This is the same category of object, which is why it doesn't need justifying: it is a normal feature of a cosmology that already contains such places. It simply isn't a deity's.
@@ -30,13 +32,7 @@ Not fame. Not merit. **Mass of feeling.** A hull that was loved by its crew, nam
 
 Ships that were merely used do not come here. Ships that were *someone* do.
 
-> **Orena's ship is here because she never stopped looking.**
->
-> Her refusal to let go is the reason it still exists. The guild told her to accept it and move on. Everyone treated her grief as a pathology to be managed. **Had she listened, the ship would have dissolved.**
->
-> That is the payoff for four tiers of nobody believing her, and it should be stated plainly, once, by something that would know.
-
-**Their own ship could eventually qualify.** Let the players arrive at that thought unaided, somewhere around level 15.
+**The crew's own ship could eventually qualify.** Let the players arrive at that thought unaided, somewhere around level 15, the same way the doc always intended, just without it being anyone's rescue mission. A quiet, standalone piece of wonder: this is where the *Night Fury* could end up, someday, long after everyone aboard her now is gone, if she's loved enough between now and then.
 
 ---
 
@@ -50,13 +46,7 @@ A living crew entering the harbour is the rarest event that happens here, and hu
 
 ### How they talk, and who can hear it
 
-They communicate the way ships communicate: creaks, hums, resonance, the settling of timbers, the note a hull rings at when something passes near it.
-
-> **Orena is the one person who can hear what they are saying.**
->
-> She is a water genasi bard who survived a song that stilled everyone around her, and being of the water is why it did not take her. She hears the void differently than anyone aboard, and she has spent the campaign chasing the tales and resonances that might lead her back to her crew. Nobody taught her this; it grew out of what happened to her.
->
-> **Protect this above almost anything else in the campaign.** It is the single best payoff available and it was built out of the player's own character.
+They communicate the way ships communicate: creaks, hums, resonance, the settling of timbers, the note a hull rings at when something passes near it. **Leave open who, if anyone, can actually parse it into meaning.** Whichever PC has the strongest bond to a ship or the sharpest attunement to sound and resonance at the time this location comes up is the natural candidate; don't pre-assign it to one character years in advance the way this doc used to.
 
 ---
 
@@ -70,15 +60,11 @@ The Guttering has happened before, in the deep past, wherever a keystone was los
 
 **These ships were there.** They flew the old current system. They watched it come apart and re-form. They persisted because they were remembered, and they are now the only witnesses to the exact event the campaign is about.
 
-Orena goes looking for her ship and finds the answer to the world plot moored three berths down.
-
 ---
 
 ## Getting in
 
-**You need the instrument.** The ancient current-readers can find the way, and the way is a current that is not always there. Without one, the Locker is unreachable and unprovable.
-
-Which means **Orena's finale is only possible because of Aerion's network.** Not thematically. Mechanically. She cannot go until he has built the thing, and he is not building it for her.
+**You need the instrument.** The ancient current-readers (`campaign/Story Spine.md`, "The Empty Frequency") can find the way, and the way is a current that is not always there. Without one, the Locker is unreachable and unprovable, which is exactly why it's a Tier 3-4 destination and not earlier.
 
 ---
 
@@ -94,43 +80,19 @@ Run it as hospitality that does not take no for an answer and does not understan
 
 ---
 
-## What happened to Orena's crew
+## The instrument, and why it's here
 
-> **DM only. Gabrielle learns none of this at session 0 and all of it through play.**
-
-Her guild chased a legend: the **Stillwater Vocalise**, a song said to calm any raging sea. It resolves to the same object, because a folk legend about a sound in the deep is precisely what a pre-civilization current-reader becomes after ten thousand years of retelling.
-
-**They found one of the ancient instruments. The instrument is the door. It opened.**
-
-**And the Locker only accepts ships.**
-
-It took the vessel, because that is what it is for. The people aboard were not eligible, and the boundary sorted them out and put them somewhere else, which is to say everywhere else. No intent. No sacrifice. No heroism. **A door with admission criteria, and people are not on the list.**
-
-That is why the scattering makes no physical sense, why they landed so far apart, and why nobody has ever produced a coherent account.
-
-### The convergence
-
-**The instrument is still there.** Tier 3's mission to recover it — the object that gives the reformed CIV its standard and breaks the Pale Reach's subscription model — takes place **at the exact site where Orena lost her crew.**
-
-Her guild found the answer to the Guttering years before anyone thought to ask the question. It cost them everything and nobody knew. She will be standing in the spot when the campaign's most important object is finally recovered, and she will recognize the place before anyone tells her.
-
-### Testimony and telemetry
-
-**The people remember it emotionally and incompletely.** Everyone was somewhere different, it took about eleven seconds, and their accounts contradict each other. That is not evasion, that is what witnesses are.
-
-**The ship remembers it precisely and without understanding what any of it meant.** It can give her timings, headings, forces, and the exact order of events, and it cannot tell her why any of it mattered.
-
-Neither is sufficient. That is why the campaign needs both halves and why the voyage has to happen.
+**The Locker is where one of the ancient current-readers ended up**, same mechanism as everything else moored here: it was carried by a ship that made it this far and was remembered into staying. Recovering it (Plot C, the Empty Frequency) means finding this harbour first. That's the whole reason the location exists in the campaign, a genuinely wondrous place the crew has a real, plot-relevant reason to visit, independent of any one PC's backstory.
 
 ---
 
 ## Running it
 
-**Tiers 1–2: folklore only.** Drunks mention it. The guild uses it to mean "stop looking." Nobody credible believes in it.
+**Tiers 1-2: folklore only.** Drunks mention it. Spacers use it to mean "gone for good." Nobody credible believes in it.
 
-**Tier 3: it becomes plausible.** The instrument is recovered, the current-reading works, and somebody realizes what the readings imply. This is also where Orena stands at the site.
+**Tier 3: it becomes plausible.** Real leads point toward it, tied to the Empty Frequency thread, not to any character's personal history.
 
-**Tier 4: the voyage.** The first crossing, the harbour, the ancient fleet, the ship, and the answer.
+**Tier 4: the voyage.** The first crossing, the harbour, the ancient fleet, and the instrument.
 
 **Tone throughout: wonder and melancholy, never fear.** The correct player reaction on arrival is silence, then someone quietly asking how many there are.
 
@@ -138,8 +100,7 @@ Neither is sufficient. That is why the campaign needs both halves and why the vo
 
 ## Still open
 
-- The exact members of the Wayfinder Knot and their names — **Gabrielle's to fill in** (the guild is established; the individuals aren't yet)
 - Whether anything here can leave, and what that would mean
 - What the ancient ships want, if anything, after this long
 - Whether the harbour's tidiness has an explanation or is simply what a society of ships does
-- Whether the crew's own vessel is offered a berth, and how that lands
+- Whether the crew's own vessel is ever offered a berth, and how that lands, if it comes up at all

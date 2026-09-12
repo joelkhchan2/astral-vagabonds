@@ -48,7 +48,7 @@ Something is wrong with Wildspace navigation. Routes shift, ports drift out of p
 
 **PC connections:**
 - Aerion's ledger is where the pattern of dying frontier routes first becomes undeniable; his endgame is remaking his father's fixed-toll house into the first nomadic house.
-- Orena's lost crew were sealed inside a region that guttered while they were in it -- alive, unreachable. Finding them is the same skill as the cure: reading the living sky.
+- Orena's lost crew, updated canon in `npcs/The Wayfinder Knot.md`: pulled from an ordinary sea into the Astral by a dying kindori's death-song. Four of the five survived and are thriving on their own charter crew; the reunion resolves through rumor and reputation, not through mastering the living sky.
 
 **Tone arc:** logistics problem (funny) -> eerie (a star quietly goes out) -> dread that turns to *wonder* as the crew understands it and sees it's solvable. Hopium, not horror.
 
