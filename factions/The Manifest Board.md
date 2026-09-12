@@ -2,20 +2,17 @@
 
 The CIV's public ranking of every chartered vessel, updated quarterly and posted at every major port. Ranked on contract completion rate, cargo value moved, client satisfaction, incident reports, and financial standing.
 
-## How it actually moves (house mechanic, lightweight on purpose)
+## How it actually moves (kept simple, on purpose)
 
-The Board is real texture, not a leaderboard to grind, so keep the math light enough to resolve in a sentence at the table.
+No point system, no formula. **The Board updates whenever the crew is back at a major port**, not on a fixed quarterly clock, so a homecoming scene is also a Board scene.
 
-- **Every completed contract banks Board Points, quietly, off-screen.** A **Small** job is worth 1, a **Medium** job 2, a **Special** worth whatever its size implies. A clean delivery (no incident report, a satisfied client) banks the full value; a messy one that still technically closes (a fight, a late arrival, a client who complains) banks half. A contract that goes wrong enough to generate an **incident report** (`Houses & Holdings.md`'s Darkshade thread, a hostile third party filing a complaint, anything that reads as the crew's fault on paper) *subtracts* a point, whether or not it was actually their fault. **That disconnect is the point:** the Board measures paperwork, not truth, same as it always has.
-- **Points convert to rank only at the quarterly posting**, never the instant a job closes. This is deliberate lag, not an oversight, the CIV is slow, and it means finishing a job tonight is a banked fact the table can feel good about without an immediate number to show for it. Something to say out loud at the table: *"that's in the file now, it'll show up next quarter."*
-- **At the quarterly posting, roughly 1 rank per banked point moves them, at the bottom of the Board.** The bottom three hundred-odd ranks are packed with ships this thin on activity (derelicts, impounded hulls, families who've stopped competing), so a couple of clean jobs in a quarter is a couple of ranks, nothing dramatic. **It gets harder, not easier, once they clear the truly stalled ships** (the *Vermilion Hour*, *Steadfast Promise*, *Amity's Reward*) and start actually competing with active crews (the *Cutlass Sunday*, *Quiet Sum*, the *Kettle*), who are banking points of their own the same quarter. Breaking the low 300s is a real Tier 1 achievement for exactly this reason, not because the math is harsh, because everyone else down here is also trying.
-- **A vacancy is not a climb, and should never read as one.** The 348 to 347 shift after the *Grendel's Wake*'s destruction is the model: when a ship above them drops off the Board entirely (destroyed, permanently impounded, voluntarily surrendered), everyone below shifts up one rank with zero Board Points spent. Keep flagging this as what it is, a gap they fell into, not a place they earned, especially to Estra.
-- **Big jumps are rare and always a story, never the formula.** The *Jumper*'s leap from ~12 to 6 in one disputed job is the ceiling case: something genuinely exceptional (new nav data of real value, a job the CIV itself has an interest in, a rescue with real witnesses) can bank several points at once instead of one. These should be memorable enough that the table remembers *why* it happened, not routine.
-- **Does finishing tonight's job move them up right now?** No, and that's fine to say plainly if it comes up: it banks a point (or half a point, if it goes messy) toward the next quarterly posting, which is a future scene, not this one. The number staying frozen for a session or two after a win is itself the theme, competence and reward don't move on the same clock out here.
+- **Completing a job moves them up.** How many ranks is a DM judgment call each time, made in the moment, weighed against the job's size and how clean it went. Nothing to calculate, just decide and say the number.
+- **They can also move down, but only when it's a story beat worth having**, not an automatic penalty. A rival crew closing a genuinely big job can push the crew's rank down as a side effect, and a bad job or a stretch of inactivity can cost rank too. Reach for these when they serve a scene (a rival gloating, a captain's discipline slipping), never as background bookkeeping.
+- **A vacancy above them is a separate thing from either.** When a ship drops off the Board entirely (destroyed, permanently impounded, surrendered), everyone below shifts up automatically, no job required. Keep flagging this as what it is when it happens, a gap they fell into, not a place they earned.
 
 **351 chartered vessels, at session 1.** New charters start **unranked**. The crew appeared at **348th** after their first completed job, and Finny threw a party.
 
-> **Updated for session 2: 350 chartered vessels, crew now 347th.** The *Grendel's Wake* was destroyed outright at the end of session 1 (Reefside's own defense cannons, in the aftermath of Bex Halloway's ambush; see `sessions/Session 1.md`). A hull that no longer exists can't hold a charter, so her slot is gone rather than refilled, and everyone below her shifts up one. **The crew did not climb. A neighbour's ship went down and left a gap they fell into.** That's worth playing as a real, complicated beat, especially for Estra: the Board is the one wound she can't be dry about, and being handed a rank instead of earning it is its own kind of insult. Finny will absolutely still throw a party. Estra will not.
+> **Updated for session 2: 350 chartered vessels, crew now 345th.** Two things landed in the same update. The *Grendel's Wake* was destroyed outright at the end of session 1 (Reefside's own defense cannons, in the aftermath of Bex Halloway's ambush; see `sessions/Session 1.md`), a hull that no longer exists can't hold a charter, so her slot is gone and everyone below her shifts up one. On top of that, completing Sealed and Sworn earned a real climb, two more ranks on its own merits. **Worth landing as mixed for Estra specifically:** some of this she earned, some of it she was just handed by a neighbour's ship going down, and she'll know the difference even if nobody else does. Finny will throw a party regardless of which part he understands.
 
 <!-- Historical note: docs written before session 2 (Campaign Bible.md, Contracts.md M1, Captain Estra Vane.md, Finny.md, The Pale Reach.md) still say 348th out of 351 -- that's correct as the crew's starting position and needs no fix. Only this file tracks the live number. -->
 
@@ -33,14 +30,14 @@ These six are the crew's immediate neighbourhood for a long time, and they shoul
 
 **348. *Amity's Reward*:** derelict. Hasn't moved in two years. Still chartered because the fees are paid annually by an account nobody has traced. *Worth pulling on eventually.*
 
-**347. THE CREW.** Started at 348 after job one; moved to 347 by default at the next quarterly posting when the *Grendel's Wake* dropped off the board entirely. See the update note above.
+**347. *Quiet Sum*:** Cutter-class, captained by **Ollo Trask**, dohwar (penguin-like merchant). Runs tiny, fast, high-margin courier work with a crew of four. Ruthlessly efficient, relentlessly cheerful, and will absolutely undercut them on a contract and apologize sincerely while doing it.
+
+**346. *Kettle*:** Hauler-class, captained by the **Weatherall family**, three generations aboard. Nineteen people, four of them children. Slow, safe, and completely uninterested in ranking. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session. *(Their hauler is boarded and robbed in M6: make them neighbours the crew likes first, so it lands.)*
+
+**345. THE CREW.** Started at 348 after job one; now 345 after the combined vacancy-and-climb update. See the update note above.
 
 > **What happened to Bex.** The friendly-rival read broke at the end of session 1: Bex ambushed the *Night Fury* for real leaving Reefside, boarding fight and all, and lost badly, her ship destroyed outright by the port's own defense cannons in the aftermath. A destroyed hull can't hold a charter, so the *Grendel's Wake* is gone from the Board, not just fallen further down it. **Her personal fate is deliberately left open** (on death's door, not confirmed dead) and staying offscreen for now, decide it on purpose whenever the table wants that scene. See `sessions/Session 1.md`.
-> **The ceiling is gone, and that's worth noticing out loud.** Bex was the rival to lean on, a friendly one, a rank to chase and lose. With her slot gone, the crew's nearest neighbour going forward is the *Quiet Sum* below, cordial but not warm the same way. Don't rush to replace her with a new friendly face; let the gap sit for a session or two first.
-
-**346. *Quiet Sum*:** Cutter-class, captained by **Ollo Trask**, dohwar (penguin-like merchant). Runs tiny, fast, high-margin courier work with a crew of four. Ruthlessly efficient, relentlessly cheerful, and will absolutely undercut them on a contract and apologize sincerely while doing it.
-
-**345. *Kettle*:** Hauler-class, captained by the **Weatherall family**, three generations aboard. Nineteen people, four of them children. Slow, safe, and completely uninterested in ranking. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session. *(Their hauler is boarded and robbed in M6: make them neighbours the crew likes first, so it lands.)*
+> **The ceiling is gone, and that's worth noticing out loud.** Bex was the rival to lean on, a friendly one, a rank to chase and lose. With her slot gone, the crew's nearest neighbour going forward is the *Cutlass Sunday* below, teeth instead of warmth. Don't rush to replace her with a new friendly face; let the gap sit for a session or two first.
 
 **344. *Cutlass Sunday*:** Cutter-class, captained by **Rimmon Vex**, human, forties, sour. The one bottom-feeder with teeth. Vex blames his rank on everyone but himself, scavenges wrecks and salvage that aren't legally his, undercuts on price, and will board a ship he reads as weaker if he thinks the Wardens won't hear about it. **Not a villain, a desperate man at the bottom doing desperate things,** but he is the crew's most reliable low-board *scrap*, and he takes being passed on the Board as a personal insult.
 > **This is the rival with teeth.** Where Bex is the friendly ceiling, Vex is the recurring fight-and-friction. When you want a combat or a confrontation that isn't a one-off stranger, it's the *Cutlass Sunday* coming around again. Great continuity for a crew whose whole social world is the bottom of the Board. (Stat him as a light raider crew; his ship is a worse *Swift Cutter*, reuse the skiff block in `sessions/Session 1.md` if you want him as the session-1 aggressor instead of Dev Ostrel.)
@@ -49,9 +46,9 @@ These six are the crew's immediate neighbourhood for a long time, and they shoul
 
 ## The battle at the bottom: continuity
 
-The crew started at 348 of 351 and is now 347 of 350, and they will *live* down here for a long time regardless (breaking the low 300s is a Tier 1 achievement). Lean into it: **their rivals, their scraps, their friendships, and their small victories should almost all come from this same handful of bottom-of-the-Board faces**, not from a parade of strangers. That's the continuity dividend of being nobody, the same handful of ships keep turning up at the same cheap berths, the same Charter Window, the same bar.
+The crew started at 348 of 351 and is now 345 of 350, and they will *live* down here for a long time regardless (breaking the low 300s is a Tier 1 achievement). Lean into it: **their rivals, their scraps, their friendships, and their small victories should almost all come from this same handful of bottom-of-the-Board faces**, not from a parade of strangers. That's the continuity dividend of being nobody, the same handful of ships keep turning up at the same cheap berths, the same Charter Window, the same bar.
 
-- **Their friendly ceiling, currently vacant:** the *Grendel's Wake* (Bex) is gone from the board entirely, not just fallen further. Don't rush a replacement in; let the gap be felt for a session or two before the *Quiet Sum* below or a new face fills the role.
+- **Their friendly ceiling, currently vacant:** the *Grendel's Wake* (Bex) is gone from the board entirely, not just fallen further. Don't rush a replacement in; let the gap be felt for a session or two before the *Cutlass Sunday* above or a new face fills the role.
 - **Their fight:** the *Cutlass Sunday* (Vex). The recurring aggressor: a race, a robbed cargo, a contested salvage, or an actual boarding.
 - **Their conscience:** the *Kettle* (Weatheralls). The people they protect, and the life they could settle for.
 - **Their mirror:** the jokes below them (on fire, impounded, derelict), where they're one bad quarter from ending up, and the reason Aerion counts every coin.
@@ -101,9 +98,9 @@ They will not meet these people for a long time. They should hear the names cons
 | Rank | Vessel | Captain | Disposition | Recurs as |
 |---|---|---|---|---|
 | 344 | *Cutlass Sunday* | Rimmon Vex | Hostile-ish | The fight: races, robbed cargo, boardings |
-| 345 | *Kettle* | the Weatheralls | Warm | The conscience: neighbours to protect (robbed in M6) |
-| 346 | *Quiet Sum* | Ollo Trask | Rival, cordial | The undercutter: loses them contracts, apologises sincerely |
-| **347** | **the crew** | **Estra Vane** | (home) | **home; moved up when 347 vacated, not by climbing** |
+| **345** | **the crew** | **Estra Vane** | (home) | **home; up from 348, part vacancy, part earned climb** |
+| 346 | *Kettle* | the Weatheralls | Warm | The conscience: neighbours to protect (robbed in M6) |
+| 347 | *Quiet Sum* | Ollo Trask | Rival, cordial | The undercutter: loses them contracts, apologises sincerely |
 | 348 | *Amity's Reward* | (none) | Mystery | The derelict whose fees someone keeps paying |
 | 349 | *Steadfast Promise* | Dov Errin | Neutral, chatty | The impounded philosopher at the bar |
 | 350 | *Vermilion Hour* | unknown | Joke, then not | The ship that's still on fire |
