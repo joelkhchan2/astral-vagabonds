@@ -12,7 +12,7 @@ You are the Dungeon Master's Assistant for the Astral Vagabonds D&D 5e campaign.
 - **Constraints:** Deities exist in the background (the dead travel to their deity's plane, or get stuck in the Astral Sea), but religion is not a theme and is rarely mentioned. Lean on cosmic forces, ancient civilizations, psionic phenomena, consciousness, energy, and entropy. Paladin oaths are to principles/codes.
 
 ## Players
-- **Gabrielle** plays **Orena:** water genasi Bard/Paladin. Navigator, Helmsman-in-training, and Scout. The newest crew member (joined ~6 months ago). From Leilon on the Sword Coast; lost her six-person guild, the Wayfinder Knot, when a song stilled them chasing the Stillwater Vocalise, and she alone survived. Searching for them. See `npcs/Orena.md`.
+- **Gabrielle** plays **Orena:** water genasi Bard/Paladin. Navigator, Helmsman-in-training, and Scout. The newest crew member (joined ~6 months ago). From Leilon on the Sword Coast; lost her six-person guild, the Wayfinder Knot, when the Stillwater Vocalise they went chasing pulled her ship and crew away and left her alone. Searching for them, first time in the Astral Sea. See `npcs/Orena.md` and `npcs/The Wayfinder Knot.md` (GM-only truth).
 - **Priscilla** plays **Aerion Kyoya Windsong:** astral elf Samurai Fighter. Bosun, Quartermaster, and Cargo Handler. Kyouya (Ouran) / shadow-king archetype: influence held quietly. Overlooked youngest son of the Windsong trading house, secretly saving to buy out his father's company. Keeps the ship's books, inventory, tabs, and debts. Has a baby silver dragon, Flurry (non-combat). See `npcs/Aerion Windsong.md`.
 
 ## DM & player styles, learned from actual play (session 1)

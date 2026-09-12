@@ -14,7 +14,7 @@ Firefly meets Brooklyn Nine-Nine in the Astral Sea, with a family power game und
 
 **Aerion Kyoya Windsong** (Priscilla) - Astral Elf Samurai Fighter. Bosun, Quartermaster, and Cargo Handler. The overlooked youngest son of the Windsong trading house, secretly amassing a fortune to buy out his father's company. Has a baby silver dragon, **Flurry**, who does not fight.
 
-**Orena** (Gabrielle) - Water Genasi Bard/Paladin. Navigator, Helmsman-in-training, and Scout. The newest aboard. She lost her six-person guild, the Wayfinder Knot, when a song called the Stillwater Vocalise stilled them and their ship; she alone survived, being of the water, and she is searching for them.
+**Orena** (Gabrielle) - Water Genasi Bard/Paladin. Navigator, Helmsman-in-training, and Scout. The newest aboard. She lost her six-person guild, the Wayfinder Knot, when the Stillwater Vocalise they went chasing pulled her ship and crew away and left her alone; this was her first time in the Astral Sea, and she's searching for them still. Full account, including where they actually are, in `npcs/The Wayfinder Knot.md`.
 
 They trained together as teens under Aerion's uncle. When Aerion needed a new ship, they re-met and he hired her on.
 
@@ -50,9 +50,9 @@ Three things running at once, at different speeds.
 
 **The Windsong Game (family, medium).** Aerion is the overlooked youngest son of a trading house that is competing for a vacant seat on the board of founding houses. The family barely notices him, which is exactly the cover he needs: he is quietly amassing a fortune to buy out and take over his father's company on his own terms. Full detail in `House Windsong.md`.
 
-**The Lost Crew (personal, episodic).** Orena's guild, the Wayfinder Knot, was stilled and vanished by the Stillwater Vocalise. She does not know whether they are dead or scattered, and she means to find out, following the tales and the currents one lead at a time.
+**The Lost Crew (personal, episodic).** Orena's guild, the Wayfinder Knot, was pulled away by the Stillwater Vocalise and she alone was left behind. She does not know whether they are dead or scattered, and she means to find out. (They're alive and thriving, on their own charter crew; see `npcs/The Wayfinder Knot.md` for the GM-only truth and how the reunion actually surfaces.)
 
-These converge. Learning to move with the living sky -- the nomadic method -- is simultaneously the thing that saves Wildspace, the thing that lets Aerion remake his father's company, and the navigation skill that makes finding Orena's lost crew possible.
+These converge. Learning to move with the living sky -- the nomadic method -- is simultaneously the thing that saves Wildspace and the thing that lets Aerion remake his father's company. Orena's lost crew is a separate, personal thread that resolves through reputation and rumor rather than that same navigation mastery.
 
 ## Design Principles
 

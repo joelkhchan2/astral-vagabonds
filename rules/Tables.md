@@ -172,7 +172,9 @@ Roll or pick. Everything here is ours except where a published creature is named
 
 # 7. SCATTERED CREW — WHAT STATE (d8)
 
-*When Orena finds one. Never roll the same result twice.*
+> **Superseded for the Wayfinder Knot specifically.** Their actual fates are locked in `npcs/The Wayfinder Knot.md` (four survivors together, thriving, aboard the *Steady Line*; Orena is the only one who was truly scattered). Keep this table for any other lost-and-found NPC thread that comes up instead.
+
+*When a lost connection turns up. Never roll the same result twice.*
 
 | d8 | State |
 |---|---|
