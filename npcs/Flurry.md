@@ -62,7 +62,7 @@ She scales with the crew: wyrmling now, potentially *young* by the campaign's en
 
 ## Guardrails
 
-- **Mechanically thin, on purpose.** Her profile in `rules/Stat Blocks.md` is not a full monster block, no ability scores, no CR, nothing to optimize. AC 13, HP 2, one breath weapon at 2d6 cold with no paralysis option. If a scene needs Flurry to matter, it should be about who she is, not what she rolls. Two hit points is the mechanical expression of "she is not built to survive being hit," which is the whole point of the *Devoted* clause below.
+- **Mechanically thin, on purpose.** Her profile in `rules/Stat Blocks.md` is not a full monster block, no saves, no skills, no CR, nothing to optimize. She does carry ability scores now (low STR/CON/INT, good DEX, strong WIS and CHA), but they're for flavor and roleplay checks only, never combat capability. AC 13, HP 2, one breath weapon at 2d6 cold with no paralysis option. If a scene needs Flurry to matter, it should be about who she is, not what she rolls. Two hit points is the mechanical expression of "she is not built to survive being hit," which is the whole point of the *Devoted* clause below.
 - **Non-combat, a baby, PG -- always.** The heritage expresses as *sensitivity and mystery,* not power; she gets more attuned, never scarier. No dragon-in-peril horror, no killing her for pathos -- the tone won't take it (`campaign/Story Spine.md`).
 - **She's Priscilla's.** Float the heritage reveal, the grown/phasing moment, and any "someone wants the dragon" plot to Priscilla first -- it's really Aerion's story.
 - **Barometer, not oracle.** She points; the players solve. Never let Flurry hand them a conclusion.

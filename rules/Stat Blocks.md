@@ -163,9 +163,13 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ---
 
 ## FLURRY (RHEE)
-*Tiny dragon (silver wyrmling), Ship's Dragon* -- not a combatant, by design. No ability scores, saves, skills, or CR here on purpose; see the guardrail in `npcs/Flurry.md`.
+*Tiny dragon (silver wyrmling), Ship's Dragon* -- not a combatant, by design. No saves, skills, or CR here on purpose; see the guardrail in `npcs/Flurry.md`. Ability scores below are for flavor and roleplay checks only (a Wisdom-flavored "she noticed something" beat, a Charisma-flavored "everyone's charmed" beat), never a door into combat capability. AC and HP stay fixed regardless.
 
 **AC** 13 (natural) · **HP** 2 · **Speed** 20 ft., fly 40 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+|---|---|---|---|---|---|
+| 6 (-2) | 16 (+3) | 8 (-1) | 8 (-1) | 14 (+2) | 18 (+4) |
 
 ***Two Years Old.*** Flurry is a puppy with a breath weapon.
 
