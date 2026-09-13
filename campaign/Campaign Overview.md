@@ -85,6 +85,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `Contracts.md` | The job board, and the Tier 1 main-mission spine for levels 5-8 |
 | `The Bral Reach.md` | Home port: six locations, the recurring NPCs, and the character shop |
 | `Tables.md` | Encounters, complications, rumours, items, and the scattered-crew states |
+| `Session Ideas.md` | Backlog of loose ideas not yet built into an episode or session prep |
 
 ### Rules and kit
 | File | What's in it |
