@@ -213,4 +213,17 @@ The person actually running the fight from the deck or the chart table — usual
 
 Daily or per-voyage burn. Provisions as units. Air as a running total (it's a date on a calendar). Tonnage as a ledger (it's a yes/no at the dock: can this hull carry that contract). Route stability. Guttering detection rolls. Crew morale as a stat.
 
+## 10. Crew Feats (Earned) **[HR]**
+
+Standing features the whole crew unlocks by living through a specific episode, not chosen at level-up. Once earned, everyone aboard the *Night Fury* has it, PCs and named NPCs alike.
+
+### Cross-Trained
+**Earned:** the workplace-training bottle episode (session TBD).
+
+Normally the Help action caps out at one helper granting advantage; anyone past the first is flavor. Cross-Trained changes that. When a character makes an ability check, the usual helper still grants advantage as normal, and **each additional helper who is also proficient in that check's skill adds their own proficiency bonus to the roll**, stacking with each other and with the advantage. A helper who isn't proficient in the skill still can't add anything past the first, same as always, proficiency is the gate, not just presence.
+
+*Example: Orena rolls Perception. Aerion helps first (advantage, as normal). Tack is also on hand and proficient in Perception, so he piles on +2. If a third proficient crewmate joined in, they'd add their own bonus too, no cap on stacking as long as each one is actually proficient and able to help that specific check.*
+
+Represents the crew now knowing enough of each other's jobs to make real, compounding differences rather than just standing nearby.
+
 If a system isn't on this page, it isn't in the game.
