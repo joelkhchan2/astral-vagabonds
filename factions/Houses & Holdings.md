@@ -66,6 +66,8 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 ## HOUSE VELLUM: the archive
 **Net worth ~84,000,000 gp** · **Territory:** the Sallow Chain · **Board function:** custody of the archive
 
+**Crest:** a closed ledger, seen edge-on, with a single open eye on its cover. No motto. Struck in dark ink on pale paper for everyday use, pressed in dark red wax for anything that matters. A Vellum document never needs a signature to be recognized, the crest alone tells you exactly how seriously to take it. First rendered for `sessions/vellum-we-know-note.html` and `sessions/lockbox-vellum-correspondence.html`.
+
 **Business:** subscription licensing on the oldest and best route data in existence. They don't explore, haul, or fight. They **rent the past**, and the past has been extremely reliable for two centuries.
 
 **The weakness:** almost none of that 84 million is liquid. It's archive, legacy routes, and property. Vellum is asset-rich and cash-poor and would have to sell something embarrassing to move quickly.
