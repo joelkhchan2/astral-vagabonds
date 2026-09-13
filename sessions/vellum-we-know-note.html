@@ -2,98 +2,55 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap">
 <style>
-  :root {
-    --paper: #f1ead6; --ink: #211a10; --ink-soft: #55492f; --faint: #8a7c5d;
-    --rule: #cabb96; --seal: #7a1f1a; --seal-deep: #4c130f;
-  }
+  :root { --paper: #f1ead6; --ink: #211a10; --seal: #7a1f1a; --seal-deep: #4c130f; }
   * { box-sizing: border-box; }
   html { background: #b9ac89; }
-  body { margin: 0; padding: 40px 16px 70px; background: #b9ac89; color: var(--ink);
-    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; -webkit-font-smoothing: antialiased;
-    display: flex; justify-content: center; }
+  body { margin: 0; padding: 40px 16px; background: #b9ac89; color: var(--ink);
+    -webkit-font-smoothing: antialiased; display: flex; justify-content: center; }
 
   .card {
     width: 100%; max-width: 460px; background: var(--paper);
     box-shadow: 0 10px 28px rgba(30,20,10,.45), 0 2px 6px rgba(30,20,10,.3);
-    padding: 54px 40px 46px; position: relative; min-height: 560px;
+    padding: 60px 40px; position: relative;
+    display: flex; flex-direction: column; align-items: center; gap: 44px;
   }
-  /* faint repeated watermark, barely there, security-paper texture */
   .card::before {
-    content: "";
-    position: absolute; inset: 0; pointer-events: none; opacity: .05;
+    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .05;
     background-image: radial-gradient(circle, var(--seal-deep) 0.6px, transparent 0.6px);
     background-size: 14px 14px;
   }
 
-  .seal-wrap { display: flex; justify-content: center; margin-bottom: 40px; }
   .seal {
-    width: 118px; height: 118px; border-radius: 50%;
+    width: 118px; height: 118px; border-radius: 50%; flex: none;
     background: radial-gradient(circle at 38% 32%, #8a2620 0%, var(--seal) 55%, var(--seal-deep) 100%);
-    box-shadow:
-      inset 0 3px 5px rgba(255,255,255,.18),
-      inset 0 -6px 10px rgba(0,0,0,.5),
-      0 1px 2px rgba(0,0,0,.4);
-    display: flex; align-items: center; justify-content: center;
-    position: relative;
+    box-shadow: inset 0 3px 5px rgba(255,255,255,.18), inset 0 -6px 10px rgba(0,0,0,.5), 0 1px 2px rgba(0,0,0,.4);
+    display: flex; align-items: center; justify-content: center; position: relative;
   }
-  .seal::after {
-    content: ""; position: absolute; inset: 6px; border-radius: 50%;
-    border: 1px solid rgba(0,0,0,.25);
-  }
+  .seal::after { content: ""; position: absolute; inset: 6px; border-radius: 50%; border: 1px solid rgba(0,0,0,.25); }
   .seal svg { width: 62px; height: 62px; opacity: .92; filter: drop-shadow(0 1px 1px rgba(0,0,0,.4)); }
 
-  .crest-label {
-    text-align: center; font-family: "Courier Prime", monospace; font-size: 9px;
-    letter-spacing: .22em; text-transform: uppercase; color: var(--faint);
-    margin: -28px 0 46px;
-  }
-
   .message {
-    text-align: center;
     font-family: "IM Fell English SC", Georgia, serif;
-    font-size: 1.7rem;
-    letter-spacing: .28em;
-    color: var(--ink);
-    margin: 0 0 0;
-    padding-left: .28em; /* optical centering against the letter-spacing */
-  }
-
-  .rule {
-    width: 46px; height: 1px; background: var(--rule); margin: 30px auto 0;
-  }
-
-  .footer-space { height: 90px; }
-
-  .provenance {
-    position: absolute; bottom: 26px; left: 0; right: 0;
-    text-align: center; font-style: italic; color: var(--faint); font-size: .78rem;
+    font-size: 1.7rem; letter-spacing: .28em; color: var(--ink);
+    margin: 0; padding-left: .28em;
   }
 
   @media (max-width: 480px) {
-    .card { padding: 44px 24px 40px; }
+    .card { padding: 48px 24px; gap: 36px; }
     .message { font-size: 1.4rem; letter-spacing: .22em; }
   }
 </style>
 
 <div class="card">
-  <div class="seal-wrap">
-    <div class="seal">
-      <svg viewBox="0 0 64 64" aria-hidden="true">
-        <!-- a closed ledger, and an eye on its cover: Vellum's crest -->
-        <path d="M14 12 L50 12 L50 50 L32 55 L14 50 Z" fill="none" stroke="#f1ead6" stroke-width="1.8" stroke-linejoin="round"/>
-        <line x1="32" y1="12" x2="32" y2="55" stroke="#f1ead6" stroke-width="1.2" opacity=".6"/>
-        <path d="M20 30 C24 24, 40 24, 44 30 C40 36, 24 36, 20 30 Z" fill="none" stroke="#f1ead6" stroke-width="1.8"/>
-        <circle cx="32" cy="30" r="3.4" fill="#f1ead6"/>
-      </svg>
-    </div>
+  <div class="seal">
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M14 12 L50 12 L50 50 L32 55 L14 50 Z" fill="none" stroke="#f1ead6" stroke-width="1.8" stroke-linejoin="round"/>
+      <line x1="32" y1="12" x2="32" y2="55" stroke="#f1ead6" stroke-width="1.2" opacity=".6"/>
+      <path d="M20 30 C24 24, 40 24, 44 30 C40 36, 24 36, 20 30 Z" fill="none" stroke="#f1ead6" stroke-width="1.8"/>
+      <circle cx="32" cy="30" r="3.4" fill="#f1ead6"/>
+    </svg>
   </div>
-  <div class="crest-label">Vellum House &middot; Office of the Archive</div>
-
   <p class="message">WE&nbsp;KNOW</p>
-  <div class="rule"></div>
-
-  <div class="footer-space"></div>
-  <p class="provenance">no signature, no name, no note of who delivered it &middot; the crest was enough</p>
 </div>
