@@ -82,6 +82,9 @@ All campaign prose (read-aloud, DM notes, NPC lines, session docs, the HTML comp
 - **DM notes are for scanning:** front-load the trigger/DC/number/reveal, bullets and bold keys over paragraphs, secrets as a list of facts, every NPC gets a line to actually say. Keep read-aloud, mechanics, and secrets in separate labeled blocks.
 Note: older docs in this repo still contain em-dashes from before this rule. Fix them when you touch a file; do not do a blind repo-wide sweep unasked.
 
+## Session structure -- the standing skeleton
+Sessions follow a shared shape by now: cold open, main content, one social beat per PC (joint where possible), battle if the job calls for it, ending on a hook, mystery, or cliffhanger. Full skeleton and how to use it: the `session-structure` skill. Copy-paste starting point for a new prep doc: `sessions/Session Prep Template.md`. Worked examples: `sessions/Session 2 Prep.md`, `sessions/Session 3 Prep.md`.
+
 ## Key References
 - "Vagabonds" is the crew's unofficial name -- referenced in session 1
 - The humor comes from characters, not from the setting being a joke

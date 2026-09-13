@@ -86,6 +86,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `The Bral Reach.md` | Home port: six locations, the recurring NPCs, and the character shop |
 | `Tables.md` | Encounters, complications, rumours, items, and the scattered-crew states |
 | `Session Ideas.md` | Backlog of loose ideas not yet built into an episode or session prep |
+| `Session Prep Template.md` | Copy-paste skeleton for a new session prep doc; see the `session-structure` skill for the full guidance |
 
 ### Rules and kit
 | File | What's in it |
