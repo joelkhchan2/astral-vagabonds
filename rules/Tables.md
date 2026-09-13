@@ -10,7 +10,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 
 *In transit, near a system, tactical range.*
 
-| d20 | Encounter |
+| d24 | Encounter |
 |---|---|
 | 1 | **Space guppies**, a shoal of hundreds, harmless, and they follow the ship for two days |
 | 2 | A **kindori** (space whale) drifting on the same heading. Something is living on its back and has built a small structure there. |
@@ -32,6 +32,10 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 18 | **Githyanki** raiders, sizing the ship up. Nothing personal yet, but they have long memories and the crew is a long way from anyone who could help. |
 | 19 | A current *visibly dissolving*: silver light unravelling like rope. Beautiful and completely silent. |
 | 20 | Nothing at all for eleven days. Play the crew scene. |
+| 21 | **Astral pegasi**, a herd loose in open void, running on nothing at all, gone again in a minute |
+| 22 | A galleon-class ship running hot, raider hulls close behind, firing to disable, not destroy |
+| 23 | Something hooks the hull from inside an asteroid field before anyone sees it coming |
+| 24 | A drift graveyard: wrecked hulls tangled in a slow, silent collision that never quite finishes |
 
 **Art reference (encounter 8, the chwinga astronaut):**
 ![Chwinga astronaut](https://static.wikia.nocookie.net/forgottenrealms/images/6/69/Chwinga_astronaut_5e.jpg/revision/latest?cb=20220915083923)
@@ -42,7 +46,7 @@ Roll or pick. Everything here is ours except where a published creature is named
 
 *Deep transit. Stranger, quieter, less hostile.*
 
-| d12 | Encounter |
+| d14 | Encounter |
 |---|---|
 | 1 | A **colour** that isn't on the spectrum, moving slowly, incurious |
 | 2 | The silhouette of a city, enormous, distant, and gone on the second look |
@@ -56,6 +60,8 @@ Roll or pick. Everything here is ours except where a published creature is named
 | 10 | Time slips: eleven hours pass for the ship, nineteen for the void, and only Priscilla's log notices |
 | 11 | A **cosmic horror** at extreme distance, uninterested, and the correct response is to keep flying |
 | 12 | The Astral is completely still, and for one watch the ship is the only thing that has ever moved |
+| 13 | Two vast, ancient combatants, still fighting a war centuries dead, spell-fire and summoned things spent and reborn in an endless loop, long past noticing a ship |
+| 14 | A wound in the Astral itself, old and closed. Something enormous died here once. |
 
 ---
 
