@@ -112,6 +112,8 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 
 **One bastion turn per voyage leg, per PC**, not every 7 days. Each PC can run one of their own facilities' orders every leg, independent of the other. This keeps transit to a single procedure per PC rather than a shared bottleneck.
 
+**This is the one deliberate deviation from RAW here, flagged on purpose.** Everything else in this section (each PC owns their own facilities, their own turns, their own hirelings) is the 2024 rules as written, not a house rule. Swapping "per 7 days" for "per voyage leg" is a genuine pacing choice, made so transit doesn't require tracking calendar days, and it means a PC can get a bastion turn somewhat more often than RAW's weekly cadence if legs run short. Left in place because bastion orders are narrative-weight utility (info, minor trade income, small crafted items), not combat power, so the tradeoff hasn't shown signs of being a real balance problem. Revisit if that stops being true.
+
 **Bastion events are your shipboard complications.** Use the DMG table and reskin the results to a ship.
 
 **Barrack hirelings become the crew.** Arming them turns them into Bastion Defenders, which is how the ten NPCs become mechanically real in a boarding action.
