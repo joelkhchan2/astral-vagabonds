@@ -106,11 +106,11 @@ Deliver and collect. Sell survey data (Aerion's recurring negotiation scene with
 
 The ship is their **bastion**, using the 2024 DMG rules as written.
 
-**Pooled.** Both PCs share one bastion rather than running two. Facilities are chosen jointly and either PC can issue any order.
+**Unpooled.** Each PC runs their own bastion, aboard the same ship. Each picks and issues orders to their own facilities; they aren't shared or jointly chosen.
 
-**Facilities are free.** Two special facilities at level 5, two more at 9, one at 13, one at 17. No gold, no build time. Gold only enters when they **enlarge** a facility or buy the improvements listed in `Ship Construction.md`.
+**Facilities are free.** Two special facilities per PC at level 5, two more at 9, one at 13, one at 17 (per PC, not shared). No gold, no build time. Gold only enters when they **enlarge** a facility or buy the improvements listed in `Ship Construction.md`.
 
-**One bastion turn per voyage leg**, not every 7 days. This keeps transit to a single procedure.
+**One bastion turn per voyage leg, per PC**, not every 7 days. Each PC can run one of their own facilities' orders every leg, independent of the other. This keeps transit to a single procedure per PC rather than a shared bottleneck.
 
 **Bastion events are your shipboard complications.** Use the DMG table and reskin the results to a ship.
 
@@ -147,15 +147,17 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 
 ### Facilities chosen so far
 
-Both PCs are level 5, which unlocks the pooled bastion's **two free facilities** from the level-5 row above. They don't have to be chosen at once, but the table shouldn't sit on both indefinitely, either.
+Both PCs are level 5, which unlocks **two free facilities each** (four total between them) from the level-5 row above.
+
+**Orena has chosen Library (the chart room) and Arcane Study (the helm room), both locked in.** The Library runs the **Research** order, useful for exactly the kind of survey-data and delisted-route digging M4 and the lockbox both reward. Arcane Study formalizes what she and Estra already use the helm for daily.
 
 **Aerion has chosen Storehouse (the cargo hold), locked in going into session 2.** Mechanically, a Storehouse runs the **Trade** bastion order: the facility can buy or sell goods at a favorable rate between voyages, and cargo kept there doesn't need to be itemized line by line on the manifest the way the rest of the hold does. That's exactly the kind of quiet, deniable space a warded box benefits from, and precisely why Aerion wanted it formalized rather than left as "somewhere in the hold": a Storehouse is a real facility with a real function, not a euphemism, and having one gives him a defensible, on-the-books answer for where things live aboard his ship. Play it as a small, satisfying character beat, the quartermaster finally gets a room with his name on the order sheet.
 
-**The second facility is still open.** A live session 2 decision, not a DM ruling, since the bastion is pooled and either PC can propose one. Candidates worth putting in front of the table: **Library** (the chart room, Orena's natural fit, and it runs the **Research** order, useful for exactly the kind of survey-data and delisted-route digging M4 and the lockbox both reward), **Sanctuary** (the quiet berth, a room for sitting with things, no order attached, pure found-family value), or **Arcane Study** (the helm room, formalizing what Estra and Orena already use daily). Don't decide this one for them; surface the options and let the choice say something about what the crew values right now.
+**Aerion's second facility is still open.** His pick alone, since facilities are unpooled. Candidates worth putting in front of the table: **Armory** (the gun bay, fits his Bosun/Quartermaster combat-readiness focus), **Barrack** (crew quarters, arming hirelings into Bastion Defenders, mechanically real crew in a boarding action), or **Sanctuary** (the quiet berth, a room for sitting with things, no order attached, pure found-family value). Don't decide this one for him; surface the options and let the choice say something about what he values right now.
 
 ### How a facility order actually resolves
 
-Keep it as light as everything else in this section. When a PC wants to spend a bastion turn on a facility's order (Trade for the Storehouse, Research for a Library, etc.), it's a scene, not a subsystem, roll the relevant DMG-style check if there's real uncertainty, narrate the result, and move on. **One bastion turn per voyage leg still governs**, per section 5; a facility order and a bastion event aren't the same thing and don't compete for the same turn unless the story wants them to collide on purpose.
+Keep it as light as everything else in this section. When a PC wants to spend their bastion turn on one of their own facilities' orders (Research for Orena's Library, Trade for Aerion's Storehouse, etc.), it's a scene, not a subsystem, roll the relevant DMG-style check if there's real uncertainty, narrate the result, and move on. **One bastion turn per voyage leg per PC still governs**, per section 5; a facility order and a bastion event aren't the same thing and don't compete for the same turn unless the story wants them to collide on purpose. Since turns are per PC, both can act the same leg without competing for one shared slot.
 
 ## 8. Ship Combat: Crew Stations & Maneuvers **[H]**
 

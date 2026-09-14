@@ -1,6 +1,6 @@
 # Bastions — DM Reference
 
-The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the ship is the bastion** — the crew's two PCs pool their facilities into one hull (see "Combining Bastions"). This doc is the full rules reference; the table-facing handout is `Bastions — Player Guide.md`.
+The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the ship is the bastion** — the crew's two PCs each own their own facilities, merged into one hull (see "Combining Bastions"). This doc is the full rules reference; the table-facing handout is `Bastions — Player Guide.md`.
 
 > **This complements, and defers to, `Rules & Systems.md` §6 ("The Ship as Bastion").** That section is the short campaign house-ruling — where its two deliberate deviations from RAW (below) differ from the DMG defaults, **§6 wins**. `Rules & Systems.md` §8 covers ship *combat* (crew stations & maneuvers); this doc doesn't touch that. §6 also carries the fuller facilities-as-ship-rooms mapping — see "Adapting to the ship."
 
@@ -26,8 +26,8 @@ The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the 
 ### Combining bastions (this campaign)
 Two PCs can merge their bastions into one structure — **the ship**. Merging doesn't change how many special facilities each PC has or how they work.
 
-- **RAW:** each PC still owns and orders their own facilities, and hirelings stay with their owner (can't be shared); the one shared perk is that Defender losses from an event can be absorbed onto either combined bastion.
-- **Campaign house rule (`Rules & Systems.md` §6):** the ship is **fully pooled** — facilities are chosen jointly and **either PC can issue any order**. Use this; it keeps transit to one shared procedure. (The Defender-absorption perk still applies.)
+- **RAW, and what this campaign runs:** each PC owns and orders their own facilities, and hirelings stay with their owner (can't be shared); the one shared perk is that Defender losses from an event can be absorbed onto either combined bastion.
+- **Bastion turns are per PC** (`Rules & Systems.md` §6): each PC gets one bastion turn per voyage leg for their own facilities, independent of the other. This isn't a shared, single procedure, both PCs can act the same leg without competing for one slot.
 
 ---
 
@@ -184,5 +184,5 @@ A PC who loses a bastion can establish a new one (use the Acquisition table for 
 - **Facility ↔ crew mapping (natural fits):** Engineering/Tack → **Workshop** or **Smithy**; sickbay/Brassica → **Laboratory** or **Greenhouse**; gun bay → **Armory**; crew quarters/Aussie → **Barrack**; galley + long table → basic **Dining Room/Kitchen**; the helm/charts/Orena → **Observatory** (spelljammer-perfect at L13) or **Library** now; cargo/Aerion → **Storehouse**.
 - **Space on a ship is tight.** The Trader is 20 tons of cargo and 11 berths — lean toward **Cramped/Roomy** facilities and use the "both faces of every deck are walkable" gravity-plane trick to justify square counts.
 - **The `Ship Construction.md` "Bastion Improvements" table** (enlarge costs, extra hirelings, "Arm the Crew," second facility of a type, specialization) is this campaign's houseruled add-on layer on top of these rules — keep the two consistent when you build the ship's facility list.
-- **One level-5 special facility is still unspent.** Aerion's Storehouse is chosen; the second slot is an open session 2 decision, see `Night Fury.md` and `sessions/Session 2 Prep.md` §4.
+- **Facility picks so far.** Orena has chosen both her level-5 slots: Library and Arcane Study. Aerion has chosen Storehouse; his second level-5 slot is still open, see `Rules & Systems.md` §6 and `sessions/Session 2 Prep.md` §4.
 </content>
