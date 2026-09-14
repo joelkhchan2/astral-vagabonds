@@ -16,8 +16,16 @@ The crew's fixer as much as its medic. Brass has "a guy" at every port, tracks d
 ## Why she's cheap, unlicensed, and always working an angle
 Brass keeps herself cheap and off the books because a license is a name in a registry, and a name in a registry is how you get found. Everyone owing her a small favor is not greed, it's an early-warning net: if trouble is coming for her, someone in the web hears it first and gets word out, in exchange for the debt she's been carefully keeping them in.
 
+## Before the deal
+
+Brass grew up in **Gallow Gate**, the fortified toll station at the mouth of the Tollmarch (`locations/Worlds & Places.md`), the daughter of a Stoneward quartermaster who kept the checkpoint's own infirmary running on a shoestring and taught her the trade from the time she was old enough to hold a suture needle steady. Her mother, **Fen Thorngage**, was never licensed either, by choice, and used to say a license just tells people where to send the paperwork when they sue you. Brass took the opposite lesson as a teenager, wanted the credential, wanted the respectability her mother had waved off, and left Gallow Gate at nineteen specifically to go earn it somewhere her mother's reputation wouldn't shadow the exam.
+
+Her training mentor, the closest thing she had to a real teacher, was **Dr. Amabel Corse**, a licensed field surgeon who ran a rotating training program for exactly the kind of cheap-labor placements Brass eventually got burned on. Corse doesn't know what happened, only that a promising trainee vanished mid-program and never came back to finish. Brass still owns one of Corse's monographs, stolen rather than returned on the way out, and it is the one she rereads most.
+
 ## The deal that went bad, and the license that went with it (the secret)
 Brass was most of the way through earning her medical license, placed as ship's medic on a hauler under a cheap-labor training arrangement, the kind of placement nobody looks at too closely because the ship also happened to be running **neogi** cargo. Neogi are the spider-eel slavers of Wildspace, merchants who deal in living stock and never forgive a loss, and the "cargo" that trip was people. One of them was dying of something Brass could have treated, and instead of treating a captive back to sale price she **cut the whole hold loose** and let them run.
+
+The neogi death-broker who priced the loss against her personally, and who still would, has a name: **Uxel-Vess**, a mid-tier deal-master who does not forget a debt or delegate a collection when the account is this personal. Brass has never said the name aloud to anyone on this ship. She flinches, slightly, at anything with too many legs.
 
 That one decision cost her twice, in the same breath: it cost the neogi a sale, and neogi price a debt like that against your life and remember your face across a hundred systems, and it cost her the placement that would have finished her training, she had to vanish before she could ever sit for the license. The debt and the lost credential aren't two separate wounds. They're the same five minutes.
 
@@ -25,7 +33,7 @@ She has been mobile and off-book ever since. The napkins, the aliases, the guy a
 
 ### Escalation ladder
 - **Plant** (running now): the napkins, the "a guy at every port," the packed bag Finny found and put back exactly (`npcs/Finny.md` gossip table), the refusal to be called doctor.
-- **Pressure (trigger, from Plot Threads):** a neogi ship is encountered, or a contact at a port recognizes her and the wrong people learn where she flies.
+- **Pressure (trigger, from Plot Threads):** a neogi ship is encountered, or a contact at a port recognizes her and word reaches **Uxel-Vess**, the neogi death-broker who still holds her debt, that the wrong people learn where she flies.
 - **Climax:** the scene is the test, does she run to keep the crew clear, or does the crew refuse to let her? Found family, put on the scale, and the first time her net catches her instead of the other way around.
 
 ## The kindness under the angles

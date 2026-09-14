@@ -3,17 +3,27 @@
 ## The Surface Read
 A weathered human woman in her late 50s. Drinks black coffee from the same dented tin mug. Gives orders like polite suggestions. Has never raised her voice in a crisis. Calls everyone by their last name until she trusts them, then switches to first name without comment. Plays solitaire alone in the helm room at night, and keeps a private journal in a locked book, writing by lamplight; nobody has read a word of it.
 
-**Voice:** dry, level, unhurried. Orders phrased as suggestions that are not actually optional. Explains herself rarely, and only when it's a lesson.
-**Tics:** the dented mug (see `npcs/Crew Comedy Bits.md`); last name until she switches to first without comment; one hand of solitaire, alone, before she'll turn in.
+> **Played warmer than written (canon adjustment, session 1).** The original design leaned harder into stoic and unreadable than she actually plays. At the table she's dry, yes, but also genuinely talkative, quick with a tease, and visibly fond of this crew out loud, not just in withheld gestures. She toasts them ("this crew is destined for so much more, and I know we can get there"), puts a hand on Orena's shoulder mid-lesson and means it ("you'll get there. I know you will"), needles Finny and Aerion without any real edge in it, and offers a drink and an ear the moment someone's had a rough afternoon. Keep the iron competence and the guarded backstory exactly as written below; loosen the delivery. She is a warm captain who happens to carry a cold history, not a cold captain who occasionally cracks.
+
+**Voice:** dry and quick, but talkative and easy with the crew, not clipped. Orders phrased as suggestions that are not actually optional. Teases without malice, praises without much ceremony, and will actually banter back if you start it.
+**Tics:** the dented mug (see `npcs/Crew Comedy Bits.md`); last name until she switches to first without comment; one hand of solitaire, alone, before she'll turn in; a hand on the shoulder when she's teaching something that matters to her.
 **Want:** to keep this crew whole long enough to finish, quietly, what the Compact started, and to never again be the last one left in an empty helm room.
 
 **Off duty:** solitaire in the helm room, one hand most nights, win or lose she puts the deck away after; the locked journal by lamplight; re-reading the star chart in her quarters (below) longer than the update actually requires.
 
-Not warm -- but when Finny got spacesick his first week, she quietly adjusted the duty roster so he had lighter shifts and never mentioned it. When Oz froze during a boarding action, she stood next to him afterward and said, "That happens. Next time it'll be shorter." That was the entire conversation.
+Warmer than she lets the rumor mill believe, and not shy about showing it to the crew directly, even if the guarded backstory underneath stays exactly as guarded. When Finny got spacesick his first week, she quietly adjusted the duty roster so he had lighter shifts and never mentioned it. When Oz froze during a boarding action, she stood next to him afterward and said, "That happens. Next time it'll be shorter." When Orena fumbled an encounter badly enough to be mortified about it, Estra's answer was a shrug and an invitation to the bar, not a lecture: "That was interesting to watch. Come on, this calls for a drink."
 
-Aggressively, almost pathologically competent. Doesn't explain herself often, and when she does, it's because she's teaching you something.
+Aggressively, almost pathologically competent, and unbothered about being liked while she's at it. When she does explain herself, it's usually because she's teaching you something, but she'll also just talk, about the crew, the job, the Board standings, for the pleasure of it.
 
-**DM shorthand for playing Estra:** Ron Swanson's delivery + Captain Holt's precision + Iroh's buried grief + Mal Reynolds' stubbornness. She's funny because she's dry, not because she's trying to be.
+**DM shorthand for playing Estra:** Ron Swanson's competence and Mal Reynolds' stubbornness, but played closer to Iroh's warmth than either of their reserve. She's funny because she's dry and fond at the same time, not because she's withholding.
+
+## Before the Compact: where she actually comes from
+
+Estra was born aboard a bulk hauler called the *Long Credit*, three generations of Vanes crewed on the same family contract, hauling ore and grain along the same tired lane for the same tired shipping concern. She could read a manifest before she could do long division and could hold a heading before she could tie her own boots; there was no "learning to fly," it was just how the Vanes talked to each other. She was twelve when a bad cargo shift crushed her mother against a bulkhead and her father drank himself out of a captain's chair inside two years. The *Long Credit* was repossessed. The family scattered to other people's crews.
+
+She was taken on, at fourteen, as an unpaid deckhand by **Captain Sorrel Actus**, an aging independent who ran survey contracts on the honor system and who is the actual origin of "you chart it, you share it." Sorrel filed every route she found with the CIV for free, on principle, and told a furious, grieving fourteen-year-old Estra that the only debt worth paying back is the one you pay forward to someone who wasn't born as lucky as you. Estra didn't believe her for years. She believed it completely by the time she had her own ship, and it became the whole Compact's founding law. **Sorrel Actus died of natural causes before the Compact fell**, so she never saw what happened to the principle she handed down, which is its own small mercy and its own small grief, depending on the day Estra is having when she thinks about it.
+
+This is not common knowledge. The crew knows Estra as a woman who arrived a captain, guarded and finished. Nobody aboard knows about the *Long Credit*, or Sorrel, or that the sharpest, most guarded person on this ship was once the neediest kid on someone else's. It reframes "why this crew" one more turn: she isn't just repeating a lesson she was taught, she's paying it to five people the same way it was once paid to her, and she'd be mortified if anyone connected those dots out loud.
 
 ## The Vane Compact (Backstory)
 
@@ -45,16 +55,14 @@ Left with nothing, she clawed her way back into a captain's chair (see The Broke
 
 ### The Seven Compact Captains (Recurring NPC Pool)
 1. **Estra Vane** -- herself. Circled on her chart. Still fighting.
-2. **[DEAD]** -- Circumstances TBD. Possibly connected to the Guttering.
-3. **[DEAD]** -- Circumstances TBD. Possibly connected to Gabrielle's lost crew.
-4. **[DETAINED]** -- Imprisoned on fabricated charges. Jailbreak side quest. Justice theme.
-5. **[BOUGHT OUT]** -- Now works for the Pale Reach. Ashamed? Defiant? Both?
-6. **[BOUGHT OUT]** -- Location unknown. Question mark on Estra's chart.
-7. **[BOUGHT OUT]** -- Location unknown. Question mark on Estra's chart.
+2. **Riis Halvard [DEAD]** -- flew the *Open Hand*, Estra's most eager convert to the nomadic method and the one who pushed her to try it furthest, fastest. Sailed a crew of eleven into a stretch of water that read as thick and living on Riis's own charts and had actually gutHered out weeks earlier; nobody survived to explain what went wrong, only the wreck was ever found. Estra keeps Riis's marker closest to her own on the locked chart. The one she blames herself for outright, no cartel involved, just her method and Riis's trust in it.
+3. **Costa Renn [DEAD]** -- flew the *Farsight*, and by most accounts was the sharpest navigator in the whole Compact, sharper than Estra. Officially lost to "navigation hazards" during the Pale Reach's eighteen-month campaign, which is the cartel's polite phrase for a fed bad chart. Unofficially, someone inside the CIV's own archive office leaked Costa's real heading to a third party first. **Possibly connected to Gabrielle's lost crew or the Guttering proper**, worth deciding on purpose when the table's ready to pull that thread; leave both doors open until then.
+4. **Ysbel Marchetti [DETAINED]** -- flew the *Steadfast Cause*, impounded on fabricated smuggling charges within the first six months of the Pale Reach's squeeze, and is still sitting in a CIV detention facility on the far side of the Tollmarch, formally convicted, technically guilty of nothing beyond having a ship worth taking off the board. Estra writes to her twice a year. Ysbel writes back once. Ready-made jailbreak or justice-system arc whenever the table wants one.
+5. **Dessa Kell [BOUGHT OUT, then rebuilt anyway]** -- Estra's former second, ranked 9th now flying the *Compact Standard* (one of the original seven hulls, still under its old name, see `factions/The Manifest Board.md`). Took the Pale Reach's money when the fleet was already coming apart, on the calculation that a ship saved compromised beats a ship lost clean, and then quietly rebuilt something real out of the wreckage of that choice, defiant rather than ashamed of it now. She rebuilt. Estra didn't, not yet. That gap is worth a scene the moment they're in a room together again.
+6. **Sedge Okonkwo [BOUGHT OUT]** -- flies the *Bright Arrears* (~250th), and unlike Kell has never made his peace with taking the buyout. Still visibly uncomfortable in his own captain's chair, still overpays his crew like it might balance something, and has never once put in for a rank higher than the low three hundreds on purpose. A contrasting mirror to Kell: same choice, opposite ending.
+7. **[BOUGHT OUT, unresolved]** -- location and identity still open. The last blank marker on Estra's chart, and deliberately so; hold this slot for whenever the table needs a totally new face, a betrayal, or a surprise ally.
 
 Each former captain is a potential multi-session arc: rescue, recruitment, confrontation, or betrayal.
-
-> **A live candidate for one of these:** the Manifest Board currently ranks **9th** to a ship called the ***Compact Standard*** (one of the original seven hulls, still flying under its old name), captained by **Dessa Kell**, either Estra's former second or a fellow Compact captain (leave which true until it matters). She rebuilt something out of the collapse; Estra didn't. That gap alone is worth a scene someday. See `factions/The Manifest Board.md`. A second bought-out captain, **Sedge Okonkwo** (*Bright Arrears*, ~250th), gives the DM a contrasting read on the same choice: Kell defiant and climbing, Okonkwo still visibly uncomfortable with what he took.
 
 ## The Debt -- The Broker
 
