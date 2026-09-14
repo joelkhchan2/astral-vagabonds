@@ -24,6 +24,12 @@ Vaelren ran a hard, warm training camp for youths out on the quieter drifts: swo
 
 **Voice and tic:** unhurried, amused, exacting. He answers a question with a better question and will not draw his sword to prove a point he can make with a look. *"Don't show me the form. Show me you understand why the form exists, and then break it correctly."* A ready recurring NPC and a natural anchor for the opening flashback; keep him fond, sharp, and a little dangerous.
 
+**Two lines from the flashback (session 1, played), keep both canon:**
+- To the assembled campers, on why they train together at all: *"I have learned that you aren't anything except the sum of the people around you. So you want to surround yourself with great people."* The line Aerion actually lives by, whether or not he'd credit his uncle for it out loud.
+- To Orena, privately, not to Aerion: *"I haven't seen Orion let anyone stick around for as long as he's let you."* Vaelren noticing the friendship before either kid could name it. Worth echoing if he ever reappears.
+
+**What the camp also showed:** other campers, older and battle-scarred, mocked young Aerion as "the tourist" and threw his own family's dismissal of him in his face before their practice bout. He answered by winning, not arguing. Orena, unprompted, went after them harder than she went after her own fight. That was the moment, not the bunk assignment, that actually built the friendship.
+
 > **He's on the Manifest Board.** ~24th, a small craft called the *Windsong*, crew of one to three depending who's asked. Half-myth by reputation. If Aerion (or Orena) ever checks the Board for their own name, his is already sitting well above them, unannounced. A small, sharp thing to let land without comment. See `factions/The Manifest Board.md`.
 
 ## Flurry

@@ -1,6 +1,7 @@
-# Orena (Gabrielle's PC)
+# Orena Delphine (Gabrielle's PC)
 
 **Race:** Water Genasi · **Class:** Bard/Paladin, level 5 · **Age:** ~30 · **From:** Leilon, on the Sword Coast (Material Plane), between Neverwinter and Waterdeep.
+**Surname:** Delphine, given in play (session 1) when she introduced herself to Bex Halloway.
 **Shipboard roles:** Navigator, Helmsman-in-training, Scout.
 
 > Name spelling: the DM once wrote "Irena," but every primary source (Gabrielle's own notes and the session transcript) uses **Orena**, so that is what this folder uses. Flag if it should be Irena and it is a one-word global swap.
@@ -25,6 +26,8 @@ Mapping where the Stillwater Vocalise, the other artifacts of the tales she has 
 
 ## How she knows Aerion
 As teenagers they both trained under Aerion's uncle, the "space samurai" **Vaelren Windsong**. Orena wanted to learn the sword. A traveler's tale of the famous space samurai and his camp drew her there; she met Aerion, they were made to share a bunk, and they became lifelong friends. Years later, after Aerion's ship blew up and he needed a new one, they re-met and he recruited her.
+
+**The camp, played:** she asked him to be her obstacle-course partner on day one, when nobody else would; he answered like it cost him something to say yes. When a pair of older, battle-scarred camp bullies mocked him as "the tourist" and needled him for being sent away by his own family, Orena rose to it hard and fast, on his behalf before her own. That's the earliest evidence of the earnest, all-in loyalty that defines her: she doesn't hold back to protect herself, wins or losses both, and she didn't start with this crew, it goes back to a teenage camp bunk.
 
 ## Notes
 - She is training on the helm, so the ship always has a second pilot besides Captain Vane. Piloting requires an attuned spellcaster holding concentration, which her Bard/Paladin build supports.

@@ -41,6 +41,8 @@ Silent in a way that feels enforced. Sound doesn't carry. The air smells of dry 
 
 **Side-gold (150-300 gp):** harvested coral, a discretion tip, or a small Warden bounty. (Destination for the **Sealed and Sworn** job.)
 
+> **Overtaken by session 1: Reefside is now partially destroyed.** House Vellum's steward, **Factor Ren Calder** (formal gold-and-maroon robes, high spiked collar), and checkpoint **Warden Rhiz Kellan** received the *Night Fury*'s Sealed and Sworn delivery here; Calder quietly tipped Estra for her discretion, and Kellan visibly disliked being refused a ship inspection. Bex Halloway's ambush on departure ended with Reefside's own defense cannons destroying the *Grendel's Wake*, and the explosion drew a **void scavver** in close, which rammed the port directly, tore a chunk of the coral structure loose, and fed on the wreckage before the *Night Fury* fled. See `sessions/Session 1.md` for the full account. Treat the checkpoint as visibly damaged and short-staffed if the crew, or anyone else, comes back.
+
 # THE TOLLMARCH: the chokepoint
 
 *Contested space, thick with hazards, and the only shortcut outward. Stoneward's.*

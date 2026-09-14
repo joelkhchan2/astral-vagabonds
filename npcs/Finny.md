@@ -11,6 +11,8 @@ The heart of the ship and its leaky pipe. Finny knows everyone's business within
 
 **Off duty:** works a **sending stone** (a paired comms crystal) to trade gossip and make small deals with contacts across a dozen ports, hosts the crew game night in the galley (cards and dice, `rules/Downtime Games.md`), and studies the Manifest Board like scripture.
 
+**Played, session 1: he'll cross a real line for it.** At Reefside he pickpocketed House Vellum's own steward for the lockbox's key on the spot, over Aerion's flat "bad idea" and everyone else's mild curiosity, purely because a locked box nobody's allowed to look in is exactly the kind of information he can't stand not having. Nobody turned him in. He still has the key; the crew doesn't know that for certain (`sessions/Session 1.md`). It's the same instinct as the gossip, pointed at something with real teeth this time, worth remembering the next time "harmless" curiosity is on the table.
+
 ## Why he cares about ships so much
 Finny grew up **portless**, in a foundling house down in the rope city of the Rock of Bral, one of a dozen dock kids who slept three to a bunk and spent their days watching hulls come and go from a gantry rail. To those kids a ship wasn't a machine, it was the way out and the proof that somebody, somewhere, wanted a crew. A berth meant you existed. You counted. You had a place and people who noticed if you didn't show up.
 

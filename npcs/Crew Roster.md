@@ -21,7 +21,7 @@
 **Spotlight moments:** Navigation and helm scenes, first-contact with astral creatures, anything that echoes the Vocalise or a missing crewmate.
 
 ### How they know each other
-They trained together as teenagers under Aerion's uncle, the "space samurai" **Vaelren Windsong**. Orena wanted to learn the sword; she met Aerion at the camp, they were made to share a bunk, and they became lifelong friends. Years later Aerion needed a new ship after his blew up, they re-met, and he recruited her.
+They trained together as teenagers under Aerion's uncle, the "space samurai" **Vaelren Windsong**. Orena wanted to learn the sword; she met Aerion at the camp, they were made to share a bunk, and they became lifelong friends. Years later Aerion needed a new ship after his blew up, they re-met, and he recruited her. Full flashback beats as actually played (the obstacle wall, the bullies, Vaelren's two lines worth reusing): `npcs/Aerion Windsong.md` and `npcs/Orena.md`.
 
 ---
 
