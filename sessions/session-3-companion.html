@@ -1,0 +1,547 @@
+<title>Three Chairs at the Board</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #e7ecf1; --surface: #f6f8fb; --surface-2: #eef2f6;
+    --ink: #18202e; --muted-text: #566173;
+    --accent: #8a6a2c; --accent-soft: #b98f3f; --teal: #256d67;
+    --line: #d3dae2; --line-strong: #b9c3ce;
+    --dm: #7a3f6e; --dm-bg: #f3e9f1;
+    --danger: #a23b3b; --danger-bg: #f6e7e5;
+    --opp: #2f6b45; --opp-bg: #e6f0ea;
+    --cost: #8a5a1f; --cost-bg: #f4ebdd;
+    --read: #1f4f6b; --read-bg: #e9f0f4;
+    --pc: #4a4396; --pc-bg: #ecebf6;
+    --shadow: 0 1px 2px rgba(24,32,46,.06), 0 6px 20px rgba(24,32,46,.06);
+  }
+  :root:not([data-theme="light"]) { color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+      --ink: #e7ecf3; --muted-text: #93a0b3;
+      --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+      --line: #262f3d; --line-strong: #33404f;
+      --dm: #cf95c2; --dm-bg: #221722;
+      --danger: #e08a83; --danger-bg: #241615;
+      --opp: #86c79c; --opp-bg: #14201a;
+      --cost: #e0b877; --cost-bg: #201a12;
+      --read: #8fc6e0; --read-bg: #101c24;
+      --pc: #a9a3e6; --pc-bg: #16162a;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+    --ink: #e7ecf3; --muted-text: #93a0b3;
+    --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+    --line: #262f3d; --line-strong: #33404f;
+    --dm: #cf95c2; --dm-bg: #221722;
+    --danger: #e08a83; --danger-bg: #241615;
+    --opp: #86c79c; --opp-bg: #14201a;
+    --cost: #e0b877; --cost-bg: #201a12;
+    --read: #8fc6e0; --read-bg: #101c24;
+    --pc: #a9a3e6; --pc-bg: #16162a;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 16px; line-height: 1.62; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  .topbar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar .wrap { display: flex; align-items: center; gap: 20px; height: 60px; }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 17px; letter-spacing: .01em; white-space: nowrap; }
+  .brand .anchor-mark { color: var(--accent); }
+  .navlinks { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; }
+  .navlinks a { color: var(--muted-text); text-decoration: none; font-size: 12.5px; font-weight: 500; padding: 6px 10px; border-radius: 6px; white-space: nowrap; letter-spacing: .02em; }
+  .navlinks a:hover { color: var(--ink); background: var(--surface-2); }
+  .toggle { flex: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); border-radius: 7px; height: 34px; width: 34px; cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+  .toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .toggle:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .hero { padding: 72px 0 48px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background:
+      radial-gradient(1px 1px at 12% 30%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78% 18%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 62% 62%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 78%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90% 74%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 22% 54%, var(--line-strong) 50%, transparent 51%); }
+  .hero .wrap { position: relative; z-index: 1; }
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  h1 { font-family: "Fraunces", serif; font-weight: 600; letter-spacing: -.01em; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02; margin: 16px 0 0; text-wrap: balance; max-width: 15ch; }
+  .hero .lede { font-size: 1.16rem; color: var(--muted-text); max-width: 62ch; margin: 22px 0 0; }
+  .hero .slogan { margin-top: 28px; font-family: "Fraunces", serif; font-style: italic; font-size: 1.05rem; color: var(--ink); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; max-width: 60ch; }
+
+  section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 8px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); font-weight: 500; }
+  h2 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.7rem, 3.4vw, 2.4rem); line-height: 1.08; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+  .sec-intro { color: var(--muted-text); max-width: 66ch; margin: 14px 0 30px; font-size: 1.03rem; }
+  h3 { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.3rem; margin: 8px 0 4px; letter-spacing: -.005em; text-wrap: balance; }
+  h4 { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 1rem; margin: 22px 0 6px; }
+  p { margin: 12px 0; }
+  a.inline { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+  .measure { max-width: 68ch; }
+  .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-text); font-weight: 500; }
+
+  .grid { display: grid; gap: 18px; }
+  .grid.two { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .grid.three { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: var(--shadow); }
+  .card h3 { margin-top: 0; }
+  .card h4:first-child { margin-top: 0; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 4px 0 8px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .tile .k { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted-text); }
+  .tile .v { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.5rem; margin-top: 3px; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+  .tile .v small { font-family: "IBM Plex Mono", monospace; font-size: .7rem; font-weight: 500; color: var(--muted-text); letter-spacing: .02em; }
+
+  .quote { font-family: "Fraunces", serif; font-style: italic; color: var(--ink); border-left: 2px solid var(--accent-soft); padding-left: 12px; margin: 14px 0; font-size: 1rem; }
+  .quote .who { display:block; font-family: "IBM Plex Mono", monospace; font-style: normal; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); margin-bottom: 4px; }
+
+  .read { background: var(--read-bg); border: 1px solid color-mix(in srgb, var(--read) 32%, transparent); border-left: 3px solid var(--read); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .read .read-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; color: var(--read); display: block; margin-bottom: 6px; }
+  .read p { margin: 6px 0; color: var(--ink); }
+  .read p:first-of-type { margin-top: 0; }
+  .read p:last-child { margin-bottom: 0; }
+
+  .call { border-radius: 10px; padding: 14px 16px; margin: 14px 0; border: 1px solid; font-size: .95rem; }
+  .call .call-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; display: block; margin-bottom: 4px; }
+  .call p:first-of-type { margin-top: 2px; }
+  .call p:last-child { margin-bottom: 0; }
+  .call.dm { background: var(--dm-bg); border-color: color-mix(in srgb, var(--dm) 40%, transparent); }
+  .call.dm .call-label { color: var(--dm); }
+  .call.danger { background: var(--danger-bg); border-color: color-mix(in srgb, var(--danger) 40%, transparent); }
+  .call.danger .call-label { color: var(--danger); }
+  .call.opp { background: var(--opp-bg); border-color: color-mix(in srgb, var(--opp) 40%, transparent); }
+  .call.opp .call-label { color: var(--opp); }
+  .call.cost { background: var(--cost-bg); border-color: color-mix(in srgb, var(--cost) 40%, transparent); }
+  .call.cost .call-label { color: var(--cost); }
+  .call.pc { background: var(--pc-bg); border-color: color-mix(in srgb, var(--pc) 40%, transparent); }
+  .call.pc .call-label { color: var(--pc); }
+
+  .beat { border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; margin: 18px 0; background: var(--surface); box-shadow: var(--shadow); }
+  .beat > .beat-head { display: flex; align-items: baseline; gap: 12px; }
+  .beat .bnum { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--accent); font-size: .95rem; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line-strong)); border-radius: 7px; padding: 1px 9px; flex: none; }
+  .beat h3 { margin: 0; }
+  .beat .who-leads { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .04em; color: var(--muted-text); margin-top: 2px; }
+
+  .crew { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .crew .card { padding: 20px; }
+  .crew .c-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .crew h4 { margin: 0; font-size: 1.08rem; font-family: "Fraunces", serif; font-weight: 600; }
+  .crew .c-role { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+  .crew dl { margin: 12px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 5px 12px; font-size: .9rem; }
+  .crew dt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); padding-top: 3px; white-space: nowrap; }
+  .crew dd { margin: 0; }
+
+  .tablewrap { overflow-x: auto; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  thead th { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted-text); font-weight: 600; background: var(--surface-2); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.ctr, th.ctr { text-align: center; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.name { font-weight: 600; }
+  tbody tr:hover { background: var(--surface-2); }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+
+  .spec { display: grid; grid-template-columns: repeat(auto-fit, minmax(88px,1fr)); gap: 2px 14px; margin: 12px 0; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; }
+  .spec div { display: flex; flex-direction: column; padding: 4px 0; }
+  .spec .k { color: var(--muted-text); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+  .spec .v { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  ul.clean { margin: 12px 0; padding-left: 20px; }
+  ul.clean li { margin: 6px 0; }
+  ul.tight { margin: 6px 0; padding-left: 18px; }
+  ul.tight li { margin: 3px 0; }
+  ol.clean { margin: 12px 0; padding-left: 20px; }
+  ol.clean li { margin: 6px 0; }
+
+  footer { padding: 40px 0 70px; color: var(--muted-text); font-size: .86rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+  .divider-note { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted-text); letter-spacing: .04em; }
+
+  /* Job tabs */
+  .tabbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 22px; }
+  .tabbtn { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; letter-spacing: .04em; padding: 10px 16px; border-radius: 9px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); cursor: pointer; text-align: left; }
+  .tabbtn .tt-name { display: block; font-family: "Fraunces", serif; font-size: 1rem; color: var(--ink); font-weight: 600; letter-spacing: 0; margin-bottom: 2px; }
+  .tabbtn .tt-pay { display: block; }
+  .tabbtn:hover { border-color: var(--accent); }
+  .tabbtn[aria-selected="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface)); color: var(--accent); }
+  .tabbtn[aria-selected="true"] .tt-name { color: var(--ink); }
+  .tabpanel[hidden] { display: none; }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="anchor-mark">&#9875;</span> Three Chairs at the Board</span>
+    <nav class="navlinks">
+      <a href="#run">Run Sheet</a>
+      <a href="#cold">Cold Open</a>
+      <a href="#job">The Job</a>
+      <a href="#bastion">Bastion Pick</a>
+      <a href="#reference">Reference</a>
+      <a href="#next">Next</a>
+    </nav>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">&#9681;</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Astral Vagabonds &middot; Session Three Companion</span>
+    <h1>Three Chairs at the Board.</h1>
+    <p class="lede">Session 2 ran quiet on purpose. This one hands the table a real, live choice, three postings, one pick, made cold at the Manifest Board with no steer toward the biggest number. Whichever they take, the rest of this page is built to run without opening another file. Only one of the three job sections below will ever be live in a given sitting, use the tabs.</p>
+    <p class="slogan">The table picks the danger tonight. Don't pick it for them.</p>
+    <div class="call pc" style="margin-top:24px"><span class="call-label">The one rule that outranks this page</span><p><strong>Never decide for the players.</strong> Orena and Aerion are Gabrielle's and Priscilla's. This page gives situations, options, and spotlight <em>opportunities</em>, never what they buy, say, feel, or choose, and never which job they take. Violet boxes flag exactly where the next move belongs to a player.</p></div>
+    <div class="call dm" style="margin-top:14px"><span class="call-label">How to use this page</span><p>Plum blocks are GM-only. Blue <strong>Read aloud</strong> boxes are narration to say or paraphrase. <a href="#job" class="inline">&sect;03</a> is tabbed, click the posting the table actually takes and ignore the other two, they're there for reference, not to be run in parallel. Narration follows <span class="mono">rules/DMing Craft.md</span>.</p></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- RUN SHEET -->
+  <section id="run">
+    <div class="sec-head"><span class="sec-num">01</span><h2>The run sheet</h2></div>
+    <p class="sec-intro">One screen for the whole night. If you look at nothing else while you run, look at this.</p>
+    <p class="measure" style="font-family:'Fraunces',serif;font-style:italic;font-size:1.08rem;color:var(--ink);border-left:3px solid var(--accent);padding:2px 0 2px 14px;margin:0 0 26px">The crew picks a job live at the Board, then runs it. Quiet Water is a genuinely safe social run. The Ledger Run and Two Chairs Short both carry real ship-to-ship danger, calibrated fair for level 5. Whatever gets picked, Aerion's second bastion facility is this session's other live decision.</p>
+    <div class="tiles">
+      <div class="tile"><div class="k">Op cost</div><div class="v">600 <small>gp / voyage</small></div></div>
+      <div class="tile"><div class="k">Board rank</div><div class="v">345 <small>of 350</small></div></div>
+      <div class="tile"><div class="k">Lockbox</div><div class="v">unopened <small>Storehouse</small></div></div>
+      <div class="tile"><div class="k">WE KNOW note</div><div class="v">unaddressed <small>Vellum</small></div></div>
+      <div class="tile"><div class="k">Aerion slots</div><div class="v">1 <small>of 2 spent</small></div></div>
+    </div>
+    <div class="grid two" style="margin-top:22px">
+      <div class="card">
+        <h4>What tonight has to do</h4>
+        <ul class="clean">
+          <li><strong>Present the Board pick live and cold.</strong> No steer toward the biggest number, even though this table usually reaches for it.</li>
+          <li><strong>Run whichever job gets taken</strong>, fully, using the matching tab in <a href="#job" class="inline">&sect;03</a>.</li>
+          <li><strong>Land Aerion's second facility pick</strong>, Armory or Barrack are the live contenders.</li>
+          <li><strong>Close on a real hook</strong>, whichever live thread the session's own events made loudest.</li>
+          <li><strong>Nothing else gets seeded tonight.</strong> Space clowns and the training episode stay banked, on purpose.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Order of play</h4>
+        <ol class="clean">
+          <li><strong>Cold open: the Board pick.</strong> Live, table's choice. <span class="mono">(&sect;02) ~15m</span></li>
+          <li><strong>Run the picked job</strong>, full branch, using the matching tab. <span class="mono">(&sect;03) ~60-90m</span></li>
+          <li><strong>Aerion's second facility.</strong> Whenever the voyage has a quiet beat. <span class="mono">(&sect;04) ~10m</span></li>
+          <li><strong>Close on the session's real hook.</strong> <span class="mono">(&sect;05)</span></li>
+        </ol>
+        <div class="call opp"><span class="call-label">Don't run all three job sections</span><p>Only one tab in &sect;03 is this session's actual content. The other two stay banked for a future rotation if they don't get picked.</p></div>
+      </div>
+    </div>
+    <div class="grid two" style="margin-top:18px">
+      <div class="card">
+        <h4>Where things stand, going in</h4>
+        <ul class="clean">
+          <li><strong>Board: 345th of 350</strong>. Three postings up: Quiet Water, The Ledger Run, Two Chairs Short.</li>
+          <li><strong>The lockbox is aboard, unopened,</strong> now that the crew's had a session to sit with it (letters, chart, and the seam are theirs to work with whenever they choose).</li>
+          <li><strong>The "WE KNOW" note landed last session</strong>, still sitting unanswered, a tremor, not the real conversation.</li>
+          <li><strong>Bex Halloway's fate is still unconfirmed.</strong> Don't resolve it tonight unless the table's own choices force it.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Keep in your pocket</h4>
+        <ul class="clean">
+          <li><strong>This table reaches for the biggest number given a choice.</strong> Expect Two Chairs Short, but present all three cold regardless.</li>
+          <li><strong>Two Chairs Short is calibrated to be fair</strong>, dangerous but built to break off once resisted, and a joint fight, not a solo one.</li>
+          <li><strong>Neither combat branch should read as a token scuffle.</strong> Same weight as the Bex fight, injuries possible, real stakes.</li>
+          <li><strong>Facilities are unpooled now</strong>, Aerion's second slot is his own pick, not a shared one (<span class="mono">rules/Rules &amp; Systems.md</span> &sect;6).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLD OPEN -->
+  <section id="cold">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Cold open: the Manifest Board pick</h2></div>
+    <p class="sec-intro">A real, live scene, not a recap. The crew is back at the Board, three new postings up. The choice is entirely theirs.</p>
+    <div class="read">
+      <span class="read-label">Read aloud</span>
+      <p>The Charter Window's posting board has turned over since you were last here. Three jobs, three chalked-up cards, pinned where Sealed and Sworn used to sit. Someone's already reading them out loud before you've even decided whose turn it is to pick.</p>
+    </div>
+    <div class="grid two">
+      <div class="card">
+        <h4>Present all three, plainly</h4>
+        <p>Payout, days, tons, complication, for each posting, straight off the cards in <a href="#reference" class="inline">&sect;06</a>. No steer toward the biggest number, even though that's the likely pick given how session 1's Escort job went before a level-appropriateness check was needed.</p>
+      </div>
+      <div class="call pc"><span class="call-label">Entirely the table's call</span><p>Let the room's own read of risk versus payout do the work. Whoever argues for which job, and why, is exactly the scene. Don't resolve the pick for them, don't hint which one "the DM wants."</p></div>
+    </div>
+    <div class="call opp"><span class="call-label">If they surprise you</span><p>Quiet Water needs no combat prep at all. The Ledger Run and Two Chairs Short both have a full stat block ready in their tab. Whichever gets picked, open that tab in <a href="#job" class="inline">&sect;03</a> and run from there.</p></div>
+  </section>
+
+  <!-- THE JOB (TABBED) -->
+  <section id="job">
+    <div class="sec-head"><span class="sec-num">03</span><h2>The job: whichever gets picked</h2></div>
+    <p class="sec-intro">Three standalone branches. Click the one the table actually took, the other two are reference only and shouldn't be run the same night.</p>
+
+    <div class="tabbar" role="tablist" aria-label="Job postings">
+      <button class="tabbtn" role="tab" data-tab="quiet" aria-selected="false"><span class="tt-name">Quiet Water</span><span class="tt-pay">1,300 gp &middot; safe pick</span></button>
+      <button class="tabbtn" role="tab" data-tab="ledger" aria-selected="false"><span class="tt-name">The Ledger Run</span><span class="tt-pay">2,400 gp &middot; real danger</span></button>
+      <button class="tabbtn" role="tab" data-tab="chairs" aria-selected="false"><span class="tt-name">Two Chairs Short</span><span class="tt-pay">5,600 gp total &middot; highest danger</span></button>
+    </div>
+
+    <!-- QUIET WATER -->
+    <div class="tabpanel" id="panel-quiet" role="tabpanel" hidden>
+      <p class="sec-intro" style="margin-top:0">No combat content by design. Steer toward this one if the table wants a genuinely light night.</p>
+      <div class="grid two">
+        <div class="card">
+          <h4>OSRIC PRYNNE <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; the client</span></h4>
+          <p>Patriarch of House Prynne, a Chain merchant family with old manners and thin margins. <strong>Voice:</strong> speaks entirely in appraisals, "that'll do," "acceptable," "below the mark," never a plain yes or no. <strong>Tic:</strong> checks a brass chronometer he doesn't need to check, a tell for nerves he'd never admit to. <strong>Want:</strong> this match saves the family, and he knows everyone at the Concourse will know it too.</p>
+        </div>
+        <div class="card">
+          <h4>ISOLDE PRYNNE <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; who's actually being chaperoned</span></h4>
+          <p>The eldest, pragmatic about the arrangement in a way her father mistakes for indifference. Watching everything, gathering information the way someone does when nobody's ever asked their opinion before. <strong>Want:</strong> to be taken seriously by exactly one person on this trip.</p>
+        </div>
+      </div>
+      <div class="call dm"><span class="call-label">Why Osric's heard the name</span><p>House Prynne carries a Nightbreeze policy, and Nightbreeze's claims office has been buzzing about the <em>Grendel's Wake</em>'s total loss and the unranked crew that walked away from it. Standard underwriter gossip, nothing sinister. Osric can't decide if hiring the crew that survived Bex Halloway is a good story to tell at the Concourse or a bad one.</p></div>
+      <h4>Branch points</h4>
+      <ol class="clean">
+        <li><strong>The almost-mention.</strong> The crew lets it go (uneventful, warm trip) or presses (Osric admits the Nightbreeze source easily, nothing to hide, the scene becomes about <em>why he's so nervous about status</em>).</li>
+        <li><strong>A private moment with Isolde.</strong> She seeks out whichever PC has been paying attention to her, offers something real in return, Chain gossip, a genuine compliment, a small kindness. Let her be a person.</li>
+        <li><strong>At the Concourse, optional light color.</strong> A rival merchant house present, a status-comedy beat, nothing that needs to escalate.</li>
+      </ol>
+    </div>
+
+    <!-- LEDGER RUN -->
+    <div class="tabpanel" id="panel-ledger" role="tabpanel" hidden>
+      <p class="sec-intro" style="margin-top:0"><strong>No Reefside.</strong> The two archive stations are further out along the Windward Edge, unrelated to the ambush site.</p>
+      <div class="card">
+        <h4>RIMMON VEX <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; the <em>Cutlass Sunday</em>, rank 344</span></h4>
+        <p>Sour, opportunistic, takes being passed on the Board as a personal insult. Not trying to kill anyone, trying to find out if the Bex fight was a fluke, and he'll take the survey data as a prize if he can get it without real cost to himself.</p>
+      </div>
+      <h4>THE CUTLASS SUNDAY</h4>
+      <div class="spec">
+        <div><span class="k">AC</span><span class="v">14</span></div>
+        <div><span class="k">HP</span><span class="v">190</span></div>
+        <div><span class="k">Threshold</span><span class="v">14</span></div>
+        <div><span class="k">Speed</span><span class="v">55 ft</span></div>
+        <div><span class="k">Guns</span><span class="v">2 ballistae</span></div>
+        <div><span class="k">Crew</span><span class="v">~6</span></div>
+      </div>
+      <p class="mono" style="font-size:.85rem;color:var(--muted-text)">A worse Swift Cutter, meaner than it looks. Enough to actually hurt the <em>Night Fury</em> if the crew gets careless, not enough to win a straight fight if they don't.</p>
+      <h4>Branch points</h4>
+      <ol class="clean">
+        <li><strong>The approach.</strong> A direct heading past Vex's usual grounds (faster, on schedule) or a longer swing wide of it (safer, costs margin on the 18-day window).</li>
+        <li><strong>First contact.</strong> Vex hails before he commits, testing. Takes a bribe, backs off if he reads genuine confidence, presses if he smells hesitation. Let the crew's response decide what happens next, this is the scene, not the fight.</li>
+        <li><strong>If it goes hot.</strong> Real ship-to-ship exchange, side initiative, both ballistae live, Vex boards if he thinks he's winning. Same weight as the Bex fight, injuries possible. <strong>He breaks off once it's clearly not going his way</strong>, but that should cost the crew something to establish.</li>
+        <li><strong>Aftermath, if he loses.</strong> A real dent in his standing at the Compass Rose, a grudge earned rather than assumed. If he wins anything, play it as a genuine setback, not a wipe, he's a recurring face, not a boss.</li>
+      </ol>
+    </div>
+
+    <!-- TWO CHAIRS SHORT -->
+    <div class="tabpanel" id="panel-chairs" role="tabpanel" hidden>
+      <p class="sec-intro" style="margin-top:0"><strong>Reframed as a joint job, not a rescue.</strong> The outfit is Ollo Trask's <em>Quiet Sum</em> (rank 346), the crew's cordial rival, who lost two of his four crew mid-contract and won't give up the fee, so he's offering to split it for a second hull to run it <em>with</em> him. Reversing the usual dynamic, the undercutter needing them for once, is the point. Play it warmly.</p>
+      <div class="call opp"><span class="call-label">Built-in texture</span><p>Two crews, two chains of command, on one job. Trask is relentlessly cheerful and genuinely not used to taking orders from anyone, let that create small, funny friction (whose call is it when the two ships disagree) that doesn't need to escalate, just color.</p></div>
+      <h4>THE RAIDER <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; unmarked, run off Aeravellis's spec sheet</span></h4>
+      <div class="spec">
+        <div><span class="k">AC</span><span class="v">15</span></div>
+        <div><span class="k">HP</span><span class="v">250</span></div>
+        <div><span class="k">Speed</span><span class="v">35 ft</span></div>
+        <div><span class="k">Guns</span><span class="v">4 ballistae + jaws</span></div>
+        <div><span class="k">Crew</span><span class="v">15</span></div>
+      </div>
+      <p class="mono" style="font-size:.85rem;color:var(--muted-text)">A converted Balanced Trader, comparable to the <em>Night Fury</em> alone, exactly why this needs to be a joint fight to feel fair. <strong>It wants easy cargo, not a fight</strong>, and breaks off the moment the boarded target shows it can actually resist.</p>
+      <h4>Branch points</h4>
+      <ol class="clean">
+        <li><strong>Getting the real story.</strong> Does Trask admit up front what happened to his crew, or does it come out under pressure once both ships are already committed? A reluctant confession mid-transit hits harder.</li>
+        <li><strong>The boarding.</strong> The raider closes on whichever ship it reads as weaker, almost certainly the <em>Quiet Sum</em>, first. Real stakes on Trask's remaining two crew, named if you want the danger to land. This is where someone who isn't a PC can plausibly get hurt, and it should feel like it could go that way.</li>
+        <li><strong>Resolution options.</strong> Fight it off together (the <em>Night Fury</em>'s guns decide it, good spotlight for whoever's gunning), draw its attention onto the <em>Night Fury</em> on purpose (a real tactical choice), or a partial loss, cargo or coin taken, everyone alive. Don't railroad toward the clean win.</li>
+        <li><strong>Aftermath.</strong> Strongest bottom-of-the-Board friendship beat available with Bex's slot gone quiet. Also quietly deposits another data point toward the eventual Aeravellis reveal (M6), don't name him, don't explain the hull, let the pattern exist for later.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- BASTION -->
+  <section id="bastion">
+    <div class="sec-head"><span class="sec-num">04</span><h2>Bastion action: Aerion's second facility</h2></div>
+    <p class="sec-intro">His pick alone, facilities are unpooled per PC. Best run whenever the voyage has a quiet beat, mid-transit on whichever job gets picked, or back at port if the job doesn't leave room for it.</p>
+    <div class="grid two">
+      <div class="card">
+        <h4>Armory <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; live contender</span></h4>
+        <p>Roomy, Trade order, no prerequisite. Stockpiles weapons and armor; a stocked Armory equips Bastion Defenders when the ship is attacked. Fits his combat-readiness angle directly, pays off hard if Two Chairs Short gets picked.</p>
+      </div>
+      <div class="card">
+        <h4>Barrack <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; live contender</span></h4>
+        <p>Roomy, Recruit order, no prerequisite. Houses Bastion Defenders, Recruit adds more up to the space cap. The most literal answer to "who's actually defending the ship."</p>
+      </div>
+      <div class="card">
+        <h4>Sanctuary <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; listed for completeness</span></h4>
+        <p>Roomy, Craft order, requires a Holy Symbol or Druidic Focus. Orena's focus already qualifies for it and she took Library and Arcane Study instead. Weakest fit for Aerion specifically.</p>
+      </div>
+    </div>
+    <div class="call dm"><span class="call-label">Don't decide it for him</span><p>Present Armory and Barrack as the real contenders. Let the pick say something about how he thinks about the ship's defenses now that a real boarding threat may be on the table tonight.</p></div>
+  </section>
+
+  <!-- REFERENCE -->
+  <section id="reference">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Reference: crew, ship, money, the board</h2></div>
+    <p class="sec-intro">Pure lookup. Combat may or may not happen tonight depending on the pick, everything needed either way is here.</p>
+
+    <h3>The crew, quick reference</h3>
+    <div class="crew">
+      <div class="card">
+        <div class="c-top"><h4>Captain Estra Vane</h4><span class="c-role">Captain</span></div>
+        <dl><dt>Voice</dt><dd>Flat, precise, warm underneath. Never raised.</dd><dt>Tic</dt><dd>The dented tin mug. Solitaire alone at night.</dd></dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Tack</h4><span class="c-role">Engineer / gunner</span></div>
+        <dl><dt>Voice</dt><dd>Cheerful, literal, talks <em>to</em> the ship.</dd><dt>Tic</dt><dd>Names every part.</dd></dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Brass Thorngage</h4><span class="c-role">Medic / cook</span></div>
+        <dl><dt>Voice</dt><dd>Fast, wry, always mid-angle.</dd><dt>Tic</dt><dd>The morning d4 for what dinner will do to you.</dd></dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Finny Groles</h4><span class="c-role">Rigger / gossip</span></div>
+        <dl><dt>Voice</dt><dd>A firehose of gossip and enthusiasm.</dd><dt>Tic</dt><dd>Buys something stupid every port.</dd></dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Oz Hammerfall</h4><span class="c-role">Security / scout</span></div>
+        <dl><dt>Voice</dt><dd>Soft, formal, courteous.</dd><dt>Tic</dt><dd>"I had idle hands." Always mending something.</dd></dl>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Flurry</h4><span class="c-role">Baby dragon</span></div>
+        <dl><dt>Voice</dt><dd>Chirps, trills, hides in Aerion's coat.</dd><dt>Tic</dt><dd>The outfits Aerion insists are not doting.</dd></dl>
+      </div>
+    </div>
+
+    <h3>The ship, at a glance</h3>
+    <div class="grid two">
+      <div class="card">
+        <p class="label">Night Fury &middot; Sturdy Trader</p>
+        <div class="spec">
+          <div><span class="k">AC</span><span class="v">19 +Plating</span></div>
+          <div><span class="k">HP</span><span class="v">250</span></div>
+          <div><span class="k">Threshold</span><span class="v">20</span></div>
+          <div><span class="k">Speed</span><span class="v">~45 ft</span></div>
+          <div><span class="k">Guns</span><span class="v">2 ballistae, ram</span></div>
+          <div><span class="k">Crew</span><span class="v">7 of 11</span></div>
+          <div><span class="k">Cargo</span><span class="v">20 tons</span></div>
+          <div><span class="k">Air</span><span class="v">120 days</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <p class="label">Bastion facilities, current</p>
+        <div class="spec">
+          <div><span class="k">Aerion</span><span class="v">Storehouse</span></div>
+          <div><span class="k">Aerion &#8203;</span><span class="v">open</span></div>
+          <div><span class="k">Orena</span><span class="v">Library</span></div>
+          <div><span class="k">Orena &#8203;</span><span class="v">Arcane Study</span></div>
+        </div>
+        <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Unpooled, each PC owns their own two level-5 slots (<span class="mono">rules/Rules &amp; Systems.md</span> &sect;6).</p>
+      </div>
+    </div>
+
+    <h3>The Manifest Board, the crew's neighbourhood</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="ctr">Rank</th><th>Vessel</th><th>Captain</th><th>Disposition</th></tr></thead>
+        <tbody>
+          <tr><td class="ctr">344</td><td class="name"><em>Cutlass Sunday</em></td><td>Rimmon Vex</td><td>Hostile-ish, the Ledger Run threat</td></tr>
+          <tr><td class="ctr" style="color:var(--accent);font-weight:700">345</td><td class="name">The crew</td><td>Estra Vane</td><td>Home</td></tr>
+          <tr><td class="ctr">346</td><td class="name"><em>Quiet Sum</em></td><td>Ollo Trask</td><td>Cordial rival, Two Chairs Short's partner</td></tr>
+          <tr><td class="ctr">347</td><td class="name"><em>Kettle</em></td><td>the Weatheralls</td><td>Warm, the conscience</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="mono" style="font-size:.82rem;color:var(--muted-text)">Board updates when the crew is back at port, no fixed formula: rank moves up when a job completes (judgment call), and can move down for a real story reason, never as background bookkeeping.</p>
+
+    <h3>The three postings, full text</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Quiet Water <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; 1,300 gp &middot; 15 days &middot; 3 tons</span></h4>
+        <p>House Prynne wants their eldest, Isolde, chaperoned to a betrothal meeting at the Larkspur Concourse. <em>Complication:</em> patriarch Osric Prynne has heard the <em>Night Fury</em>'s name from somewhere he won't specify. The safe, low-danger pick.</p>
+      </div>
+      <div class="card">
+        <h4>The Ledger Run <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; 2,400 gp &middot; 20 days &middot; 5 tons</span></h4>
+        <p>A Delverane clerk needs survey backlogs hand-carried between two Windward Edge stations. <em>Complication:</em> the <em>Cutlass Sunday</em> has been shadowing couriers since word got around this crew got jumped and won. Real ship-to-ship danger, calibrated fair.</p>
+      </div>
+      <div class="card">
+        <h4>Two Chairs Short <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; 5,600 gp total, ~2,800 gp to the crew &middot; 22 days &middot; 4 tons</span></h4>
+        <p>A small outfit lost half its crew mid-contract and offers to split the fee for a second hull to run it jointly. <em>Complication:</em> an unmarked boarding hull with grappling jaws hitting soft targets in the Tollmarch. Highest pay and most danger this rotation, calibrated survivable specifically because it's a joint fight.</p>
+      </div>
+      <div class="card">
+        <h4>Standing: Open Season <span class="mono" style="font-weight:400;color:var(--muted-text)">&middot; pay scales, never rotates off</span></h4>
+        <p>The CIV's bounty on void-lane predators, proof by fin-clip. <strong>Gray</strong> 5 gp, <strong>Brown</strong> 250 gp, <strong>Night</strong> 750 gp, <strong>Void</strong> 10,000 gp plus a Board incident-log line. Always available.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEXT -->
+  <section id="next" style="border-bottom:none">
+    <div class="sec-head"><span class="sec-num">06</span><h2>Ending the session</h2></div>
+    <p class="sec-intro">Close on whichever live thread the session's own events made loudest, don't force one the table's choices didn't earn.</p>
+    <div class="grid two">
+      <div class="card"><h4>If it stayed quiet</h4><p>The Vellum note, the lockbox, or Bex's fate are all still sitting there, unresolved, and any one of them can carry the hook if nothing louder happened tonight.</p></div>
+      <div class="card"><h4>If it went hot</h4><p>Two Chairs Short's raider (if picked) quietly deposits a data point toward the eventual Aeravellis reveal, don't name him, don't explain the hull, just let the pattern exist for whoever's paying attention.</p></div>
+    </div>
+    <p class="sec-intro" style="margin-top:22px">Banked and untouched tonight, on purpose: the space clown troupe and the Cross-Trained training episode, both still on <span class="mono">sessions/Session Ideas.md</span> without a session slot.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="divider-note">Astral Vagabonds &middot; Session 3 Companion &middot; built from <span class="mono">sessions/Session 3 Prep.md</span> and the campaign's canon docs</span>
+    <span class="divider-note">Player agency is absolute: never decide what Orena or Aerion buy, say, feel, do, or pick.</span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('themeToggle');
+    var stored = null;
+    try { stored = localStorage.getItem('theme-session3'); } catch (e) {}
+    if (stored === 'light' || stored === 'dark') root.setAttribute('data-theme', stored);
+    function current() {
+      var attr = root.getAttribute('data-theme');
+      if (attr) return attr;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    if (btn) {
+      btn.addEventListener('click', function () {
+        var next = current() === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme-session3', next); } catch (e) {}
+      });
+    }
+  })();
+
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.tabbtn'));
+    var panels = { quiet: document.getElementById('panel-quiet'), ledger: document.getElementById('panel-ledger'), chairs: document.getElementById('panel-chairs') };
+    function select(name, persist) {
+      tabs.forEach(function (t) {
+        var on = t.getAttribute('data-tab') === name;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      Object.keys(panels).forEach(function (k) {
+        panels[k].hidden = (k !== name);
+      });
+      if (persist) { try { localStorage.setItem('session3-job-tab', name); } catch (e) {} }
+    }
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () { select(t.getAttribute('data-tab'), true); });
+    });
+    var initial = null;
+    try { initial = localStorage.getItem('session3-job-tab'); } catch (e) {}
+    select(initial && panels[initial] ? initial : 'chairs', false);
+  })();
+</script>
