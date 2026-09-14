@@ -1,6 +1,6 @@
 # Session N Prep
 
-Copy this file to `sessions/Session N Prep.md`, fill it in, delete this note and the bracketed guidance. Full guidance: `.claude/skills/session-structure/SKILL.md`. Voice/formatting rules: `.claude/skills/dnd-writing/SKILL.md`.
+Copy this file to `sessions/Session N Prep.md`, fill it in, delete this note and the bracketed guidance. **Before filling anything in, clarify with the DM what kind of session this is and which sections actually apply**, see the "Before you build" section of `.claude/skills/session-structure/SKILL.md`. Voice/formatting rules: `.claude/skills/dnd-writing/SKILL.md`. Once this doc's content is settled, the usual next step is a comprehensive `sessions/session-N-companion.html` (model: `sessions/session-2-companion.html`), the run-ready version for the table.
 
 **Number the headers below yourself, sequentially, based on what this session actually has.** Drop any section that doesn't apply rather than leaving a stub for it, the way `sessions/Session 2 Prep.md` does (it runs 1 through 5 with no battle section at all, because that session didn't have one). Don't feel bound to this order either, if the job's shape wants the social beat before the main content, or the session is one long set piece with no port return, reorder or cut freely. This file is a checklist of what to consider, not a form to fill in top to bottom.
 

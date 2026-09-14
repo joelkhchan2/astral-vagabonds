@@ -1,6 +1,6 @@
 ---
 name: session-structure
-description: The standing beat skeleton for Astral Vagabonds session prep docs (cold open, main content, social, battle, ending hook). Use whenever building a new `sessions/Session N Prep.md`, planning "what happens next session" in chat, or checking whether a prep doc is missing a beat. Companion to `dnd-writing` (voice) and `rules/DMing Craft.md` (scene craft); this skill is about session-level shape, not sentence-level style.
+description: The standing beat skeleton for Astral Vagabonds session prep docs (cold open, main content, social, battle, ending hook), how to interrogate what a session actually needs before drafting it, and how a session usually ends up as a comprehensive run-ready HTML companion. Use whenever building a new `sessions/Session N Prep.md` or `sessions/session-N-companion.html`, planning "what happens next session" in chat, or checking whether a prep doc is missing a beat. Companion to `dnd-writing` (voice) and `rules/DMing Craft.md` (scene craft); this skill is about session-level shape and process, not sentence-level style.
 ---
 
 # Session structure for Astral Vagabonds
@@ -19,6 +19,24 @@ description: The standing beat skeleton for Astral Vagabonds session prep docs (
 6. **Bastion actions / downtime**, when the voyage loop calls for a leg with nothing else going on.
 7. **Return to port / fallout.** Rumors, Manifest Board movement, consequences catching up. Only when the session actually closes at a berth, a session that ends mid-arc, mid-transit, or on a cliffhanger skips this by design, not by omission.
 8. **Ending: a hook, a mystery, or a cliffhanger.** Every session ends on something that carries forward, named explicitly so it doesn't get lost between sessions. Check `sessions/Session Ideas.md` for anything ready to seed here, and add anything new that surfaces but doesn't get used.
+
+## Before you build: clarify first
+
+Don't start writing a full prep doc from a one-line request. Interrogate the session the way a real planning conversation would, the same spirit as a brainstorming pass, ask before assuming, surface the decision points, don't silently pick for the DM. At minimum, get clear on:
+
+- **What kind of session is this?** A Tier 1 job-of-the-week (this skeleton applies cleanly), an arc set piece or location crawl (skeleton mostly doesn't apply, see above), a bottle episode, a one-off social session, something else.
+- **What's already in the DM's head?** Which contract got picked, which NPC or thread he wants to spotlight, any beat he already knows he wants. Don't invent a premise he's already decided; ask before drafting one.
+- **Which skeleton parts actually make sense here?** Walk the list (cold open, main content, social beats, battle, bastion, port fallout, ending hook) out loud and ask which apply, rather than defaulting to all of them. A battle-free session or a session with no port return is a legitimate answer, confirm it rather than assume it.
+- **What's the tone target relative to the last session?** Check whether the prior session ran hot or cold against the 70/20/10 compass before deciding how this one should counterweight.
+- **Is there anything on `sessions/Session Ideas.md` he wants seeded in**, or anything from `Live threads after session 1` (`CLAUDE.md`) that needs to surface.
+
+Work through these before committing to a structure, the same way session 2's bastion mechanics, lockbox contents, and fallout beats all went through a discuss-first pass rather than getting written straight to file. Match the depth of interrogation to the size of the ask, a small tweak doesn't need the full list, a from-scratch session does.
+
+## The typical deliverable: the HTML companion
+
+For a session that's actually going to be run at the table, the finished artifact is usually a **comprehensive, self-contained HTML companion** (`sessions/session-N-companion.html`), not just the markdown prep doc. `sessions/session-1-companion.html` and `sessions/session-2-companion.html` are the model: everything needed to run the session without opening another file, run sheet, cold open, full scene scripts, stat blocks, NPC voice cards, ship stats, current money, Manifest Board snapshot, and any handout props, in one page, matching that design system (Fraunces/IBM Plex Sans/IBM Plex Mono, light/dark theme, `.card`/`.beat`/`.call`/`.read`/`.crew`/`.tile`/`.spec` components).
+
+The markdown prep doc (from `sessions/Session Prep Template.md`) comes first, it's where the beats get discussed, revised, and confirmed with the DM. The HTML companion comes after, once the content is settled, as the run-ready version. Don't jump straight to HTML before the prep doc's content has actually been agreed on, the discuss-first clarification above still applies to what goes into the companion.
 
 ## How to use it
 
