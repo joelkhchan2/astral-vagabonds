@@ -83,7 +83,7 @@ All campaign prose (read-aloud, DM notes, NPC lines, session docs, the HTML comp
 Note: older docs in this repo still contain em-dashes from before this rule. Fix them when you touch a file; do not do a blind repo-wide sweep unasked.
 
 ## Session structure -- the standing skeleton
-Sessions follow a shared shape by now: cold open, main content, one social beat per PC (joint where possible), battle if the job calls for it, ending on a hook, mystery, or cliffhanger. Full skeleton and how to use it: the `session-structure` skill. Copy-paste starting point for a new prep doc: `sessions/Session Prep Template.md`. Worked examples: `sessions/Session 2 Prep.md`, `sessions/Session 3 Prep.md`.
+Tier 1's job-of-the-week sessions tend toward a shared shape: cold open, main content, one social beat per PC (joint where possible), battle if the job calls for it, ending on a hook, mystery, or cliffhanger, all optional and reorderable, not a fixed form. Full skeleton and how to use it, including when to set it aside for an arc session: the `session-structure` skill. Copy-paste starting point for a new prep doc: `sessions/Session Prep Template.md`. Worked example: `sessions/Session 2 Prep.md`.
 
 ## Key References
 - "Vagabonds" is the crew's unofficial name -- referenced in session 1
