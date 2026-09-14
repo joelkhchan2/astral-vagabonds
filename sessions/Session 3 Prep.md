@@ -1,8 +1,25 @@
 # Session 3 Prep
 
-Working doc for whichever contract gets picked at the end of session 2. Payout now tracks danger across the board: **Quiet Water stays the cheap, genuinely safe pick**, and the two pricier options both carry real combat risk, on the level of last session's Bex fight, not a token scuffle. Don't run all three, prep the one the table actually takes.
+Full shape per the `session-structure` skill: cold open, main content (whichever job gets picked), bastion action, ending hook. No forced battle or social-beat section beyond what each job branch already carries, see notes below.
 
-**Expect Two Chairs Short.** Given a choice, this table reaches for the biggest number on the sheet, that's exactly what happened with the 6,000 gp Escort job before a level-appropriateness check was needed. Two Chairs Short is deliberately the highest payout this rotation *and* has been calibrated to actually be fair for a level-5 crew, the raider is dangerous but built to break off once resisted, and it's a joint fight with the *Quiet Sum* rather than a solo one, so the crew isn't facing Aeravellis's full spec sheet alone. Prep that one first if you're short on time; the other two are here in case the table surprises you.
+## Where things stand, going in
+
+- Session 2 closed with the crew back at the Rock of Bral; the Manifest Board rotated in three new postings (below), replacing Sealed and Sworn.
+- Rank: 345th (`factions/The Manifest Board.md`). The lockbox is aboard, unopened, in Aerion's Storehouse. The Vellum "WE KNOW" note landed as the session 2 fallout beat, still unaddressed.
+- Bastion: Orena has both her level-5 slots (Library, Arcane Study). Aerion has Storehouse; his second slot is still open, this session's live bastion decision (see below).
+- Nothing from `sessions/Session Ideas.md` is being seeded this session by design, the space clown troupe and the training bottle episode are both explicitly banked for later, not this one.
+
+## Cold open: the Manifest Board pick
+
+This is a real, live scene, not a recap. The crew is back at the Board, three new postings up, and the choice of which to take is entirely theirs, made at the table. Present all three plainly (payout, days, tons, complication) without steering toward the biggest number, even though that's the likely pick given how session 1's Escort job went. Let the room's own read of risk versus payout do the work.
+
+**Given a choice, this table reaches for the biggest number on the sheet**, that's exactly what happened with the 6,000 gp Escort job before a level-appropriateness check was needed. Two Chairs Short is deliberately the highest payout this rotation *and* has been calibrated to actually be fair for a level-5 crew, the raider is dangerous but built to break off once resisted, and it's a joint fight with the *Quiet Sum* rather than a solo one, so the crew isn't facing Aeravellis's full spec sheet alone. Prep that one first if you're short on time; the other two are here in case the table surprises you.
+
+## Main content: whichever job gets picked
+
+Payout tracks danger across the board: **Quiet Water stays the cheap, genuinely safe pick**, and the two pricier options both carry real combat risk, on the level of last session's Bex fight, not a token scuffle. Don't run all three, prep the one the table actually takes. Each branch below is written to stand alone, pick one and go; when this becomes the HTML companion, these three should be switchable tabs, not one long scroll, since only one will ever be live at the table.
+
+Spotlight note: none of the three branches force a split Orena/Aerion scene the way session 2 did, each is written so both PCs have natural entry points (whoever's flying, whoever's talking, whoever's reading the sky), watch at the table for whether one PC is going quiet and reach for their branch point first if so.
 
 ## Quiet Water · 1,300 gp · the safe pick
 
@@ -50,3 +67,23 @@ No combat content by design. This is the one to steer toward if the table's stil
 2. **The boarding.** The raider closes on whichever ship it reads as weaker, almost certainly the *Quiet Sum*, first. That puts real stakes on Trask's remaining two crew, named if you want the danger to land (give them a line each before this scene, per the usual NPC rule). This is where "more lethal, like last session" should actually live, someone who isn't a PC can plausibly get hurt or worse here, and it should feel like it could go that way.
 3. **Resolution options:** fight it off together (the *Night Fury*'s guns are the deciding factor, a good spotlight for whoever's gunning), draw its attention away from the *Quiet Sum* onto the *Night Fury* on purpose (a real tactical choice, Aerion or Estra's call), or a partial loss, cargo or coin taken, everyone alive. Don't railroad toward the clean win.
 4. **Aftermath.** Whatever happens, this is the strongest bottom-of-the-Board friendship beat available right now with Bex's slot gone quiet (`factions/The Manifest Board.md`). It also quietly deposits another data point toward the eventual Aeravellis reveal (M6, `campaign/Tier 1.md`), don't name him, don't explain the hull, just let the pattern exist for later.
+
+---
+
+## Bastion action: Aerion's second facility
+
+Live decision for this session, his pick alone (facilities are unpooled per PC, `rules/Rules & Systems.md` §6). Best run whenever the voyage has a quiet beat, mid-transit on whichever job gets picked, or back at port if the job doesn't leave room for it.
+
+- **Armory.** Roomy, Trade order, no prerequisite. Stockpiles weapons and armor; a stocked Armory equips Bastion Defenders when the ship is attacked. Fits his Bosun/Quartermaster combat-readiness angle directly, and pays off hard if Two Chairs Short gets picked this session.
+- **Barrack.** Roomy, Recruit order, no prerequisite. Houses Bastion Defenders, Recruit adds more up to the space cap. This is how the crew's muscle becomes mechanically real in a boarding action, the most literal answer to "who's actually defending the ship."
+- **Sanctuary.** Roomy, Craft order, requires a Holy Symbol or Druidic Focus. Not obviously his (Orena's Paladin focus already qualifies for it, and she took Library and Arcane Study instead), included for completeness but the weakest fit for Aerion specifically.
+
+**Present Armory and Barrack as the live contenders**, Sanctuary's on the list but doesn't fit his character as cleanly. Don't decide it for him; let the pick say something about how he thinks about the ship's defenses now that Two Chairs Short (if picked) has put a real boarding threat on the table.
+
+## Ending: hook, mystery, or cliffhanger
+
+Whatever the session's job resolves, close on one of the live threads rather than a clean button: the Vellum note still sitting unanswered, the lockbox still unopened, Bex Halloway's fate still unconfirmed, or (if Two Chairs Short was picked) the unnamed raider's hull quietly matching a pattern nobody's named yet. Pick whichever one the session's actual events made loudest, don't force a hook that the table's own choices didn't earn.
+
+## Looking ahead
+
+Once this session's pick is known, the other two branches above stay banked, unused postings don't need to be replaced immediately, the Board can carry the same three (minus whichever got taken) into the next rotation if nothing better surfaces. Space clown troupe and the training bottle episode remain on `sessions/Session Ideas.md`, still without a session slot.
