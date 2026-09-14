@@ -10,6 +10,7 @@ The most alarming reassuring man alive. Oz is soft-spoken, formal, and relentles
 
 **Voice:** soft, formal, courteous. Never the first to raise the pistol.
 **Tics:** the thank-you notes; "I had idle hands"; walking up to the meanest person in a rough bar to offer them a drink.
+**Want:** to be certain, without needing anyone's permission, that refusing that order was right, and that this crew would never have made him choose.
 
 **Off duty:** mends and polishes shared gear, writes his thank-you notes, whittles small wooden figures he gives away, and brews tea for whoever has the watch. Flurry has decided he is hers: she rides on his shoulder, and he mends her scarf without a word.
 
@@ -23,9 +24,11 @@ He served in a giff mercenary company, **the Ninth Bombards**, and one day the o
 So he carries a wound with two edges, which is the heart of him: **honor against obedience.** He did right and lost his people and his name in the corps for it, and a quiet part of him still isn't certain he wasn't wrong to break the chain, because the chain was everything he was taught to be. His relentless courtesy is the code he kept when he lost the uniform: a way to be honorable in small, controllable, perfect acts, now that the one large act cost him everything. The mending and the notes are the same thing. **"Idle hands"** is a lie because idleness is exactly where the memory waits for him, so he never stops moving.
 
 ## The secret and its trigger
-**Trigger (from Plot Threads):** a giff mercenary company appears. It might be the Ninth itself, an old comrade who chose to stay, or the officer who gave the order, now senior. Any of them can offer him the thing he secretly aches for, a way back into the company and the order and the belonging, at the price of agreeing that he was wrong. The resolution of his arc is Oz realizing that **this crew is the company that would never have given that order**, and that the family he found by breaking the line is the honor he thought he'd lost.
 
-**The sharper version of the climax:** don't stop at the offer to rejoin. Build to a moment where his own judgment and an order or expectation aboard this ship (from Estra, from the crew, from circumstance) genuinely disagree again, a real echo of the original court-martial. The question isn't just whether he'll go back to the Ninth. It's whether he trusts himself enough to break the line a second time, for the right reason, without needing anyone's permission first.
+### Escalation ladder
+- **Plant** (running now): the thank-you notes, the polishing, "I had idle hands," Finny's gossip that his whole face closes like a hatch at any mention of the Ninth. Warm, comedic, no stakes yet.
+- **Pressure (trigger, from Plot Threads):** a giff mercenary company appears. It might be the Ninth itself, an old comrade who chose to stay, or the officer who gave the order, now senior. Any of them can offer him the thing he secretly aches for, a way back into the company and the order and the belonging, at the price of agreeing that he was wrong.
+- **Climax:** don't stop at the offer to rejoin. Build to a moment where his own judgment and an order or expectation aboard this ship (from Estra, from the crew, from circumstance) genuinely disagree again, a real echo of the original court-martial. The question isn't just whether he'll go back to the Ninth. It's whether he trusts himself enough to break the line a second time, for the right reason, without needing anyone's permission first. The resolution is Oz realizing **this crew is the company that would never have given that order**, and that the family he found by breaking the line is the honor he thought he'd lost.
 
 ## With the two leads
 - **Aerion.** Oz respects a chain of command and Aerion runs the ship, so he takes Aerion's called stations without hesitation and says "excuse me" to whoever he was mid-sentence with before he sprints. Their bond is mutual, unstated regard: two men who hold a line, one loud on paper, one quiet on the deck.

@@ -7,6 +7,7 @@ The crew's fixer as much as its medic. Brass has "a guy" at every port, tracks d
 
 **Voice:** fast, wry, already three moves ahead, and prone to answering the question you *should* have asked instead of the one you did. She never walks into a room without clocking the exits, and it shows in how she talks: quick, useful, and slightly evasive, because part of her is always solving the next problem while you're still on this one.
 **Tics:** the napkin web of contacts, debts, and back-up plans; the morning cook-duty **d4**; naming dishes things like "Starfall Risotto" that have nothing to do with the ingredients.
+**Want:** to find out this is the one crew worth being found for, instead of one more place to stay ready to leave.
 
 **Off duty:** at 0300, off the clock, she cooks for real and trials new recipes on whoever can't sleep. Otherwise she's reading borrowed, out-of-date medical monographs, quietly trying to earn the license she never got, and tending her napkin web of contacts.
 
@@ -22,7 +23,10 @@ That one decision cost her twice, in the same breath: it cost the neogi a sale, 
 
 She has been mobile and off-book ever since. The napkins, the aliases, the guy at every port, the refusal to be a doctor on any record, all of it is a woman staying one jump ahead of a slaver's ledger, wearing the unfinished credential as a joke so nobody asks about the real one. She has never told the crew, because telling them makes them a target too, and because she isn't sure they'd stay.
 
-**Trigger (from Plot Threads):** a neogi ship is encountered, or a contact at a port recognizes her and the wrong people learn where she flies. The scene is the test: does she run to keep the crew clear, or does the crew refuse to let her? Found family, put on the scale.
+### Escalation ladder
+- **Plant** (running now): the napkins, the "a guy at every port," the packed bag Finny found and put back exactly (`npcs/Finny.md` gossip table), the refusal to be called doctor.
+- **Pressure (trigger, from Plot Threads):** a neogi ship is encountered, or a contact at a port recognizes her and the wrong people learn where she flies.
+- **Climax:** the scene is the test, does she run to keep the crew clear, or does the crew refuse to let her? Found family, put on the scale, and the first time her net catches her instead of the other way around.
 
 ## The kindness under the angles
 Off the clock at 0300, in the galley, Brass never rolls the d4 and the food is always better. When someone can't sleep, she's already up, and she plates another portion and doesn't ask why they're awake. That is the truest thing about her: a woman who has to keep everyone at arm's length by daylight, feeding them quietly in the dark.

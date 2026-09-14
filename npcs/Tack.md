@@ -7,6 +7,7 @@ Tack knows the ship better than anyone and loves her without embarrassment. He h
 
 **Voice:** cheerful, literal, talks *to* the ship, who "talks back."
 **Tics:** names every part (ballistae **Gertrude** and **Susan**, ram **Kevin**, helm **Deborah**); a maintenance log that doubles as a diary ("Kevin was gracious about the realignment").
+**Want:** to belong to a hull and a crew that will never sail off without him, or scrap him, again.
 
 **Off duty:** polishes and talks to the ship, writes the maintenance-log-diary, performs tiny repairs nobody asked for, and keeps score at Finny's game night (for the ship, who is winning).
 

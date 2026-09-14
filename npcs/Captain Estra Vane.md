@@ -3,6 +3,12 @@
 ## The Surface Read
 A weathered human woman in her late 50s. Drinks black coffee from the same dented tin mug. Gives orders like polite suggestions. Has never raised her voice in a crisis. Calls everyone by their last name until she trusts them, then switches to first name without comment. Plays solitaire alone in the helm room at night, and keeps a private journal in a locked book, writing by lamplight; nobody has read a word of it.
 
+**Voice:** dry, level, unhurried. Orders phrased as suggestions that are not actually optional. Explains herself rarely, and only when it's a lesson.
+**Tics:** the dented mug (see `npcs/Crew Comedy Bits.md`); last name until she switches to first without comment; one hand of solitaire, alone, before she'll turn in.
+**Want:** to keep this crew whole long enough to finish, quietly, what the Compact started, and to never again be the last one left in an empty helm room.
+
+**Off duty:** solitaire in the helm room, one hand most nights, win or lose she puts the deck away after; the locked journal by lamplight; re-reading the star chart in her quarters (below) longer than the update actually requires.
+
 Not warm -- but when Finny got spacesick his first week, she quietly adjusted the duty roster so he had lighter shifts and never mentioned it. When Oz froze during a boarding action, she stood next to him afterward and said, "That happens. Next time it'll be shorter." That was the entire conversation.
 
 Aggressively, almost pathologically competent. Doesn't explain herself often, and when she does, it's because she's teaching you something.
@@ -69,6 +75,16 @@ The Broker operates in the gaps between organizations. Trades in leverage, not c
 - Is the Broker connected to the Pale Reach? The Guttering? Gabrielle's lost crew?
 - Can Estra clear the debt before it's called in?
 - When the crew finds out about the favors, do they stay?
+
+### Escalation ladder, Favor #2 (keep the branch open until it's time to commit)
+- **Plant** (running now, low cost): the rumor of "Commodore Vane" and a debt nobody names; the bag-packed detail Finny half-notices (`npcs/Finny.md` gossip table); Estra's flat refusal of a job that would clear the crew's debt in one stroke, no explanation given.
+- **Pressure:** an intermediary makes contact, never the Broker directly, a courier, a favor-broker at a port, a name dropped by someone who owes the Broker too. The ask sharpens toward one of the four shapes in `campaign/Plot Threads.md` (moral compromise, a betrayal of a place the crew has come to love, a demand for a specific crew member, or a hit on the Pale Reach that helps Estra and burns Priscilla's family in the same motion). Whichever shape is chosen, it should cost the crew something real and force Estra to ask for their help rather than hide it, the first crack in "it's her burden alone."
+- **Climax:** the crew has to choose alongside her, not watch her choose. Landing it as a Pale Reach entanglement doubles the stakes for Priscilla specifically; landing it as a demand for a named crew member forces the found-family question directly. Either way, Favor #3 should arrive on its heels, see below, so the debt closes out as one long final movement rather than two disconnected beats.
+
+### Escalation ladder, the Compact rebuild reveal
+- **Plant** (running now): the locked chest, the Manifest Board rank nobody questions out loud, Estra filing route data under a pseudonym that Aerion's ledger could theoretically trace if he ever went looking for a reason to.
+- **Pressure:** a thread from the Seven Compact Captains resurfaces unprompted, a jailbreak lead on the detained captain, Dessa Kell's name on the Board, or a bought-out captain recognizing the crew's work and asking pointed questions. Any of these puts the *idea* of the Compact in front of the crew before Estra is ready to explain it, forcing her hand earlier than her own timeline.
+- **Climax:** the crew finds the chest (or Estra finally opens it herself) and realizes each of them was chosen, not hired, for a fleet she never told them she was rebuilding. Play the found-family test straight: does the crew feel used, or entrusted? The honest answer should be both, briefly, before it settles into the latter.
 
 ## The Long Game
 
@@ -140,3 +156,5 @@ Their dynamic is intellectual. Treats Priscilla as a strategic equal early. Asks
 **If she dies:** The arc is about legacy. Everything she built -- crew, routes, data, ship -- survives because she built it to survive her. The crew finds the chest, the chart, the remaining captains. They finish what she started. Her death is a torch-passing, not a tragedy.
 
 **Design principle:** Build so both endings are earned. The crew must become self-sufficient during the campaign, not after. Metric: if she dies and the crew grieves but keeps flying, the timing was right.
+
+**Stat block:** `rules/Stat Blocks.md`. **Running gags:** `npcs/Crew Comedy Bits.md` (the mug; solitaire; the briefing that derails).

@@ -7,6 +7,7 @@ The heart of the ship and its leaky pipe. Finny knows everyone's business within
 
 **Voice:** a firehose of gossip and enthusiasm, and hopeless at reading the room he's trying to cheer up.
 **Tics:** the stupid souvenir from every port; the sending stone always in a pocket; the "ALMOST" note on the Board printout, crossed out and rewritten four times.
+**Want:** to never again be a kid on a gantry rail with nothing to trade, and to find out that needing this crew doesn't put him back there.
 
 **Off duty:** works a **sending stone** (a paired comms crystal) to trade gossip and make small deals with contacts across a dozen ports, hosts the crew game night in the galley (cards and dice, `rules/Downtime Games.md`), and studies the Manifest Board like scripture.
 
@@ -23,9 +24,10 @@ Every visit to the Rock, Finny quietly deposits part of his pay with **Sef**, th
 
 He will not say who or why, and it is the one secret the biggest gossip aboard keeps perfectly. Partly he doesn't want it to be a *thing*, partly he can't stand to be pitied, and partly it is the single private tender act of a man who gives everything else away. The crew has noticed the deposits and, in their one great kindness to him, has never once asked.
 
-**Trigger (from Plot Threads):** the crew docks at Bral. **Reveal paths:** a kid from the house recognizes him on the gantry; Sef falls ill or the house's rent is called in by a landlord who smells the Guttering's squeeze on the lower city; or Sprat, who knows everything, lets a corner of it slip for candy and then looks stricken. Any of these turns the ship's warmest running gag into a real scene, and gives the found family a chance to become the thing Finny has quietly been paying forward.
-
-**Why this is the real test:** the secret at Bral is the one piece of leverage Finny has never spent, on anyone, ever. The moment the house is actually threatened and he has to ask the crew for help outright, he's not just revealing a secret, he's trading the one asset his whole survival strategy was built never to trade. That's the actual stakes of the scene, bigger than Sef or the kids: does needing people cost him the independence he built this entire economy to protect, or does he learn it doesn't.
+### Escalation ladder
+- **Plant** (running now): the sending stone gossip, the souvenir at every port, the deposit the crew has quietly noticed and never asked about, the "ALMOST" note on the Board printout.
+- **Pressure (trigger, from Plot Threads):** the crew docks at Bral. **Reveal paths:** a kid from the house recognizes him on the gantry; Sef falls ill or the house's rent is called in by a landlord who smells the Guttering's squeeze on the lower city; or Sprat, who knows everything, lets a corner of it slip for candy and then looks stricken.
+- **Climax:** any reveal path turns the ship's warmest running gag into a real scene. The secret at Bral is the one piece of leverage Finny has never spent, on anyone, ever, so the moment the house is threatened and he has to ask the crew for help outright, he isn't just revealing a secret, he's trading the one asset his whole survival strategy was built never to trade. That's the actual stakes, bigger than Sef or the kids: does needing people cost him the independence he built this entire economy to protect, or does he learn it doesn't.
 
 ## Finny's gossip (drop one, or roll a d12)
 
