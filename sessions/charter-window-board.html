@@ -54,6 +54,17 @@
 
   .footnote { background: var(--paper); border: 1px solid var(--rule-strong); margin-top: 18px; padding: 12px 18px; font-family: "Courier Prime", monospace; font-size: 11px; color: var(--ink-soft); text-align: center; letter-spacing: .03em; }
 
+  .standing { background: var(--paper); border: 2px solid var(--civ); margin-top: 18px; padding: 16px 20px; position: relative; box-shadow: 0 2px 5px rgba(0,0,0,.28); }
+  .standing::before { content: "STANDING"; position: absolute; top: -11px; left: 18px; background: var(--civ); color: var(--paper); font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .14em; padding: 2px 10px; border-radius: 3px; }
+  .standing h2 { font-family: "IM Fell English SC", Georgia, serif; font-size: 1.28rem; letter-spacing: .02em; margin: 6px 0 2px; }
+  .standing .cls { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--civ); }
+  .standing .schedule { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 12px 0; }
+  @media (max-width: 640px) { .standing .schedule { grid-template-columns: repeat(2, 1fr); } }
+  .standing .schedule div { text-align: center; border: 1px solid var(--rule); padding: 8px 4px; }
+  .standing .schedule .k { font-family: "Courier Prime", monospace; font-size: 9.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); }
+  .standing .schedule .v { font-family: "Courier Prime", monospace; font-weight: 700; font-size: 1rem; margin-top: 2px; }
+  .standing .note { font-size: .9rem; color: var(--ink-soft); font-style: italic; margin: 6px 0 0; }
+
   @media print {
     html, body { background: #fff; padding: 0; }
     .no-print { display: none !important; }
@@ -72,23 +83,54 @@
     <p class="authority">Cartographers &amp; Independent Voyagers &middot; Rock of Bral</p>
     <h1>Charter Window: Postings</h1>
     <p class="strap">Work available to registered carriers &middot; apply within &middot; mind the carrier rating on each bill &middot; the Window is not responsible for what the void does to you</p>
+    <p style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.06em;color:var(--faint);margin:6px 0 0">POSTED THIS QUARTER &middot; SEALED AND SWORN FILLED, OFF THE BOARD</p>
   </div>
 
   <div class="grid">
 
     <div class="bill">
-      <div class="code">Posting BR-1187 &middot; Verge Resupply</div>
-      <h2>The Cold Run</h2>
-      <div class="cls">Carriage &middot; perishable &amp; medical</div>
+      <div class="code">Posting BR-1231 &middot; Passage &amp; Discretion</div>
+      <h2>Quiet Water</h2>
+      <div class="cls">Passage &middot; one chaperone, one betrothal meeting</div>
       <div class="terms">
-        <div><div class="k">Pay</div><div class="v">1,400</div></div>
-        <div><div class="k">Days</div><div class="v">~14</div></div>
-        <div><div class="k">Tons</div><div class="v">6</div></div>
+        <div><div class="k">Pay</div><div class="v">1,300</div></div>
+        <div><div class="k">Days</div><div class="v">~15</div></div>
+        <div><div class="k">Tons</div><div class="v">3</div></div>
       </div>
-      <p class="route"><b>Route</b> Bral &rarr; Hallow's Rest (Verge), return</p>
-      <p class="note">A terminator mining colony, proud and nearly out of everything. Their own supply route stopped working. Part-payment likely in ore.</p>
+      <p class="route"><b>Route</b> Bral &rarr; the Larkspur Concourse, return</p>
+      <p class="note">House Prynne wants their eldest chaperoned to a betrothal meeting well above anywhere this carrier has docked. The patriarch keeps almost-mentioning your name from somewhere he won't specify.</p>
       <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--civ);margin:6px 0 0">RATING: OPEN TO ALL CARRIERS</p>
-      <div class="clear">Clear after costs: <b>~770 gp</b> &nbsp;<span style="color:var(--faint)">(1,400 &minus; 600 &minus; 30)</span></div>
+      <div class="clear">Clear after costs: <b>~670 gp</b> &nbsp;<span style="color:var(--faint)">(1,300 &minus; 600 &minus; 30)</span></div>
+    </div>
+
+    <div class="bill">
+      <div class="code">Posting BR-1234 &middot; Archive Courier</div>
+      <h2>The Ledger Run</h2>
+      <div class="cls">Carriage &middot; survey backlogs, two stations</div>
+      <div class="terms">
+        <div><div class="k">Pay</div><div class="v">2,400</div></div>
+        <div><div class="k">Days</div><div class="v">~20</div></div>
+        <div><div class="k">Tons</div><div class="v">5</div></div>
+      </div>
+      <p class="route"><b>Route</b> Bral &rarr; two Windward Edge archive stations</p>
+      <p class="note">A season's survey backlogs, hand-carried, because the usual courier route "isn't resolving cleanly." Nobody on paper wants to say more than that.</p>
+      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--civ);margin:6px 0 0">RATING: SEALED &amp; SWORN ON FILE, OR PERSONAL VOUCH</p>
+      <div class="clear">Clear after costs: <b>~1,770 gp</b> &nbsp;<span style="color:var(--faint)">(2,400 &minus; 600 &minus; 30)</span></div>
+    </div>
+
+    <div class="bill">
+      <div class="code">Posting BR-1238 &middot; Joint Charter, Chaperone</div>
+      <h2>Two Chairs Short</h2>
+      <div class="cls">Escort &middot; second hull requested, split fee</div>
+      <div class="terms">
+        <div><div class="k">Pay</div><div class="v">5,600<span style="font-size:.6rem;display:block;color:var(--faint);font-weight:400">total, split</span></div></div>
+        <div><div class="k">Days</div><div class="v">~22</div></div>
+        <div><div class="k">Tons</div><div class="v">4</div></div>
+      </div>
+      <p class="route"><b>Route</b> Bral &rarr; through the Tollmarch</p>
+      <p class="note">A small outfit lost half its crew mid-contract and can't run this chaperone job alone. Offering to split the fee for a second hull to run it with them.</p>
+      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--civ);margin:6px 0 0">RATING: OPEN TO ALL CARRIERS</p>
+      <div class="clear">Your cut clears: <b>~2,170 gp</b> &nbsp;<span style="color:var(--faint)">(2,800 &minus; 600 &minus; 30)</span></div>
     </div>
 
     <div class="bill">
@@ -130,25 +172,10 @@
         <div><div class="k">Days</div><div class="v">~10</div></div>
         <div><div class="k">Tons</div><div class="v">12</div></div>
       </div>
-      <p class="route"><b>Route</b> Bral &rarr; Chain waystation, return</p>
+      <p class="route"><b>Route</b> Bral &rarr; Ember &amp; Rime, return</p>
       <p class="note">Genuinely routine. No complication. Someone has to move the grain, and it may as well be a crew that needs the entry.</p>
       <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--civ);margin:6px 0 0">RATING: OPEN TO ALL CARRIERS</p>
       <div class="clear">Clear after costs: <b>~170 gp</b> &nbsp;<span style="color:var(--faint)">(800 &minus; 600 &minus; 30)</span></div>
-    </div>
-
-    <div class="bill">
-      <div class="code">Posting BR-1205 &middot; Sealed Freight</div>
-      <h2>Sealed and Sworn</h2>
-      <div class="cls">Carriage &middot; locked case, no questions</div>
-      <div class="terms">
-        <div><div class="k">Pay</div><div class="v">1,800</div></div>
-        <div><div class="k">Days</div><div class="v">~12</div></div>
-        <div><div class="k">Tons</div><div class="v">2</div></div>
-      </div>
-      <p class="route"><b>Route</b> Bral &rarr; a Sallow Chain address</p>
-      <p class="note">A house wants a locked case moved and no one asking after it. It is legal. It is boring. A Route Warden inspection at the midpoint will cost four hours you may not have.</p>
-      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--civ);margin:6px 0 0">RATING: OPEN TO ALL CARRIERS</p>
-      <div class="clear">Clear after costs: <b>~1,170 gp</b> &nbsp;<span style="color:var(--faint)">(1,800 &minus; 600 &minus; 30)</span></div>
     </div>
 
     <div class="bill">
@@ -167,35 +194,64 @@
     </div>
 
     <div class="bill">
-      <div class="code">Posting BR-1198 &middot; Salvage</div>
-      <h2>Salvage Rights</h2>
-      <div class="cls">Recovery &middot; Tollmarch wreck</div>
+      <div class="code">Posting BR-1241 &middot; Sub-let Carriage</div>
+      <h2>The Note Comes Due</h2>
+      <div class="cls">Carriage &middot; balloon-payment cargo run</div>
       <div class="terms">
-        <div><div class="k">Pay</div><div class="v">4,200</div></div>
-        <div><div class="k">Days</div><div class="v">~34</div></div>
-        <div><div class="k">Tons</div><div class="v">&le;20</div></div>
+        <div><div class="k">Pay</div><div class="v">1,600</div></div>
+        <div><div class="k">Days</div><div class="v">~12</div></div>
+        <div><div class="k">Tons</div><div class="v">6</div></div>
       </div>
-      <p class="route"><b>Route</b> Bral &rarr; the Tollmarch</p>
-      <p class="note">Recover what is recoverable from a wreck in contested space. House Stoneward asserts a salvage claim that is legally sound and morally absent. Expect to be met.</p>
-      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--seal);font-weight:700;margin:6px 0 0">RATING: BONDED CREWS &middot; MIN. STANDING RANK 250</p>
-      <div class="clear">Clear after costs: <b>~3,570 gp</b> &nbsp;<span style="color:var(--faint)">(4,200 &minus; 600 &minus; 30)</span></div>
+      <p class="route"><b>Route</b> Bral &rarr; a Pale Reach waypoint, return</p>
+      <p class="note">A neighbour two rungs up the Board took a run to meet a balloon payment, then couldn't fly it, and sub-lets it, quietly desperate. Paperwork is thicker than the cargo.</p>
+      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--civ);margin:6px 0 0">RATING: OPEN TO ALL CARRIERS</p>
+      <div class="clear">Clear after costs: <b>~970 gp</b> &nbsp;<span style="color:var(--faint)">(1,600 &minus; 600 &minus; 30)</span></div>
     </div>
 
     <div class="bill">
-      <div class="code">Posting BR-1174 &middot; Armed Escort</div>
-      <h2>Escort</h2>
-      <div class="cls">Escort &middot; two haulers, hazard route</div>
+      <div class="code">Posting BR-1244 &middot; Reputable Charter Sought</div>
+      <h2>Dressing the Part</h2>
+      <div class="cls">Passage &middot; a family, a gala, off the common lanes</div>
       <div class="terms">
-        <div><div class="k">Pay</div><div class="v">6,000</div></div>
-        <div><div class="k">Days</div><div class="v">~38</div></div>
-        <div><div class="k">Tons</div><div class="v">0</div></div>
+        <div><div class="k">Pay</div><div class="v">2,500</div></div>
+        <div><div class="k">Days</div><div class="v">~20</div></div>
+        <div><div class="k">Tons</div><div class="v">2</div></div>
       </div>
-      <p class="route"><b>Route</b> Bral &rarr; the Tollmarch, return</p>
-      <p class="note">Shepherd two unarmed haulers through the chokepoint. The thing that hits shipping out there boards with grappling jaws and does not stop for a warning shot.</p>
-      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--seal);font-weight:700;margin:6px 0 0">RATING: HAZARD-RATED &middot; ARMED ESCORT RECORD REQUIRED</p>
-      <div class="clear">Clear after costs: <b>~5,370 gp</b> &nbsp;<span style="color:var(--faint)">(6,000 &minus; 600 &minus; 30)</span></div>
+      <p class="route"><b>Route</b> Bral &rarr; a marble station, gala season</p>
+      <p class="note">A minor noble house needs a reputable, prestigious charter for a confirmation gala well off the common lanes. Good money, if the hull can pass for one.</p>
+      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--brass);margin:6px 0 0">RATING: PREFERS AN ESTABLISHED CHARTER (soft)</p>
+      <div class="clear">Clear after costs: <b>~1,870 gp</b> &nbsp;<span style="color:var(--faint)">(2,500 &minus; 600 &minus; 30)</span></div>
     </div>
 
+    <div class="bill" style="border-style: dashed; transform: rotate(-0.6deg)">
+      <div class="code" style="color:var(--faint)">no filing number &middot; not through Meech</div>
+      <h2 style="font-size:1.15rem">Deliver Cookies to BoyBoy McGee</h2>
+      <div class="cls">???</div>
+      <div class="terms">
+        <div><div class="k">Pay</div><div class="v">20</div></div>
+        <div><div class="k">Days</div><div class="v">same</div></div>
+        <div><div class="k">Tons</div><div class="v">&mdash;</div></div>
+      </div>
+      <p class="route"><b>Route</b> the berth &rarr; Lowside, a two-minute walk</p>
+      <p class="note">A scrap of paper pinned crooked to the Window. "Wanted, one (1) crew to carry a tin of cookies to BoyBoy McGee, Lowside, urgent, will pay 20 gold on arrival." Nobody who could afford a real courier posts like this.</p>
+      <p style="font-family:'Courier Prime',monospace;font-size:9.5px;letter-spacing:.06em;color:var(--faint);margin:6px 0 0">RATING: NOT WORTH READING TWICE (allegedly)</p>
+      <div class="clear">Clear after costs: <b>20 gp</b> &nbsp;<span style="color:var(--faint)">(no voyage, no deduction)</span></div>
+    </div>
+
+  </div>
+
+  <div class="standing">
+    <div class="code" style="color:var(--faint)">Route Warden seal &middot; never rotates off</div>
+    <h2>Open Season</h2>
+    <div class="cls">Bounty &middot; void-lane predators, proof by fin-clip</div>
+    <p class="note" style="margin-top:8px">"The Concordance maintains open bounty on void-lane predators. Bring proof, collect the standing rate. See posted schedule." Claimed whenever a scavver crosses your path, not gone out of the way for.</p>
+    <div class="schedule">
+      <div><div class="k">Gray</div><div class="v">5 gp</div></div>
+      <div><div class="k">Brown</div><div class="v">250 gp</div></div>
+      <div><div class="k">Night</div><div class="v">750 gp</div></div>
+      <div><div class="k">Void</div><div class="v" style="color:var(--seal)">10,000 gp</div></div>
+    </div>
+    <p class="note">Void-class proof also logs a line in the Manifest Board's incident record.</p>
   </div>
 
   <div class="footnote">

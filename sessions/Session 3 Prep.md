@@ -56,7 +56,7 @@ No combat content by design. This is the one to steer toward if the table's stil
 
 ## Two Chairs Short · 5,600 gp total, ~2,800 gp to the crew after the split · real danger, higher tier
 
-**Reframed as a joint job, not a rescue.** The outfit is **Ollo Trask's *Quiet Sum*** (rank 346, `factions/The Manifest Board.md`), the crew's established cordial rival, the one who undercuts them on price and apologizes sincerely while doing it. He lost two of his four crew mid-contract and won't give up the fee, so he's offering to split it for a second hull to run the chaperone job *with* him, his ship and the *Night Fury* both, two captains, one contract. Reversing the usual dynamic (the undercutter needing them for once) is the point, play it warmly.
+**Reframed as a joint job, not a rescue.** The outfit is **Ollo Trask's *Quiet Sum*** (rank 347, `factions/The Manifest Board.md`), the crew's established cordial rival, the one who undercuts them on price and apologizes sincerely while doing it. He lost two of his four crew mid-contract and won't give up the fee, so he's offering to split it for a second hull to run the chaperone job *with* him, his ship and the *Night Fury* both, two captains, one contract. Reversing the usual dynamic (the undercutter needing them for once) is the point, play it warmly.
 
 **Built-in texture:** two crews, two chains of command, on one job. Trask is relentlessly cheerful and genuinely not used to taking orders from anyone; let that create small, funny friction (whose call is it when the two ships disagree on approach) that doesn't need to escalate into anything, just color, the good kind of complication.
 
