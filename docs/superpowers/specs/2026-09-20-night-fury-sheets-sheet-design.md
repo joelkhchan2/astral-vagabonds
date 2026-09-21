@@ -2,11 +2,13 @@
 
 ## Context
 
-`ships/night-fury-stat-card.html` (published via GitHub Pages) is the static reference card for the *Night Fury*. This spec covers a separate deliverable: a **Google Sheets** version that adds **live session tracking** the static card can't do — current HP, ammo remaining, cargo manifest line items, and per-round station assignments that change during play.
+`ships/night-fury-stat-card.html` (published via GitHub Pages) is the static reference card for the *Night Fury*. This spec covers a separate deliverable: a **Google Sheets** version that adds **live session tracking** the static card can't do — current HP, cargo manifest line items, and per-round station assignments that change during play.
+
+**Ammo is explicitly not tracked.** Both the session 0 shopping transcript and the session 1 as-played transcript confirm the table decided not to track ballista shots ("we don't keep track of arrows... forget that"). The 50 standard shots purchased (`Night Fury.md` §The Build) stays as static flavor text only — no live field, no menu action.
 
 The Sheet already exists as a copy of Orena's PC character sheet template (`fileId: 1K4f4KNXDitZT8jcGyWIentumkTmfWrwZp6j92WyLEVs`, titled "Night Fury"), unmodified. It has a bound Apps Script project (`scriptId: 1p-a0dOERHJe3R2Sxia3el1Up4UcpTAH4SvxLa7qMB47Aw_q_66qCfGZa`) that is currently empty boilerplate (`function myFunction() {}` and default `appsscript.json`) — confirmed via `clasp clone`, nothing to preserve.
 
-Source of truth for stats: `ships/Night Fury.md` (ship) and `rules/Stat Blocks.md` (crew). The Sheet's live fields are the only things that change during play; these docs are not touched by the script.
+Source of truth for stats: `ships/Night Fury.md` (ship) and `rules/Stat Blocks.md` (crew). The Sheet's live fields are the only things that change during play; these docs are not touched by the script. Where those docs were silent or ambiguous, the session 0 (ship creation) and session 1 (as-played) meeting transcripts settled it — cited inline below where used.
 
 ## Real template structure (source: `Orena Delphine.xlsx`)
 
@@ -18,21 +20,21 @@ Mapping to the ship (same visual style — legend row, blue auto-calc fill, bold
 |---|---|
 | Ability Scores (STR/DEX/…, Base+Bonus=Total+Mod) | **Dropped** — no ship analog |
 | Combat (AC/Init/Speed/HP/Hit Dice/Death Saves) | **Ported**: AC 19, Damage Threshold 20, Speed, HP (live, of 250). Hit Dice and Death Saves dropped — no ship analog. |
-| Personality (Traits/Ideals/Bonds/Flaws) | **Ported, left blank** except what's actually established: the tattered flag Tack saved from the old ship and reattached (`Night Fury.md` §History), and the named parts — ballistae **Gertrude** & **Susan**, ram **Kevin**, helm **Deborah** (`npcs/Tack.md`). No invented ship personality beyond this. |
+| Personality (Traits/Ideals/Bonds/Flaws) | **Ported, left blank** except what's actually established: the tattered flag Tack saved from the old ship and reattached (`Night Fury.md` §History), and the named parts — ballistae **Gertrude** & **Susan**, ram **Kevin**, mast **Deborah** (per the session 1 transcript, "Deborah is the... main mast"; `npcs/Tack.md` corrected to match). No invented ship personality beyond this. |
 | Other Proficiencies & Languages (sidebar) | **Ported, repurposed**: Bastion facility quick-links (Storehouse/Library/Arcane Study) |
-| Attacks table (Name/Atk-formula/Dmg) | **Ported, repurposed**: Weapon Stations — Gertrude (port ballista), Susan (starboard ballista), Kevin (ram), each with live ammo field. No "Atk" formula — gunnery isn't an ability-mod roll on the ship itself, per `Rules & Systems.md` §8. |
+| Attacks table (Name/Atk-formula/Dmg) | **Ported, repurposed**: Weapon Stations — Gertrude (port ballista), Susan (starboard ballista), Kevin (ram), static flavor only (no live ammo field — see ammo note above). No "Atk" formula — gunnery isn't an ability-mod roll on the ship itself, per `Rules & Systems.md` §8. |
 | Saving Throws (prof-dot grid) | **Dropped** — no ship analog |
 | Equipment & Treasure (big text + currency) | **Ported**: Systems & Add-ons (Hull/Helm/Armor/Weapon upgrades/Mobility/Life support, from the Build table) + ship's ledger summary from `Night Fury.md` §Money |
 | Skills (18 skills, prof-dot grid) | **Dropped** — belongs to individual crew, not the ship; not duplicated on the Crew Aboard tab either (that tab is a live station/HP tracker, not each crew member's full sheet) |
 | shared Proficiency Bonus cell | **Dropped** — nothing on the ship scales off one shared modifier |
 
-Also ported as static text, unchanged: Layout (upper/lower deck room list, including Deborah at the helm room).
+Also ported as static text, unchanged: Layout (upper/lower deck room list, as-is from `Night Fury.md`).
 
 ## Tabs
 
 1. **Night Fury** — main sheet, per the mapping above.
 
-2. **Crew Aboard** — the 7 running the ship: the 2 PCs (Orena, Aerion) plus the 5 NPCs from `rules/Stat Blocks.md` (Estra, Tack, Finny, Brass, Oz). Columns: Name, Species/Class, Role, Current Station (dropdown: Pilot/Gunner/Engineer/Coordinator/Personal action/Off-duty), HP (live, of their max), Notes. Flurry (Aerion's non-combat pet) gets a separate note, not a station-crewing row — he doesn't stand a station.
+2. **Crew Aboard** — the 7 running the ship: the 2 PCs (Orena, Aerion) plus the 5 NPCs from `rules/Stat Blocks.md` (Estra, Tack, Finny, Brass, Oz). Columns: Name, Species/Class, Role, Current Station (dropdown: Pilot/Gunner/Engineer/Coordinator/Personal action/Off-duty), HP (live, of their max), Notes. Flurry (Aerion's non-combat pet) gets a separate note, not a station-crewing row — he doesn't stand a station. Notes column pre-filled with the established gunnery assignments from session 0/1: Tack, Oz, and Finny are confirmed gunners; Brass can only load, not fire.
 
 3. **Bastion Facilities** — full catalog, all 4 DMG'24 levels (5/9/13/17), 29 facilities total. Columns: Facility, Level, Prereq, Space, Hirelings, Order, Description (full text, not paraphrased — sourced from the DMG'24 text the user supplied). A pinned/highlighted section calls out the ship's actual chosen facilities (Aerion: Storehouse + one open slot; Orena: Library + Arcane Study) at the top, with the rest as reference below.
 
@@ -45,7 +47,6 @@ Dropped entirely (not ship-applicable): Spells, Spells - 1, Bard Table, Paladin 
 Custom `⚓ Night Fury` menu:
 - **Apply Damage** — prompt for amount; if < 20 (damage threshold), no-op with a toast explaining why; otherwise subtract from live HP and add to the repair-bill tracker (20 gp/point, per `Night Fury.md` §Money).
 - **Emergency Patch** — restores HP equal to a prompted engineer level, once per encounter per engineer (tracked via a per-session checkbox/flag on the sheet, reset by "Reset Round").
-- **Fire Ballista** — prompts which gun (port/starboard) and decrements that gun's ammo field by 1.
 - **Repair to Full** — resets HP to 250 and clears the repair-bill tracker (for use after downtime repairs are paid off narratively).
 - **Reset Round** — clears per-round station assignments and Emergency Patch flags for a new encounter.
 
@@ -53,7 +54,7 @@ No dice roller, no PDF export, no proficiency-dot dropdown machinery — that wa
 
 ## Data flow
 
-`Night Fury.md` / `Stat Blocks.md` stay canonical for base stats (max HP, AC, crew roster). The Sheet's live fields (current HP, ammo, cargo, station assignments, repair bill) are session state that only changes through play or the Apps Script menu — the script never writes back to the markdown docs.
+`Night Fury.md` / `Stat Blocks.md` stay canonical for base stats (max HP, AC, crew roster). The Sheet's live fields (current HP, cargo, station assignments, repair bill) are session state that only changes through play or the Apps Script menu — the script never writes back to the markdown docs.
 
 ## Out of scope
 
