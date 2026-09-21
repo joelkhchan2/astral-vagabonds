@@ -36,7 +36,7 @@ Also ported as static text, unchanged: Layout (upper/lower deck room list, as-is
 
 2. **Crew Aboard** — the 7 running the ship: the 2 PCs (Orena, Aerion) plus the 5 NPCs from `rules/Stat Blocks.md` (Estra, Tack, Finny, Brass, Oz). Columns: Name, Species/Class, Role, Current Station (dropdown: Pilot/Gunner/Engineer/Coordinator/Personal action/Off-duty), HP (live, of their max), Notes. Flurry (Aerion's non-combat pet) gets a separate note, not a station-crewing row — he doesn't stand a station. Notes column pre-filled with the established gunnery assignments from session 0/1: Tack, Oz, and Finny are confirmed gunners; Brass can only load, not fire.
 
-3. **Bastion Facilities** — full catalog, all 4 DMG'24 levels (5/9/13/17), 29 facilities total. Columns: Facility, Level, Prereq, Space, Hirelings, Order, Description (full text, not paraphrased — sourced from the DMG'24 text the user supplied). A pinned/highlighted section calls out the ship's actual chosen facilities (Aerion: Storehouse + one open slot; Orena: Library + Arcane Study) at the top, with the rest as reference below.
+3. **Bastion Facilities** — full catalog, all 4 DMG'24 levels (5/9/13/17), 29 facilities total. Columns: Facility, Level, Prereq, Space, Hirelings, Order, Description (full text, not paraphrased — sourced from the DMG'24 text the user supplied). A pinned/highlighted section calls out the ship's actual chosen facilities (Aerion: Storehouse + one open slot; Orena: Library + Arcane Study) at the top, with the rest as reference below. Note: this tab is static reference, not live-tracked — it exists because the user asked for the full catalog available, not because it fits the live-tracking rationale in Context. Called out explicitly here so the scope decision is visible rather than folded silently into "live tracking."
 
 4. **Cargo Manifest** — repurposed from the old xlsx template's Inventory tab: live line-item cargo tracking against the 20-ton cap.
 
@@ -44,11 +44,17 @@ Dropped entirely (not ship-applicable): Spells, Spells - 1, Bard Table, Paladin 
 
 ## Apps Script (`Code.js`, replacing the empty boilerplate)
 
-Custom `⚓ Night Fury` menu:
-- **Apply Damage** — prompt for amount; if < 20 (damage threshold), no-op with a toast explaining why; otherwise subtract from live HP and add to the repair-bill tracker (20 gp/point, per `Night Fury.md` §Money).
-- **Emergency Patch** — restores HP equal to a prompted engineer level, once per encounter per engineer (tracked via a per-session checkbox/flag on the sheet, reset by "Reset Round").
+Custom `⚓ Night Fury` menu. Every action is a thin wrapper over plain cell writes — if the menu ever breaks or is unavailable mid-session, the DM can edit the underlying HP/repair-bill/station cells directly with no loss of function; the menu is a convenience, not the only write path.
+
+Single-user assumption: the DM operates the menu (matches actual play — one person runs the sheet at the table). No concurrency guard (`LockService`) — not needed at this scale, and adding one would be over-engineering for a 2-player home game.
+
+Every prompt-driven action: canceling the dialog or entering non-numeric input aborts with a toast and writes nothing to the sheet.
+
+- **Apply Damage** — prompts for the incoming hit amount, then asks "Is Tack actively mitigating this hit? (Y/N)" — Tack's *Reactive Repair* trait (`rules/Stat Blocks.md`) reduces damage over the threshold by 10, so the DM enters the raw hit and the script does the threshold/mitigation math, not the other way around. If the post-mitigation amount is < 20 (damage threshold), no-op with a toast explaining why; otherwise subtract from live HP (floored at 0) and add to the repair-bill tracker (20 gp/point, per `Night Fury.md` §Money).
+- **Emergency Patch** — prompts for engineer level, restores that much HP (capped at 250 max), once per encounter per engineer (tracked via a per-session checkbox/flag on the sheet, reset by "New Encounter"). Menu description reminds the DM this only records the bookkeeping after the DC 12 Technology/Intelligence check succeeds at the table (`Rules & Systems.md` §8) — the script doesn't roll it.
 - **Repair to Full** — resets HP to 250 and clears the repair-bill tracker (for use after downtime repairs are paid off narratively).
-- **Reset Round** — clears per-round station assignments and Emergency Patch flags for a new encounter.
+- **New Round** — clears per-round station assignments only. Safe to click every round.
+- **New Encounter** — clears station assignments *and* Emergency Patch flags. Click only at encounter boundaries — clicking it mid-encounter (instead of New Round) would let an engineer reuse Emergency Patch within the same fight, defeating the once-per-encounter cap.
 
 No dice roller, no PDF export, no proficiency-dot dropdown machinery — that was Orena's PC-sheet plumbing (skill checks driven by a shared proficiency-bonus cell), not applicable to a ship with no ability scores.
 
