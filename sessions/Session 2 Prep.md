@@ -41,11 +41,14 @@ Orena caught a current dying on watch. This is Estra's scene to receive that, no
 
 **The conversation, broken into real beats, not one speech:**
 1. **She lets Orena describe it first.** Doesn't rush to explain, asks what she saw, exactly, in her own words. Estra confirms it rather than narrates it: yes, that's what it looks like. This is a captain drawing out a witness, not delivering a lecture.
-2. **The system is fine.** First thing she settles, because it's the thing that will eat at Orena worst if left open: nobody died there. Whatever world was on the other end of that light is having an ordinary day right now, sun up, people going about it, none of them touched.
-3. **What actually went dark was the road.** Not the star, the current, the living glow that ran along it, the same light every ship out here steers by because there's nothing else to steer by. No fixed stars to shoot a bearing off, no dead reckoning, no backup method. Lose that glow and there was never a second way of finding the place again.
-4. **She closes it, not opens it.** Flat, closer to a foreman clocking a broken part than a captain confessing anything: this happens, it's not the first route she's watched drop off a chart, it won't be the last. No vague hint dangled, no "more than once, and I won't say how many," she's not giving Orena a second grief to carry tonight on top of her own. **The one crack, and it's non-verbal.** She's mid-hand of solitaire when Orena found her; she never finishes it, sweeps the cards before the game resolves, says she's turning in. She never leaves a hand unfinished. Gabrielle can clock that or not, nothing needs to be said about it either way.
+2. **The system is fine, and she knows because she's checked.** First thing she settles, because it's the thing that will eat at Orena worst if left open: nobody died there. Not a guess, not reassurance for its own sake, she's been to one. Years back, she flew all the way out to where a route just like this one had dropped off the chart and found the place still there, exactly where it should be, a world having an ordinary day, sun up, people going about it, none of them touched. Cut off. Not killed.
+3. **What's getting harder to hide.** She says this almost as an aside, tired rather than dramatic, not a reveal, just a captain thinking out loud to someone she trusts: whatever's doing this keeps happening, more than the people who'd rather it didn't get talked about can quietly manage. Delisting a route, filing it as consolidated, losing the paperwork, that only works so many times before someone starts noticing the pattern instead of the individual gaps. **She doesn't name who "the people who'd rather it didn't" are.** Not tonight. Let it sit as a real, adult observation from someone who's watched it happen more than once, not a conspiracy monologue.
+4. **What actually went dark was the road.** Not the star, the current, the living glow that ran along it, the same light every ship out here steers by because there's nothing else to steer by. No fixed stars to shoot a bearing off, no dead reckoning, no backup method. Lose that glow and there was never a second way of finding the place again.
+5. **She closes it, not opens it.** Flat, closer to a foreman clocking a broken part than a captain confessing anything: this happens, it's not the first route she's watched drop off a chart, it won't be the last. No vague hint dangled, no "more than once, and I won't say how many," she's not giving Orena a second grief to carry tonight on top of her own. **The one crack, and it's non-verbal.** She's mid-hand of solitaire when Orena found her; she never finishes it, sweeps the cards before the game resolves, says she's turning in. She never leaves a hand unfinished. Gabrielle can clock that or not, nothing needs to be said about it either way.
 
 **A line for her, roughly, plain and clipped:** *"Systems don't die. Roads do. Somebody's sun is still coming up over there right now, same as always, and they've got no idea we just watched their whole world go quiet from a thousand miles off. Nothing ends out here. It just stops being findable."*
+
+**The cover-up line, quieter, not aimed at anyone:** *"It's not new, if that's what you're asking. It's just getting harder for the people who'd like it kept quiet to keep it quiet. There's more of it than there used to be. I don't say that where it'll get repeated wrong."*
 
 **And when Orena tries to go further, the close:** *"It happens. Not the first route I've watched fall off a chart. Get some sleep, you're not going to think your way out of it tonight."*
 
@@ -53,7 +56,8 @@ Orena caught a current dying on watch. This is Estra's scene to receive that, no
 
 **What this scene covers, at a glance:**
 - Confirms Orena's sighting was real and gives it a name without over-explaining the mechanism (the cause stays locked for Tier 2).
-- Establishes the core, table-facing rule of the Guttering: a guttered system is alive and intact, only unreachable, "cut off, not killed."
+- Establishes the core, table-facing rule of the Guttering: a guttered system is alive and intact, only unreachable, "cut off, not killed," and grounds it in Estra's own firsthand experience, not just her saying so.
+- Plants a new, deliberately vague thread: it's happening often enough that it's getting harder for unnamed "people who'd rather it didn't get talked about" to keep individual cases quiet. Seeds `campaign/Story Spine.md`'s cover-up material (the delisted routes, the Amberwake correction chart) without naming a house or a mechanism, still symptom-only, per the standing information policy below.
 - Establishes why there's no workaround: no fixed stars, no dead reckoning, the living current was the only method there ever was.
 - Gives Estra a second, deliberately different reaction to a Guttering-adjacent event than session 1's scavver scene, brisk dismissal instead of visceral shock, so the "Estra has history with this" beat doesn't repeat itself in shape twice running.
 - Plants that history anyway, through one unexplained physical tell (the unfinished hand of solitaire) rather than a spoken hint, so nothing is cashed in yet and nothing feels reused.
@@ -79,7 +83,50 @@ Three linked beats, not three separate scenes, they can flow into each other ove
 
 ---
 
-## 4. Bastion actions
+## 4. NPC crew: more ship and port beats
+
+Five smaller vignettes, spread across the ship and the Bral homecoming, giving Brass, Oz, Finny, Estra, and Tack real material beyond the cold open's one-liners. None of these need to run in order, or all in one sitting, pick what fits the pacing.
+
+**Brass, a real medic scene (ship).** Not the potion gag again. Somewhere in the post-fight quiet, she's actually treating someone, a real Reefside injury, fast hands, faster diagnosis, the kind of competence that makes "she never got her license" read as bureaucracy's failure rather than hers. Good chance for her patter voice to land for real instead of as a punchline.
+
+**Brass's guy, at Bral.** The lockbox dispel isn't a stranger's business tonight, it's hers. **Wren Ostler (§6, below) is Brass's contact**, someone she already knows from a prior port, and whether that history reads as warm or fraught is worth playing close to the vest, per the standing "a guy at every port, good or bad" rumor (`npcs/Crew Roster.md`). Don't resolve which it is tonight, one loaded look, a "you're still owed one, then," anything that plants the ambiguity without spending it.
+
+**Oz, mending (ship).** Found doing the thing he always does, small repair, quiet focus, this time let something actually go wrong, a stitch pulls loose, a strap snaps. **Insight check, DC 15, for whoever's watching:** on a success, they catch it, not frustration, not even a sigh, just a half-second of total stillness before he resets and keeps going, calm a beat too fast to be natural. That's the tell. **New GM-only thread: Oz suppresses what he actually feels, completely, and nobody's clocked it before now.** Leave what's underneath unnamed for now.
+
+**Finny, reading the Board (ship or Bral, whichever fits the pacing).** He's the one who actually reads the 345th update out loud, and he doesn't stop there, he's got a running commentary on the neighbours and the top ten both. Roll on the gossip table below, or let him free-associate off it: **higher roll, juicier gossip.**
+
+| d20 | Gossip |
+|---|---|
+| 1 | Rimmon Vex got turned away from the Compass Rose again for starting trouble. |
+| 2 | The Weatheralls' littlest is learning to read charts. The whole *Kettle* crew is insufferably proud. |
+| 3 | Steadfast Promise's Dov Errin bought a round for a total stranger last night and told the impound story again, unprompted. |
+| 4 | Someone saw Ollo Trask personally scrubbing the *Quiet Sum*'s hull. He never delegates the ugly jobs. |
+| 5 | The *Vermilion Hour* filed its paperwork three days early this quarter. Nobody knows why. |
+| 6 | *Amity's Reward*'s mystery account paid its annual fee again. Still no name attached. |
+| 7 | A rigger swears Vex tried to poach one of the Weatherall boys for cheap labor and got run off the dock. |
+| 8 | Compact Standard's Dessa Kell is rumored to be courting someone forty-odd ranks up. Bets are already being placed. |
+| 9 | Slack Water's Sael Rowe hasn't been seen at port in two months. Some say she's chasing a route nobody else believes exists. |
+| 10 | The Second Ledger's crew got a full night's shore leave, paid out of Thessaly Darkshade's own pocket. Unusually generous, for her. |
+| 11 | Word is the *Jumper*'s captain won a bet with a mercane and nobody will say what for. |
+| 12 | Ninefold's mercane owners are quietly buying up debt from smaller crews. Expanding the charter, some say. |
+| 13 | Rank 10's listing is still "withheld pending review." Third quarter running. Someone's paying to keep a name off the sheet. |
+| 14 | Var Solenne of the *Consequence* was seen arguing with a Route Warden inspector loud enough to draw a crowd. |
+| 15 | Farthing's Aurel Delverane has been asking around about unlisted current charts. Paying well for them, too. |
+| 16 | Isolde Rask of the *Tollkeeper* turned down an Escort contract twice this quarter. Word is she's picky about who she flies past lately. |
+| 17 | House Vellum's *Heavy Crown* hasn't left port in three weeks. Unheard of, for the top slot. |
+| 18 | A Route Warden filed an incident report against a founding house vessel, then quietly withdrew it the next day. |
+| 19 | Someone with real money is buying salvage claims in the Tollmarch sight unseen. Nobody's put a name to it yet. |
+| 20 | A Charter Window clerk let slip that a founding house is "auditing" independent crews' navigation filings. Nobody knows which house, or why. |
+
+**Estra's real secret, seeded, not spoken.** She still pores over old fleet logs and ledgers on her own time, quietly checking in on ships and crew that used to be hers, tracking who's still flying and who isn't. **She hides this from the current crew entirely.** A PC catching a glimpse (old hull names on a page she closes a beat too fast, an entry logged in a hand that doesn't match the *Night Fury*'s manifest style) is the only way this surfaces tonight; don't explain it if it does. Good pairing with the lighter coda below.
+
+**A lighter coda for Estra, if there's room.** After the heavier scene in §2, a different moment later: someone joins her hand of solitaire, and this time it actually finishes. Small, warm, a contrast to the unfinished hand from earlier. No dialogue required to carry it.
+
+**Tack and Flurry, found napping (ship, ambient).** No trigger needed, just a detail to drop whenever the ship's quiet: the two of them curled up in the helm-glow, Flurry's favourite warm spot (`npcs/Flurry.md`), legs twitching through some small dragon dream, and Tack beside her in what looks like mid-repair, a wire still held between two fingers, not actually working on anything. An autognome's version of asleep. Nobody needs to comment on it. It's just true.
+
+---
+
+## 5. Bastion actions
 
 **Corrected canon (facilities are unpooled, `rules/Rules & Systems.md` §6):** each PC has their own two level-5 facility slots, four total between them, not one shared pool of two. What was framed below as "the second slot, pick one of three" was actually Orena's own two independent picks; she took both Library and Arcane Study rather than choosing between them. Left as played for the record.
 
@@ -90,9 +137,15 @@ Three linked beats, not three separate scenes, they can flow into each other ove
 
 Aerion's second level-5 slot is still open, a live decision for a future session (Armory, Barrack, or Sanctuary are the live candidates, `rules/Rules & Systems.md` §6).
 
+**This session also resolves each PC's actual bastion turn, not just the facility picks.** Turns are per PC, per voyage leg (`rules/Rules & Systems.md` §6), so this leg gives Aerion one turn and Orena one turn, each spent on one of their own facilities' orders. A facility existing doesn't mean its order fires every leg, only when a PC actually spends their turn on it.
+
+- **Aerion's turn: Storehouse, Trade order.** Already resolved in §3's stocking beat, the three common items are the concrete output. Nothing further needed here, just don't double-spend his turn on anything else this leg.
+- **Orena's turn: Library, Research order (recommended).** She has two facilities but only the one turn this leg, so it's her call which fires. Library fits what's already in motion: fold it into the nav-data joint scene in §6 below rather than running it as a separate roll. **A Research order needs a check only where there's real uncertainty** (`rules/Rules & Systems.md` §6): an Investigation or History check, DC 13, decides whether the cross-check with Meech's delisted routes surfaces something concrete (a name, a date, a pattern) versus just confirming the wrongness everyone already feels. Either result is fine, a miss doesn't erase the scene's emotional beat, it just means the hard data waits another session.
+- **Arcane Study stays unspent this leg**, and that's fine, nothing forces every facility to fire every turn. If the table would rather Orena spend her turn there instead (Craft an Arcane Focus, a Book, or a Spell Scroll), that's a live option, it just trades away the Research tie-in above.
+
 ---
 
-## 5. Back to the Rock of Bral
+## 6. Back to the Rock of Bral
 
 **Session 1's fallout, mapped before the docking scenes below.** Reefside was loud enough (a real ambush, a boarding fight, a void scavver feeding on a founding house's own checkpoint) that it shouldn't arrive at Bral silently. Weave these in as texture on the way through the port rather than a briefing:
 
@@ -105,7 +158,7 @@ Aerion's second level-5 slot is still open, a live decision for a future session
 
 - **Payroll, no repairs needed.** The *Night Fury* came out of Reefside without hull damage, so this is just the month's operating cost, not a repair bill, before anything else gets fun.
 - **The navigation-data check, run as an Aerion-and-Orena scene, not Orena alone.** Pulling her own survey back-catalog and cross-checking it against Meech's three delisted routes and whatever the lockbox's Vellum correspondence references is Orena's instinct to have, but the data half of this is Aerion's ledger, the same dying-frontier-routes pattern that's his thread too (`campaign/Story Spine.md`). Run it as the two of them at the same table, her charts against his numbers, each noticing a piece the other one's method would've missed. **Worth doing on purpose:** this crew needs more scenes that treat Aerion and Orena as a working pair rather than two separate spotlights, and this beat is a built-in, unforced place to do it, the navigator and the quartermaster cross-checking the same wrongness from two directions. Neither of them solves anything tonight, they notice it together, before anyone tells them to look.
-- **The lockbox thread, opened tonight.** Wren Ostler, new at the Compass Rose, does the dispel. How much of the truth the crew gives her for it is the actual scene, she casts reliably but wants the real story as her price, not gold (`locations/The Bral Reach.md`). **The reveal itself is the beat to land, not what the crew decides to do about it.** Inside: two letters (a Registrar's plea for a public advisory, then, over a year later, a cold notice striking the corridor from record with no reply ever shown) and the Amberwake's own retired working chart, heavily corrected across five years with the annotation dates crowding tighter and tighter before the last attempt trails off unfinished, all detailed in full in `campaign/Story Spine.md`. Handout props ready to actually show the table: `sessions/lockbox-vellum-correspondence.html` and `sessions/lockbox-amberwake-chart.html`. Play the chart as the object it is before anyone starts on the letters, something a crew can physically unroll and watch a route die in the spacing of the handwriting, no check required to feel that. **Cut before the strategy conversation.** Let the table sit with what they're holding and what it might mean; whether they use it, sit on it, or take it to Estra is a thread for later sessions, not something to resolve tonight. This is the session's real cliffhanger, quieter than a fight, and it should be allowed to be that.
+- **The lockbox thread, opened tonight.** **Wren Ostler does the dispel, and she's not a stranger, she's Brass's contact** (§4, above), someone from a prior port whose history with Brass is left ambiguous rather than explained. How much of the truth the crew gives her for it is the actual scene, she casts reliably but wants the real story as her price, not gold (`locations/The Bral Reach.md`). **The reveal itself is the beat to land, not what the crew decides to do about it.** Inside: two letters (a Registrar's plea for a public advisory, then, over a year later, a cold notice striking the corridor from record with no reply ever shown) and the Amberwake's own retired working chart, heavily corrected across five years with the annotation dates crowding tighter and tighter before the last attempt trails off unfinished, all detailed in full in `campaign/Story Spine.md`. Handout props ready to actually show the table: `sessions/lockbox-vellum-correspondence.html` and `sessions/lockbox-amberwake-chart.html`. Play the chart as the object it is before anyone starts on the letters, something a crew can physically unroll and watch a route die in the spacing of the handwriting, no check required to feel that. **Cut before the strategy conversation.** Let the table sit with what they're holding and what it might mean; whether they use it, sit on it, or take it to Estra is a thread for later sessions, not something to resolve tonight. This is the session's real cliffhanger, quieter than a fight, and it should be allowed to be that.
 - **Board, places, and stores, checked and updated.** The Manifest Board's new 345th position (`factions/The Manifest Board.md`, already covered above), whatever's changed at the Charter Window, the Float Market's one interesting thing, and the fresh rumour crop at the Compass Rose (`rules/Tables.md` §4).
 - **Pick a new contract.** Any of the three new job board postings (`rules/Contracts.md`), Quiet Water is the lowest-danger option if the table wants a genuinely light one to close on.
 
