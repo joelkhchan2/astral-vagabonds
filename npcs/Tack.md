@@ -6,7 +6,7 @@ Chief Engineer (and Gunner). Autognome, a small cheerful construct. Meticulous, 
 Tack knows the ship better than anyone and loves her without embarrassment. He has named every major component, argues gently and one-sidedly that the creaking is the ship talking back, and saved the tattered flag from the old vessel to stitch onto this one. He is oblivious to social cues: personal space, food in mouths, the warmth of touch. He can work the guns, though he's no marksman, so he doubles as a gunner.
 
 **Voice:** cheerful, literal, talks *to* the ship, who "talks back."
-**Tics:** names every part (ballistae **Gertrude** and **Susan**, ram **Kevin**, helm **Deborah**); a maintenance log that doubles as a diary ("Kevin was gracious about the realignment").
+**Tics:** names every part (ballistae **Gertrude** and **Susan**, ram **Kevin**, mast **Deborah**); a maintenance log that doubles as a diary ("Kevin was gracious about the realignment").
 
 **Off duty:** polishes and talks to the ship, writes the maintenance-log-diary, performs tiny repairs nobody asked for, and keeps score at Finny's game night (for the ship, who is winning).
 
