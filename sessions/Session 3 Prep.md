@@ -5,8 +5,10 @@ Full shape per the `session-structure` skill: cold open, main content (whichever
 ## Where things stand, going in
 
 - Session 2 closed with the crew back at the Rock of Bral; the Manifest Board rotated in three new postings (below), replacing Sealed and Sworn.
-- Rank: 345th (`factions/The Manifest Board.md`). The lockbox is aboard, unopened, in Aerion's Storehouse. The Vellum "WE KNOW" note landed as the session 2 fallout beat, still unaddressed.
+- Rank: 345th (`factions/The Manifest Board.md`). **The lockbox was opened during session 2** (Wren Ostler's dispel, `sessions/Session 2 Prep.md` §8), not still sealed, correct this if an older recap says otherwise. The Vellum "WE KNOW" note landed as the session 2 fallout beat, still unaddressed.
 - Bastion: Orena has both her level-5 slots (Library, Arcane Study). Aerion has Storehouse; his second slot is still open, this session's live bastion decision (see below).
+- **Orena's Research order (session 2's bastion turn, `Session 2 Prep.md` §6) had an Investigation/History check riding on it, DC 13, deciding whether the nav-data cross-check surfaced something concrete.** Check what actually happened at the table before running this session; a hit means the crew has a real lead in hand (a name, a date, a pattern) going in, a miss means the wrongness is still just a feeling.
+- **New threads seeded in session 2, may or may not have surfaced at the table:** Oz suppresses his emotions completely (an Insight DC 15 catch during a mending scene, `Session 2 Prep.md` §5), Estra secretly still checks on her old fleet's fate (a glimpsed detail, same section), and Brass's history with Wren Ostler is left deliberately ambiguous. None of these need resolution this session, they're background texture to keep consistent, not obligations.
 - Nothing from `sessions/Session Ideas.md` is being seeded this session by design, the space clown troupe and the training bottle episode are both explicitly banked for later, not this one.
 
 ## Cold open: the Manifest Board pick
