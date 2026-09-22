@@ -1,6 +1,6 @@
 # Crew Roster -- the Night Fury
 
-**Total complement: 11** (2 PCs + 5 original NPCs + 4 recruited session 2, the former Burnouts). The ship is the ***Night Fury***, christened by the crew in session 1 (flew unnamed under Captain Vane's good name before that). Both PCs are **level 6** as of session 2.
+**Total complement: 7** (2 PCs + 5 NPCs). The ship is the ***Night Fury***, christened by the crew in session 1 (flew unnamed under Captain Vane's good name before that). Both PCs are **level 6** as of session 2.
 
 > **Canon (session 0, played).** Aerion joined this crew about **5 years ago** on what looked like a very successful venture. They found the silver dragon Flurry and a treasure hoard on a hunt roughly 4.5 years ago, then a long run of failed jobs left them near destitute. Their **old ship blew up** (the cook was having his nightly smoke next to pre-loaded cannons); most of the fourteen-person crew lost faith and left, and the loyal few remained. Insurance money, some family funds, and 10,000 gp from Aerion's trust fund bought the new **Sturdy Trader**. **Orena (Gabrielle's PC) is the newest aboard, joined ~6 months ago.** They hired back up to a lean crew of seven at the Danforth yard.
 
@@ -48,21 +48,9 @@ Giff (hippo-person), seven feet tall and large. Absurdly polite, soft-spoken, a 
 
 ---
 
-## The Burnouts (4) -- recruited session 2
+## The Burnouts -- lifelong nemeses, not crew
 
-> **Full backstory, stat blocks, and how to keep running them: `sessions/Episode - BoyBoy McGee.md`.** Former crew of the wrecked *Bottle Rocket*, met as a hostile ambush behind a joke-tier "deliver cookies" posting, defeated and then recruited onto the *Night Fury* by the table's own choice, not scripted. Still finding their footing; play the fit as a little awkward on purpose.
-
-### 6. Boy Boy McGee -- Gunner (against his will)
-Halfling, piloting a battered eight-legged mechanical rig with a rocket backpack, several legs currently ending in mop heads after the fight that got him recruited. Wanted to keep captaining; was told flatly it was gunner or nothing. Royal bearing and genuine hospitality despite his circumstances, apologizes for everything, finishes whatever food is in front of him before discussing anything. Grumpy about the demotion, good for recurring friction.
-
-### 7. Cal ("VertiCal") -- Scout
-Former navigator and part-time engineer of the *Bottle Rocket*. Dagger and hand crossbow, aerial dive-bomb attacks off her own thruster rig. Calls corrections out of habit, keeps every rig in the crew running.
-
-### 8. Gary ("Sugary") -- Sous-Chef, under Brass
-Genuinely sweet-natured, genuinely dangerous in a fight. Baked the tin of cookies used as bait for his own crew's ambush. Bakes when nervous, which is often. Self-described sushi/hibachi chef, 36 years' claimed experience.
-
-### 9. Ken ("Kraken") -- Rigger / Deckhand / backup Gunner
-A locathah, small and mild-looking, the opposite of the tough name he picked for himself. A lapsed former doctor who let his license go. Devoted to Boy Boy for something small and real neither of them talks about.
+> **Full backstory, stat blocks, and how to keep running them: `sessions/Episode - BoyBoy McGee.md`.** Session 2's cookie-delivery job went hot; the crew tried to bring Boy Boy McGee, Cal, Gary, and Ken aboard afterward, but it didn't take, they're rivals now, not hires. See `sessions/Session 2.md` for exactly how it went and `sessions/Session 3 Prep.md` for the standing rivalry.
 
 ---
 
@@ -74,7 +62,7 @@ A locathah, small and mild-looking, the opposite of the tough name he picked for
 - Brass is the crew's fixer as well as its medic; her "a guy at every port" is a recurring hook that can help or complicate a job.
 - Finny is the heart and the leak: warm, loud, and unable to keep the secrets he collects, except his own about the deposits at Bral.
 - Oz's politeness against his size and firepower is the running contrast; chain of command matters to him.
-- The Burnouts are still finding their footing, recruited mid-fight rather than hired properly; play the fit as a little awkward, a little too grateful, on purpose. Boy Boy's demotion from captain to gunner is a standing sore spot worth returning to.
+- The Burnouts are a standing rival crew now, not shipmates, see `Episode - BoyBoy McGee.md`'s aftermath notes for how BoyBoy specifically remembers this.
 
 ## Tone note
-This is a lean, near-destitute crew flying under a borrowed name, doing the jobs nobody else wants. The comedy started as seven people wearing fourteen hats and is now eleven people still sorting out who actually does what. Money is real, wages come out of the account every session, and they have sworn off any job longer than 60 days so they never test the 120-day air clock.
+This is a lean, near-destitute crew flying under a borrowed name, doing the jobs nobody else wants. The comedy is in seven people wearing fourteen hats and pretending it is fine. Money is real, wages come out of the account every session, and they have sworn off any job longer than 60 days so they never test the 120-day air clock.

@@ -72,7 +72,7 @@ A joke-tier posting off the board (20 gp, "urgent," a two-minute walk) came with
 - **Gary ("Sugary")**, the one who actually baked the cookies used as bait, self-described sushi/hibachi chef.
 - **Ken ("Kraken")**, a lapsed former doctor, ended up fighting as a rigger.
 
-**The table's call, not scripted: they recruited all four onto the crew rather than turning them in or walking away.** Assignments landed loosely at the table: Gary as sous-chef under Brass, Ken as rigger/deckhand/backup gunner, Cal as scout, and **Boy Boy demoted to gunner over his own objection** (he wanted to keep captaining; told flatly it was gunner or nothing). This is a real, played expansion of the crew roster, folded into `npcs/Crew Roster.md`, not a one-off gag. Boy Boy's ongoing grumpiness about the demotion (and his mop-headed legs, several were hacked off mid-fight and never properly replaced) is good, cheap, recurring color.
+**The table tried to recruit all four onto the crew, and it didn't take.** The offer got made, roles even got loosely assigned in the moment (Gary as sous-chef under Brass, Ken as rigger, Cal as scout, Boy Boy told flatly it was gunner or nothing), but it didn't stick. **What actually resulted: the Burnouts are lifelong nemeses now, not crew.** Boy Boy remembers being beaten and talked down to by name, and the attempted hire lands as one more thing that didn't go his way rather than a fresh start. This matches `Episode - BoyBoy McGee.md`'s own aftermath design (a rival who wants a rematch, not blood) better than a recruitment would have, so run it that way going forward: BoyBoy and his crew are a recurring underworld rivalry, not shipmates. Don't fold them into `npcs/Crew Roster.md`.
 
 **Both PCs leveled to 6** at the end of this fight (Orena: 2nd level Paladin, giving her multiclass spellcaster progression two 3rd-level slots; Aerion: an Ability Score Improvement).
 
@@ -89,11 +89,11 @@ Rolled lightly, mostly flavor, while the party confirmed **Two Chairs Short** as
 - **The lockbox is open.** Contents: the two Amberwake letters and the chart (see above), now in the crew's hands, not Vellum's. Vellum does not yet know the crew has read them.
 - **House Carrow, canon:** a defunct cartography house, collapsed ~40 years ago, the Board of Ledgers' empty fifth chair, official ruin story doesn't fully add up.
 - **Aerion's real hobby is a secret pet-costume business**, feeding into the standing International Space Dog Show hook. Retire the "young adult novelist" joke.
-- **The crew roster grew by four:** Boy Boy McGee (gunner), Cal (scout), Gary (sous-chef), Ken (rigger/deckhand/backup gunner). Update `npcs/Crew Roster.md`'s "total complement" language accordingly, it's no longer a clean 7.
+- **The Burnouts are now a standing rival, not new crew.** The recruitment attempt failed; they read the whole thing as one more loss and are lifelong nemeses going forward. Crew complement stays 7.
 - **Both PCs are level 6.**
 - **The Vellum "WE KNOW" note landed inside Estra's own quarters**, not as a general dockside fallout beat. Whoever placed it got past the ship's own security to do it.
 - **Wren Ostler stays a loose, unconfirmed thread** (a nod in the shadows, nothing more), not spent as the lockbox's opener. Available for later if wanted.
 
 ## Where it goes next
 
-Session 3 opens already in flight toward **Two Chairs Short**, the note from Vellum sitting unread on Estra's desk (or wherever she's put it), the Carrow/Amberwake mystery banked and unshared with the rest of the crew, and a newly doubled-in-size crew still settling into who does what. See `Session 3 Prep.md`, which needs its "where things stand" section corrected to match this record.
+Session 3 opens already in flight toward **Two Chairs Short**, the note from Vellum sitting unread on Estra's desk (or wherever she's put it), the Carrow/Amberwake mystery banked and unshared with the rest of the crew, and a new standing grudge with Boy Boy McGee and the Burnouts. See `Session 3 Prep.md`, which needs its "where things stand" section corrected to match this record.
