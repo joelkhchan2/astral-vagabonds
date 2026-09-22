@@ -1,5 +1,7 @@
 # Session 2 Prep
 
+> **Played, session 2 (see `sessions/Session 2.md` for the actual record).** Most of this doc landed close to written, the lockbox contents (§8, the letters and chart), the House Carrow lore, and the port texture all survived intact. **One real divergence: the lockbox was opened mid-transit with Aerion's stolen key, not by Wren Ostler at Bral** (§4, §8 below describe the planned version). Wren Ostler herself stays a loose, unnamed thread rather than the actual opener. The crew also picked up the "deliver cookies to Boy Boy McGee" side job and recruited the Burnouts onto the roster, an unscripted addition, `Episode - BoyBoy McGee.md` and `npcs/Crew Roster.md` now reflect it. Left below as a record of the plan; follow `Session 2.md` for what's actually true going forward.
+
 Working doc, not a script. Session 1 ran hot and ended heavy (a real ambush, a boarding fight, a star dying on watch). This one opens by deflating that on purpose, does its real business in the middle, and leaves session 3 room to be the genuinely relaxed one. Shape below is the agreed running order; cross-references point at where each piece actually lives.
 
 ## Where things stand, going in

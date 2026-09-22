@@ -4,24 +4,29 @@ Full shape per the `session-structure` skill: cold open, main content (whichever
 
 ## Where things stand, going in
 
-- Session 2 closed with the crew back at the Rock of Bral; the Manifest Board rotated in three new postings (below), replacing Sealed and Sworn.
-- Rank: 345th (`factions/The Manifest Board.md`). **The lockbox was opened during session 2** (Wren Ostler's dispel, `sessions/Session 2 Prep.md` §8), not still sealed, correct this if an older recap says otherwise. The Vellum "WE KNOW" note landed as the session 2 fallout beat, still unaddressed.
-- Bastion: Orena has both her level-5 slots (Library, Arcane Study). Aerion has Storehouse; his second slot is still open, this session's live bastion decision (see below).
-- **Orena's Research order (session 2's bastion turn, `Session 2 Prep.md` §6) had an Investigation/History check riding on it, DC 13, deciding whether the nav-data cross-check surfaced something concrete.** Check what actually happened at the table before running this session; a hit means the crew has a real lead in hand (a name, a date, a pattern) going in, a miss means the wrongness is still just a feeling.
-- **New threads seeded in session 2, may or may not have surfaced at the table:** Oz suppresses his emotions completely (an Insight DC 15 catch during a mending scene, `Session 2 Prep.md` §5), Estra secretly still checks on her old fleet's fate (a glimpsed detail, same section), and Brass's history with Wren Ostler is left deliberately ambiguous. None of these need resolution this session, they're background texture to keep consistent, not obligations.
+**This section now follows `sessions/Session 2.md`, the actual play record, not the original session 2 plan.** Several things below differ from an older draft of this doc, corrected here.
+
+- Session 2 closed with the crew back at the Rock of Bral, an unscripted side job (cookies for Boy Boy McGee) that turned into a real fight, and the *Two Chairs Short* posting confirmed as the crew's pick for this session.
+- Rank: 345th (`factions/The Manifest Board.md`).
+- **The lockbox was opened mid-transit, with Aerion's stolen key, not by Wren Ostler.** Contents: two Amberwake letters and a corridor chart exposing a Vellum cover-up tied to the defunct House Carrow (`Session 2.md`, full text in `lockbox-vellum-correspondence.html` / `lockbox-amberwake-chart.html`). The crew has read all of it and is sitting on it; Vellum still believes the box was lost at Reefside.
+- **Both PCs are level 6.** Orena picked up her 2nd Paladin level (two 3rd-level spell slots); Aerion took an ASI.
+- **The crew grew by four.** The Burnouts (Boy Boy McGee, Cal, Gary, Ken) were recruited onto the roster after the cookie job went hot, see `npcs/Crew Roster.md`. They're new, a little awkward, still settling into their assignments, good texture but no obligation to spotlight them hard this session.
+- Bastion: Orena has both her level-5 slots (Library, Arcane Study), and used her Library this past leg (the "have the stars reappeared elsewhere" question, a weak sailors'-tale result, see `Session 2.md`). Aerion has Storehouse; his second slot is still open, this session's live bastion decision (see below).
+- **The real ending hook from session 2: a Vellum "WE KNOW" note was left on Estra's own pillow, inside her private quarters**, not just a dockside fallout beat. Whoever placed it got past the ship's security to do it. She hasn't addressed it with the crew yet; that tension is live going into this session.
+- **New threads from session 2 that may or may not have surfaced at the table beyond what's confirmed above:** Oz suppresses his emotions completely (an Insight DC 15 catch, if that mending scene ran), Estra secretly still checks on her old fleet's fate, and Brass's contact at Bral (glimpsed only as a nod in the shadows) is unconfirmed as anyone specific, Wren Ostler included. None of these need resolution this session, they're background texture to keep consistent, not obligations.
 - Nothing from `sessions/Session Ideas.md` is being seeded this session by design, the space clown troupe and the training bottle episode are both explicitly banked for later, not this one.
 
-## Cold open: the Manifest Board pick
+## Cold open: departure, already decided
 
-This is a real, live scene, not a recap. The crew is back at the Board, three new postings up, and the choice of which to take is entirely theirs, made at the table. Present all three plainly (payout, days, tons, complication) without steering toward the biggest number, even though that's the likely pick given how session 1's Escort job went. Let the room's own read of risk versus payout do the work.
+**The pick already happened, at the table, at the end of session 2: the crew is taking Two Chairs Short.** No need to re-run the Board scene, open instead on preparations to depart, provisioning, Aerion's second bastion facility if it hasn't landed yet, the Burnouts finding their footing in their new assignments, whatever's warmest. The Ledger Run and Quiet Water branches below stay fully written and banked for a future rotation, since the DM built all three and only one got taken; they don't need to appear this session at all.
 
-**Given a choice, this table reaches for the biggest number on the sheet**, that's exactly what happened with the 6,000 gp Escort job before a level-appropriateness check was needed. Two Chairs Short is deliberately the highest payout this rotation *and* has been calibrated to actually be fair for a level-5 crew, the raider is dangerous but built to break off once resisted, and it's a joint fight with the *Quiet Sum* rather than a solo one, so the crew isn't facing Aeravellis's full spec sheet alone. Prep that one first if you're short on time; the other two are here in case the table surprises you.
+**Given a choice, this table reaches for the biggest number on the sheet**, that's exactly what happened with the 6,000 gp Escort job before a level-appropriateness check was needed, and it's exactly what happened again here. Two Chairs Short is deliberately the highest payout this rotation *and* has been calibrated to actually be fair for a level-6 crew (both PCs leveled up at the end of session 2), the raider is dangerous but built to break off once resisted, and it's a joint fight with the *Quiet Sum* rather than a solo one, so the crew isn't facing Aeravellis's full spec sheet alone.
 
-## Main content: whichever job gets picked
+## Main content: Two Chairs Short
 
-Payout tracks danger across the board: **Quiet Water stays the cheap, genuinely safe pick**, and the two pricier options both carry real combat risk, on the level of last session's Bex fight, not a token scuffle. Don't run all three, prep the one the table actually takes. Each branch below is written to stand alone, pick one and go; when this becomes the HTML companion, these three should be switchable tabs, not one long scroll, since only one will ever be live at the table.
+The job is locked in, so this session should prep **only** the Two Chairs Short branch below in full; Quiet Water and The Ledger Run stay banked, no need to build them out further for this session specifically.
 
-Spotlight note: none of the three branches force a split Orena/Aerion scene the way session 2 did, each is written so both PCs have natural entry points (whoever's flying, whoever's talking, whoever's reading the sky), watch at the table for whether one PC is going quiet and reach for their branch point first if so.
+Spotlight note: the branch below doesn't force a split Orena/Aerion scene the way session 2 did, it's written so both PCs have natural entry points (whoever's flying, whoever's talking, whoever's reading the sky), watch at the table for whether one PC is going quiet and reach for their branch point first if so. With four new crew aboard, also watch for a chance to give one of the Burnouts a small, real moment, not a spotlight scene, just a beat that makes them feel like part of the crew rather than new furniture.
 
 ## Quiet Water · 1,300 gp · the safe pick
 
@@ -84,7 +89,7 @@ Live decision for this session, his pick alone (facilities are unpooled per PC, 
 
 ## Ending: hook, mystery, or cliffhanger
 
-Whatever the session's job resolves, close on one of the live threads rather than a clean button: the Vellum note still sitting unanswered, the lockbox still unopened, Bex Halloway's fate still unconfirmed, or (if Two Chairs Short was picked) the unnamed raider's hull quietly matching a pattern nobody's named yet. Pick whichever one the session's actual events made loudest, don't force a hook that the table's own choices didn't earn.
+Whatever the session's job resolves, close on one of the live threads rather than a clean button: the Vellum note still sitting unanswered in Estra's quarters, the Amberwake letters and House Carrow mystery still unshared with Vellum, Bex Halloway's fate still unconfirmed, or the unnamed raider's hull quietly matching a pattern nobody's named yet. Pick whichever one the session's actual events made loudest, don't force a hook that the table's own choices didn't earn.
 
 ## Looking ahead
 
