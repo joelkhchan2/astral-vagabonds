@@ -116,12 +116,24 @@ No combat content by design. This is the one to steer toward if the table's stil
 
 **8. A mercane trading vessel, warm, and loaded for Aerion.** Reuse `rules/Tables.md` table 1, entry 14. A **mercane** vessel, vast and disinterested the way mercane always read (`rules/Tables.md`), signals a standing offer rather than a hail: hold heading, they'll come alongside, business is business. **Play it as the inverse of Aerion's usual haggling scenes.** Mercane don't negotiate, the price is the price, stated once, flat, unbothered whether the crew buys anything at all, which is its own kind of comedy against his usual instincts. This is a genuine, rare chance to buy **uncommon and rare** magic items outright, the sort of stock `locations/The Bral Reach.md` explicitly keeps off Bral's own market ("no rare or very rare magic items... requires a Delverane commission, a mercane contact, or Brass calling in a favour, and all three should be scenes rather than transactions"). This is that scene.
 
-**What's actually for sale, concrete stock, not a vague "they have items":**
-- **Bag of Holding** (uncommon), 500 gp. Aerion's kind of purchase in every sense, watch for whether he can resist it.
-- **Sending Stones** (uncommon, a bonded pair), 400 gp. A real, useful hook, a way to stay in contact with Aldous and the *Fair Return* after tonight, or with anyone else later.
-- **Wand of Magic Missiles** (uncommon), 450 gp.
-- **Helmsman's Circlet** (rare, attunement by a spellcaster, from `rules/Tables.md` table 6, entry 1), 2,500 gp. Concentration on a helm isn't broken by damage under 15. **A direct, real payoff for Orena's helm training specifically**, this is the item that table already earmarked for exactly this kind of moment.
-- **Ledger of Debts Remembered** (rare, attunement, `rules/Tables.md` table 6, entry 6), 2,000 gp. Know whether a creature you can see owes you anything, and precisely what. **A direct, real payoff for Aerion specifically**, the character who already keeps everyone's ledger by hand.
+**What's actually for sale, concrete stock, not a vague "they have items." All canon 5e items, priced up from the usual market rate, mercane don't discount for volume or charm:**
+
+*Uncommon:*
+- **Bag of Holding**, 1,000 gp. Aerion's kind of purchase in every sense, watch for whether he can resist it.
+- **Sending Stones** (a bonded pair), 800 gp. A real, useful hook, a way to stay in contact with Aldous and the *Fair Return* after tonight, or with anyone else later.
+- **Wand of Magic Missiles**, 900 gp.
+- **Headband of Intellect**, 1,000 gp. **A direct, planted payoff**, Priscilla was already eyeing one of these back in session 1 for exactly the kind of Intelligence save the helm sometimes demands.
+- **Necklace of Adaptation**, 900 gp. Breathe freely and shrug off airborne hazards for as long as it's worn. Genuinely useful for a crew whose whole life is other people's air.
+- **Cloak of Protection**, 800 gp. Plain, reliable, the kind of thing a professional outfit actually stocks.
+
+*Rare, attunement required unless noted:*
+- **Ring of Free Action**, 4,000 gp. Immune to being paralyzed or restrained, and the wearer's speed isn't reduced by difficult terrain. **Worth a beat of its own tonight specifically**, it's a hard, direct counter to grappling jaws, the exact threat waiting for them in this job.
+- **Wand of Fireball**, 5,000 gp. The flashiest thing on the table, and it lands differently the same night the crew is briefed on a boarding raider with a crew of fifteen.
+- **Cloak of Displacement**, 4,500 gp.
+- **Amulet of Health**, 4,000 gp. Constitution becomes 19 while worn if it isn't already higher.
+- **Boots of Speed**, 3,000 gp.
+
+**Present the stock plainly and let the choice be entirely theirs**, per the standing player-agency rule, don't steer toward the Headband or the Ring just because they're flagged above. The mercane's flat, uninterested pricing (no haggling, no scene where Aerion gets to work) is the actual texture of this encounter, resist the urge to let him talk the price down, that's the point.
 
 **Present the stock plainly and let the choice be entirely theirs**, per the standing player-agency rule, don't steer toward either character-flagged item just because it's flagged. The mercane's flat, uninterested pricing (no haggling, no scene where Aerion gets to work) is the actual texture of this encounter, resist the urge to let him talk the price down, that's the point.
 
