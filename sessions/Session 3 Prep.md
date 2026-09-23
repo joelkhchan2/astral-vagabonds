@@ -122,7 +122,7 @@ No combat content by design. This is the one to steer toward if the table's stil
 - **Bag of Holding**, 1,000 gp. Aerion's kind of purchase in every sense, watch for whether he can resist it.
 - **Sending Stones** (a bonded pair), 800 gp. A real, useful hook, a way to stay in contact with Aldous and the *Fair Return* after tonight, or with anyone else later.
 - **Wand of Magic Missiles**, 900 gp.
-- **Headband of Intellect**, 1,000 gp. **A direct, planted payoff**, Priscilla was already eyeing one of these back in session 1 for exactly the kind of Intelligence save the helm sometimes demands.
+- **Goggles of Night**, 1,000 gp. Darkvision out to 60 feet while worn. Plain, practical, genuinely useful for a crew that spends most of its life somewhere the light doesn't reach.
 - **Necklace of Adaptation**, 900 gp. Breathe freely and shrug off airborne hazards for as long as it's worn. Genuinely useful for a crew whose whole life is other people's air.
 - **Cloak of Protection**, 800 gp. Plain, reliable, the kind of thing a professional outfit actually stocks.
 
