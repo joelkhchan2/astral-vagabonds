@@ -1,6 +1,6 @@
 # The Galley (Brass's cooking and the Gut Check) **[HR]**
 
-Brass cooks breakfast and dinner aboard the *Night Fury*. She is a medic first and a cook under protest, and the food is a gamble the crew has made peace with. One roll for the meal, one Con save if it's bad, one line from Brass. That's the whole system.
+Brass cooks breakfast and dinner aboard the *Night Fury*. She is a medic first and a cook under protest, and the food is a gamble the crew has made peace with. One roll for the meal. A good one is a small Heroes' Feast; a bad one means a Con save. One line from Brass. That's the whole system.
 
 Character material, scenes, and arc beats for Brass live in `Brass - Scenes & Bits.md`. Her stat block is in `Stat Blocks.md`.
 
@@ -14,11 +14,11 @@ Character material, scenes, and arc beats for Brass live in `Brass - Scenes & Bi
 |---|---|---|
 | **1–5** | **Bad** | Roll on the Bad table. Everyone who eats makes a **Gut Check** (section 3), **DC 12**. On a natural 1, it's a **Galley Incident**: DC 15, and roll on "make it worse." |
 | **6–15** | **Fine** | Filling, named something grand. Nobody mentions it. |
-| **16–20** | **Good** | Roll on the Good table. Everyone who eats is **Well Fed**. A natural 20 is a **Brass Classic**: add it to the Hall of Fame. |
+| **16–20** | **Good** | Roll on the Good table. Everyone who eats gains **1d10 temporary hit points** until their next long rest (roll once for the table). A natural 20 is a **Brass Classic**: **2d10** instead, and it goes in the Hall of Fame. |
 
 **Advantage** when she has good ingredients (a fresh restock, or a gift like Orena's basket) or a helper in the galley. **Disadvantage** when stores are stale or she spent the day healing people. Both cancel, as normal.
 
-**At 0300,** off the clock, there's no roll. It's always Good.
+**At 0300,** off the clock, there's no roll. It's always Good, temp HP included, for whoever couldn't sleep.
 
 **Someone else cooks:** they roll d20 + Wisdom modifier, same table.
 
@@ -77,7 +77,9 @@ A **Constitution saving throw** against a meal. Call it on a Bad result, or when
 - **Fail:** **Queasy**, disadvantage on your next Constitution saving throw. Ends on a short rest.
 - **Fail a Galley Incident:** **Poisoned for 1 hour** instead.
 
-**Well Fed** (from a Good meal): **advantage on your next Constitution saving throw** before your next long rest.
+**Cast-Iron Stomach.** Every Bad meal you eat is a mark on Brass's napkin tally, pass or fail. Skipping the meal doesn't count. At **5 marks** you have **advantage on Gut Checks, and on any save against poison from food or drink, permanently.** Brass announces each mark at breakfast like a promotion, and the fifth like a graduation.
+
+**Why a mini Heroes' Feast.** The real spell cures poison, grants immunity to poison and fear, and adds 2d10 to maximum hit points for a day. Brass gets the smallest slice of it: some temporary hit points on a good day, and the spell's own 2d10 on a great one (as temporary hit points, so they don't stack with other temp HP; keep the higher). Her food never cures anything. That's what the tonic is for.
 
 **Brass eats first.** If she fails her own save, she says so ("...okay. That one's on me.") and anyone can skip the meal.
 
