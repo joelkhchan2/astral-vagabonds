@@ -98,7 +98,7 @@ Brass names every dish, and the name has nothing to do with what's in it. Say th
 | 10 | **Whatever the Port Had** | Fresh local produce, cooked simply. The ingredients did the work. | Brass: "Don't get used to it." |
 | 11 | **Supernova Skillet** | Peppers, onion, and spiced meat, carried to the table still hissing. | You hear it coming down the corridor before you smell it. |
 | 12 | **Kindori Cloud Buns** | Steamed buns, pillow soft, shaped like little kindori. No kindori involved. | Flurry chirps at them. Finny names each one before he eats it. |
-| 13 | **Burnout Fried Rice** | Fried rice tossed high off the pan, a technique she did not learn from watching Gary "Sugary." | Brass: "I invented this." She did not. |
+| 13 | **Hibachi Fried Rice** | Fried rice tossed high off the pan, a trick she picked up watching a street cook at Bral. | Brass: "I invented this." She did not. |
 | 14 | **The Ship's Birthday Cake** | A cake for the day the *Night Fury* got her name, because Tack insists she has a birthday. | Tack can't eat any of it and is the happiest one there. |
 | 15 | **Giff Mess Pie** | A giff barracks recipe Oz gave her: meat and gravy in a crust, sized for a hippo. | Oz goes quiet, says "just like the company made it," and excuses himself for a minute. |
 | 16 | **Moonrise Pancakes** | A tall stack, real butter, warm syrup. | Finny has to step away. It's the butter. |

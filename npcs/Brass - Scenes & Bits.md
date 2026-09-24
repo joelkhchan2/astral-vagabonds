@@ -15,7 +15,7 @@ Who she is and her secret: `Brass.md`. Cooking and Gut Check mechanics: `The Gal
 - Orena bought Brass a food basket as a gift. Brass hugged her, for real.
 - Brass's stated goal: get Aerion to finish three of her meals (Operation Clean Plate, 0 of 3). The yogurt parfait is next.
 - At Bral, Brass traded a nod with someone in the shadows by a streetlight. Unnamed. Keep it unspent until you want it.
-- Gary "Sugary" of the Burnouts, a sushi and hibachi chef, was briefly floated as her sous-chef. The Burnouts are rivals now.
+- Gary "Sugary" of the Burnouts, a sushi and hibachi chef, was floated at the table as her sous-chef during the failed recruitment, but **Brass has not met or interacted with Gary yet.** She wasn't at the alley. The Burnouts are rivals of the crew; any history between Brass and Gary starts with their first scene together.
 
 ---
 
@@ -65,8 +65,8 @@ Ken "Kraken" of the Burnouts is a lapsed former doctor, now fighting as a rigger
 
 ## 2. Food moments
 
-**2.1 The cook-off: Brass vs. Sugary.** *Use: any port with a market or festival. Keeps the Burnouts rivalry warm and funny.*
-Gary "Sugary" of the Burnouts challenges Brass, or Brass challenges Gary, over something small (who fed the dockhands better; a comment about her risotto). A market stall owner offers a judging table and a 50 gp pot.
+**2.1 The cook-off: Brass vs. Sugary.** *Use: any port with a market or festival. Keeps the Burnouts rivalry warm and funny. Doubles as their first meeting.*
+Brass and Gary "Sugary" have never met. The crew knows him; she only knows he's the one who baked the bait cookies, which offends her professionally. They cross paths at a market and one challenges the other over something small (who fed the dockhands better; a comment about her risotto; those cookies). A market stall owner offers a judging table and a 50 gp pot.
 - **Format:** three rounds (breakfast, street food, a dessert). Each round, both cooks roll a d20; high roll wins, best two of three. **Gary rolls with advantage** (trained showman, knives flipping, fire).
 - **Crew involvement:** anyone who helps Brass (sous-chef, working the judges, a little sabotage) gives her advantage for that round, which cancels Gary's. Get caught sabotaging and Brass forfeits the round, furious. Boy Boy McGee plays the same games for Gary.
 - **Every NPC gets a beat:** Finny runs the book on it. Oz volunteers as a judge and tries to be scrupulously fair, which makes both cooks hate him. Tack judges by sensor. Estra eats Gary's food, says "adequate," and walks off.
