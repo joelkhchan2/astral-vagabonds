@@ -13,7 +13,7 @@ Character material, scenes, and arc beats for Brass live in `Brass - Scenes & Bi
 | d20 | Result | What happens |
 |---|---|---|
 | **1–5** | **Bad** | Roll on the Bad table. Everyone who eats makes a **Gut Check** (section 3), **DC 12**. On a natural 1, it's a **Galley Incident**: DC 15, and roll on "make it worse." |
-| **6–15** | **Fine** | Filling, named something grand. Nobody mentions it. |
+| **6–15** | **Fine** | Roll on the Fine table. Filling, named something grand. Nobody mentions it. |
 | **16–20** | **Good** | Roll on the Good table. Everyone who eats gains **1d10 temporary hit points** until their next long rest (roll once for the table). A natural 20 is a **Brass Classic**: **2d10** instead, and it goes in the Hall of Fame. |
 
 **Advantage** when she has good ingredients (a fresh restock, or a gift like Orena's basket) or a helper in the galley. **Disadvantage** when stores are stale or she spent the day healing people. Both cancel, as normal.
@@ -30,9 +30,9 @@ Character material, scenes, and arc beats for Brass live in `Brass - Scenes & Bi
 
 Brass names every dish, and the name has nothing to do with what's in it. Say the name first, let the table react, then say what it actually is.
 
-### Bad table (d10)
+### Bad table (d20)
 
-| d10 | Brass calls it | What it actually is | The tell |
+| d20 | Brass calls it | What it actually is | The tell |
 |---|---|---|---|
 | 1 | **Nebula Porridge** | Oats, reconstituted milk, and a spoonful of something purple she swears is fruit. | It is still warm an hour later. It shouldn't be. |
 | 2 | **Captain's Hash** | Yesterday's dinner, fried until it gave up. | Estra eats it without comment, which is somehow worse. |
@@ -43,13 +43,48 @@ Brass names every dish, and the name has nothing to do with what's in it. Say th
 | 7 | **The Bral Special** | A "local delicacy" she bought from her guy at the last port. She won't say what it is. | The guy, it turns out, does not eat it either. |
 | 8 | **Tidewater Chowder** | A good idea (Orena mentioned Leilon once) made with the wrong fish. | It is almost a nice gesture. It is almost soup. |
 | 9 | **Sunspot Surprise** | Brass discovered a new pepper. | Tack's heat sensor pings from across the room. |
-| 10 | **Mystery Crate Curry** | Crate 14-C. The manifest says medical. Aerion says it's ammunition. It was neither. | Aerion stares at the ledger for a long time afterward. |
+| 10 | **Mystery Crate Curry** | Crate 14-C. The manifest says medical. The bosun says ammunition. It was neither. | The ledger has a line for 14-C. It does not have a line for this. |
+| 11 | **Guppy Tartare** | One of the chwinga's three-foot space guppies, kept in the cold hold far too long. | It glows faintly. The guppies didn't glow when they were alive. |
+| 12 | **Gravity Well Dumplings** | Dumplings so dense they sink to the bottom of the broth and stay there. | Oz lifts one with both hands, to be polite. |
+| 13 | **Solar Wind Soufflé** | It fell in the oven. Then it fell again on the way to the table. | Brass serves it flat and calls it "a galette now." |
+| 14 | **Bosun's Broth** | Hot water and a stock cube she found in a coat pocket. | It is the plainest thing she has ever cooked, and it is still bad. |
+| 15 | **Asteroid Belt Casserole** | Everything in the cold hold that was about to turn, layered under cheese. | The cheese was the part that had turned. |
+| 16 | **Pickled Wildspace Eggs** | Eggs pickled in a jar Tack used to keep bolts in. | Tack: "I did wash it." A pause. "Mostly." |
+| 17 | **Hyperdrive Hotcakes** | Pancakes cooked at full burn. Black outside, batter inside. | The smoke alarm is Finny, shouting. |
+| 18 | **Kraken Calamari** | An attempt to recapture the octopus. | Nobody says it isn't the octopus. Everyone is thinking it. |
+| 19 | **Astral Aspic** | Savory jelly with peas hung in it like stars. She's proud of how it looks. | It wobbles when the ship turns. It wobbles when the ship doesn't. |
+| 20 | **Medicinal Muffins** | Muffins with the tonic baked in, "for efficiency." | They work, which is the worst part. |
 
 **Galley Incident: make it worse** (pick one or roll a d6): 1 it's still moving, a little · 2 the stove caught and Finny has already turned it off (he always does) · 3 it has stained the pot permanently, and Tack is upset about the pot · 4 Flurry sniffs it, sneezes frost, and leaves the room · 5 it is somehow both burnt and raw · 6 Brass tasted it first, went quiet, and served it anyway "on principle."
 
-### Good table (d10)
+### Fine table (d20)
 
-| d10 | Brass calls it | What it actually is | The moment |
+| d20 | Brass calls it | What it actually is | The comment |
+|---|---|---|---|
+| 1 | **Hardtack Galaxy** | Hardtack with jam. | Finny dunks his in Estra's coffee when she isn't looking. She's looking. |
+| 2 | **Meteor Meatballs** | Meatballs in red sauce. Perfectly adequate. | Oz eats eleven and writes a thank-you note. |
+| 3 | **Porridge, Mark Two** | Porridge, with honey this time. | Better than Mark One, which the crew doesn't talk about. |
+| 4 | **Twin Moons Toast** | Two slices of toast, one buttered. | Finny takes the buttered one without looking. |
+| 5 | **Driftwood Noodles** | Thick noodles in broth. | Everyone eats in silence, which on this ship counts as praise. |
+| 6 | **Pulsar Beans** | Beans, onion, and flatbread. | Tack logs a change in the ventilation the next morning. |
+| 7 | **Helmsman's Stew** | Stew thick enough to eat one-handed. | A bowl goes up to whoever's flying, lid on. |
+| 8 | **Cargo Hold Salad** | Pickled vegetables and hard cheese. | Crunchy enough to hear from the next deck. |
+| 9 | **Rock of Bral Rolls** | Rolls from a Bral bakery, reheated. Brass takes the credit anyway. | The bakery's paper bag is still in the bin. |
+| 10 | **Eclipse Eggs** | Fried eggs, overdone, entirely edible. | Brass flips one onto Oz's plate from across the galley. Oz catches it. |
+| 11 | **Stardust Sandwiches** | Cold meat on bread, cut into triangles. | Triangles make it feel like an occasion. Brass knows this. |
+| 12 | **Orbital Oatcakes** | Oatcakes that keep for a month. | Oz pockets two "for later." They turn up in the wash. |
+| 13 | **Nightwatch Soup** | Whatever's in the pot at the end of the day, thinned out. | It gets better every time someone adds to it. Nobody admits to adding. |
+| 14 | **Lantern Fish Skewers** | Small fried fish on sticks. | Flurry carries a whole skewer off to her stash. |
+| 15 | **Guppy Fry** | More of the chwinga's guppies, breaded. | Fine. The crew is getting tired of guppy. |
+| 16 | **Quartermaster's Rations** | Standard ship's rations, plated nicely. | Brass sets out a small dish of salt to make a point. |
+| 17 | **Zero-G Omelette** | An omelette folded three times "for structural reasons." | Tack approves of the engineering. |
+| 18 | **Long Haul Lentils** | Spiced lentils, day three of the same pot. | Nobody complained on day one. Somebody will on day four. |
+| 19 | **Rice of the Ancients** | Rice, with salt. | Nobody complains, and Brass looks faintly disappointed. |
+| 20 | **(unnamed)** | She didn't name it. Rice, beans, something green. | An unnamed dish is a warning sign. This one's fine. Everyone checks twice. |
+
+### Good table (d20)
+
+| d20 | Brass calls it | What it actually is | The moment |
 |---|---|---|---|
 | 1 | **Starfall Risotto** | Rice with whatever protein was cheapest at the last port, done right for once. | Oz asks for the recipe, formally, and writes it down. |
 | 2 | **Nebula Crumble** | Rehydrated fruit and crumbled hardtack, baked with butter Finny didn't know she had. | Finny goes very quiet. Finny is never quiet. |
@@ -61,6 +96,16 @@ Brass names every dish, and the name has nothing to do with what's in it. Say th
 | 8 | **Sunrise Hash** | Crispy potatoes, fried egg on top, done perfectly for no reason. | Tack sets a place he won't eat from, "for the ambience." |
 | 9 | **Plain Rice, Improved** | White rice. It's very good white rice. There is a small dish of something beside it, optional. | Brass does not look at Aerion. She is very much not looking at Aerion. |
 | 10 | **Whatever the Port Had** | Fresh local produce, cooked simply. The ingredients did the work. | Brass: "Don't get used to it." |
+| 11 | **Supernova Skillet** | Peppers, onion, and spiced meat, carried to the table still hissing. | You hear it coming down the corridor before you smell it. |
+| 12 | **Kindori Cloud Buns** | Steamed buns, pillow soft, shaped like little kindori. No kindori involved. | Flurry chirps at them. Finny names each one before he eats it. |
+| 13 | **Burnout Fried Rice** | Fried rice tossed high off the pan, a technique she did not learn from watching Gary "Sugary." | Brass: "I invented this." She did not. |
+| 14 | **The Ship's Birthday Cake** | A cake for the day the *Night Fury* got her name, because Tack insists she has a birthday. | Tack can't eat any of it and is the happiest one there. |
+| 15 | **Giff Mess Pie** | A giff barracks recipe Oz gave her: meat and gravy in a crust, sized for a hippo. | Oz goes quiet, says "just like the company made it," and excuses himself for a minute. |
+| 16 | **Moonrise Pancakes** | A tall stack, real butter, warm syrup. | Finny has to step away. It's the butter. |
+| 17 | **Second Breakfast** | A full halfling second breakfast, laid out mid-morning without warning. | Finny: "Finally. Somebody on this ship understands." |
+| 18 | **Ember Chili** | Slow-cooked chili with cornbread, the kind that fixes a cold. | Brass says it's medicinal. For once, she's right. |
+| 19 | **Frost Sorbet** | Fruit ice. Flurry breathed on the bowl to set it. | Flurry gets thanked by name, and she knows it. |
+| 20 | **The Last Jar** | She opens her last jar of something from a port she won't name: preserved peaches. | She doesn't eat any. She just watches everyone else eat them. |
 
 ### The Hall of Fame
 
