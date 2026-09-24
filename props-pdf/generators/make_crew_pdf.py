@@ -225,7 +225,7 @@ CREW = [
                 "Languages Common, Halfling",
                 "Challenge 2 (450 XP)"],
          traits=[("I Know a Guy (1/Port).", "Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. It always costs something."),
-                 ("The Morning Roll.", "She is the cook too. Each morning she is on breakfast, roll a d4 for the day's result."),
+                 ("The Morning Roll.", "She is the cook too. Each morning she is on breakfast, make the Galley Roll (d20) for the day's food. Bad days call for a Gut Check (Con save)."),
                  ("Spellcasting.", "3rd-level caster, Wisdom-based (save DC 13, +5 to hit). Cantrips: guidance, spare the dying. 1st level (4 slots): bless, cure wounds, healing word. 2nd level (2 slots): lesser restoration, prayer of healing."),
                  ("Channel Divinity: Preserve Life (1/Short Rest).", "Restores 15 hit points, divided among creatures within 30 ft. as she chooses; no creature can be brought above half its hit point maximum this way.")],
          actions=[("Mace.", "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage."),

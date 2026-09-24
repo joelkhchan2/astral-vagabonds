@@ -118,7 +118,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. **It always costs something**, and she will mention what, later, at an inconvenient moment.
 
-***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, roll a **d4** for the day's result (DM tracks what it means). Dinner aboard is a gamble and the crew have made peace with it.
+***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, make the **Galley Roll** (a d20, rolled openly) for the day's food. Dinner aboard is a gamble and the crew have made peace with it. Full table, the Gut Check (Con save), and her sickbay tonics: `The Galley.md`.
 
 ***Spellcasting.*** Brass is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). She has the following cleric spells prepared:
 - Cantrips (at will): *guidance*, *spare the dying*
@@ -163,7 +163,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ---
 
 ## FLURRY (RHEE)
-*Tiny dragon (silver wyrmling), Ship's Dragon* -- not a combatant, by design. No saves, skills, or CR here on purpose; see the guardrail in `npcs/Flurry.md`. Ability scores below are for flavor and roleplay checks only (a Wisdom-flavored "she noticed something" beat, a Charisma-flavored "everyone's charmed" beat), never a door into combat capability. AC and HP stay fixed regardless.
+*Tiny dragon (silver wyrmling), Ship's Dragon*. Not a combatant, by design. No saves, skills, or CR here on purpose; see the guardrail in `npcs/Flurry.md`. Ability scores below are for flavor and roleplay checks only (a Wisdom-flavored "she noticed something" beat, a Charisma-flavored "everyone's charmed" beat), never a door into combat capability. AC and HP stay fixed regardless.
 
 **AC** 13 (natural) · **HP** 2 · **Speed** 20 ft., fly 40 ft.
 
@@ -173,7 +173,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***Two Years Old.*** Flurry is a puppy with a breath weapon.
 
-> ***Lunar blood (latent).*** An ancestor was a lunar astral dragon. It grants no combat power now -- it shows only as an uncanny sensitivity to the astral (she feels the Tide and the Guttering; she half-phases when frightened or deep asleep). Use her as a "barometer" for the living sky, never as an answer. Full write-up: `npcs/Flurry.md`.
+> ***Lunar blood (latent).*** An ancestor was a lunar astral dragon. It grants no combat power now. It shows only as an uncanny sensitivity to the astral (she feels the Tide and the Guttering; she half-phases when frightened or deep asleep). Use her as a "barometer" for the living sky, never as an answer. Full write-up: `npcs/Flurry.md`.
 
 > ***Devoted.*** **Flurry will not fight** unless Aerion is reduced below half his hit points, she is cornered with no escape, or someone she has decided is hers is about to die. This is a hard limitation, not a roleplay suggestion. She is a child and she is frightened of loud things.
 
@@ -184,7 +184,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 # HOUSE WINDSONG
 
-## Aeravellis — the brother who is drowning
+## Aeravellis: the brother who is drowning
 *Medium humanoid, boarding captain* · **CR 6** (2,300 XP)
 
 **AC** 17 (half plate) · **HP** 110 (13d8 + 52) · **Speed** 30 ft.
@@ -215,7 +215,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ---
 
-## Vaelren — the one who left
+## Vaelren: the one who left
 *Medium humanoid (elf), adventurer* · **CR 7** (2,900 XP)
 
 **AC** 16 (studded leather) · **HP** 119 (14d8 + 56) · **Speed** 30 ft.

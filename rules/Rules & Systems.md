@@ -58,7 +58,7 @@ Two things needed a stated position. These are ours and they hold everywhere.
 
 One standing number, and repairs. That's the whole economy.
 
-### Monthly operating cost **[HR -- session 0 ruling]**
+### Monthly operating cost **[HR, session 0 ruling]**
 
 The table simplified the whole payroll-plus-upkeep question into one all-inclusive number, deducted each session:
 
@@ -70,7 +70,7 @@ No separate hired-helmsman line: the ship flies on Captain Vane at the helm and 
 
 **20 gp per hit point.** A 250-HP hull taking 100 points is a 2,000 gp bill, which is most of a month. Combat in this campaign is frightening because it is expensive, not because it is lethal. Lean on that.
 
-### Annual fixed costs -- world flavor
+### Annual fixed costs (world flavor)
 
 The CIV charter, the Pale Reach chart subscription, and Nightbreeze insurance exist in the world and are worth naming in fiction, but at the table they are folded into the all-inclusive operating cost above rather than billed as separate lines. Surface them narratively (a lapsed charter, an insurance fight) rather than as a spreadsheet.
 
@@ -163,28 +163,28 @@ Keep it as light as everything else in this section. When a PC wants to spend th
 
 ## 8. Ship Combat: Crew Stations & Maneuvers **[H]**
 
-Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
+Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 (side initiative, weapon crews, damage threshold). It doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
 
-Every PC and any crew NPC actually named in a fight sits at a **station** for the encounter. Stations aren't classes — anyone can crew any of them, and the same person can swap stations between encounters or between rounds if the fiction allows it (moving from the gun deck to the helm takes movement, not an action).
+Every PC and any crew NPC actually named in a fight sits at a **station** for the encounter. Stations aren't classes. Anyone can crew any of them, and the same person can swap stations between encounters or between rounds if the fiction allows it (moving from the gun deck to the helm takes movement, not an action).
 
 **Ruling, settled at the table (session 1):** holding the helm's concentration is an **Intelligence** save, not Wisdom or Survival. The helm reads physical star-charts against reality in real time, that's reasoning against a record, not instinct or wilderness-sense. A headband of intellect is a legitimate build choice for anyone training up as a second pilot.
 
 **Ship HP is pooled at the hull, not the crew.** One HP total for the ship; nobody aboard has a separate "ship damage" pool, and a hit that clears the damage threshold comes off that one number.
 
 ### Pilot
-Whoever's at the helm. **Flying costs nothing** — per section 2, steering the ship is not an action or movement spent, so the pilot's own action is free every round. That free action is spent on one of the **maneuvers** below, or held to do something else entirely (fight, cast, aid another station).
+Whoever's at the helm. **Flying costs nothing.** Per section 2, steering the ship is not an action or movement spent, so the pilot's own action is free every round. That free action is spent on one of the **maneuvers** below, or held to do something else entirely (fight, cast, aid another station).
 
 **Only one pilot maneuver per round**, chosen when initiative comes up for the ship:
 
 | Maneuver | Effect | Cost |
 |---|---|---|
-| **Evasive Action** | Attacks against the ship have disadvantage until the start of the pilot's next turn | The ship's own weapons have disadvantage this round — nobody can aim while she's juking |
-| **Full Burn** | Ship's speed effectively doubles this round (close, disengage, or run) | Attacks against the ship have advantage until the start of the pilot's next turn — hard to hide going that fast |
+| **Evasive Action** | Attacks against the ship have disadvantage until the start of the pilot's next turn | The ship's own weapons have disadvantage this round; nobody can aim while she's juking |
+| **Full Burn** | Ship's speed effectively doubles this round (close, disengage, or run) | Attacks against the ship have advantage until the start of the pilot's next turn. Hard to hide going that fast |
 | **Ram** | If the hull has a ram, make one attack using the ram's listed damage, no weapon crew required | The ship takes half the damage it deals back, applied after the damage threshold |
-| **Boarding Action** | Close and lock with a target ship the *Night Fury*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
+| **Boarding Action** | Close and lock with a target ship the *Night Fury*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled. Neither can use Full Burn or disengage until someone breaks it |
 
 ### Gunner
-Per section 1, each weapon has a crew size and an action count to fire (ballista: 3, crew of 3; mangonel: 4, crew of 4-5). A PC or NPC gunner contributes their action to that sequence same as always — this section doesn't change weapon crewing, it just names the station.
+Per section 1, each weapon has a crew size and an action count to fire (ballista: 3, crew of 3; mangonel: 4, crew of 4-5). A PC or NPC gunner contributes their action to that sequence same as always. This section doesn't change weapon crewing, it just names the station.
 
 **Working the math with weapon upgrades (settled at the table, session 1).** The *Night Fury*'s ballistae carry the **Sureshot Rotator** (aim can be done as a bonus action) and **Ready Magazine** (load can be done as a bonus action). A ballista still needs three things done, **load, aim, fire**, but load and aim can each be done as *either* a bonus action or a full action, gunner's choice; fire always costs an action. Think of each ballista as needing **three units of work** (one of which, fire, must be an action) rather than three fixed crew slots, and spend the ship's pooled actions and bonus actions on it however makes sense that round.
 
@@ -198,18 +198,18 @@ Per section 1, each weapon has a crew size and an action count to fire (ballista
 **A PC or NPC jumping to the other ship** is a separate, personal choice, not the maneuver. Once the ships are close enough (grappled by a Boarding Action, or just flown alongside), anyone can spend their own movement and an Athletics or Acrobatics check to physically cross, same as clearing any other gap, and fight there as an individual. The ships don't need to be locked for a PC to leap it if the pilot's flown them side by side on purpose; locking just guarantees the gap stays crossable.
 
 ### Engineer
-Not full repair — that's still 20 gp/HP and downtime, per section 4. In combat, an Engineer can spend their action on:
+Not full repair. That's still 20 gp/HP and downtime, per section 4. In combat, an Engineer can spend their action on:
 
-**Emergency Patch.** Technology or Intelligence check (DC 12), and on a success the ship regains hit points equal to the Engineer's level, once per encounter per Engineer. Cosmetic and temporary — it doesn't reduce the eventual repair bill, it just keeps the hull standing long enough to finish the fight.
+**Emergency Patch.** Technology or Intelligence check (DC 12), and on a success the ship regains hit points equal to the Engineer's level, once per encounter per Engineer. Cosmetic and temporary. It doesn't reduce the eventual repair bill, it just keeps the hull standing long enough to finish the fight.
 
 ### Coordinator
-The person actually running the fight from the deck or the chart table — usually whichever PC isn't piloting or gunning. Spend an action to do one of:
+The person actually running the fight from the deck or the chart table, usually whichever PC isn't piloting or gunning. Spend an action to do one of:
 
 - Grant advantage on one ally's attack roll or ability check this round (their action, not the Coordinator's)
 - Impose disadvantage on one attack targeting the ship or a specific crew member this round
 - Let one station (Pilot, Gunner, or Engineer) act again out of the normal initiative order, once
 
-**Only one Coordinator benefit per round**, same as the Pilot's maneuver limit. If nobody's explicitly Coordinating, nobody gets this — it's not a passive bonus.
+**Only one Coordinator benefit per round**, same as the Pilot's maneuver limit. If nobody's explicitly Coordinating, nobody gets this. It's not a passive bonus.
 
 ---
 
@@ -229,5 +229,9 @@ Normally the Help action caps out at one helper granting advantage; anyone past 
 *Example: Orena rolls Perception. Aerion helps first (advantage, as normal). Tack is also on hand and proficient in Perception, so he piles on +2. If a third proficient crewmate joined in, they'd add their own bonus too, no cap on stacking as long as each one is actually proficient and able to help that specific check.*
 
 Represents the crew now knowing enough of each other's jobs to make real, compounding differences rather than just standing nearby.
+
+## 11. The Galley and the Gut Check **[HR]**
+
+Brass's cooking is a light standing system. Each morning she cooks, roll the **Galley Roll** (d20, openly): 1 Galley Incident, 2–6 Rough, 7–11 Edible, 12–16 Solid, 17–19 Good, 20 a Brass Classic. Rough and Incident meals call for a **Gut Check**, a Constitution save (DC 12 and DC 15). A fail leaves you **Queasy** (disadvantage on Stealth and on your first Con save before a short rest); a failed Incident is Poisoned for an hour first. Good meals make you **Well Fed** (advantage on your first Con save before a long rest). Brass also brews sickbay tonics during short rests. Full tables, modifiers, dishes, and trackers: `The Galley.md`.
 
 If a system isn't on this page, it isn't in the game.

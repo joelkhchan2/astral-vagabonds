@@ -6,7 +6,7 @@ Medic / Cook. Human, a battlefield-trained cleric who channels vital energy on i
 The crew's fixer as much as its medic. Brass has "a guy" at every port, tracks debts and favors and contacts on a system of hundreds of napkins only she understands, and treats dinner as a second job she took under protest. She's a medic first and reminds everyone of it whenever they complain about the food.
 
 **Voice:** fast, wry, already three moves ahead, and prone to answering the question you *should* have asked instead of the one you did. She never walks into a room without clocking the exits, and it shows in how she talks: quick, useful, and slightly evasive, because part of her is always solving the next problem while you're still on this one.
-**Tics:** the napkin web of contacts, debts, and back-up plans; the morning cook-duty **d4**; naming dishes things like "Starfall Risotto" that have nothing to do with the ingredients.
+**Tics:** the napkin web of contacts, debts, and back-up plans; the morning **Galley Roll** (`The Galley.md`); naming dishes things like "Starfall Risotto" that have nothing to do with the ingredients.
 
 **Off duty:** at 0300, off the clock, she cooks for real and trials new recipes on whoever can't sleep. Otherwise she's reading borrowed, out-of-date medical monographs, quietly trying to earn the license she never got, and tending her napkin web of contacts.
 
@@ -25,7 +25,7 @@ She has been mobile and off-book ever since. The napkins, the aliases, the guy a
 **Trigger (from Plot Threads):** a neogi ship is encountered, or a contact at a port recognizes her and the wrong people learn where she flies. The scene is the test: does she run to keep the crew clear, or does the crew refuse to let her? Found family, put on the scale.
 
 ## The kindness under the angles
-Off the clock at 0300, in the galley, Brass never rolls the d4 and the food is always better. When someone can't sleep, she's already up, and she plates another portion and doesn't ask why they're awake. That is the truest thing about her: a woman who has to keep everyone at arm's length by daylight, feeding them quietly in the dark.
+Off the clock at 0300, in the galley, Brass never rolls and the food is always better. When someone can't sleep, she's already up, and she plates another portion and doesn't ask why they're awake. That is the truest thing about her: a woman who has to keep everyone at arm's length by daylight, feeding them quietly in the dark.
 
 ## With the two leads
 - **Aerion.** They don't compete, they complement. Aerion runs the books and runs them better than anyone, and Brass has no interest in the ledger; his is the truth *on* paper. Hers is the truth *off* it: not what they have but who they can call and how to get out. He's the only one aboard who has quietly clocked that her web of napkins is really an escape plan, and he has chosen, so far, not to pull the thread.
@@ -34,4 +34,4 @@ Off the clock at 0300, in the galley, Brass never rolls the d4 and the food is a
 ## Arc
 The deal gone bad catches up, and Brass learns whether this is one more crew to stay ahead of or the first one worth stopping for. Her growth is letting the net down for the people who would have stood in it with her, and, further out, whether she ever lets herself want the license again, on her own terms, now that this crew is worth being found for.
 
-**Stat block:** `rules/Stat Blocks.md`. **Running gags:** `npcs/Crew Comedy Bits.md` (the napkins; the morning roll; Brass's specials; the galley at 0300).
+**Stat block:** `rules/Stat Blocks.md`. **Running gags:** `npcs/Crew Comedy Bits.md` (the napkins; the morning roll; Brass's specials; the galley at 0300). **Cooking, the Gut Check, and tonics:** `rules/The Galley.md`. **Ready-to-run scenes, medical and food and character, plus her arc ladder:** `npcs/Brass - Scenes & Bits.md`.

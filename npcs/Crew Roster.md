@@ -1,4 +1,4 @@
-# Crew Roster -- the Night Fury
+# Crew Roster: the Night Fury
 
 **Total complement: 7** (2 PCs + 5 NPCs). The ship is the ***Night Fury***, christened by the crew in session 1 (flew unnamed under Captain Vane's good name before that). Both PCs are **level 6** as of session 2.
 
@@ -6,17 +6,17 @@
 
 ## Player Characters
 
-### Aerion Kyoya Windsong (Priscilla) -- Bosun / Quartermaster / Cargo Handler
+### Aerion Kyoya Windsong (Priscilla): Bosun / Quartermaster / Cargo Handler
 **Race/Class:** Astral Elf, Samurai Fighter, level 5. Age 132. Merchant background. Neutral Good.
 **Role:** Runs the crew and the ship's day-to-day, oversees inventory and cargo, and keeps the books. Knows what is in every crate, who owes what, and where the money is going. (Full sheet: `npcs/Aerion Windsong.md`.)
 **Hook:** Overlooked youngest son of the Windsong trading house. His family barely notices him and is happy to have him off-world; he is quietly fine with that, because it lets him work unwatched. Joined this crew five years ago to make his own fortune. His real, secret goal is to amass enough to **buy out and take over his father's company** on his own terms.
 **Flurry:** A young silver dragon he found as an egg on the treasure hunt ~4.5 years ago and secretly adores. She is a baby, does not fight, and should never see combat.
 **Spotlight moments:** Port negotiations, inventory and money crises, quiet competence the crew relies on, the slow game against his family.
 
-### Orena (Gabrielle) -- Navigator / Helmsman-in-training / Scout
+### Orena (Gabrielle): Navigator / Helmsman-in-training / Scout
 **Race/Class:** Water Genasi, Bard/Paladin, level 5. Around 30. From **Leilon** on the Sword Coast (Material Plane).
 **Role:** Plots courses and reads the currents, keeps watch as scout, and is training on the helm so the ship always has a second pilot.
-**Hook -- the lost crew:** Back home she ran a small guild of six childhood friends, the **Wayfinder Knot**. They went to sea chasing the **Stillwater Vocalise**, an old sailors' legend, and found it mid-event: a dying kindori's death-song tore open a thin place between their sea and the Astral and pulled the ship through. Orena, at the rail, was thrown down a different current and came out alone; she believes her genasi blood is why, though she can't prove it. She was the navigator; they were lost on her watch. She joined this crew ~6 months ago, shortly after, when Aerion re-met her and got her the job. GM-only truth (four of the five survived and are thriving elsewhere): `npcs/The Wayfinder Knot.md`.
+**Hook, the lost crew:** Back home she ran a small guild of six childhood friends, the **Wayfinder Knot**. They went to sea chasing the **Stillwater Vocalise**, an old sailors' legend, and found it mid-event: a dying kindori's death-song tore open a thin place between their sea and the Astral and pulled the ship through. Orena, at the rail, was thrown down a different current and came out alone; she believes her genasi blood is why, though she can't prove it. She was the navigator; they were lost on her watch. She joined this crew ~6 months ago, shortly after, when Aerion re-met her and got her the job. GM-only truth (four of the five survived and are thriving elsewhere): `npcs/The Wayfinder Knot.md`.
 **Downtime:** Mapping where the Vocalise, other artifacts of the tales she has heard, and her lost crew might be.
 **Spotlight moments:** Navigation and helm scenes, first-contact with astral creatures, anything that echoes the Vocalise or a missing crewmate.
 
@@ -29,26 +29,26 @@ They trained together as teenagers under Aerion's uncle, the "space samurai" **V
 
 > **Full character files** with motives, dreams, secrets, and arcs: `npcs/Captain Estra Vane.md`, `npcs/Tack.md`, `npcs/Brass.md`, `npcs/Finny.md`, `npcs/Oz.md`. The blurbs below are the quick reference.
 
-### 1. Captain Estra Vane -- Captain / Main Helmsman
+### 1. Captain Estra Vane: Captain / Main Helmsman
 Human, late 50s. Serious, dry, tired demeanor, streaks of gray in black hair. Treasure Planet's Captain Amelia by way of a captain who expects excellence. You can catch her playing solitaire alone at night. She is also the ship's backup for training Orena on the helm.
 **Rumor among the crew:** she was once a **Commodore**, a captain over captains of a whole fleet, and something happened to it. She will not talk about it and refuses to drink to loose lips. Full GM detail in `Captain Estra Vane.md`.
 
-### 2. Tack -- Chief Engineer (and Gunner)
+### 2. Tack: Chief Engineer (and Gunner)
 Autognome, a small construct. Cheerful, meticulous, and treats the ship like his beloved pet, the way a person treats a giant dog. He was devastated when the old ship blew up; this one is his redemption. He **saved the tattered flag from the old ship** and reattached it to this one. Oblivious to social cues (personal space, food in mouths, the warmth of touch). When the ship creaks he says "she's just talking" and goes to fix a plank. He knows the ship best and can operate the guns, though he is no marksman, so he doubles as a gunner.
 
-### 3. Brassica "Brass" Thorngage -- Medic / Cook
+### 3. Brassica "Brass" Thorngage: Medic / Cook
 Scrappy and resourceful. She never got her medical license, which is why she is cheap and does not ask to be called doctor. She talks fast and can look at someone and know what is wrong with them. She always seems to have "a guy" at every port, which can be good or bad. **Rumor:** she is on the run from a deal gone bad.
-**Mechanic:** every morning she is on cook duty, roll a **d4** for the day's result (the DM tracks what it means). She is a medic first and a cook second, and the crew have accepted that dinner is a gamble.
+**Mechanic:** every morning she is on cook duty, make the **Galley Roll** (d20) for the day's food, and bad days call for a Constitution save, the **Gut Check** (`The Galley.md`). She is a medic first and a cook second, and the crew have accepted that dinner is a gamble.
 
-### 4. Finnick "Finny" Groles -- Rigger / Deckhand / backup Gunner
+### 4. Finnick "Finny" Groles: Rigger / Deckhand / backup Gunner
 Halfling. Loud, gregarious, gossips relentlessly, organizes the game nights, and cannot keep a secret to save his life. Every time the crew visits the Rock of Bral he quietly **deposits a portion of his pay** somewhere, or to someone, and will not say who or why. He always gets the Manifest Board printed so he can pore over the rankings.
 
-### 5. Ozgood "Oz" Hammerfall -- Ship Security / Scout
+### 5. Ozgood "Oz" Hammerfall: Ship Security / Scout
 Giff (hippo-person), seven feet tall and large. Absurdly polite, soft-spoken, a gentle giant. He carries a comically large pistol that he will also swing as a melee weapon, and he claims he has headbutted through steel. As scout he keeps watch as well as guards the deck.
 
 ---
 
-## The Burnouts -- lifelong nemeses, not crew
+## The Burnouts: lifelong nemeses, not crew
 
 > **Full backstory, stat blocks, and how to keep running them: `sessions/Episode - BoyBoy McGee.md`.** Session 2's cookie-delivery job went hot; the crew tried to bring Boy Boy McGee, Cal, Gary, and Ken aboard afterward, but it didn't take, they're rivals now, not hires. See `sessions/Session 2.md` for exactly how it went and `sessions/Session 3 Prep.md` for the standing rivalry.
 

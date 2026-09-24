@@ -52,7 +52,7 @@ Three things running at once, at different speeds.
 
 **The Lost Crew (personal, episodic).** Orena's guild, the Wayfinder Knot, was pulled away by the Stillwater Vocalise and she alone was left behind. She does not know whether they are dead or scattered, and she means to find out. (They're alive and thriving, on their own charter crew; see `npcs/The Wayfinder Knot.md` for the GM-only truth and how the reunion actually surfaces.)
 
-These converge. Learning to move with the living sky -- the nomadic method -- is simultaneously the thing that saves Wildspace and the thing that lets Aerion remake his father's company. Orena's lost crew is a separate, personal thread that resolves through reputation and rumor rather than that same navigation mastery.
+These converge. Learning to move with the living sky (the nomadic method) is simultaneously the thing that saves Wildspace and the thing that lets Aerion remake his father's company. Orena's lost crew is a separate, personal thread that resolves through reputation and rumor rather than that same navigation mastery.
 
 ## Design Principles
 
@@ -94,6 +94,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `Rules & Systems.md` | Canon reference, corrections, the voyage loop, bastions, money |
 | `Ship Construction.md` | Classes, profiles, style, add-ons, signature features |
 | `Stat Blocks.md` | Numbers for the crew, Flurry, and the family |
+| `The Galley.md` | Brass's cooking: the Galley Roll, good and bad dishes, the Gut Check (Con save), sickbay tonics |
 | `The Ship (template).md` | Blank ship doc. Fill it the night they buy one. |
 
 ### The world
@@ -118,3 +119,4 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `Plot Threads.md` | The Guttering, the Trial, the scattered crew, and what we cut |
 | `Potential Endings.md` | Five shapes for the finale |
 | `Crew Comedy Bits.md` | Running gags, cutaways, quiet moments |
+| `Brass - Scenes & Bits.md` | Ready-to-run Brass moments: medical, food, character, her arc ladder, joint PC scenes |
