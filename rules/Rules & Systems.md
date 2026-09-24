@@ -232,6 +232,6 @@ Represents the crew now knowing enough of each other's jobs to make real, compou
 
 ## 11. The Galley and the Gut Check **[HR]**
 
-Brass's cooking is a light standing system. Each morning she cooks, roll the **Galley Roll** (d20, openly): 1 Galley Incident, 2–6 Rough, 7–11 Edible, 12–16 Solid, 17–19 Good, 20 a Brass Classic. Rough and Incident meals call for a **Gut Check**, a Constitution save (DC 12 and DC 15). A fail leaves you **Queasy** (disadvantage on Stealth and on your first Con save before a short rest); a failed Incident is Poisoned for an hour first. Good meals make you **Well Fed** (advantage on your first Con save before a long rest). Brass also brews sickbay tonics during short rests. Full tables, modifiers, dishes, and trackers: `The Galley.md`.
+Once a day when Brass cooks, roll a d20: **1–5 Bad, 6–15 Fine, 16–20 Good.** A Bad meal means a **Gut Check**, a DC 12 Con save; fail and you're **Queasy** (disadvantage on your next Con save, ends on a short rest). A Good meal makes you **Well Fed** (advantage on your next Con save). Details, dishes, and Brass's tonic: `The Galley.md`.
 
 If a system isn't on this page, it isn't in the game.

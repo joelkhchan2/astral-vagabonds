@@ -94,7 +94,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `Rules & Systems.md` | Canon reference, corrections, the voyage loop, bastions, money |
 | `Ship Construction.md` | Classes, profiles, style, add-ons, signature features |
 | `Stat Blocks.md` | Numbers for the crew, Flurry, and the family |
-| `The Galley.md` | Brass's cooking: the Galley Roll, good and bad dishes, the Gut Check (Con save), sickbay tonics |
+| `The Galley.md` | Brass's cooking: the Galley Roll, good and bad dishes, the Gut Check (Con save) |
 | `The Ship (template).md` | Blank ship doc. Fill it the night they buy one. |
 
 ### The world

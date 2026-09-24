@@ -118,7 +118,7 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***I Know a Guy (1/Port).*** Given an hour ashore, Brass produces a contact, a favor, or an item worth up to 100 gp. **It always costs something**, and she will mention what, later, at an inconvenient moment.
 
-***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, make the **Galley Roll** (a d20, rolled openly) for the day's food. Dinner aboard is a gamble and the crew have made peace with it. Full table, the Gut Check (Con save), and her sickbay tonics: `The Galley.md`.
+***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, roll a **d20** for the day's food: 1–5 Bad (everyone makes a DC 12 Con save), 6–15 Fine, 16–20 Good. Full rules: `The Galley.md`.
 
 ***Spellcasting.*** Brass is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). She has the following cleric spells prepared:
 - Cantrips (at will): *guidance*, *spare the dying*

@@ -34,4 +34,4 @@ Off the clock at 0300, in the galley, Brass never rolls and the food is always b
 ## Arc
 The deal gone bad catches up, and Brass learns whether this is one more crew to stay ahead of or the first one worth stopping for. Her growth is letting the net down for the people who would have stood in it with her, and, further out, whether she ever lets herself want the license again, on her own terms, now that this crew is worth being found for.
 
-**Stat block:** `rules/Stat Blocks.md`. **Running gags:** `npcs/Crew Comedy Bits.md` (the napkins; the morning roll; Brass's specials; the galley at 0300). **Cooking, the Gut Check, and tonics:** `rules/The Galley.md`. **Ready-to-run scenes, medical and food and character, plus her arc ladder:** `npcs/Brass - Scenes & Bits.md`.
+**Stat block:** `rules/Stat Blocks.md`. **Running gags:** `npcs/Crew Comedy Bits.md` (the napkins; the morning roll; Brass's specials; the galley at 0300). **Cooking and the Gut Check:** `rules/The Galley.md`. **Ready-to-run scenes, medical and food and character, plus her arc ladder:** `npcs/Brass - Scenes & Bits.md`.

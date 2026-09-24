@@ -67,8 +67,8 @@ Ken "Kraken" of the Burnouts is a lapsed former doctor, now fighting as a rigger
 
 **2.1 The cook-off: Brass vs. Sugary.** *Use: any port with a market or festival. Keeps the Burnouts rivalry warm and funny.*
 Gary "Sugary" of the Burnouts challenges Brass, or Brass challenges Gary, over something small (who fed the dockhands better; a comment about her risotto). A market stall owner offers a judging table and a 50 gp pot.
-- **Format:** three rounds (breakfast, street food, a dessert). Each cook makes a Galley Roll. **Gary rolls d20 + 4** (he's a trained showman, knives flipping, fire). **Brass rolls d20 + 2** for home turf if it's a port she knows, straight d20 if not. Higher result wins the round; best two of three.
-- **Crew involvement:** a PC or NPC can be Brass's sous-chef (advantage, per `The Galley.md`), work the judges (Persuasion or Performance DC 14 for +2), or sabotage Gary's station (Sleight of Hand DC 15; caught means Brass forfeits the round and is furious). Boy Boy McGee does the same for Gary.
+- **Format:** three rounds (breakfast, street food, a dessert). Each round, both cooks roll a d20; high roll wins, best two of three. **Gary rolls with advantage** (trained showman, knives flipping, fire).
+- **Crew involvement:** anyone who helps Brass (sous-chef, working the judges, a little sabotage) gives her advantage for that round, which cancels Gary's. Get caught sabotaging and Brass forfeits the round, furious. Boy Boy McGee plays the same games for Gary.
 - **Every NPC gets a beat:** Finny runs the book on it. Oz volunteers as a judge and tries to be scrupulously fair, which makes both cooks hate him. Tack judges by sensor. Estra eats Gary's food, says "adequate," and walks off.
 - **Gary:** "Your knife work's sloppy." **Brass:** "My knife work's for stitches, pal."
 - **After:** whatever the result, they swap one recipe. Neither admits it.
@@ -82,11 +82,11 @@ Brass cooks for forty people on almost nothing, and it's the best thing she's ev
 **2.3 Octopus night returns.** *Use: any port with a fish market.*
 A stall has octopus. The price is steep (8 gp, fresh). Brass sees it, looks at Aerion, and says nothing, pointedly.
 - **Offer:** Aerion's earlier offer to fund octopus nights is his to honor or not. The ledger is his.
-- **If it happens:** Hall of Fame dish, +5 to the Galley Roll (`The Galley.md`). If it comes out anything less than a Classic, Brass takes it harder than any injury this campaign.
+- **If it happens:** Hall of Fame dish, so the Galley Roll has advantage (`The Galley.md`). If it comes out anything less than a Classic, Brass takes it harder than any injury this campaign.
 
 **2.4 A taste of Leilon.** *Use: a quiet evening aboard. Orena's spotlight, with a chance to fail warmly.*
 Brass asks Orena what they ate back home in Leilon, or what the Wayfinder Knot cooked on their ship. If Orena wants to, she can teach Brass the dish, or cook it herself.
-- **Mechanics:** if Orena cooks, she rolls the Galley Roll with her own modifier (`The Galley.md`, "someone else cooks"). A fail is part of the scene. Brass eats it anyway and rates it honestly.
+- **Mechanics:** if Orena cooks, she rolls d20 + Wisdom on the Galley table (`The Galley.md`). A fail is part of the scene. Brass eats it anyway and rates it honestly.
 - **What's underneath:** a guild meal is a family memory. Brass knows the Knot is gone, and knows food is how you keep people. She won't say that. She'll just write the recipe on a napkin and put it in the pocket where she keeps the important ones.
 - **Brass:** "Say it again, slower. How much salt? No, how much did *they* use."
 
@@ -169,7 +169,7 @@ Built so Orena and Aerion work the same problem from two directions (the standin
 Someone has to cook for seven. The NPC crew volunteers in the least helpful way possible. The two leads are the most competent people available, and that is a low bar.
 - **Aerion's side:** the stores, the costs, what's actually left in the hold (and whether 14-C is food).
 - **Orena's side:** the actual cooking, if she wants it, or the crew wrangling.
-- **Mechanics:** whoever cooks rolls the Galley Roll with their own modifier (`The Galley.md`). Either PC can help the other for advantage if proficient with cook's utensils, or +1 if not. Brass heckles from sickbay through the wall.
+- **Mechanics:** whoever cooks rolls d20 + Wisdom on the Galley table (`The Galley.md`). A helper gives advantage. Brass heckles from sickbay through the wall.
 - **NPC beats:** Oz is reliably Solid and bored by it. Finny puts butter in everything. Tack offers to "tune" the stove and it gets hotter than any stove should. Estra doesn't help and eats whatever they make.
 - **Brass (through the wall):** "Is that the good pan? That's the good pan. Put it down."
 - **What's at stake:** nothing but pride, and Brass's discovery that the crew can manage without her for a day, which is her worst fear and, maybe, the first step past it.
@@ -178,7 +178,7 @@ Someone has to cook for seven. The NPC crew volunteers in the least helpful way 
 Brass sends both PCs to buy the week's stores with a napkin shopping list. The list is in her private shorthand.
 - **The puzzle:** half the list is ingredients. The other half is sickbay supplies disguised as ingredients ("red bread" is a styptic powder). Aerion reads the prices; Orena reads the people. The stallholders know Brass.
 - **Checks:** Investigation DC 12 to decode the shorthand; Insight DC 13 to notice a stallholder is nervous when they hear Brass's name (optional arc-ladder rung 3 seed); Persuasion or haggling to beat the list's budget (Aerion's playground).
-- **Payoff:** if they bring back everything, **+2 fresh-from-port** on the Galley Roll and a hug from Brass. If they improvise, she cooks it anyway.
+- **Payoff:** if they bring back everything, **advantage** on the next Galley Roll and a hug from Brass. If they improvise, she cooks it anyway.
 
 **5.3 The judging panel.** *Use: the cook-off (2.1).*
 Both PCs are asked to judge. Brass is their crewmate. Gary is better at presentation. The food is closer than anyone expected.
