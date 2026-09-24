@@ -86,7 +86,7 @@ They will not meet these people for a long time. They should hear the names cons
 
 **8. *Slack Water*:** a small outrider that doesn't fight the current so much as ride with one, in formation with a kindori pod along routes no other captain can find. Captained by **Sael Rowe**. Delivers, impossibly, on time, and nobody's certain whether she's reading the whales or they're choosing the route for her. The one name on this list that could, someday, recognize exactly what Orena is carrying without being told.
 
-**9. *Compact Standard*:** one of the original seven hulls of the **Vane Compact**, Estra's fleet, still flying under its old name. Captained by **Dessa Kell**, formerly Estra's second, or a fellow Compact captain (leave which true until it matters in play). Ranked ninth today: she rebuilt something out of the Compact's collapse. Estra walked away with one unranked Sturdy Trader. Nobody aboard has the full story of why, and this is the person who does.
+**9. *Compact Standard*:** one of the original twelve hulls of the **Vane Compact**, Estra's fleet, still flying under its old name. Captained by **Dessa Kell**, formerly Estra's second, or a fellow Compact captain (leave which true until it matters in play). Ranked ninth today: she rebuilt something out of the Compact's collapse, one of the few former captains who actually did (`npcs/Captain Estra Vane.md`). Estra herself came out of it with nothing, and only got flying again years later, through the Broker. Nobody aboard has the full story of why, and this is the person who does.
 
 **10. Withheld pending review.** A gap on the printed Board, not an error; the Registry doesn't fill every line. Leave it open.
 

@@ -14,7 +14,7 @@ Aggressively, almost pathologically competent. Doesn't explain herself often, an
 > **Reframed by `campaign/Story Spine.md`.** The Compact was the **first fleet to try the nomadic method** -- flying with the living sky, following the currents and the pods, sharing what they charted. The right instinct, a generation too early. It failed for two reasons, not one: the cartel crushed it (below), *and* it was scientifically premature -- they had the art of following the living roads but not the understanding of why the sky moved, so some of her crews were lost to guttering zones (a different mechanism from how Orena's crew was lost, see `npcs/The Wayfinder Knot.md`, but the same underlying ignorance of why the sky moves). Estra's double guilt -- the cartel destroyed her fleet, and her own unfinished method killed some of her own -- is the heart of her arc. The crew completes it by supplying the missing science.
 
 ### What She Built
-Fifteen years ago, Estra was **First Captain of the Vane Compact** -- a fleet of seven ships that operated as the most respected independent exploration-and-trade outfit in the Bral Reach. Not military, not corporate -- independent. They charted new routes, made first contact with uncontacted species, mapped uncharted systems, and sold the data to the CIV.
+Fifteen years ago, Estra was **First Captain of the Vane Compact** -- a fleet of twelve ships that operated as the most respected independent exploration-and-trade outfit in the Bral Reach. Not military, not corporate -- independent. They charted new routes, made first contact with uncontacted species, mapped uncharted systems, and sold the data to the CIV.
 
 The Compact's reputation was built on a principle: **you chart it, you share it.** Every route discovered was filed with the CIV as open navigation data -- available to anyone. This made them heroes to small operators and a thorn in the side of organizations that profit from controlling route information.
 
@@ -25,30 +25,37 @@ A powerful Wildspace trading conglomerate -- **The Pale Reach** (connection to P
 
 Estra refused.
 
-Over the following eighteen months:
-- Two Compact ships were "lost" in Wildspace. Officially: navigation hazards. Unofficially: someone gave them bad route data.
-- Three captains were bought out with offers too good to refuse. Took their ships and crews and left.
-- One ship was impounded on fabricated smuggling charges. The captain is still in a CIV detention facility.
-- The seventh ship -- Estra's flagship, the *Covenant* -- was seized as collateral against a manufactured debt traced through shell contracts and forged guarantees back to nowhere provable.
+**There was no single blow.** Over the following eighteen months, the fleet came apart one ship at a time, each captain for their own reason, until Estra was the only one left. No hired killers, no dramatic betrayal scene, mostly just an institution with money and patience out-waiting eleven independent operators one at a time. That's the actual shape of it, and it's worse for how ordinary most of it looks from the outside:
 
-The Compact was dismantled in eighteen months. Six former captains scattered across Wildspace -- some angry at Estra, some bought, one imprisoned, two dead.
+- **Sedge Okonkwo** (*Bright Arrears*) took the Pale Reach's buyout outright. Has never once looked comfortable about it since.
+- **Dessa Kell** (*Compact Standard*) got out clean and rebuilt on her own, the one captain who actually managed what Estra couldn't.
+- **Oskar Bellamy** wasn't bribed and wasn't threatened. He was slowly squeezed: every contract worth taking quietly routed to someone else first, every honest client offered something faster and cheaper at the last minute, until flying independently just stopped being possible. He sold his ship rather than watch it rot at a berth, and never took a bribe or got hurt, which is exactly why some of what he felt afterward curdled into a quiet, never-voiced resentment of Estra herself, for leading a fight none of them could actually win.
+- **Tobias Renn** fell behind on berth fees and CIV fines once the work dried up. His ship was impounded, and he's been working the debt off ever since, same unglamorous category as the *Steadfast Promise*'s Dov Errin today.
+- **Yulia Sorrenson and Devan Ashe** flew the Compact's experimental nomadic routes into systems where the starlight itself disappeared, and were never heard from again. Not confirmed dead. Not confirmed anything. This is the one that actually haunts Estra, see "Why So Serious," below.
+- **Bree Alcott's** whole crew accidentally became a real band mid-transit, singing shanties to survive a bad haul, and took a unanimous vote to quit flying and tour instead. Fly under the name **the Static Choir** now.
+- **Marrin Lowe** meant to stay one night at a quiet waystation during a routine stopover. Four years later, still there, and by every account completely at peace about it.
+- **Ines Tarrow** inherited a bakery from an aunt nobody in the crew knew she had, and turned out to be a much better baker than she ever was an astrogator.
+- **Liset Farrow** fell for a rival independent captain entirely outside the Compact, and folded both operations into one small, disgustingly content joint venture.
+- **Estra herself was last.** Her own flagship, the *Covenant*, was seized last of all, collateral against a manufactured debt traced through shell contracts and forged guarantees back to nowhere provable. By the time it happened to her, there was nobody left to notice, or help.
 
 Left with nothing, she clawed her way back into a captain's chair (see The Broker, below) and eventually built the crew she captains now. That crew's ship blew up not long ago; the one they fly today is the new, still-unnamed Sturdy Trader that Aerion's money bought to replace it. Estra did not buy this hull, but the crew is hers.
 
 **On the public rumor:** the version the crew trade is that she was once a "Commodore" over a whole fleet, and that something happened to it, and that she will not talk about it. The Vane Compact is the truth under that rumor. Nobody aboard has the full story.
 
-### The Seven Compact Captains (Recurring NPC Pool)
+### The Compact's Captains (Recurring NPC Pool)
 1. **Estra Vane** -- herself. Circled on her chart. Still fighting.
-2. **[DEAD]** -- Circumstances TBD. Possibly connected to the Guttering.
-3. **[DEAD]** -- Circumstances TBD. Possibly connected to Gabrielle's lost crew.
-4. **[DETAINED]** -- Imprisoned on fabricated charges. Jailbreak side quest. Justice theme.
-5. **[BOUGHT OUT]** -- Now works for the Pale Reach. Ashamed? Defiant? Both?
-6. **[BOUGHT OUT]** -- Location unknown. Question mark on Estra's chart.
-7. **[BOUGHT OUT]** -- Location unknown. Question mark on Estra's chart.
+2. **Sedge Okonkwo**, *Bright Arrears* (rank ~250, `factions/The Manifest Board.md`) -- bought out. Ashamed and defiant both, in roughly equal measure.
+3. **Dessa Kell**, *Compact Standard* (rank 9) -- escaped, rebuilt independently. The gap between her and Estra is worth a scene someday.
+4. **Oskar Bellamy** -- squeezed out economically, quiet resentment, sold his ship. **Live now: bought by Marlow Aldous, refit as the *Fair Return*** (`sessions/Session 3 Prep.md`). Retired, whereabouts otherwise unknown.
+5. **Tobias Renn** -- impounded over debt, still working it off. A genuine future jailbreak-adjacent thread, gentler than it sounds: paying off a fine, not springing a prisoner.
+6. **Yulia Sorrenson** -- flew into a system where the starlight vanished. Never heard from again. Possibly connected to the Guttering.
+7. **Devan Ashe** -- same voyage, same fate, same open question.
+8. **Bree Alcott** -- fronts a touring act, the Static Choir, somewhere out there being happy about it.
+9. **Marrin Lowe** -- settled at a waystation four years ago and never left.
+10. **Ines Tarrow** -- runs a bakery now. Reportedly excellent.
+11. **Liset Farrow** -- merged her operation with a rival captain's. Small, quiet, content.
 
-Each former captain is a potential multi-session arc: rescue, recruitment, confrontation, or betrayal.
-
-> **A live candidate for one of these:** the Manifest Board currently ranks **9th** to a ship called the ***Compact Standard*** (one of the original seven hulls, still flying under its old name), captained by **Dessa Kell**, either Estra's former second or a fellow Compact captain (leave which true until it matters). She rebuilt something out of the collapse; Estra didn't. That gap alone is worth a scene someday. See `factions/The Manifest Board.md`. A second bought-out captain, **Sedge Okonkwo** (*Bright Arrears*, ~250th), gives the DM a contrasting read on the same choice: Kell defiant and climbing, Okonkwo still visibly uncomfortable with what he took.
+Each former captain is a potential scene, arc, or cameo: rescue, recruitment, confrontation, reunion, or just a warm surprise at a random port. Not every one of them needs to matter again. That's the point, most of them just moved on with their lives, the way people actually do.
 
 ## The Debt -- The Broker
 
@@ -81,7 +88,7 @@ Estra is **rebuilding the Compact** -- slowly, quietly, from the bottom of the M
 She hasn't told anyone. She thinks it's her burden. She's wrong -- it's the crew's story too.
 
 ### The Locked Chest
-In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have gone dark (Guttering connection). Seven small markers -- one for each former captain.
+In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have gone dark (Guttering connection). Eleven small markers -- one for each former captain.
 
 **If the PCs find this chart, it recontextualizes the entire campaign.**
 
@@ -89,7 +96,7 @@ In her quarters: a locked chest containing a star chart showing every former Com
 
 Two answers, and she would give neither out loud.
 
-**Why so serious.** She carries a double guilt (`campaign/Story Spine.md`). The Pale Reach destroyed the Vane Compact, seven ships and the people aboard them, for refusing to make route data proprietary. And her own method was ahead of its science: she taught crews to fly *with* the living sky before anyone understood why the sky moved, and some of them were lost to guttering zones for it, the same way Orena's guild was lost. So she was both the victim of a cartel and, in her own accounting, the author of some of her own dead. A person does not come back from that loud.
+**Why so serious.** She carries a double guilt (`campaign/Story Spine.md`). The Pale Reach spent eighteen quiet, patient months taking the Vane Compact apart, twelve ships and the people aboard them, for refusing to make route data proprietary. Most of her captains landed somewhere survivable, bought out, rebuilt, squeezed into debt, even happy. **Two didn't.** Yulia Sorrenson and Devan Ashe flew the Compact's own experimental routes into systems where the starlight vanished, chasing the same nomadic method Estra taught them before anyone understood why the sky moved, and neither was ever heard from again. So she carries both halves at once: the cartel took her fleet, and her own unfinished method is what actually sent Sorrenson and Ashe out there in the first place. A person does not come back from that loud.
 
 **Why she cares about this one.** These five are the loyal few who stayed when the last ship came apart and the rest of the crew walked. She chose each of them for the fleet she is quietly rebuilding, but somewhere it stopped being strategy and started being people. She lost one crew to forces bigger than herself, and she swore she would never lose another to loneliness or neglect, the two things she actually can control. That is the whole reason behind her one unbreakable rule, **no one sleeps in the helm room alone after a bad job**: after the Compact fell she spent months doing exactly that, and she will not let it happen to anyone under her command again. She parents through structure and trust and never through affection, because affection is the thing she is most afraid of losing twice.
 
