@@ -163,9 +163,7 @@ No combat content by design. This is the one to steer toward if the table's stil
 - **Amulet of Health**, 4,000 gp. Constitution becomes 19 while worn if it isn't already higher.
 - **Boots of Speed**, 3,000 gp.
 
-**Present the stock plainly and let the choice be entirely theirs**, per the standing player-agency rule, don't steer toward the Headband or the Ring just because they're flagged above. The mercane's flat, uninterested pricing (no haggling, no scene where Aerion gets to work) is the actual texture of this encounter, resist the urge to let him talk the price down, that's the point.
-
-**Present the stock plainly and let the choice be entirely theirs**, per the standing player-agency rule, don't steer toward either character-flagged item just because it's flagged. The mercane's flat, uninterested pricing (no haggling, no scene where Aerion gets to work) is the actual texture of this encounter, resist the urge to let him talk the price down, that's the point.
+**Present the stock plainly and let the choice be entirely theirs**, per the standing player-agency rule, don't steer toward the Ring of Free Action just because it's flagged above. The mercane's flat, uninterested pricing (no haggling, no scene where Aerion gets to work) is the actual texture of this encounter, resist the urge to let him talk the price down, that's the point.
 
 ## Bastion action: Aerion's second facility
 
