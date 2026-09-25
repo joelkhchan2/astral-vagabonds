@@ -82,7 +82,7 @@ Brass cooks for forty people on almost nothing, and it's the best thing she's ev
 **2.3 Octopus night returns.** *Use: any port with a fish market.*
 A stall has octopus. The price is steep (8 gp, fresh). Brass sees it, looks at Aerion, and says nothing, pointedly.
 - **Offer:** Aerion's earlier offer to fund octopus nights is his to honor or not. The ledger is his.
-- **If it happens:** Hall of Fame dish, so the Galley Roll has advantage (`The Galley.md`). If it comes out anything less than a Classic, Brass takes it harder than any injury this campaign.
+- **If it happens:** Hall of Fame dish, so the cooking roll (roll 1) has advantage (`The Galley.md`). If it comes out anything less than a Classic, Brass takes it harder than any injury this campaign.
 
 **2.4 A taste of Leilon.** *Use: a quiet evening aboard. Orena's spotlight, with a chance to fail warmly.*
 Brass asks Orena what they ate back home in Leilon, or what the Wayfinder Knot cooked on their ship. If Orena wants to, she can teach Brass the dish, or cook it herself.
@@ -178,7 +178,7 @@ Someone has to cook for seven. The NPC crew volunteers in the least helpful way 
 Brass sends both PCs to buy the week's stores with a napkin shopping list. The list is in her private shorthand.
 - **The puzzle:** half the list is ingredients. The other half is sickbay supplies disguised as ingredients ("red bread" is a styptic powder). Aerion reads the prices; Orena reads the people. The stallholders know Brass.
 - **Checks:** Investigation DC 12 to decode the shorthand; Insight DC 13 to notice a stallholder is nervous when they hear Brass's name (optional arc-ladder rung 3 seed); Persuasion or haggling to beat the list's budget (Aerion's playground).
-- **Payoff:** if they bring back everything, **advantage** on the next Galley Roll and a hug from Brass. If they improvise, she cooks it anyway.
+- **Payoff:** if they bring back everything, **advantage** on the next cooking roll (roll 1) and a hug from Brass. If they improvise, she cooks it anyway.
 
 **5.3 The judging panel.** *Use: the cook-off (2.1).*
 Both PCs are asked to judge. Brass is their crewmate. Gary is better at presentation. The food is closer than anyone expected.

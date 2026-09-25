@@ -232,6 +232,6 @@ Represents the crew now knowing enough of each other's jobs to make real, compou
 
 ## 11. The Galley and the Gut Check **[HR]**
 
-Once a day when Brass cooks, roll a d20: **1–5 Bad, 6–15 Fine, 16–20 Good.** A Bad meal means a **Gut Check**, a DC 12 Con save; fail and you're **Queasy** (disadvantage on your next Con save, ends on a short rest). A Good meal is a mini Heroes' Feast: **1d10 temporary hit points** until a long rest (2d10 on a natural 20). After eating **5 Bad meals**, a character has permanent **advantage on saves against food poisoning** (Cast-Iron Stomach). Details, dishes, and Brass's tonic: `The Galley.md`.
+Once a day when Brass cooks, roll two d20s. **Roll 1** picks the table: 1–5 Bad, 6–15 Fine, 16–20 Good. **Roll 2** picks the dish and its effect on that table, one roll for everyone who eats, higher always better. Bad-table effects are avoided with a DC 12 Con save (the **Gut Check**); the bottom half of the Fine table with DC 10. The Good table gives temporary hit points and small advantages, up to a mini Heroes' Feast (2d10 temp HP and immunity to frightened). Eating **5 Bad-table meals** gives permanent advantage on saves against food poisoning (Cast-Iron Stomach). Full tables: `The Galley.md`.
 
 If a system isn't on this page, it isn't in the game.
