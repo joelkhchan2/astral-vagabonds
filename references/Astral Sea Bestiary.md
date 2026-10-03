@@ -1240,11 +1240,19 @@ AC 15 (natural armor) | HP 199 (14d20+56) | Speed 10 ft., fly 40 ft. (wildspace 
 STR 24(+7) DEX 10(+0) CON 19(+4) INT 10(+0) WIS 18(+4) CHA 16(+3)
 Resist radiant, psychic | Senses blindsight 300 ft. | Languages telepathy 1 mile | **CR 10** (5,900 XP)
 
-Eighty-foot mouthless leviathans drifting in pods, communicating through pulsing eye-lights. Feed on ambient astral radiance; considered near-sacred by spacefarers — good if not provoked.
+Eighty-foot mouthless leviathans drifting in pods, communicating through pulsing eye-lights. Feed on ambient astral radiance, not matter, a well-lit patch of wildspace is a full larder to a kindori. Considered near-sacred by spacefarers, good if not provoked.
 - Astral Empathy (nearby creatures get advantage vs fear if calm toward it)
 - Slam (+11, 27 (4d10+7), used only when threatened)
 - Radiant Pulse (recharge 5-6): 60-ft burst, damages hostiles/heals allies
 - Ponderous (disadvantage Dex saves, can't be surprised)
+
+**Lore, spacer accounts and sailor trivia, not mechanics:**
+- Travel in pods of 2 to 8; larger herds of up to 30 gather roughly annually, bulls present and contesting mating rights.
+- An adult can carry up to eighteen gray or brown scavvers riding its sides, grazing the moss that grows there, an old, unremarked-on symbiosis.
+- Calves are born live and are genuine scavver prey in their first stretch of life, which is why a pod guards a birth hard. A calf separated from its pod near a bright, active patch of wildspace is thought to fare better than one near a quiet, dying one, scavvers gather where something's dying or still.
+- Calves hum when content, a faint, immature echo of an adult's death-song register. A trained ear (DC 20 Animal Handling) can tell the difference between idle humming and the real pattern underneath it.
+- An old or dying kindori grows a visible overgrowth of vines and moss, a tell sailors watch for from a distance.
+- Old spacer superstition: a calf's glow brightens facing whatever light source is nearest, "answering the dark."
 
 ### Jammer Leech **[Reconstructed]**
 *Boo's Astral Menagerie*
