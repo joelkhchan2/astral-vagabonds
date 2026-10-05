@@ -1,0 +1,143 @@
+<title>Battle Stations</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  /*
+    Color: --bg/--card/--line/--ink/--muted neutrals, --accent (brass) as the one identity hue,
+           plus five station hues reused from the campaign's own session-companion palette
+           (teal/danger/cost/opp/pc) so this card visually belongs to that same document family.
+    Type:  Fraunces (display, headers) + IBM Plex Sans (body) + IBM Plex Mono (costs, labels)
+    Layout: a single bordered card, three stacked blocks (round procedure / glossary / stations),
+            station costs as colored number badges instead of icon glyphs
+  */
+  :root {
+    --bg: #1b2230; --card: #121722; --line: #2c3545; --line-soft: #232b3a;
+    --ink: #eef1f6; --muted: #93a0b3; --accent: #d8b25c;
+    --helm: #5fb8b0; --ram: #e08a83; --ballista: #e0b877; --engineer: #86c79c; --coord: #a9a3e6;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      color-scheme: light;
+      --bg: #e9ecf2; --card: #fbfbfc; --line: #d6dbe3; --line-soft: #e4e8ee;
+      --ink: #181f2b; --muted: #5b6678; --accent: #8a6a2c;
+      --helm: #256d67; --ram: #a23b3b; --ballista: #8a5a1f; --engineer: #2f6b45; --coord: #4a4396;
+    }
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --bg: #e9ecf2; --card: #fbfbfc; --line: #d6dbe3; --line-soft: #e4e8ee;
+    --ink: #181f2b; --muted: #5b6678; --accent: #8a6a2c;
+    --helm: #256d67; --ram: #a23b3b; --ballista: #8a5a1f; --engineer: #2f6b45; --coord: #4a4396;
+  }
+  :root[data-theme="dark"] { color-scheme: dark; }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, sans-serif;
+         padding: clamp(16px, 4vw, 40px) 16px; display: flex; justify-content: center; }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+
+  .card { width: 100%; max-width: 460px; background: var(--card); border: 1.5px solid var(--line);
+          border-radius: 22px; padding: clamp(20px, 5vw, 30px); box-shadow: 0 1px 2px rgba(0,0,0,.2), 0 16px 40px rgba(0,0,0,.25); }
+
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+             color: var(--accent); font-weight: 600; text-align: center; }
+  h1 { font-family: "Fraunces", serif; font-weight: 700; font-size: clamp(1.7rem, 7vw, 2.1rem); text-align: center;
+       margin: 6px 0 2px; letter-spacing: -.01em; }
+  .sub { text-align: center; color: var(--muted); font-size: .92rem; margin: 0 0 20px; }
+
+  .divider { height: 1px; background: linear-gradient(90deg, transparent, var(--line), transparent); margin: 18px 0; }
+
+  h2 { font-family: "Fraunces", serif; font-weight: 700; font-size: 1.12rem; text-align: center;
+       letter-spacing: .01em; margin: 0 0 12px; text-wrap: balance; }
+
+  .steps { display: grid; gap: 10px; }
+  .step { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: baseline; }
+  .step .n { font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: .78rem; color: var(--accent);
+             border: 1px solid var(--line); border-radius: 50%; width: 22px; height: 22px; display: grid;
+             place-items: center; flex: none; }
+  .step p { margin: 0; font-size: .92rem; line-height: 1.45; }
+  .step b { font-family: "IBM Plex Sans", sans-serif; font-weight: 700; font-style: normal; }
+
+  dl.glossary { margin: 0; display: grid; gap: 11px; }
+  dl.glossary > div { display: grid; grid-template-columns: minmax(90px, 112px) 1fr; gap: 10px; align-items: baseline; }
+  dl.glossary dt { font-family: "Fraunces", serif; font-weight: 700; font-style: italic; font-size: .92rem;
+                   color: var(--ink); white-space: nowrap; }
+  dl.glossary dd { margin: 0; font-size: .88rem; line-height: 1.42; color: var(--ink); }
+
+  .stations { display: grid; gap: 10px; }
+  .station { display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: center;
+             background: var(--line-soft); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+  .badge { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+           font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 1rem; color: #15181f; flex: none; }
+  .station .name { font-family: "IBM Plex Sans", sans-serif; font-weight: 700; font-size: .92rem; }
+  .station .what { font-size: .82rem; color: var(--muted); margin-top: 1px; line-height: 1.35; }
+
+  .note { background: var(--line-soft); border: 1px dashed var(--line); border-radius: 12px; padding: 11px 13px;
+          font-size: .83rem; color: var(--muted); line-height: 1.45; margin-top: 16px; }
+  .note b { color: var(--ink); font-family: "IBM Plex Sans", sans-serif; }
+
+  footer { text-align: center; margin-top: 18px; font-family: "IBM Plex Mono", monospace; font-size: .74rem;
+           color: var(--muted); letter-spacing: .02em; }
+</style>
+
+<div class="card">
+  <p class="eyebrow">Astral Vagabonds</p>
+  <h1>Battle Stations</h1>
+  <p class="sub">Ship combat, player quick reference</p>
+
+  <h2>Each round</h2>
+  <div class="steps">
+    <div class="step"><span class="n">1</span><p><b>Side acts.</b> Your ship's side goes, then theirs.</p></div>
+    <div class="step"><span class="n">2</span><p><b>Assign crew.</b> Everyone aboard and free gets put on a station below.</p></div>
+    <div class="step"><span class="n">3</span><p><b>Resolve.</b> Make each station's roll.</p></div>
+    <div class="step"><span class="n">4</span><p><b>Free crew act normally.</b> Anyone not on a station fights, casts, or does anything else as themselves.</p></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2>Words you need to know</h2>
+  <dl class="glossary">
+    <div><dt>Crew pool</dt><dd>Everyone aboard, able-bodied, and not already on a station.</dd></div>
+    <div><dt>Station</dt><dd>A job you can put crew on this round.</dd></div>
+    <div><dt>Cost</dt><dd>How many crew a station needs. Short by even one, it does nothing.</dd></div>
+    <div><dt>Committed</dt><dd>Once you're on a station, that's your whole round.</dd></div>
+    <div><dt>Threshold</dt><dd>A hit below this number does nothing to the hull.</dd></div>
+    <div><dt>Boarding</dt><dd>Two different things. Helm can lock the ships together. Jumping ship yourself, below, is separate.</dd></div>
+  </dl>
+
+  <div class="divider"></div>
+
+  <h2>Stations</h2>
+  <div class="stations">
+    <div class="station">
+      <div class="badge" style="background:var(--helm)">1</div>
+      <div><div class="name">Helm</div><div class="what">Fly, and pick one: Evasive Action, Full Burn, or lock with a target ship.</div></div>
+    </div>
+    <div class="station">
+      <div class="badge" style="background:var(--ram)">2</div>
+      <div><div class="name">Ram</div><div class="what">One ram attack. Your ship takes half that damage back. Replaces Helm this round.</div></div>
+    </div>
+    <div class="station">
+      <div class="badge" style="background:var(--ballista)">2-3</div>
+      <div><div class="name">Ballista</div><div class="what">Fire the gun. Cost depends on the ship, ask your DM.</div></div>
+    </div>
+    <div class="station">
+      <div class="badge" style="background:var(--engineer)">1</div>
+      <div><div class="name">Engineer</div><div class="what">Patch the hull, DC 12 Technology/Int, once per fight each.</div></div>
+    </div>
+    <div class="station">
+      <div class="badge" style="background:var(--coord)">1</div>
+      <div><div class="name">Coordinator</div><div class="what">Give an ally advantage, impose disadvantage on an attack against the ship, or +1d4 to an ally's roll.</div></div>
+    </div>
+    <div class="station">
+      <div class="badge" style="background:var(--muted)">&minus;1</div>
+      <div><div class="name">Personal Boarding</div><div class="what">Leave the pool, jump to the other ship, fight there on your own.</div></div>
+    </div>
+  </div>
+
+  <div class="note"><b>Not enough crew for a station this round?</b> It just doesn't fire. No partial credit, pick something else to do.</div>
+
+  <footer>Full rules: rules/Rules &amp; Systems.md &sect;8</footer>
+</div>
