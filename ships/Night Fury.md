@@ -29,25 +29,20 @@ Bought and outfitted at session 0 for roughly 35,650 gp of the 50,000 budget.
 | Bastion facilities -- Aerion (level 5, two total) | **Storehouse** -- the cargo hold formalized, runs the Trade order. Second slot not yet chosen. See `rules/Rules & Systems.md` §6. |
 | Bastion facilities -- Orena (level 5, two total) | **Library** -- the chart room, runs the Research order -- and **Arcane Study** -- the helm room (ruled to qualify as her arcane focus), runs the Craft order. Both chosen. See `rules/Rules & Systems.md` §6. |
 
-## Action Economy in Ship Combat
+## Ship Combat: Crew as a Resource Pool
 
 Full rules and reasoning: `rules/Rules & Systems.md` section 8. This is the quick-reference version for the table.
 
-**Crew capacity 11, running with 7.** Every fight, one seat is always the helm; the other six split across gunning, engineering, coordinating, or jumping ship to fight personally. Anyone can crew any station.
+**Crew capacity 11, running with 7.** Every fight, the pool is whoever's actually aboard, up to 7 (Flurry doesn't count). Each body gets assigned to a station for the round; a station needs its full cost in bodies to function, no partial credit.
 
-| Station | Who can | What they do |
-|---|---|---|
-| **Pilot** | Any attuned spellcaster holding concentration (currently Estra; Orena training up) | Flying is free. Spend the pilot's own action on one maneuver per round: **Evasive Action** (attacks vs. the ship have disadvantage, but so do the ship's own guns), **Full Burn** (double speed, but attacks vs. the ship have advantage), **Ram** (one ram attack, ship takes half the dealt damage back), or **Boarding Action** (contested check to lock with a target ship, so PCs can cross). |
-| **Gunner** | Anyone crewing a ballista | See the gunnery math below. |
-| **Engineer** | Tack by default, anyone with the check | **Emergency Patch:** Technology or Intelligence DC 12, restores HP equal to the engineer's level, once per encounter per engineer. Temporary; doesn't reduce the repair bill. |
-| **Coordinator** | Whoever's running the fight from the deck, not piloting or gunning | Once per round: grant advantage on an ally's roll, impose disadvantage on an attack against the ship or a crewmate, or let one station act again out of order. |
-| **Personal action** | Anyone | Jump to a grappled or adjacent enemy ship (movement + Athletics/Acrobatics) and fight there as an individual, cast a spell, or do anything else a PC or NPC could do outside the ship-scale abstraction. |
-
-**Gunnery math, worked out properly at the table.** Both ballistae carry the Sureshot Rotator (aim can be a bonus action) and Ready Magazine (load can be a bonus action). A ballista needs three things done, **load, aim, fire**, and fire always costs an action, but load and aim can each be a bonus action *or* a full action, whichever is left over. Treat each gun as needing **three units of work**, at least one of which must be someone's action:
-
-- **2 dedicated gunners = 1 ballista fires.** One person spends action (fire) + bonus (load); the other spends only their bonus (aim), leaving their action free for anything else.
-- **3 dedicated gunners = both ballistae fire.** Three actions + three bonus actions = six units, exactly enough to cover both guns' load+aim+fire between them, split however's convenient.
-- **1 gunner alone cannot fire a ballista in a round.** There's no partial credit for a lone gunner short a bonus action.
+| Station | Cost | Who can | What it does |
+|---|:---:|---|---|
+| **Helm** | 1 | Any attuned spellcaster holding concentration (currently Estra; Orena training up) | Flies the ship and picks one maneuver: **Evasive Action** (attacks vs. the ship have disadvantage, but so do her own guns), **Full Burn** (double speed, but attacks vs. the ship have advantage), or **Boarding Action** (contested check to lock with a target ship). |
+| **Ram** | 2 | Anyone | One ram attack; the ship takes half the dealt damage back. Replaces the Helm's 1 that round. |
+| **Ballista** (each) | **2** | Anyone trained | Reduced from the baseline 3 by the Sureshot Rotator + Ready Magazine upgrades below. Firing both costs 4 total. |
+| **Engineer** | 1 | Tack by default, anyone with the check | **Emergency Patch:** Technology or Intelligence DC 12, restores HP equal to the engineer's level, once per encounter per engineer. Temporary, doesn't reduce the repair bill. |
+| **Coordinator** | 1 | Whoever's running the fight from the deck, not flying or gunning | Once per round: advantage on an ally's roll, disadvantage on an attack against the ship or a crewmate, or +1d4 to an ally's roll. |
+| **Personal boarding** | removes 1 from the pool | Anyone | Jump to a grappled or adjacent enemy ship (movement + Athletics/Acrobatics) and fight there as an individual, cast a spell, or do anything else outside the ship-scale abstraction. |
 
 **Ship HP is pooled at the hull**, not tracked per crew member. **Damage threshold 20:** any single hit under 20 does nothing to the ship.
 

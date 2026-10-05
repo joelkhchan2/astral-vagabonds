@@ -163,55 +163,61 @@ Keep it as light as everything else in this section. When a PC wants to spend th
 
 **Three facilities now have real, house-ruled depth beyond the one-line catalog entry**, full mechanics in `rules/Bastions.md` §"Facility Economies": Aerion's **Storehouse** runs either ordinary cargo Trade or his costume side business (tiered, with purchasable upgrade levers and a story-gated Flurry Edition), Orena's **Library** splits into Research (three questions a leg, a DC 12/15/20/25 ladder with a full worked topic table) and the cartography table (nav-data value set by what the leg actually held, hers to decide whether to sell), and **Armory**, whichever PC ever picks it, produces common-rarity goods via a craft check and points toward Smithy for actual magic-item crafting later.
 
-## 8. Ship Combat: Crew Stations & Maneuvers **[H]**
+## 8. Ship Combat: Crew as a Resource Pool **[H]**
 
-Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7). Layers onto the canon combat rules in section 1 — side initiative, weapon crews, damage threshold — it doesn't replace them. **Loosely adapted from SW5E's starship crew-role structure** (`references/SW5E_Player's Handbook Complete Edition 1.2.md`), reconciled to 5e's action economy rather than copied wholesale, since that PDF's own vehicle-combat chapter isn't part of what we have.
+Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7), **reworked after session 3** to drop action-economy tracking entirely. Layers onto the canon combat rules in section 1, side initiative, weapon crews, damage threshold, it doesn't replace them.
 
-Every PC and any crew NPC actually named in a fight sits at a **station** for the encounter. Stations aren't classes — anyone can crew any of them, and the same person can swap stations between encounters or between rounds if the fiction allows it (moving from the gun deck to the helm takes movement, not an action).
+**The crew is a pool, not a set of individual action economies.** Each round, each side looks at who's physically aboard that hull, able-bodied, and not already doing something else, and assigns them to **stations**. A station needs its full listed cost in bodies to function at all that round, no partial credit. Anyone assigned to a station is committed for the round, not available to also act as an individual; anyone not assigned is free to act normally (fight a boarder, cast a spell, whatever the fiction calls for).
 
-**Ruling, settled at the table (session 1):** holding the helm's concentration is an **Intelligence** save, not Wisdom or Survival. The helm reads physical star-charts against reality in real time, that's reasoning against a record, not instinct or wilderness-sense. A headband of intellect is a legitimate build choice for anyone training up as a second pilot.
+**The pool is headcount, named PCs and named crew NPCs physically aboard that specific hull, not a hull stat and not a cap tied to berths.** Non-combatants (Flurry) don't count. This is separate from **Bastion Defenders**, the faceless security detail from `rules/Bastions.md`, who still resolve boarding repulsion through their own existing mechanic untouched by any of this.
 
-**Ship HP is pooled at the hull, not the crew.** One HP total for the ship; nobody aboard has a separate "ship damage" pool, and a hit that clears the damage threshold comes off that one number.
+**Ship HP is pooled at the hull, not the crew.** One HP total for the ship; a hit that clears the damage threshold comes off that one number.
 
-### Pilot
-Whoever's at the helm. **Flying costs nothing** — per section 2, steering the ship is not an action or movement spent, so the pilot's own action is free every round. That free action is spent on one of the **maneuvers** below, or held to do something else entirely (fight, cast, aid another station).
+**Ruling, settled at the table (session 1), still holds:** holding the helm's concentration is an **Intelligence** save, not Wisdom or Survival. A headband of intellect is a legitimate build choice for anyone training up as a second pilot.
 
-**Only one pilot maneuver per round**, chosen when initiative comes up for the ship:
+### Station costs
 
-| Maneuver | Effect | Cost |
-|---|---|---|
-| **Evasive Action** | Attacks against the ship have disadvantage until the start of the pilot's next turn | The ship's own weapons have disadvantage this round — nobody can aim while she's juking |
-| **Full Burn** | Ship's speed effectively doubles this round (close, disengage, or run) | Attacks against the ship have advantage until the start of the pilot's next turn — hard to hide going that fast |
-| **Ram** | If the hull has a ram, make one attack using the ram's listed damage, no weapon crew required | The ship takes half the damage it deals back, applied after the damage threshold |
-| **Boarding Action** | Close and lock with a target ship the *Night Fury*'s size or smaller (contested Piloting/Dexterity check against their pilot) | Both ships are grappled — neither can use Full Burn or disengage until someone breaks it |
+| Station | Cost (bodies) | What it does |
+|---|:---:|---|
+| **Helm** | 1 | Flies the ship and picks one maneuver below: Evasive Action, Full Burn, or Boarding Action. Minimum to do anything combat-relevant; a solo-crewed ship can fly and nothing else. |
+| **Ram** | 2 | One attack at the ram's listed damage; the ship takes half that back, applied after its own damage threshold. Replaces the Helm's 1 that round, it isn't stacked on top. |
+| **Ballista, *Night Fury*** | 2 | Reduced from the baseline 3 by her fitted upgrades (Sureshot Rotator, Ready Magazine). Hull-specific, see Upgrades below. |
+| **Ballista, any other hull** | 3 | Baseline, matches the canon crew-3 rating. The *Fair Return* runs at this baseline; nothing in her fiction yet justifies a discount. |
+| **Mangonel** | 4 | Baseline, matches the canon crew 4-5 rating; use 4 unless a specific upgrade says otherwise. |
+| **Engineer: Emergency Patch** | 1 | Technology or Intelligence check, DC 12. On a success, the ship regains HP equal to the Engineer's level, once per encounter per Engineer. Temporary, doesn't reduce the repair bill (still 20 gp/HP after, per section 4). |
+| **Coordinator** | 1 | See below. |
+| **Personal boarding** | removes 1 from the pool | Not a station. A PC or NPC choosing to leave the ship and fight on the other deck as an individual, below. |
 
-### Gunner
-Per section 1, each weapon has a crew size and an action count to fire (ballista: 3, crew of 3; mangonel: 4, crew of 4-5). A PC or NPC gunner contributes their action to that sequence same as always — this section doesn't change weapon crewing, it just names the station.
-
-**Working the math with weapon upgrades (settled at the table, session 1).** The *Night Fury*'s ballistae carry the **Sureshot Rotator** (aim can be done as a bonus action) and **Ready Magazine** (load can be done as a bonus action). A ballista still needs three things done, **load, aim, fire**, but load and aim can each be done as *either* a bonus action or a full action, gunner's choice; fire always costs an action. Think of each ballista as needing **three units of work** (one of which, fire, must be an action) rather than three fixed crew slots, and spend the ship's pooled actions and bonus actions on it however makes sense that round.
-
-- **Two dedicated gunners fire one ballista in a round**, no third crew needed: one person spends their action on fire and their bonus on load, the other spends just their bonus on aim (their action is free for anything else, including feeding the second ballista).
-- **Three dedicated gunners can fire both ballistae in one round.** Between three people you have three actions and three bonus actions, six units total, exactly enough to cover both guns' load+aim+fire (six units). Split it however the table likes; it doesn't have to be an even 3-and-3 per gun, as long as every gun's fire comes from an action and every gun's total hits three units.
-- **Fewer than two people on a gun means it doesn't fire that round.** There's no partial credit for a lone gunner short a bonus action.
+**Only a station's listed cost gets you its function.** Throwing more bodies at a station than its cost doesn't add a bonus, extra hands are better spent elsewhere or Coordinating. Firing both of the *Night Fury*'s ballistae in one round costs 4 total (2+2); a raider firing both of theirs costs 6.
 
 ### Boarding: two different things with the same name
-**The Pilot's Boarding Action maneuver** (above) is about the *ships*: closing and locking them together so neither can disengage. It's a contested check, it's the pilot's one maneuver for the round, and it doesn't move anyone.
 
-**A PC or NPC jumping to the other ship** is a separate, personal choice, not the maneuver. Once the ships are close enough (grappled by a Boarding Action, or just flown alongside), anyone can spend their own movement and an Athletics or Acrobatics check to physically cross, same as clearing any other gap, and fight there as an individual. The ships don't need to be locked for a PC to leap it if the pilot's flown them side by side on purpose; locking just guarantees the gap stays crossable.
+**The Helm's Boarding Action maneuver** is about the *ships*: a contested Piloting/Dexterity check against the enemy pilot to close and lock them together so neither can disengage. It costs the Helm's 1, no surcharge, it doesn't move anyone.
 
-### Engineer
-Not full repair — that's still 20 gp/HP and downtime, per section 4. In combat, an Engineer can spend their action on:
-
-**Emergency Patch.** Technology or Intelligence check (DC 12), and on a success the ship regains hit points equal to the Engineer's level, once per encounter per Engineer. Cosmetic and temporary — it doesn't reduce the eventual repair bill, it just keeps the hull standing long enough to finish the fight.
+**A PC or NPC jumping to the other ship** is a separate, personal choice, not the maneuver. Once ships are close (locked by a Boarding Action, or just flown alongside on purpose), anyone can spend movement and an Athletics or Acrobatics check to physically cross and fight there as an individual. Doing this removes them from their own ship's pool for the round, below.
 
 ### Coordinator
-The person actually running the fight from the deck or the chart table — usually whichever PC isn't piloting or gunning. Spend an action to do one of:
 
-- Grant advantage on one ally's attack roll or ability check this round (their action, not the Coordinator's)
-- Impose disadvantage on one attack targeting the ship or a specific crew member this round
-- Let one station (Pilot, Gunner, or Engineer) act again out of the normal initiative order, once
+The person actually running the fight from the deck or the chart table, usually whichever PC isn't flying or gunning. Costs 1, pick one per round:
 
-**Only one Coordinator benefit per round**, same as the Pilot's maneuver limit. If nobody's explicitly Coordinating, nobody gets this — it's not a passive bonus.
+- **Advantage** on one ally's attack roll or ability check this round.
+- **Disadvantage** on one attack targeting the ship or a named crew member this round.
+- **+1d4** to one ally's attack roll or check this round, bless-style, stacks with advantage/disadvantage from other sources.
+
+**Only one Coordinator benefit per round.** If nobody's explicitly Coordinating, nobody gets this, it's not a passive bonus.
+
+### Upgrades: four axes, not just cost reduction
+
+A feat, a crewed specialist, a ship modification, or a bastion facility result can upgrade a station along any of these. Each is a real, separate thing to spend a feat, gold, or a facility order on:
+
+| Axis | What it does | Example in play |
+|---|---|---|
+| **Cost reduction** | A station's crew cost drops by 1, floor 1 | The *Night Fury*'s ballistae, 3 → 2, from the Sureshot Rotator + Ready Magazine upgrades |
+| **Roll bonus** | A flat bonus, or advantage under a stated condition, on that station's attack or check | A gunner's feat granting +1 to ballista attack rolls specifically |
+| **Effect scaling** | The maneuver's output increases | Emergency Patch restoring 1d6 instead of a flat number equal to level; Ram dealing extra damage |
+| **Pool expansion** | The crew pool itself grows, not any one station | An Additional Hireling (500 gp + wages, `Ship Construction.md`) who can crew any one station, a genuine +1 to the pool for ship combat specifically |
+
+Upgrades are per-ship and per-PC where earned, they don't generalize automatically. The *Fair Return* doesn't inherit the *Night Fury*'s ballista discount just because both are Cutters.
 
 ---
 

@@ -657,36 +657,49 @@
     </div>
 
     <h3>Ship combat, if tonight goes hot</h3>
-    <p class="measure">Full source: <span class="mono">rules/Rules &amp; Systems.md</span> &sect;8. Condensed here so nothing needs a second file mid-fight.</p>
+    <p class="measure">Full source: <span class="mono">rules/Rules &amp; Systems.md</span> &sect;8, reworked after session 3 to drop action economy entirely. Condensed here so nothing needs a second file mid-fight.</p>
     <div class="grid two">
       <div class="card">
-        <h4>The basics</h4>
+        <h4>The basics: crew is a pool, not an action economy</h4>
         <ul class="clean">
           <li><strong>Side initiative</strong> (DMG variant): the <em>Night Fury</em>'s side acts, then the raiders', not individual turn order.</li>
+          <li><strong>Each round, assign whoever's aboard and free to stations.</strong> A station needs its full listed cost in bodies to function, no partial credit. Assigned crew are committed for the round, not free to also act as individuals.</li>
           <li><strong>Damage threshold:</strong> a single hit under the hull's threshold does nothing. The <em>Night Fury</em>'s is 20, the <em>Fair Return</em>'s is 15, the raiders' is 14.</li>
           <li><strong>HP is pooled at the hull</strong>, one number, not tracked per crew member.</li>
-          <li><strong>Flying costs nothing</strong>, the pilot's action is free every round for a maneuver below, or for anything else.</li>
         </ul>
       </div>
       <div class="card">
-        <h4>Pilot: one maneuver per round</h4>
+        <h4>Station costs</h4>
+        <table style="width:100%;font-size:.88rem">
+          <thead><tr><th>Station</th><th class="ctr">Cost</th><th>Does</th></tr></thead>
+          <tbody>
+            <tr><td>Helm</td><td class="ctr">1</td><td>Flies, picks Evasive / Full Burn / Boarding Action</td></tr>
+            <tr><td>Ram</td><td class="ctr">2</td><td>Replaces Helm's 1 that round</td></tr>
+            <tr><td>Ballista, <em>Night Fury</em></td><td class="ctr">2</td><td>Her upgrades knock it down from 3</td></tr>
+            <tr><td>Ballista, any other hull</td><td class="ctr">3</td><td>Baseline, includes the <em>Fair Return</em></td></tr>
+            <tr><td>Engineer</td><td class="ctr">1</td><td>Emergency Patch, DC 12</td></tr>
+            <tr><td>Coordinator</td><td class="ctr">1</td><td>See below</td></tr>
+            <tr><td>Personal boarding</td><td class="ctr">&minus;1</td><td>Leaves the pool, fights individually</td></tr>
+          </tbody>
+        </table>
+        <p class="mono" style="font-size:.8rem;color:var(--muted-text);margin-top:6px">Firing both the <em>Night Fury</em>'s ballistae in one round costs 4 total. A raider firing both of theirs costs 6.</p>
+      </div>
+      <div class="card">
+        <h4>Pilot maneuvers (Helm, cost 1)</h4>
         <ul class="clean">
           <li><strong>Evasive Action:</strong> attacks against the ship have disadvantage until its next turn; the ship's own guns have disadvantage too.</li>
           <li><strong>Full Burn:</strong> speed doubles this round; attacks against the ship have advantage until its next turn.</li>
-          <li><strong>Ram</strong> (if equipped): one attack at the ram's damage, no gun crew needed; the ship takes half that damage back.</li>
-          <li><strong>Boarding Action:</strong> contested Piloting/Dex check to lock with a target ship, grappled until someone breaks it. (Separate from a PC physically jumping ships, below.)</li>
+          <li><strong>Boarding Action:</strong> contested Piloting/Dex check to lock with a target ship, grappled until someone breaks it. No surcharge over the Helm's 1. (Separate from a PC physically jumping ships, below.)</li>
         </ul>
-      </div>
-      <div class="card">
-        <h4>Gunner: ballista math</h4>
-        <p>Each ballista needs three units of work, <strong>load, aim, fire</strong>, fire must be an action, load and aim can each be a bonus action or an action. <strong>Two gunners fire one ballista</strong> (one does fire+load, the other aims as their bonus, their action's free for anything else). <strong>Three gunners fire both ballistae</strong> in one round, six units between three actions and three bonus actions. Fewer than two people on a gun means it doesn't fire.</p>
+        <p><strong>Ram</strong> (cost 2, replaces the Helm's 1): one attack at the ram's damage; the ship takes half that back, after its own threshold.</p>
       </div>
       <div class="card">
         <h4>Engineer and Coordinator</h4>
-        <p><strong>Emergency Patch</strong> (Engineer): Technology/Int DC 12, restores HP equal to the Engineer's level, once per encounter. Temporary, doesn't reduce the repair bill (still 20 gp/HP after). <strong>Coordinator</strong> (usually whoever's free): spend an action for one of, grant advantage on an ally's roll, impose disadvantage on an attack against the ship or a crew member, or let one station act again out of order. One benefit per round, same as the Pilot.</p>
+        <p><strong>Emergency Patch</strong> (cost 1): Technology/Int DC 12, restores HP equal to the Engineer's level, once per encounter. Temporary, doesn't reduce the repair bill (still 20 gp/HP after).</p>
+        <p><strong>Coordinator</strong> (cost 1), pick one: advantage on an ally's roll, disadvantage on an attack against the ship or a crew member, or +1d4 to an ally's roll, bless-style. One benefit per round.</p>
       </div>
     </div>
-    <div class="call dm"><span class="call-label">A PC boarding the other ship personally</span><p>Different from the Pilot's Boarding Action maneuver. Once ships are close (locked, or just flown alongside on purpose), anyone can spend movement plus an Athletics or Acrobatics check to cross and fight there as an individual.</p></div>
+    <div class="call dm"><span class="call-label">A PC boarding the other ship personally</span><p>Different from the Helm's Boarding Action maneuver. Once ships are close (locked, or just flown alongside on purpose), anyone can spend movement plus an Athletics or Acrobatics check to cross and fight there as an individual. This removes them from their own ship's pool for the round.</p></div>
     <div class="call dm"><span class="call-label">If a named crew member has to actually fight</span><p>None of the <em>Night Fury</em>'s named crew have a published combat stat block anywhere in this campaign, by design, they're voice-and-want NPCs, not combat units. If one genuinely needs to swing at something tonight (Oz boarding-repelling is the likeliest), run them as a plain commoner-tier combatant on the fly: AC 11-13, a handful of HP (10-20), a simple weapon attack at +3 to +5. Don't invent a permanent stat block live, this is a one-scene fallback, not new canon.</p></div>
 
     <h3>The Manifest Board, the crew's neighbourhood</h3>
