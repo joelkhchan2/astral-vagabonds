@@ -185,4 +185,93 @@ A PC who loses a bastion can establish a new one (use the Acquisition table for 
 - **Space on a ship is tight.** The Trader is 20 tons of cargo and 11 berths — lean toward **Cramped/Roomy** facilities and use the "both faces of every deck are walkable" gravity-plane trick to justify square counts.
 - **The `Ship Construction.md` "Bastion Improvements" table** (enlarge costs, extra hirelings, "Arm the Crew," second facility of a type, specialization) is this campaign's houseruled add-on layer on top of these rules — keep the two consistent when you build the ship's facility list.
 - **Facility picks so far.** Orena has chosen both her level-5 slots: Library and Arcane Study. Aerion has chosen Storehouse; his second level-5 slot is still open, see `Rules & Systems.md` §6 and `sessions/Session 2 Prep.md` §4.
+
+---
+
+## Facility Economies **[HR]**
+
+House-ruled depth for the facilities actually in play, built from how they've already resolved at the table (session 2's costume-selling scene, the Library's research order) rather than invented cold. Each economy below replaces or extends the one-line catalog entry for that facility; everything else in this doc still governs (one order per facility per bastion turn, orders don't bank).
+
+### Storehouse — Aerion's costume business
+
+Distinct from Storehouse's ordinary Trade order (buying/selling bulk cargo). Aerion can run **one or the other** on a given bastion turn, not both, same facility, same turn.
+
+**The market, concrete:** wealthy Bral patrons dressing up status pets, ship captains keeping a mascot animal (the *Night Fury* is itself a precedent), menagerie keepers and show handlers prepping entries for pageant circuits, and bulk commissions, a theater troupe or performance act ordering a dozen matching outfits at once. The last is the natural source of a real spike and isn't locked to any one NPC, a surviving, grateful fragment of the Velvet Comet is one plausible future client, never forced.
+
+**Tiers.** Numbers are visible to Aerion, there's no hidden math, only a secret from the rest of the crew about the business existing at all:
+
+| Tier | Unlocked by | Price die | Quantity die | Max, one roll |
+|---|---|---|---|---|
+| 1. Word of mouth | Running now | 1d20 gp | 1d20 sold | 400 gp |
+| 2. A standing stall | 400 gp invested, dock space rented | 1d20+5 gp | 1d20+5 sold | 625 gp |
+| 3. A name on the circuit | Level 9, and one real story beat (a Dog Show appearance, a bulk commission landed) | 2d10+10 gp | 2d10+10 sold | 900 gp |
+| 4. A real second business | Level 13 | Folds into Storehouse's baseline Trade income as a flat **+50 gp/month**; the tier-3 roll stays live for one-off commissions and events | uncapped baseline |
+
+**Upgrade levers**, purchasable at any tier, stack independently of the tier gates:
+
+| Lever | Cost | Effect |
+|---|---|---|
+| Extra roll | 300 gp | One additional full price+quantity roll, same leg. Stacks additively. |
+| Boutique multiplier | 600 gp, one-time | Final gp total that leg ×1.5. Doesn't stack with itself. |
+| Accessories line | 200 gp | +1d6 to the price die, permanent. Bowties, tiny hats, the upsell. |
+| **Flurry Edition** | Free, story-gated | Requires a real scene where Flurry's seen in public wearing one of his costumes and it lands as a minor sensation. Once earned: **permanent +1d8 to the price die.** Bought with story, not gold, the one lever that is. |
+
+**Adjacent expansion**, one-time gold spends, no new dice: a commission book (named clients, a negotiated flat fee via Persuasion/Performance instead of the table, higher price, lower volume, a real scene each time); wholesale supply to a Bral pet shop (passive, folds straight into tier 4's flat bonus); costume rental for one-off events (repeatable, no stock lost).
+
+**Why it matters past the gold:** tier 4 is the point this stops being a bit and starts being a business Aerion built from nothing, not inherited. Worth remembering the next time House Windsong comes up at the table. Not scripted, just available to reach for.
+
+### Library — Research and the cartography table
+
+Same room, same one turn, two different orders. Orena can't run both the same leg.
+
+**Research order: up to three questions**, each resolved on its own:
+
+| DC | What it gets you |
+|---|---|
+| 12 | Common knowledge, public record |
+| 15 | A real lead, uncorroborated |
+| 20 | Something actively hidden, or genuinely rare |
+| 25 | Brushes a GM-only truth, one hard fact only, never the whole picture |
+
+Questions don't bank, three unused this leg isn't five available next leg. A miss never erases the scene, it's an incomplete answer, not nothing.
+
+**Worked by topic, use the same ladder for anything not listed:**
+
+| Topic | DC 12 | DC 15 | DC 20 | DC 25 |
+|---|---|---|---|---|
+| Her crew, the Wayfinder Knot | The *Steady Line* exists in shipping registries | Storm/loss reports from the right years and region corroborate her account | A specific captain's name or route tied to the crossing | Nothing, the true fate (`npcs/The Wayfinder Knot.md`) stays GM-only regardless of roll |
+| The Guttering / stars going dark | Sailors' tales, session 2's own result | Delisted routes cluster, the Carrow/Amberwake pattern | One hard data point brushing the real cascade | Nothing, Tier 2 owns this reveal |
+| House Vellum | Public rank, reputation | A real rumor, a specific feud | The Carrow cover-up's shape, without the full file | What Vellum's steward currently believes about the lockbox |
+| House Carrow | Collapsed ~40 years ago, "financial ruin" | The official story doesn't add up on close reading | Vellum profited from the collapse | The full ledger connecting the two, GM's to spend |
+| House Windsong | Public trade reputation | A live internal-politics thread (`factions/House Windsong.md`) | Something Aerion's father hasn't told the board | Something Aerion himself doesn't know, spend rarely, never decide his reaction |
+| Captain Estra / the Vane Compact | Existed, folded, "financial trouble" | A name undercutting the cover story (an Oskar Bellamy-shaped thread) | How the Compact was actually squeezed out | Something Estra hasn't told the crew, hers to reveal, not the Library's |
+| The Manifest Board | Current top-10 names, how ranking works | A rival's real standing or grudge | A top-ten name's actual methods | Mostly public by design, little is GM-gated here |
+| The Rock of Bral | Districts, basic port lore | A specific merchant's real situation (Osric Prynne-tier) | Something a faction is hiding in plain sight | — |
+| Scavvers, all four tiers | Gray/Brown behavior, *Boo's Astral Menagerie* tier | Night Scavver ambush patterns | Void Scavver sightings and their rarity | The keystone-predator truth, `campaign/Story Spine.md`'s to spend |
+| Kindori | Feed on light, travel in pods | Scavver-symbiosis, the death-song register | An elder kindori, a whale fall rumor | The Vocalise's true nature, Orena's arc to spend, never the Library's |
+| Astral elves, Aerion's heritage | Common cultural facts | A specific clan or custom | Something rarer, tied to a real NPC's background | — |
+| Ancient civilizations, pre-Netheril | Half-remembered legend, glyph styles | A named lost culture | A site or artifact with a real location | — |
+
+**Cartography table, the Library's other half, nav-data instead of answers:**
+- **Value follows the leg, not a formula.** The DM sets the bracket from what actually happened: an ordinary lane is low value (50-300 gp) or not sellable, a real encounter is mid value (300-1,500 gp), something genuinely unprecedented is high value (1,500-10,000+ gp), per the existing Income table (`Rules & Systems.md` §4). The roll never invents value that wasn't there.
+- **The Survival/Nature check decides quality, not existence.** DC 10 an ordinary lane, 13 a real encounter, 16+ something unprecedented. A hit is a clean, sellable chart at that leg's full bracket. A miss is partial data, usually half value or not sellable yet.
+- **Selling it is Orena's call, not a dice outcome.** The Pale Reach pays, but after Carrow/Amberwake she has real reason to think twice about what houses do with charts they shouldn't have. Keeping one off the books, her own growing personal collection, is always a live, played choice.
+- **Existing upgrades already fit this system**, no new economy needed: **Deepline Survey Suite** (9,000 gp, +50% survey data) and **Archive Terminal** (2,000 gp, shipboard Pale Reach access), both already on the books in `Ship Construction.md`.
+
+### Armory — common goods now, magic items later
+
+Not "stockpile weapons to equip Defenders," the named crew already have their own gear. Instead, what actually happened at the table: **the Trade order lets Aerion produce or acquire any common-rarity trade good** in-house, at listed price, no haggling scene required.
+
+- **Cap per leg:** 500 gp worth of goods, Roomy. 1,500 gp at Vast (the existing 5,000 gp enlarge).
+- **Craft check, by complexity:**
+
+| Complexity | DC | Example | On a miss |
+|---|---|---|---|
+| Simple common | No roll | Ordinary weapons, basic armor, rope, tools | — |
+| Complex common | 13 | A disguise kit, fine ammunition, a well-balanced blade | Still finished, takes an extra leg |
+| Masterwork-tier mundane | 16 | The best nonmagical version of a thing, a hair from magical | Serviceable but plain, no mechanical penalty |
+
+- **Use cases:** outfitting a thin-crewed ally (Aldous's five), restocking after a fight, a reliable answer to "does anyone have a spare X" instead of a market scene every time.
+- **Secondary income:** surplus common goods sell at port for modest, steady gold, folded into Aerion's ordinary Storehouse ledger, no new roll.
+- **Future state, magic items:** Armory alone never crafts them, that's the existing **Smithy** facility's job (level 5, Craft order, "forge nonmagical weapons/armor, or a Magic Item, Armaments," per the catalog above). The path there is swapping Armory for Smithy at a future level-up, or buying **Second Facility of a Type** (4,000 gp, already on the books) to run both. Once Smithy's live: **DC 20** tool check plus the 2024 DMG's standard crafting formula (gold = the item's listed price, time = cost ÷ 25 gp/day, formula or schematic required).
 </content>
