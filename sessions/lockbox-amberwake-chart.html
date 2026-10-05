@@ -41,6 +41,10 @@
     .legend .date { font-size: 10px; }
     .legend td { padding: 4px 3px; }
   }
+
+  @media print {
+    .header, .chart-frame, .legend { break-inside: avoid; page-break-inside: avoid; }
+  }
 </style>
 
 <div class="wrap">

@@ -49,6 +49,11 @@
     .sheet { padding: 22px 18px 18px; }
     .meta { flex-direction: column; }
   }
+
+  @media print {
+    .header, .sheet { break-inside: avoid; page-break-inside: avoid; }
+    .sheet.slip { break-before: page; page-break-before: always; }
+  }
 </style>
 
 <div class="wrap">
