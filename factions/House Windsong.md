@@ -74,6 +74,8 @@ Vaelros's youngest brother, who walked away from the family business to be an ad
 
 Whether Vaelren trained Aerion out of kindness or out of some quieter intent is his to reveal, and he may not know himself. He is a living example of the other path: leaving. Aerion can look at his uncle's exit, his mother's exit, and his own choice to stay and play the long game, and see all three as people he knows.
 
+**Champion versus Samurai, the house's real martial divide.** Aeric, Aeris, and Aeravellis are all Champion fighters, the house's sanctioned, expected tradition: in a business that moves goods through the open Astral, a man who can't defend a shipment doesn't keep it long, and Champion reads to Vaelros as exactly that kind of practical capability. Aerion chose Samurai specifically to follow Vaelren, a discipline built on resolve and internal control rather than raw capability, and genuinely grew to love it past just emulating his uncle. The contrast is the point: three sons who perform a strength the house already recognizes, and the youngest who picked a tradition from entirely outside it.
+
 ---
 
 ## Optional future scene: the inspection
