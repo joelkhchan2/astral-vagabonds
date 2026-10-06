@@ -32,6 +32,10 @@ This is a real escalation past what the prep doc planned (one detail, not a pers
 
 Boy Boy McGee and two of his crew (the gentle rice-eating giant and the dagger-wielding one) had been **hiding in Aerion's own storehouse for nine days**, eating his rations, discovered by a noise investigation. Estra declined to have them walk the plank. Instead, kneeling to Boy Boy's damaged chassis directly, she told him: *"I know what it's like to leave the ship. That doesn't take away from you being a captain."* They were tied up, kept safe, and dropped at the next stop. Not recruited, not harmed, the standing nemesis-not-crew dynamic holds, played warmer than the original fight.
 
+## Telling Estra about the note
+
+**Two days later, Orena and Aerion asked Estra for a private word.** They told her what the dodecahedron showed: the "WE KNOW" note was a bluff, Vellum doesn't actually know anything, they wrote it purely to provoke a reaction. **Estra now knows this.** Her reaction: relief on the narrow question of what Vellum knows, paired with a clear-eyed read that the crew is still being watched regardless. She revealed she'd already half-suspected the note was exactly this kind of test, "not my first time running into House Vellum, I've been on one side of things, I've been on the other," and confirmed this lines up with things she already privately believed. She left it to their discretion whether the rest of the crew hears about it, the wider crew still doesn't know. **She also asked, pointed and direct, whether there wasn't something more Orena had wanted to ask the dodecahedron.** Read as Estra sensing there's more being held back without pushing for it. Nothing was said about the Carrow/Amberwake letters themselves in this conversation, **that thread is still private to just the two PCs**, this scene resolved the note specifically, not the wider lockbox secret.
+
 ## The rendezvous with the Fair Return
 
 Played close to the prep doc's design. Captain Albus recognized Estra immediately on sight and removed his hat in genuine reverence; the recognition beat landed on the ship's own lines rather than dialogue, exactly as planned. Confirmed: he served under **Captain Oskar Bellamy**, bought the *Fair Return* from him directly. Estra's own line, quiet and real: *"One of the original seven... every captain owns their colors."* He asked to defer to her as Commodore; she declined the deference, "we are peers here."
@@ -78,7 +82,8 @@ Played exactly as planned. **Cordelia Leaftully** greeted the ships personally a
 
 ## New canon this session
 
-- **The Vellum "WE KNOW" note was a bluff.** Confirmed via the dodecahedron's vision: Vellum doesn't actually know what the crew has, they wrote it to provoke a reaction. Someone senior in the house (unnamed, calm, bespectacled, steepled hands) ordered it personally.
+- **The Vellum "WE KNOW" note was a bluff, and Estra now knows it.** Confirmed via the dodecahedron's vision, then relayed to Estra directly by Orena and Aerion two days later: Vellum doesn't actually know what the crew has, they wrote the note to provoke a reaction. Someone senior in the house (unnamed, calm, bespectacled, steepled hands) ordered it personally. **The Carrow/Amberwake letters themselves are still private to just the two PCs**, that disclosure didn't happen this session, Estra only knows about the note.
+- **Estra directly asked whether there was more Orena wanted to ask the dodecahedron**, a clear signal she senses something's being held back, without pushing for it. A live, planted invitation for the PCs to go further on their own terms.
 - **The Stillwater Vocalise is confirmed tied to the Guttering**, played earlier and more directly than the Story Spine's original Tier 2 schedule. Orena's own lost-crew flashback and the Vocalise are now explicitly the same song, witnessed by the whole crew via the dodecahedron, not just Orena alone.
 - **The Velvet Comet survives**, a mothership fled with the remaining crew. A real, live faction with a denied prize and a reason to come back, not a one-session threat.
 - **Tess and Wes Leaftully**, twin halfling astrozoologists, are the actual handlers who traveled with Hush and Glimmer, not "Elowen Byrne." Cordelia Leaftully remains the Institute's lead and the one who paid out.
@@ -102,4 +107,4 @@ Five things played differently from what was drafted elsewhere in the campaign. 
 
 ## Where it goes next
 
-The crew returns to the Rock of Bral with a real haul, a live lead that Vellum's note was a bluff, a confirmed emotional tie between the Vocalise and the Guttering, a surviving Velvet Comet with a denied prize, and two hires to make. See `sessions/Session 3 Prep.md`, which will need its own "where things stand" section corrected to match this record, once the reconciliation questions above are settled.
+The crew returns to the Rock of Bral with a real haul, Estra now read in on the note (but not the Carrow letters), a confirmed emotional tie between the Vocalise and the Guttering, a surviving Velvet Comet with a denied prize, and two hires to make. See `sessions/Session 4 Prep.md`.

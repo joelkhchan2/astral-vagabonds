@@ -8,7 +8,7 @@ Job-of-the-week shape, full skeleton applies. **Tone call, flagged rather than l
 - **Money: 17,281 gp**, plus the standing 10,000 gp Windsong line of credit. The table set an informal floor around 15,000 gp and is holding off on Plating II (8,200 gp) until there's more room.
 - **The ship has 5 ballistas now**, 2 upgraded to the reduced crew cost (2 instead of 3), all named (Gertrude, Susan/"Angel," Kevin/"Ford," Lightning, and a fifth still argued over).
 - **Crew hiring is explicit homework from session 3.** The table wants two more named hires: a cook who can also gun, and a scout/deckhand who can also gun. Neither named nor found yet. This session is where that gets resolved, see the cold open below.
-- **The Vellum note is confirmed a bluff** (the dodecahedron vision, session 3): Vellum doesn't know what the crew has, they wrote it to test a reaction. Only Orena and Aerion know this. Estra still doesn't know about the note's contents, the Carrow/Amberwake letters, or any of it.
+- **The Vellum note is confirmed a bluff, and Estra already knows.** Orena and Aerion told her directly, two days after the dodecahedron vision (session 3): Vellum doesn't actually know what the crew has, the note was just a test. Estra took it well, noted she'd half-suspected as much, and pointedly asked Orena whether there wasn't something more she'd wanted to ask, a clear signal she senses more is being held back. **The Carrow/Amberwake letters themselves are still private to just the two PCs**, that part never came up in the conversation. The wider crew doesn't know about the note either, Estra left that to the PCs' discretion.
 - **The Velvet Comet survives.** A mothership fled with the raid's survivors rather than being destroyed. A denied prize and a real reason to come back, banked, not spent this session by design (see tone call above), but worth a one-line nod if the table brings it up.
 - **Cordelia Leaftully left the door open** ("for this coin, you can invite us to any mission"). Banked, not actively pursued this session unless the table reaches for it.
 - Carrow/Amberwake and Wren Ostler both remain fully dormant threads, untouched since session 2.
@@ -29,16 +29,18 @@ Job-of-the-week shape, full skeleton applies. **Tone call, flagged rather than l
 
 Don't force both hires to land this session if the table doesn't vibe with one of them, a single real hire plus a loose thread on the second is a perfectly good outcome.
 
-## 3. Social beat: Carrow, the note, and whether to tell Estra
+## 3. Social beat: the Carrow letters, and Estra's own question hanging in the air
 
-**A joint Orena/Aerion scene, the two of them alone with what they know.** They're the only two people aboard who know the Vellum note was a bluff and what the Carrow/Amberwake letters actually say. Nothing forces a decision here, the point is surfacing the question out loud between the two of them before it has to be answered to Estra directly.
+**Estra already knows the note was a bluff.** What's still unresolved, the real content of this beat: the Carrow/Amberwake letters themselves, and Estra's own pointed question from that conversation, whether there wasn't something more Orena had wanted to ask the dodecahedron. She hasn't pressed, but she asked on purpose, and it's sitting there unanswered.
 
-**What's actually at stake, for the scene, not to be stated outright:** telling Estra means handing her evidence that ties House Vellum to her own old fleet's unraveling (Oskar Bellamy, the slow squeeze that ended the Compact) in the same conversation as evidence Vellum's currently testing this crew specifically. Not telling her means carrying that weight alone a while longer, and means Estra keeps flying without knowing she might already be watched.
+**A joint Orena/Aerion scene, the two of them alone with what's still unshared.** Nothing forces a decision here, the point is surfacing the question out loud between the two of them before it has to be answered to Estra directly.
+
+**What's actually at stake, for the scene, not to be stated outright:** the letters tie House Carrow's fall directly to House Vellum profiting from it, decades before any of this, and Estra's own locked star chart already carries unexplained Amberwake annotations (`factions/Houses & Holdings.md`). Handing this to her means handing her a piece of her own fleet's history she's never had. Not telling her means answering her direct question with another evasion, which she'll likely clock.
 
 **Branch points:**
 1. **Do they even agree with each other.** Aerion's read (practical, political, a Windsong son who grew up around exactly this kind of institutional maneuvering) and Orena's read (more instinctive, protective of Estra specifically) don't have to land the same place. Let them actually disagree if the players want that.
-2. **If they decide to tell her:** a real scene, played straight, not resolved off-screen. Estra's reaction is hers to have, not scripted here, but the material she's reacting to (her own fleet's fall, tied to the house currently watching her new crew) is heavy enough to earn a real beat.
-3. **If they decide to wait:** that's a legitimate, standing choice, not a failure state. Note it plainly as still-open going into session 5.
+2. **If they decide to tell her:** a real scene, played straight, not resolved off-screen. Estra's reaction is hers to have, not scripted here, but the material she's reacting to (Carrow tied to Vellum, decades deep) is heavy enough to earn a real beat, and it directly answers the question she already asked.
+3. **If they decide to wait, or to answer her question some other way:** that's a legitimate, standing choice, not a failure state. Note it plainly as still-open going into session 5.
 
 ## 4. Main content: the Board pick
 
@@ -72,11 +74,15 @@ Only if Settling Accounts gets picked. Calibrated fair (see above), not forced. 
 
 Standard voyage-leg turns apply (`rules/Rules & Systems.md` §6, `rules/Bastions.md` §"Facility Economies"). Aerion's Storehouse (ordinary trade or the costume business, currently banking a 2d20 roll from session 3's looted stock) and Smithy; Orena's Library (Research or the cartography table) and Workshop. Whichever job gets picked, there's room for at least one real bastion turn each during transit.
 
-## 7. Return to port / fallout
+## 7. Ship shopping, at port before or after the job
+
+**A real part of this session, not an afterthought.** The crew has room to spend (17,281 gp, informal floor at 15,000) and real lessons from two live fights under the crew-pool system. The Danforth shop (`sessions/danforth-yard-shop.html`) is due for another pass before or during this session, expanding past the ballista/armor/ram math it currently covers into other station-relevant options (vehicle-affecting spells, buff/support items, whatever else the crew-pool system has room for). **That expansion is a separate piece of prep from this doc**, scoped and built on its own once the shape's confirmed, see the open question below.
+
+## 8. Return to port / fallout
 
 Whatever the job resolves, close back at the Rock of Bral. Rank moves again if the job's result earns it (DM judgment, not automatic). Note explicitly whether the Carrow/Vellum conversation from section 3 actually happened, and what was decided, since that's exactly the kind of thing worth tracking precisely rather than letting slide.
 
-## 8. Ending: hook, mystery, or cliffhanger
+## 9. Ending: hook, mystery, or cliffhanger
 
 Don't force one that the table's own choices didn't earn. Live options, pick whichever the session's events made loudest: the Carrow/Vellum decision (told Estra, or still sitting on it), Rimmon Vex's aftermath if Settling Accounts ran, the pre-Guttering instruments' quiet echo if The Hollow Count ran, or simply the two new hires settling in as a genuine found-family beat to close on, which is a perfectly good hook in its own right after two sessions that both ended on real weight.
 
