@@ -184,7 +184,7 @@ A PC who loses a bastion can establish a new one (use the Acquisition table for 
 - **Facility ↔ crew mapping (natural fits):** Engineering/Tack → **Workshop** or **Smithy**; sickbay/Brassica → **Laboratory** or **Greenhouse**; gun bay → **Armory**; crew quarters/Aussie → **Barrack**; galley + long table → basic **Dining Room/Kitchen**; the helm/charts/Orena → **Observatory** (spelljammer-perfect at L13) or **Library** now; cargo/Aerion → **Storehouse**.
 - **Space on a ship is tight.** The Trader is 20 tons of cargo and 11 berths — lean toward **Cramped/Roomy** facilities and use the "both faces of every deck are walkable" gravity-plane trick to justify square counts.
 - **The `Ship Construction.md` "Bastion Improvements" table** (enlarge costs, extra hirelings, "Arm the Crew," second facility of a type, specialization) is this campaign's houseruled add-on layer on top of these rules — keep the two consistent when you build the ship's facility list.
-- **Facility picks so far.** Orena has chosen both her level-5 slots: Library and Arcane Study. Aerion has chosen Storehouse; his second level-5 slot is still open, see `Rules & Systems.md` §6 and `sessions/Session 2 Prep.md` §4.
+- **Facility picks so far.** Orena has chosen both her level-5 slots: Library and Workshop. Aerion has chosen both his: Storehouse and Smithy. See `Rules & Systems.md` §6.
 
 ---
 
@@ -258,9 +258,9 @@ Questions don't bank, three unused this leg isn't five available next leg. A mis
 - **Selling it is Orena's call, not a dice outcome.** The Pale Reach pays, but after Carrow/Amberwake she has real reason to think twice about what houses do with charts they shouldn't have. Keeping one off the books, her own growing personal collection, is always a live, played choice.
 - **Existing upgrades already fit this system**, no new economy needed: **Deepline Survey Suite** (9,000 gp, +50% survey data) and **Archive Terminal** (2,000 gp, shipboard Pale Reach access), both already on the books in `Ship Construction.md`.
 
-### Armory — common goods now, magic items later
+### Smithy — common goods now, magic items already on the path
 
-Not "stockpile weapons to equip Defenders," the named crew already have their own gear. Instead, what actually happened at the table: **the Trade order lets Aerion produce or acquire any common-rarity trade good** in-house, at listed price, no haggling scene required.
+Aerion's actual second facility (locked session 3), not Armory. Reworked the same way: **the Craft order lets Aerion produce or acquire any common-rarity trade good** in-house, at listed price, no haggling scene required.
 
 - **Cap per leg:** 500 gp worth of goods, Roomy. 1,500 gp at Vast (the existing 5,000 gp enlarge).
 - **Craft check, by complexity:**
@@ -271,7 +271,7 @@ Not "stockpile weapons to equip Defenders," the named crew already have their ow
 | Complex common | 13 | A disguise kit, fine ammunition, a well-balanced blade | Still finished, takes an extra leg |
 | Masterwork-tier mundane | 16 | The best nonmagical version of a thing, a hair from magical | Serviceable but plain, no mechanical penalty |
 
-- **Use cases:** outfitting a thin-crewed ally (Aldous's five), restocking after a fight, a reliable answer to "does anyone have a spare X" instead of a market scene every time.
+- **Use cases:** outfitting a thin-crewed ally (Albus's five), restocking after a fight, a reliable answer to "does anyone have a spare X" instead of a market scene every time.
 - **Secondary income:** surplus common goods sell at port for modest, steady gold, folded into Aerion's ordinary Storehouse ledger, no new roll.
-- **Future state, magic items:** Armory alone never crafts them, that's the existing **Smithy** facility's job (level 5, Craft order, "forge nonmagical weapons/armor, or a Magic Item, Armaments," per the catalog above). The path there is swapping Armory for Smithy at a future level-up, or buying **Second Facility of a Type** (4,000 gp, already on the books) to run both. Once Smithy's live: **DC 20** tool check plus the 2024 DMG's standard crafting formula (gold = the item's listed price, time = cost ÷ 25 gp/day, formula or schematic required).
+- **Magic items, already in scope:** since Smithy is the facility with "forge nonmagical weapons/armor, or a Magic Item, Armaments" in the catalog above, Aerion doesn't need to swap facilities to reach this, just level and gold. **DC 20** tool check plus the 2024 DMG's standard crafting formula (gold = the item's listed price, time = cost ÷ 25 gp/day, formula or schematic required).
 </content>

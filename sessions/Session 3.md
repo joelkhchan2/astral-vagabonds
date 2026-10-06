@@ -1,6 +1,6 @@
 # Session 3 -- Two Chairs Short
 
-The crew escorts Captain Aldous's *Fair Return* through the Tollmarch to deliver two orphaned kindori calves to the Leaftully Institute, and the Velvet Comet comes for them. See `sessions/Session 3 Prep.md` for what was planned going in; this doc is the record of what actually happened. **Played in full**, full transcript available; this is the reconciled summary.
+The crew escorts Captain Albus's *Fair Return* through the Tollmarch to deliver two orphaned kindori calves to the Leaftully Institute, and the Velvet Comet comes for them. See `sessions/Session 3 Prep.md` for what was planned going in; this doc is the record of what actually happened. **Played in full**, full transcript available; this is the reconciled summary.
 
 ## Bastion downtime, before departure
 
@@ -8,13 +8,13 @@ The table chose to run bastion turns before the transit event, wanting a guarant
 
 **Aerion's Storehouse, the costume business.** First formal roll under the new tiered system: price die 5 gp, quantity die 7, **35 gp total, 7 costumes sold.** Played as a quick wholesale buy-and-resell beat (buying at 30 gp, selling at 35), with a runner gag about sorting stock "by animal." A passing creature (a turtle-sized astral beast ferrying tall blue-hooded figures) bought a turtle-costume-for-a-monkey mid-transit as color.
 
-**Aerion's second facility, the Armory function.** Ran as written: produce common-rarity goods, cap 500 gp, Survival check. Rolled a 7, **made 50 gp worth of blunt daggers** (7 daggers, d4-1 damage, "shoddy" but sellable). Played in dialogue as "the smithy" rather than "the Armory," see the reconciliation note below.
+**Aerion's second facility, Smithy.** Ran the common-rarity goods mechanic as written: cap 500 gp, Survival check. Rolled a 7, **made 50 gp worth of blunt daggers** (7 daggers, d4-1 damage, "shoddy" but sellable).
 
 **A small, warm aside with Tack.** Tack asked Orena for spare parts and built a new small mechanical helper creature (a caterpillar) to handle minor repairs around the ship, the kind of thing Tack already does per established canon. A nice character beat, not mechanically significant.
 
 **Orena's Library, Research.** Used one question of her available three: *what's known about the Amberwake?* Investigation 10. Result: public memory of the corridor has simply faded, it isn't officially discussed anymore, "like a highway nobody drives" rather than an active mystery. She held her other two questions unspent.
 
-**Orena's second facility.** Flavored as helping Tack with ship repairs (an Intelligence check, 14) rather than running a separate charting roll, since the DM clarified that session that her cartography function lives inside the Library, not a second facility. Played in dialogue as "the workshop." See reconciliation note below.
+**Orena's second facility, Workshop.** Flavored as helping Tack with ship repairs (an Intelligence check, 14) rather than running a separate charting roll, since her cartography function lives inside the Library itself, not a second facility.
 
 ## The transit event: the dodecahedron
 
@@ -34,7 +34,7 @@ Boy Boy McGee and two of his crew (the gentle rice-eating giant and the dagger-w
 
 ## The rendezvous with the Fair Return
 
-Played close to the prep doc's design. Captain Aldous (called "Albus" at the table throughout, see reconciliation note) recognized Estra immediately on sight and removed his hat in genuine reverence; the recognition beat landed on the ship's own lines rather than dialogue, exactly as planned. Confirmed: he served under **Captain Oskar Bellamy**, bought the *Fair Return* from him directly. Estra's own line, quiet and real: *"One of the original seven... every captain owns their colors."* He asked to defer to her as Commodore; she declined the deference, "we are peers here."
+Played close to the prep doc's design. Captain Albus recognized Estra immediately on sight and removed his hat in genuine reverence; the recognition beat landed on the ship's own lines rather than dialogue, exactly as planned. Confirmed: he served under **Captain Oskar Bellamy**, bought the *Fair Return* from him directly. Estra's own line, quiet and real: *"One of the original seven... every captain owns their colors."* He asked to defer to her as Commodore; she declined the deference, "we are peers here."
 
 **The crew, met and warmer than drafted:**
 - **Perrin**, first mate, carries a pet slug named **Meep Meep** who wears bows. Meep Meep became Aerion's first named repeat customer, **210 gold** off a single Persuasion-advantage sale (two bows and a tutu), plus a standing guest pass to the International Space Dog Show as a bonus.
@@ -62,7 +62,7 @@ Played close to the prep doc's design. Captain Aldous (called "Albus" at the tab
 
 ## Arrival at the Leaftully Institute
 
-Played exactly as planned. **Cordelia Leaftully** greeted the ships personally and paid **2,800 gp to the *Night Fury*'s side** (5,600 gp total split, matching the posting exactly). Aldous and Estra parted warmly; he told her plainly he was right to come to this crew. Hush and Glimmer were released into the Institute's kindori pod and were visibly, immediately welcomed by the existing pod. As they parted, **the two calves sang a duet that Orena recognized as a learned, imitated version of the Stillwater Vocalise**, not the original, confirming the song is something kindori can pick up and echo, not unique to one tragedy. A second, strong beat tying this session's wonder directly back to Orena's arc.
+Played exactly as planned. **Cordelia Leaftully** greeted the ships personally and paid **2,800 gp to the *Night Fury*'s side** (5,600 gp total split, matching the posting exactly). Albus and Estra parted warmly; he told her plainly he was right to come to this crew. Hush and Glimmer were released into the Institute's kindori pod and were visibly, immediately welcomed by the existing pod. As they parted, **the two calves sang a duet that Orena recognized as a learned, imitated version of the Stillwater Vocalise**, not the original, confirming the song is something kindori can pick up and echo, not unique to one tragedy. A second, strong beat tying this session's wonder directly back to Orena's arc.
 
 ## After the mission: shopping and crew
 
@@ -82,7 +82,7 @@ Played exactly as planned. **Cordelia Leaftully** greeted the ships personally a
 - **The Stillwater Vocalise is confirmed tied to the Guttering**, played earlier and more directly than the Story Spine's original Tier 2 schedule. Orena's own lost-crew flashback and the Vocalise are now explicitly the same song, witnessed by the whole crew via the dodecahedron, not just Orena alone.
 - **The Velvet Comet survives**, a mothership fled with the remaining crew. A real, live faction with a denied prize and a reason to come back, not a one-session threat.
 - **Tess and Wes Leaftully**, twin halfling astrozoologists, are the actual handlers who traveled with Hush and Glimmer, not "Elowen Byrne." Cordelia Leaftully remains the Institute's lead and the one who paid out.
-- **Captain Aldous's crew, fleshed out in play**: Perrin (first mate, owns the slug Meep Meep), Dessa (gunner), Wick (autognome engineer), Tobin "Junebug" Ashworth (helmsman in training).
+- **Captain Albus's crew, fleshed out in play**: Perrin (first mate, owns the slug Meep Meep), Dessa (gunner), Wick (autognome engineer), Tobin "Junebug" Ashworth (helmsman in training).
 - **Meep Meep**, Perrin's pet slug, is a new recurring customer for Aerion's costume business and a easy, warm callback.
 - **Aerion's costume business banked a 2d20 quantity roll** for its next use, from looted stock.
 - **The ship actually has 5 ballistas now**, 2 upgraded to the reduced crew cost, all named.
@@ -90,15 +90,15 @@ Played exactly as planned. **Cordelia Leaftully** greeted the ships personally a
 - **Flurry has a ruled, defensive-only 2d6 breath weapon.** Still 2 HP.
 - **The crew intends to hire two more named crew members** next session, unnamed as of now.
 
-## Reconciliation needed before other docs are touched
+## Reconciliation, resolved
 
-A few things played differently from what's written elsewhere in the campaign, worth a decision before `Session 3 Prep.md`, the companion, or any NPC files get updated to match:
+Five things played differently from what was drafted elsewhere in the campaign. All five are now settled and corrected across `Session 3 Prep.md`, the companion, `rules/Bastions.md`, `rules/Rules & Systems.md`, `ships/Night Fury.md`, `rules/Contracts.md`, `npcs/Captain Estra Vane.md`, and `factions/The Manifest Board.md`:
 
-1. **Aldous was called "Albus" throughout the session**, apparently a deliberate simplification made at the table rather than a slip (it's named explicitly in the transcript: "if it's easier to remember, I will change it to Albus"). Keep "Aldous" as the record, or rename him to Albus going forward?
-2. **Aerion's second facility was played and referred to as "the smithy," not "Armory,"** but the mechanic actually run (common-rarity goods, 500 gp cap, Survival check) is exactly the Armory mechanic from `rules/Bastions.md`. Likely just a naming slip at the table, but worth confirming before I lock which name goes in the books.
-3. **Orena's second facility was referred to as "the workshop,"** not the documented "Arcane Study," and was used to help Tack with repairs rather than running a Craft order. Same question, confirm which name is correct before I touch her bastion record.
-4. **Elowen Byrne (the invented single handler from the prep doc) never appeared.** Tess and Wes Leaftully did the job instead. I'd remove Elowen Byrne from the record entirely rather than leave an NPC who was never actually played.
-5. **Operating cost came out to 630 gp, not the documented 600 gp** for a 7-person crew. Worth a quick check on whether that's a math slip to fix going forward, or an intentional bump (maybe anticipating the two new hires).
+1. **The captain's name is Albus**, not Aldous. Deliberate at the table, now the record everywhere.
+2. **Aerion's second facility is Smithy**, not Armory. The mechanic itself (common-rarity goods, 500 gp cap, Survival check) carries over unchanged, just reframed under Smithy's real Craft order, which also means magic-item crafting is already in scope for him later, no facility swap needed.
+3. **Orena's second facility is Workshop**, not Arcane Study, retroactively correcting session 2's own designation. Used so far as hands-on repair help alongside Tack.
+4. **Elowen Byrne never existed.** Tess and Wes Leaftully, twin halfling astrozoologists, were the actual handlers throughout, and are now the record everywhere she was mentioned.
+5. **630 gp operating cost is correct as charged**, documented already, not a slip.
 
 ## Where it goes next
 

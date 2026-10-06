@@ -46,7 +46,7 @@ Left with nothing, she clawed her way back into a captain's chair (see The Broke
 1. **Estra Vane** -- herself. Circled on her chart. Still fighting.
 2. **Sedge Okonkwo**, *Bright Arrears* (rank ~250, `factions/The Manifest Board.md`) -- bought out. Ashamed and defiant both, in roughly equal measure.
 3. **Dessa Kell**, *Compact Standard* (rank 9) -- escaped, rebuilt independently. The gap between her and Estra is worth a scene someday.
-4. **Oskar Bellamy** -- squeezed out economically, quiet resentment, sold his ship. **Live now: bought by Marlow Aldous, refit as the *Fair Return*** (`sessions/Session 3 Prep.md`). Retired, whereabouts otherwise unknown.
+4. **Oskar Bellamy** -- squeezed out economically, quiet resentment, sold his ship. **Live now: bought by Marlow Albus, refit as the *Fair Return*** (`sessions/Session 3 Prep.md`). Retired, whereabouts otherwise unknown.
 5. **Tobias Renn** -- impounded over debt, still working it off. A genuine future jailbreak-adjacent thread, gentler than it sounds: paying off a fine, not springing a prisoner.
 6. **Yulia Sorrenson** -- flew into a system where the starlight vanished. Never heard from again. Possibly connected to the Guttering.
 7. **Devan Ashe** -- same voyage, same fate, same open question.
