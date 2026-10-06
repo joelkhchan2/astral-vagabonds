@@ -20,7 +20,7 @@ Bought and outfitted at session 0 for roughly 35,650 gp of the 50,000 budget.
 | Helm | Coilworks Mk IV (standard), 8,000 |
 | Armor | Plating I (+1 AC) |
 | Weapons | 2 ballistae, blunt ram |
-| Weapon upgrades | Sureshot Rotator (aim = bonus action), Ready Magazine (load = bonus action) |
+| Weapon upgrades | Sureshot Rotator + Ready Magazine (paired upgrade), ballista crew cost 3 → 2 |
 | Ammunition | 50 standard shots |
 | Mobility | Trim Rig (+5 ft, holds attitude unhelmed) |
 | Life support | none (base 120-day air) |
