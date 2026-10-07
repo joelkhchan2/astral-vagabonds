@@ -26,6 +26,10 @@ The Show comes to the Rock of Bral, or somewhere on the crew's route, once a yea
 
 Whatever else happens, end on Aerion. Whether Flurry places, panics, or simply refuses to leave Orena's side the whole time, give Priscilla one clean, quiet moment where the "purely practical" mask slips exactly once and the table sees, unmistakably, how much this actually mattered to him. Then let the crew never bring it up again, on purpose, the same way they never mention the outfits.
 
+## The pseudonym (planted session 4, cash in whenever this runs)
+
+**Finny's idea, not Aerion's.** The moment entering becomes a real possibility, Finny points out the obvious problem: the Windsong name on an entry form for a dragon in a novelty pet pageant is exactly the kind of thing that gets back to Aerion's father. The fix, in Finny's mind, is a fake identity, and he pitches names on the spot, rapid-fire, delighted with himself, getting worse as he goes: *"Chauncey Glimmerbottom." "Sir Reginald Frostwhisker the Third, Esquire." "Just Clancy. Clancy's clean. Nobody suspects a Clancy."* Whether Aerion takes one of these, rejects all of them, or produces something even worse out of pure spite is his to land, not scripted here. If a pseudonym actually got chosen, use it on the entry paperwork when this episode runs; if the table never landed on one, Finny can just pitch a fresh batch live.
+
 ## Adjustable knobs
 
 - **Standalone cold open or full half-session:** works as a five-minute scene between other business, or as the entire lightweight session if the table needs one.

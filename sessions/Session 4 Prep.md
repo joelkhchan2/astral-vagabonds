@@ -1,6 +1,8 @@
 # Session 4 Prep
 
-Job-of-the-week shape, full skeleton applies. **Tone call, flagged rather than locked:** session 3 closed on one of the heaviest beats the campaign's had (the dodecahedron vision, Orena's crew, the Vocalise/Guttering tie), even though the fight itself was a clean, low-danger win. My read: counterweight toward warmth for most of this session, the crew-hiring and homecoming material does that naturally, and hold back from stacking another gut-punch reveal on top of last session's. Still, confirm live at the table rather than assuming; if the table wants to lean into one of the live threads harder, that's a real, earned option too.
+Job-of-the-week shape, full skeleton applies. **This is the last job-of-the-week session for now.** Session 5 opens the longer, more significant arc; this one stays a simple, self-contained mission like the others, but it's the sendoff for the format, not a session that needs to seed the next tier's plot. **Tone call, flagged rather than locked:** session 3 closed on one of the heaviest beats the campaign's had (the dodecahedron vision, Orena's crew, the Vocalise/Guttering tie), even though the fight itself was a clean, low-danger win. My read: counterweight toward warmth for most of this session, the crew-hiring and homecoming material does that naturally, and hold back from stacking another gut-punch reveal on top of last session's. Still, confirm live at the table rather than assuming; if the table wants to lean into one of the live threads harder, that's a real, earned option too.
+
+**Both leads get a validation beat this session, carried by what's already built rather than a bolted-on extra scene.** Aerion's lands through §3 as written: Vaelren's genuine happiness, set against Vaelros calling him a failure the same night, already answers whether the Samurai path was the right one, no extra mechanic needed. Orena doesn't have an equivalent scene of her own this session by design (too much kindori back to back with the Vocalise material already active), but the Board pick below carries a couple of postings that echo her old-crew-to-found-family arc sideways, through strangers' stories rather than her own, same tone the campaign already uses for Finny's and Brass's secrets.
 
 ## 1. Where things stand, going in
 
@@ -58,31 +60,56 @@ Don't force both hires to land this session if the table doesn't vibe with one o
 
 ## 5. Main content: the Board pick
 
-**Fresh three postings, cold pick at the Board, no steer toward any one of them.** Quiet Water and The Ledger Run from session 3's set are still fully built and banked (`sessions/Session 3 Prep.md`) if the table would rather revisit either of those instead, that's a legitimate substitute for one of the three below.
+**The Board always gets picked by pay, so only the top 3 postings below need full depth.** Everything else on the board this rotation is a one-liner, mixed between regular color and a few built around specific crew NPCs, there for the table to notice, joke about, or take instead, not to fully run. Quiet Water and The Ledger Run from session 3's set are still fully built and banked (`sessions/Session 3 Prep.md`) if the table would rather revisit either of those instead, that's a legitimate substitute for one of the three below.
 
-### A. The Hollow Count · 1,500 gp · 12 days · safe pick
+### The top 3 (full depth)
 
-**OSWELL DARROW**, a Pale Reach archivist, needs a small sealed collection of pre-Guttering astronomical instruments moved from a decommissioned observation post to the Rock of Bral for cataloguing. **Voice tic:** apologizes before every request, even reasonable ones. **Physical tic:** white cotton gloves he never removes, even to eat. **Want:** this collection logged under his name before a rival archivist gets the credit.
+**A. Returned, Unopened · 2,400 gp · 16 days · 2 tons**
+An old client, dying or simply old enough to stop waiting, has a sealed parcel and a name they haven't spoken aloud in decades: someone they wronged, or lost, or just let go quiet. The job is finding that person and putting the parcel in their hands, no excuses accepted for leaving it at a door. **Voice tic:** answers every question with a story instead of a fact. **Physical tic:** keeps touching the parcel's wax seal like it might still be warm. **Want:** to not die with this undelivered. *Complication:* the person on the other end may not want to be found, or may not want what's inside once they are, and the crew has to decide how hard to push a reunion nobody but the client is sure should happen. *Spotlight:* whoever on the crew reads people best gets the actual human moment at the door; good ground for an NPC crew member's own reaction to watching someone else's reconciliation land, or not.
 
-No real danger by design, the whole job is the instruments themselves and the people around them. **A good seed, never pushed:** some of the instruments are old enough to predate current navigational theory, exactly the kind of "who built this and how long has it been out here" texture the dodecahedron already planted. Nothing here resolves that, it's an echo, not an answer.
-
-### B. Settling Accounts · 2,600 gp · 18 days · real danger, Rimmon Vex
-
-**The Cutlass Sunday finally commits.** Vex has been shadowing couriers and testing this crew's reputation since the Bex fight; this time he's not bluffing. A Delverane data-courier run gives him a real target and a real reason to stop circling.
+**B. Settling Accounts · 2,600 gp · 18 days · real danger, Rimmon Vex**
+The Cutlass Sunday finally commits. Vex has been shadowing couriers and testing this crew's reputation since the Bex fight; this time he's not bluffing. A Delverane data-courier run gives him a real target and a real reason to stop circling.
 
 **THE CUTLASS SUNDAY**, stats as established (`rules/Rules & Systems.md` §1, `sessions/Session 3 Prep.md`): AC 14, HP 190, Speed 55 ft, damage threshold 14, two ballistae, crew ~6. First real test of the crew-pool ship combat rules against a single committed enemy rather than a swarm.
 
 **Branch points:** a real hail-and-test exchange before anything fires (Vex sizing up whether this crew's reputation is earned), a real fight if talk fails, and a real, earned dent to his standing at the Compass Rose if he loses outright, not a wipe either way, he's a recurring face, not a boss fight.
 
-### C. Open Water, Open Season · 3,100 gp · 20 days · survey plus bounty
-
-**A joint Pale Reach survey contract with an Open Season bounty riding alongside it.** Chart an unmarked stretch past the Windward Edge (real use for Orena's cartography table, the value-follows-the-leg system from `rules/Bastions.md`), with a standing CIV bounty on any scavvers encountered along the way (gray 5 gp, brown 250 gp, night 750 gp, per the Contracts board). Not a hunting trip by design, the bounty is incidental to the survey, not the job's point.
+**C. Open Water, Open Season · 3,100 gp · 20 days · survey plus bounty**
+A joint Pale Reach survey contract with an Open Season bounty riding alongside it. Chart an unmarked stretch past the Windward Edge (real use for Orena's cartography table, the value-follows-the-leg system from `rules/Bastions.md`), with a standing CIV bounty on any scavvers encountered along the way (gray 5 gp, brown 250 gp, night 750 gp, per the Contracts board). Not a hunting trip by design, the bounty is incidental to the survey, not the job's point.
 
 **Why this one's interesting:** it's the first job built specifically to let Orena's new Library mechanics (Research and the cartography table) actually carry the session's main content instead of being a bastion-turn aside. A real DC-scaled charting roll, a real payout tied to what's actually out there, and her own call on whether to sell the data or hold it.
 
+### The rest of the board (one-liners, no build needed)
+
+**The Standoff at Nine Locks** · 2,000 gp · 10 days · negligible. Two crews are locked in a standoff over a shared berth and cargo lock, both armed, both one wrong move from a real fight. The client doesn't want a winner, they want it defused, hiring an outside crew specifically to stand in the middle and not escalate. Whoever holds steady and doesn't draw first wins this one, not whoever's bigger.
+
+**The Last Haul** · 1,900 gp · 11 days · 3 tons. An old independent crew's ship is dying for real, not just old, something structural actively failing, and they need it held together just long enough for one last run before she's properly retired. A hands-on engineering challenge, jury-rigged fixes under pressure, as much as it is the quiet weight of a crew finally letting a hull go.
+
+**The Vault at the Nine-Day Fair** · 1,500 gp · 6 days · negligible. A traveling fair's strongbox holds goods its owner never actually paid for, and the client wants them quietly back before the fair moves on. Getting in clean needs knowing who's talking to whom, who's bribable, who's distracted, except the fair runs on gossip too, and whoever's working this job is also the biggest risk to it going sideways.
+
+**Colors and Protocol** · 1,700 gp · 8 days · 2 tons. A giff mercenary company passing through needs a neutral, unaffiliated ship to ferry something, a gift, a wounded soldier, supplies, to a client under strict formal protocol. Doing it correctly, by the forms, matters more to the client than doing it fast.
+
+**Off the Books** · 2,000 gp · 5 days · negligible. A client needs a real procedure done, quietly, no registry, no paperwork, no questions, because going through proper channels would cost more than money.
+
+**Loose Ends** · 1,900 gp · 9 days · 3 tons. An old maintenance-drone swarm is still running on a derelict nobody's claimed in years, repairing and defending the wreck against anyone who approaches, faithfully executing orders from an owner long gone. Someone wants it disabled or the wreck salvaged, and the drones aren't hostile, just doing their last job.
+
+**Guest of Honor** · 1,500 gp · 4 days · negligible. A traveling naturalist, scouting companion creatures ahead of this year's International Space Dog Show, wants to formally assess Flurry as a potential entrant. Mid-visit the naturalist mentions, in passing, a rumor of a wild solar astral dragon sighted near a sunlit wreck field, pure color, planting that lunar and solar astral dragons both exist out here. Full pseudonym bit (Finny's idea) banked in `sessions/Episode - The International Space Dog Show.md`.
+
+**Minding Mabel** · 650 gp · 5 days · negligible. Babysit a client's enormous pet space hamster while they're off-world. Strong enough to dent a bulkhead when startled, eats through rations fast, and nobody's told the crew what actually calms her down.
+
+**Open Season, Three Rounds** · paid per kill (5-15 gp/head, scaling with size), no flat fee · same day · negligible. A nest of something small and nasty needs thinning out, fast. Payment is strictly per confirmed kill, however scored, and the clock is three rounds flat, not a round more, whether the kills come from the crew personally or the ship's guns.
+
+**Best in Show** · 1,200 gp · 9 days · 4 tons. Deliver a giff colonel's champion prize animal to a Bral Reach exhibition, alive and immaculate. *Complication:* it hates the ship, adores Oz, escapes its pen twice, and Brass keeps eyeing it as inventory. (Returning posting, player-requested.)
+
+**Passenger Work** · 900 gp · 16 days · 1 ton. Carry a Delverane surveyor and her instruments to the Windward Edge. *Complication:* she is thirty-one, relentlessly curious, and asks Orena questions about the currents and the tales she chases that nobody has ever asked. *(This is Aurel Delverane traveling under her own name, not mentioning the ship she captains.)* (Returning posting, player-requested.)
+
+### Standing (never rotates off the board, separate from the rotation above)
+
+**Open Season**, **The Leech Line**, and **Secrets for Secrets** (the den) all sit on the board permanently; full text in `rules/Contracts.md` §"Standing."
+
 ## 6. Battle
 
-Only if Settling Accounts gets picked. Calibrated fair (see above), not forced. If another posting gets picked, this session may have no combat at all, that's a legitimate outcome and fine against the warmth counterweight.
+Mainly a Settling Accounts outcome, calibrated fair (see above), not forced. If the table instead takes one of the one-liners with built-in teeth (Loose Ends' drones, Open Season Three Rounds' nest), that's a legitimate lighter fight in its place. If a pure social or logistics job gets picked instead, this session may have no combat at all, that's a legitimate outcome and fine against the warmth counterweight.
 
 ## 7. Bastion actions / downtime
 
@@ -98,7 +125,7 @@ Whatever the job resolves, close back at the Rock of Bral. Rank moves again if t
 
 ## 10. Ending: hook, mystery, or cliffhanger
 
-Don't force one that the table's own choices didn't earn. Live options, pick whichever the session's events made loudest: Aerion and Vaelren, whatever that reunion actually becomes, the Carrow/Vellum decision (told Estra, or still sitting on it), Rimmon Vex's aftermath if Settling Accounts ran, the pre-Guttering instruments' quiet echo if The Hollow Count ran, or simply the two new hires settling in as a genuine found-family beat to close on, which is a perfectly good hook in its own right after two sessions that both ended on real weight.
+Don't force one that the table's own choices didn't earn. Live options, pick whichever the session's events made loudest: Aerion and Vaelren, whatever that reunion actually becomes, the Carrow/Vellum decision (told Estra, or still sitting on it), Rimmon Vex's aftermath if Settling Accounts ran, Orena's own read on whichever job got picked, or simply the two new hires settling in as a genuine found-family beat to close on, which is a perfectly good hook in its own right after two sessions that both ended on real weight. **This session doesn't need to plant the next tier's hook.** Since it's the last job-of-the-week before the longer arc opens, it's fine, maybe better, to land on pure warmth and let session 5 open that door fresh rather than reaching for a transition beat here.
 
 ## Looking ahead
 
