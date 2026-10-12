@@ -156,7 +156,7 @@
       <a href="#stock">In Stock</a>
       <a href="#helms">Helms</a>
       <a href="#armor">Armor</a>
-      <a href="#guns">Guns</a>
+      <a href="#combat">Combat Stations</a>
       <a href="#move">Mobility</a>
       <a href="#life">Life Support</a>
       <a href="#home">Fittings</a>
@@ -232,7 +232,7 @@
     <!-- IN STOCK -->
     <section id="stock">
       <div class="sec-head"><span class="sec-num">03</span><h2>On the lot right now</h2></div>
-      <p class="sec-intro">Eight prior-service hulls, ready to fly today. A prior-service hull rolls once on the quirk table (&sect;12) when first attuned.</p>
+      <p class="sec-intro">Eight prior-service hulls, ready to fly today. A prior-service hull rolls once on the quirk table (&sect;12) when first attuned. Read the Crew column against the Combat Stations rules below: a hull with 5 crew and 4 ballistae can fly and fire one gun at once, not fly and fire everything, the number is headcount, not a ceiling on ambition.</p>
       <div class="tablewrap">
         <table>
           <thead><tr><th style="width:1.4em"></th><th>Profile</th><th class="num">AC</th><th class="num">HP</th><th class="num">Speed</th><th class="num">Cargo</th><th class="num">Crew</th><th>Guns</th><th class="num">Price</th></tr></thead>
@@ -294,10 +294,37 @@
       </div>
     </section>
 
-    <!-- GUNS -->
-    <section id="guns">
-      <div class="sec-head"><span class="sec-num">06</span><h2>Armament</h2></div>
-      <p class="sec-intro">Crew listed here is the baseline station cost under the crew-pool ship combat rules (<span class="mono">rules/Rules &amp; Systems.md</span> &sect;8): the number of bodies needed to fire or use the weapon in a round, before any upgrade reduces it.</p>
+    <!-- COMBAT STATIONS -->
+    <section id="combat">
+      <div class="sec-head"><span class="sec-num">06</span><h2>Ship Combat Stations</h2></div>
+      <p class="sec-intro">Organized by station, matching the crew-pool rules (<span class="mono">rules/Rules &amp; Systems.md</span> &sect;8), not by part type. Every upgrade below lands on one of four axes: <strong>cost reduction</strong> (a station's crew cost drops), <strong>roll bonus</strong> (a flat bonus or advantage on that station's check), <strong>effect scaling</strong> (the maneuver's output improves), or <strong>pool expansion</strong> (the crew pool itself grows). That fourth axis isn't sold here: the pool grows by hiring, not by buying a part, see the crew-hiring economy instead.</p>
+
+      <h3>Helm</h3>
+      <p class="sec-intro" style="margin-top:0">One body, flies the ship, picks one maneuver: Evasive Action, Full Burn, or Boarding Action. Costly helms (&sect;04 above) change who can fly; these change what flying can do.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Upgrade</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Juking Baffles" data-cost="2600"><td class="add">+</td><td class="nm">Juking Baffles</td><td class="num">2,600</td><td class="eff">Evasive Action no longer costs the ship's own guns disadvantage</td></tr>
+            <tr class="buy" data-name="Burn Shrouding" data-cost="2600"><td class="add">+</td><td class="nm">Burn Shrouding</td><td class="num">2,600</td><td class="eff">Full Burn no longer gives attackers advantage against you</td></tr>
+            <tr class="buy" data-name="Grappling Jaws" data-cost="2000"><td class="add">+</td><td class="nm">Grappling Jaws</td><td class="num">2,000</td><td class="eff">Advantage on the Helm's Boarding Action check</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Ram</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th class="num">Crew</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Piercing Ram" data-cost="1500"><td class="add">+</td><td class="nm">Piercing Ram</td><td class="num">1,500</td><td class="num">2</td><td class="eff">Unlocks the Ram maneuver; higher damage</td></tr>
+            <tr class="buy" data-name="Blunt Ram" data-cost="1200"><td class="add">+</td><td class="nm">Blunt Ram</td><td class="num">1,200</td><td class="num">2</td><td class="eff">Same, lower damage, safer for your own hull</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Gunnery</h3>
+      <p class="sec-intro" style="margin-top:0">Crew listed is the baseline station cost, bodies needed to fire in a round, before any upgrade reduces it.</p>
       <div class="tablewrap">
         <table>
           <thead><tr><th style="width:1.4em"></th><th>Weapon</th><th class="num">Cost</th><th class="num">Crew</th><th>Damage / effect</th></tr></thead>
@@ -305,20 +332,9 @@
             <tr class="buy" data-name="Ballista" data-cost="50"><td class="add">+</td><td class="nm">Ballista</td><td class="num">50</td><td class="num">3</td><td class="eff">3d10, 120/480</td></tr>
             <tr class="buy" data-name="Mangonel" data-cost="100"><td class="add">+</td><td class="nm">Mangonel</td><td class="num">100</td><td class="num">4</td><td class="eff">5d10, 200/800, min 60 ft</td></tr>
             <tr class="buy" data-name="Giant Cannon" data-cost="6000"><td class="add">+</td><td class="nm">Giant Cannon</td><td class="num">6,000</td><td class="num">4</td><td class="eff">16d10, 600/2,400</td></tr>
-            <tr class="buy" data-name="Piercing Ram" data-cost="1500"><td class="add">+</td><td class="nm">Piercing Ram</td><td class="num">1,500</td><td class="num">2</td><td class="eff">Unlocks the Helm's Ram maneuver (collision, takes half damage back)</td></tr>
-            <tr class="buy" data-name="Blunt Ram" data-cost="1200"><td class="add">+</td><td class="nm">Blunt Ram</td><td class="num">1,200</td><td class="num">2</td><td class="eff">Same, lower damage, safer for your own hull</td></tr>
             <tr class="buy" data-name="Harpoon Battery" data-cost="2800"><td class="add">+</td><td class="nm">Harpoon Battery</td><td class="num">2,800</td><td class="num">3</td><td class="eff">4d10 plus a line; tethered targets cannot disengage</td></tr>
             <tr class="buy" data-name="Scatter Rack" data-cost="1900"><td class="add">+</td><td class="nm">Scatter Rack</td><td class="num">1,900</td><td class="num">3</td><td class="eff">4d8 to all small craft in a 30-ft cube</td></tr>
             <tr class="buy" data-name="Broadside Battery (great ships only)" data-cost="9000"><td class="add">+</td><td class="nm">Broadside Battery</td><td class="num">9,000</td><td class="num">12</td><td class="eff">Four linked ballistae, one station, one roll. Great ships only.</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <h4>Maneuver upgrades</h4>
-      <div class="tablewrap">
-        <table>
-          <thead><tr><th style="width:1.4em"></th><th>Upgrade</th><th class="num">Cost</th><th>Effect</th></tr></thead>
-          <tbody>
-            <tr class="buy" data-name="Grappling Jaws" data-cost="2000"><td class="add">+</td><td class="nm">Grappling Jaws</td><td class="num">2,000</td><td class="eff">Advantage on the Helm's Boarding Action check</td></tr>
           </tbody>
         </table>
       </div>
@@ -330,11 +346,48 @@
             <tr class="buy" data-name="Sureshot Rotator + Ready Magazine (paired)" data-cost="1100"><td class="add">+</td><td class="nm">Sureshot Rotator + Ready Magazine</td><td class="num">1,100</td><td class="eff">Crew cost -1 (floor 1). Sold as a pair, both required for the reduction.</td></tr>
             <tr class="buy" data-name="Autoloader" data-cost="2400"><td class="add">+</td><td class="nm">Autoloader</td><td class="num">2,400</td><td class="eff">Crew cost -1 further (floor 1). Stacks with the pair above.</td></tr>
             <tr class="buy" data-name="Rifled Bore" data-cost="1600"><td class="add">+</td><td class="nm">Rifled Bore</td><td class="num">1,600</td><td class="eff">+1d10 damage</td></tr>
-            <tr class="buy" data-name="Extended Frame" data-cost="1100"><td class="add">+</td><td class="nm">Extended Frame</td><td class="num">1,100</td><td class="eff">Double both range increments</td></tr>
-            <tr class="buy" data-name="Shielded Position" data-cost="900"><td class="add">+</td><td class="nm">Shielded Position</td><td class="num">900</td><td class="eff">Crew get half cover, cannot be picked off</td></tr>
+            <tr class="buy" data-name="Shielded Position" data-cost="900"><td class="add">+</td><td class="nm">Shielded Position</td><td class="num">900</td><td class="eff">Crew get half cover, cannot be picked off (positional, not one of the four combat axes)</td></tr>
           </tbody>
         </table>
       </div>
+
+      <h3>Engineer</h3>
+      <p class="sec-intro" style="margin-top:0">One body, Emergency Patch, DC 12, restores HP equal to the Engineer's level once per encounter per Engineer. Not to be confused with the Patch-Weld Kit below (&sect;05), a different, consumable item used outside combat.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Upgrade</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Diagnostics Array" data-cost="900"><td class="add">+</td><td class="nm">Diagnostics Array</td><td class="num">900</td><td class="eff">Advantage on the Emergency Patch check</td></tr>
+            <tr class="buy" data-name="Reinforced Patch Kit" data-cost="1200"><td class="add">+</td><td class="nm">Reinforced Patch Kit</td><td class="num">1,200</td><td class="eff">Emergency Patch restores an extra flat +10 HP</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Coordinator</h3>
+      <p class="sec-intro" style="margin-top:0">One body, picks one benefit per round: advantage, disadvantage, or +1d4 for an ally. Only one benefit per round, no passive bonus.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Upgrade</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Resonant Speaking-Trumpet" data-cost="1000"><td class="add">+</td><td class="nm">Resonant Speaking-Trumpet</td><td class="num">1,000</td><td class="eff">The chosen benefit can also apply to a second ally this round, once per encounter</td></tr>
+            <tr class="buy" data-name="Chart-Table Rig" data-cost="700"><td class="add">+</td><td class="nm">Chart-Table Rig</td><td class="num">700</td><td class="eff">The +1d4 option becomes +1d6</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Shipboard Enchantments</h3>
+      <p class="sec-intro" style="margin-top:0">Installed magic, not spell slots. The ship carries it the way she carries armor plating.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Warded Hull Rune" data-cost="3500"><td class="add">+</td><td class="nm">Warded Hull Rune</td><td class="num">3,500</td><td class="eff">Resistance to one chosen damage type, for the voyage</td></tr>
+            <tr class="buy" data-name="Luckstone Mounting" data-cost="4000"><td class="add">+</td><td class="nm">Luckstone Mounting</td><td class="num">4,000</td><td class="eff">Once per encounter, reroll any one station's check</td></tr>
+            <tr class="buy" data-name="Minor Animate Figurehead" data-cost="2800"><td class="add">+</td><td class="nm">Minor Animate Figurehead</td><td class="num">2,800</td><td class="eff">The Coordinator's benefit this round can also remove one condition from a named crew member</td></tr>
+          </tbody>
+        </table>
+      </div>
+
       <h4>Ammunition</h4>
       <div class="tablewrap">
         <table>
