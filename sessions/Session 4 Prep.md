@@ -19,17 +19,31 @@ Job-of-the-week shape, full skeleton applies. **This is the last job-of-the-week
 
 **Arrival back at the Rock of Bral, played warm.** Rank update lands here (see above), Finny's party, the usual homecoming texture. This is also where crew hiring actually happens, not improvised cold later.
 
-**Two hire candidates, built enough to run, not fully scripted, present as real people the table meets rather than a hiring-hall menu:**
+**Where they're found.** The Compass Rose board, a direct referral (maybe from Albus's crew, a nice callback if the table wants it), or just dockside, found asking around. Let the PCs' own approach decide this rather than scripting it, it only changes how many show up and in what order.
 
-- **PERRIS VANCE**, candidate cook-gunner. Former galley hand off a decommissioned Pale Reach survey vessel, left when the ship's charter lapsed rather than transfer to a captain she didn't trust. **Voice tic:** narrates her own cooking like a sports commentary, even when nobody's listening. **Physical tic:** burn-scarred hands she's stopped noticing. **Want:** a kitchen that isn't about to get sold out from under her again. Competent with a ballista from shipboard necessity, not formal training, she'll say so plainly if asked.
-- **DASH OKONKWO-REEVE**, candidate scout-deckhand-gunner. Young, restless, too many half-finished apprenticeships behind them (rigger, cartographer, once briefly a Wardens recruit who washed out on the physical). **Voice tic:** asks questions back instead of answering them directly. **Physical tic:** can't sit still, always fidgeting with something, a knife, a coin, a loose thread. **Want:** one thing they actually finish. Reads as a slight Finny-adjacent energy, good runner if the table wants an eventual Finny/Dash dynamic.
+**Run it as back-to-back mini-interviews, three per slot, not two long scenes.** Nobody needs full depth live, each candidate below has one entrance beat and one natural follow-up moment, enough to improvise from cold. Run as many as the table has patience for; the actual hire is whichever one or two land, not a predetermined pick.
 
-**Branch points:**
-1. **Where they're found.** The Compass Rose board, a direct referral (maybe from Albus's crew, a nice callback if the table wants it), or just dockside, found asking around. Let the PCs' own approach decide this rather than scripting it.
-2. **The actual interview.** A real scene, not a skill-check gate. Let Aerion's ledger-brain and Orena's read-people-instinct both get something to do here, a joint scene if the shape allows it (his numbers, her gut, both landing on the same hire for different reasons).
-3. **Terms.** Matches the already-established math, roughly 100 gp/month each, bringing the crew to 9 and the monthly operating cost up accordingly (`rules/Rules & Systems.md` §4: 500 gp for up to 6, +100/additional, so a crew of 9 lands at 800 gp/month unless the table negotiates otherwise).
+### Cook-gunner candidates
 
-Don't force both hires to land this session if the table doesn't vibe with one of them, a single real hire plus a loose thread on the second is a perfectly good outcome.
+**Perris Vance.** Walks in already talking, mid-sentence about a dish she clearly finished three ports ago, narrating it like sports commentary whether anyone's listening or not. Former galley hand off a decommissioned Pale Reach survey vessel, left rather than transfer to a captain she didn't trust. **Follow-up moment:** asked about gunnery, she holds up her burn-scarred hands and says plainly she's never had formal training, shipboard necessity only, no exaggeration either way. **Want:** a kitchen that isn't about to get sold out from under her again.
+
+**Auguste Mornay.** Walks in, takes one look at the galley (or wherever this is happening), and makes a small, devastating noise of disappointment before he's said a single word. Formerly private chef for a mid-tier trading house, lost the position in some unspecified unpleasantness, now slumming it and making sure everyone knows it. **Follow-up moment:** asked why he'd take a job this far beneath him, he doesn't deny the insult, he just says the crew's stores "have clearly been insulted at some point in their life too" and he finds that sympathetic. **Want:** to be appreciated for the actual skill, by someone who understands what he's doing, not just grateful for calories.
+
+**Tomlin Reyes.** Walks in with a small, worn logbook already in hand, flips it open unprompted to show his last "explained phenomenon," whatever that happens to be. Former cargo inspector, a decade without filing one false anomaly report. **Follow-up moment:** if anyone mentions Tack, the ship, or anything uncanny aboard, he asks, entirely serious, whether he can "take a look at it," already certain he'll find a mundane cause. **Want:** to be right, forever, about the universe being orderly.
+
+### Scout-deckhand-gunner candidates
+
+**Dash Okonkwo-Reeve.** Answers the first question asked of them with a question of their own, can't help it. Too many half-finished apprenticeships behind them (rigger, cartographer, a washed-out Wardens recruit). **Follow-up moment:** asked why they never finished any of it, they go still for the first time in the whole interview, fidgeting hands stopping completely, before deflecting with another question. **Want:** one thing they actually finish. Worth a deliberate call once hired, mentee or rival to Finny, not a default double of him.
+
+**Juno Vask.** Introduces herself in the third person, resume-style, before anyone's asked her name twice. Bounced through three bottom-tier crews in five years, left each the moment it stopped climbing. **Follow-up moment:** asked why she'd want a berth on a crew ranked in the 340s, she pulls out a small, dog-eared tally card and says plainly this is a crew that's climbing fast, and she intends to be on the card when it does. **Want:** to be somebody whose name means something, openly, no shame attached. Sharp foil for Aerion, same drive, opposite strategy.
+
+**Sable Quin.** Already knows everyone's name by the time they sit down, used warmly, like old friends. Grew up the "front of house" kid in a merchant family, charm as the family trade. **Follow-up moment:** produces some small, exactly-right trinket for whoever's running the interview, no reason given, no price attached. **Want:** to be genuinely liked everywhere, no angle, which is exactly what makes Brass suspicious of them on principle.
+
+**The actual interview.** A real scene, not a skill-check gate, for whichever candidates the table lingers on. Let Aerion's ledger-brain and Orena's read-people-instinct both get something to do, a joint scene if the shape allows it (his numbers, her gut, both landing on the same hire for different reasons).
+
+**Terms.** Matches the already-established math, roughly 100 gp/month each, bringing the crew to 9 and the monthly operating cost up accordingly (`rules/Rules & Systems.md` §4: 500 gp for up to 6, +100/additional, so a crew of 9 lands at 800 gp/month unless the table negotiates otherwise).
+
+Don't force both hires to land this session if the table doesn't vibe with any of them, a single real hire plus a loose thread on the second slot is a perfectly good outcome. Any candidate not hired stays on the board, a real person the crew might cross paths with again rather than a discarded NPC.
 
 ### Homecoming texture: Sprat, Meech, and the rumor mill
 
