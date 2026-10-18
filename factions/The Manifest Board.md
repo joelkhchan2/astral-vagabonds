@@ -16,6 +16,8 @@ No point system, no formula. **The Board updates whenever the crew is back at a 
 
 <!-- Historical note: docs written before session 2 (Campaign Bible.md, Contracts.md M1, Captain Estra Vane.md, Finny.md, The Pale Reach.md) still say 348th out of 351 -- that's correct as the crew's starting position and needs no fix. Only this file tracks the live number. -->
 
+> **Updated for session 4: crew now 344th.** Two Chairs Short (session 3) was a joint job, supporting Captain Albus's *Fair Return* rather than a solo climb, so the earned move is a modest one rank, not the bigger jump a solo win would buy. Real churn alongside it: Dov Errin's *Steadfast Promise*, impounded eleven months, finally lost its charter outright, a hull sealed that long simply stops getting renewed, so the board compresses by one rather than opening a slot. The *Fair Return* also gets a firm placement now, 343rd, superseding the old rough "~331" estimate from before the crew had actually met him, he's a real neighbor now, not a rumor. The Weatheralls' *Kettle* climbs one too, a small, earned bump. Rimmon Vex's *Cutlass Sunday* gets passed by both, dropping two full ranks, which lands as a sharper insult than the usual one-rank slide, exactly the kind of thing he takes personally.
+
 > **Why this matters more than it looks.** The Board is the one objective measure of an independent crew, and Aerion's family dismisses it because it ranks independent operators and they don't consider those real. Simply climbing it never changes their minds. **Making the Board matter does**, and that turns out to be the same project as the nomadic living-sky network, which is also the lever that eventually lets Aerion take over the company. See `campaign/Story Spine.md` and `House Windsong.md`.
 
 ---
@@ -24,29 +26,34 @@ No point system, no formula. **The Board updates whenever the crew is back at a 
 
 These six are the crew's immediate neighbourhood for a long time, and they should become recurring furniture. Half of them are jokes. Half of them are not.
 
-**350. *Vermilion Hour*:** Squid-class, owner unknown. **On fire.** Has been on fire for six months. The fire is a bound elemental in a cargo hold nobody can open, and the CIV cannot decide whether an unextinguished ship counts as operational. The *Vermilion Hour* files perfect paperwork every quarter. Nobody has ever met her captain.
+**349. *Vermilion Hour*:** Squid-class, owner unknown. **On fire.** Has been on fire for six months. The fire is a bound elemental in a cargo hold nobody can open, and the CIV cannot decide whether an unextinguished ship counts as operational. The *Vermilion Hour* files perfect paperwork every quarter. Nobody has ever met her captain.
 
-**349. *Steadfast Promise*:** impounded at the Rock of Bral for smuggling for eleven months. Cargo still sealed in the hold. Her captain, **Dov Errin**, drinks at the same dockside bar every night and will explain the appeal to anyone. He is not wrong and it does not help him.
+> **Steadfast Promise, gone from the board.** Dov Errin's smuggling impound finally outlasted the CIV's patience: eleven months sealed is eleven months too many, and the charter simply wasn't renewed. He's still at the same dockside bar most nights. The slot didn't go to anyone, the board just compressed by one.
 
 **348. *Amity's Reward*:** derelict. Hasn't moved in two years. Still chartered because the fees are paid annually by an account nobody has traced. *Worth pulling on eventually.*
 
 **347. *Quiet Sum*:** Cutter-class, captained by **Ollo Trask**, dohwar (penguin-like merchant). Runs tiny, fast, high-margin courier work with a crew of four. Ruthlessly efficient, relentlessly cheerful, and will absolutely undercut them on a contract and apologize sincerely while doing it.
 
-**346. *Kettle*:** Hauler-class, captained by the **Weatherall family**, three generations aboard. Nineteen people, four of them children. Slow, safe, and completely uninterested in ranking. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session. *(Their hauler is boarded and robbed in M6: make them neighbours the crew likes first, so it lands.)*
+**346. *Cutlass Sunday*, dropped here.** See the full entry below; passed by both the crew and the Kettle in the same update, which lands as a sharper insult than the usual single-rank slide.
 
-**345. THE CREW.** Started at 348 after job one; now 345 after the combined vacancy-and-climb update. See the update note above.
+**345. *Kettle*:** Hauler-class, captained by the **Weatherall family**, three generations aboard, nineteen people, four of them children. Slow, safe, and completely uninterested in ranking, and as of session 4, a singing family: close-harmony work-songs run through everything they do, chores, watch rotations, meals, the way some families just talk instead. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session. *(Their hauler is boarded and robbed in M6: make them neighbours the crew likes first, so it lands.)*
+
+**344. THE CREW.** Started at 348 after job one, climbed to 345 after session 2's combined vacancy-and-climb update, now 344 after session 4's modest, joint-job earned rank. See the update note above.
+
+> **343. *Fair Return*, now a firm neighbor.** Captain Marlow Albus, firm placement as of session 4, superseding the old rough "~331" estimate from before the crew had actually met him. See the Mid-board entry below for his full character; he's close enough now to be treated as a real neighbor, not a name dropped as rumor.
 
 > **What happened to Bex.** The friendly-rival read broke at the end of session 1: Bex ambushed the *Night Fury* for real leaving Reefside, boarding fight and all, and lost badly, her ship destroyed outright by the port's own defense cannons in the aftermath. A destroyed hull can't hold a charter, so the *Grendel's Wake* is gone from the Board, not just fallen further down it. **Her personal fate is deliberately left open** (on death's door, not confirmed dead) and staying offscreen for now, decide it on purpose whenever the table wants that scene. See `sessions/Session 1.md`.
 > **The ceiling is gone, and that's worth noticing out loud.** Bex was the rival to lean on, a friendly one, a rank to chase and lose. With her slot gone, the crew's nearest neighbour going forward is the *Cutlass Sunday* below, teeth instead of warmth. Don't rush to replace her with a new friendly face; let the gap sit for a session or two first.
 
-**344. *Cutlass Sunday*:** Cutter-class, captained by **Rimmon Vex**, human, forties, sour. The one bottom-feeder with teeth. Vex blames his rank on everyone but himself, scavenges wrecks and salvage that aren't legally his, undercuts on price, and will board a ship he reads as weaker if he thinks the Wardens won't hear about it. **Not a villain, a desperate man at the bottom doing desperate things,** but he is the crew's most reliable low-board *scrap*, and he takes being passed on the Board as a personal insult.
-> **This is the rival with teeth.** Where Bex is the friendly ceiling, Vex is the recurring fight-and-friction. When you want a combat or a confrontation that isn't a one-off stranger, it's the *Cutlass Sunday* coming around again. Great continuity for a crew whose whole social world is the bottom of the Board. (Stat him as a light raider crew; his ship is a worse *Swift Cutter*, reuse the skiff block in `sessions/Session 1.md` if you want him as the session-1 aggressor instead of Dev Ostrel.)
+**346. *Cutlass Sunday*:** Cutter-class, captained by **Rimmon Vex**, human, forties, sour. The one bottom-feeder with teeth. Vex blames his rank on everyone but himself, scavenges wrecks and salvage that aren't legally his, undercuts on price, and will board a ship he reads as weaker if he thinks the Wardens won't hear about it. **Not a villain, a desperate man at the bottom doing desperate things,** but he is the crew's most reliable low-board *scrap*, and he takes being passed on the Board as a personal insult, which session 4's double slide (passed by the crew and by the Kettle in one update) makes considerably worse.
+> **This is the rival with teeth.** Where Bex is the friendly ceiling, Vex is the recurring fight-and-friction. When you want a combat or a confrontation that isn't a one-off stranger, it's the *Cutlass Sunday* coming around again. Great continuity for a crew whose whole social world is the bottom of the Board.
+> **Stats, updated for a level-6 solo fight (session 4).** Both PCs leveled to 6 after session 2; the *Cutlass Sunday*'s ship stats and Vex's own personal stat block, below, are both bumped from their original session-3 numbers to stay a real but fair fight rather than undershooting the party's current level. Full detail in `sessions/Session 4 Prep.md` §5(B).
 
 ---
 
 ## The battle at the bottom: continuity
 
-The crew started at 348 of 351 and is now 345 of 350, and they will *live* down here for a long time regardless (breaking the low 300s is a Tier 1 achievement). Lean into it: **their rivals, their scraps, their friendships, and their small victories should almost all come from this same handful of bottom-of-the-Board faces**, not from a parade of strangers. That's the continuity dividend of being nobody, the same handful of ships keep turning up at the same cheap berths, the same Charter Window, the same bar.
+The crew started at 348 of 351 and is now 344 of 349, and they will *live* down here for a long time regardless (breaking the low 300s is a Tier 1 achievement). Lean into it: **their rivals, their scraps, their friendships, and their small victories should almost all come from this same handful of bottom-of-the-Board faces**, not from a parade of strangers. That's the continuity dividend of being nobody, the same handful of ships keep turning up at the same cheap berths, the same Charter Window, the same bar.
 
 - **Their friendly ceiling, currently vacant:** the *Grendel's Wake* (Bex) is gone from the board entirely, not just fallen further. Don't rush a replacement in; let the gap be felt for a session or two before the *Cutlass Sunday* above or a new face fills the role.
 - **Their fight:** the *Cutlass Sunday* (Vex). The recurring aggressor: a race, a robbed cargo, a contested salvage, or an actual boarding.
@@ -58,7 +65,7 @@ Play the same faces enough that the players know them by ship name, and the Boar
 ## Mid-board faces (ranks they'll hear, then meet)
 
 Names to drop as rumour long before the crew climbs to them, so the middle of the Board feels populated:
-- **331. *Fair Return*:** Cutter-class, captained by **Marlow Albus**, human, fifties, a small, professional escort-and-courier outfit, nine crew normal complement, **five now**, four lost over the past month, none of it to violence (a poaching, a homesickness, a teleportation mishap, and a runaway who joined a travelling troupe, see `sessions/Session 3 Prep.md`). **Met in session 3** (Two Chairs Short): sought out the *Night Fury* specifically, on reputation rather than rank, for the second hull Stoneward's escort licensing requires. **Voice tic:** contract language even off the clock, "acceptable terms," "within scope." **Physical tic:** checks the manifest even when he already knows what's on it. First named example of the campaign's own standing theme (the Board's number isn't the real measure) landing from someone *above* the crew rather than below it. Worth deciding within a session or two whether he grows into a recurring warmer face at this rank tier, similar in shape to the *Long Odds* below, or stays a one-job thread.
+- **343. *Fair Return*:** Cutter-class, captained by **Marlow Albus**, human, fifties, a small, professional escort-and-courier outfit, nine crew normal complement, **five now**, four lost over the past month, none of it to violence (a poaching, a homesickness, a teleportation mishap, and a runaway who joined a travelling troupe, see `sessions/Session 3 Prep.md`). **Met in session 3** (Two Chairs Short): sought out the *Night Fury* specifically, on reputation rather than rank, for the second hull Stoneward's escort licensing requires. **Voice tic:** contract language even off the clock, "acceptable terms," "within scope." **Physical tic:** checks the manifest even when he already knows what's on it. First named example of the campaign's own standing theme (the Board's number isn't the real measure) landing from someone *above* the crew rather than below it. **Firm placement as of session 4**, superseding the old rough "~331" estimate, now a real, close neighbor (one rank up) rather than a name dropped as rumor. Worth deciding whether he grows into a recurring warmer face at this rank tier, similar in shape to the *Long Odds* below, or stays a one-job thread.
 - **~250. *Bright Arrears*:** captained by **Sedge Okonkwo**, a former Vane Compact hand who took the Pale Reach's buyout and has never once looked comfortable about it. A living answer to "what would it cost to just take the deal?" Aboard the *Compact Standard* (rank 9, below) they'd find the answer he didn't give.
 - **~220. *Halloway's Second*:** Bex's estranged sister **Present Halloway** runs it, and the two do not speak. A future soft hook if the players like Bex.
 - **~180. *Merigold*:** a Nightbreeze-insured family freighter that climbs suspiciously fast and never files an incident. Aerion's ledger-eye might wonder how. (Quiet Aeravellis-adjacent seed, optional.)
@@ -98,13 +105,13 @@ They will not meet these people for a long time. They should hear the names cons
 
 | Rank | Vessel | Captain | Disposition | Recurs as |
 |---|---|---|---|---|
-| 344 | *Cutlass Sunday* | Rimmon Vex | Hostile-ish | The fight: races, robbed cargo, boardings |
-| **345** | **the crew** | **Estra Vane** | (home) | **home; up from 348, part vacancy, part earned climb** |
-| 346 | *Kettle* | the Weatheralls | Warm | The conscience: neighbours to protect (robbed in M6) |
+| 343 | *Fair Return* | Marlow Albus | Ally, grateful | Firm neighbor as of session 4, met in Two Chairs Short |
+| **344** | **the crew** | **Estra Vane** | (home) | **home; up from 348, part vacancy, part earned climb (345 after session 2, 344 after session 4's joint-job climb)** |
+| 345 | *Kettle* | the Weatheralls | Warm | The conscience: neighbours to protect (robbed in M6); a singing family as of session 4 |
+| 346 | *Cutlass Sunday* | Rimmon Vex | Hostile-ish | The fight: races, robbed cargo, boardings. Passed twice in one update, session 4, and furious about it. |
 | 347 | *Quiet Sum* | Ollo Trask | Rival, cordial | The undercutter: loses them contracts, apologises sincerely |
 | 348 | *Amity's Reward* | (none) | Mystery | The derelict whose fees someone keeps paying |
-| 349 | *Steadfast Promise* | Dov Errin | Neutral, chatty | The impounded philosopher at the bar |
-| 350 | *Vermilion Hour* | unknown | Joke, then not | The ship that's still on fire |
+| 349 | *Vermilion Hour* | unknown | Joke, then not | The ship that's still on fire. *Steadfast Promise*'s charter was revoked (session 4); the board compressed rather than opening a slot. |
 
 *The **Grendel's Wake** (Bex Halloway) no longer appears; destroyed at Reefside, session 1. See the update note at the top of this file.*
 

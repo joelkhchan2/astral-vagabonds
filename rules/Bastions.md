@@ -218,6 +218,8 @@ Distinct from Storehouse's ordinary Trade order (buying/selling bulk cargo). Aer
 
 **Adjacent expansion**, one-time gold spends, no new dice: a commission book (named clients, a negotiated flat fee via Persuasion/Performance instead of the table, higher price, lower volume, a real scene each time); wholesale supply to a Bral pet shop (passive, folds straight into tier 4's flat bonus); costume rental for one-off events (repeatable, no stock lost).
 
+**A one-time nudge from Orena's Library, not a lever.** If she runs a Research order on fabrics and materials for the business (topic table below), a hit at any DC grants Aerion exactly one free reroll, kept, on the price die for his next Storehouse costume order. One use, then it's spent, never a permanent bonus, same as every other Library result.
+
 **Why it matters past the gold:** tier 4 is the point this stops being a bit and starts being a business Aerion built from nothing, not inherited. Worth remembering the next time House Windsong comes up at the table. Not scripted, just available to reach for.
 
 ### Library — Research and the cartography table
@@ -251,6 +253,7 @@ Questions don't bank, three unused this leg isn't five available next leg. A mis
 | Kindori | Feed on light, travel in pods | Scavver-symbiosis, the death-song register | An elder kindori, a whale fall rumor | The Vocalise's true nature, Orena's arc to spend, never the Library's |
 | Astral elves, Aerion's heritage | Common cultural facts | A specific clan or custom | Something rarer, tied to a real NPC's background | — |
 | Ancient civilizations, pre-Netheril | Half-remembered legend, glyph styles | A named lost culture | A site or artifact with a real location | — |
+| Fabrics & materials, for Aerion's costume business | Common pricing and availability, nothing he couldn't find himself | A specific supplier carrying surplus astral sailcloth, a real lead | That sailcloth is Windsong scrap, resold off his own family's shipyards, without them knowing whose costumes it ends up in | The resale isn't Windsong's doing, it's Aeris buying the scrap cheap and flipping it, quiet leverage over material his own house throws away |
 
 **Cartography table, the Library's other half, nav-data instead of answers:**
 - **Value follows the leg, not a formula.** The DM sets the bracket from what actually happened: an ordinary lane is low value (50-300 gp) or not sellable, a real encounter is mid value (300-1,500 gp), something genuinely unprecedented is high value (1,500-10,000+ gp), per the existing Income table (`Rules & Systems.md` §4). The roll never invents value that wasn't there.

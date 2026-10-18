@@ -6,7 +6,7 @@ Job-of-the-week shape, full skeleton applies. **This is the last job-of-the-week
 
 ## 1. Where things stand, going in
 
-- **Rank: still 345th as of the last Board update**, session 3's completion (Two Chairs Short, a joint fight won clean, a reputable client paid in full) hasn't been reflected yet. **Live DM call to make at the top of this session:** a real climb is earned here, suggest landing somewhere in the 340-343 range, judgment call, not a formula. Let Finny throw the party he's been owed.
+- **Rank: 344th, confirmed** (`factions/The Manifest Board.md`). Two Chairs Short (session 3) was a joint job, supporting Albus's *Fair Return* rather than a solo climb, so the earned move is a modest one rank, not a bigger jump. Real churn alongside it: Albus's *Fair Return* gets a firm placement at 343rd (a real neighbor now, not a rumor), the Weatheralls' *Kettle* climbs one to 345th, Dov Errin's *Steadfast Promise* finally loses its charter outright after eleven months impounded, and Rimmon Vex's *Cutlass Sunday* drops two full ranks to 346th, passed by both the crew and the Kettle in the same update. Let Finny throw the party he's been owed.
 - **Money: 17,281 gp**, plus the standing 10,000 gp Windsong line of credit. The table set an informal floor around 15,000 gp and is holding off on Plating II (8,200 gp) until there's more room.
 - **The ship has 5 ballistas now**, 2 upgraded to the reduced crew cost (2 instead of 3), all named (Gertrude, Susan/"Angel," Kevin/"Ford," Lightning, and a fifth still argued over).
 - **Crew hiring is explicit homework from session 3.** The table wants two more named hires: a cook who can also gun, and a scout/deckhand who can also gun. Neither named nor found yet. This session is where that gets resolved, see the cold open below.
@@ -80,7 +80,9 @@ Two of the six standard homecoming beats (`locations/The Bral Reach.md`, "Runnin
 
 ## 3. Social beat: Aerion's, at the Compass Rose
 
-**Vaelren is at the Compass Rose, unannounced, when the crew comes through.** Aerion's uncle, trainer, and the model for his own restraint, never actually played at the table before, only referenced (`factions/House Windsong.md`). He reads as genuinely changed: looser, warmer, nothing like the composed "space samurai" Aerion remembers. He tells Aerion plainly that he wasn't driven out for failing to measure up to anything, he left on purpose, and he's happier for it.
+**Vaelren is at the Compass Rose, unannounced, when the crew comes through.** Aerion's uncle, trainer, and the model for his own restraint, never actually played at the table before, only referenced (`factions/House Windsong.md`). **The visual is the whole joke before he says a word:** a loud Hawaiian shirt, socks and sandals, nothing that reads as "space samurai" at all, a direct punchline against both the composed trainer Aerion remembers and the severe, buttoned Vaelros scripted below. He tells Aerion plainly that he wasn't driven out for failing to measure up to anything, he left on purpose, and he's happier for it.
+
+**His actual lines, scripted, landing the takeaway directly at Aerion rather than just describing his own choice:** *"Your father called it getting eased out. I call it the best decision I ever made. There's no ceremony in it, kid, I just stopped showing up to things that made me miserable, one at a time, until none of them were left."* And when Aerion pushes back: *"Lost? No. I won. Nobody tells you winning looks like this, but it does."* Then, quieter, the real point: *"You've stood like that since you were twelve, I know, shoulders squared like the whole house falls down if you ever once unclench. Nobody's going to blame you for setting it down a minute. Not even you, if you let yourself."* And: *"You don't have to win his argument, kid. You could just stop having it. Be whoever you actually are with that sword, not whichever version keeps the ledger looking good on paper."* **Both Vaelros and Vaelren consider the outcome a total victory, just defined completely differently**, worth letting that sit unresolved rather than picking a winner.
 
 **The flashback, triggered by the reunion, private to Aerion's own head, not shared with the table the way Orena's vision was.** The night he actually chose to leave the family business, same night, two beats:
 
@@ -117,9 +119,13 @@ An old client, dying or simply old enough to stop waiting, has a sealed parcel a
 **B. Settling Accounts · 2,600 gp · 18 days · real danger, Rimmon Vex**
 The Cutlass Sunday finally commits. Vex has been shadowing couriers and testing this crew's reputation since the Bex fight; this time he's not bluffing. A Delverane data-courier run gives him a real target and a real reason to stop circling.
 
-**THE CUTLASS SUNDAY**, stats as established (`rules/Rules & Systems.md` §1, `sessions/Session 3 Prep.md`): AC 14, HP 190, Speed 55 ft, damage threshold 14, two ballistae, crew ~6. First real test of the crew-pool ship combat rules against a single committed enemy rather than a swarm.
+**THE CUTLASS SUNDAY, stats bumped for a level-6 solo fight.** The original session-3 numbers (AC 14, HP 190, threshold 14, crew ~6) were calibrated for a joint fight with the *Fair Return* backing the crew up; this is a 1-on-1, and both PCs are level 6 now, so: **AC 15, HP 220, Speed 55 ft, damage threshold 15, two ballistae, crew ~7.** First real test of the crew-pool ship combat rules against a single committed enemy rather than a swarm.
 
-**Branch points:** a real hail-and-test exchange before anything fires (Vex sizing up whether this crew's reputation is earned), a real fight if talk fails, and a real, earned dent to his standing at the Compass Rose if he loses outright, not a wipe either way, he's a recurring face, not a boss fight.
+**RIMMON VEX, personal stats, also bumped.** Reskinned **Veteran** (CR 3) instead of the originally-flagged Bandit Captain, which reads too weak against two level-6 PCs with full kit: AC 17, HP 58, Speed 30 ft, Multiattack (two melee), longsword +5 to hit (7, 1d8+3 slashing) or heavy crossbow +3 to hit (6, 1d10+1 piercing), Athletics +5, Perception +2. His boarding crew, if it comes to that, reskinned **Thug** (CR 1/2) instead of Bandit: AC 11, HP 32, Multiattack (two melee), mace +4 to hit (5, 1d6+2 bludgeoning), Pack Tactics (advantage with an ally adjacent to the target).
+
+**Vex's hail, scripted, before anything fires:** *"Vane's boat. Heard you beat a boarding crew twice your tonnage and I've been wondering ever since whether that was skill or luck. Hold your heading, or don't. Either way I find out today."*
+
+**Branch points:** the hail above, Vex sizing up whether this crew's reputation is earned, a real fight if talk fails, and a real, earned dent to his standing at the Compass Rose if he loses outright, not a wipe either way, he's a recurring face, not a boss fight.
 
 **C. Open Water, Open Season · 3,100 gp · 20 days · survey plus bounty**
 A joint Pale Reach survey contract with an Open Season bounty riding alongside it. Chart an unmarked stretch past the Windward Edge (real use for Orena's cartography table, the value-follows-the-leg system from `rules/Bastions.md`), with a standing CIV bounty on any scavvers encountered along the way (gray 5 gp, brown 250 gp, night 750 gp, per the Contracts board). Not a hunting trip by design, the bounty is incidental to the survey, not the job's point.
@@ -154,13 +160,42 @@ A joint Pale Reach survey contract with an Open Season bounty riding alongside i
 
 **Open Season**, **The Leech Line**, and **Secrets for Secrets** (the den) all sit on the board permanently; full text in `rules/Contracts.md` §"Standing."
 
+### Astral Sea transit, d20
+
+A real mix, safe through dangerous, warm through eerie, mostly pulled from `rules/Tables.md`'s own catalog and the pattern set by `Session 3 Prep.md`'s d8 rather than invented fresh. Mechanics attached the way the dodecahedron worked last session, one check, one true detail, never the whole picture, and a few left genuinely unresolved on purpose.
+
+| d20 | Encounter | Check / effect |
+|---|---|---|
+| 1 | Space guppies, a shoal of hundreds, harmless, follow for two days | None, pure color |
+| 2 | Jammer leeches on the hull, nobody noticed, speed down 5 ft for a week | None, a complication, not a mystery |
+| 3 | The stars are marginally wrong. Nobody can say how. Orena can hear it. | DC 15 Arcana (hers alone to try): a thinning current, a tiny, personal, unlabeled echo of the Guttering. |
+| 4 | A dohwar trader, cheerful, offering a deal that's genuinely good | None, a social scene |
+| 5 | A gray scavver gathering, 30+, restless | DC 13 Nature/Survival: confirms something died nearby recently. What, stays unanswered. |
+| 6 | A ship on the exact reciprocal heading, identical class, nobody waves | **No check, by design.** The least-explained entry on the table on purpose; resist the urge to attach a reason even if asked. |
+| 7 | **The mercane trading vessel**, banked since session 3 and never actually run. Flat pricing, no haggling, real uncommon/rare stock, Aerion's scene. Same inventory, `Session 3 Prep.md` §"A mercane trading vessel." | Mechanical content is the shop itself |
+| 8 | Two brown scavvers shadowing, driven off rather than fought, real but fair if it goes hot | Combat math only if it goes hot |
+| 9 | A distress beacon on a heading the crew cannot afford to take | DC 12 Insight/Investigation: genuine distress versus something staged. DC 20 (rare): one specific detail about who sent it, never the full story. |
+| 10 | A Stoneward Route Warden inspection, routine, four hours, deeply inconvenient | None, a procedural scene |
+| 11 | Astral pegasi, a herd loose in open void, gone in a minute | DC 13 Nature: they're running from something further back along their path. Never identified. |
+| 12 | A current visibly dissolving, silver light unraveling like rope, beautiful and silent | DC 15 Arcana/Investigation: a dying current, the Tide thinning in miniature. DC 20 (rare): it's recent, within months, no named cause. |
+| 13 | A colony ship, forty years out, crew who've never seen a spelljammer | DC 12 History: chartered under a house name that no longer exists. DC 20 (rare): nobody's lost, they've just been flying slower than their own charter accounted for, decades of honest error, not tragedy. |
+| 14 | Pirates who take one look at the ship's armament and change their minds mid-approach | None, a comic beat |
+| 15 | A drift graveyard, wrecked hulls tangled in a collision that never quite finishes | DC 15 History/Investigation: one hull bears a pre-Netheril marking. DC 25 (rare): this exact collision has been looping longer than any hull could structurally survive. Left there, unresolved. |
+| 16 | Nothing at all for days. Play the crew scene. | None, space for the table |
+| 17 | A chwinga astronaut, fishing off the bow into the void, won't explain | **No check, by design.** They won't explain. That's the whole bit. |
+| 18 | A derelict, intact, air envelope holding, table still set, no crew, no damage, no explanation | DC 13 Investigation: the meal is impossibly preserved, time simply stopped here. DC 18 (rare): a logbook's last entry cuts off mid-word, same device as the Reefside wreckage last session, reused on purpose as a house motif. |
+| 19 | A neogi slaver hull, running parallel, not engaging, yet | **No check, background only.** Never a forced reveal of Brass's thread. |
+| 20 | **The Murder Comet** (`references/Astral Sea Bestiary.md`, CR 5, verified). Homes in on heat and motion, i.e. ships; Impact (recharge 6, or on death) deals 42 fire in a 30-ft radius, DC 15 Dex half. | DC 15 Nature, *before* it's in range: identifies it early, including that killing it in melee triggers the Impact burst. Real tactical value, not just flavor. |
+
 ## 6. Battle
 
-Mainly a Settling Accounts outcome, calibrated fair (see above), not forced. If the table instead takes one of the one-liners with built-in teeth (Loose Ends' drones, Open Season Three Rounds' nest), that's a legitimate lighter fight in its place. If a pure social or logistics job gets picked instead, this session may have no combat at all, that's a legitimate outcome and fine against the warmth counterweight.
+Mainly a Settling Accounts outcome, calibrated fair at the now-bumped level-6 numbers above (ship and Vex both scaled up from their original session-3 stats). If the table instead takes one of the one-liners with built-in teeth (Loose Ends' drones, Open Season Three Rounds' nest), that's a legitimate lighter fight in its place; the Murder Comet (transit table, §5, entry 20) is a third real possibility if it comes up en route regardless of which job gets picked. If a pure social or logistics job gets picked instead, this session may have no combat at all, that's a legitimate outcome and fine against the warmth counterweight.
 
 ## 7. Bastion actions / downtime
 
 Standard voyage-leg turns apply (`rules/Rules & Systems.md` §6, `rules/Bastions.md` §"Facility Economies"). Aerion's Storehouse (ordinary trade or the costume business, currently banking a 2d20 roll from session 3's looted stock) and Smithy; Orena's Library (Research or the cartography table) and Workshop. Whichever job gets picked, there's room for at least one real bastion turn each during transit.
+
+**Orena's Library turn, a quiet found-family beat.** Rather than one of her usual topics (the Wayfinder Knot, the Guttering, the Houses), she can spend this leg's Research order on fabrics and materials for Aerion's costume business, unasked, which is the point. Full DC ladder and the story payoff (surplus astral sailcloth, Windsong scrap, Aeris quietly reselling it) in `rules/Bastions.md` §"Fabrics & materials." **Mechanical reward, one-time, not a lever:** a hit at any DC grants Aerion one free reroll, kept, on the price die for his next Storehouse costume order. Spent once, then gone, same as every other Library result.
 
 ## 8. Ship shopping, at port before or after the job
 
