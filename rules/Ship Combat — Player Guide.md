@@ -20,7 +20,7 @@ Flying the ship is **free**, steering doesn't cost your action or your movement,
 | Maneuver | What it does | The catch |
 |---|---|---|
 | **Evasive Action** | Attacks against the ship have **disadvantage** until your next turn | Your own weapons fire at disadvantage this round, nobody can aim while she's juking |
-| **Full Burn** | The ship's speed **doubles** this round (close, run, or disengage) | Attacks against the ship have **advantage** until your next turn, you're a fat target going that fast |
+| **Full Burn** | The ship's speed **doubles** this round (close, run, or disengage) | No drawback to the ship itself. If you **Ram on your next turn**, that attack has **advantage**, the momentum you just built carries through the hit |
 | **Boarding Action** | A contested Piloting/Dexterity check locks onto a ship your size or smaller, so people can cross | Both ships are grappled, neither can Full Burn or disengage until someone breaks it |
 
 *Estra flies by default, Orena's training up as the second pilot, and in a pinch anyone attuned can take the chair. You can't hold a concentration spell while flying, piloting takes concentration of its own, and taking damage risks losing the helm.*

@@ -178,7 +178,7 @@ Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7), **rewo
 | Station | Cost (bodies) | What it does |
 |---|:---:|---|
 | **Helm** | 1 | Flies the ship and picks one maneuver below: Evasive Action, Full Burn, or Boarding Action. Minimum to do anything combat-relevant; a solo-crewed ship can fly and nothing else. |
-| **Ram** | 2 | One attack at the ram's listed damage; the ship takes half that back, applied after its own damage threshold. Replaces the Helm's 1 that round, it isn't stacked on top. |
+| **Ram** | none | Needs no crew to fire, free alongside anything else. One attack, 5d10 (type depends on which ram's mounted: piercing or bludgeoning, see `Ship Construction.md`). The ship takes half that back (a quarter for a Blunt Ram), applied after its own damage threshold. Replaces the Helm's maneuver that round, it isn't stacked on top, until Momentum Core says otherwise. |
 | **Ballista, *Night Fury*** | 2 | Reduced from the baseline 3 by her fitted upgrades (Sureshot Rotator, Ready Magazine). Hull-specific, see Upgrades below. |
 | **Ballista, any other hull** | 3 | Baseline, matches the canon crew-3 rating. The *Fair Return* runs at this baseline; nothing in her fiction yet justifies a discount. |
 | **Mangonel** | 4 | Baseline, matches the canon crew 4-5 rating; use 4 unless a specific upgrade says otherwise. |
@@ -188,6 +188,21 @@ Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7), **rewo
 | **Personal boarding** | removes 1 from the pool | Not a station. A PC or NPC choosing to leave the ship and fight on the other deck as an individual, below. |
 
 **Only a station's listed cost gets you its function.** Throwing more bodies at a station than its cost doesn't add a bonus, extra hands are better spent elsewhere or Coordinating. Firing both of the *Night Fury*'s ballistae in one round costs 4 total (2+2); a raider firing both of theirs costs 6.
+
+### Whose roll, which modifier
+
+The pool says who's committed, not whose stat block resolves the dice. Every station that calls for an attack roll, save DC, or check uses **whoever's actually crewing it**, their own modifier, their own proficiency, their own bonuses from feats or magic items. A station is never resolved on a flat ship-wide number.
+
+| Station | Roll | Modifier |
+|---|---|---|
+| **Gunnery** (ballista, mangonel, any mounted weapon) | Attack roll vs. the target's AC | The gunner's own **Dexterity** modifier, **+proficiency** if they're proficient with any simple or martial weapon (a ship's gun counts as one for this purpose). Damage as listed per weapon, plus the gunner's own relevant bonuses (a feat, a magic item) same as any other attack. |
+| **Ram** | Attack roll vs. the target's AC | The **Helm's own Intelligence** modifier, **+proficiency** if proficient with vehicles (space) or similar. Rolled by whoever's in the chair, there's no separate ram crew, it's the pilot steering into the hit. |
+| **Helm, Boarding Action** | Contested check vs. the enemy pilot's equivalent | The Helm's own **Intelligence** modifier, **+proficiency** if proficient with vehicles (space); same stat as holding the helm itself. |
+| **Engineer, Emergency Patch** | Technology or Intelligence check, DC 12 | The Engineer's own modifier and proficiency. |
+| **Medic, Treat Wounds** | Medicine check, DC 12 | The Medic's own modifier and proficiency. |
+| **Coordinator** | No roll of its own | Grants its bonus to someone else's roll; that roll still uses the receiving PC's own modifiers. |
+
+**Untrained still works, just worse.** Nothing above requires proficiency to crew a station at all, lacking it just means no proficiency bonus on the roll, same as any other untrained attempt in 5e. A station's listed cost is about headcount, not qualification.
 
 ### Boarding: two different things with the same name
 

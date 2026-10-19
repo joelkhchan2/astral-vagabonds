@@ -100,8 +100,8 @@ Plane Anchor matters more than it reads. Canon says the hull with more HP remain
 | Ballista **[C]** stats, **[HR]** price | 600 | 3 | 3d10, 120/480, three actions to fire |
 | Mangonel **[C]** stats, **[HR]** price | 1,200 | 4-5 | 5d10, 200/800, min 60 ft, four actions |
 | Giant Cannon **[C]** stats, **[H]** price | 20,000 | 4 | **16d10**, 600/2,400 |
-| Piercing Ram **[H]** | 4,000 | none | Collision |
-| Blunt Ram **[H]** | 3,000 | none | Collision, safer for you |
+| Piercing Ram **[H]** | 4,000 | none | 5d10 piercing. Collision: the ship takes half the dealt damage back. |
+| Blunt Ram **[H]** | 3,000 | none | 5d10 bludgeoning. Collision, safer for you: the ship takes only a quarter of the dealt damage back. |
 | Grappling Jaws **[H]** | 3,500 | 2 | Lock a hull for boarding |
 | Harpoon Battery **[H]** | 5,500 | 3 | 4d10 plus a line; tethered targets can't disengage |
 | Scatter Rack **[H]** | 3,500 | 3 | 4d8 to all Small craft in a 30-ft cube. Anti-tender. |
@@ -122,6 +122,16 @@ A flat damage or action-economy upgrade is a real combat decision over a campaig
 | Autoloader | 8,000 | Loading requires no action; stacks with the above |
 | Rifled Bore | 9,500 | +1d10 damage |
 | Twin Mount | ×2 cost | Two weapons, one crew, both fire on one action |
+
+### Ram upgrades **[H]**
+
+The ram needs no crew to fire and doesn't compete with gunnery for bodies, so its upgrades scale purely on damage and on shedding its two real drawbacks (the self-damage, and losing the Helm's maneuver that round). Stack freely.
+
+| Upgrade | Cost | Effect |
+|---|---|---|
+| Reinforced Prow | 1,500 | +1d10 damage |
+| Hammerhead Plating | 6,500 | +2d10 damage, stacks with the above; self-damage taken is halved again |
+| Momentum Core | 15,000 | +3d10 damage, stacks with the above; ramming no longer replaces the Helm's maneuver that round |
 
 ### Ammunition **[H]**
 

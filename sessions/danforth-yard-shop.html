@@ -310,7 +310,6 @@
           <thead><tr><th style="width:1.4em"></th><th>Upgrade</th><th class="num">Tier</th><th class="num">Cost</th><th>Effect</th></tr></thead>
           <tbody>
             <tr class="buy" data-name="Juking Baffles" data-cost="2600"><td class="add">+</td><td class="nm">Juking Baffles</td><td class="num">I</td><td class="num">2,600</td><td class="eff">Evasive Action no longer costs the ship's own guns disadvantage</td></tr>
-            <tr class="buy" data-name="Burn Shrouding" data-cost="2600"><td class="add">+</td><td class="nm">Burn Shrouding</td><td class="num">I</td><td class="num">2,600</td><td class="eff">Full Burn no longer gives attackers advantage against you</td></tr>
             <tr class="buy" data-name="Grappling Jaws" data-cost="2000"><td class="add">+</td><td class="nm">Grappling Jaws</td><td class="num">I</td><td class="num">2,000</td><td class="eff">Advantage on the Helm's Boarding Action check</td></tr>
             <tr class="buy" data-name="Reflex Coil" data-cost="1800"><td class="add">+</td><td class="nm">Reflex Coil</td><td class="num">I</td><td class="num">1,800</td><td class="eff">Evasive Action usable as a reaction to an incoming ram or boarding attempt</td></tr>
             <tr class="buy" data-name="Quick-Release Clamps" data-cost="12000"><td class="add">+</td><td class="nm">Quick-Release Clamps</td><td class="num">II</td><td class="num">12,000</td><td class="eff">Break your own Boarding Action lock as a free action, no contest needed</td></tr>
@@ -320,12 +319,24 @@
       </div>
 
       <h3>Ram</h3>
+      <p class="sec-intro" style="margin-top:0">Needs no crew to fire, free alongside anything else. The Helm rolls the attack, Intelligence, steering into the hit. Base damage 5d10; the ship takes damage back on a successful ram, piercing at half, blunt at a quarter.</p>
       <div class="tablewrap">
         <table>
-          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th class="num">Crew</th><th>Effect</th></tr></thead>
+          <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>
           <tbody>
-            <tr class="buy" data-name="Piercing Ram" data-cost="4000"><td class="add">+</td><td class="nm">Piercing Ram</td><td class="num">4,000</td><td class="num">2</td><td class="eff">Unlocks the Ram station; higher damage</td></tr>
-            <tr class="buy" data-name="Blunt Ram" data-cost="3000"><td class="add">+</td><td class="nm">Blunt Ram</td><td class="num">3,000</td><td class="num">2</td><td class="eff">Same, lower damage, safer for your own hull</td></tr>
+            <tr class="buy" data-name="Piercing Ram" data-cost="4000"><td class="add">+</td><td class="nm">Piercing Ram</td><td class="num">4,000</td><td class="eff">Unlocks the Ram station; 5d10 piercing, ship takes half the dealt damage back</td></tr>
+            <tr class="buy" data-name="Blunt Ram" data-cost="3000"><td class="add">+</td><td class="nm">Blunt Ram</td><td class="num">3,000</td><td class="eff">Unlocks the Ram station; 5d10 bludgeoning, ship takes only a quarter of the dealt damage back</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="sec-intro" style="margin-top:0">Ram upgrades stack freely, all damage and drawback removal, no crew cost to offset.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th style="width:1.4em"></th><th>Upgrade</th><th class="num">Tier</th><th class="num">Cost</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr class="buy" data-name="Reinforced Prow" data-cost="1500"><td class="add">+</td><td class="nm">Reinforced Prow</td><td class="num">I</td><td class="num">1,500</td><td class="eff">+1d10 damage</td></tr>
+            <tr class="buy" data-name="Hammerhead Plating" data-cost="6500"><td class="add">+</td><td class="nm">Hammerhead Plating</td><td class="num">II</td><td class="num">6,500</td><td class="eff">+2d10 damage, stacks with the above; self-damage taken is halved again</td></tr>
+            <tr class="buy" data-name="Momentum Core" data-cost="15000"><td class="add">+</td><td class="nm">Momentum Core</td><td class="num">III</td><td class="num">15,000</td><td class="eff">+3d10 damage, stacks with the above; ramming no longer replaces the Helm's maneuver that round</td></tr>
           </tbody>
         </table>
       </div>
@@ -473,7 +484,7 @@
     <!-- MOBILITY -->
     <section id="move">
       <div class="sec-head"><span class="sec-num">07</span><h2>Mobility</h2></div>
-      <p class="sec-intro">Thrust Bloom and the Helm's Full Burn maneuver both double speed, and aren't redundant. Full Burn is repeatable every round but costs a Helm crew slot and gives attackers advantage until your next turn; Thrust Bloom is free of that drawback but limited to once a day.</p>
+      <p class="sec-intro">Thrust Bloom and the Helm's Full Burn maneuver both double speed, and aren't redundant. Full Burn is repeatable every round and sets up advantage on a following Ram, but it's the Helm's one maneuver for the round, so Evasive Action or Boarding Action is off the table that round; Thrust Bloom doesn't touch the Helm's maneuver at all, but it's limited to once a day.</p>
       <div class="tablewrap">
         <table>
           <thead><tr><th style="width:1.4em"></th><th>Item</th><th class="num">Cost</th><th>Effect</th></tr></thead>

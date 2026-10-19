@@ -37,8 +37,8 @@ Full rules and reasoning: `rules/Rules & Systems.md` section 8. This is the quic
 
 | Station | Cost | Who can | What it does |
 |---|:---:|---|---|
-| **Helm** | 1 | Any attuned spellcaster holding concentration (currently Estra; Orena training up) | Flies the ship and picks one maneuver: **Evasive Action** (attacks vs. the ship have disadvantage, but so do her own guns), **Full Burn** (double speed, but attacks vs. the ship have advantage), or **Boarding Action** (contested check to lock with a target ship). |
-| **Ram** | 2 | Anyone | One ram attack; the ship takes half the dealt damage back. Replaces the Helm's 1 that round. |
+| **Helm** | 1 | Any attuned spellcaster holding concentration (currently Estra; Orena training up) | Flies the ship and picks one maneuver: **Evasive Action** (attacks vs. the ship have disadvantage, but so do her own guns), **Full Burn** (double speed; no drawback, and a Ram on the following turn has advantage), or **Boarding Action** (contested check to lock with a target ship). |
+| **Ram** (Kevin, Blunt) | none | The Helm, in the chair | 5d10 bludgeoning, attack roll using the Helm's own Intelligence (+proficiency if trained); the ship takes a quarter of the dealt damage back. Replaces the Helm's maneuver that round. |
 | **Ballista, named & upgraded** (Gertrude, Susan "Angel") | **2 each** | Anyone trained | Reduced from the baseline 3 by the Sureshot Rotator + Ready Magazine upgrades below. |
 | **Ballista, baseline** (Kevin "Ford," Lightning, and a fifth still argued over) | **3 each** | Anyone trained | Not yet upgraded. Firing all five in one round costs 13 total (2+2+3+3+3). |
 | **Engineer** | 1 | Tack by default, anyone with the check | **Emergency Patch:** Technology or Intelligence DC 12, restores HP equal to the engineer's level, once per encounter per engineer. Temporary, doesn't reduce the repair bill. |
