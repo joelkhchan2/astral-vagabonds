@@ -1,0 +1,64 @@
+<title>A Letter, Regarding a Teapot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  :root {
+    --paper: #eef0e8; --ink: #23261f; --ink-soft: #565c4e; --faint: #80876f;
+    --rule: #c7cbbb; --rule-strong: #a5ab92; --accent: #4f6b4a;
+  }
+  * { box-sizing: border-box; }
+  html { background: #b9c0ad; }
+  body { margin: 0; padding: 30px 16px 70px; background: #b9c0ad; color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+  .wrap { max-width: 620px; margin: 0 auto; }
+
+  .header { text-align: center; margin-bottom: 20px; }
+  .header .file { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft);
+    background: var(--paper); border: 1px solid var(--rule-strong); display: inline-block; padding: 5px 14px; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .header h1 { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.4rem, 5vw, 1.9rem); letter-spacing: .03em; margin: 10px 0 2px; color: var(--ink); }
+  .header .sub { font-style: italic; color: var(--ink-soft); font-size: .92rem; }
+
+  .sheet { background: var(--paper); border: 1px solid var(--rule-strong); box-shadow: 0 3px 9px rgba(20,24,16,.26); position: relative; padding: 30px 32px 26px; }
+  .sheet::before { content: ""; position: absolute; inset: 9px; border: 1px solid var(--rule); pointer-events: none; }
+
+  .meta { display: flex; justify-content: center; font-family: "Courier Prime", monospace; font-size: 11px; color: var(--ink-soft);
+    border-top: 1px dashed var(--rule-strong); border-bottom: 1px dashed var(--rule-strong); padding: 7px 0; margin: 0 0 16px; }
+
+  .body p { margin: 0 0 13px; }
+  .body p:last-of-type { margin-bottom: 0; }
+  .body p.first::first-letter { font-family: "IM Fell English SC", Georgia, serif; font-size: 1.6em; color: var(--accent); }
+
+  .sign { margin-top: 18px; text-align: right; font-style: italic; }
+  .sign .name { font-weight: 700; font-style: normal; display: block; font-size: 1.1em; }
+
+  .caption { text-align: center; font-style: italic; color: var(--ink-soft); font-size: .9rem; margin: 14px 0 0; }
+
+  @media (max-width: 480px) { .sheet { padding: 24px 20px 20px; } }
+  @media print { .header, .sheet { break-inside: avoid; page-break-inside: avoid; } }
+</style>
+
+<div class="wrap">
+  <div class="header">
+    <span class="file">Delivered at Real, Documented Expense</span>
+    <h1>To Thistle</h1>
+    <div class="sub">regarding the matter of the teapot</div>
+  </div>
+
+  <div class="sheet">
+    <div class="meta">Three Weeks of Deliberation Preceded This Letter</div>
+    <div class="body">
+      <p class="first">I hope this letter finds you well, truly, and I mean that, though I understand if you find it hard to believe given how long I let this sit before finally, graciously, deciding to put it to rest.</p>
+      <p>I did not break it. I wish to state that plainly and for the record. I merely returned it slightly warmer than I received it, a consequence of ordinary use, which you have chosen to interpret as "ruining the temper of the clay," a phrase I did not know applied to teapots until you said it to six different people at the market, loudly, within my hearing range, on purpose.</p>
+      <p>I am sorry. I am sorry that you are the way that you are about a teapot. I am sorry that this letter costs me actual coin to send via a crew with, I am told, a documented history of boarding hostile vessels, because apparently that is what it takes to get a simple acknowledgment delivered without you reading something into my tone.</p>
+      <p>There was no tone. There is tone now, because you have exhausted me into one.</p>
+      <p>Return my strainer.</p>
+    </div>
+    <div class="sign">
+      <span class="name">Ansel</span>
+    </div>
+  </div>
+  <p class="caption">With Apologies &middot; a mountain, a molehill, 75 gp well spent</p>
+</div>

@@ -1,0 +1,67 @@
+<title>A Letter, Sealed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  :root {
+    --paper: #f4ecdb; --ink: #2b2014; --ink-soft: #6a5c3f; --faint: #8f8060;
+    --rule: #cfc0a0; --rule-strong: #b0a07a; --seal: #9c3a4f;
+  }
+  * { box-sizing: border-box; }
+  html { background: #c9bb97; }
+  body { margin: 0; padding: 30px 16px 70px; background: #c9bb97; color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; font-size: 17px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+
+  .wrap { max-width: 620px; margin: 0 auto; }
+
+  .header { text-align: center; margin-bottom: 20px; }
+  .header .file { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft);
+    background: var(--paper); border: 1px solid var(--rule-strong); display: inline-block; padding: 5px 14px; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .header h1 { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.4rem, 5vw, 1.9rem); letter-spacing: .03em; margin: 10px 0 2px; color: var(--ink); }
+  .header .sub { font-style: italic; color: var(--ink-soft); font-size: .92rem; }
+
+  .sheet { background: var(--paper); border: 1px solid var(--rule-strong); box-shadow: 0 3px 9px rgba(40,26,12,.28); position: relative; padding: 30px 32px 26px; }
+  .sheet::before { content: ""; position: absolute; inset: 9px; border: 1px solid var(--rule); pointer-events: none; }
+
+  .seal { display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+  .seal svg { width: 34px; height: 34px; }
+
+  .body p { margin: 0 0 13px; }
+  .body p:last-of-type { margin-bottom: 0; }
+  .body p.first::first-letter { font-family: "IM Fell English SC", Georgia, serif; font-size: 1.6em; color: var(--seal); }
+
+  .sign { margin-top: 18px; text-align: right; font-style: italic; }
+  .sign .name { font-weight: 700; font-style: normal; display: block; font-size: 1.1em; }
+
+  .caption { text-align: center; font-style: italic; color: var(--ink-soft); font-size: .9rem; margin: 14px 0 0; }
+
+  @media (max-width: 480px) { .sheet { padding: 24px 20px 20px; } }
+  @media print { .header, .sheet { break-inside: avoid; page-break-inside: avoid; } }
+</style>
+
+<div class="wrap">
+  <div class="header">
+    <span class="file">Sealed, Hand Delivery Only</span>
+    <h1>For Sedge Okonkwo</h1>
+    <div class="sub">captain, the <em>Bright Arrears</em></div>
+  </div>
+
+  <div class="sheet">
+    <div class="seal">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="29" fill="none" stroke="#9c3a4f" stroke-width="1.6"/><path d="M32 18 C40 18 46 24 46 32 C46 40 40 46 32 46 C24 46 18 40 18 32 C18 24 24 18 32 18 Z" fill="none" stroke="#2b2014" stroke-width="1.2" opacity=".5"/><path d="M32 22 L36 30 L44 31 L38 37 L40 45 L32 41 L24 45 L26 37 L20 31 L28 30 Z" fill="#9c3a4f" opacity=".85"/></svg>
+    </div>
+    <div class="body">
+      <p class="first">Sedge,</p>
+      <p>I told myself I wasn't going to write this. I've torn up four letters already, which you'd find unbearably funny, so perhaps it's better you'll never see them.</p>
+      <p>Do you remember that ridiculous night at the old dock, half condemned, dancing under the stars like fools until the lanterns finally gave out, and you swore, right there, that you'd never fly again? You lied. I knew you were lying even then. I think I've always known more about you than you wanted me to.</p>
+      <p>Three months of silence, and excellent penmanship besides, is going to cost you. I haven't decided how yet.</p>
+      <p>There is something else I want to say, and I can't, not on paper, not yet. Come find me and ask properly, and perhaps I'll tell you.</p>
+    </div>
+    <div class="sign">
+      <span class="name">Yours, more than I meant to be,</span>
+      D.
+    </div>
+  </div>
+  <p class="caption">Return Post &middot; delivered discreetly, no reading it</p>
+</div>
