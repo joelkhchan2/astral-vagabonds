@@ -154,7 +154,7 @@ Usable by anyone, no station requirement. Each has a Tier II line for later.
 | **Phase Rounds** *(Tier II)* | 7,000 | As above, but the cost drops by 2 |
 | Steadying Tonic | 200 | The Helm has advantage on every concentration save this encounter |
 | **Helmbond Elixir** *(Tier II)* | 8,000 | The Helm cannot be forced to lose concentration at all this encounter |
-| Patch Paste (3 charges) | 90 | Stabilizes a downed crew member in a boarding fight, no healer needed, one charge each |
+| Patch Paste (3 charges) | 90 | Applied as a bonus action mid-fight, one charge each. The combat-speed version of Medical Stores below. |
 | **Vitalist's Kit** *(Tier II, 3 charges)* | 6,000 | As above, and each charge also restores a small flat amount of HP |
 
 ### Vehicle-affecting castings **[H]**
@@ -176,7 +176,7 @@ Same four-axis logic as the ballista upgrades above, now carried across Helm, Co
 | Station | Item | Tier | Cost | Effect |
 |---|---|---|---|---|
 | Helm | Reflex Coil | I | 1,800 | Evasive Action usable as a reaction to an incoming ram or boarding attempt |
-| Helm | **Steadyhand Gimbal** | II | 12,000 | Advantage on the concentration save, every round, not just once |
+| Helm | **Quick-Release Clamps** | II | 12,000 | Break your own Boarding Action lock as a free action, no contest needed |
 | Helm | **Twinned Hands** | III | 95,000 | Fly and perform a second maneuver the same round, no extra crew cost |
 | Coordinator | Signal Beads | I | 1,300 | An unused benefit this round can be banked and spent as a second benefit next round |
 | Coordinator | **Command Chorus** | II | 16,000 | The chosen benefit applies to the whole crew pool for one round, once per encounter |
@@ -203,7 +203,7 @@ One crew. Parallel to Engineer, but for people instead of hull.
 |---|---|---|
 | Maneuvering Vanes | 1,200 | +5 ft |
 | Trim Rig | 2,000 | +5 ft; holds attitude unhelmed |
-| Thrust Bloom | 4,500 | Double speed for one minute, once per day |
+| Thrust Bloom | 6,500 | Double speed for one minute, once per day |
 | Silent Running | 3,800 | Advantage to avoid detection in the void |
 | Atmospheric Rating | 2,900 | Enter atmosphere without structural risk |
 | Water Landing Gear | 1,700 | Float and sail as a surface vessel |
@@ -217,7 +217,7 @@ One crew. Parallel to Engineer, but for people instead of hull.
 | Water Reclamation | 1,600 | Water stops being a supply problem |
 | Climate Rig | 1,300 | The ship stops being cold |
 | Envelope Bottles (each) | 250 | One hour of air for twelve people |
-| Medical Stores | 900 | Consumable; stabilizes the badly hurt without a surgeon |
+| Medical Stores | 900 | Consumable; stabilizes the badly hurt without a surgeon. Takes a full action, outside combat speed; see Patch Paste above for the version made for a fight. |
 
 ## Household **[H]**
 
