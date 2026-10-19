@@ -7,7 +7,7 @@
 **AC:** 19, plus Plating I. **Damage threshold:** 20 (a single hit under 20 does nothing).
 **HP:** 250
 **Speed:** ~45 ft tactical (Trader 55, −10 for Sturdy), plus a Trim Rig that adds 5 ft and holds attitude unhelmed; 100 million miles/day in open space.
-**Crew capacity:** 11 (running with 9, as of session 4's two new hires).
+**Crew capacity:** 11 (running with 7; session 4 is where the two open hires, a cook-gunner and a scout-deckhand-gunner, actually land, bringing it to 9).
 **Cargo:** 20 tons.
 **Air:** base 120 days (no life-support upgrades bought). The crew has sworn off any job longer than 60 days rather than risk the clock.
 
@@ -33,7 +33,7 @@ Bought and outfitted at session 0 for roughly 35,650 gp of the 50,000 budget.
 
 Full rules and reasoning: `rules/Rules & Systems.md` section 8. This is the quick-reference version for the table.
 
-**Crew capacity 11, running with 9.** Every fight, the pool is whoever's actually aboard, up to 9 (Flurry doesn't count). Each body gets assigned to a station for the round; a station needs its full cost in bodies to function, no partial credit.
+**Crew capacity 11, running with 7 until session 4's two new hires land (9 after).** Every fight, the pool is whoever's actually aboard (Flurry doesn't count). Each body gets assigned to a station for the round; a station needs its full cost in bodies to function, no partial credit.
 
 | Station | Cost | Who can | What it does |
 |---|:---:|---|---|
