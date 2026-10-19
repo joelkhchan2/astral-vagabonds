@@ -51,7 +51,7 @@ Two of the six standard homecoming beats (`locations/The Bral Reach.md`, "Runnin
 
 **Sprat, on the gantry, right as they arrive, before the party.** Real gossip, roll on the table below or pick, plus a tip: he's heard a giff mercenary company is in port this rotation, setup for the Colors and Protocol posting if the table bites. **One small wrongness, pure comic friction:** Berth 40's rent notice came in five gold higher this month, and Sprat delivers it like it's the scandal of the decade.
 
-**Meech, at the Charter Window, right after.** This is where the two new hires actually get filed, Perris Vance and Dash Okonkwo-Reeve onto the charter, crew count to 9, operating cost to 800 gp/month. Real comedic beat: he has opinions about a cook and a scout both being filed under "gunner" on the same manifest, and won't stamp it without a line explaining the overlap. Gossip option if the scene wants more: entry 8, the still-withheld rank 10 listing, exactly the kind of bad paperwork that offends him personally.
+**Meech, at the Charter Window, right after.** This is where the two new hires actually get filed onto the charter, whichever cook-gunner and scout-deckhand-gunner candidates actually land at the table (not predetermined, see §2), crew count to 9, operating cost to 800 gp/month. Real comedic beat: he has opinions about a cook and a scout both being filed under "gunner" on the same manifest, and won't stamp it without a line explaining the overlap. Gossip option if the scene wants more: entry 8, the still-withheld rank 10 listing, exactly the kind of bad paperwork that offends him personally.
 
 **The gossip table, d20, ordered least to most interesting.** Finny's the one who actually rolls or free-associates from it, higher roll, juicier gossip. Most of this is genuinely unheard by the table, carried forward unspent from the original table in `Session 2 Prep.md` (only Rimmon Vex's two beats and the *Heavy Crown*'s three-weeks-docked line were ever actually delivered, both excluded below) and widened well past just houses and rival crews:
 
@@ -208,7 +208,7 @@ Standard voyage-leg turns apply (`rules/Rules & Systems.md` §6, `rules/Bastions
 
 ## 8. Ship shopping, at port before or after the job
 
-**A real part of this session, not an afterthought.** The crew has room to spend (17,281 gp, informal floor at 15,000) and real lessons from two live fights under the crew-pool system. The Danforth shop (`sessions/danforth-yard-shop.html`) is due for another pass before or during this session, expanding past the ballista/armor/ram math it currently covers into other station-relevant options (vehicle-affecting spells, buff/support items, whatever else the crew-pool system has room for). **That expansion is a separate piece of prep from this doc**, scoped and built on its own once the shape's confirmed, see the open question below.
+**A real part of this session, not an afterthought.** The crew has room to spend (17,281 gp, informal floor at 15,000) and real lessons from two live fights under the crew-pool system. The Danforth shop (`sessions/danforth-yard-shop.html`) is due for another pass before or during this session, expanding past the ballista/armor/ram math it currently covers into other station-relevant options (vehicle-affecting spells, buff/support items, whatever else the crew-pool system has room for). **That expansion is a separate piece of prep from this doc**, scoped and built on its own once the shape's confirmed.
 
 ## 9. Return to port / fallout
 
