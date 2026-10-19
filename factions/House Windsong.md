@@ -18,7 +18,7 @@ That neglect is his cover. His real, private goal is to **amass enough of a fort
 
 ---
 
-## Vaelros (525) -- the father
+## Vaelros (525), the father
 
 Genuinely good at this and has been for five centuries, and **arrogant, narcissistic, and ego-driven** with it. He believes the consolidated system is correct, that knowledge is inventory, and that he is its most deserving beneficiary. He cannot imagine that his least-considered son could be right about anything, and that blind spot is load-bearing.
 
@@ -34,12 +34,12 @@ Genuinely good at this and has been for five centuries, and **arrogant, narcissi
 
 Three older brothers, three different shapes of problem for Aerion to navigate as he plays his quiet game.
 
-### Aeric (258) -- the one who runs things
-Runs the house's established core route with a small fleet. Decent, diligent, sincerely proud of his brothers, and privately trapped: he is good at the job and does not want it. **His dream is what Aerion's crew actually does** -- to fly, to go out, to see something nobody has filed. He will never say it aloud. Not an antagonist, an obstacle made of a good person.
+### Aeric (258), the one who runs things
+Runs the house's established core route with a small fleet. Decent, diligent, sincerely proud of his brothers, and privately trapped: he is good at the job and does not want it. **His dream is what Aerion's crew actually does**: to fly, to go out, to see something nobody has filed. He will never say it aloud. Not an antagonist, an obstacle made of a good person.
 **Ending available:** they swap. Aerion takes the company, Aeric takes a ship.
 **Ship:** a Balanced Heavy (40,000 gp, AC 15, 400 HP, 35 ft, crew 15). The most sensible hull in the sky. Nothing goes wrong on it.
 
-### Aeris (234) -- the rival
+### Aeris (234), the rival
 Capital and committee access; never leaves port. Builds relationships, sits on boards, writes the rules others fly under. His play is to make sure that **whoever comes out ahead owes him.** He helps generously, repeatedly, and always at a price, and the help is always real. A shadow king with a century more practice than Aerion. Priscilla will find him electrifying and should.
 **Tier 3 offer:** back me, and I will make you rich and never a rival.
 **Ship:** a Sturdy Cutter (20,000 gp, AC 19, 200 HP, 60 ft, 5 tons, crew 9). Nominally commercial, carries five tons. It is a car, and it admits in writing that he is not really in the shipping business.
@@ -50,7 +50,7 @@ Capital and committee access; never leaves port. Builds relationships, sits on b
 
 **If they're ever actually in the same room** (rare, Aeris doesn't leave port), the payoff is that the animals don't care about any of it. Left alone for five minutes, Flurry and Grenjalynn are found in an inseparable, filthy, delighted heap, having apparently decided they are best friends for life, completely uninterested in whatever cold war their owners have been fighting through the mail for years. Two composed, controlled men, several feet apart, watching this happen in real time, is the whole scene. Let a crew member catch the exact moment both brothers, independently and simultaneously, fail to keep a straight face.
 
-### Aeravellis (182) -- the one who's drowning
+### Aeravellis (182), the one who's drowning
 Given a legitimately dangerous route and a hull specced for it, and **the route doesn't pay.** So he started using grappling jaws on targets that weren't pirates, and he **falsifies route data to hide the losses.**
 **Why it matters:** the poisoned data goes into the same archive Aerion sells honest surveys into. When Aerion's survey contradicts the corrupted record, *Aerion* looks wrong, his data-quality score drops, and his rates drop. A bloodless, recurring attack Aerion can watch in a ledger; the resolution is an audit, not a fight.
 **The fraud is legible in his ship's spec sheet:** fifteen crew, six tons of cargo, a configuration with no legitimate trade case. He is flying the evidence, and Priscilla will see it the moment she compares a hull to a manifest.
@@ -58,9 +58,9 @@ Given a legitimately dangerous route and a hull specced for it, and **the route 
 
 ---
 
-## Aerynna (445) -- the mother
+## Aerynna (445), the mother
 
-**House Nightbreeze** -- one of the five founding houses, the financiers and insurers, the ones who follow the money and pivot the instant the numbers shift.
+**House Nightbreeze**, one of the five founding houses, the financiers and insurers, the ones who follow the money and pivot the instant the numbers shift.
 
 The marriage was a **dynastic merger between a member house and a founding house**, and the divorce was that merger failing in public. Vaelros married into arm's reach of the board and lost it; everyone at that table remembers, and he has spent a century trying to get back. She left when Aerion was ten. She has her own money, her own house, and owes Vaelros nothing. The sons all carry their father's naming register and nothing of hers.
 
@@ -68,11 +68,13 @@ The marriage was a **dynastic merger between a member house and a founding house
 
 ---
 
-## Vaelren (300) -- the uncle
+## Vaelren (300), the uncle
 
 Vaelros's youngest brother, who walked away from the family business to be an adventurer, the "space samurai." He **trained Aerion to fight** when nobody asked him to, and it was at his camp that Aerion met **Orena**, who came to learn the sword; the two trained together and became lifelong friends.
 
 Whether Vaelren trained Aerion out of kindness or out of some quieter intent is his to reveal, and he may not know himself. He is a living example of the other path: leaving. Aerion can look at his uncle's exit, his mother's exit, and his own choice to stay and play the long game, and see all three as people he knows.
+
+**He left the business, not the sword.** Vaelren is captain of the *Windsong*, ranked a genuine, earned 20th on the Manifest Board (`factions/The Manifest Board.md`), far above the crew's own 344th and close enough to the top ten to matter. Still active, still sharp, still flying, just entirely on his own terms rather than Vaelros's. Session 4 (`sessions/Session 4 Prep.md` §2 and §3) plays this as a direct visual joke: a loud Hawaiian shirt, socks and sandals, nothing that reads as "space samurai," and underneath it all, a man who's lost none of his edge.
 
 **Champion versus Samurai, the house's real martial divide.** Aeric, Aeris, and Aeravellis are all Champion fighters, the house's sanctioned, expected tradition: in a business that moves goods through the open Astral, a man who can't defend a shipment doesn't keep it long, and Champion reads to Vaelros as exactly that kind of practical capability. Aerion chose Samurai specifically to follow Vaelren, a discipline built on resolve and internal control rather than raw capability, and genuinely grew to love it past just emulating his uncle. The contrast is the point: three sons who perform a strength the house already recognizes, and the youngest who picked a tradition from entirely outside it.
 
