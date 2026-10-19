@@ -58,7 +58,7 @@ Two things needed a stated position. These are ours and they hold everywhere.
 
 One standing number, and repairs. That's the whole economy.
 
-### Monthly operating cost **[HR -- session 0 ruling]**
+### Monthly operating cost **[HR, session 0 ruling]**
 
 The table simplified the whole payroll-plus-upkeep question into one all-inclusive number, deducted each session:
 
@@ -70,7 +70,7 @@ No separate hired-helmsman line: the ship flies on Captain Vane at the helm and 
 
 **20 gp per hit point.** A 250-HP hull taking 100 points is a 2,000 gp bill, which is most of a month. Combat in this campaign is frightening because it is expensive, not because it is lethal. Lean on that.
 
-### Annual fixed costs -- world flavor
+### Annual fixed costs, world flavor
 
 The CIV charter, the Pale Reach chart subscription, and Nightbreeze insurance exist in the world and are worth naming in fiction, but at the table they are folded into the all-inclusive operating cost above rather than billed as separate lines. Surface them narratively (a lapsed charter, an insurance fight) rather than as a spreadsheet.
 

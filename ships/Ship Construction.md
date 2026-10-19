@@ -93,42 +93,48 @@ Plane Anchor matters more than it reads. Canon says the hull with more HP remain
 
 ## Armament
 
+**[HR] note:** the printed canon prices for a Ballista (50 gp) and Mangonel (100 gp) are almost a rounding error against this campaign's actual economy, where a single point of plating costs 3,000 gp. That's accurate to the book, but it stops feeling like a real purchase the moment the party's account has five figures in it. Priced up here to stay a meaningful decision for the long haul; the stat lines (damage, range, crew) are untouched canon.
+
 | Weapon | Cost | Crew | Damage |
 |---|---|---|---|
-| Ballista **[C]** | **50** | 3 | 3d10, 120/480, three actions to fire |
-| Mangonel **[C]** | **100** | 4-5 | 5d10, 200/800, min 60 ft, four actions |
-| Giant Cannon **[C]** stats, **[H]** price | 6,000 | 4 | **16d10**, 600/2,400 |
-| Piercing Ram **[H]** | 1,500 | none | Collision |
-| Blunt Ram **[H]** | 1,200 | none | Collision, safer for you |
-| Grappling Jaws **[H]** | 2,000 | 2 | Lock a hull for boarding |
-| Harpoon Battery **[H]** | 2,800 | 3 | 4d10 plus a line; tethered targets can't disengage |
-| Scatter Rack **[H]** | 1,900 | 3 | 4d8 to all Small craft in a 30-ft cube. Anti-tender. |
-| Broadside Battery **[H]** | 9,000 | 12 | Four linked ballistae, one fire order. Great Ships only. |
+| Ballista **[C]** stats, **[HR]** price | 600 | 3 | 3d10, 120/480, three actions to fire |
+| Mangonel **[C]** stats, **[HR]** price | 1,200 | 4-5 | 5d10, 200/800, min 60 ft, four actions |
+| Giant Cannon **[C]** stats, **[H]** price | 20,000 | 4 | **16d10**, 600/2,400 |
+| Piercing Ram **[H]** | 4,000 | none | Collision |
+| Blunt Ram **[H]** | 3,000 | none | Collision, safer for you |
+| Grappling Jaws **[H]** | 3,500 | 2 | Lock a hull for boarding |
+| Harpoon Battery **[H]** | 5,500 | 3 | 4d10 plus a line; tethered targets can't disengage |
+| Scatter Rack **[H]** | 3,500 | 3 | 4d8 to all Small craft in a 30-ft cube. Anti-tender. |
+| Broadside Battery **[H]** | 35,000 | 12 | Four linked ballistae, one fire order. Great Ships only. |
 
-**The guns are nearly free. The gunners cost forever.** Four ballistae is 200 gp and twelve people on the payroll permanently. The Major will happily sell you all four and mention none of that.
+**The guns are no longer "nearly free," on purpose.** They used to be, paired with "the gunners cost forever," the staffing cost doing all the work. That's still true (four ballistae is still twelve people on the payroll permanently), but the hardware itself should cost something real too. Past purchases at the old prices aren't retroactively billed, this only changes what the next one costs.
 
 ### Weapon upgrades, per weapon **[H]**
 
+A flat damage or action-economy upgrade is a real combat decision over a campaign, not a rounding error. Priced to match.
+
 | Upgrade | Cost | Effect |
 |---|---|---|
-| Sureshot Rotator | 800 | Aiming becomes a bonus action |
-| Ready Magazine | 300 | Loading becomes a bonus action |
-| Autoloader | 2,400 | Loading requires no action; stacks with the above |
-| Rifled Bore | 1,600 | +1d10 damage |
-| Extended Frame | 1,100 | Double both range increments |
-| Shielded Position | 900 | Crew have half cover and can't be picked off |
+| Ready Magazine | 900 | Loading becomes a bonus action |
+| Sureshot Rotator | 2,200 | Aiming becomes a bonus action |
+| Shielded Position | 1,800 | Crew have half cover and can't be picked off |
+| Extended Frame | 2,000 | Double both range increments |
+| Autoloader | 8,000 | Loading requires no action; stacks with the above |
+| Rifled Bore | 9,500 | +1d10 damage |
 | Twin Mount | ×2 cost | Two weapons, one crew, both fire on one action |
 
 ### Ammunition **[H]**
 
+Consumed per shot, not a permanent purchase, so these stay closer to canon's own scale. The real combat upgrades above are where the gold should go.
+
 | Type | Each | Effect |
 |---|---|---|
 | Standard shot **[C]** | 5 | the plain round |
-| Alchemical | 60 | +2d6 fire, ignites |
-| Chain shot | 45 | Halves target speed on a hit |
-| Grapnel bolt | 30 | Tethers |
 | Signal shot | 10 | Visible for miles. Useful and incriminating. |
 | Surplus lot (20) | 40 | One in twenty is a dud |
+| Grapnel bolt | 80 | Tethers |
+| Chain shot | 120 | Halves target speed on a hit |
+| Alchemical | 150 | +2d6 fire, ignites |
 
 ## Crew-Pool Upgrades, Tiered **[H]**
 

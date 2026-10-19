@@ -7,7 +7,7 @@
 **AC:** 19, plus Plating I. **Damage threshold:** 20 (a single hit under 20 does nothing).
 **HP:** 250
 **Speed:** ~45 ft tactical (Trader 55, −10 for Sturdy), plus a Trim Rig that adds 5 ft and holds attitude unhelmed; 100 million miles/day in open space.
-**Crew capacity:** 11 (running with 7).
+**Crew capacity:** 11 (running with 9, as of session 4's two new hires).
 **Cargo:** 20 tons.
 **Air:** base 120 days (no life-support upgrades bought). The crew has sworn off any job longer than 60 days rather than risk the clock.
 
@@ -26,20 +26,21 @@ Bought and outfitted at session 0 for roughly 35,650 gp of the 50,000 budget.
 | Life support | none (base 120-day air) |
 | Signature feature | none chosen |
 | Fittings / instruments / aftermarket | none |
-| Bastion facilities -- Aerion (level 5, two total) | **Storehouse** -- the cargo hold formalized, runs the Trade order -- and **Smithy** -- runs the Craft order, common-rarity goods for now, magic items later. Both chosen. See `rules/Rules & Systems.md` §6. |
-| Bastion facilities -- Orena (level 5, two total) | **Library** -- the chart room, runs the Research order, doubles as her cartography table -- and **Workshop** -- runs the Craft order, played so far as hands-on repair help. Both chosen. See `rules/Rules & Systems.md` §6. |
+| Bastion facilities, Aerion (level 5, two total) | **Storehouse** (the cargo hold formalized, runs the Trade order) and **Smithy** (runs the Craft order, common-rarity goods for now, magic items later). Both chosen. See `rules/Rules & Systems.md` §6. |
+| Bastion facilities, Orena (level 5, two total) | **Library** (the chart room, runs the Research order, doubles as her cartography table) and **Workshop** (runs the Craft order, played so far as hands-on repair help). Both chosen. See `rules/Rules & Systems.md` §6. |
 
 ## Ship Combat: Crew as a Resource Pool
 
 Full rules and reasoning: `rules/Rules & Systems.md` section 8. This is the quick-reference version for the table.
 
-**Crew capacity 11, running with 7.** Every fight, the pool is whoever's actually aboard, up to 7 (Flurry doesn't count). Each body gets assigned to a station for the round; a station needs its full cost in bodies to function, no partial credit.
+**Crew capacity 11, running with 9.** Every fight, the pool is whoever's actually aboard, up to 9 (Flurry doesn't count). Each body gets assigned to a station for the round; a station needs its full cost in bodies to function, no partial credit.
 
 | Station | Cost | Who can | What it does |
 |---|:---:|---|---|
 | **Helm** | 1 | Any attuned spellcaster holding concentration (currently Estra; Orena training up) | Flies the ship and picks one maneuver: **Evasive Action** (attacks vs. the ship have disadvantage, but so do her own guns), **Full Burn** (double speed, but attacks vs. the ship have advantage), or **Boarding Action** (contested check to lock with a target ship). |
 | **Ram** | 2 | Anyone | One ram attack; the ship takes half the dealt damage back. Replaces the Helm's 1 that round. |
-| **Ballista** (each) | **2** | Anyone trained | Reduced from the baseline 3 by the Sureshot Rotator + Ready Magazine upgrades below. Firing both costs 4 total. |
+| **Ballista, named & upgraded** (Gertrude, Susan "Angel") | **2 each** | Anyone trained | Reduced from the baseline 3 by the Sureshot Rotator + Ready Magazine upgrades below. |
+| **Ballista, baseline** (Kevin "Ford," Lightning, and a fifth still argued over) | **3 each** | Anyone trained | Not yet upgraded. Firing all five in one round costs 13 total (2+2+3+3+3). |
 | **Engineer** | 1 | Tack by default, anyone with the check | **Emergency Patch:** Technology or Intelligence DC 12, restores HP equal to the engineer's level, once per encounter per engineer. Temporary, doesn't reduce the repair bill. |
 | **Coordinator** | 1 | Whoever's running the fight from the deck, not flying or gunning | Once per round: advantage on an ally's roll, disadvantage on an attack against the ship or a crewmate, or +1d4 to an ally's roll. |
 | **Personal boarding** | removes 1 from the pool | Anyone | Jump to a grappled or adjacent enemy ship (movement + Athletics/Acrobatics) and fight there as an individual, cast a spell, or do anything else outside the ship-scale abstraction. |
