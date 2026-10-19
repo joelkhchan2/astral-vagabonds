@@ -74,7 +74,7 @@ A Swift Trader is 70 ft at AC 13, which is the Shrike. A Sturdy Heavy is AC 19 a
 | Delverane "Brightchair" | 15,000 | Advantage on saves to maintain concentration while helming |
 | Auxiliary Helm Cradle | 2,000 | A second seat. Swap pilots without a shipyard. |
 
-## Structure — priced against **20 gp = 1 hull HP [C]**
+## Structure, priced against **20 gp = 1 hull HP [C]**
 
 | Item | Cost | Effect |
 |---|---|---|
@@ -98,8 +98,8 @@ Plane Anchor matters more than it reads. Canon says the hull with more HP remain
 | Ballista **[C]** | **50** | 3 | 3d10, 120/480, three actions to fire |
 | Mangonel **[C]** | **100** | 4-5 | 5d10, 200/800, min 60 ft, four actions |
 | Giant Cannon **[C]** stats, **[H]** price | 6,000 | 4 | **16d10**, 600/2,400 |
-| Piercing Ram **[H]** | 1,500 | — | Collision |
-| Blunt Ram **[H]** | 1,200 | — | Collision, safer for you |
+| Piercing Ram **[H]** | 1,500 | none | Collision |
+| Blunt Ram **[H]** | 1,200 | none | Collision, safer for you |
 | Grappling Jaws **[H]** | 2,000 | 2 | Lock a hull for boarding |
 | Harpoon Battery **[H]** | 2,800 | 3 | 4d10 plus a line; tethered targets can't disengage |
 | Scatter Rack **[H]** | 1,900 | 3 | 4d8 to all Small craft in a 30-ft cube. Anti-tender. |
@@ -123,12 +123,73 @@ Plane Anchor matters more than it reads. Canon says the hull with more HP remain
 
 | Type | Each | Effect |
 |---|---|---|
-| Standard shot **[C]** | 5 | — |
+| Standard shot **[C]** | 5 | the plain round |
 | Alchemical | 60 | +2d6 fire, ignites |
 | Chain shot | 45 | Halves target speed on a hit |
 | Grapnel bolt | 30 | Tethers |
 | Signal shot | 10 | Visible for miles. Useful and incriminating. |
 | Surplus lot (20) | 40 | One in twenty is a dud |
+
+## Crew-Pool Upgrades, Tiered **[H]**
+
+Everything below is priced for the long haul, not just Tier 1. **Four tiers, keyed to the same level gates the bastion facilities already use (5, 9, 13, 17):** Tier I is dockside and affordable now; Tier II (roughly 5,000-25,000 gp) is a real investment with a visible power jump; Tier III (roughly 60,000-150,000 gp) is rare, bespoke work, the kind of purchase that defines an arc. **There is no Tier IV for sale here, on purpose.** The genuinely legendary versions of these (true resurrection, a bonded guardian spirit, acting twice in a round) exist in the campaign as one-off rewards the DM hands out, not line items any shop sells, so they're deliberately left out of this doc.
+
+### Buff and support consumables **[H]**
+
+Usable by anyone, no station requirement. Each has a Tier II line for later.
+
+| Item | Cost | Effect |
+|---|---|---|
+| Rally Flare | 150 | Burn during ship combat: the Coordinator's chosen benefit this round reaches a third ally |
+| **Signal Cascade** *(Tier II)* | 6,500 | As above, but reaches the whole crew pool, once per voyage |
+| Bracing Draught | 80 | Advantage on the next save against being knocked prone or thrown clear this encounter |
+| **Anchor Draught** *(Tier II)* | 5,000 | As above, and no fall/collision damage either |
+| Quickmatch Tabs | 120 | One Gunnery crew's cost drops by 1 for this encounter only, floor 1 |
+| **Phase Rounds** *(Tier II)* | 7,000 | As above, but the cost drops by 2 |
+| Steadying Tonic | 200 | The Helm has advantage on every concentration save this encounter |
+| **Helmbond Elixir** *(Tier II)* | 8,000 | The Helm cannot be forced to lose concentration at all this encounter |
+| Patch Paste (3 charges) | 90 | Stabilizes a downed crew member in a boarding fight, no healer needed, one charge each |
+| **Vitalist's Kit** *(Tier II, 3 charges)* | 6,000 | As above, and each charge also restores a small flat amount of HP |
+
+### Vehicle-affecting castings **[H]**
+
+One-time workings, not permanent installs, distinct from the Shipboard Enchantments above.
+
+| Item | Tier | Cost | Effect |
+|---|---|---|---|
+| Ward Chit: (damage type) | I | 1,100 each | Snap it at the start of one fight: resistance to that damage type for the fight |
+| Null-Grapple Casting | I | 1,400 | Immune to being tethered (Harpoon Battery, Grapnel bolt, Grappling Jaws) for one fight |
+| Working of Swift Passage | II | 3,200 | Doubles travel speed for a whole voyage leg, cast at departure, not a combat effect |
+| Farsight Array | II | 14,000 | Permanent version of a Farsight working: advantage on the first check to identify a creature or hazard before it closes to range |
+| Translocation Working | III | 85,000 | One cast: the ship and everyone aboard short-range teleports once, escape a losing fight or close a gap instantly |
+
+### Station upgrades, filling out the thin ones **[H]**
+
+Same four-axis logic as the ballista upgrades above, now carried across Helm, Coordinator, and Engineer.
+
+| Station | Item | Tier | Cost | Effect |
+|---|---|---|---|---|
+| Helm | Reflex Coil | I | 1,800 | Evasive Action usable as a reaction to an incoming ram or boarding attempt |
+| Helm | **Steadyhand Gimbal** | II | 12,000 | Advantage on the concentration save, every round, not just once |
+| Helm | **Twinned Hands** | III | 95,000 | Fly and perform a second maneuver the same round, no extra crew cost |
+| Coordinator | Signal Beads | I | 1,300 | An unused benefit this round can be banked and spent as a second benefit next round |
+| Coordinator | **Command Chorus** | II | 16,000 | The chosen benefit applies to the whole crew pool for one round, once per encounter |
+| Coordinator | **Unbroken Line** | III | 100,000 | Two different benefits in the same round |
+| Engineer | Triage Protocol | I | 1,500 | Emergency Patch also removes one condition from the treated crew member |
+| Engineer | **Rebuilder's Array** | II | 13,000 | Emergency Patch restores HP equal to twice the Engineer's level |
+| Engineer | **Hull-Weaver's Rig** | III | 90,000 | Emergency Patch usable twice per encounter |
+
+### Medic, a new station **[H]**
+
+One crew. Parallel to Engineer, but for people instead of hull.
+
+| Tier | Item | Cost | Effect |
+|---|---|---|---|
+| I | Medic (base station) | included | Treat Wounds, Medicine DC 12, stabilizes a downed boarder, once per encounter per Medic |
+| I | Surgical Kit | 900 | Advantage on the check |
+| I | Field Triage Board | 1,300 | The treated crew member also recovers a small flat amount of HP |
+| II | **Stabilizer's Cradle** | 22,000 | Stabilizing becomes automatic, no check, and works twice per encounter |
+| III | **Mender's Rite** | 85,000 | The Medic can cast a Cure Wounds-equivalent for real healing, and can bring a crew member back from 0 HP without a death save, once per voyage |
 
 ## Mobility **[H]**
 
@@ -188,7 +249,7 @@ Facilities are free at levels 5, 9, 13, and 17. These are the only ways gold tou
 | Second Facility of a Type | 4,000 | Two workshops, two holds, two of anything |
 | Facility Specialization | 3,000 | Narrow a facility's focus for a better order result |
 
-## Instruments — *Delverane* **[H]**
+## Instruments, *Delverane* **[H]**
 
 | Item | Cost | Effect |
 |---|---|---|
@@ -199,7 +260,7 @@ Facilities are free at levels 5, 9, 13, and 17. These are the only ways gold tou
 
 The Deepline is the correct purchase and they cannot afford it at session 0. It is a level 9 goal. Show it to them anyway.
 
-## Tenders — Carrier class and above **[H]**
+## Tenders, Carrier class and above **[H]**
 
 | Craft | Cost | Notes |
 |---|---|---|

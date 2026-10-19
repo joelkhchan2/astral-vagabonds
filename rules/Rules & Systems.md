@@ -184,6 +184,7 @@ Standing rule as of the *Night Fury*'s shakedown (`The Yard.md`, Beat 7), **rewo
 | **Mangonel** | 4 | Baseline, matches the canon crew 4-5 rating; use 4 unless a specific upgrade says otherwise. |
 | **Engineer: Emergency Patch** | 1 | Technology or Intelligence check, DC 12. On a success, the ship regains HP equal to the Engineer's level, once per encounter per Engineer. Temporary, doesn't reduce the repair bill (still 20 gp/HP after, per section 4). |
 | **Coordinator** | 1 | See below. |
+| **Medic: Treat Wounds** | 1 | Medicine check, DC 12. On a success, stabilizes a downed crew member, once per encounter per Medic. Tiered upgrades in `Ship Construction.md` can make this automatic, faster, or scale into real healing. |
 | **Personal boarding** | removes 1 from the pool | Not a station. A PC or NPC choosing to leave the ship and fight on the other deck as an individual, below. |
 
 **Only a station's listed cost gets you its function.** Throwing more bodies at a station than its cost doesn't add a bonus, extra hands are better spent elsewhere or Coordinating. Firing both of the *Night Fury*'s ballistae in one round costs 4 total (2+2); a raider firing both of theirs costs 6.
