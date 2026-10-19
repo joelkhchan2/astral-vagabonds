@@ -52,6 +52,8 @@ Played close to the prep doc's design. Captain Albus recognized Estra immediatel
 
 **Hush rides the Night Fury** (black, quiet). **Glimmer rides the Fair Return** (spotted, laughs easily). During transit the two called to each other across the gap in real kindori whale-song, confirmed as a genuine communication behavior, not distress.
 
+**Wes Leaftully commissioned a bowler hat from Aerion.** A 19 Persuasion check, mid-handoff, talked Aerion into the order on the spot: a bowler hat, 50 gp deposit paid immediately, the rest due on delivery. Wes has a way of shipping goods through some kind of bagged portal device, handed to Aerion for the delivery once it's made. He checked back in before the ships parted, confident Aerion would come through: *"You'll get your bowler hat soon. I trust you. I don't know why. He's a good businessman."* Wes is now a named recurring customer for the costume business, the same standing as Meep Meep.
+
 **Scavver lore, confirmed via Tess in conversation:** gray (small, riding on adult kindori, feeding on the growths there), brown (larger, venomous, a real threat, will prey on unprotected kindori calves), night (bigger again, the stuff of sailor stories), and the void scavver the crew has already seen, rare enough that Tess had never personally witnessed one. She was visibly thrilled to get real survey data on one.
 
 ## The fight: the Velvet Comet
@@ -66,7 +68,7 @@ Played close to the prep doc's design. Captain Albus recognized Estra immediatel
 
 ## Arrival at the Leaftully Institute
 
-Played exactly as planned. **Cordelia Leaftully** greeted the ships personally and paid **2,800 gp to the *Night Fury*'s side** (5,600 gp total split, matching the posting exactly). Albus and Estra parted warmly; he told her plainly he was right to come to this crew. Hush and Glimmer were released into the Institute's kindori pod and were visibly, immediately welcomed by the existing pod. As they parted, **the two calves sang a duet that Orena recognized as a learned, imitated version of the Stillwater Vocalise**, not the original, confirming the song is something kindori can pick up and echo, not unique to one tragedy. A second, strong beat tying this session's wonder directly back to Orena's arc.
+Played exactly as planned. **Cordelia Leaftully** greeted the ships personally and paid **2,800 gp to the *Night Fury*'s side** (5,600 gp total split, matching the posting exactly). Albus and Estra parted warmly; he told her plainly he was right to come to this crew. Hush and Glimmer were released into the Institute's kindori pod and were visibly, immediately welcomed by the existing pod. **Both now wear bows and bow ties**, the table's chosen mark so the crew can recognize them on sight if their paths cross again. As they parted, **the two calves sang a duet that Orena recognized as a learned, imitated version of the Stillwater Vocalise**, not the original, confirming the song is something kindori can pick up and echo, not unique to one tragedy. A second, strong beat tying this session's wonder directly back to Orena's arc.
 
 ## After the mission: shopping and crew
 
@@ -89,6 +91,7 @@ Played exactly as planned. **Cordelia Leaftully** greeted the ships personally a
 - **Tess and Wes Leaftully**, twin halfling astrozoologists, are the actual handlers who traveled with Hush and Glimmer, not "Elowen Byrne." Cordelia Leaftully remains the Institute's lead and the one who paid out.
 - **Captain Albus's crew, fleshed out in play**: Perrin (first mate, owns the slug Meep Meep), Dessa (gunner), Wick (autognome engineer), Tobin "Junebug" Ashworth (helmsman in training).
 - **Meep Meep**, Perrin's pet slug, is a new recurring customer for Aerion's costume business and a easy, warm callback.
+- **Wes Leaftully commissioned a bowler hat**, 50 gp deposit paid, rest due on delivery, shippable through a portal device Wes carries. Aerion hasn't made it yet. **The crafting mechanic, for whenever he sits down to it:** a Smithy Craft order, Complexity: Complex common, **DC 13** (the same tier as a disguise kit or a well-balanced blade, real craftsmanship, not simple assembly). A hit finishes it this leg, exactly to Wes's spec. A miss still finishes it, per the standing Smithy rule, just takes an extra leg. **Price: 150 gp total** (the 50 gp deposit already banked, 100 gp on delivery), a fair bespoke-commission rate given how eager and well-funded the client is. Open thread into session 4.
 - **Aerion's costume business banked a 2d20 quantity roll** for its next use, from looted stock.
 - **The ship actually has 5 ballistas now**, 2 upgraded to the reduced crew cost, all named.
 - **Boy Boy McGee's crew hid aboard for nine days** eating Aerion's rations before being discovered; released at the next stop, unharmed, the standing nemesis dynamic intact and deepened.
@@ -107,4 +110,4 @@ Five things played differently from what was drafted elsewhere in the campaign. 
 
 ## Where it goes next
 
-The crew returns to the Rock of Bral with a real haul, Estra now read in on the note (but not the Carrow letters), a confirmed emotional tie between the Vocalise and the Guttering, a surviving Velvet Comet with a denied prize, and two hires to make. See `sessions/Session 4 Prep.md`.
+The crew returns to the Rock of Bral with a real haul, Estra now read in on the note (but not the Carrow letters), a confirmed emotional tie between the Vocalise and the Guttering, a surviving Velvet Comet with a denied prize, two hires to make, and Wes Leaftully's bowler hat still to craft and ship. See `sessions/Session 4 Prep.md`.
