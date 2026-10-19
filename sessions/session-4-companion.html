@@ -1,0 +1,652 @@
+<title>One Last Job</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #e7ecf1; --surface: #f6f8fb; --surface-2: #eef2f6;
+    --ink: #18202e; --muted-text: #566173;
+    --accent: #8a6a2c; --accent-soft: #b98f3f; --teal: #256d67;
+    --line: #d3dae2; --line-strong: #b9c3ce;
+    --dm: #7a3f6e; --dm-bg: #f3e9f1;
+    --danger: #a23b3b; --danger-bg: #f6e7e5;
+    --opp: #2f6b45; --opp-bg: #e6f0ea;
+    --cost: #8a5a1f; --cost-bg: #f4ebdd;
+    --read: #1f4f6b; --read-bg: #e9f0f4;
+    --pc: #4a4396; --pc-bg: #ecebf6;
+    --shadow: 0 1px 2px rgba(24,32,46,.06), 0 6px 20px rgba(24,32,46,.06);
+  }
+  :root:not([data-theme="light"]) { color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+      --ink: #e7ecf3; --muted-text: #93a0b3;
+      --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+      --line: #262f3d; --line-strong: #33404f;
+      --dm: #cf95c2; --dm-bg: #221722;
+      --danger: #e08a83; --danger-bg: #241615;
+      --opp: #86c79c; --opp-bg: #14201a;
+      --cost: #e0b877; --cost-bg: #201a12;
+      --read: #8fc6e0; --read-bg: #101c24;
+      --pc: #a9a3e6; --pc-bg: #16162a;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+    --ink: #e7ecf3; --muted-text: #93a0b3;
+    --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+    --line: #262f3d; --line-strong: #33404f;
+    --dm: #cf95c2; --dm-bg: #221722;
+    --danger: #e08a83; --danger-bg: #241615;
+    --opp: #86c79c; --opp-bg: #14201a;
+    --cost: #e0b877; --cost-bg: #201a12;
+    --read: #8fc6e0; --read-bg: #101c24;
+    --pc: #a9a3e6; --pc-bg: #16162a;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 16px; line-height: 1.62; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  .topbar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar .wrap { display: flex; align-items: center; gap: 20px; height: 60px; }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 17px; letter-spacing: .01em; white-space: nowrap; }
+  .brand .anchor-mark { color: var(--accent); }
+  .navlinks { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; }
+  .navlinks a { color: var(--muted-text); text-decoration: none; font-size: 12.5px; font-weight: 500; padding: 6px 10px; border-radius: 6px; white-space: nowrap; letter-spacing: .02em; }
+  .navlinks a:hover { color: var(--ink); background: var(--surface-2); }
+  .toggle { flex: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); border-radius: 7px; height: 34px; width: 34px; cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+  .toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .toggle:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .hero { padding: 72px 0 48px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background:
+      radial-gradient(1px 1px at 12% 30%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78% 18%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 62% 62%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 78%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90% 74%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 22% 54%, var(--line-strong) 50%, transparent 51%); }
+  .hero .wrap { position: relative; z-index: 1; }
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  h1 { font-family: "Fraunces", serif; font-weight: 600; letter-spacing: -.01em; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02; margin: 16px 0 0; text-wrap: balance; max-width: 15ch; }
+  .hero .lede { font-size: 1.16rem; color: var(--muted-text); max-width: 62ch; margin: 22px 0 0; }
+  .hero .slogan { margin-top: 28px; font-family: "Fraunces", serif; font-style: italic; font-size: 1.05rem; color: var(--ink); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; max-width: 60ch; }
+
+  section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 8px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); font-weight: 500; }
+  h2 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.7rem, 3.4vw, 2.4rem); line-height: 1.08; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+  .sec-intro { color: var(--muted-text); max-width: 66ch; margin: 14px 0 30px; font-size: 1.03rem; }
+  h3 { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.3rem; margin: 8px 0 4px; letter-spacing: -.005em; text-wrap: balance; }
+  h4 { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 1rem; margin: 22px 0 6px; }
+  p { margin: 12px 0; }
+  a.inline { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+  .measure { max-width: 68ch; }
+  .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-text); font-weight: 500; }
+
+  .grid { display: grid; gap: 18px; }
+  .grid.two { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .grid.three { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: var(--shadow); }
+  .card h3 { margin-top: 0; }
+  .card h4:first-child { margin-top: 0; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 4px 0 8px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .tile .k { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted-text); }
+  .tile .v { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.5rem; margin-top: 3px; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+  .tile .v small { font-family: "IBM Plex Mono", monospace; font-size: .7rem; font-weight: 500; color: var(--muted-text); letter-spacing: .02em; }
+
+  .quote { font-family: "Fraunces", serif; font-style: italic; color: var(--ink); border-left: 2px solid var(--accent-soft); padding-left: 12px; margin: 14px 0; font-size: 1rem; }
+  .quote .who { display:block; font-family: "IBM Plex Mono", monospace; font-style: normal; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); margin-bottom: 4px; }
+
+  .read { background: var(--read-bg); border: 1px solid color-mix(in srgb, var(--read) 32%, transparent); border-left: 3px solid var(--read); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .read .read-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; color: var(--read); display: block; margin-bottom: 6px; }
+  .read p { margin: 6px 0; color: var(--ink); }
+  .read p:first-of-type { margin-top: 0; }
+  .read p:last-child { margin-bottom: 0; }
+
+  .call { border-radius: 10px; padding: 14px 16px; margin: 14px 0; border: 1px solid; font-size: .95rem; }
+  .call .call-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; display: block; margin-bottom: 4px; }
+  .call p:first-of-type { margin-top: 2px; }
+  .call p:last-child { margin-bottom: 0; }
+  .call.dm { background: var(--dm-bg); border-color: color-mix(in srgb, var(--dm) 40%, transparent); }
+  .call.dm .call-label { color: var(--dm); }
+  .call.danger { background: var(--danger-bg); border-color: color-mix(in srgb, var(--danger) 40%, transparent); }
+  .call.danger .call-label { color: var(--danger); }
+  .call.opp { background: var(--opp-bg); border-color: color-mix(in srgb, var(--opp) 40%, transparent); }
+  .call.opp .call-label { color: var(--opp); }
+  .call.cost { background: var(--cost-bg); border-color: color-mix(in srgb, var(--cost) 40%, transparent); }
+  .call.cost .call-label { color: var(--cost); }
+  .call.pc { background: var(--pc-bg); border-color: color-mix(in srgb, var(--pc) 40%, transparent); }
+  .call.pc .call-label { color: var(--pc); }
+
+  .beat { border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; margin: 18px 0; background: var(--surface); box-shadow: var(--shadow); }
+  .beat > .beat-head { display: flex; align-items: baseline; gap: 12px; }
+  .beat .bnum { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--accent); font-size: .95rem; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line-strong)); border-radius: 7px; padding: 1px 9px; flex: none; }
+  .beat h3 { margin: 0; }
+  .beat .who-leads { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .04em; color: var(--muted-text); margin-top: 2px; }
+
+  .crew { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .crew .card { padding: 20px; }
+  .crew .c-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .crew h4 { margin: 0; font-size: 1.08rem; font-family: "Fraunces", serif; font-weight: 600; }
+  .crew .c-role { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+  .crew dl { margin: 12px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 5px 12px; font-size: .9rem; }
+  .crew dt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); padding-top: 3px; white-space: nowrap; }
+  .crew dd { margin: 0; }
+
+  .tablewrap { overflow-x: auto; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  thead th { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted-text); font-weight: 600; background: var(--surface-2); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.ctr, th.ctr { text-align: center; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.name { font-weight: 600; }
+  tbody tr:hover { background: var(--surface-2); }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+
+  .spec { display: grid; grid-template-columns: repeat(auto-fit, minmax(88px,1fr)); gap: 2px 14px; margin: 12px 0; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; }
+  .spec div { display: flex; flex-direction: column; padding: 4px 0; }
+  .spec .k { color: var(--muted-text); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+  .spec .v { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  ul.clean { margin: 12px 0; padding-left: 20px; }
+  ul.clean li { margin: 6px 0; }
+  ul.tight { margin: 6px 0; padding-left: 18px; }
+  ul.tight li { margin: 3px 0; }
+  ol.clean { margin: 12px 0; padding-left: 20px; }
+  ol.clean li { margin: 6px 0; }
+
+  footer { padding: 40px 0 70px; color: var(--muted-text); font-size: .86rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+  .divider-note { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted-text); letter-spacing: .04em; }
+
+  .tabbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 22px; }
+  .tabbtn { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; letter-spacing: .04em; padding: 10px 16px; border-radius: 9px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); cursor: pointer; text-align: left; }
+  .tabbtn .tt-name { display: block; font-family: "Fraunces", serif; font-size: 1rem; color: var(--ink); font-weight: 600; letter-spacing: 0; margin-bottom: 2px; }
+  .tabbtn .tt-pay { display: block; }
+  .tabbtn:hover { border-color: var(--accent); }
+  .tabbtn[aria-selected="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface)); color: var(--accent); }
+  .tabbtn[aria-selected="true"] .tt-name { color: var(--ink); }
+  .tabpanel[hidden] { display: none; }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="anchor-mark">&#9875;</span> One Last Job</span>
+    <nav class="navlinks">
+      <a href="#run">Run Sheet</a>
+      <a href="#cold">Cold Open</a>
+      <a href="#transit">Transit</a>
+      <a href="#social">Social</a>
+      <a href="#job">The Job</a>
+      <a href="#bastion">Bastion</a>
+      <a href="#reference">Reference</a>
+      <a href="#next">Next</a>
+    </nav>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">&#9681;</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Astral Vagabonds &middot; Session Four Companion</span>
+    <h1>One Last Job.</h1>
+    <p class="lede">The last job-of-the-week session for now. Session 5 opens the longer arc; tonight stays a simple, self-contained mission like the others, but it's the sendoff for the format, not a session that needs to seed the next tier's plot. Three postings sit at the top of the Board, uncommitted, pick live at the table.</p>
+    <p class="slogan">Both leads get a validation beat tonight, carried by what's already built, not a bolted-on extra scene.</p>
+    <div class="call pc" style="margin-top:24px"><span class="call-label">The one rule that outranks this page</span><p><strong>Never decide for the players.</strong> Orena and Aerion are Gabrielle's and Priscilla's. This page gives situations, options, and spotlight <em>opportunities</em>, never what they buy, say, feel, or choose. Violet boxes flag exactly where the next move belongs to a player.</p></div>
+    <div class="call dm" style="margin-top:14px"><span class="call-label">How to use this page</span><p>Plum blocks are GM-only. Blue <strong>Read aloud</strong> boxes are narration to say or paraphrase. <a href="#job" class="inline">The Job</a> is tabbed, all three postings are live options, pick whichever lands at the table. Narration follows <span class="mono">rules/DMing Craft.md</span>.</p></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- RUN SHEET -->
+  <section id="run">
+    <div class="sec-head"><span class="sec-num">01</span><h2>Run Sheet</h2></div>
+    <p class="sec-intro">Where things actually stand tonight, and the beat order. Full detail lives in its own section below; this is the one page to glance at between beats.</p>
+
+    <div class="tiles">
+      <div class="tile"><div class="k">Board rank</div><div class="v">344<small>of 349</small></div></div>
+      <div class="tile"><div class="k">Account</div><div class="v">17,281<small>gp</small></div></div>
+      <div class="tile"><div class="k">Crew</div><div class="v">7<small>&rarr; 9 tonight</small></div></div>
+      <div class="tile"><div class="k">Ballistae</div><div class="v">5<small>2 upgraded</small></div></div>
+      <div class="tile"><div class="k">Op. cost</div><div class="v">600<small>&rarr; 800 gp/mo</small></div></div>
+      <div class="tile"><div class="k">Tone read</div><div class="v">Warm<small>counterweight</small></div></div>
+    </div>
+
+    <h4>Tonight's order, loosely</h4>
+    <ol class="clean">
+      <li><strong>Cold open:</strong> homecoming at the Rock of Bral, the rank update, Finny's party, and the crew hiring (six candidates, back-to-back).</li>
+      <li><strong>Social:</strong> Vaelren at the Compass Rose (Aerion), and the Carrow letters / Estra's question (joint).</li>
+      <li><strong>The Board pick:</strong> three live postings, full depth below, pick live.</li>
+      <li><strong>Transit:</strong> the d20 table, roll once en route regardless of which job's picked.</li>
+      <li><strong>Bastion turn:</strong> at least one real order each, Orena's fabrics beat is worth reaching for.</li>
+      <li><strong>Return, fallout, ending hook.</strong></li>
+    </ol>
+
+    <div class="call dm"><span class="call-label">Tone call, flagged not locked</span><p>Session 3 closed on one of the heaviest beats the campaign's had. Counterweight toward warmth tonight: the hiring and homecoming material does that naturally, and this session doesn't need to plant session 5's hook. Confirm live rather than assuming, if the table wants to lean into a live thread harder, that's a real option too.</p></div>
+  </section>
+
+  <!-- COLD OPEN -->
+  <section id="cold">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Cold Open: Home Port, and the Hiring</h2></div>
+    <p class="sec-intro">Arrival back at the Rock of Bral, played warm. Rank update lands here, Finny's party, the usual homecoming texture. This is also where crew hiring actually happens, not improvised cold later.</p>
+
+    <h4>The rank update</h4>
+    <p class="measure">344th, confirmed. Two Chairs Short (session 3) was a joint job, supporting Albus's <em>Fair Return</em> rather than a solo climb, so the earned move is a modest one rank. Real churn alongside it: the <em>Fair Return</em> gets a firm placement at 343rd, a real neighbor now, not a rumor; the Weatheralls' <em>Kettle</em> climbs one to 345th; Dov Errin's <em>Steadfast Promise</em> finally loses its charter outright after eleven months impounded; Rimmon Vex's <em>Cutlass Sunday</em> drops two full ranks to 346th, passed by both the crew and the Kettle in the same update. Let Finny throw the party he's been owed.</p>
+
+    <h4>Where the hires are found</h4>
+    <p class="measure">The Compass Rose board, a direct referral, or just dockside. Let the PCs' own approach decide this, it only changes how many show up and in what order.</p>
+
+    <div class="call pc"><span class="call-label">Run it back-to-back</span><p>Three candidates per slot, not two long scenes. Nobody needs full depth live, each has one entrance beat and one follow-up moment, enough to improvise cold. Run as many as the table has patience for; the actual hire is whichever one or two land, not a predetermined pick. Any candidate not hired stays a real person the crew might cross again, not a discarded NPC.</p></div>
+
+    <h3>Cook-gunner candidates</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Perris Vance</h4>
+        <p>Walks in already talking, mid-sentence about a dish she clearly finished three ports ago, narrating it like sports commentary whether anyone's listening or not. Former galley hand off a decommissioned Pale Reach survey vessel, left rather than transfer to a captain she didn't trust.</p>
+        <p><strong>Follow-up:</strong> asked about gunnery, holds up burn-scarred hands, says plainly she's never had formal training, shipboard necessity only. <strong>Want:</strong> a kitchen that isn't about to get sold out from under her again.</p>
+      </div>
+      <div class="card">
+        <h4>Auguste Mornay</h4>
+        <p>Takes one look at the galley and makes a small, devastating noise of disappointment before he's said a word. Formerly private chef for a mid-tier trading house, lost the position in some unspecified unpleasantness, slumming it and making sure everyone knows it.</p>
+        <p><strong>Follow-up:</strong> asked why he'd take a job this far beneath him, says the crew's stores "have clearly been insulted at some point in their life too," finds that sympathetic. <strong>Want:</strong> to be appreciated for the actual skill.</p>
+      </div>
+      <div class="card">
+        <h4>Tomlin Reyes</h4>
+        <p>Walks in with a worn logbook already in hand, flips it open unprompted to show his last "explained phenomenon." Former cargo inspector, a decade without filing one false anomaly report.</p>
+        <p><strong>Follow-up:</strong> if anyone mentions Tack or anything uncanny aboard, asks, entirely serious, to "take a look at it." <strong>Want:</strong> to be right, forever, about the universe being orderly.</p>
+      </div>
+    </div>
+
+    <h3>Scout-deckhand-gunner candidates</h3>
+    <div class="grid two">
+      <div class="card">
+        <h4>Dash Okonkwo-Reeve</h4>
+        <p>Answers the first question asked of them with a question of their own, can't help it. Too many half-finished apprenticeships (rigger, cartographer, a washed-out Wardens recruit).</p>
+        <p><strong>Follow-up:</strong> asked why they never finished any of it, goes still for the first time all interview, fidgeting hands stopping completely, before deflecting again. <strong>Want:</strong> one thing they actually finish. Worth a deliberate call once hired: mentee or rival to Finny, not a default double.</p>
+      </div>
+      <div class="card">
+        <h4>Juno Vask</h4>
+        <p>Introduces herself in the third person, resume-style. Bounced through three bottom-tier crews in five years, left each the moment it stopped climbing.</p>
+        <p><strong>Follow-up:</strong> asked why a crew ranked in the 340s, pulls out a dog-eared tally card, says plainly it's climbing fast and she intends to be on the card when it does. <strong>Want:</strong> to be somebody whose name means something, openly, no shame. Sharp foil for Aerion, same drive, opposite strategy.</p>
+      </div>
+      <div class="card">
+        <h4>Sable Quin</h4>
+        <p>Already knows everyone's name by the time they sit down, used warmly, like old friends. Grew up the "front of house" kid in a merchant family, charm as the family trade.</p>
+        <p><strong>Follow-up:</strong> produces some small, exactly-right trinket, no reason given, no price attached. <strong>Want:</strong> to be genuinely liked everywhere, no angle, which is exactly what makes Brass suspicious of them on principle.</p>
+      </div>
+    </div>
+
+    <h4>Terms</h4>
+    <p class="measure">Roughly 100 gp/month each, bringing the crew to 9 and the monthly operating cost to 800 gp/month unless the table negotiates otherwise.</p>
+
+    <h3>Homecoming texture: Sprat, Meech, and the rumor mill</h3>
+    <p class="measure">Two of the six standard homecoming beats are already fully spoken for tonight, the Board (above) and the Compass Rose (<a href="#social" class="inline">&sect;04</a>), both carrying real weight already. The other four stay light on purpose.</p>
+
+    <div class="grid two">
+      <div class="card">
+        <h4>Sprat, on the gantry</h4>
+        <p>Real gossip (roll below or pick), plus a tip: a giff mercenary company is in port this rotation, setup for Colors and Protocol if the table bites.</p>
+        <p><strong>One small wrongness:</strong> Berth 40's rent came in five gold higher this month, and Sprat delivers it like the scandal of the decade.</p>
+      </div>
+      <div class="card">
+        <h4>Meech, at the Charter Window</h4>
+        <p>Where the hires actually get filed, crew to 9, operating cost to 800 gp/month. He has opinions about a cook and a scout both filed under "gunner" on the same manifest, won't stamp it without a line explaining the overlap.</p>
+      </div>
+    </div>
+
+    <h4>The gossip table, d20, least to most interesting</h4>
+    <p class="measure">Finny rolls or free-associates. Most of this is genuinely unheard, carried forward unspent from <span class="mono">Session 2 Prep.md</span>'s original table (only Vex's two beats and the <em>Heavy Crown</em> line were ever delivered).</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="ctr">d20</th><th>Gossip</th></tr></thead>
+        <tbody>
+          <tr><td class="ctr">1</td><td>Corabel's rope stall sold out of her best tether line again. She's annoyed in a way that suggests she enjoys it.</td></tr>
+          <tr><td class="ctr">2</td><td>A Charter Window queue dispute over who was next ran eleven minutes and ended with both parties more confused than when it started.</td></tr>
+          <tr><td class="ctr">3</td><td>Someone saw Ollo Trask personally scrubbing the <em>Quiet Sum</em>'s hull. He never delegates the ugly jobs.</td></tr>
+          <tr><td class="ctr">4</td><td><em>Amity's Reward</em>'s fees and paperwork stay current, quietly, on time, every quarter, from an account nobody's traced. Nobody's ever tried the door.</td></tr>
+          <tr><td class="ctr">5</td><td>The <em>Jumper</em>'s captain still won't say what the bet with the mercane was for. "A ship's weight in salt" can't be right.</td></tr>
+          <tr><td class="ctr">6</td><td>Compact Standard's Dessa Kell (rank 9) is rumored to be courting Sedge Okonkwo (~rank 250, <em>Bright Arrears</em>), a former Vane Compact hand who took the buyout. Nobody agrees whether it's romance or recruitment. <span class="mono" style="color:var(--opp)">(Ties to Return Post, &sect;06)</span></td></tr>
+          <tr><td class="ctr">7</td><td>The Second Ledger's crew got another paid night off, Thessaly Darkshade's coin again, one of her riggers just became a parent.</td></tr>
+          <tr><td class="ctr">8</td><td>Rank 10's listing is still "withheld pending review." Real bets now on when it fills.</td></tr>
+          <tr><td class="ctr">9</td><td>Var Solenne was seen arguing with a Route Warden again, this time about records from before the <em>Consequence</em> existed. She walked away mid-sentence, unheard of for her.</td></tr>
+          <tr><td class="ctr">10</td><td>Ninefold's mercane are quietly buying up debt from bottom-board crews, well over its worth. Nobody's worked out why.</td></tr>
+          <tr><td class="ctr">11</td><td>Sael Rowe hasn't been seen at the Compass Rose, or anywhere, in two months. <em>Slack Water</em> hasn't missed a delivery the whole time, which unsettles people more.</td></tr>
+          <tr><td class="ctr">12</td><td>A new Float Market stall sells little glass orbs of real weather, shrunk down small. Sells out every visit, nobody knows how they're made.</td></tr>
+          <tr><td class="ctr">13</td><td>Captain Toby Ashgrove (<em>Lucky Fathom</em>) and Captain Reeve Calloway (<em>Sundry Chance</em>) swapped ships and crews on a bet three weeks ago. Neither's swapped back. Pride, by every account.</td></tr>
+          <tr><td class="ctr">14</td><td>A giff ceremonial choir passed through, bound for a founding ceremony for a mercenary company taking a new charter (same outfit as Colors and Protocol). If Oz hears the hymn, it's the one from his own commissioning.</td></tr>
+          <tr><td class="ctr">15</td><td>A locked door in the lower city, no handle, opens for whoever's patient enough and knocks three times, politely. Nobody telling the story claims to have done it.</td></tr>
+          <tr><td class="ctr">16</td><td>A kid and a drunk spacer, separate nights, never met, tell almost the same story: a patch of open dark folding in on itself like fabric. Neither's touched a drink since.</td></tr>
+          <tr><td class="ctr">17</td><td>A void scavver was sighted far off past the Tollmarch's edge, feeding on old wreckage. Distant, awed unease, not danger.</td></tr>
+          <tr><td class="ctr">18</td><td>An unnamed hull drifted into a lowside berth, name and registry scraped clean, no bodies, no violence. A real point-crawl if the table wants it: galley (DC 12 Perception, a rationing note), captain's cabin locked (DC 15, a calm evacuation log), cargo hold (DC 13 Investigation, deliberately jettisoned cargo), bridge (DC 15 Investigation, the last plotted course). Not a tragedy, a clean getaway. Did they make it? Nobody's checked.</td></tr>
+          <tr><td class="ctr">19</td><td>A free-floating light has paced the same Lowside gantry for three nights, gone by dawn. Dockworkers leave it alone, the way you'd leave a stray.</td></tr>
+          <tr><td class="ctr">20</td><td>A frontier captain swears a colony she's resupplied for years isn't where the charts say, not wrecked, not evacuated, just gone. Her report landed on Meech's desk. Plot-forward, stays dormant unless the table bites.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TRANSIT -->
+  <section id="transit">
+    <div class="sec-head"><span class="sec-num">03</span><h2>Astral Sea Transit, d20</h2></div>
+    <p class="sec-intro">A real mix, safe through dangerous, warm through eerie, mostly pulled from <span class="mono">rules/Tables.md</span>'s own catalog rather than invented fresh. One check per entry, one true detail, never the whole picture, a few left genuinely unresolved on purpose. Roll once en route regardless of which job gets picked.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="ctr">d20</th><th>Encounter</th><th>Check / effect</th></tr></thead>
+        <tbody>
+          <tr><td class="ctr">1</td><td>Space guppies, a shoal of hundreds, harmless, follow for two days</td><td class="mono">None, pure color</td></tr>
+          <tr><td class="ctr">2</td><td>Jammer leeches on the hull, speed down 5 ft for a week</td><td class="mono">None, a complication</td></tr>
+          <tr><td class="ctr">3</td><td>The stars are marginally wrong. Orena can hear it.</td><td class="mono">DC 15 Arcana (hers alone): a thinning current, a tiny echo of the Guttering</td></tr>
+          <tr><td class="ctr">4</td><td>A dohwar trader, a genuinely good deal</td><td class="mono">None, a social scene</td></tr>
+          <tr><td class="ctr">5</td><td>A gray scavver gathering, 30+, restless</td><td class="mono">DC 13 Nature/Survival: something died nearby. What, stays unanswered.</td></tr>
+          <tr><td class="ctr">6</td><td>A ship on the exact reciprocal heading, nobody waves</td><td class="mono"><strong>No check, by design.</strong> Resist attaching a reason.</td></tr>
+          <tr><td class="ctr">7</td><td><strong>The mercane trading vessel.</strong> Flat pricing, real uncommon/rare stock, Aerion's scene. Same inventory as <span class="mono">Session 3 Prep.md</span>, banked and never run.</td><td class="mono">The shop itself</td></tr>
+          <tr><td class="ctr">8</td><td>Two brown scavvers shadowing, driven off rather than fought</td><td class="mono">Combat math only if it goes hot</td></tr>
+          <tr><td class="ctr">9</td><td>A distress beacon on a heading the crew can't afford to take</td><td class="mono">DC 12 Insight: genuine vs staged. DC 20 (rare): one detail about who sent it.</td></tr>
+          <tr><td class="ctr">10</td><td>A Route Warden inspection, four hours, deeply inconvenient</td><td class="mono">None, procedural</td></tr>
+          <tr><td class="ctr">11</td><td>Astral pegasi, a herd loose in open void, gone in a minute</td><td class="mono">DC 13 Nature: running from something further back. Never identified.</td></tr>
+          <tr><td class="ctr">12</td><td>A current visibly dissolving, silver light unraveling like rope</td><td class="mono">DC 15 Arcana: a dying current. DC 20 (rare): recent, within months.</td></tr>
+          <tr><td class="ctr">13</td><td>A colony ship, forty years out, never seen a spelljammer</td><td class="mono">DC 12 History: a house name that no longer exists. DC 20 (rare): just flying slower than planned, decades of honest error.</td></tr>
+          <tr><td class="ctr">14</td><td>Pirates who take one look at the armament and change their minds</td><td class="mono">None, comic</td></tr>
+          <tr><td class="ctr">15</td><td>A drift graveyard, a collision that never quite finishes</td><td class="mono">DC 15 History: a pre-Netheril marking. DC 25 (rare): looping longer than any hull could survive, left unresolved.</td></tr>
+          <tr><td class="ctr">16</td><td>Nothing at all for days. Play the crew scene.</td><td class="mono">None, space for the table</td></tr>
+          <tr><td class="ctr">17</td><td>A chwinga astronaut, fishing off the bow, won't explain</td><td class="mono"><strong>No check, by design.</strong></td></tr>
+          <tr><td class="ctr">18</td><td>A derelict, table still set, no crew, no damage, no explanation</td><td class="mono">DC 13 Investigation: impossibly preserved. DC 18 (rare): a logbook cuts off mid-word.</td></tr>
+          <tr><td class="ctr">19</td><td>A neogi slaver hull, running parallel, not engaging, yet</td><td class="mono"><strong>No check, background only.</strong> Never a forced reveal of Brass's thread.</td></tr>
+          <tr><td class="ctr">20</td><td><strong>The Murder Comet.</strong> Homes in on heat and motion, i.e. ships.</td><td class="mono">DC 15 Nature before it's in range: identifies it early, including the melee-triggers-Impact rule. Real tactical value.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h4>The Murder Comet, full stats</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">19</span></div>
+      <div><span class="k">HP</span><span class="v">85</span></div>
+      <div><span class="k">Speed</span><span class="v">fly 90 ft</span></div>
+      <div><span class="k">CR</span><span class="v">5</span></div>
+    </div>
+    <p class="measure">Immune fire, cold, poison; blindsight 120 ft (blind beyond). <strong>Slam</strong> +8 to hit, 18 (4d6+4) bludgeoning + 10 (3d6) fire. <strong>Impact</strong> (recharge 6, or on death): 30-ft radius, 42 (12d6) fire, DC 15 Dex half, comet destroyed. Verified, <em>Boo's Astral Menagerie</em>.</p>
+  </section>
+
+  <!-- SOCIAL -->
+  <section id="social">
+    <div class="sec-head"><span class="sec-num">04</span><h2>Social: Aerion's Uncle, and the Carrow Letters</h2></div>
+    <p class="sec-intro">Both leads' validation beats live here. Aerion's is scripted in depth below; Orena's comes sideways, through the Board pick and the bastion turn, not a separate scene this session, by design.</p>
+
+    <h3>Vaelren, at the Compass Rose</h3>
+    <p class="measure">Unannounced, when the crew comes through. Aerion's uncle, trainer, and the model for his own restraint, never actually played at the table before, only referenced. <strong>The visual is the whole joke before he says a word:</strong> a loud Hawaiian shirt, socks and sandals, nothing that reads as "space samurai" at all, a direct punchline against both the composed trainer Aerion remembers and the severe Vaelros below.</p>
+
+    <div class="read">
+      <span class="read-label">Read aloud, Vaelren's entrance</span>
+      <p>He's not hard to spot. He's the only person at the Compass Rose in a shirt loud enough to be heard, socks pulled up under sandals, looking like he hasn't held a sword in a decade and doesn't miss it. He sees Aerion before Aerion sees him, and he grins like this is the best thing that's happened to him all week.</p>
+    </div>
+
+    <div class="quote"><span class="who">Vaelren</span>"Your father called it getting eased out. I call it the best decision I ever made. There's no ceremony in it, kid, I just stopped showing up to things that made me miserable, one at a time, until none of them were left."</div>
+    <div class="quote"><span class="who">Vaelren, when pushed</span>"Lost? No. I won. Nobody tells you winning looks like this, but it does."</div>
+    <div class="quote"><span class="who">Vaelren, quieter, the real point</span>"You've stood like that since you were twelve, I know, shoulders squared like the whole house falls down if you ever once unclench. Nobody's going to blame you for setting it down a minute. Not even you, if you let yourself."</div>
+    <div class="quote"><span class="who">Vaelren</span>"You don't have to win his argument, kid. You could just stop having it. Be whoever you actually are with that sword, not whichever version keeps the ledger looking good on paper."</div>
+
+    <div class="call pc"><span class="call-label">Both consider this a total victory</span><p>Vaelros considers his son's compliance a win and Vaelren's exit a cautionary tale. Vaelren considers walking away the best thing he ever did. Worth letting that sit unresolved rather than picking a winner. Everything Aerion actually says back, in any of this, stays entirely open, don't script his words.</p></div>
+
+    <h4>The flashback, private to Aerion's own head</h4>
+    <p class="measure">Triggered by the reunion, not shared with the table the way Orena's dodecahedron vision was. The night he actually chose to leave the family business, two beats.</p>
+    <p class="measure"><strong>Beat one, the function.</strong> A real House Windsong event, a sparring showcase at its center. Aeric and Aeris both fight, Champion-clean. Aerion isn't on the roster; if he pushes to be included, Vaelros allows one token bout, no real stakes, a courtesy match. Being offered the undercard is the insult.</p>
+    <p class="measure"><strong>Beat two, the ultimatum, same night, right after, still raw.</strong> Guests gone, Vaelros finds him alone.</p>
+    <div class="quote"><span class="who">Vaelros</span>"We move goods through open space. A man who can't defend what's his doesn't keep it long, that's not philosophy, that's arithmetic. Your brothers understand that. Whatever you're doing with Vaelren's blade, it isn't that."</div>
+    <div class="quote"><span class="who">Vaelros, sharper</span>"And look at where it got him. We eased him out for the house's own good, and you want to inherit his same end?"</div>
+    <p class="measure">The ultimatum: give it up, commit fully to the business, or lose his place in it. Vaelros's words, the brothers' postures, the room, all usable as-is. Everything Aerion actually says back stays open.</p>
+
+    <h3>The Carrow letters, and Estra's own question</h3>
+    <p class="measure">Estra already knows the Vellum note was a bluff. What's still unresolved: the Carrow/Amberwake letters themselves, and Estra's own pointed question, whether there wasn't something more Orena wanted to ask the dodecahedron. A joint Orena/Aerion scene, the two of them alone with what's still unshared.</p>
+    <ol class="clean">
+      <li><strong>Do they even agree with each other?</strong> Aerion's read (practical, political) and Orena's (instinctive, protective of Estra) don't have to land the same place.</li>
+      <li><strong>If they decide to tell her:</strong> a real scene, played straight. Her reaction is hers to have, not scripted here.</li>
+      <li><strong>If they wait, or answer some other way:</strong> a legitimate, standing choice, not a failure state. Still-open going into session 5.</li>
+    </ol>
+  </section>
+
+  <!-- THE JOB -->
+  <section id="job">
+    <div class="sec-head"><span class="sec-num">05</span><h2>The Job: the Board Pick</h2></div>
+    <p class="sec-intro">The Board always gets picked by pay, so only these three need full depth. All three are live, uncommitted, pick at the table. Everything else on the board this rotation is a one-liner, listed after the tabs.</p>
+
+    <div class="tabbar" role="tablist">
+      <button class="tabbtn" role="tab" aria-selected="true" data-tab="a"><span class="tt-name">Dressing the Part</span><span class="tt-pay mono">2,500 gp &middot; 20 days</span></button>
+      <button class="tabbtn" role="tab" aria-selected="false" data-tab="b"><span class="tt-name">Last Known Position</span><span class="tt-pay mono">2,800 gp &middot; 14 days</span></button>
+      <button class="tabbtn" role="tab" aria-selected="false" data-tab="c"><span class="tt-name">Open Water, Open Season</span><span class="tt-pay mono">3,100 gp &middot; 20 days</span></button>
+    </div>
+
+    <div class="tabpanel" id="panel-a" role="tabpanel">
+      <h3>Dressing the Part</h3>
+      <p>A minor noble house needs a reputable, prestigious charter to carry the family to a grand event well off the common lanes: a confirmation gala, a houses' summit, a season ball where the guest list is the whole point.</p>
+      <div class="call danger"><span class="call-label">Complication</span><p>The crew is 344th on a Board that counts, flying a hull under a borrowed name. The job is to <em>pass</em>: keep the rank buried, keep Tack from introducing Deborah to the valet, make the tattered flag read as heritage instead of salvage.</p></div>
+      <div class="call cost"><span class="call-label">Qualifier (soft, and the whole premise)</span><p>The posting technically asks for "a reputable, established charter." The family's budget doesn't stretch to one, which is the only reason this crew got the call, and passing in person is the job.</p></div>
+      <div class="call opp"><span class="call-label">Spotlight</span><p>Aerion's real poise, the family game he actually knows how to play, lands as pure competence this time rather than pain, a direct tonal counterweight to the Vaelren/Vaelros scene the same session. Oz's flawless manners carry the whole imposture, a rare real spotlight for him tonight. Good money for farce, with a real bite if the mask slips.</p></div>
+    </div>
+
+    <div class="tabpanel" id="panel-b" role="tabpanel" hidden>
+      <h3>Last Known Position</h3>
+      <p>An independent trading crew's ship went silent two days ago near a dead-hulk field, hasn't answered a single hail since. The client, an insurer or the ship's own worried partner outfit, pays well for someone to find out what happened and render aid if there's aid left to render. <strong>Not a social grudge, not another Manifest Board rival.</strong></p>
+      <h4>THE NIGHT SCAVVER</h4>
+      <div class="spec">
+        <div><span class="k">AC</span><span class="v">15</span></div>
+        <div><span class="k">HP</span><span class="v">105</span></div>
+        <div><span class="k">Speed</span><span class="v">fly 60 ft</span></div>
+        <div><span class="k">CR</span><span class="v">5</span></div>
+      </div>
+      <p class="mono" style="font-size:.85rem;color:var(--muted-text)">"The one you use when you want a scary scavver fight." Shadow Hunter (advantage on Stealth in the dark, advantage vs. surprised targets). Multiattack, two Bite, +7 to hit, 16 (2d10+5), DC 14 Str or knocked prone.</p>
+      <div class="call danger"><span class="call-label">The stricken ship is mostly intact</span><p>Something's latched onto it and kept anyone aboard pinned down. Real mixed combat: ship-pool fire can drive it off from range, but finding and pulling survivors means someone actually boarding the wreck while it's still circling, a genuine personal-danger beat on top of the ship combat, not just another gunnery exchange.</p></div>
+      <h4>Branch points</h4>
+      <ul class="clean">
+        <li>How the crew approaches: loud, to draw the scavver off first, or quiet, to search before it notices.</li>
+        <li>Whether survivors are found at all.</li>
+        <li>The real, earned cost if the boarding goes wrong.</li>
+      </ul>
+    </div>
+
+    <div class="tabpanel" id="panel-c" role="tabpanel" hidden>
+      <h3>Open Water, Open Season</h3>
+      <p><strong>The posting comes directly from Aurel Delverane's own survey office at the Farthing Station</strong>, not an anonymous clerk. The Windward Edge's standing surf has been creeping inward, the Guttering wearing its most beautiful face, and it's made a specific, previously-reliable stretch of chart unreadable. Delverane wants to know whether the old charts can still be trusted, and Orena is the one who can actually answer that.</p>
+      <p class="measure">A standing CIV Open Season bounty rides alongside on any scavvers encountered (gray 5 gp, brown 250 gp, night 750 gp), incidental to the survey, not the job's point.</p>
+      <h4>What's actually out there, by DC tier (Survival/Nature)</h4>
+      <ul class="clean">
+        <li><strong>DC 10:</strong> an ordinary, usable lane, low value (50-300 gp).</li>
+        <li><strong>DC 13:</strong> the lane brushes a patch of visibly thinning Tide, a small, real Guttering symptom, mid value (300-1,500 gp). Orena's own call whether the writeup is honest or softened.</li>
+        <li><strong>DC 16+:</strong> the thinning traces to a physical marker, an old corridor signpost from a delisted route, unprecedented value (1,500-10,000+ gp). The same pattern Meech has been privately tracking, pure color unless the table pulls on it.</li>
+      </ul>
+      <div class="card">
+        <h4>Aurel Delverane, her first real on-screen scene</h4>
+        <p>Thirty-one, younger daughter of a founding house that's never forgiven her for choosing fieldwork over a boardroom. Runs survey and acquisition out of the Farthing Station personally, hands dirty, not delegated.</p>
+        <p><strong>Voice tic:</strong> narrates her own observations out loud, half to herself. <strong>Physical tic:</strong> chart-ink on at least one finger, never quite washed off. <strong>Want:</strong> to be the one who's right about the Edge's surf before anyone senior takes it seriously. Flagged, per existing canon, as the single most likely person in Wildspace to become a real ally, they're neighbours and neither knows it yet.</p>
+      </div>
+    </div>
+
+    <h3>The rest of the board (one-liners, no build needed)</h3>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Posting</th><th class="num">Pay</th><th>Days</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td class="name">The Standoff at Nine Locks</td><td class="num">2,000 gp</td><td>10</td><td>Two crews, a double-booked lock. DC 12 Investigation ends it clean; DC 13 Persuasion brokers a compromise; failing both, a brief non-lethal scuffle.</td></tr>
+          <tr><td class="name">One Last Job</td><td class="num">1,900 gp</td><td>11</td><td>A retiring crew's dying ship. Full expanded version (a repair, then flying their actual last delivery together) in <a href="#reference" class="inline">Reference</a>.</td></tr>
+          <tr><td class="name">The Vault at the Nine-Day Fair</td><td class="num">1,500 gp</td><td>6</td><td>A fair's unpaid strongbox (rigging, dye, an automaton joint). A former Velvet Comet performer, not dangerous, works the fair now.</td></tr>
+          <tr><td class="name">Colors and Protocol</td><td class="num">1,700 gp</td><td>8</td><td>A giff mercenary company, strict protocol. Their logistics officer trained in Oz's own era and tradition, a peer, not his old unit.</td></tr>
+          <tr><td class="name">Off the Books</td><td class="num">2,000 gp</td><td>5</td><td>A quiet medical removal, no registry: a chip, a brand, old shrapnel. Brass's whole identity as a job.</td></tr>
+          <tr><td class="name">Loose Ends</td><td class="num">1,900 gp</td><td>9</td><td>Animated constructs still guarding a derelict, faithfully executing a dead order. Disable or salvage.</td></tr>
+          <tr><td class="name">Guest of Honor</td><td class="num">1,500 gp</td><td>4</td><td>A wealthy patriarch sponsoring a rare Dog Show entrant for house reputation, open call. Flurry's just what this crew has on offer.</td></tr>
+          <tr><td class="name">Minding Mabel</td><td class="num">900 gp</td><td>5</td><td>Babysit a giant pet space hamster. A gray scavver pack (CR 1/4 each) has started sniffing around, low real danger.</td></tr>
+          <tr><td class="name">Open Season, Three Rounds</td><td class="num">per kill</td><td>same day</td><td>A nest needs thinning, fast, 3 rounds flat, payment per confirmed kill.</td></tr>
+          <tr><td class="name">Best in Show</td><td class="num">1,600 gp</td><td>9</td><td>A giff colonel's prize animal to exhibition. Adores Oz, hates the ship. Returning, player-requested.</td></tr>
+          <tr><td class="name">Under Observation</td><td class="num">900 gp</td><td>16</td><td>A curious academic wants to live aboard a couple weeks, pure observation, no agenda. Returning, reframed.</td></tr>
+          <tr><td class="name">Best in Dough</td><td class="num">100 gp</td><td>same day</td><td>A dockside bake-off, judge Inneda Dough, sponsor Maude Underhill, both legacy cameos.</td></tr>
+          <tr><td class="name">Return Post</td><td class="num">50 gp</td><td>same day</td><td>Deliver a love letter, Dessa Kell to Sedge Okonkwo. Finny should surface the gossip in character. Letter: <span class="mono">sessions/letter-return-post.html</span></td></tr>
+          <tr><td class="name">With Apologies</td><td class="num">75 gp</td><td>same day</td><td>A passive-aggressive apology over a teapot, pure standalone silliness. Letter: <span class="mono">sessions/letter-with-apologies.html</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="measure"><strong>Standing, never rotates off:</strong> Open Season (the scavver cull bounty), The Leech Line (live jammer leeches, paid per specimen), Secrets for Secrets (the berbalang den, fee negotiable).</p>
+  </section>
+
+  <!-- BASTION -->
+  <section id="bastion">
+    <div class="sec-head"><span class="sec-num">06</span><h2>Bastion Actions / Downtime</h2></div>
+    <p class="sec-intro">Standard voyage-leg turns apply. Aerion's Storehouse (ordinary trade or the costume business) and Smithy; Orena's Library (Research or the cartography table) and Workshop. Whichever job gets picked, there's room for at least one real turn each during transit.</p>
+
+    <div class="call opp"><span class="call-label">Orena's Library turn, a quiet found-family beat</span><p>Rather than one of her usual topics (the Wayfinder Knot, the Guttering, the Houses), she can spend this leg's Research order on fabrics and materials for Aerion's costume business, unasked, which is the point.</p></div>
+
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="ctr">DC</th><th>Fabrics &amp; materials, for Aerion's costume business</th></tr></thead>
+        <tbody>
+          <tr><td class="ctr">12</td><td>Common fabric pricing and availability, nothing he couldn't find himself</td></tr>
+          <tr><td class="ctr">15</td><td>A specific supplier carrying surplus astral sailcloth, a real lead</td></tr>
+          <tr><td class="ctr">20</td><td>That sailcloth is Windsong scrap, resold off his own family's shipyards, without them knowing whose costumes it ends up in</td></tr>
+          <tr><td class="ctr">25</td><td>The resale isn't Windsong's doing, it's Aeris buying the scrap cheap and flipping it, quiet leverage over material his own house throws away</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="measure"><strong>Mechanical reward, one-time, not a lever:</strong> a hit at any DC grants Aerion one free reroll, kept, on the price die for his next Storehouse costume order. Spent once, then gone.</p>
+  </section>
+
+  <!-- REFERENCE -->
+  <section id="reference">
+    <div class="sec-head"><span class="sec-num">07</span><h2>Reference</h2></div>
+    <p class="sec-intro">The crew, the ship, the Board, and the two creature stat blocks tonight might actually need, all in one place.</p>
+
+    <h3>The crew, quick reference, how to actually play them</h3>
+    <div class="crew">
+      <div class="card">
+        <div class="c-top"><h4>Captain Estra Vane</h4><span class="c-role">Captain</span></div>
+        <p>Played as a softer Captain Holt: almost never reacts, so the rare time she does, it lands like a crater. One flat, dry line, then she moves on, no lingering. Props for the real cracks: the Board-bristling moment, the solitaire hand.</p>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Oz Hammerfall</h4><span class="c-role">Security / Scout</span></div>
+        <p>Polite is the baseline, not the whole performance. In a fight, a second gear: crisp, directive, the competent soldier underneath, softening back after. Once in a while, let something go wrong in his hands and give him a half-second of total stillness before he resets. Don't explain it.</p>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Tack</h4><span class="c-role">Engineer / Gunner</span></div>
+        <p>One job, not more personality: the barometer for the ship's wellbeing. After damage, narrate her like a patient, one line, done. The daily creak argument with Aerion is his Finny-equivalent, ready cold, any time.</p>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Brassica "Brass" Thorngage</h4><span class="c-role">Medic / Cook</span></div>
+        <p>Answers the question you should have asked instead of the one you did, on autopilot. Depth beyond the one-liner: the 0300 galley, real food, no cook-duty roll, feeding whoever can't sleep.</p>
+      </div>
+      <div class="card">
+        <div class="c-top"><h4>Finnick "Finny" Groles</h4><span class="c-role">Rigger / Deckhand</span></div>
+        <p>Already working, quirks and obsessions (the Board, gossip, the deposits at Bral) are the whole engine. Keep doing exactly this. Tonight specifically: he's the one who surfaces the Dessa/Sedge gossip in character if Return Post gets taken.</p>
+      </div>
+    </div>
+
+    <h3>The ship, at a glance</h3>
+    <div class="spec">
+      <div><span class="k">Hull</span><span class="v">Night Fury</span></div>
+      <div><span class="k">Ballistae</span><span class="v">5 (2 upgraded)</span></div>
+      <div><span class="k">Crew</span><span class="v">9 tonight</span></div>
+      <div><span class="k">Op. cost</span><span class="v">800 gp/mo</span></div>
+    </div>
+
+    <h4>Ship combat stations, crew-pool system</h4>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Station</th><th class="ctr">Cost</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Helm</td><td class="ctr">1</td><td>Flies, picks one: Evasive Action, Full Burn, Boarding Action.</td></tr>
+          <tr><td class="name">Ram</td><td class="ctr">2</td><td>One attack, ship takes half damage back. Replaces the Helm's 1.</td></tr>
+          <tr><td class="name">Ballista (<em>Night Fury</em>)</td><td class="ctr">2</td><td>Reduced from baseline 3 by fitted upgrades.</td></tr>
+          <tr><td class="name">Engineer</td><td class="ctr">1</td><td>Emergency Patch, DC 12, regain HP = level, once per encounter per Engineer.</td></tr>
+          <tr><td class="name">Coordinator</td><td class="ctr">1</td><td>One per round: advantage, disadvantage, or +1d4 for an ally.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>The Manifest Board, the bottom of the ladder tonight</h4>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="ctr">Rank</th><th>Vessel</th><th>Captain</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td class="ctr">343</td><td class="name"><em>Fair Return</em></td><td>Marlow Albus</td><td>Firm neighbor as of tonight</td></tr>
+          <tr style="background:color-mix(in srgb, var(--accent) 10%, transparent)"><td class="ctr">344</td><td class="name">The crew</td><td>Estra Vane</td><td>Up one, joint-job climb</td></tr>
+          <tr><td class="ctr">345</td><td class="name"><em>Kettle</em></td><td>the Weatheralls</td><td>Up one; a singing family now</td></tr>
+          <tr><td class="ctr">346</td><td class="name"><em>Cutlass Sunday</em></td><td>Rimmon Vex</td><td>Passed twice, furious about it</td></tr>
+          <tr><td class="ctr">347</td><td class="name"><em>Quiet Sum</em></td><td>Ollo Trask</td><td>No change</td></tr>
+          <tr><td class="ctr">348</td><td class="name"><em>Amity's Reward</em></td><td>(none)</td><td>Mystery derelict</td></tr>
+          <tr><td class="ctr">349</td><td class="name"><em>Vermilion Hour</em></td><td>unknown</td><td>Still on fire; <em>Steadfast Promise</em>'s slot is gone outright</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>The Night Scavver, full stats</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">15</span></div>
+      <div><span class="k">HP</span><span class="v">105</span></div>
+      <div><span class="k">Speed</span><span class="v">fly 60 ft</span></div>
+      <div><span class="k">CR</span><span class="v">5</span></div>
+    </div>
+    <p class="measure">Stealth +6, Perception +5, darkvision 120 ft. Shadow Hunter (advantage on Stealth in the dark, advantage vs. surprised targets). Multiattack, two Bite, +7 to hit, 16 (2d10+5) piercing, DC 14 Strength or knocked prone. Verified, <em>Boo's Astral Menagerie</em>.</p>
+
+    <h4>One Last Job, in full</h4>
+    <p class="measure"><strong>Captain Bess Calloway</strong>, retiring for good, flying a hauler held together by faith and patchwork for thirty years. Her crew of three, all lifers, all older than the ship herself feels. <strong>Part one, the repair:</strong> a stressed keel joint, a dying gravity-plane coil, a genuine hands-on Engineer- or Smithy-flavored scene, not a line-item skill check. <strong>Part two, the job itself:</strong> once she's patched, the <em>Night Fury</em> flies escort for Bess's actual last delivery, closing the loop on a route she's run for three decades, a small Verge colony serviced since before any of the current crew was born. Bittersweet, warm, a direct mirror of tonight's own "last job of the week" framing.</p>
+  </section>
+
+  <!-- NEXT -->
+  <section id="next" style="border-bottom:none">
+    <div class="sec-head"><span class="sec-num">08</span><h2>Next: Return, Fallout, and the Ending Hook</h2></div>
+
+    <h4>Return to port</h4>
+    <p class="measure">Close back at the Rock of Bral. Rank moves again if the job's result earns it (DM judgment). Note explicitly whether the Carrow/Vellum conversation happened, and what Aerion actually said to Vaelros and Vaelren.</p>
+
+    <h4>Senna, at the Delverane Window</h4>
+    <p class="measure">If Open Water, Open Season got picked, this is literally where Orena sells the survey data. If a different job got picked, give Senna a lighter beat and a piece of pure gossip, keep it warm, no new breadcrumb needed.</p>
+
+    <h4>Payroll and repairs</h4>
+    <p class="measure">The new 800 gp/month operating cost takes effect this voyage, plus whatever repairs the job produced.</p>
+
+    <div class="call dm"><span class="call-label">Ending hook, don't force it</span><p>Pick whichever the session's events made loudest: Aerion and Vaelren, the Carrow/Vellum decision, the rescued crew's fate (Last Known Position), whether the mask held at the gala (Dressing the Part), Orena's own read on the job, or simply the two new hires settling in. <strong>This session doesn't need to plant session 5's hook.</strong> It's fine, maybe better, to land on pure warmth.</p></div>
+
+    <h4>Banked, untouched regardless of tonight</h4>
+    <ul class="clean">
+      <li>Carrow/Amberwake and Wren Ostler, fully dormant since session 2.</li>
+      <li>The Velvet Comet's revenge and Cordelia Leaftully's open invitation.</li>
+      <li>Quiet Water and The Ledger Run, session 3's unused set.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="divider-note">One Last Job &middot; Astral Vagabonds, Session 4</span>
+    <span class="divider-note">Full prep: <span class="mono">sessions/Session 4 Prep.md</span></span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement, btn = document.getElementById('themeToggle');
+    function cur(){ return root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light'); }
+    btn.addEventListener('click', function(){ var n = cur()==='dark'?'light':'dark'; root.setAttribute('data-theme', n); btn.innerHTML = n==='dark'?'&#9681;':'&#9680;'; });
+
+    var tabs = document.querySelectorAll('.tabbtn');
+    tabs.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        tabs.forEach(function(b){ b.setAttribute('aria-selected','false'); });
+        btn.setAttribute('aria-selected','true');
+        ['a','b','c'].forEach(function(k){
+          var panel = document.getElementById('panel-'+k);
+          if (panel) panel.hidden = (k !== btn.dataset.tab);
+        });
+      });
+    });
+  })();
+</script>
