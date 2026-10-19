@@ -24,7 +24,7 @@ No point system, no formula. **The Board updates whenever the crew is back at a 
 
 ## The Bottom: where the crew lives
 
-These five are the crew's immediate neighbourhood for a long time, and they should become recurring furniture. About half of them are jokes. About half of them are not.
+These ten, five above and five below, are the crew's immediate neighbourhood for a long time, and they should become recurring furniture. About half of them are jokes. About half of them are not.
 
 **349. *Vermilion Hour*:** Squid-class, owner unknown. **On fire.** Has been on fire for six months. The fire is a bound elemental in a cargo hold nobody can open, and the CIV cannot decide whether an unextinguished ship counts as operational. The *Vermilion Hour* files perfect paperwork every quarter. Nobody has ever met her captain.
 
@@ -38,12 +38,30 @@ These five are the crew's immediate neighbourhood for a long time, and they shou
 
 **345. *Kettle*:** Hauler-class, captained by the **Weatherall family**, three generations aboard, nineteen people, four of them children. Slow, safe, and completely uninterested in ranking, and as of session 4, a singing family: close-harmony work-songs run through everything they do, chores, watch rotations, meals, the way some families just talk instead. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session. *(Their hauler is boarded and robbed in M6: make them neighbours the crew likes first, so it lands.)*
 
+**344. *Held Together*:** Cutter-class, barely, captained by **Fitz Ambrel**, gnome tinkerer. Rebuilds his own ship mid-flight, permanently, loudly, and somehow she keeps flying. A recurring comic tension ("don't look at the keel"), and a sharper mirror than it looks: this is one bad quarter from where the crew could end up if the account ever actually runs dry.
+
+**343. *Second Proof*:** Hauler-class, a floating bakery and the local outpost of **the Galactic Grandmas**, a brand-new venture founded by **Maude Underhill** after she passed leadership of the Red Yarn Society (Baldur's Gate, her old group) on to her own successor and decided to start something new out here instead. Run day to day by **Ouma Birch**, a halfling grandmother cut from the same cloth as Maude. Baking is the warm front; the real business, same as the Society ever was, is who's talked to whom. **Ties to tonight's Best in Dough posting**, Maude's own sponsorship, same universe, same warmth, no new backstory needed.
+
+**342. *Witnessed*:** Cutter-class, traveling notaries, captained by **Perpetua Marsh**, more exacting than Meech on his best day. Their stamp is treaty-recognized and effectively unforgeable; "if it's not *Witnessed*, it's not binding" is a real saying dockside. Pure bureaucratic comic texture, a mirror for Meech rather than competition for him.
+
+**341. *Last Laugh*:** Cutter-class, a legitimate clown troupe, captained (billed) by **Marisol "Mother" Quick**. Genuine performers-for-hire, warm and a little strange, booked for weddings and funerals both, same jokes either way. The tonal cousin to the Velvet Comet, same aesthetic, opposite intent, good for undercutting the dread if that thread ever resurfaces.
+
 **340. THE CREW.** Started at 348 after job one, climbed to 345 after session 2's combined vacancy-and-climb update, then to 340 after session 4's reassessment of Two Chairs Short, a real fight for a legendary client, not a modest joint-job bump. See the update note above.
 
 > **Fair Return moved out of this neighbourhood, not into it.** Albus climbed too, 331st to 329th, on the strength of the same job, but that puts him further above the crew now, not beside them. He's warm, real, and a friend, see the Mid-board entry below, just not someone they'll run into by accident anymore.
 
 > **What happened to Bex.** The friendly-rival read broke at the end of session 1: Bex ambushed the *Night Fury* for real leaving Reefside, boarding fight and all, and lost badly, her ship destroyed outright by the port's own defense cannons in the aftermath. A destroyed hull can't hold a charter, so the *Grendel's Wake* is gone from the Board, not just fallen further down it. **Her personal fate is deliberately left open** (on death's door, not confirmed dead) and staying offscreen for now, decide it on purpose whenever the table wants that scene. See `sessions/Session 1.md`.
 > **The ceiling is gone, and that's worth noticing out loud.** Bex was the rival to lean on, a friendly one, a rank to chase and lose. With her slot gone, the crew's nearest neighbour going forward is the *Cutlass Sunday* below, teeth instead of warmth. Don't rush to replace her with a new friendly face; let the gap sit for a session or two first.
+
+**339. *Two for the Road*:** Cutter-class, crew of exactly two, married decades, **Bryn and Seli Hollis**. Impossibly efficient, finish contracts other crews need six people for, and won't fully explain how. An aspirational or unsettling mirror for Estra, depending on the week.
+
+**338. *First Class*:** Cutter-class, astral postal carriers, captained by **Oswin Carrack**. Treaty-protected, nobody boards them, nobody's tried twice. "The mail always gets through" is an enforced fact of the setting here, not a figure of speech, and a plot-delivery device if the table ever needs one.
+
+**337. *Due Process*:** Cutter-class, three retired Route Wardens running contracts privately, captained by **Ressa Tolliver**. By the book, to the letter, no exceptions, for anyone. A friction magnet for anyone cutting corners (Vex especially), and a real ally or a real obstacle depending what the crew's quietly carrying at the time.
+
+**336. *Green Hollow*:** Unclassed, a living treant grown rather than built, who is herself the ship's captain in every sense that matters. Named **Hollowmoss**, ancient and slow to speak, crewed by awakened animals who followed her out of the forest she used to stand in, among them an owl navigator (**Pellit**) and a bear engineer (**Grum**). Warm, strange, a little sacred. She doesn't speak often. It means something when she does.
+
+**335. *Riptide Chorus*:** Unclassed, kindori riders, captained by **Wyn Oakhollow**, half-elf, who steers by singing alongside the pod rather than commanding a crew in the usual sense. A different, hands-on cousin to Sael Rowe's own kindori-adjacent reputation at rank 8, visibly stranger to watch work.
 
 **346. *Cutlass Sunday*:** Cutter-class, captained by **Rimmon Vex**, human, forties, sour. The one bottom-feeder with teeth. Vex blames his rank on everyone but himself, scavenges wrecks and salvage that aren't legally his, undercuts on price, and will board a ship he reads as weaker if he thinks the Wardens won't hear about it. **Not a villain, a desperate man at the bottom doing desperate things,** but he is the crew's most reliable low-board *scrap*, and he takes being passed on the Board as a personal insult, which session 4's double slide (passed by the crew and by the Kettle in one update) makes considerably worse.
 > **This is the rival with teeth.** Where Bex is the friendly ceiling, Vex is the recurring fight-and-friction. When you want a combat or a confrontation that isn't a one-off stranger, it's the *Cutlass Sunday* coming around again. Great continuity for a crew whose whole social world is the bottom of the Board.
@@ -105,7 +123,16 @@ They will not meet these people for a long time. They should hear the names cons
 
 | Rank | Vessel | Captain | Disposition | Recurs as |
 |---|---|---|---|---|
+| 335 | *Riptide Chorus* | Wyn Oakhollow | Strange, warm | Kindori riders, steers by song |
+| 336 | *Green Hollow* | Hollowmoss | Strange, warm | A living treant, her own captain; awakened-animal crew |
+| 337 | *Due Process* | Ressa Tolliver | By the book | Ex-Wardens, friction for anyone cutting corners |
+| 338 | *First Class* | Oswin Carrack | Untouchable | Treaty-protected mail; a plot-delivery device if ever needed |
+| 339 | *Two for the Road* | Bryn & Seli Hollis | Unsettlingly good | Crew of two, married, outworks six-person crews |
 | **340** | **the crew** | **Estra Vane** | (home) | **home; up from 348, part vacancy, part earned climb (345 after session 2, 340 after session 4's reassessed Two Chairs Short)** |
+| 341 | *Last Laugh* | Marisol "Mother" Quick | Warm, strange | Legitimate clown troupe, the Velvet Comet's tonal opposite |
+| 342 | *Witnessed* | Perpetua Marsh | Exacting | Traveling notaries, a mirror for Meech |
+| 343 | *Second Proof* | Ouma Birch | Warm | Maude Underhill's new venture, the Galactic Grandmas; baking as the front |
+| 344 | *Held Together* | Fitz Ambrel | Comic, precarious | Gnomish tinkerer, rebuilds the hull mid-flight, still flying |
 | 345 | *Kettle* | the Weatheralls | Warm | The conscience: neighbours to protect (robbed in M6); a singing family as of session 4 |
 | 346 | *Cutlass Sunday* | Rimmon Vex | Hostile-ish | The fight: races, robbed cargo, boardings. Passed twice in one update, session 4, and furious about it. |
 | 347 | *Quiet Sum* | Ollo Trask | Rival, cordial | The undercutter: loses them contracts, apologises sincerely |
