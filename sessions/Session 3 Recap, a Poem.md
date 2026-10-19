@@ -10,4 +10,4 @@ The *Fair Return* flew alongside, two kindori calves not flying alone.
 Then clowns dropped from the rigging, the Velvet Comet's cruel parade,
 but the guns held fast and clean, and the raiders' own ram betrayed.
 At the Leaftully Institute, Hush and Glimmer found their pod,
-and the crew sailed home with coin in hand, two more seats still unfilled.
+and the crew sailed home with coin in hand, glad for the road they trod.
