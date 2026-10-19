@@ -1,0 +1,216 @@
+<title>Night Fury Helm Manual</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  /* Layout: a single bound "field manual" column, parchment pages, a running marginal index down the left on wide screens */
+  :root {
+    --paper: #f2ecda; --ink: #241d10; --ink-soft: #5c5136; --faint: #897c5c;
+    --rule: #c8ba95; --rule-strong: #a6946a;
+    --helm: #1f4d58; --helm-soft: #3c7482; --helm-bg: #e7eef0;
+    --warn: #8c3a2e; --warn-bg: #f3e4e0;
+    --good: #2f5747; --good-bg: #e6efe7;
+    --pin: #27525c;
+    --shadow: 0 2px 6px rgba(30, 22, 8, .22);
+  }
+  * { box-sizing: border-box; }
+  html { background: #c7b98f; }
+  body {
+    margin: 0; background: #c7b98f; color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; font-size: 16px; line-height: 1.56;
+    -webkit-font-smoothing: antialiased;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 28px 60px;
+  }
+  .sheet { max-width: 760px; margin: 0 auto; background: var(--paper); border: 1px solid var(--rule-strong); box-shadow: var(--shadow); }
+  .inner { padding: 34px clamp(20px, 5vw, 56px) 44px; }
+
+  .masthead { text-align: center; border-bottom: 2px solid var(--helm); padding-bottom: 18px; margin-bottom: 26px; position: relative; }
+  .masthead::before, .masthead::after { content: ""; position: absolute; top: -14px; width: 11px; height: 11px; border-radius: 50%;
+    background: radial-gradient(circle at 38% 34%, #4f8c98, var(--pin) 65%, #16343b 100%); box-shadow: inset 0 1px 2px rgba(255,255,255,.35), 0 1px 2px rgba(0,0,0,.4); }
+  .masthead::before { left: 6px; } .masthead::after { right: 6px; }
+  .eyebrow { font-family: "Courier Prime", monospace; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--helm); margin: 0 0 6px; }
+  h1 { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.7rem, 5vw, 2.3rem); letter-spacing: .02em; margin: 0; }
+  .for-line { font-style: italic; color: var(--ink-soft); margin: 8px 0 0; font-size: 1rem; }
+
+  h2 { font-family: "IM Fell English SC", Georgia, serif; font-size: 1.35rem; letter-spacing: .01em; margin: 34px 0 4px; color: var(--helm); border-bottom: 1px solid var(--rule); padding-bottom: 6px; }
+  h2 .num { font-family: "Courier Prime", monospace; font-size: .62em; letter-spacing: .1em; color: var(--faint); margin-right: 10px; vertical-align: 2px; }
+  h3 { font-family: "IM Fell English", Georgia, serif; font-weight: 700; font-size: 1.1rem; margin: 18px 0 4px; }
+  p { margin: 10px 0; max-width: 64ch; }
+  .lede { color: var(--ink-soft); font-size: 1.02rem; }
+  ul.clean, ol.clean { margin: 10px 0; padding-left: 22px; max-width: 64ch; }
+  ul.clean li, ol.clean li { margin: 6px 0; }
+  strong { color: var(--ink); }
+
+  .shipcard { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px 16px; margin: 14px 0 6px; padding: 16px 18px; background: var(--helm-bg); border: 1px solid color-mix(in srgb, var(--helm) 35%, var(--rule)); border-radius: 6px; }
+  .shipcard div { display: flex; flex-direction: column; }
+  .shipcard .k { font-family: "Courier Prime", monospace; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--helm-soft); }
+  .shipcard .v { font-family: "IM Fell English SC", serif; font-size: 1.2rem; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .shipcard .v small { font-family: "Courier Prime", monospace; font-size: .55em; letter-spacing: .03em; color: var(--ink-soft); }
+
+  .tablewrap { overflow-x: auto; margin: 14px 0; border: 1px solid var(--rule-strong); border-radius: 6px; background: rgba(255,255,255,.25); }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; min-width: 480px; }
+  th, td { text-align: left; padding: 9px 13px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--helm); background: color-mix(in srgb, var(--helm-bg) 70%, transparent); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.name { font-weight: 700; white-space: nowrap; }
+
+  .callout { border-radius: 6px; padding: 13px 16px; margin: 14px 0; border: 1px solid; font-size: .94rem; max-width: 64ch; }
+  .callout .lab { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; display: block; margin-bottom: 4px; }
+  .callout p { margin: 2px 0 0; }
+  .callout.warn { background: var(--warn-bg); border-color: color-mix(in srgb, var(--warn) 40%, transparent); }
+  .callout.warn .lab { color: var(--warn); }
+  .callout.good { background: var(--good-bg); border-color: color-mix(in srgb, var(--good) 40%, transparent); }
+  .callout.good .lab { color: var(--good); }
+
+  .maneuver { border: 1px solid var(--rule-strong); border-left: 4px solid var(--helm); border-radius: 6px; padding: 14px 18px; margin: 12px 0; background: rgba(255,255,255,.3); }
+  .maneuver h3 { margin: 0 0 4px; color: var(--helm); }
+  .maneuver .tag { font-family: "Courier Prime", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+  .maneuver .catch { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--rule-strong); font-size: .92rem; }
+  .maneuver .catch b { color: var(--warn); }
+
+  .checklist { counter-reset: step; list-style: none; padding: 0; margin: 12px 0; max-width: 64ch; }
+  .checklist li { counter-increment: step; position: relative; padding: 4px 0 4px 34px; margin: 2px 0; }
+  .checklist li::before { content: counter(step); position: absolute; left: 0; top: 4px; width: 22px; height: 22px; border-radius: 50%; background: var(--helm); color: var(--paper); font-family: "Courier Prime", monospace; font-size: 11px; font-weight: 700; display: grid; place-items: center; }
+
+  .quickref { margin-top: 36px; border: 2px solid var(--helm); border-radius: 8px; padding: 18px 20px 14px; background: var(--helm-bg); }
+  .quickref h2 { margin-top: 0; border: none; padding-bottom: 0; }
+  .quickref .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 10px; }
+  .quickref dl { margin: 0; }
+  .quickref dt { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--helm-soft); margin-top: 10px; }
+  .quickref dt:first-child { margin-top: 0; }
+  .quickref dd { margin: 2px 0 0; }
+
+  footer { max-width: 760px; margin: 16px auto 0; text-align: center; font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .04em; color: #6b5f40; }
+
+  @media (max-width: 480px) {
+    .inner { padding: 26px 16px 32px; }
+    table { min-width: 420px; }
+  }
+</style>
+
+<div class="sheet">
+  <div class="inner">
+
+    <div class="masthead">
+      <p class="eyebrow">Night Fury &middot; Helm Station</p>
+      <h1>The Helm, a Working Manual</h1>
+      <p class="for-line">Clipped above the chair for Orena, training up from navigator to second pilot</p>
+    </div>
+
+    <p class="lede">You've flown the stars by feel for years. This is the part nobody taught you yet: what the chair actually does when the guns come out. Everything below is the whole job. It fits on fewer pages than it looks like it should.</p>
+
+    <h2><span class="num">01</span>The Ship, at a Glance</h2>
+    <p>What you're flying, in the numbers that matter mid-fight.</p>
+    <div class="shipcard">
+      <div><span class="k">Hull</span><span class="v">Night Fury</span></div>
+      <div><span class="k">AC</span><span class="v">19</span></div>
+      <div><span class="k">HP</span><span class="v">250</span></div>
+      <div><span class="k">Threshold</span><span class="v">20<small>ignores less</small></span></div>
+      <div><span class="k">Speed</span><span class="v">45 ft<small>tactical</small></span></div>
+      <div><span class="k">Your chair</span><span class="v">Coilworks<small>Mk IV</small></span></div>
+    </div>
+    <div class="callout good">
+      <span class="lab">Read this number twice</span>
+      <p><strong>Threshold 20.</strong> Any single hit under 20 damage does nothing to her at all. Small guns bounce off clean. This is why the Helm's job is rarely "dodge everything," it's steering around the hits that actually count.</p>
+    </div>
+
+    <h2><span class="num">02</span>Your Job in One Line</h2>
+    <p>Flying the ship costs nothing. It isn't your action and it isn't your movement, it's free, every single round you're in the chair. That free action buys you <strong>one maneuver</strong>. You can also skip the maneuver entirely and do something else with your real action, fly straight and cast, fight, help another station, whatever the round calls for.</p>
+    <ul class="clean">
+      <li>You pick exactly <strong>one</strong> maneuver per round, never more than one.</li>
+      <li>The maneuver lasts until <strong>your next turn</strong>, not the whole fight.</li>
+      <li>Nobody else can fly while you're in the chair. One Helm, one pilot, one maneuver.</li>
+    </ul>
+
+    <h2><span class="num">03</span>The Three Maneuvers</h2>
+    <p>This is the whole menu. Read the catch on each one as carefully as the effect, the catch is usually the actual decision.</p>
+
+    <div class="maneuver">
+      <span class="tag">Defense</span>
+      <h3>Evasive Action</h3>
+      <p>Every attack aimed at the ship has <strong>disadvantage</strong> until your next turn.</p>
+      <div class="catch"><b>The catch:</b> the ship's own weapons also fire at disadvantage this round. Nobody can get a clean shot while she's juking. Call this when the ship is taking more than she's dishing out, not as a reflex.</div>
+    </div>
+
+    <div class="maneuver">
+      <span class="tag">Speed</span>
+      <h3>Full Burn</h3>
+      <p>The ship's speed <strong>doubles</strong> this round. Close distance, run down a target, or put real space between you and a fight you don't want.</p>
+      <div class="catch"><b>The catch:</b> attacks against the ship get <strong>advantage</strong> until your next turn. Going that fast makes her a much easier target to hit. Burn to close or burn to flee, never burn just because you can.</div>
+    </div>
+
+    <div class="maneuver">
+      <span class="tag">Grapple</span>
+      <h3>Boarding Action</h3>
+      <p>A contested Piloting or Dexterity check locks your hull onto a target your size or smaller, close enough for people to cross between decks.</p>
+      <div class="catch"><b>The catch:</b> both ships are grappled now, locked together until somebody breaks it. Neither side can Full Burn or disengage while the lock holds. You're choosing a boarding fight, not just a position.</div>
+    </div>
+
+    <h2><span class="num">04</span>Which One, This Round</h2>
+    <p>A quick gut-check, in order. Stop at the first one that's true.</p>
+    <ol class="checklist">
+      <li><strong>Are we losing the exchange, taking more than we deal?</strong> Call Evasive Action and buy the crew a round to turn it around.</li>
+      <li><strong>Do we need to close on someone, or get away from something?</strong> Call Full Burn, and own that you're a bigger target while you do it.</li>
+      <li><strong>Does someone need to physically cross onto that other deck?</strong> Call Boarding Action, and know neither ship is going anywhere until the lock breaks.</li>
+      <li><strong>None of the above?</strong> Fly straight, skip the maneuver, and spend your actual action on something else, a spell, a check, backing up another station. The Helm doesn't have to do a trick every round.</li>
+    </ol>
+
+    <h2><span class="num">05</span>Rules That Actually Bite</h2>
+    <ul class="clean">
+      <li><strong>You can't hold a concentration spell while flying.</strong> Piloting takes concentration of its own. The chair and a concentration spell are mutually exclusive, pick one.</li>
+      <li><strong>Taking damage can knock you out of the chair.</strong> A caster flying the ship is a committed decision for the round, not a free seat to duck in and out of.</li>
+      <li><strong>Moving to a new station costs your movement</strong>, not your action. Switching seats mid-fight is legal and sometimes correct.</li>
+      <li><strong>Estra flies by default.</strong> You're training up as the second pilot. Either of you can take the chair; it's never locked to one person.</li>
+    </ul>
+
+    <h2><span class="num">06</span>The Rest of the Crew, So You Know What You're Flying Into</h2>
+    <p>You only run the Helm, but knowing what everyone else can do tells you what the ship is actually capable of this round.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Station</th><th>Crew</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Ram</td><td>2</td><td>One attack; the ship takes half the dealt damage back. Replaces your maneuver that round, somebody has to steer into the hit.</td></tr>
+          <tr><td class="name">Gunnery</td><td>2&ndash;3 each</td><td>Each of the five ballistae needs its own crew to fire. No shared discount for firing more than one.</td></tr>
+          <tr><td class="name">Engineer</td><td>1</td><td>Emergency Patch, once per fight: a check that restores hit points equal to the engineer's level. A bandage, not a repair.</td></tr>
+          <tr><td class="name">Coordinator</td><td>1</td><td>Once per round: advantage for an ally, disadvantage on an attack against the ship, or +1d4 to someone's roll.</td></tr>
+          <tr><td class="name">Medic</td><td>1</td><td>Stabilizes a downed crew member, once per fight.</td></tr>
+          <tr><td class="name">Personal boarding</td><td>&minus;1 from pool</td><td>Anyone can cross to a grappled ship and fight there as themselves, not as a station.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2><span class="num">07</span>Why Any of This Matters</h2>
+    <div class="callout warn">
+      <span class="lab">The real cost of a fight</span>
+      <p>The ship is tough. She shrugs off small hits and rarely goes down outright. What she racks up is a <strong>repair bill</strong>, 20 gp for every point of hull damage, due the moment you make port. A fight you win slowly can cost more than a fight you walk away from. Flying clean isn't caution, it's the account balance.</p>
+    </div>
+    <p>Winning isn't always shooting. Boarding, outrunning, or refusing a fight you don't need are on the table every single time, and they're usually the cheaper answer.</p>
+
+    <div class="quickref">
+      <h2><span class="num">&#9875;</span>Quick Reference</h2>
+      <div class="grid2">
+        <dl>
+          <dt>Evasive Action</dt>
+          <dd>They miss more. We miss more too.</dd>
+          <dt>Full Burn</dt>
+          <dd>Double speed. We're an easier target.</dd>
+          <dt>Boarding Action</dt>
+          <dd>Lock on. Neither ship leaves until it breaks.</dd>
+        </dl>
+        <dl>
+          <dt>Threshold</dt>
+          <dd>20. Small hits bounce off clean.</dd>
+          <dt>Concentration</dt>
+          <dd>Flying takes it. Pick flying or the spell.</dd>
+          <dt>Repair cost</dt>
+          <dd>20 gp per point of hull damage.</dd>
+        </dl>
+      </div>
+    </div>
+
+  </div>
+</div>
+<footer>Astral Vagabonds &middot; Night Fury Helm Manual &middot; full rules: rules/Ship Combat, Player Guide</footer>
