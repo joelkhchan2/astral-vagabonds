@@ -70,7 +70,7 @@ Names to drop as rumour long before the crew climbs to them, so the middle of th
 - **~220. *Halloway's Second*:** Bex's estranged sister **Present Halloway** runs it, and the two do not speak. A future soft hook if the players like Bex.
 - **~180. *Merigold*:** a Nightbreeze-insured family freighter that climbs suspiciously fast and never files an incident. Aerion's ledger-eye might wonder how. (Quiet Aeravellis-adjacent seed, optional.)
 - **~140. *The Long Odds*:** a genuinely beloved independent whose captain, **Ma Torrin**, mentors bottom-boarders for free and remembers everyone. The crew's most likely first friend with real pull.
-- **~24. *Windsong*:** a schooner (some say a dinghy some quarter, the Registry can't ever seem to pin down the hull), captained by **Vaelren Windsong**, astral elf, "space samurai" by reputation, one to three crew depending who you ask. Officially logged, unofficially half-myth. Aerion's uncle, and the man who trained both PCs at his camp; the Board printing his name is a small, sharp thing for either of them to notice cold, long before the campaign brings him aboard in person.
+- **20th. *Windsong*:** a schooner (some say a dinghy some quarter, the Registry can't ever seem to pin down the hull), captained by **Vaelren Windsong**, astral elf, "space samurai" by reputation, one to three crew depending who you ask. Genuinely that good, not a fluke or a half-myth padded by rumor, twentieth of 349 is earned. Aerion's uncle, and the man who trained both PCs at his camp; the Board printing his name is a small, sharp thing for either of them to notice cold, long before the campaign brings him aboard in person. **He left the family business, not the sword.** Still active, still sharp, doing it entirely on his own terms rather than Vaelros's.
 
 ## The Top Ten
 
@@ -129,7 +129,7 @@ They will not meet these people for a long time. They should hear the names cons
 | 8 | *Slack Water* | Sael Rowe | Rides with a kindori pod; reads the whales, or they read her |
 | 9 | *Compact Standard* | Dessa Kell | Ex-Vane Compact; outranks the captain who used to command her |
 | 10 | withheld pending review | | The gap on the printed Board |
-| ~24 | *Windsong* | Vaelren Windsong | Aerion and Orena's old teacher, "space samurai," half-myth |
+| 20 | *Windsong* | Vaelren Windsong | Aerion and Orena's old teacher, "space samurai," genuinely that good, still active |
 
 Higher up, as rumour, before the crew ever gets there: *Bright Arrears* (Okonkwo, the bought-out Compact hand), *Merigold* (climbs too fast, never files an incident), *The Long Odds* (Ma Torrin, mentors bottom-boarders), *Windsong* at ~24, and the Top Ten they'll hear about for a year before any of it matters.
 
