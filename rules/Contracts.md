@@ -118,8 +118,8 @@ Giant handwriting on a normal sheet of paper, folded down to fit: *"LOST: SPARKY
 
 *What it actually is:* **House Ashby and House Talvane**, two old-money families a rung below the founding Houses who loathe each other, co-hosting their kids' joint birthday because the children are best friends and insisted. Each secretly hired their own entertainment, Talvane the *Night Fury* crew, Ashby the polished **Lucky Star Revue** (Marchetta Vale, the same rival BoyBoy and Verity Gilt keep company with), and neither told the other. **The houses are the joke, the rival troupe is just along for the ride.** Full posting, both houses, the shape of the farce: `sessions/Episode - Two Houses, One Cake.md`.
 
-**Secrets for Secrets** · fee negotiable · out past the Verge
-A client hires the crew to carry a *question* to the thing that trades in secrets, because they dare not ask it themselves. Out past the settled lanes lives a **berbalang** (`references/Astral Sea Bestiary.md`, seeded in `Tier 1.md`): a lonely, amoral collector of knowledge that answers one truth for one truth and always knows a lie. *Complication:* it will not take the client's coin, only a secret, and the client's sealed question is not the whole price. To get the answer out, someone aboard has to spend a real secret of their own. Whose? *Spotlight:* the whole table, and the campaign's "knowledge as currency, silence as power" theme. Once they've met it, the bit runs itself. **Qualifier (crew, the entire premise of the job):** no rank, no reference, no bond means anything to a berbalang. The only thing that gets this job done is a crew member willing to actually give something up. Fee is negotiable because the real cost was never gold.
+**Secrets for Secrets** · pay: 1 secret · cost: 1 secret · out past the Verge
+A client hires the crew to carry a *question* to the thing that trades in secrets, because they dare not ask it themselves. Out past the settled lanes lives a **berbalang** (`references/Astral Sea Bestiary.md`, seeded in `Tier 1.md`): a lonely, amoral collector of knowledge that answers one truth for one truth and always knows a lie. *Complication:* it will not take the client's coin, only a secret, and the client's sealed question is not the whole price. **The exchange is exactly 1 for 1:** one secret in (spent by whoever aboard actually gives it up), one secret out (the true answer to the client's question). No gold changes hands at any point in this job. Whose secret pays for it? *Spotlight:* the whole table, and the campaign's "knowledge as currency, silence as power" theme. Once they've met it, the bit runs itself. **Qualifier (crew, the entire premise of the job):** no rank, no reference, no bond means anything to a berbalang. The only thing that gets this job done is a crew member willing to actually give something up.
 
 ### Standing (never rotates off the board)
 
@@ -131,18 +131,18 @@ A laminated card pinned permanently beside the fresh postings, stamped with a Ro
 **The Leech Line** · pay per specimen, live and intact · no distance, no destination
 A standing card from CIV-adjacent researchers studying magic-drain: jammer leeches wanted alive, not dead, for study. **Qualifier:** none, claimed opportunistically whenever one's found riding a hull or a becalmed kindori, same as Open Season. Unlike Open Season's kill-and-prove loop, this one rewards the slower, more unpleasant job of catching rather than crushing one, a small, recurring, faintly gross errand that never needs a complication bolted on to be worth running.
 
-**Secrets for Secrets, the den** · fee negotiable, always · out past the Verge, further than the lone berbalang
-Standing word of a small colony of berbalangs, not the single collector already on record, trading knowledge collectively the same way: no coin, no rank, no reference means anything to them, only a real secret given up for one taken. **Qualifier (crew, the entire premise):** this isn't claimed opportunistically like the other standing work above, it has to be sought out on purpose, which is exactly why it's permanent rather than a one-off, nobody takes this job by accident. See the original single-berbalang posting, Special section above, for the full flavor this scales up from.
+**Secrets for Secrets, the den** · pay: 1 secret · cost: 1 secret, always · out past the Verge, further than the lone berbalang
+Standing word of a small colony of berbalangs, not the single collector already on record, trading knowledge collectively the same way: no coin, no rank, no reference means anything to them. **Same exchange as the original posting, exactly 1 for 1:** a real secret given up buys exactly one true answer back, nothing more, nothing less. **Qualifier (crew, the entire premise):** this isn't claimed opportunistically like the other standing work above, it has to be sought out on purpose, which is exactly why it's permanent rather than a one-off, nobody takes this job by accident. See the original single-berbalang posting, Special section above, for the full flavor this scales up from.
 
 ---
 
-# PART 2 — THE TIER 1 SPINE
+# PART 2, THE TIER 1 SPINE
 
 Eight missions, levels 5 to 8, in order. Space them with two or three Jobs apiece. Each one plants something the rest of the campaign needs.
 
 ---
 
-## M1 — FIRST JOB (level 5)
+## M1, FIRST JOB (level 5)
 **The shakedown.** A modest haul out to a Verge colony, taken because they need the money and the Board entry.
 
 **What happens:** the run takes a day and a half longer than the charts allow. The port is *fine*, the people are *fine*, and the only thing wrong is arithmetic. Nobody uses the word Guttering. Nobody uses any word for it.
@@ -152,7 +152,7 @@ Eight missions, levels 5 to 8, in order. Space them with two or three Jobs apiec
 
 ---
 
-## M2 — THE INSPECTION (level 5–6)
+## M2, THE INSPECTION (level 5-6)
 Vaelros boards for a liability sweep. Full detail in `House Windsong.md`.
 
 **What it plants:** the leash, the two chains of command, and one devastating line delivered in the tone of a man reading a line item, which makes clear he has never considered Aerion a contender. He does not notice saying it.
@@ -160,7 +160,7 @@ Vaelros boards for a liability sweep. Full detail in `House Windsong.md`.
 
 ---
 
-## M3 — SOMEONE WHO WAS LOOKING (level 6)
+## M3, SOMEONE WHO WAS LOOKING (level 6)
 **Orena's first find**, and it should come early enough that the thread feels real rather than promised.
 
 A name surfaces in a Verge settlement. One of her guild crew is alive, has been alive the whole time, and **has been looking for her.** Not thriving, not broken. Waiting, and working, and asking every ship that comes through.
@@ -172,7 +172,7 @@ A name surfaces in a Verge settlement. One of her guild crew is alive, has been 
 
 ---
 
-## M4 — THE DELISTED ROUTES (level 6–7)
+## M4, THE DELISTED ROUTES (level 6-7)
 Follows the breadcrumb behind the Charter Window: **Deputy Registrar Meech has noticed three frontier routes quietly delisted last year with no incident reports attached.** It bothers him. He'll say so to anyone who asks a well-formed question.
 
 **What happens:** the crew flies one of the delisted routes. It doesn't go anywhere any more. The port at the end of it is a day and a half from where it should be, and the people living there have stopped mentioning it to visitors because the last three ships to hear about it didn't come back.
@@ -181,7 +181,7 @@ Follows the breadcrumb behind the Charter Window: **Deputy Registrar Meech has n
 
 ---
 
-## M5 — A FAVOUR FROM Aeris (level 7)
+## M5, A FAVOUR FROM Aeris (level 7)
 The political brother reaches out. Warmly. He has heard about the Board entry and he is *delighted*.
 
 He solves a real problem for them: a contract they couldn't get, a fee waived, a complaint made to disappear. **The help is genuine and it works.** He asks for nothing.
@@ -191,7 +191,7 @@ He solves a real problem for them: a contract they couldn't get, a fee waived, a
 
 ---
 
-## M6 — WHAT BOARDED THE *KETTLE* (level 7–8)
+## M6, WHAT BOARDED THE *KETTLE* (level 7-8)
 The Weatheralls' hauler out of rank 345 limps into Bral with grappling scars on her flank, cargo gone, and nobody hurt because they didn't resist. Nineteen people aboard, four of them children.
 
 **What happens:** the crew can investigate, and the evidence is a hull class. Fifteen crew, six tons of cargo, jaws. There is no legitimate trade case for that ship and the Major explained exactly what it was for while they were standing on his lot.
@@ -201,7 +201,7 @@ The Weatheralls' hauler out of rank 345 limps into Bral with grappling scars on 
 
 ---
 
-## M7 — THE AUDIT (level 8)
+## M7, THE AUDIT (level 8)
 Priscilla's mission, and it's fought entirely on paper.
 
 **Their data quality score has dropped.** Rates are down. Two surveys they filed have been marked as contradicted by the archive. They are, on the record, unreliable.
@@ -213,7 +213,7 @@ Priscilla's mission, and it's fought entirely on paper.
 
 ---
 
-## M8 — THE NAME ON THE FILING (level 8, tier transition)
+## M8, THE NAME ON THE FILING (level 8, tier transition)
 The trail ends at Aeravellis.
 
 **What happens:** the crew has proof that Aerion's brother is boarding civilian hulls and poisoning the navigation archive to cover the losses. They take it to Vaelros, because that is the correct thing to do and because Aerion will want to be the son who found it.
