@@ -19,13 +19,41 @@ Job-of-the-week shape, full skeleton applies. **This is the last job-of-the-week
 
 **Open the session here, before anything present-day.** Not Aerion's private memory this time, a real shared cold open the whole table watches, the same move session 1 and session 3 both used to start on a charged image rather than a recap. The night Aerion actually chose to leave the family business, two beats:
 
-**Beat one, the function.** A real House Windsong event, board members or allied houses present, a sparring showcase at its center. Aeric and Aeris both fight, Champion-clean, exactly the display the house wants. Aerion isn't on the roster; if he pushes to be included, Vaelros allows one token bout, against a house guard or a hired second, no real stakes, no real respect, a courtesy match, not a test. Being offered the undercard is the insult, he doesn't need to lose badly for it to land.
+**Beat one, the function.** A real House Windsong gala, big enough that the whole estate's lit for it. **The occasion isn't sentimental, it's practical:** Vaelros is courting support for Windsong's bid on the Board of founding houses' long-vacant fifth seat, House Carrow's old seat, empty since Carrow's collapse decades back (`factions/Houses & Holdings.md`). The sparring showcase at its center is the house's answer to being asked to prove its strength, literally: Aeric and Aeris both fight, Champion-clean, exactly the display the room is here to grade.
+
+**It's also, as far as Aerion knows, a Tuesday.** Nothing marks this one as different from a dozen he's stood through before. Played for exactly that: nobody in the room, least of all him, has any reason to think it's the last one.
+
+**Aerion isn't a guest here, he's staff with a family name.** He's running the gift ledger and the seating chart at a side table near the kitchens, the actual competence that makes the evening function, while his brothers do the part people applaud. Nobody thanks him for the ledger. Nobody's supposed to.
+
+**Two guests worth playing, both planted for later, neither explained tonight:**
+- **Factor Perrin Hale, House Vellum.** Here on behalf of a house that doesn't need to care who wins the seat, which is exactly why it can afford to be charming to everyone. Unhurried, soft-spoken, remembers a name on the second meeting rather than the first and makes a point of it. Exchanges maybe four sentences with Aerion over the gift ledger, pleasant, forgettable. **This is, in hindsight, the first time this table ever met anyone from Vellum.** Play him warm and harmless. He is neither, later.
+- **Agent Vance Orleth, House Darkshade.** Sent to see exactly how hard Windsong is campaigning for the same seat. Dry, watchful, the sort of man who compliments the silverware while counting the place settings. **It's Orleth who suggests, lightly, to Vaelros, that a "friendly exhibition" between the houses' own blades would read well to the room**, test the hospitality, see what Windsong's bench looks like past the two sons everyone already expected to watch fight. Vaelros agrees instantly. This is where Aerion's token bout actually comes from: not generosity, a rival house's idea of a joke, and Vaelros never once clocks that it's being used on his own son.
+
+**The exchange that lands the theme, before the bout, the only real conversation of the night:** Vaelros checks the ledger over Aerion's shoulder and says, not unkindly, entirely sincerely: *"Every guest in this room is a line in a column, son. Some pay out, some cost us, and the trick of running a house is knowing which is which before they've finished their drink. You have a good hand for numbers. Learn to have it for people too."* Aerion isn't asked if he wants to fight. He's told the room needs to see a Windsong blade, and he's the one spare.
+
+**The bout itself**, against a Darkshade retainer named Oren Fitch, bored and unbothered, is short and almost polite. Fitch barely extends himself; the room's attention is already drifting to the next course. Aerion loses clean, no drama, nobody lingers on it. That's the whole insult: not a loss that costs him anything, a loss that costs him nothing because nobody was watching closely enough for it to matter.
+
+**One small, unremarked detail, Aerion's alone to notice:** the Darkshade retinue's travel cloaks are a genuinely clever cut, weighted at the hem to hang right in zero-g without looking stiff. He says nothing. He remembers it anyway. *(A quiet, early, unforced seed for the costume business, never spoken aloud, don't explain it.)*
+
+**The room empties.** Hale's already gone by the time it winds down, having said his goodbyes to Vaelros with a warmth that will look very different in hindsight. Orleth lingers a moment too long near the door, satisfied with something nobody else in the room has named yet.
 
 **Beat two, the ultimatum, same night, right after, still raw.** Guests gone, Vaelros finds him alone. No shouting, flat and final: *"We move goods through open space. A man who can't defend what's his doesn't keep it long, that's not philosophy, that's arithmetic. Your brothers understand that. Whatever you're doing with Vaelren's blade, it isn't that."* And then, sharper, aimed at the one thing Aerion actually chose for himself: *"And look at where it got him. We eased him out for the house's own good, and you want to inherit his same end?"* The ultimatum: give it up, commit fully to the business, or lose his place in it.
 
 **What's scripted versus what's open.** Vaelros's words in both beats, the brothers' postures (Aeric uncomfortable with a win he didn't ask for, Aeravellis visibly struggling, whichever of them actually fights Aerion if anyone does), the room itself, all written above, usable as-is. **Everything Aerion actually says or does in response stays open.** Don't script his words.
 
 **Cut hard to the present**, the usual "years later" snap, no lingering transition needed. **Arrival back at the Rock of Bral, played warm.** Rank update lands here (see above), Finny's party, the usual homecoming texture. This is also where crew hiring actually happens, not improvised cold later.
+
+**Where the hiring actually comes from, a very small crew scene first.** It's Brassica's birthday, or near enough that she's decided it is, which is itself a live argument aboard this ship: in the deep Astral, physical time and aging stop reading the same way, nobody's visibly older for the months they've spent out here, and the crew has never settled whether a birthday means anything once the body's stopped keeping score.
+
+**The debate, quick, warm, nobody's actually mad:**
+- **Tack** doesn't get it, flatly, no malice: you haven't aged a day since the Astral started doing whatever it does to people, so what exactly are the candles counting. Arithmetic, to her, same instinct as everything else she measures.
+- **Finny** won't let that stand: it's not about counting years, it's about the day, and a crew that stops marking days is a crew that's stopped being people to each other.
+- **Oz**, if he weighs in: giff don't mark birth, they mark commissioning, the day you were sworn in matters more than the day you were born. Offers it as simple fact, not a correction of anyone.
+- **Estra** lets it run without settling it. If pushed, one dry line: the day doesn't matter, marking it does, now somebody pass the plate before Brass takes it personally.
+
+**Brass ends the debate by making a cake,** which was never actually a question for her. It is, predictably, terrible: a worse-than-usual escalation of her existing cook-duty d4 (`npcs/Crew Roster.md`), the kind of bad that earns its own roll. **Everyone who eats a slice rolls a Constitution saving throw, DC 13, with disadvantage** (two things wrong with the batch, stacked). A failure is a rough few hours, poisoned, nothing lasting, nothing that needs a healer, just a bad night and a worse morning.
+
+**The punchline is the point.** Somebody, Estra most likely, says out loud what's been obvious for a while: that's it, they're hiring an actual cook the moment they make port. **This is the in-fiction reason the hiring happens tonight**, not an abstract session-3 to-do item, a birthday cake that nearly put half the crew on their backs.
 
 **Where they're found.** The Compass Rose board, a direct referral (maybe from Albus's crew, a nice callback if the table wants it), or just dockside, found asking around. Let the PCs' own approach decide this rather than scripting it, it only changes how many show up and in what order.
 
