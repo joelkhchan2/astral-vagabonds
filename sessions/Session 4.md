@@ -13,7 +13,7 @@ Played as the literal opening scene, the whole table watching, not a private mem
 
 **Uncle Vaelren is physically present at the gala**, not just referenced. Drinking orange wine, half-swapping sea shanties with another house's trainer, draws his own sword as a joke mid-conversation and has to visibly rein it back in under his father's and the Gíthyanki commander judge's eyes. A Gíthyanki commander, floating level with the dueling rings, judges the formal bouts. Vaelren pulls Aerion aside for a quiet moment (the orange wine bit, "you're only 132, you're 18 years too short"), tells him their father wants a word, and sends him off to walk the room rather than hover.
 
-**Mother confirmed: Irina Nightbreeze.** A cousin on her side, **Aerin Nightbreeze** (name landed inconsistently at the table, treat Aerin as the record), works the gala the way House Nightbreeze always does, informal deal-making disguised as small talk, caught mid-negotiation with **Factor Perrin Hale of House Vellum** over paperwork that hasn't crossed his desk yet, a pointed, polite threat about "our peaceful relationship" that Perrin visibly flinches at.
+**Aerion's mother, Aerynna Nightbreeze, confirmed on the page as already established** (the table repeatedly misheard and re-said her name as "Irina" live, Aerynna is the record). A cousin on her side, **Aerin Nightbreeze**, works the gala the way House Nightbreeze always does, informal deal-making disguised as small talk, caught mid-negotiation with **Factor Perrin Hale of House Vellum** over paperwork that hasn't crossed his desk yet, a pointed, polite threat about "our peaceful relationship" that Perrin visibly flinches at.
 
 **Vance Orleth of House Darkshade** (no last name given, a Demi-Prince by title) goads Vaelros in front of the room: a wonderful showing from his two prized sons, "but what of your others," pointedly noting one slinking and one not even in contention. Vaelros, sharp, insists every son is prized and, cornered, offers Aerion up to fight. Aerion is handed the choice of opponent and picks the Darkshade retainer directly (not a house guard). **The retainer, formally announced as representing House Darkshade, draws a flaming blade he calls Smokehouse.**
 
@@ -80,7 +80,7 @@ Bought, confirmed: **Juking Baffles** (2,600 gp, Evasive Action no longer costs 
 
 ## New canon this session
 
-- **Aerion's mother is Irina Nightbreeze.** A cousin, Aerin Nightbreeze, appears working the gala on her family's behalf.
+- **A cousin, Aerin Nightbreeze, appears working the gala on Aerynna's family's behalf.**
 - **Aerion won his gala duel decisively**, against a Darkshade retainer wielding a flaming blade called Smokehouse. This replaces the earlier drafted "clean quiet loss" as the actual record.
 - **Aeravellis runs a betting book at house events**, a concrete detail rather than just "struggling," not yet surfaced to the table in-world.
 - **Vaelros's ultimatum has a third option on record**: stay, and live and serve permanently in his brothers' shadow.
@@ -96,17 +96,17 @@ Bought, confirmed: **Juking Baffles** (2,600 gp, Evasive Action no longer costs 
 - **One of the two kindori bowler hats (Hush's) is still outstanding**, Sorcel has it on back order.
 - **A derelict, unnamed hull with its registry scraped clean sits unclaimed at a lowside berth.** Flagged explicitly by both players as wanting to investigate next.
 
-## Reconciliation, needed
+## Reconciliation, resolved
 
-A few things ran differently from the written prep and haven't been propagated to the rest of the campaign docs yet:
+1. **Crew is 10, operating cost 900 gp/month.** Fixed in `ships/Night Fury.md` (capacity, pool, money), `npcs/Crew Roster.md` (total complement, three new NPC entries), the session 4 companion (run sheet tiles, hiring terms, Meech's line, the ending note), and the charter board's footnote and all fifteen postings' clear-after-costs math.
+2. **Aerion's gala duel corrected to the actual decisive win** in the companion, with the old drafted version kept struck through for the record rather than deleted outright.
+3. **Open Water, Open Season** needs no file change, it's accurately described as picked-but-unflown and carries forward as-is.
+4. **The Fifth House thread now has a real home** in `factions/House Windsong.md`'s Vaelren section: the full break from the house, Fury the unicorn phoenix, and the live Fifth House bid.
+5. **Ship shop purchases added** to `ships/Night Fury.md`'s build table, stat line (AC/threshold), and ledger (reconciled estimate: ~4,000 gp operating + 10,000 gp reserve).
 
-1. **Crew count is 10, not 9**, and monthly operating cost is 900 gp, not 800. Affects `ships/Night Fury.md`, the session 4 companion, and the charter board's math.
-2. **Aerion's gala duel was a decisive win, not the scripted quiet loss.** The flashback writeup in the companion and in NPC files referencing it should be corrected.
-3. **The planned job (Open Water, Open Season) was picked but never actually launched this session.** It carries forward live into session 5, not retroactively resolved.
-4. **The Fifth House thread is new and needs a real home** somewhere in the faction docs (`factions/House Windsong.md` or a new Vaelren-focused entry), it's too large to leave sitting only in this session record.
-5. Ship shop purchases (Juking Baffles, Ablative Layer, Damage Threshold +5) need to be added to `ships/Night Fury.md`'s build list and ledger.
+**One new wrinkle surfaced by the cost increase:** Minding Mabel (900 gp flat) now clears roughly **-30 gp** after the standard 900 gp operating cost and 30 gp berth deduction, the board's own math says it's underwater for a crew this size flying solo on it. Worth a look next time the board rotates, not fixed here since changing the payout is a content call, not a reconciliation one.
 
-Not yet decided whether to action all of this now or treat it as its own follow-up pass.
+Also added: Aerion's mother's name (**Aerynna Nightbreeze**, already established canon, just corrected after the table's live mishearing as "Irina") and a new cousin, **Aerin Nightbreeze**, to `npcs/Aerion Windsong.md`.
 
 ## Where it goes next
 

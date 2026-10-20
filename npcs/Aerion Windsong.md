@@ -13,7 +13,8 @@ To make his own fortune and, secretly, to **buy out and take over his father's c
 - **Father, Vaelros Windsong** (525), runs the trading house; arrogant, capable, and dismissive of his youngest.
 - **Mother, Aerynna Nightbreeze** (445), of House Nightbreeze, one of the five founding houses (the financiers and insurers). She divorced Vaelros when Aerion was ten and left; the marriage was arranged and they despised each other.
 - **Brothers:** Aeric (258), Aeris (234), Aeravellis (182). Aerion is the youngest of four.
-- **Uncle, Vaelren Windsong** (300), his father's youngest brother, a "space samurai" adventurer who trained Aerion (and, at the same camp, Orena) in the sword. Aerion is closest to him.
+- **Uncle, Vaelren Windsong** (300), his father's youngest brother, a "space samurai" adventurer who trained Aerion (and, at the same camp, Orena) in the sword. Aerion is closest to him. **Session 4: has fully, formally left House Windsong, and agreed in principle to found a Fifth House with Aerion.** Full detail: `factions/House Windsong.md`.
+- **Cousin, Aerin Nightbreeze**, on his mother's side, met at the session 4 gala flashback working informal deals on the family's behalf, caught mid-negotiation with a Vellum factor. Not yet developed past that one appearance.
 
 The family is among those competing for the **vacant fifth seat** on the board of founding houses. What exactly House Windsong offers for that seat is Priscilla's to decide.
 

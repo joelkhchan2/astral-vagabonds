@@ -1,6 +1,6 @@
 # Crew Roster -- the Night Fury
 
-**Total complement: 7** (2 PCs + 5 NPCs). The ship is the ***Night Fury***, christened by the crew in session 1 (flew unnamed under Captain Vane's good name before that). Both PCs are **level 6** as of session 2.
+**Total complement: 10** (2 PCs + 8 NPCs, as of session 4's three hires). The ship is the ***Night Fury***, christened by the crew in session 1 (flew unnamed under Captain Vane's good name before that). Both PCs are **level 6** as of session 2.
 
 > **Canon (session 0, played).** Aerion joined this crew about **5 years ago** on what looked like a very successful venture. They found the silver dragon Flurry and a treasure hoard on a hunt roughly 4.5 years ago, then a long run of failed jobs left them near destitute. Their **old ship blew up** (the cook was having his nightly smoke next to pre-loaded cannons); most of the fourteen-person crew lost faith and left, and the loyal few remained. Insurance money, some family funds, and 10,000 gp from Aerion's trust fund bought the new **Sturdy Trader**. **Orena (Gabrielle's PC) is the newest aboard, joined ~6 months ago.** They hired back up to a lean crew of seven at the Danforth yard.
 
@@ -25,7 +25,7 @@ They trained together as teenagers under Aerion's uncle, the "space samurai" **V
 
 ---
 
-## NPC Crew (5)
+## NPC Crew (8)
 
 > **Full character files** with motives, dreams, secrets, and arcs: `npcs/Captain Estra Vane.md`, `npcs/Tack.md`, `npcs/Brass.md`, `npcs/Finny.md`, `npcs/Oz.md`. The blurbs below are the quick reference.
 
@@ -45,6 +45,21 @@ Halfling. Loud, gregarious, gossips relentlessly, organizes the game nights, and
 
 ### 5. Ozgood "Oz" Hammerfall -- Ship Security / Scout
 Giff (hippo-person), seven feet tall and large. Absurdly polite, soft-spoken, a gentle giant. He carries a comically large pistol that he will also swing as a melee weapon, and he claims he has headbutted through steel. As scout he keeps watch as well as guards the deck.
+
+### 6. Tomlin Underhill -- Cook / Gunner
+Halfling, hired session 4 on a nat-20 shepherd's pie. **Family to Maude "Mod" Underhill**, calls her Grandmama without a hint of irony, tangled up somewhere in the five hundred years of family tree that implies. Brought his own bag of holding full of seasonings to the interview. Replaces Brass as cook; she stepped down gratefully and permanently once he landed the job.
+
+### 7. Judo -- Scout / Gunner
+Hadozee, hired session 4, barely two days off a washout when he interviewed. Eager, young, glide membranes he hasn't quite grown into yet. Claims he can hold three guns at once; nobody's tested it under fire.
+
+### 8. Sable -- Deckhand / Gunner
+Tortle, hired session 4 on a nat-20 impromptu mop test. Self-described as the fastest turtle this side of space, tops 20 mph, trained by a mentor she calls Splinter. Built like a wall, surprisingly quick, surprisingly warm.
+
+---
+
+## A new rival crew, session 4
+
+The three candidates the Night Fury didn't hire (a quiet tabaxi called **Six**, a fire genasi named **Auguste** who'd burned down two of his last three ships, and a kenku called **Rattle**) decided on the spot to crew up together rather than disperse. No ship, no name, no rank yet, but a real, live thread: these three are out there somewhere, not discarded NPCs.
 
 ---
 

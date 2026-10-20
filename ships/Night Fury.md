@@ -4,10 +4,10 @@
 
 ## Ship Profile
 **Class / Profile:** Sturdy Trader (bought prior-service from Danforth Certified Hulls).
-**AC:** 19, plus Plating I. **Damage threshold:** 20 (a single hit under 20 does nothing).
+**AC:** 19, plus Plating I. **Damage threshold:** 25, after session 4's Damage Threshold Uprate (a single hit under 25 does nothing). Also carries an **Ablative Layer** (absorbs the first 40 damage each fight, 600 gp to recharge) and **Juking Baffles** (Evasive Action no longer costs the ship's own guns disadvantage).
 **HP:** 250
 **Speed:** ~45 ft tactical (Trader 55, −10 for Sturdy), plus a Trim Rig that adds 5 ft and holds attitude unhelmed; 100 million miles/day in open space.
-**Crew capacity:** 11 (running with 7; session 4 is where the two open hires, a cook-gunner and a scout-deckhand-gunner, actually land, bringing it to 9).
+**Crew capacity:** 11 (running with 10 as of session 4, which hired three rather than the planned two: Tomlin Underhill, cook-gunner, Judo, scout-gunner, and Sable, deckhand-gunner).
 **Cargo:** 20 tons.
 **Air:** base 120 days (no life-support upgrades bought). The crew has sworn off any job longer than 60 days rather than risk the clock.
 
@@ -26,6 +26,9 @@ Bought and outfitted at session 0 for roughly 35,650 gp of the 50,000 budget.
 | Life support | none (base 120-day air) |
 | Signature feature | none chosen |
 | Fittings / instruments / aftermarket | none |
+| Helm upgrade, session 4 | Juking Baffles, 2,600 gp (Evasive Action no longer costs the ship's own guns disadvantage) |
+| Structure/armor upgrade, session 4 | Ablative Layer, 2,800 gp (absorbs the first 40 damage each fight, 600 gp to recharge) |
+| Structure/armor upgrade, session 4 | Damage Threshold Uprate, 5,000 gp (+5, threshold now 25) |
 | Bastion facilities, Aerion (level 5, two total) | **Storehouse** (the cargo hold formalized, runs the Trade order) and **Smithy** (runs the Craft order, common-rarity goods for now, magic items later). Both chosen. See `rules/Rules & Systems.md` §6. |
 | Bastion facilities, Orena (level 5, two total) | **Library** (the chart room, runs the Research order, doubles as her cartography table) and **Workshop** (runs the Craft order, played so far as hands-on repair help). Both chosen. See `rules/Rules & Systems.md` §6. |
 
@@ -33,7 +36,7 @@ Bought and outfitted at session 0 for roughly 35,650 gp of the 50,000 budget.
 
 Full rules and reasoning: `rules/Rules & Systems.md` section 8. This is the quick-reference version for the table.
 
-**Crew capacity 11, running with 7 until session 4's two new hires land (9 after).** Every fight, the pool is whoever's actually aboard (Flurry doesn't count). Each body gets assigned to a station for the round; a station needs its full cost in bodies to function, no partial credit.
+**Crew capacity 11, running with 10 as of session 4's three hires.** Every fight, the pool is whoever's actually aboard (Flurry doesn't count). Each body gets assigned to a station for the round; a station needs its full cost in bodies to function, no partial credit.
 
 | Station | Cost | Who can | What it does |
 |---|:---:|---|---|
@@ -45,12 +48,14 @@ Full rules and reasoning: `rules/Rules & Systems.md` section 8. This is the quic
 | **Coordinator** | 1 | Whoever's running the fight from the deck, not flying or gunning | Once per round: advantage on an ally's roll, disadvantage on an attack against the ship or a crewmate, or +1d4 to an ally's roll. |
 | **Personal boarding** | removes 1 from the pool | Anyone | Jump to a grappled or adjacent enemy ship (movement + Athletics/Acrobatics) and fight there as an individual, cast a spell, or do anything else outside the ship-scale abstraction. |
 
-**Ship HP is pooled at the hull**, not tracked per crew member. **Damage threshold 20:** any single hit under 20 does nothing to the ship.
+**Ship HP is pooled at the hull**, not tracked per crew member. **Damage threshold 25** (upgraded session 4): any single hit under 25 does nothing to the ship.
 
 ## Money
-Started with 50,000 gp. After the ship and outfit, about **14,350 gp** remained in the account. Aerion also drew **10,000 gp from his personal trust fund**, kept separate as an emergency reserve. Operating cost is all-inclusive: **500 gp/month for up to 6 crew, +100 gp/month per additional crew member**, covering wages, maintenance, food, and air, deducted each session. Hull repairs are 20 gp per hit point on top of that.
+Started with 50,000 gp. After the ship and outfit, about **14,350 gp** remained in the account. Aerion also drew **10,000 gp from his personal trust fund**, kept separate as an emergency reserve. Operating cost is all-inclusive: **500 gp/month for up to 6 crew, +100 gp/month per additional crew member**, covering wages, maintenance, food, and air, deducted each session. Hull repairs are 20 gp per hit point on top of that. **As of session 4's three hires (crew of 10), operating cost is 900 gp/month.**
 
 **Session 1, played:** the Sealed and Sworn delivery paid **1,800 gp on contract**, plus a **~400 gp discretion tip** Factor Calder handed Estra personally for keeping quiet, about 2,200 gp gross before the standard deductions. The Bex Halloway fight afterward (see `sessions/Session 1.md`) added a **1,021 gp hoard** plus three items: an **oil of slipperiness**, a **potion of frost giant strength**, and a **javelin of lightning** (Aerion kept the javelin). Treat the ship's ledger as Priscilla's character sheet from here forward rather than re-deriving totals from this doc each session.
+
+**Session 4, played:** account stood at roughly 17,281 gp going in. After the passenger fee (900 gp, Wyndham Aldane), assorted small business income and errands, and the three ship upgrades below (10,400 gp total), the account reconciles to roughly **4,000 gp operating, plus the standing 10,000 gp reserve fund**, about 14,000 gp total. The table's own in-session math was loose; treat this as a reconciled estimate, not an exact figure, and true it up at the table if it matters.
 
 ## Track Record
 
@@ -73,7 +78,7 @@ Aerion's previous ship blew up when the cook took his nightly smoke beside pre-l
 - **Galley:** where Finny holds court and the Manifest Board printout gets pinned.
 
 ### Lower deck (below the gravity plane, gravity inverted)
-- **Crew quarters:** berths for the seven, close.
+- **Crew quarters:** berths for the ten, close.
 - **Captain's quarters:** Estra's, sparse.
 - **Cargo holds:** inventory tagged and tracked because Aerion insists. One bay is now the **Storehouse**, formally, his first bastion facility, and where a certain warded lockbox currently lives.
 - **Engineering:** Tack's workshop, organized chaos, every component named.
