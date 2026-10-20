@@ -2,10 +2,14 @@
 
 Open hooks banked out of session 4, not yet built into any prep doc. Scannable, not prose, pull from here when shaping `Session 5 Prep.md` or later. Once a thread gets built into a real scene, delete it here and let the real file be the only copy.
 
+## Session 5 scope, decided
+
+**Both**, not either/or: **Open Water, Open Season** (already picked in session 4, never launched) and **the derelict hull** (both players explicitly asked to board it next). Needs sequencing when prep actually gets written, two main-content threads is a lot for one session, consider whether the derelict is a cold-open detour, a session of its own, or genuinely runs alongside the survey job.
+
 ## Dessa and Sedge, the love letter drama
 
 **Live, not resolved.** Dessa Kel (Compact Standard, rank 9) and Sedge (Bright Arrears, rank ~240) are confirmed mutually in love. She's asked him not to fly anymore and won't explain why on paper; he can't bring himself to face her. Orion pushed him to go find her in person and say it himself.
-- **The actual reason she won't let him fly is still undecided.** Options to pick from when it's time: a past accident or near-death she can't watch happen again, a debt or bond tied to his flying specifically, a prophecy or omen she's taken too seriously, or something about his piloting that puts her own crew or rank at risk if it ever came out.
+- **Decided: past trauma.** Something happened while Sedge was flying, a near-death or an accident, that Dessa can't bear to watch risk happening again. The specific incident (what it was, who else was involved, whether Dessa was there) still needs picking when the scene actually gets written.
 - **Does he go find her, or does the crew end up playing messenger again?** Either is fine, don't force it.
 - A good candidate for a short standalone scene or its own mini episode rather than a full job.
 
@@ -39,7 +43,8 @@ Judged the formal duels at the Windsong gala, floating level with the dueling ri
 ## Vaelren and the Fifth House
 
 Already has a real home in `factions/House Windsong.md`, flagging here as a reminder it needs session time, not just doc space.
-- The joint Persuasion check succeeded; the actual paperwork, politics, and opposition (Vaelros's own campaign for the same seat, most obviously) haven't been played yet.
+- The joint Persuasion check succeeded; the actual paperwork and politics haven't been played yet.
+- **Decided: Vaelros stays unaware for now.** No confrontation imminent, let the bid build quietly before he finds out. Revisit when it's time to escalate.
 - Fury the unicorn phoenix is a standing Flurry mirror, worth a scene where the two pets actually meet.
 
 ## Houses, systems, and societies across the Astral Sea
@@ -58,7 +63,7 @@ A real, consistent character thread worth naming and leaning into:
 
 ## New NPCs banked from session 4
 
-- **Sorcel the Sorcerer**, the fabric/scrap dealer. Fully improvised at the table, a stoner-salesman voice, sources Windsong sailcloth off decommissioned hulls, has a planar-speak connection to Aerion now. A good recurring vendor if the table liked him (they did).
+- **Sorcel the Sorcerer**, the fabric/scrap dealer. Fully improvised at the table, a stoner-salesman voice, sources Windsong sailcloth off decommissioned hulls, has a planar-speak connection to Aerion now. **Decided: keep him as played**, no rework.
 - **Barry**, a person polymorphed into a pegasus, fleeing something called "the eye" alongside a real herd. Never resolved what he actually is or what he was running from. Open hook if wanted, or leave as a one-off.
 - **Petra Sundown**, Minding Mabel's client, established but unplayed.
 - **Aerin Nightbreeze**, Aerion's cousin, one scene only so far, working deals at the gala on the family's behalf.
