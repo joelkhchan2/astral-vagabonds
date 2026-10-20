@@ -2,9 +2,7 @@
 
 Open hooks banked out of session 4, not yet built into any prep doc. Scannable, not prose, pull from here when shaping `Session 5 Prep.md` or later. Once a thread gets built into a real scene, delete it here and let the real file be the only copy.
 
-## Session 5 scope, decided
-
-**Both**, not either/or: **Open Water, Open Season** (already picked in session 4, never launched) and **the derelict hull** (both players explicitly asked to board it next). Needs sequencing when prep actually gets written, two main-content threads is a lot for one session, consider whether the derelict is a cold-open detour, a session of its own, or genuinely runs alongside the survey job.
+**`sessions/Session 5 Prep.md` now exists** and covers the derelict hull (a full point-crawl) and the Afterburners reveal (the rival crew formed with Boy Boy McGee's), both removed from this list below. The threads remaining here are still unbuilt.
 
 ## Dessa and Sedge, the love letter drama
 
@@ -20,12 +18,6 @@ Hired, not yet fleshed past their interview beats. Each needs a real want, a voi
 - **Judo**, hadozee scout-gunner, barely two days off a washout when hired. What did he wash out of, and does it catch up with him? Glide membranes he hasn't grown into yet, a good excuse for a comic near-miss.
 - **Sable**, tortle deckhand-gunner, claims to be the fastest turtle this side of space, trained by someone she calls Splinter. Worth deciding who or what Splinter actually was, and whether that past ever reappears.
 - **Crew dynamics to seed:** how do the five originals actually receive three new hires at once? Tack's reaction to new engineering hands, Finny's reaction to new gossip sources, Oz training new gunners. A full-crew scene (not just Aerion/Orena spotlight) would pay this off well.
-
-## The rival crew: Six, Auguste, Rattle
-
-The three declined candidates crewed up together on the spot, live at the table, not planned. No ship, no name yet.
-- Six (tabaxi, quiet), Auguste (fire genasi, burned down two of his last three ships), Rattle (kenku).
-- **Worth deciding before they resurface:** do they find a ship, and how? Are they a comic mirror of the Night Fury's own scrappy-crew origin, a real rival for board rank, or both? Auguste's arson habit is a built-in ticking clock for a future scene.
 
 ## Captain Estra, more development
 

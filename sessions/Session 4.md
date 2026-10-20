@@ -54,7 +54,7 @@ Interviews ran through the original candidate roster with the table's own live c
 
 **Perrin's standing order came due.** Twenty-one costumes shipped at 10 gp each (210 gp), Perrin sent back 250 gp, generous, plus twenty-one professional photographs of Meep Meep modeling the full line (a Zorro mask and rapier prop among them). Flurry, watching, demanded her own shoot and got a flesh-toned bow tie for the trouble, visibly already planning a modeling career.
 
-**The bowler hats ran into a real mechanical snag.** Aerion attempted to actually craft both hats himself (a sleight-of-hand check, no proficiency, with disadvantage), and failed, wasting 150 gp of material on the attempt. Turns out his own business doesn't craft, it sources. Sorcel didn't have a kindori-sized hat in stock (back-ordered), but did have a human-sized bowler Aerion talked down to 10 gp and repurposed. **One hat shipped, to Glimmer** (confirmed as "the one that ordered it," the kindori who traveled with Orion). Wes and Tess Leaftully sent back an exuberant letter, a photo of Glimmer and Hush wearing their marks, and 100 gp as thanks. **The second hat, for Hush, is still an open thread.**
+**The bowler hats ran into a real mechanical snag.** Aerion attempted to actually craft both hats himself (a sleight-of-hand check, no proficiency, with disadvantage), and failed, wasting 150 gp of material on the attempt. Turns out his own business doesn't craft, it sources. Sorcel didn't have a kindori-sized hat in stock (back-ordered), but did have a human-sized bowler Aerion talked down to 10 gp and repurposed. **One hat shipped, to Glimmer** (confirmed as "the one that ordered it," the kindori who traveled with Orion). Wes and Tess Leaftully sent back an exuberant letter, a photo of Glimmer and Hush wearing their marks, and 100 gp as thanks. **The second hat, for Hush, resolved off-screen**: Sorcel found and sold his own back-ordered stock, both kindori have theirs.
 
 ## The letters
 
@@ -93,7 +93,7 @@ Bought, confirmed: **Juking Baffles** (2,600 gp, Evasive Action no longer costs 
 - **Dessa Kel (Compact Standard, rank 9) and Sedge (Bright Arrears) are confirmed mutually in love**, estranged over Sedge's flying. Orion pushed him toward finding her in person.
 - **Gary ("Sugar Gary") left Boy Boy McGee's crew for baking full-time**, placed second at Best in Dough.
 - **Brass has been bribed out of cook duty permanently.**
-- **One of the two kindori bowler hats (Hush's) is still outstanding**, Sorcel has it on back order.
+- **Both kindori bowler hats are resolved.** Sorcel found and sold his own back-ordered stock for Hush's.
 - **A derelict, unnamed hull with its registry scraped clean sits unclaimed at a lowside berth.** Flagged explicitly by both players as wanting to investigate next.
 
 ## Reconciliation, resolved
