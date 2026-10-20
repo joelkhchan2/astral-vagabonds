@@ -1200,7 +1200,7 @@ Saves Int, Wis | Skills Perception, Stealth | Condition Immunities frightened | 
 Grey, skull-shaped horror with five eyes and three mouths, needs no air, stows away and emerges at night to devour sleepers' nightmares and worst emotions.
 - Multiattack: Bite + Tentacle; Invisibility (at-will self); Nightmare Fuel (1/day, feeds on a sleeping/incapacitated creature's fear)
 
-**Campaign note:** the Dreameater (`sessions/Episode - The Dreameater.md`) is meant to be a Feyr. The episode currently describes it as a "wistling" (palm-sized, translucent, gentle, resolved without violence), which does not match this block (Large, chaotic evil, Bite and Tentacle, CR 5). Reconcile before running: the invisibility and Nightmare Fuel carry over cleanly, the combat profile does not.
+**Campaign note:** the Dreameater (`sessions/Episode - The Dreameater.md`) is this creature, run as written and killable. The episode was rewritten around it (nightly Nightmare Fuel feeds, hit-and-fade invisibility, a dust ruling, a fight inside the ship). The Bite and Tentacle damage and the Nightmare Fuel text are not in this repo; check them against the book before running.
 
 ### Gaj **[Verified]**
 *Boo's Astral Menagerie*
@@ -1643,4 +1643,4 @@ Found by web search. Stats were not available, so nothing is invented here.
 
 **Homebrew, playtest before relying on:** Gossamer, Gossamer Noble, Astral Stalker (section 12). The Astral Stalker is a name-only concept.
 
-**Open campaign note:** the Dreameater is meant to be a Feyr, but the episode doc describes a gentle "wistling." See the note under the Feyr entry.
+**Campaign note:** the Dreameater episode now uses the Feyr as written, killable. See the note under the Feyr entry.
