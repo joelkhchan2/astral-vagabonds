@@ -6,6 +6,7 @@ Creatures native to the Astral Sea, or plausible to encounter drifting through i
 - **[Verified]** — cross-checked against a live published 5e stat-block source (aidedd.org, 5e SRD, official book scan). Table-ready as-is.
 - **[Reconstructed]** — creature and CR confirmed to exist, but the exact numeric stat block could not be pulled from an accessible source (paywalled PDFs, blocked scans). Numbers below are mechanically consistent estimates anchored to confirmed data points (CR, key traits, partial stats). Good enough to run tonight; spot-check against the physical book if you own it before treating as canon.
 - **[No 5e stats]** — no published 5e conversion exists. A reflavor suggestion is given instead of invented numbers.
+- **[Homebrew conversion]** — a 2e creature converted for this campaign. Concept comes from a secondary description (source noted per entry), numbers are the DM's assistant's own, CR is an estimate. Treat as a draft and playtest before leaning on it.
 
 Most "Boo's Astral Menagerie" and "Astral Adventurer's Guide" entries are official WotC content (bundled in the *Spelljammer: Adventures in Space* 2022 boxed set), not third-party, despite sometimes being mislabeled online.
 
@@ -1199,6 +1200,8 @@ Saves Int, Wis | Skills Perception, Stealth | Condition Immunities frightened | 
 Grey, skull-shaped horror with five eyes and three mouths, needs no air, stows away and emerges at night to devour sleepers' nightmares and worst emotions.
 - Multiattack: Bite + Tentacle; Invisibility (at-will self); Nightmare Fuel (1/day, feeds on a sleeping/incapacitated creature's fear)
 
+**Campaign note:** the Dreameater (`sessions/Episode - The Dreameater.md`) is meant to be a Feyr. The episode currently describes it as a "wistling" (palm-sized, translucent, gentle, resolved without violence), which does not match this block (Large, chaotic evil, Bite and Tentacle, CR 5). Reconcile before running: the invisibility and Nightmare Fuel carry over cleanly, the combat profile does not.
+
 ### Gaj **[Verified]**
 *Boo's Astral Menagerie*
 Large aberration, neutral evil
@@ -1407,6 +1410,223 @@ Garishly-painted fiend treating the multiverse as one long stage — hitches rid
 
 ---
 
+## 11. Spelljammer Monstrous Compendium Vol. 1 (official)
+
+*Monstrous Compendium Volume One: Spelljammer Creatures* (WotC, 2022). All ten entries read directly from the PDF the DM supplied, so all are **[Verified]**. Numbers as printed, lore trimmed. In the CR 5 to 10 band: Fractine (9) and Yggdrasti (7). The Great Old One table in the eldritch lich entry names deities; treat the patron as an unnamed Far Realm presence to keep to the campaign's no-religion constraint.
+
+### Asteroid Spider **[Verified]**
+*Monstrous Compendium Vol. 1*
+Gargantuan monstrosity, typically neutral evil
+AC 17 (natural armor) | HP 348 (24d20+96) | Speed 60 ft., fly 60 ft. (hover)
+STR 26(+8) DEX 10(+0) CON 18(+4) INT 17(+3) WIS 13(+1) CHA 12(+1)
+Saves Con +9, Wis +6 | Skills Perception +11, Stealth +5 | Senses darkvision 120 ft., blindsight 120 ft. while its eyes are closed, passive Perception 21 | Languages none | **CR 15** (13,000 XP)
+
+A 30-foot body on 30-foot legs, with its own gravity plane and air envelope. Wrapped up with eyes closed it passes for a dead rock. Its living brain works like a spelljamming helm, so it travels Wildspace without a ship. It lurks in asteroid belts until a ship drifts close.
+- False Appearance: if motionless with eyes and mouth closed and legs wrapped around its body, it has advantage on initiative, and a creature that hasn't seen it move needs DC 18 Investigation to tell it isn't an asteroid
+- Legendary Resistance (3/day); Unusual Nature (no air)
+- Multiattack: two Web Strand, one Reel, two Bite
+- Bite: +13, reach 10 ft., 21 (3d8+8) piercing plus 10 (3d6) acid
+- Web Strand: ranged +13, reach 120 ft., grapples (escape DC 18); strand is AC 12, 20 HP, vulnerable to fire, immune to bludgeoning, poison, psychic; grapples up to six creatures
+- Reel: pulls every creature it has grappled up to 60 ft. straight toward itself
+- Snare Ship (bonus action, 1/day): magical web over a spelljamming ship within 120 ft. for 1 minute; suppresses the helm's magic, exposed decks become difficult terrain; immune to damage, ended by *dispel magic* (DC 18)
+**Table use:** far above level 5. Works as a "do not land on that rock" dread beat, or as a flee-through-the-web set piece. A hot-live version: the web snares the *Night Fury*'s helm mid-lane. An awe half to reach for: a thing that old and patient, hunting by being furniture.
+
+### Clockwork Horror **[Verified]**
+*Monstrous Compendium Vol. 1*
+Small construct, typically lawful evil
+AC 18 (natural armor) | HP 60 (8d6+32) | Speed 30 ft., climb 30 ft.
+STR 14(+2) DEX 14(+2) CON 18(+4) INT 13(+1) WIS 14(+2) CHA 10(+0)
+Saves Str +4, Wis +4 | Skills Perception +6 | Immune lightning, poison; blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned | Senses darkvision 120 ft., passive Perception 16 | Languages Thri-kreen, Ziklight | **CR 2** (450 XP)
+
+Two-foot insectile automatons of adamantine or other precious metal. They commandeer ships and strip them for the metals and crystals needed to build more of themselves (about ten days per new horror). They click in a perfect imitation of Thri-kreen and blink dot-and-dash light signals (Ziklight) from a crystal eye. On death the magic that made it consumes it over a minute.
+- Shutdown: targeted by *dispel magic*, makes a Con save against the caster's spell save DC or falls unconscious for 1 minute or until damaged
+- Unusual Nature (no air, food, drink, sleep)
+- Multiattack: one Bite and two Rotating Saw, or two Lightning Jolt
+- Bite: +4, reach 5 ft., 6 (1d8+2) piercing
+- Rotating Saw: +4, reach 5 ft., 4 (1d4+2) slashing
+- Lightning Jolt: ranged spell attack +4, range 120 ft., 7 (1d10+2) lightning
+- Spelljamming Helm Interface: attaches to a helm it can see within 5 ft. and attunes instantly (bumping any current attuned creature off); can operate the helm without being a spellcaster; detaches as a bonus action
+**Table use:** a ship-theft problem with a CR 2 body. It wants the *Night Fury*'s metals, and its helm interface makes the ship itself the contested object. Tack could have views on a rival machine in the engine room (the crew's to play).
+
+### Eldritch Lich **[Verified]**
+*Monstrous Compendium Vol. 1*
+Medium undead, typically neutral evil
+AC 17 (natural armor) | HP 165 (22d8+66) | Speed 30 ft., fly 30 ft. (hover)
+STR 11(+0) DEX 18(+4) CON 16(+3) INT 19(+4) WIS 14(+2) CHA 12(+1)
+Saves Int +9, Wis +7 | Skills Arcana +14, Perception +7 | Resist necrotic, poison | Immune charmed, exhaustion, frightened, paralyzed, poisoned | Senses truesight 120 ft., passive Perception 17 | Languages Common, Deep Speech, telepathy 120 ft. | **CR 15** (13,000 XP)
+
+A spellcaster who bought undeath from a Great Old One's whispers. A Far Realm parasite lives in its torso (its mouth is visible there) and revives it a few days after death. It mutters along to whispers the rest of the room cannot hear.
+- Far Realm Parasite: on death it implodes into the parasite, which vanishes and reappears 2d4 days later within 1d4 miles. If it died inside a *magic circle* cast to contain Undead, it returns as an **otyugh** with all its memories instead
+- Legendary Resistance (4/day); Unusual Nature
+- Multiattack: one Parasitic Tentacle or Spellcasting, plus Psychic Whisper twice
+- Parasitic Tentacle: +9, reach 10 ft., 25 (6d6+4) piercing plus 25 (6d6+4) necrotic; DC 17 Con or poisoned, repeating the save each turn; the third failed save kills the target and it dissolves into a **gibbering mouther** that obeys the lich
+- Psychic Whisper: one creature within 120 ft., DC 17 Wis or 25 (6d6+4) psychic and stunned until the end of the lich's next turn
+- Spellcasting (Int, DC 17): at will *detect magic, mage hand, prestidigitation*; 2/day *dispel magic, hunger of Hadar, lightning bolt*; 1/day *arcane eye, dimension door, plane shift* (self only)
+- Reaction, Far Realm Step: after taking damage, teleports up to 60 ft. with its gear
+**Table use:** a high-tier reveal, not a Tier 1 fight. The gibbering mouther death is the one beat to handle carefully at a PG to mild-T table.
+
+### Fractine **[Verified]**
+*Monstrous Compendium Vol. 1*
+Large construct, typically neutral
+AC 14 (natural armor) | HP 110 (13d10+39) | Speed 0 ft., fly 60 ft. (hover)
+STR 1(-5) DEX 13(+1) CON 16(+3) INT 18(+4) WIS 18(+4) CHA 11(+0)
+Skills Perception +8 | Immune blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned | Senses blindsight 360 ft. (blind beyond), passive Perception 18 | Languages none | **CR 9** (5,000 XP)
+
+A folding, two-dimensional creature that flattens into a trapezoidal mirror 9 to 13 feet tall, with a beholder-like eye and a toothy mouth in its glassy face. It is intelligent and sometimes lets casters use it as a scrying focus, quietly siphoning a little magical energy while they do. It needs light and magical energy. Ten days without feeding and it flickers, and a day later it folds in on itself with a sound like shattering glass.
+- Magic Resistance
+- Scrying Focus: a caster within 5 ft. can use it as the focus for *scrying* or similar magic
+- Two-Dimensionality: can share space with another creature (and they with it), counts as difficult terrain, takes 5 (1d10) force damage if it ends its turn inside an object
+- Unusual Nature (no air, food, drink, sleep)
+- Extradimensional Touch: melee spell attack +5, reach 5 ft., 24 (8d6) force
+- Imprison (bonus action): one creature its size or smaller in its space, DC 16 Dex or imprisoned in a demiplane (indestructible walls, no hunger or thirst, a distorted image of the prisoner shows on the fractine's face); one prisoner at a time; released at 0 HP or at will; escape needs planar-travel magic such as *plane shift*
+- Reaction, Mirrored Damage: when damaged by a creature within 120 ft., that creature makes a DC 16 Con save or takes 24 (8d6) force (half on success)
+- Reaction, Split: a Large fractine with at least 10 HP left that takes bludgeoning, piercing, slashing or thunder damage splits into two Medium fractines with half its HP each (rounded down); any prisoner is released
+**Table use:** the best new CR 9 for this campaign. It can be a scrying tool, an ally, a lost animal that feeds on light, or a lock on a missing person. Aerion's ledger problem: it eats magical energy, so it has a running cost. My idea (speculative): a fractine holding someone from a lost crew, which the table would have to decide how to open without shattering it.
+
+### Gadabout **[Verified]**
+*Monstrous Compendium Vol. 1*
+Medium plant, unaligned
+AC 11 (natural armor) | HP 11 (2d8+2) | Speed 10 ft., fly 60 ft. (hover)
+STR 12(+1) DEX 10(+0) CON 14(+2) INT 1(-5) WIS 6(-2) CHA 1(-5)
+Vulnerable fire | Immune blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified | Senses blindsight 10 ft. (blind beyond), passive Perception 8 | Languages none | **CR 1/8** (25 XP)
+
+A winged, gentle plant that wraps a Humanoid in its branches and flies them through Wildspace inside a self-refreshing air envelope. Its leaves give a nourishing syrup (one Humanoid can live on it for up to sixty days). Needs sunlight and water, lives about 25 years, and cannot reproduce on its own, so each is a valuable commodity (2,500 gp or so from mercane and dohwar merchants). Only elves are known to grow them.
+- Air Envelope: while it has 1 HP or more, an air envelope sustains it and one other creature in its space indefinitely
+- Unusual Nature (no food or sleep)
+- Multiattack: two Branch; Branch +3, reach 5 ft., 3 (1d4+1) slashing
+- Wrap: grapples a willing Medium or Small creature (escape DC 0); any escape attempt makes it move into the nearest open space; the wearer decides where it moves
+**Table use:** an EVA tool and a cargo line in one. Good for a haggling scene.
+
+### Goon Balloon **[Verified]**
+*Monstrous Compendium Vol. 1*
+Medium aberration, typically chaotic evil
+AC 10 | HP 6 (1d8+2) | Speed 20 ft., climb 20 ft.
+STR 10(+0) DEX 11(+0) CON 14(+2) INT 11(+0) WIS 14(+2) CHA 4(-3)
+Saves Con +4, Wis +4 | Skills Perception +6 | Vulnerable piercing | Senses darkvision 60 ft., passive Perception 16 | Languages Deep Speech | **CR 1/8** (25 XP)
+
+A 5-foot beach ball with clawed bird feet and unblinking eyes all over, speaks by pumping air through a hidden orifice, and is mean-spirited. It likes to watch other creatures suffer and will arrange that suffering if given half a chance.
+- Burst: at 0 HP it bursts, 10-ft.-radius noxious gas, DC 12 Con or poisoned for 1 minute (repeat save each turn)
+- Unusual Nature (no air, food, drink)
+- Multiattack: two Claw; Claw +2, reach 5 ft., 3 (1d6) slashing
+- Scintillating Eye: one creature within 30 ft., DC 12 Wis, 6 (1d12) psychic (half on success)
+- Float (bonus action): move up to 20 ft. vertically without opportunity attacks; hovers; cannot be knocked prone while airborne
+**Table use:** cheap and mean, a good bar-room antagonist or a crowd of them in a diamond mine. The book's sample log has a warlock persuading some to relocate to an uncharted moon, a ready-made "are they leading us into a trap" setup.
+
+### Nightmare Beast **[Verified]**
+*Monstrous Compendium Vol. 1*
+Gargantuan monstrosity, typically chaotic evil
+AC 17 (natural armor) | HP 232 (15d20+75) | Speed 30 ft., climb 30 ft.
+STR 26(+8) DEX 10(+0) CON 21(+5) INT 9(-1) WIS 12(+1) CHA 15(+2)
+Senses darkvision 120 ft., passive Perception 11 | Languages understands its creator's languages, cannot speak | **CR 16** (15,000 XP)
+
+A 20-foot quadruped with tusks and claws, made by powerful spellcasters as a living siege engine.
+- Legendary Resistance (2/day); Siege Monster (double damage to objects and structures)
+- Multiattack: two Claw and one Tusk
+- Claw: +13, reach 15 ft., 14 (1d12+8) slashing; DC 21 Str or knocked prone
+- Tusk: +13, reach 15 ft., 17 (2d8+8) slashing
+- Disintegration Gaze (recharge 5-6): one creature within 60 ft., DC 18 Con, 70 (10d6+40) force (half on success); at 0 HP the target is disintegrated
+- Teleport (2/day, bonus action): up to 120 ft. with gear
+- Legendary Actions (3): Tusk Attack; Charge (2 actions: move without opportunity attacks, then two Tusk attacks); Frightful Howl (2 actions: 120-ft. cone, DC 18 Wis or frightened 1 minute)
+**Table use:** far above level 5. A story-only weapon, someone's siege plan or a creature the crew is paid to avoid. The disintegration gaze is lethal, so only use it when death is on the table.
+
+### Puppeteer Parasite **[Verified]**
+*Monstrous Compendium Vol. 1*
+Tiny aberration, typically neutral evil
+AC 15 (natural armor) | HP 71 (11d4+44) | Speed 10 ft., fly 30 ft. (hover)
+STR 2(-4) DEX 15(+2) CON 18(+4) INT 16(+3) WIS 10(+0) CHA 3(-4)
+Saves Dex +4, Con +6, Wis +2 | Skills Stealth +4 | Vulnerable radiant | Resist fire, necrotic, poison | Immune charmed, frightened, poisoned | Senses blindsight 60 ft. (blind beyond), passive Perception 10 | Languages telepathy 30 ft. | **CR 3** (700 XP)
+
+A rubbery amoeba the size of a dinner plate, hooks on the underside. It hangs on a wall or ceiling until a Humanoid passes, then latches on to drain them or use them as transport. Likes Humanoid thralls as bodyguards.
+- Unusual Nature (no air or sleep)
+- Cling: +4, reach 5 ft., 12 (3d6+2) necrotic, attaches (it can't Cling again while attached; detaches using 5 ft. of movement; a creature within reach can pull it off as an action, DC 14 Str)
+- Consume Life: 12 (3d6+2) necrotic to a creature it is attached to (not Construct or Undead); it regains HP equal to the damage
+- Suggestion (bonus action, 1/day, Psionics): no components, Int-based, DC 13
+**Table use:** a crew-infiltration monster, and its radiant vulnerability is an easy tell. A small thing on the ship that someone is not quite acting normal about is a good PG-safe horror beat.
+
+### Star Lancer **[Verified]**
+*Monstrous Compendium Vol. 1*
+Large celestial, typically neutral
+AC 15 (natural armor) | HP 60 (8d10+16) | Speed 0 ft., fly 50 ft.
+STR 18(+4) DEX 15(+2) CON 15(+2) INT 10(+0) WIS 13(+1) CHA 8(-1)
+Saves Dex +4, Con +4 | Skills Perception +3, Stealth +4 | Resist radiant | Senses passive Perception 13 | Languages Celestial, telepathy 120 ft. | **CR 2** (450 XP)
+
+A winged, four-finned shark-thing with a long tail and a horn. Githyanki ride them in small flocks across the Astral Sea. The book says they are the reincarnated devotees of a dead god, born again from the husk's Great Cavern as long as it stays intact, so their number is fixed. (Reflavor: the husk grows them, no worship required.)
+- Flyby: no opportunity attacks when it flies out of reach
+- Horn: +6, reach 5 ft., 7 (1d6+4) piercing; if it moved 20 ft. straight toward the target first, plus 10 (3d6) piercing
+- Invisibility Cloak (3/day): itself and one rider are invisible until one attacks, casts, or concentration ends; gear included
+**Table use:** a githyanki ambush or stealth-boarding tool, and a clean way to say a raid was coming and nobody saw it. Also ties neatly to the dead-god husks drifting in the Astral Sea (see Blob of Annihilation).
+
+### Yggdrasti **[Verified]**
+*Monstrous Compendium Vol. 1*
+Gargantuan plant, unaligned
+AC 15 (natural armor) | HP 112 (9d20+18) | Speed 30 ft., fly 60 ft. (hover)
+STR 20(+5) DEX 10(+0) CON 15(+2) INT 3(-4) WIS 10(+0) CHA 3(-4)
+Vulnerable fire | Resist bludgeoning, piercing | Immune lightning; blinded, deafened, exhaustion | Senses blindsight 120 ft. (blind beyond), passive Perception 10 | Languages none | **CR 7** (2,900 XP)
+
+Cast-off splinters of Yggdrasil, the World Tree: dead-looking trees covered in barnacles, topmost branches leading and withered roots trailing. Each has its own gravity plane and air envelope, which makes a tempting ride for the desperate. It attacks settlements and ships on sight and has an innate hatred of other living things. *Speak with plants* might talk one out of attacking. It can bury its roots and pass for an ordinary tree on landfall.
+- Cavities: 1d4+2 hollows in the trunk, each holding one Medium, two Small, or eight Tiny creatures; occupants have three-quarters cover from outside; the cavities don't connect
+- False Appearance: motionless and rooted, it looks like a dead tree and has advantage on initiative; DC 18 Investigation to notice otherwise
+- Lightning Conduit: lightning damage doesn't hurt it, it divides the damage among all creatures it has grappled, and it regains one use of Lightning Discharge
+- Unusual Nature (no air or sleep)
+- Multiattack: two Root and Lightning Discharge (if available)
+- Root: +8, reach 20 ft., 12 (2d6+5) bludgeoning; grapples (escape DC 15); four roots, one grapple each
+- Lightning Discharge (3/day): one creature within 120 ft., DC 13 Dex, 31 (7d8) lightning (half on success)
+**Table use:** the best CR 7 on the list for a bring-it-aboard problem. Fire is the tell, grappled crew in a lightning conduit is the danger, and the cavities hide a hidden-passenger scene.
+
+---
+
+## 12. Homebrew conversions and unsourced leads
+
+### Gossamer **[Homebrew conversion]**
+*2e Spelljammer (MC9, Spelljammer Appendix II). Concept from an EN World forum post (small creatures with stinging tentacles and a nauseating paralytic poison); no source text in hand. Numbers are the DM's assistant's.*
+Small monstrosity, unaligned
+AC 12 | HP 22 (5d6+5) | Speed 0 ft., fly 30 ft. (hover; wildspace/astral only)
+STR 6(-2) DEX 14(+2) CON 12(+1) INT 3(-4) WIS 12(+1) CHA 5(-3)
+Senses blindsight 30 ft. (blind beyond), passive Perception 11 | Languages none | **CR 1/2** (100 XP, estimated)
+
+Translucent wisps that drift in drifts. Harmless to a ship and a hazard to anyone working the hull, because they sting whatever brushes them.
+- Unusual Nature (no air)
+- Stinging Tentacle: +4, reach 10 ft., 4 (1d4+2) piercing plus 3 (1d6) poison, DC 11 Con or poisoned for 1 minute. Repeat the save at the end of each turn; a target that fails the first save by 5 or more is also paralyzed until the end of its next turn
+
+### Gossamer Noble **[Homebrew conversion]**
+*Same source and caveats as Gossamer. The forum post calls the noble a larger colony form.*
+Large monstrosity, typically neutral
+AC 15 (natural armor) | HP 135 (18d10+36) | Speed 0 ft., fly 30 ft. (hover; wildspace/astral only)
+STR 14(+2) DEX 14(+2) CON 14(+2) INT 10(+0) WIS 14(+2) CHA 16(+3)
+Saves Con +5, Wis +5 | Senses blindsight 60 ft. (blind beyond), passive Perception 12 | Languages telepathy 120 ft. (gossamers only) | **CR 5** (1,800 XP, estimated)
+
+- Colony Mind: commands any gossamer within 120 ft. telepathically; Unusual Nature (no air)
+- Multiattack: three Stinging Tentacle
+- Stinging Tentacle: +7, reach 15 ft., 7 (1d8+3) piercing plus 7 (2d6) poison, DC 14 Con or poisoned for 1 minute (repeat each turn); a failure by 5 or more also paralyzes until the end of its next turn
+- Paralytic Veil (recharge 5-6): 15-ft.-radius burst centered on it, DC 14 Con, 14 (4d6) poison and poisoned until the end of its next turn (half damage, no poison on success)
+**Table use (mine):** a drift that has to be crossed, or a colony drawn to a ship's glow. Play it as a hazard to route around first and a fight second.
+
+### Astral Stalker **[Homebrew conversion, name-only]**
+*2e Planescape, listed among the Silver Void's inhabitants (Planewalker). No description was retrievable, so this is a concept built from the name and the campaign's silver-cord material, not a faithful conversion. Treat as an original creature that borrows a 2e name.*
+Large monstrosity, unaligned
+AC 15 (natural armor) | HP 127 (15d10+45) | Speed 0 ft., fly 60 ft. (hover; wildspace/astral only)
+STR 18(+4) DEX 16(+3) CON 16(+3) INT 6(-2) WIS 14(+2) CHA 8(-1)
+Saves Dex +6, Wis +5 | Skills Perception +5, Stealth +9 | Senses blindsight 60 ft., darkvision 120 ft., passive Perception 15 | Languages none | **CR 5** (1,800 XP, estimated)
+
+A patient hunter that follows minds rather than scent.
+- Mind Sense: knows the direction and distance of any creature with Intelligence 4 or higher within 1 mile, and can't be surprised by them
+- Void Camouflage: advantage on Stealth checks in dim light or darkness
+- Rending Ambush: the first hit it lands on a surprised creature deals an extra 9 (2d8) damage
+- Multiattack: one Bite and two Claw
+- Bite: +7, reach 5 ft., 14 (2d8+5) piercing plus 7 (2d6) psychic
+- Claw: +7, reach 5 ft., 11 (2d6+4) slashing
+
+### Leads with no stat block retrieved
+Found by web search. Stats were not available, so nothing is invented here.
+- **Astral whale** (third-party SRD conversion): Gargantuan, 138 HP, CR not retrieved. 5esrd Astral Plane page: https://www.5esrd.com/gamemastering/the-planes-of-existence/astral-plane-3pp
+- **Shantak** (homebrew, Michael J. Tresca, Patreon): a Lovecraftian horse-headed scaly dragon mount for the Astral Plane. CR not retrieved. https://www.patreon.com/posts/41314481
+- **Planar Bestiary 5E** (Monte Cook Games, third-party): 150+ monsters across the CR range, including a dream sprite from a hidden layer of the Astral Plane. Not used for the Dreameater, which is the Feyr. https://www.nobleknight.com/P/2148027763/Planar-Bestiary-5e
+- **Astral construct / figment** (2e Planescape, forum conversion idea): one EN World poster maps a Large figment to a 5th-level astral construct, roughly CR 5. One opinion, not a stat block. https://www.enworld.org/posts/7233113
+- **Unconverted 2e Silver Void residents** (names only): astral streakers, Thendar, buommans, dhours, Doc cu'oc, Garmorm. https://planewalker.com/encyclopedia/astral-plane_.html
+- **Other unconverted 2e Spelljammer creatures:** the EN World list of unconverted Spelljammer creatures is at https://www.enworld.org/threads/unconverted-spelljammer-creatures.161780/
+
+---
+
 ## Summary — Confidence at a Glance
 
 **Fully verified, table-ready:** all Monster Manual/Volo's/Tome of Foes/Monsters of the Multiverse entries (Githyanki/Githzerai line, Astral Dreadnought, Blob of Annihilation, Berbalang, Neh-thalggu, full Illithid Empire section, Aboleth/Beholder/Death Tyrant/Spectator/Grell/Gibbering Mouther/Morkoth/Flumph/Balhannoth/Star Spawn, Marut, Slaadi, Sphinxes, Couatl, base Thri-kreen), plus official Boo's Astral Menagerie entries pulled directly from source data (Neogi, Neogi Hatchling, Neogi Master, full Giff line, full Hadozee line, Plasmoid Warrior/Boss, Mercane, Reigar, B'rohg, Dohwar, Esthetic, Feyr, Gaj, Space Guppy/Hamster/Mollymawk, Scavvers, Space Clown).
@@ -1418,3 +1638,9 @@ Garishly-painted fiend treating the multiverse as one long stage — hitches rid
 **Confirmed NOT to exist as published stat blocks — reflavor guidance given instead:** Neogi Hatchling Swarm, Neogi Pirate (as an independent block), Thri-kreen Gladiator/Hunter/Mystic. These names circulated across multiple web sources but don't appear in a direct pull of the official book's creature list — likely search-summarization artifacts.
 
 **No 5e conversion exists:** Astral Searcher (reflavor as Specter or Ghost).
+
+**Added from Monstrous Compendium Vol. 1 (all [Verified], read from the PDF):** Asteroid Spider, Clockwork Horror, Eldritch Lich, Fractine, Gadabout, Goon Balloon, Nightmare Beast, Puppeteer Parasite, Star Lancer, Yggdrasti.
+
+**Homebrew, playtest before relying on:** Gossamer, Gossamer Noble, Astral Stalker (section 12). The Astral Stalker is a name-only concept.
+
+**Open campaign note:** the Dreameater is meant to be a Feyr, but the episode doc describes a gentle "wistling." See the note under the Feyr entry.
