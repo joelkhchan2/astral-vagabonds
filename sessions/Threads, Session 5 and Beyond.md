@@ -60,6 +60,10 @@ A real, consistent character thread worth naming and leaning into:
 - **Petra Sundown**, Minding Mabel's client, established but unplayed.
 - **Aerin Nightbreeze**, Aerion's cousin, one scene only so far, working deals at the gala on the family's behalf.
 
+## Aurel Delverane
+
+Now has her own file, `npcs/Aurel Delverane.md`. Banked there: once the crew's done real survey work for her, she may eventually want them to investigate the Stilling itself, not just chart its symptoms. Doesn't need to come into play soon, the players may want smaller contracts or the Dog Show first, this waits until it's wanted.
+
 ## Flurry
 
 Two things worth actively building toward:

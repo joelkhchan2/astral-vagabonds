@@ -97,3 +97,4 @@ Not picked yet. Candidates: the *Quiet Verge*'s "did they make it" question, Des
 - Dessa and Sedge's actual reunion, if the crew goes looking.
 - The Afterburners' first real contract, whenever that lands.
 - Flurry's modeling-diva arc, a natural lead-in to the Dog Show if it hasn't fired yet.
+- Aurel Delverane, once real survey trust is built, may eventually want the crew investigating the Stilling itself, not due this session, banked in `npcs/Aurel Delverane.md`.
