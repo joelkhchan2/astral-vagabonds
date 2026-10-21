@@ -3,7 +3,7 @@
 ## The Surface Read
 A weathered human woman in her late 50s. Drinks black coffee from the same dented tin mug. Gives orders like polite suggestions. Has never raised her voice in a crisis. Calls everyone by their last name until she trusts them, then switches to first name without comment. Plays solitaire alone in the helm room at night, and keeps a private journal in a locked book, writing by lamplight; nobody has read a word of it.
 
-Not warm -- but when Finny got spacesick his first week, she quietly adjusted the duty roster so he had lighter shifts and never mentioned it. When Oz froze during a boarding action, she stood next to him afterward and said, "That happens. Next time it'll be shorter." That was the entire conversation.
+Not warm, but when Finny got spacesick his first week, she quietly adjusted the duty roster so he had lighter shifts and never mentioned it. When Oz froze during a boarding action, she stood next to him afterward and said, "That happens. Next time it'll be shorter." That was the entire conversation.
 
 Aggressively, almost pathologically competent. Doesn't explain herself often, and when she does, it's because she's teaching you something.
 
@@ -11,19 +11,21 @@ Aggressively, almost pathologically competent. Doesn't explain herself often, an
 
 ## The Vane Compact (Backstory)
 
-> **Reframed by `campaign/Story Spine.md`.** The Compact was the **first fleet to try the nomadic method** -- flying with the living sky, following the currents and the pods, sharing what they charted. The right instinct, a generation too early. It failed for two reasons, not one: the cartel crushed it (below), *and* it was scientifically premature -- they had the art of following the living roads but not the understanding of why the sky moved, so some of her crews were lost to guttering zones (a different mechanism from how Orena's crew was lost, see `npcs/The Wayfinder Knot.md`, but the same underlying ignorance of why the sky moves). Estra's double guilt -- the cartel destroyed her fleet, and her own unfinished method killed some of her own -- is the heart of her arc. The crew completes it by supplying the missing science.
+> **Reframed by `campaign/Story Spine.md`.** The Compact was the **first fleet to try the nomadic method**, flying with the living sky, following the currents and the pods, sharing what they charted. The right instinct, a generation too early. It failed for two reasons, not one: the cartel crushed it (below), *and* it was scientifically premature, they had the art of following the living roads but not the understanding of why the sky moved, so some of her crews flew straight into water that was already stilling, got becalmed with nothing to push them home, and ran out of air and stores before anyone could reach them (a different mechanism from how Orena's crew was lost, see `npcs/The Wayfinder Knot.md`, but the same underlying ignorance of why the sky moves). Estra's double guilt, the cartel destroyed her fleet, and her own unfinished method killed some of her own, is the heart of her arc. The crew completes it by supplying the missing science.
 
 ### What She Built
-Fifteen years ago, Estra was **First Captain of the Vane Compact** -- a fleet of twelve ships that operated as the most respected independent exploration-and-trade outfit in the Bral Reach. Not military, not corporate -- independent. They charted new routes, made first contact with uncontacted species, mapped uncharted systems, and sold the data to the CIV.
+Fifteen years ago, Estra was **First Captain of the Vane Compact**, a fleet of twelve ships that operated as the most respected independent exploration-and-trade outfit in the Bral Reach. Not military, not corporate, independent. They charted new routes, made first contact with uncontacted species, mapped uncharted systems, and sold the data to the CIV.
 
-The Compact's reputation was built on a principle: **you chart it, you share it.** Every route discovered was filed with the CIV as open navigation data -- available to anyone. This made them heroes to small operators and a thorn in the side of organizations that profit from controlling route information.
+The Compact's reputation was built on a principle: **you chart it, you share it.** Every route discovered was filed with the CIV as open navigation data, available to anyone. This made them heroes to small operators and a thorn in the side of organizations that profit from controlling route information.
 
 They were ranked in the CIV's top 10.
 
 ### What Destroyed It
-A powerful Wildspace trading conglomerate -- **The Pale Reach** (connection to Priscilla's family TBD -- awaiting DM decision on whether family IS the Pale Reach, a branch of it, or a rival) -- made Estra an offer: merge the Compact into their network. Keep charting, keep exploring, but route data would be proprietary. Exclusive. The Pale Reach would control who could use it and charge licensing fees.
+A powerful Wildspace trading conglomerate, **The Pale Reach** (connection to Priscilla's family TBD, awaiting DM decision on whether family IS the Pale Reach, a branch of it, or a rival), made Estra an offer: merge the Compact into their network. Keep charting, keep exploring, but route data would be proprietary. Exclusive. The Pale Reach would control who could use it and charge licensing fees.
 
 Estra refused.
+
+**Why it had to be crushed, not just acquired.** This was never really about one fleet's margins. A nomadic network that charts the living currents and shares what it finds, for free, for anyone, makes every fixed toll route in the Pale Reach's book worthless the moment it actually works. You cannot charge passage on a road nobody needs a map to find. The Compact wasn't a competitor to be bought, it was a working demonstration that the entire toll economy is optional, and that is the one thing a cartel built on scarcity cannot allow to keep flying, whatever it costs to stop.
 
 **There was no single blow.** Over the following eighteen months, the fleet came apart one ship at a time, each captain for their own reason, until Estra was the only one left. No hired killers, no dramatic betrayal scene, mostly just an institution with money and patience out-waiting eleven independent operators one at a time. That's the actual shape of it, and it's worse for how ordinary most of it looks from the outside:
 
@@ -31,7 +33,7 @@ Estra refused.
 - **Dessa Kell** (*Compact Standard*) got out clean and rebuilt on her own, the one captain who actually managed what Estra couldn't.
 - **Oskar Bellamy** wasn't bribed and wasn't threatened. He was slowly squeezed: every contract worth taking quietly routed to someone else first, every honest client offered something faster and cheaper at the last minute, until flying independently just stopped being possible. He sold his ship rather than watch it rot at a berth, and never took a bribe or got hurt, which is exactly why some of what he felt afterward curdled into a quiet, never-voiced resentment of Estra herself, for leading a fight none of them could actually win.
 - **Tobias Renn** fell behind on berth fees and CIV fines once the work dried up. His ship was impounded, and he's been working the debt off ever since, same unglamorous category as the *Steadfast Promise*'s Dov Errin today.
-- **Yulia Sorrenson and Devan Ashe** flew the Compact's experimental nomadic routes into systems where the starlight itself disappeared, and were never heard from again. Not confirmed dead. Not confirmed anything. This is the one that actually haunts Estra, see "Why So Serious," below.
+- **Yulia Sorrenson and Devan Ashe** flew the Compact's experimental nomadic routes into a stretch of water that stilled out from under them mid-transit, becalmed with nothing left to push them home. Not confirmed dead. Not confirmed anything, a ship that stops answering is not the same as a ship that's gone. This is the one that actually haunts Estra, see "Why So Serious," below.
 - **Bree Alcott's** whole crew accidentally became a real band mid-transit, singing shanties to survive a bad haul, and took a unanimous vote to quit flying and tour instead. Fly under the name **the Static Choir** now.
 - **Marrin Lowe** meant to stay one night at a quiet waystation during a routine stopover. Four years later, still there, and by every account completely at peace about it.
 - **Ines Tarrow** inherited a bakery from an aunt nobody in the crew knew she had, and turned out to be a much better baker than she ever was an astrogator.
@@ -43,25 +45,25 @@ Left with nothing, she clawed her way back into a captain's chair (see The Broke
 **On the public rumor:** the version the crew trade is that she was once a "Commodore" over a whole fleet, and that something happened to it, and that she will not talk about it. The Vane Compact is the truth under that rumor. Nobody aboard has the full story.
 
 ### The Compact's Captains (Recurring NPC Pool)
-1. **Estra Vane** -- herself. Circled on her chart. Still fighting.
-2. **Sedge Okonkwo**, *Bright Arrears* (rank ~250, `factions/The Manifest Board.md`) -- bought out. Ashamed and defiant both, in roughly equal measure.
-3. **Dessa Kell**, *Compact Standard* (rank 9) -- escaped, rebuilt independently. The gap between her and Estra is worth a scene someday.
-4. **Oskar Bellamy** -- squeezed out economically, quiet resentment, sold his ship. **Live now: bought by Marlow Albus, refit as the *Fair Return*** (`sessions/Session 3 Prep.md`). Retired, whereabouts otherwise unknown.
-5. **Tobias Renn** -- impounded over debt, still working it off. A genuine future jailbreak-adjacent thread, gentler than it sounds: paying off a fine, not springing a prisoner.
-6. **Yulia Sorrenson** -- flew into a system where the starlight vanished. Never heard from again. Possibly connected to the Guttering.
-7. **Devan Ashe** -- same voyage, same fate, same open question.
-8. **Bree Alcott** -- fronts a touring act, the Static Choir, somewhere out there being happy about it.
-9. **Marrin Lowe** -- settled at a waystation four years ago and never left.
-10. **Ines Tarrow** -- runs a bakery now. Reportedly excellent.
-11. **Liset Farrow** -- merged her operation with a rival captain's. Small, quiet, content.
+1. **Estra Vane**, herself. Circled on her chart. Still fighting.
+2. **Sedge Okonkwo**, *Bright Arrears* (rank ~250, `factions/The Manifest Board.md`), bought out. Ashamed and defiant both, in roughly equal measure.
+3. **Dessa Kell**, *Compact Standard* (rank 9), escaped, rebuilt independently. The gap between her and Estra is worth a scene someday.
+4. **Oskar Bellamy**, squeezed out economically, quiet resentment, sold his ship. **Live now: bought by Marlow Albus, refit as the *Fair Return*** (`sessions/Session 3 Prep.md`). Retired, whereabouts otherwise unknown.
+5. **Tobias Renn**, impounded over debt, still working it off. A genuine future jailbreak-adjacent thread, gentler than it sounds: paying off a fine, not springing a prisoner.
+6. **Yulia Sorrenson**, flew into a stretch of water that stilled mid-transit. Never heard from again. Possibly connected to the Stilling.
+7. **Devan Ashe**, same voyage, same fate, same open question.
+8. **Bree Alcott**, fronts a touring act, the Static Choir, somewhere out there being happy about it.
+9. **Marrin Lowe**, settled at a waystation four years ago and never left.
+10. **Ines Tarrow**, runs a bakery now. Reportedly excellent.
+11. **Liset Farrow**, merged her operation with a rival captain's. Small, quiet, content.
 
 Each former captain is a potential scene, arc, or cameo: rescue, recruitment, confrontation, reunion, or just a warm surprise at a random port. Not every one of them needs to matter again. That's the point, most of them just moved on with their lives, the way people actually do.
 
-## The Debt -- The Broker
+## The Debt: The Broker
 
 After the Compact fell, Estra was drowning. No ship, no crew, blacklisted. A figure known only as **The Broker** appeared with an offer.
 
-The Broker operates in the gaps between organizations. Trades in leverage, not currency. Bets on outcomes and arranges conditions to ensure they pay off. Think: Wildspace loan shark dealing in event futures. **The Broker is a faceless force** -- never appears on screen, operates only through intermediaries, dead drops, and proxied instructions. The dread is in never knowing who's working for them or when the next favor will be called.
+The Broker operates in the gaps between organizations. Trades in leverage, not currency. Bets on outcomes and arranges conditions to ensure they pay off. Think: Wildspace loan shark dealing in event futures. **The Broker is a faceless force**, never appears on screen, operates only through intermediaries, dead drops, and proxied instructions. The dread is in never knowing who's working for them or when the next favor will be called.
 
 **The deal:** a ship to captain again (an earlier vessel, years before the current one), a clean-enough CIV charter, and enough seed money to crew up. In exchange: **three favors. Unspecified. Non-negotiable. Called in at the Broker's discretion.**
 
@@ -73,22 +75,26 @@ The Broker operates in the gaps between organizations. Trades in leverage, not c
 ### Broker Story Hooks
 - When does favor #2 get called in? What does it cost?
 - What was favor #1? (Someone out in the world was there and knows. Finding and unlocking that person is its own arc.)
-- Is the Broker connected to the Pale Reach? The Guttering? Gabrielle's lost crew?
+- Is the Broker connected to the Pale Reach? The Stilling? Gabrielle's lost crew?
 - Can Estra clear the debt before it's called in?
 - When the crew finds out about the favors, do they stay?
 
 ## The Long Game
 
-Estra is **rebuilding the Compact** -- slowly, quietly, from the bottom of the Manifest Board where nobody's watching.
+Estra is **rebuilding the Compact**, slowly, quietly, from the bottom of the Manifest Board where nobody's watching.
 
 - Every garbage contract: she's charting the route.
 - Every backwater system: she's filing navigation data under a pseudonym, building an open-source route database.
-- Every crew member: chosen because they have a skill, a connection, or a quality she needs -- not just for the ship, but for the fleet she plans to rebuild.
+- Every crew member: chosen because they have a skill, a connection, or a quality she needs, not just for the ship, but for the fleet she plans to rebuild.
 
-She hasn't told anyone. She thinks it's her burden. She's wrong -- it's the crew's story too.
+**What she's actually been waiting for.** Not just time, and not just invisibility. The Compact had the art and not the science, the instinct to follow the living roads without the understanding of why they moved or when they'd fail, and that gap is what got Sorrenson and Ashe killed. Fifteen years alone at the bottom of the rankings is, underneath the patience, a held breath: waiting for someone to supply the half she never had. She has started to suspect, quietly, probably not even fully to herself, that this crew might actually be it. Orena reads the sky the way the Compact's navigators never could, by feel, truly, not just by nerve. Aerion thinks in the systems and economics that a nomadic network would actually need to survive as more than one captain's stubbornness. Estra has not said any of this out loud, to them or to herself, and probably won't until something forces the question.
+
+She hasn't told anyone. She thinks it's her burden. She's wrong, it's the crew's story too.
 
 ### The Locked Chest
-In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have gone dark (Guttering connection). Eleven small markers -- one for each former captain.
+In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have stilled since. Eleven small markers, one for each former captain.
+
+**This is real field data, not just a grief object.** Fifteen years of her own hand-tracked observations of the living currents, charted before anyone had the science to explain what she was watching, updated quietly ever since. It is exactly the kind of rare, lived dataset a serious memory-current researcher would want access to (see `npcs/Wyndham Aldane.md`), though Estra has no idea anyone outside her own crew is even looking for this. **Her helm skill is the same holdover.** She flew the Compact's nomadic routes by hand and instinct, years before anyone understood why the sky moved, which is why she can fly the way she does now without being able to explain how. Orena is learning to do, properly and safely, the exact thing that broke Estra doing it blind.
 
 **If the PCs find this chart, it recontextualizes the entire campaign.**
 
@@ -112,38 +118,38 @@ Two answers, and she would give neither out loud.
 
 ### Parenting Style
 Parents through structure and trust, not affection. She:
-- Eats meals with the crew (never alone in her quarters -- deliberate)
+- Eats meals with the crew (never alone in her quarters, deliberate)
 - Remembers details nobody told her (noticed, doesn't say)
 - Assigns tasks that stretch people toward potential, not comfort
 - Never punishes failure, only dishonesty
 - Has a rule: "No one sleeps in the helm room alone after a bad job." (Reason: after the Compact fell, she spent months alone in a helm room. Won't let that happen to anyone else.)
 
-The crew doesn't call her "mom" -- Finny tried once and she gave him a look that could strip paint. But when someone has a bad night at 0300, Estra's light is already on, and her voice says "Sit down, I'll make coffee, you don't have to talk about it."
+The crew doesn't call her "mom", Finny tried once and she gave him a look that could strip paint. But when someone has a bad night at 0300, Estra's light is already on, and her voice says "Sit down, I'll make coffee, you don't have to talk about it."
 
 ### With Gabrielle (Orena, Navigator)
-Estra sees herself in Orena -- the version that lost a crew and didn't know how to carry it. This makes their dynamic complicated. She's harder on Gabrielle than anyone else, not from cruelty but because she knows what's coming.
+Estra sees herself in Orena, the version that lost a crew and didn't know how to carry it. This makes their dynamic complicated. She's harder on Gabrielle than anyone else, not from cruelty but because she knows what's coming.
 
 **Key beats:**
 - **Early:** Gives Gabrielle responsibility before she's ready, watches without intervening. Success: says nothing. Failure: debriefs without judgment. "What would you do differently?" Never "here's what you should have done."
 - **Mid-campaign:** Tells Gabrielle about losing the Compact (emotional truth, not full story): "I built something and I wasn't strong enough to hold it. You're going to build something too. Be stronger than I was." Gabrielle realizes Estra chose her, not hired her.
-- **Late-campaign:** Asks Gabrielle for advice. Not about the ship -- about what to do. Mentor admits student is now a peer.
+- **Late-campaign:** Asks Gabrielle for advice. Not about the ship, about what to do. Mentor admits student is now a peer.
 
 ### With Priscilla (Aerion, Bosun / Quartermaster)
-Doesn't push Aerion. Watches. Recognized the Windsong name on day one, said nothing -- understands the difference between who your family is and who you are.
+Doesn't push Aerion. Watches. Recognized the Windsong name on day one, said nothing, understands the difference between who your family is and who you are.
 
-Their dynamic is intellectual. Treats Priscilla as a strategic equal early. Asks for opinions on routes, contracts, port politics -- not to test, but because she values the analysis. Mentors by treating competence as a given and judgment as the thing worth developing.
+Their dynamic is intellectual. Treats Priscilla as a strategic equal early. Asks for opinions on routes, contracts, port politics, not to test, but because she values the analysis. Mentors by treating competence as a given and judgment as the thing worth developing.
 
 **Key beats:**
 - **Early:** Leaves a real-consequences decision to Priscilla (which contract to take). Doesn't second-guess. Lets the outcome teach.
-- **Mid-campaign:** Tells Priscilla the truth about her family's possible connection to the Compact's destruction. Not accusation -- information. "You should know what you're working with. What you do with it is yours."
+- **Mid-campaign:** Tells Priscilla the truth about her family's possible connection to the Compact's destruction. Not accusation, information. "You should know what you're working with. What you do with it is yours."
 - **Late-campaign:** Offers Priscilla the thing she actually wants: "When I'm done, this ship needs a captain who doesn't need the title to hold the crew together. That's not me. That's you." Recognizes the shadow-king quality and names it as what good captaincy looks like.
 
 ## The Death Question
 
 **Not decided.** Both paths are designed to work:
 
-**If she lives:** The arc is about letting go -- of control, guilt, the idea she has to rebuild alone. The crew becomes the Compact's successor because they chose it. She steps back. The mentor who said "I trust you" proves it by trusting them with her dream.
+**If she lives:** The arc is about letting go, of control, guilt, the idea she has to rebuild alone. The crew becomes the Compact's successor because they chose it. She steps back. The mentor who said "I trust you" proves it by trusting them with her dream.
 
-**If she dies:** The arc is about legacy. Everything she built -- crew, routes, data, ship -- survives because she built it to survive her. The crew finds the chest, the chart, the remaining captains. They finish what she started. Her death is a torch-passing, not a tragedy.
+**If she dies:** The arc is about legacy. Everything she built, crew, routes, data, ship, survives because she built it to survive her. The crew finds the chest, the chart, the remaining captains. They finish what she started. Her death is a torch-passing, not a tragedy.
 
 **Design principle:** Build so both endings are earned. The crew must become self-sufficient during the campaign, not after. Metric: if she dies and the crew grieves but keeps flying, the timing was right.
