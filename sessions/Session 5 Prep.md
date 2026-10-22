@@ -76,9 +76,15 @@ Read aloud, light, a transition rather than a new scene: *Charter window's behin
 | Goggles of Night | 1,200 gp |
 | Bag of Holding | 3,000 gp (Ormund's own markup, no haggling, he knows exactly what it's worth to a cargo crew) |
 
-## 3. A brief House Vellum beat
+## 3. The lockbox thread continues: House Nightbreeze makes an offer
 
-Not a confrontation, just a presence, enough to keep the standing suspicion alive without escalating it (Vaelros stays unaware of the Fifth House bid, this is unrelated). Somewhere during the derelict scene or the shop trip, a Vellum-liveried agent is visibly present, watching from a respectful distance, making no move, saying nothing if approached beyond polite non-answers. Let a PC notice being noticed. No check needed to clock it; the unease is the point.
+Not House Vellum this time, **House Nightbreeze**, Aerion's mother's house. They insure the whole Reach, which means they hold the claims data from the Reefside disaster, and their own numbers on what was supposed to be aboard that checkpoint don't fully reconcile. "Follow the money" is their whole stance on the Guttering (`factions/Houses & Holdings.md`): they'll back Vellum's denial exactly as long as it pays, and they're positioned to see the turn coming before anyone else at the table. Buying leverage against Vellum quietly, now, fits that exactly.
+
+**Whether Aerynna knows about this, or sent it herself, is deliberately left open.** She's the swing vote on Aerion's own Fifth House bid, so the personal stakes are real either way. Decide live, don't lock it now.
+
+**Prudence Hale, senior underwriter, Nightbreeze.** Precise, controlled, the house's whole ethos in one person. **Voice tic:** talks entirely in risk and probability, never a flat statement where a hedge will do ("there's a very favorable probability here for everyone," "this reads as a low-variance proposition"). **Physical tic:** idly counts something while she talks, a stylus tapped against her other hand, an actuary's fidget that never quite stops. **Want:** close this quietly and cleanly, no paper trail, a professional doing her job, not a threat.
+
+**The approach, worded carefully, wherever the table's naturally gathered (the Float Market or the dock near the derelict both work).** She never says "lockbox." The offer: **20,000 gp**, clean, no questions asked, for "anything recovered from the Reefside checkpoint that never made it onto any claim." This forces a real choice, not a third option to sell: **deny having anything** (a real lie, to a house that insures them and already half-suspects otherwise), or **admit something exists and decline the sale outright**. If the table somehow wants to actually sell, that's not blocked by the fiction, but it's a real point of no return, flag it live rather than letting it pass as a throwaway yes.
 
 ## 4. Main content: Open Water, Open Season
 
