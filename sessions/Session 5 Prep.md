@@ -36,6 +36,46 @@
 
 **Tone note.** Played as wonder-adjacent dread, not horror. A competent crew solved a hard problem under impossible pressure and left clean; the megapede and the grell are both opportunistic squatters that moved in long after, not a sign anyone aboard came to harm. Nothing here should imply either creature was ever near the *Quiet Verge*'s actual crew. The megapede is this cold open's real teeth, big enough to end badly if the table charges it; the flumph's warning and the option to retreat and reseal the hold are both there on purpose.
 
+## 2b. Rounding off the Bral visit: the Float Market
+
+Picks up the same session-4 visit rather than a fresh arrival, charter window and homecoming texture are already played. Two threads left on this stretch of dock: the Float Market, and the derelict. Run in whichever order the table reaches for.
+
+Read aloud, light, a transition rather than a new scene: *Charter window's behind you now, the postings sorted, Finny already working the gossip he picked up. Two things left on this stretch of dock before you're back in the black: whatever's worth buying at the Float Market, and that empty hull sitting unclaimed past the second gantry.*
+
+**The weather orb stall, run by a djinni: Virelai.** Not a novelty vendor, an actual djinni working a market stall, which is itself worth a PC noticing as strange. **The mystery, left open on purpose:** her orbs are captured fragments of real skies, taken from specific worlds and systems, and a djinni can reach places no ship bound to the physical currents can anymore. Is she archiving pieces of dying, cut-off worlds before they're lost entirely, or collecting them toward some purpose of her own, a hoard, a pact, a debt? Don't answer it. **Physical tic:** a faint, lazy wind moves around her and her merchandise constantly, never touching anyone else's hair or cloth. **Voice tic:** everything gets described in weather, even unrelated things ("that's a stormy question," "you've got a clear-sky look about you today"). Her line, now re-contextualized: *"The sky doesn't mind sharing, if you ask nicely."*
+
+**The flat orbs, a real Stilling clue, never named as one.** A handful of her orbs show nothing, no weather at all, no matter how they're shaken. Not broken, accurate: they're from skies that have already gone fully stilled, nothing left to capture. She doesn't like discussing these and sells them cheap, 5 gp, mostly to be rid of them. **DC 15 Arcana** if a PC presses confirms it's not a malfunction. No further explanation offered. Worth deciding later whether a "flat" orb ever correlates with somewhere the crew's actually been.
+
+**The Float Market's general shop: Ormund and Pell Vey, plasmoid siblings.** Ormund is meticulous, catalogues inventory down to exact counts, and briefly loses his solid shape when flustered, a real physical tell. Pell is chaotic and warm, hands out nicknames to customers on sight, and has a habit of absorbing small items into her own gelatinous body "for safekeeping," then genuinely forgetting where she put them, played for a laugh, not gross-out. **Ormund's want:** the shop taken seriously, a real reputation. **Pell's want:** everyone having a good time, profit a distant second. Real sibling workplace tension between them, worth a line or two even if nothing's bought.
+
+**Their stock, a real, curated list, not randomly rolled:**
+
+| Spell scroll | Level | Price |
+|---|---|---|
+| Light | Cantrip | 100 gp |
+| Mending | Cantrip | 100 gp |
+| Message | Cantrip | 100 gp |
+| Cure Wounds | 1st | 150 gp |
+| Detect Magic | 1st | 150 gp |
+| Identify | 1st | 150 gp |
+| Lesser Restoration | 2nd | 400 gp |
+| Invisibility | 2nd | 400 gp |
+
+| Common item | Price |
+|---|---|
+| Potion of Healing (x3 in stock) | 50 gp each |
+| Potion of Climbing | 200 gp |
+| Driftglobe (one only) | 100 gp |
+| Rope of Mending | 300 gp |
+| Cloak of Billowing | 200 gp |
+| Wand of Scowls | 300 gp |
+
+| Uncommon item | Price |
+|---|---|
+| Wand of Secrets | 750 gp |
+| Goggles of Night | 1,200 gp |
+| Bag of Holding | 3,000 gp (Ormund's own markup, no haggling, he knows exactly what it's worth to a cargo crew) |
+
 ## 3. A brief House Vellum beat
 
 Not a confrontation, just a presence, enough to keep the standing suspicion alive without escalating it (Vaelros stays unaware of the Fifth House bid, this is unrelated). Somewhere during the derelict scene or the shop trip, a Vellum-liveried agent is visibly present, watching from a respectful distance, making no move, saying nothing if approached beyond polite non-answers. Let a PC notice being noticed. No check needed to clock it; the unease is the point.
