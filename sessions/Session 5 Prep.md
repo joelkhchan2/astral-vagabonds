@@ -4,7 +4,7 @@
 
 - **Rank 340 of 349.** Crew of 10 (capacity 11, one hire slot open). Operating cost 900 gp/month.
 - **Account:** roughly 4,000 gp operating plus the standing 10,000 gp reserve, ~14,000 gp total (reconciled estimate, see `sessions/Session 4.md`).
-- **Open Water, Open Season is picked but never launched.** Aurel Delverane's survey job, full detail already built in `sessions/Session 4 Prep.md` §5(C) and the session 4 companion's tab panel-c. Nothing there needs rebuilding, just running.
+- **Open Water, Open Season is picked but never launched.** Aurel Delverane's survey job, fully built below in &sect;4 and in the session 5 companion, Longscar, the Windward Edge, the full 40-entry encounter table included. The earlier `Session 4 Prep.md` §5(C) version is superseded, this doc is the current build.
 - **The derelict hull** both players asked to board, docked at the Rock of Bral, unclaimed. Built out below, this session's cold open.
 - **Live threads:** Dessa and Sedge (she won't let him fly, a past accident or near-death, specifics still open), the Fifth House bid with Vaelren (Vaelros still unaware), the new crew (Tomlin, Judo, Sable) not yet fleshed past their hiring, Flurry owed real spotlight time (flagged twice now), the second kindori hat already resolved off-screen (Sorcel found and sold his own).
 - **New this session:** the three declined hiring candidates (Six, Auguste, Rattle) have joined Boy Boy McGee's crew, now six strong. See &sect;6 below for the reveal.
@@ -199,3 +199,8 @@ Either branch lands the same shape: Estra's rare, real moment, cut off by an opp
 - The Afterburners' first real contract, whenever that lands.
 - Flurry's modeling-diva arc, a natural lead-in to the Dog Show if it hasn't fired yet.
 - Aurel Delverane, once real survey trust is built, may eventually want the crew investigating the Stilling itself, not due this session, banked in `npcs/Aurel Delverane.md`.
+- **The *Quiet Verge*'s "did they make it" question**, left genuinely open in &sect;2, never forced, a real hook to pull on whenever the table's ready.
+- **Whether Aerynna knew about or sent the Nightbreeze offer**, deliberately unresolved in &sect;3, real personal stakes given she's the swing vote on Aerion's own Fifth House bid.
+- **Virelai's actual motive**, archivist of dying skies or collector toward some purpose of her own, left open on purpose in &sect;2b.
+- **The flat orbs as a trackable Stilling clue**: worth deciding later whether one ever correlates with somewhere the crew's actually been.
+- **Longscar**, if the table doesn't resolve him this session, stays a live, named threat (or a live, named ally, if they drove him off gently) at the Windward Edge for a future return.
