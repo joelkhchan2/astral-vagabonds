@@ -25,6 +25,18 @@ Canon ties those together, so a "Squid Ship" is both a stat block and a squid. W
 
 Classes through Capital are derived from the sixteen published hulls. **Canon tops out at Capital.** Everything above it is ours, and the point of the Great Ship tiers isn't bigger numbers, it's that scale changes what a ship *is*.
 
+### Hull Expansion, growing into a bigger class **[H]**
+
+A ship you've already named, fought in, and bled for doesn't have to be traded in to grow. A proper yard can expand a hull one class up at a time, lengthening the keel, adding gravity-plane capacity, reworking crew quarters, **keeping the ship's own history, name, and every upgrade already installed.** Slower and pricier than buying a new hull outright (expanding an occupied, already-fitted ship in place is genuinely harder than building one from a bare keel), but it's the only way to grow a ship you actually love rather than replace her.
+
+| Expansion | Cost | What changes |
+|---|---|---|
+| Trader &rarr; Hauler | 15,000 gp | Crew 11&rarr;13, HP 250&rarr;300, keel 100&rarr;250 ft, speed 55&rarr;40 ft |
+| Trader &rarr; Heavy | 22,000 gp | Crew 11&rarr;15, HP 250&rarr;400, cargo 20&rarr;30 t, keel 100&rarr;200 ft, speed 55&rarr;35 ft |
+| Trader &rarr; Galleon | 28,000 gp | Crew 11&rarr;20, HP 250&rarr;400, keel 100&rarr;130 ft, speed 55&rarr;35 ft |
+
+**Takes real time**, a real bastion-grade project (weeks in dock, not a same-day refit), and the Profile and Style chosen at purchase carry forward unchanged. Every existing upgrade, weapon, and crew-pool facility stays installed; nothing needs re-buying. The speed cost is real and worth weighing out loud: a bigger hull is slower, every time, no exceptions.
+
 ### What changes above Capital **[H]**
 
 **Multiple helms.** One spelljammer cannot move a Liner. Great Ships need two to four linked helms crewed at once, which means a helm watch rotation and a payroll of attuned spellcasters. This is the main reason Great Ships are institutions rather than possessions.

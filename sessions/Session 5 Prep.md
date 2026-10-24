@@ -198,6 +198,8 @@ Shop's ready, no rebuild needed, `sessions/danforth-yard-shop.html` reflects the
 
 Either branch lands the same shape: Estra's rare, real moment, cut off by an opportunity bigger than anything the crew's done yet, ending the session on a genuine "what do we do with this" note rather than a cliffhanger of dread.
 
+**What 20,000 gp actually buys, on purpose, not a fleet.** Estra's own arc is a fifteen-year held hope, not something one lucky contract should jump-start this early, so this isn't seed money for a second ship or a second crew. It's real enough to matter: close to, or enough for, growing the *Night Fury* herself into a bigger hull (`ships/Ship Construction.md`'s new Hull Expansion rules, Trader to Hauler at 15,000 gp, or most of the way to Heavy at 22,000 gp), keeping her name, her history, and every upgrade already installed, rather than trading her in or buying something separate. The practical payoff is the ship they already love getting bigger, not Estra's fleet getting a head start.
+
 ## Looking ahead
 
 - Fifth House paperwork and politics, Vaelros still unaware.
