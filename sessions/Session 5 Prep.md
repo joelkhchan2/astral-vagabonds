@@ -78,7 +78,7 @@ Read aloud, light, a transition rather than a new scene: *Charter window's behin
 
 ## 3. The lockbox thread continues: House Nightbreeze makes an offer
 
-Not House Vellum this time, **House Nightbreeze**, Aerion's mother's house. They insure the whole Reach, which means they hold the claims data from the Reefside disaster, and their own numbers on what was supposed to be aboard that checkpoint don't fully reconcile. "Follow the money" is their whole stance on the Guttering (`factions/Houses & Holdings.md`): they'll back Vellum's denial exactly as long as it pays, and they're positioned to see the turn coming before anyone else at the table. Buying leverage against Vellum quietly, now, fits that exactly.
+Not House Vellum this time, **House Nightbreeze**, Aerion's mother's house. They insure the whole Reach, which means they hold the claims data from the Reefside disaster, and their own numbers on what was supposed to be aboard that checkpoint don't fully reconcile. "Follow the money" is their whole stance on the Stilling (`factions/Houses & Holdings.md`): they'll back Vellum's denial exactly as long as it pays, and they're positioned to see the turn coming before anyone else at the table. Buying leverage against Vellum quietly, now, fits that exactly.
 
 **Whether Aerynna knows about this, or sent it herself, is deliberately left open.** She's the swing vote on Aerion's own Fifth House bid, so the personal stakes are real either way. Decide live, don't lock it now.
 
@@ -134,9 +134,15 @@ Roll 1d20. Mostly risk or reward, pure wonder kept rare (just entries 1 and 18).
 
 ## 5. Social beats
 
-**New crew integration (Tomlin, Judo, Sable).** Not yet fleshed past their interviews. A real scene each, or a joint one: Tack meeting new engineering hands, Finny meeting new gossip sources, Oz training new gunners, Brass's reaction to actually losing the cook job she loved being bad at. Open question each: what does Tomlin's tie to Mod Underhill actually mean to him; what did Judo wash out of; who or what was Judo's mentor Splinter.
+**One joint scene rather than four separate vignettes: a full-crew dinner, Tomlin's first real "proving" meal.** Now that Tomlin, Judo, and Sable are each fully written up (`npcs/Tomlin Underhill.md`, `npcs/Judo.md`, `npcs/Sable.md`), this is where all three, plus Flurry, actually land at once:
 
-**Flurry, a real dedicated beat.** Flagged twice now (Priscilla's player wants more direct interaction). Her sassy, diva personality is already emerging on its own (the modeling-career bit, the solemn claw-raise), lean into it rather than treat it as a one-off gag. The Dog Show thread (Guest of Honor, already on the board) is a ready-made vehicle if the table wants to reach for it, or a smaller standalone scene works just as well.
+- **Tomlin cooks for real**, the bag of holding's spice stock finally shown off properly. **Brass's torch-passing moment** happens here, hers to have, not forced, watching someone genuinely good take the job she loved being bad at, still possessive of the galley doorway even sitting it out.
+- **Judo** pulls a minor stunt at his gunnery post right before or after the meal, the established overcorrect-into-caution weakness or the sharp-eyed strength surfacing, GM's call which one the moment calls for.
+- **Sable** name-drops Splinter to anyone who'll listen, narrating her own exploits mid-sentence, tapping her shell before she does anything remotely brave.
+- **Finny** works the table for gossip from all three newest hires at once, his established running behavior.
+- **Flurry does her own inspection round**, sizing up the three newcomers the way a diva sizes up anyone new to her set. She adores Tomlin instantly (the spices do it), is standoffish and suspicious of Judo until he does something that wins her over, and straight-up mounts Sable's shell for an unmistakable photo op. Scriptable since she's an NPC/pet, not a PC, and this is Priscilla's real, direct Flurry interaction this session, reacting to and managing the antics rather than narrating them herself.
+
+One scene, every open question from the three new hires' interviews answered in motion rather than exposited.
 
 ## 6. Port color: the Afterburners
 
@@ -161,7 +167,7 @@ Rebuilt fresh. Session 4's table ran too many pure "nothing happens" entries, th
 | 9 | A lone brown scavver, Open Season bounty | Real but manageable fight, 250 gp on a confirmed kill |
 | 10 | A dohwar trader, cheerful, offering a genuinely good deal | A social scene, real savings or a useful lead |
 | 11 | A distress beacon on a heading the crew can't afford to take | DC 12 Insight: genuine vs. staged. DC 20 (rare): a detail about who sent it |
-| 12 | A whole stretch of water reads unnervingly quiet, no guppy schools, no eels working a shoal | DC 15 Arcana: a thinning current, a real Guttering symptom, no danger, just unease |
+| 12 | A whole stretch of water reads unnervingly quiet, no guppy schools, no eels working a shoal | DC 15 Arcana: a thinning current, a real Stilling symptom, no danger, just unease |
 | 13 | Sound carries impossibly far; the crew hears a conversation from a ship they cannot see | No check, by design, let it sit unexplained |
 | 14 | The signal, faint, everyone aboard hears something different, something they've lost | No check. Orena hears the Vocalise underneath it, privately, hers to share or not |
 | 15 | Two vast, ancient combatants, still fighting a war centuries dead, long past noticing the ship | No check, pure awe |
@@ -175,9 +181,16 @@ Rebuilt fresh. Session 4's table ran too many pure "nothing happens" entries, th
 
 Shop's ready, no rebuild needed, `sessions/danforth-yard-shop.html` reflects the full Ram rework and the new attack-roll rules from this week's reconciliation pass. One hire slot remains open if the table wants to fill it.
 
-## 9. Ending: hook, mystery, or cliffhanger
+## 9. Ending: Estra's frustration, then the interruption
 
-Not picked yet. Candidates: the *Quiet Verge*'s "did they make it" question, Dessa and Sedge, a Fifth House beat, something new entirely. Decide live, based on what actually lands hardest this session.
+**The setup.** Estra, usually buttoned-up and dry, finally says something out loud she's never said to the crew before: real frustration at always taking the smaller jobs, and underneath it, for the first time, a glimpse of her actual ambition, rebuilding a real fleet, not just surviving at 348th (`npcs/Captain Estra Vane.md`'s "Long Game" section, her fifteen-year held hope that this crew might be the missing half the Compact never had). Played rare and real, not a rant, the kind of thing that only comes out once something's finally cracked it loose.
+
+**The interruption, two branches, pick live based on what the table's actually been chasing this session:**
+
+- **Branch A, if the Dog Show's already live in the room.** The sponsor behind the existing "Guest of Honor" posting returns with a bigger pitch, named now: **Lord Wendell Carraway**, a minor house patriarch. The International Space Dog Show's Best in Show carries a real **20,000 gp purse**, not just entry prestige, delivered by formal invitation right as Estra's mid-sentence. Lighter, warmer, genuinely funny timing against her frustration rather than dramatic irony.
+- **Branch B, the default: Aurel Delverane escalates.** Having built real survey trust this very session (Open Water, Open Season), she comes back with something bigger than a chart job: funding a full expedition to her own waystation on the Elemental Plane of Water, to actually investigate why the Windward Edge confluence is behaving the way it is. The banked "may want the crew investigating the Stilling" hook (`npcs/Aurel Delverane.md`), arriving early because this session earned it. **20,000 gp**, and a real, dangerous, exciting next-tier job to open session 6 on.
+
+Either branch lands the same shape: Estra's rare, real moment, cut off by an opportunity bigger than anything the crew's done yet, ending the session on a genuine "what do we do with this" note rather than a cliffhanger of dread.
 
 ## Looking ahead
 

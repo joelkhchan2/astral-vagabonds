@@ -27,7 +27,7 @@ They trained together as teenagers under Aerion's uncle, the "space samurai" **V
 
 ## NPC Crew (8)
 
-> **Full character files** with motives, dreams, secrets, and arcs: `npcs/Captain Estra Vane.md`, `npcs/Tack.md`, `npcs/Brass.md`, `npcs/Finny.md`, `npcs/Oz.md`. The blurbs below are the quick reference.
+> **Full character files** with motives, dreams, secrets, and arcs: `npcs/Captain Estra Vane.md`, `npcs/Tack.md`, `npcs/Brass.md`, `npcs/Finny.md`, `npcs/Oz.md`, `npcs/Tomlin Underhill.md`, `npcs/Judo.md`, `npcs/Sable.md`. The blurbs below are the quick reference.
 
 ### 1. Captain Estra Vane -- Captain / Main Helmsman
 Human, late 50s. Serious, dry, tired demeanor, streaks of gray in black hair. Treasure Planet's Captain Amelia by way of a captain who expects excellence. You can catch her playing solitaire alone at night. She is also the ship's backup for training Orena on the helm.
@@ -47,13 +47,13 @@ Halfling. Loud, gregarious, gossips relentlessly, organizes the game nights, and
 Giff (hippo-person), seven feet tall and large. Absurdly polite, soft-spoken, a gentle giant. He carries a comically large pistol that he will also swing as a melee weapon, and he claims he has headbutted through steel. As scout he keeps watch as well as guards the deck.
 
 ### 6. Tomlin Underhill -- Cook / Gunner
-Halfling, hired session 4 on a nat-20 shepherd's pie. **Family to Maude "Mod" Underhill**, calls her Grandmama without a hint of irony, tangled up somewhere in the five hundred years of family tree that implies. Brought his own bag of holding full of seasonings to the interview. Replaces Brass as cook; she stepped down gratefully and permanently once he landed the job.
+Halfling, hired session 4 on a nat-20 shepherd's pie. **Family to Maude "Mod" Underhill**, calls her Grandmama without a hint of irony, tangled up somewhere in the five hundred years of family tree that implies, though the crew hired him before they knew it. Brought his own bag of holding full of seasonings to the interview. Replaces Brass as cook; she stepped down gratefully and permanently once he landed the job. Full write-up, motives, sidekick build: `npcs/Tomlin Underhill.md`.
 
 ### 7. Judo -- Scout / Gunner
-Hadozee, hired session 4, barely two days off a washout when he interviewed. Eager, young, glide membranes he hasn't quite grown into yet. Claims he can hold three guns at once; nobody's tested it under fire.
+Hadozee, hired session 4, barely two days off a washout when he interviewed. Eager, young, glide membranes he hasn't quite grown into yet. Claims he can hold three guns at once; nobody's tested it under fire. Full write-up, motives, sidekick build: `npcs/Judo.md`.
 
 ### 8. Sable -- Deckhand / Gunner
-Tortle, hired session 4 on a nat-20 impromptu mop test. Self-described as the fastest turtle this side of space, tops 20 mph, trained by a mentor she calls Splinter. Built like a wall, surprisingly quick, surprisingly warm.
+Tortle, hired session 4 on a nat-20 impromptu mop test. Self-described as the fastest turtle this side of space, tops 20 mph, trained by a mentor she calls Splinter. Built like a wall, surprisingly quick, surprisingly warm. Full write-up, motives, sidekick build: `npcs/Sable.md`.
 
 ---
 
