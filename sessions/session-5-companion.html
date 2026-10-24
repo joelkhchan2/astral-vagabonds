@@ -1,0 +1,581 @@
+<title>Open Water, Open Season</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #e7ecf1; --surface: #f6f8fb; --surface-2: #eef2f6;
+    --ink: #18202e; --muted-text: #566173;
+    --accent: #8a6a2c; --accent-soft: #b98f3f; --teal: #256d67;
+    --line: #d3dae2; --line-strong: #b9c3ce;
+    --dm: #7a3f6e; --dm-bg: #f3e9f1;
+    --danger: #a23b3b; --danger-bg: #f6e7e5;
+    --opp: #2f6b45; --opp-bg: #e6f0ea;
+    --cost: #8a5a1f; --cost-bg: #f4ebdd;
+    --read: #1f4f6b; --read-bg: #e9f0f4;
+    --pc: #4a4396; --pc-bg: #ecebf6;
+    --shadow: 0 1px 2px rgba(24,32,46,.06), 0 6px 20px rgba(24,32,46,.06);
+  }
+  :root:not([data-theme="light"]) { color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+      --ink: #e7ecf3; --muted-text: #93a0b3;
+      --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+      --line: #262f3d; --line-strong: #33404f;
+      --dm: #cf95c2; --dm-bg: #221722;
+      --danger: #e08a83; --danger-bg: #241615;
+      --opp: #86c79c; --opp-bg: #14201a;
+      --cost: #e0b877; --cost-bg: #201a12;
+      --read: #8fc6e0; --read-bg: #101c24;
+      --pc: #a9a3e6; --pc-bg: #16162a;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0b0f17; --surface: #141a26; --surface-2: #10151f;
+    --ink: #e7ecf3; --muted-text: #93a0b3;
+    --accent: #d8b25c; --accent-soft: #e6c983; --teal: #5fb8b0;
+    --line: #262f3d; --line-strong: #33404f;
+    --dm: #cf95c2; --dm-bg: #221722;
+    --danger: #e08a83; --danger-bg: #241615;
+    --opp: #86c79c; --opp-bg: #14201a;
+    --cost: #e0b877; --cost-bg: #201a12;
+    --read: #8fc6e0; --read-bg: #101c24;
+    --pc: #a9a3e6; --pc-bg: #16162a;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 16px; line-height: 1.62; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  .topbar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .topbar .wrap { display: flex; align-items: center; gap: 20px; height: 60px; }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 17px; letter-spacing: .01em; white-space: nowrap; }
+  .brand .anchor-mark { color: var(--accent); }
+  .navlinks { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; }
+  .navlinks a { color: var(--muted-text); text-decoration: none; font-size: 12.5px; font-weight: 500; padding: 6px 10px; border-radius: 6px; white-space: nowrap; letter-spacing: .02em; }
+  .navlinks a:hover { color: var(--ink); background: var(--surface-2); }
+  .toggle { flex: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted-text); border-radius: 7px; height: 34px; width: 34px; cursor: pointer; font-size: 15px; display: grid; place-items: center; }
+  .toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .toggle:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .hero { padding: 72px 0 48px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background:
+      radial-gradient(1px 1px at 12% 30%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78% 18%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.4px 1.4px at 62% 62%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 78%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90% 74%, var(--line-strong) 50%, transparent 51%),
+      radial-gradient(1.2px 1.2px at 22% 54%, var(--line-strong) 50%, transparent 51%); }
+  .hero .wrap { position: relative; z-index: 1; }
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  h1 { font-family: "Fraunces", serif; font-weight: 600; letter-spacing: -.01em; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02; margin: 16px 0 0; text-wrap: balance; max-width: 15ch; }
+  .hero .lede { font-size: 1.16rem; color: var(--muted-text); max-width: 62ch; margin: 22px 0 0; }
+  .hero .slogan { margin-top: 28px; font-family: "Fraunces", serif; font-style: italic; font-size: 1.05rem; color: var(--ink); border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; max-width: 60ch; }
+
+  section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 8px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--accent); font-weight: 500; }
+  h2 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.7rem, 3.4vw, 2.4rem); line-height: 1.08; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+  .sec-intro { color: var(--muted-text); max-width: 66ch; margin: 14px 0 30px; font-size: 1.03rem; }
+  h3 { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.3rem; margin: 8px 0 4px; letter-spacing: -.005em; text-wrap: balance; }
+  h4 { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 1rem; margin: 22px 0 6px; }
+  p { margin: 12px 0; }
+  a.inline { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+  .measure { max-width: 68ch; }
+  .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-text); font-weight: 500; }
+
+  .grid { display: grid; gap: 18px; }
+  .grid.two { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .grid.three { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: var(--shadow); }
+  .card h3 { margin-top: 0; }
+  .card h4:first-child { margin-top: 0; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 4px 0 8px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .tile .k { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted-text); }
+  .tile .v { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.5rem; margin-top: 3px; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+  .tile .v small { font-family: "IBM Plex Mono", monospace; font-size: .7rem; font-weight: 500; color: var(--muted-text); letter-spacing: .02em; }
+
+  .quote { font-family: "Fraunces", serif; font-style: italic; color: var(--ink); border-left: 2px solid var(--accent-soft); padding-left: 12px; margin: 14px 0; font-size: 1rem; }
+  .quote .who { display:block; font-family: "IBM Plex Mono", monospace; font-style: normal; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); margin-bottom: 4px; }
+
+  .read { background: var(--read-bg); border: 1px solid color-mix(in srgb, var(--read) 32%, transparent); border-left: 3px solid var(--read); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .read .read-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; color: var(--read); display: block; margin-bottom: 6px; }
+  .read p { margin: 6px 0; color: var(--ink); }
+  .read p:first-of-type { margin-top: 0; }
+  .read p:last-child { margin-bottom: 0; }
+
+  .call { border-radius: 10px; padding: 14px 16px; margin: 14px 0; border: 1px solid; font-size: .95rem; }
+  .call .call-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; display: block; margin-bottom: 4px; }
+  .call p:first-of-type { margin-top: 2px; }
+  .call p:last-child { margin-bottom: 0; }
+  .call.dm { background: var(--dm-bg); border-color: color-mix(in srgb, var(--dm) 40%, transparent); }
+  .call.dm .call-label { color: var(--dm); }
+  .call.danger { background: var(--danger-bg); border-color: color-mix(in srgb, var(--danger) 40%, transparent); }
+  .call.danger .call-label { color: var(--danger); }
+  .call.opp { background: var(--opp-bg); border-color: color-mix(in srgb, var(--opp) 40%, transparent); }
+  .call.opp .call-label { color: var(--opp); }
+  .call.cost { background: var(--cost-bg); border-color: color-mix(in srgb, var(--cost) 40%, transparent); }
+  .call.cost .call-label { color: var(--cost); }
+  .call.pc { background: var(--pc-bg); border-color: color-mix(in srgb, var(--pc) 40%, transparent); }
+  .call.pc .call-label { color: var(--pc); }
+
+  .beat { border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; margin: 18px 0; background: var(--surface); box-shadow: var(--shadow); }
+  .beat > .beat-head { display: flex; align-items: baseline; gap: 12px; }
+  .beat .bnum { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--accent); font-size: .95rem; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line-strong)); border-radius: 7px; padding: 1px 9px; flex: none; }
+  .beat h3 { margin: 0; }
+  .beat .who-leads { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .04em; color: var(--muted-text); margin-top: 2px; }
+
+  .crew { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .crew .card { padding: 20px; }
+  .crew .c-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .crew h4 { margin: 0; font-size: 1.08rem; font-family: "Fraunces", serif; font-weight: 600; }
+  .crew .c-role { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+  .crew dl { margin: 12px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 5px 12px; font-size: .9rem; }
+  .crew dt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted-text); padding-top: 3px; white-space: nowrap; }
+  .crew dd { margin: 0; }
+
+  .tablewrap { overflow-x: auto; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  thead th { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted-text); font-weight: 600; background: var(--surface-2); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.ctr, th.ctr { text-align: center; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.name { font-weight: 600; }
+  tbody tr:hover { background: var(--surface-2); }
+  .mono { font-family: "IBM Plex Mono", monospace; }
+
+  .spec { display: grid; grid-template-columns: repeat(auto-fit, minmax(88px,1fr)); gap: 2px 14px; margin: 12px 0; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; }
+  .spec div { display: flex; flex-direction: column; padding: 4px 0; }
+  .spec .k { color: var(--muted-text); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+  .spec .v { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  ul.clean { margin: 12px 0; padding-left: 20px; }
+  ul.clean li { margin: 6px 0; }
+  ul.tight { margin: 6px 0; padding-left: 18px; }
+  ul.tight li { margin: 3px 0; }
+  ol.clean { margin: 12px 0; padding-left: 20px; }
+  ol.clean li { margin: 6px 0; }
+
+  footer { padding: 40px 0 70px; color: var(--muted-text); font-size: .86rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+  .divider-note { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted-text); letter-spacing: .04em; }
+</style>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="anchor-mark">&#9875;</span> Open Water, Open Season</span>
+    <nav class="navlinks">
+      <a href="#run">Run Sheet</a>
+      <a href="#cold">Cold Open</a>
+      <a href="#market">Float Market</a>
+      <a href="#offer">The Offer</a>
+      <a href="#job">The Job</a>
+      <a href="#social">Social</a>
+      <a href="#transit">Transit</a>
+      <a href="#bastion">Bastion</a>
+      <a href="#reference">Reference</a>
+      <a href="#next">Next</a>
+    </nav>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">&#9681;</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Astral Vagabonds &middot; Session Five Companion</span>
+    <h1>Open Water, Open Season.</h1>
+    <p class="lede">Picks up mid-visit, not a fresh arrival: the charter window and homecoming beats already happened last session. Two threads round off the Bral stop (the derelict hull, the Float Market, run in either order), then the main content, finally flying the survey job the crew picked at the end of session 4, out to the Windward Edge.</p>
+    <p class="slogan">The derelict's teeth are real. The Windward Edge's climax is a ship fight, not a dogpile. Both are built to let the table retreat, not just win.</p>
+    <div class="call pc" style="margin-top:24px"><span class="call-label">The one rule that outranks this page</span><p><strong>Never decide for the players.</strong> Orena and Aerion are Gabrielle's and Priscilla's. This page gives situations, options, and spotlight <em>opportunities</em>, never what they buy, say, feel, or choose. Violet boxes flag exactly where the next move belongs to a player.</p></div>
+    <div class="call dm" style="margin-top:14px"><span class="call-label">How to use this page</span><p>Plum blocks are GM-only. Blue <strong>Read aloud</strong> boxes are narration to say or paraphrase. Full prep and reasoning behind every call: <span class="mono">sessions/Session 5 Prep.md</span>. Narration follows <span class="mono">rules/DMing Craft.md</span>.</p></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- RUN SHEET -->
+  <section id="run">
+    <div class="sec-head"><span class="sec-num">01</span><h2>Run Sheet</h2></div>
+    <p class="sec-intro">Where things stand going in, and the loose beat order. Nothing here is a fixed sequence, the derelict and the Float Market can run in either order, and the Nightbreeze offer can land during whichever one the table's in.</p>
+
+    <div class="tiles">
+      <div class="tile"><div class="k">Board rank</div><div class="v">340<small>of 349</small></div></div>
+      <div class="tile"><div class="k">Account</div><div class="v">~14,000<small>gp total</small></div></div>
+      <div class="tile"><div class="k">Crew</div><div class="v">10<small>of 11 capacity</small></div></div>
+      <div class="tile"><div class="k">Op. cost</div><div class="v">900<small>gp/mo</small></div></div>
+      <div class="tile"><div class="k">Hire slot</div><div class="v">1<small>open</small></div></div>
+      <div class="tile"><div class="k">Tone read</div><div class="v">Teeth<small>real, escapable</small></div></div>
+    </div>
+
+    <h4>Tonight's order, loosely</h4>
+    <ol class="clean">
+      <li><strong>Same Bral visit, rounding off:</strong> the Float Market and the derelict, either order, both already set up by session 4's ending.</li>
+      <li><strong>The Nightbreeze offer:</strong> Prudence Hale approaches wherever the table's naturally gathered, during either thread above.</li>
+      <li><strong>Depart, main content:</strong> fly Open Water, Open Season out to the Windward Edge, roll the dedicated d20 table as the leg plays out.</li>
+      <li><strong>Social and color, as room allows:</strong> new crew integration, a real Flurry beat, the Afterburners reveal.</li>
+      <li><strong>Return to Bral, fallout, ending hook</strong>, not picked yet, land on whatever the session actually made loudest.</li>
+    </ol>
+
+    <div class="call dm"><span class="call-label">On scope</span><p>This is a lot of built content, more than one session reliably covers. That's by design, not a sign everything has to land tonight. The derelict and the Windward Edge are each substantial on their own; if only one gets real table time, the other waits, nothing here expires.</p></div>
+  </section>
+
+  <!-- COLD OPEN -->
+  <section id="cold">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Cold Open: the Quiet Verge</h2></div>
+    <p class="sec-intro">The derelict hull both players asked to board, docked at the Rock of Bral, unclaimed. A true point-crawl, six spaces plus the entry, full stat blocks in <a href="#reference" class="inline">Reference</a>. Every room's document is also a standalone printable handout, <span class="mono">sessions/handouts/</span>, linked inline below.</p>
+
+    <p class="measure">A small independent trader that ran supply between Verge colonies, the same shape of route Hallow's Rest depends on. Registry scraped clean, no distress call, no bodies, no violence, just a ship that stopped being lived in mid-motion, was deliberately abandoned in good order, and drifted for months before fetching up in a lowside berth here.</p>
+
+    <div class="read">
+      <span class="read-label">Read aloud, boarding her</span>
+      <p>The airlock cycles on backup power, barely. Inside, the air still holds, but it's cold in a way that has nothing to do with temperature, the specific stillness of somewhere that used to have people breathing in it. Emergency lighting only, a dim amber strip along the deck. Somewhere forward, something ticks on an even interval, a system nobody's told to stop running. The deck under your boots is gritty in a way metal shouldn't be. What do you do?</p>
+    </div>
+
+    <div class="call dm"><span class="call-label">What actually happened, GM only</span><p>The crossing started taking longer than the charts said it should, trip after trip, the helmsman's own log tracking it getting worse: fewer bright threads in the water, more dark patches between them. Flow was dying before glow fully went out. Then, mid-transit, the push stopped entirely. Not lost, <strong>becalmed</strong>: the destination star sat exactly where the charts said, visible the whole time, but the ship couldn't close the distance. The captain's math was cold but sound, the hull's stores wouldn't outlast the drift, but the two lifeboats would, if nobody wasted what they were given. Jettison cargo, split the crew, run for the last confirmed waypoint. Before they left, the helmsman set the empty hull's own dead-reckoning heading for Bral, a last deliberate act, not luck, accounting for the months of drift. <strong>Did the crew make it? Genuinely unresolved</strong>, a real open hook, answer it only if the table chases it.</p></div>
+
+    <p class="measure"><strong>The crew, named for the handout documents:</strong> Captain <strong>Wren Ashby</strong>, Helmsman <strong>Ilsa Marrow</strong>, Engineer <strong>Pell Ostrander</strong>, Cook <strong>Dorram Keel</strong>, Deckhand <strong>Fen Caskey</strong>, and one more unnamed hand. Six aboard, six accounted for between the two lifeboats.</p>
+
+    <div class="call danger"><span class="call-label">Who's aboard now</span><p>Three things found their way into the open hull during the drift. <strong>Two grell</strong> denned in the crew quarters, nesting in the torn bedding, blind, hunting entirely by sound. Deeper in, <strong>a megapede</strong> forced its way into the cargo hold through the bay doors and has lived there since, the real boss of this hull. A small, harmless <strong>flumph</strong> fled the megapede early and has been hiding in the engineering vents, the one creature aboard actually glad to see visitors. Full stats, <a href="#reference" class="inline">Reference</a>.</p></div>
+
+    <h3>The rooms</h3>
+    <p class="measure">Let the crew choose their own order after the airlock. Every room carries both a "what happened here" clue and a "something's living here now" clue, so none of the three creatures feel sprung out of nowhere.</p>
+
+    <h4>Airlock / entry &middot; DC 10 Perception</h4>
+    <div class="read"><p>The outer hatch is already cycling when you reach for it, sluggish, protesting on backup power. Inside, your breath doesn't fog the way it should. Somewhere forward, something ticks on an even interval, patient, mechanical, a system nobody told to stop. The deck under your boots is gritty in a way metal shouldn't be.</p></div>
+    <p class="measure">On a success: the grit is old organic residue, the trail splits forward, a heavier smear toward the cargo hold, a lighter one toward crew quarters.</p>
+
+    <h4>Galley &middot; DC 12 Perception</h4>
+    <div class="read"><p>Pans still hang in their rack, swinging faint and slow from a draft that shouldn't exist in dead air. A pot's gone cold at the bottom, whatever was cooking left to finish alone. A tidy slate hangs by the stove, Dorram's own hand.</p></div>
+    <p class="measure">Clue: the cook's rationing note, finished and routine, a crew still doing ordinary jobs long after they should have worried. <span class="mono">sessions/handouts/01-cooks-rationing-note.pdf</span>. Second clue, same DC: claw gouges low on a cabinet door, old, scored deep.</p>
+
+    <h4>Crew quarters &middot; DC 13 Investigation, the first fight likely starts here</h4>
+    <div class="read"><p>Bunks are made, not military-tight, just made, the way you leave a room you plan to come back to. A sea chest sits open, half-packed, like whoever was filling it got called away before they finished.</p></div>
+    <p class="measure">Clue: a bunk roster confirms the ship's name. <span class="mono">sessions/handouts/02-bunk-roster.pdf</span>. <strong>DC 20:</strong> a finished, unsent letter home from Fen Caskey, worried about the lane running thinner but closing warm. <span class="mono">sessions/handouts/03-fens-letter-home.pdf</span>. <strong>DC 15 Perception, the den:</strong> bedding in the far corner bunk torn up and nested, not slept in. Two grell, hunting by sound; a lit torch or loud approach gives them away first, real quiet gives the away team the opening round.</p>
+
+    <h4>Cargo hold &middot; DC 13 Investigation, the real boss fight</h4>
+    <div class="read"><p>The hold isn't ransacked, it's shoved. Crates that should be stacked are scattered along one wall, dragged more than thrown, deep gouges scoring the deck plating between them, too wide and too deep for any person's tools.</p></div>
+    <p class="measure">Clue: a cargo jettison log, deliberate and methodical, not a panic dump. <span class="mono">sessions/handouts/04-cargo-jettison-log.pdf</span>. <strong>Loot:</strong> 150-400 gp leftover goods, a locked strongbox (DC 13) worth 100 gp more, a false panel, <strong>DC 18</strong>, another 100-150 gp in trade goods. <strong>The megapede dens here</strong>, CR 7, well above the grell. Give the table a real choice to retreat and reseal the bay doors rather than assume they finish it.</p>
+    <div class="call opp"><span class="call-label">The nest, once it's safe to search</span><p>Tangled into shed scale is a small, labeled ring of the ship's own duplicate keys, boxed as non-essential cargo before the crew left, one tag reading CAPTAIN'S CABIN. DC 15 Investigation. A clean, undamaged way into the captain's cabin, the real prize for taking the megapede on rather than skirting it. The DC 15 force-the-door option (below) stays available regardless.</p></div>
+
+    <h4>Engineering &middot; DC 13 Dexterity save on entry</h4>
+    <p class="measure">A drained helm coupling arcs once, unprompted, 2d6 lightning to anyone standing too close, half on a save.</p>
+    <div class="read"><p>The air back here hums wrong, a coupling that should be dead still twitching like a nerve that doesn't know the limb's gone. Burn scoring climbs one wall in a long, deliberate arc, not an explosion, something straining and failing slowly.</p></div>
+    <p class="measure">Once discharged, the room is safe. <strong>DC 12 Investigation:</strong> the engineer's maintenance log. <span class="mono">sessions/handouts/05-engineers-maintenance-log.pdf</span>. <strong>DC 15 Perception finds the flumph</strong>, cowering behind a loose panel. Left alone, it offers fretful telepathic warnings about the megapede, a real, usable hint. <strong>DC 18:</strong> a choice of salvage worth taking, ask the table which rather than rolling for them, a gravity-plane coil, a backup helm coupling, or the sounding-lantern housing, each worth 75-150 gp.</p>
+
+    <h4>Bridge &middot; DC 13 Investigation</h4>
+    <div class="read"><p>Star charts are still pinned open to the last course anyone plotted. The helm seat is angled toward the window, toward a bright, ordinary, untouchable star.</p></div>
+    <p class="measure">Clue: the helmsman's logbook, entries getting shorter and more worried, then the final entry, mid-sentence. <span class="mono">sessions/handouts/06-helmsmans-logbook.pdf</span>. <strong>DC 15:</strong> a second scrap, the helmsman's own dead-reckoning course for Bral. <span class="mono">sessions/handouts/06b-helmsmans-course-scrap.pdf</span>. <strong>Loot:</strong> a navigation instrument, sellable to Aurel Delverane specifically. <strong>DC 20 (rare):</strong> the waypoint ties to somewhere the table already knows. <strong>DC 25:</strong> a locked drawer under the console, a <strong>Lantern of Revealing</strong>, the one real magic item aboard.</p>
+
+    <h4>Captain's cabin, locked &middot; DC 15 to force, or the key ring from the nest</h4>
+    <p class="measure">The core reveal, read it straight: the captain's log, calm through every entry. <span class="mono">sessions/handouts/07-captains-log.pdf</span>. The last page does the math out loud and orders the abandon-ship. No blame, no panic, a closing line wishing whoever reads this well. <strong>DC 20:</strong> a second, unofficial scrap, the one crack in the composure the whole ship shows. <span class="mono">sessions/handouts/07b-captains-private-scrap.pdf</span>.</p>
+
+    <div class="call dm"><span class="call-label">Tone note</span><p>Played as wonder-adjacent dread, not horror. A competent crew solved a hard problem under impossible pressure and left clean; the megapede and the grell are both opportunistic squatters that moved in long after, not a sign anyone aboard came to harm. The megapede is this cold open's real teeth; the flumph's warning and the option to retreat and reseal the hold are both there on purpose.</p></div>
+  </section>
+
+  <!-- FLOAT MARKET -->
+  <section id="market">
+    <div class="sec-head"><span class="sec-num">03</span><h2>Rounding off the Bral Visit: the Float Market</h2></div>
+    <p class="sec-intro">Picks up the same session-4 visit, not a fresh arrival. Two threads left on this stretch of dock before departure: this, and the derelict above, either order.</p>
+
+    <div class="read">
+      <span class="read-label">Read aloud, transition</span>
+      <p>Charter window's behind you now, the postings sorted, Finny already working the gossip he picked up. Two things left on this stretch of dock before you're back in the black: whatever's worth buying at the Float Market, and that empty hull sitting unclaimed past the second gantry.</p>
+    </div>
+
+    <div class="grid two">
+      <div class="card">
+        <h4>Virelai, the weather-orb stall</h4>
+        <p>Not a novelty vendor, an actual djinni working a market stall. Her orbs are captured fragments of real skies, taken from specific worlds and systems, a djinni can reach places no ship bound to the physical currents can anymore. Is she archiving pieces of dying, cut-off worlds, or collecting them toward some purpose of her own? Don't answer it.</p>
+        <p><strong>Physical tic:</strong> a faint, lazy wind moves around her and her merchandise constantly. <strong>Voice tic:</strong> everything described in weather ("that's a stormy question"). Her line: <em>"The sky doesn't mind sharing, if you ask nicely."</em></p>
+      </div>
+      <div class="card">
+        <h4>The flat orbs, a real clue, never named as one</h4>
+        <p>A handful of orbs show nothing, no weather at all. Not broken, accurate: skies already gone fully stilled, nothing left to capture. She sells them cheap, 5 gp, mostly to be rid of them. <strong>DC 15 Arcana</strong> if pressed confirms it's not a malfunction. No further explanation. Worth deciding later whether a "flat" orb ever correlates with somewhere the crew's been.</p>
+      </div>
+    </div>
+
+    <h3>Ormund and Pell Vey, plasmoid siblings</h3>
+    <p class="measure">Ormund is meticulous, catalogues inventory down to exact counts, and briefly loses his solid shape when flustered. Pell is chaotic and warm, hands out nicknames on sight, and absorbs small items into her own gelatinous body "for safekeeping," then genuinely forgets where she put them. <strong>Ormund's want:</strong> the shop taken seriously. <strong>Pell's want:</strong> everyone having a good time, profit a distant second.</p>
+
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Spell scroll</th><th>Level</th><th class="num">Price</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Light</td><td>Cantrip</td><td class="num">100 gp</td></tr>
+          <tr><td class="name">Mending</td><td>Cantrip</td><td class="num">100 gp</td></tr>
+          <tr><td class="name">Message</td><td>Cantrip</td><td class="num">100 gp</td></tr>
+          <tr><td class="name">Cure Wounds</td><td>1st</td><td class="num">150 gp</td></tr>
+          <tr><td class="name">Detect Magic</td><td>1st</td><td class="num">150 gp</td></tr>
+          <tr><td class="name">Identify</td><td>1st</td><td class="num">150 gp</td></tr>
+          <tr><td class="name">Lesser Restoration</td><td>2nd</td><td class="num">400 gp</td></tr>
+          <tr><td class="name">Invisibility</td><td>2nd</td><td class="num">400 gp</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Common item</th><th class="num">Price</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Potion of Healing (x3 in stock)</td><td class="num">50 gp each</td></tr>
+          <tr><td class="name">Potion of Climbing</td><td class="num">200 gp</td></tr>
+          <tr><td class="name">Driftglobe (one only)</td><td class="num">100 gp</td></tr>
+          <tr><td class="name">Rope of Mending</td><td class="num">300 gp</td></tr>
+          <tr><td class="name">Cloak of Billowing</td><td class="num">200 gp</td></tr>
+          <tr><td class="name">Wand of Scowls</td><td class="num">300 gp</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Uncommon item</th><th class="num">Price</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Wand of Secrets</td><td class="num">750 gp</td></tr>
+          <tr><td class="name">Goggles of Night</td><td class="num">1,200 gp</td></tr>
+          <tr><td class="name">Bag of Holding</td><td class="num">3,000 gp</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="divider-note">Bag of Holding priced above the usual uncommon ceiling on purpose, Ormund's own markup, no haggling, he knows exactly what it's worth to a cargo crew.</p>
+  </section>
+
+  <!-- THE OFFER -->
+  <section id="offer">
+    <div class="sec-head"><span class="sec-num">04</span><h2>The Lockbox Thread Continues: House Nightbreeze</h2></div>
+    <p class="sec-intro">Not House Vellum this time, House Nightbreeze, Aerion's mother's house. They insure the whole Reach, which means they hold the claims data from the Reefside disaster, and their own numbers on what was supposed to be aboard that checkpoint don't fully reconcile.</p>
+
+    <div class="card">
+      <h4>Prudence Hale, senior underwriter, Nightbreeze</h4>
+      <p>Precise, controlled, the house's whole ethos in one person. <strong>Voice tic:</strong> talks entirely in risk and probability, never a flat statement where a hedge will do. <strong>Physical tic:</strong> idly counts something while she talks, a stylus tapped against her other hand. <strong>Want:</strong> close this quietly and cleanly, no paper trail, a professional doing her job, not a threat.</p>
+    </div>
+
+    <div class="call danger"><span class="call-label">The approach, worded carefully</span><p>Wherever the table's naturally gathered (the Float Market or the dock near the derelict both work). She never says "lockbox." The offer: <strong>20,000 gp</strong>, clean, no questions asked, for "anything recovered from the Reefside checkpoint that never made it onto any claim." This forces a real choice, not a third option to sell: deny having anything (a real lie, to a house that insures them and already half-suspects otherwise), or admit something exists and decline the sale outright. If the table somehow wants to actually sell, that's not blocked by the fiction, but it's a real point of no return, flag it live.</p></div>
+
+    <div class="call pc"><span class="call-label">Left deliberately open</span><p>Whether Aerynna knows about this, or sent it herself, isn't decided. She's the swing vote on Aerion's own Fifth House bid, so the personal stakes are real either way. Decide live, don't lock it now.</p></div>
+  </section>
+
+  <!-- THE JOB -->
+  <section id="job">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Main Content: Open Water, Open Season</h2></div>
+    <p class="sec-intro">The survey job picked at the end of session 4, finally flown. The real content, out at the Windward Edge, where the crew's own charted lane is losing ground to a real, literal confluence.</p>
+
+    <div class="quote"><span class="who">BR-1252, the posting as read</span><strong>Open Water, Open Season.</strong> Survey, a creeping current, plus standing bounty. Pay 3,100 gp, Days ~20. Requester Aurel Delverane, the Farthing Station survey office. Route Bral to the Windward Edge, the standing surf. Details: the Windward Edge's standing surf has crept inward, and a once-reliable stretch of chart has gone unreadable. Delverane wants to know whether the old charts can still be trusted. RATING: OPEN, CLIENT OF RECORD (Delverane, Farthing Station).</div>
+
+    <h4>The deliverable, two separate things</h4>
+    <ul class="clean">
+      <li><strong>3,100 gp flat</strong>, paid for completing the survey and reporting back to Delverane, guaranteed regardless of what's actually found.</li>
+      <li><strong>The navigation data itself</strong>, sellable separately, Orena's own call whether and to whom: DC 10 an ordinary lane (50-300 gp), DC 13 the lane brushing thinning water (300-1,500 gp, her own call whether the writeup is honest or softened), DC 16+ something genuinely unprecedented (1,500-10,000+ gp).</li>
+      <li><strong>"Open Season" is the title's wordplay, not a requirement.</strong> The board text never mentions killing anything. The standing CIV bounty just happens to apply here too, pure incidental opportunity.</li>
+    </ul>
+
+    <div class="read">
+      <span class="read-label">Read aloud, arriving at the standing surf</span>
+      <p>The standing surf comes into view before anything else does, two bodies of real water grinding against each other in a wall of silver-white turbulence. It hums, low, under everything, felt in the teeth more than heard, and where the two currents actually meet, it throws real spray, real foam, catching the light like a held breath. The air carries an unmistakable mineral-wet smell, rain on hot stone, water this far from anywhere water should be. Debris drifts along the boundary in slow spirals, caught between two different pulls. Somewhere past it, the chart just stops being reliable.</p>
+    </div>
+
+    <p class="measure"><strong>Why it's creeping inward:</strong> not one side dying outright, a confluence losing its balance. The charted lane's current held its ground against the deeper inflow because a resident kindori pod's regular passage kept reinforcing it. Once that pod stalled, the lane's own current weakened, and the boundary has been creeping into territory that used to belong to the stable, charted side.</p>
+
+    <div class="call danger"><span class="call-label">Longscar, the predator drawn to the stalled pod</span><p>A named, known night scavver, earned its reputation the way sharks earn theirs: one old wound running the full length of its body, from a fight everyone agrees it clearly won. Opportunistic, not monstrous, moved in on a weakened pod. The real choice it offers, never forced: help the stalled pod (non-lethal, a rescue-shaped scene), drive Longscar off without killing it, or take the bounty on a real, named, actively dangerous animal.</p></div>
+
+    <p class="measure"><strong>Aurel Delverane</strong> carries any scene she's in with her established voice, narrating her own observations half to herself, chart-ink on one finger. Full writeup, <span class="mono">npcs/Aurel Delverane.md</span>.</p>
+
+    <h3>The Windward Edge encounter table, d20 with a backup for each, 40 total</h3>
+    <p class="measure">Roll 1d20. Mostly risk or reward, pure wonder kept rare, just entries 1 and 18.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="ctr">d20</th><th>Primary</th><th>Backup</th></tr></thead>
+        <tbody>
+          <tr><td class="ctr">1</td><td>A pod of ordinary kindori playing in the confluence, breaching through real foam. Pure wonder, no check</td><td>A kindori calf separated, humming nervously. DC 13 Animal Handling guides it back, a favor banked for later</td></tr>
+          <tr><td class="ctr">2</td><td>A sealed canister adrift. DC 13 Investigation, an <strong>Alchemy Jug</strong> inside</td><td>A different canister, DC 15, 150 gp in preserved trade goods</td></tr>
+          <tr><td class="ctr">3</td><td><strong>Longscar</strong>, stalking the stalled pod. DC 13 Perception to clock it first, or it gets the opening move</td><td>Fresh kill-sign nearby, DC 12 Investigation, a warning worth heeding</td></tr>
+          <tr><td class="ctr">4</td><td>The stalled kindori pod, overgrown, stressed, a real non-lethal rescue opportunity if pursued</td><td>One pod member alone and weaker, DC 13 Medicine or Nature stabilizes it, a lasting goodwill boon</td></tr>
+          <tr><td class="ctr">5</td><td>A sunken ship suspended in clear water. DC 13 Investigation, 150-300 gp salvage</td><td>A second, more recent wreck, DC 15, a body and a log, a real clue, played gently</td></tr>
+          <tr><td class="ctr">6</td><td><strong>Ship combat: water pirates</strong>, hulls rigged for the thick current, run full ship combat; their vessel's a match for a Swift Trader, smaller crew pool</td><td>The same crew retreating from a worse fight elsewhere, a tense pass, no engagement if the table lets it go</td></tr>
+          <tr><td class="ctr">7</td><td><strong>A marid surfaces</strong>, poses a riddle (pick one live, see below). Solving it earns a real reward, GM's live pick: a free DC 18-20-tier cartography result, advantage on the crew's next three saves, a vial of true elemental water, or one honest answer to a real question</td><td>Something it left behind, a sculpture of living water, DC 15 Arcana, a minor curiosity</td></tr>
+          <tr><td class="ctr">8</td><td><strong>A water weird colony, one per person actually present</strong>, scaling naturally to the away team's size. DC 13 Perception before it strikes</td><td>Its empty lair, DC 13 Investigation, a small cache of what it's dragged down over time</td></tr>
+          <tr><td class="ctr">9</td><td>Jammer leeches on drifting debris, the Leech Line bounty</td><td>A full infestation on a drifting hulk, DC 13 to clear safely before boarding</td></tr>
+          <tr><td class="ctr">10</td><td>Something titanic glimpsed at a distance, slow, disinterested. Pure scale-wonder, never engaged</td><td>Its call instead, felt more than heard, Orena gains advantage on her next Nature or Survival check this leg</td></tr>
+          <tr><td class="ctr">11</td><td>The Weatheralls' <em>Kettle</em> passes, a warm social beat, maybe a half-heard verse of a work-song</td><td>Pip, the littlest, practicing real chart-reading, gets it adorably wrong. DC 11, anyone, helps without embarrassing her</td></tr>
+          <tr><td class="ctr">12</td><td>An astral whirlpool, something shiny at its center. Leave it: DC 15 Helm, fail costs time and minor damage. Go for it: <strong>DC 20 Helm.</strong> Fail or succeed, they get a locked lockbox (DC 13) with a <strong>Scroll of Water Breathing</strong>; only a failed DC 20 costs 25 damage to the ship</td><td>A dying whirlpool, DC 12 Arcana, a brief window that feeds Orena's cartography roll an edge, no treasure</td></tr>
+          <tr><td class="ctr">13</td><td>The old corridor signpost, half-buried, the DC 16+ cartography find in person, a crest nobody current would recognize (optional DC 18 History)</td><td>A second, different dead marker, a smaller mystery</td></tr>
+          <tr><td class="ctr">14</td><td>A Githyanki patrol. DC 13 History/Insight, paperwork or a real fight</td><td>A Githyanki raiding party, hostile, caught off guard, a real fight with real loot after</td></tr>
+          <tr><td class="ctr">15</td><td>A dohwar trader, a genuinely good deal or a real lead</td><td>A damaged trader asking for escort, a real reward and a goodwill boon on delivery</td></tr>
+          <tr><td class="ctr">16</td><td>The current's hum shifts, a Vocalise echo, Orena's alone to chase it or not</td><td>A clearer echo, DC 15 (hers alone), a real, if small, location clue</td></tr>
+          <tr><td class="ctr">17</td><td><strong>A chwinga, this time riding a tiny jury-rigged rocket</strong>, showing off. Engaging warmly earns advantage on the ship's next Helm or Gunnery roll this leg</td><td>The same chwinga, crash-landed gently into the hull, sheepish, same boon on offer anyway</td></tr>
+          <tr><td class="ctr">18</td><td>Nothing for a full day. The quiet itself is the content</td><td>A pocket of unusually rich water, resting here grants the benefit of a Heroes' Feast before the next real fight</td></tr>
+          <tr><td class="ctr">19</td><td><strong>A thin place to the Material Plane.</strong> DC 15 Arcana or Perception to recognize it's stable. Stepping through lands them briefly at Waterdeep's <strong>Yawning Portal</strong>; Durnan serves a drink and answers one real question for each person who steps through</td><td>A second thin place nearby, unstable. DC 15 to navigate safely, fail and they're deposited somewhere else entirely</td></tr>
+          <tr><td class="ctr">20</td><td><strong>Ship combat, the real climax: a void scavver assaults the hull directly</strong>, run entirely through ship combat rules, the session's hardest fight</td><td>Both the void scavver and Longscar at once, the apex predator returning to water it used to patrol, Longscar either fleeing it or opportunistically joining the kill</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>The marid's riddles, pick one live</h4>
+    <ul class="clean">
+      <li><em>"I have no body but I keep every shape poured into me. I have no voice but I carry every song sung near me. What am I?"</em></li>
+      <li><em>"The patient find me by waiting. The desperate find me by force. Either way, I only open once."</em></li>
+      <li><em>"I am worth nothing alone and everything in pairs. Spend me and I multiply. Hoard me and I vanish."</em></li>
+      <li><em>"I am built before I am needed, and needed before I am finished. Break me once, and I was never truly there."</em></li>
+      <li><em>"The first to leave me are the last to miss me. The last to leave me are the first to grieve."</em></li>
+    </ul>
+    <p class="divider-note">Deliberately open-ended, no single locked answer, play the reward either way.</p>
+  </section>
+
+  <!-- SOCIAL -->
+  <section id="social">
+    <div class="sec-head"><span class="sec-num">06</span><h2>Social Beats and Port Color</h2></div>
+
+    <h4>New crew integration: Tomlin, Judo, Sable</h4>
+    <p class="measure">Not yet fleshed past their interviews. A real scene each, or a joint one: Tack meeting new engineering hands, Finny meeting new gossip sources, Oz training new gunners, Brass's reaction to actually losing the cook job she loved being bad at. Open question each: what does Tomlin's tie to Mod Underhill actually mean to him; what did Judo wash out of; who or what was Judo's mentor Splinter.</p>
+
+    <h4>Flurry, a real dedicated beat</h4>
+    <p class="measure">Flagged twice now (Priscilla's player wants more direct interaction). Her sassy, diva personality is already emerging on its own, lean into it rather than treat it as a one-off gag. The Dog Show thread (Guest of Honor, already on the board) is a ready-made vehicle if the table wants to reach for it, or a smaller standalone scene works just as well.</p>
+
+    <h4>Port color: the Afterburners</h4>
+    <p class="measure">A reveal, not a scene the PCs need to drive. Boy Boy McGee's crew, down to BoyBoy, Cal ("Vertical"), and Ken ("Kraken") since Gary left for baking, picked up the three declined session-4 hiring candidates, Six (tabaxi), Auguste (fire genasi), Rattle (kenku). Six strong now, crewing a Scout-class skiff named the <em>Afterburn</em>, running as <strong>the Afterburners</strong>. Won't appear on the Manifest Board until a first real contract. Play it warm, not hostile, a friendly-rival dynamic.</p>
+  </section>
+
+  <!-- TRANSIT -->
+  <section id="transit">
+    <div class="sec-head"><span class="sec-num">07</span><h2>Astral Sea Transit, d20 (general)</h2></div>
+    <p class="sec-intro">For legs that aren't the Windward Edge itself, roll this one instead of the dedicated table above. Real risk and real reward, only one true nothing-entry.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th class="ctr">d20</th><th>Encounter</th><th>Check / effect</th></tr></thead>
+        <tbody>
+          <tr><td class="ctr">1</td><td>Space swine, feral, somebody's escaped cargo</td><td class="mono">None to catch; DC 13 Animal Handling nets a bounty later</td></tr>
+          <tr><td class="ctr">2</td><td>A kindori drifting, something's built a small structure on its back</td><td class="mono">DC 13 Nature: a hitchhiker, pure wonder</td></tr>
+          <tr><td class="ctr">3</td><td>Another charter hailing, wants to trade news, food, or a spare part</td><td class="mono">A social scene, a real resource exchange</td></tr>
+          <tr><td class="ctr">4</td><td>Wreckage from a hull class that hasn't been built in ninety years, and it's fresh</td><td class="mono">DC 15 Investigation: something's very wrong with that math</td></tr>
+          <tr><td class="ctr">5</td><td><strong>Githyanki raiders, sizing the ship up</strong></td><td class="mono">DC 14 Persuasion/Intimidation defuses it; failing is a real, short fight</td></tr>
+          <tr><td class="ctr">6</td><td>A galleon running hot, raider hulls behind, firing to disable</td><td class="mono">The crew's call: intervene or let it pass</td></tr>
+          <tr><td class="ctr">7</td><td><strong>Something hooks the hull from inside an asteroid field</strong></td><td class="mono">No warning; a real ambush, fair fight at this level</td></tr>
+          <tr><td class="ctr">8</td><td>A jammer leech riding a becalmed kindori</td><td class="mono">The Leech Line bounty, catchable alive, no danger</td></tr>
+          <tr><td class="ctr">9</td><td>A lone brown scavver, Open Season bounty</td><td class="mono">Real but manageable fight, 250 gp confirmed kill</td></tr>
+          <tr><td class="ctr">10</td><td>A dohwar trader, cheerful, a genuinely good deal</td><td class="mono">A social scene, savings or a lead</td></tr>
+          <tr><td class="ctr">11</td><td>A distress beacon on a heading the crew can't afford</td><td class="mono">DC 12 Insight: genuine vs. staged. DC 20 (rare): a detail</td></tr>
+          <tr><td class="ctr">12</td><td>A stretch of water reads unnervingly quiet, no guppy schools, no eels</td><td class="mono">DC 15 Arcana: a thinning current, no danger, just unease</td></tr>
+          <tr><td class="ctr">13</td><td>Sound carries impossibly far, a conversation from an unseen ship</td><td class="mono">No check, by design, let it sit unexplained</td></tr>
+          <tr><td class="ctr">14</td><td>A faint signal, everyone hears something different, something lost</td><td class="mono">No check. Orena hears the Vocalise underneath, privately</td></tr>
+          <tr><td class="ctr">15</td><td>Two vast, ancient combatants, still fighting a war centuries dead</td><td class="mono">No check, pure awe</td></tr>
+          <tr><td class="ctr">16</td><td>A Githyanki patrol asserting jurisdiction</td><td class="mono">DC 13 History/Insight; otherwise hours lost to paperwork</td></tr>
+          <tr><td class="ctr">17</td><td>A wound in the Astral, old and closed, something enormous died here</td><td class="mono">DC 15 Religion/Arcana: a name or a date</td></tr>
+          <tr><td class="ctr">18</td><td>The <em>Afterburn</em> passes at a distance, a friendly hail</td><td class="mono">Ties to <a href="#social" class="inline">&sect;06</a>, play it warm</td></tr>
+          <tr><td class="ctr">19</td><td>Nothing at all for days. Play the crew scene.</td><td class="mono">None, space for the table, the one nothing-entry</td></tr>
+          <tr><td class="ctr">20</td><td>A Night Scavver, hunting near a dead hulk field</td><td class="mono">Real danger, full stats in <a href="#reference" class="inline">Reference</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- BASTION -->
+  <section id="bastion">
+    <div class="sec-head"><span class="sec-num">08</span><h2>Bastion Actions / Downtime</h2></div>
+    <p class="sec-intro">Shop's current, no rebuild needed: <span class="mono">sessions/danforth-yard-shop.html</span> reflects the full Ram rework and the attack-roll rules. One hire slot remains open if the table wants to fill it. Full facility rules (Library, Storehouse, Smithy, Workshop), <span class="mono">rules/Bastions.md</span>.</p>
+  </section>
+
+  <!-- REFERENCE -->
+  <section id="reference">
+    <div class="sec-head"><span class="sec-num">09</span><h2>Reference</h2></div>
+    <p class="sec-intro">This session's new creature stat blocks. For the crew quick-reference and the ship combat station table, see the session 4 companion's own Reference section, unchanged since.</p>
+
+    <h4>Grell, full stats (the <em>Quiet Verge</em>'s crew quarters den)</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">13</span></div>
+      <div><span class="k">HP</span><span class="v">55</span></div>
+      <div><span class="k">Speed</span><span class="v">10 ft, fly 30 ft</span></div>
+      <div><span class="k">CR</span><span class="v">3</span></div>
+    </div>
+    <p class="measure">Perception +4, Stealth +4, condition immune prone. Blindsight 60 ft (blind beyond), hunts entirely by sound. Multiattack, one Bite plus up to four Tentacle. Bite +6 to hit, 7 (2d4+2) piercing, bonus damage vs a paralyzed target. Tentacle +6 to hit, 5 (1d4+3) poison, grapples, DC 13 Constitution save or paralyzed until the grapple ends. Run two together, nested in the torn bedding, a real fight at level 5; loud approach or light alerts them first, genuine quiet gives the away team the opening round. Verified, <em>Monster Manual</em>.</p>
+
+    <h4>Megapede, full stats (the <em>Quiet Verge</em>'s cargo hold, the real boss)</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">15</span></div>
+      <div><span class="k">HP</span><span class="v">175</span></div>
+      <div><span class="k">Speed</span><span class="v">50 ft, climb 50 ft</span></div>
+      <div><span class="k">CR</span><span class="v">7</span></div>
+    </div>
+    <p class="measure">Darkvision 90 ft, tremorsense 60 ft, resist poison. A hull-length centipede that forced its way in through the cargo bay doors and has denned there since, well above the grell's threat, the table's real choice this cold open. Multiattack, Bite (+11 to hit, 22/3d10+7 piercing plus poison) and Constrict (+11 to hit, 17/2d10+7 bludgeoning, grapple/restrain). Segmented: dropping it to half HP severs a segment, cutting its speed by 10 ft but not ending the fight. Give the table a real way out, retreat and reseal the bay doors, or come back better prepared, rather than assuming they finish it. Verified core stats, <em>Boo's Astral Menagerie</em>.</p>
+
+    <h4>Flumph, full stats (hiding in the engineering vents)</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">12</span></div>
+      <div><span class="k">HP</span><span class="v">7</span></div>
+      <div><span class="k">Speed</span><span class="v">5 ft, fly 30 ft</span></div>
+      <div><span class="k">CR</span><span class="v">1/8</span></div>
+    </div>
+    <p class="measure">Perception +5, darkvision 60 ft, telepathy 60 ft. Gentle, harmless, terrified of being knocked over, fled the megapede and has been hiding here since. Left alone, offers fretful telepathic warnings, "the big, hungry, loud one," a real, usable hint about the cargo hold if the crew doesn't harm it. Tendrils (piercing plus acid over time) and a stench spray exist on the books but should almost never come up, this is the one creature aboard actually glad to see visitors. Verified, <em>Volo's Guide to Monsters</em>.</p>
+
+    <h4>Longscar, full stats (Windward Edge, a named night scavver)</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">15</span></div>
+      <div><span class="k">HP</span><span class="v">105</span></div>
+      <div><span class="k">Speed</span><span class="v">fly 60 ft</span></div>
+      <div><span class="k">CR</span><span class="v">5</span></div>
+    </div>
+    <p class="measure">Stealth +6, Perception +5, darkvision 120 ft. Shadow Hunter (advantage on Stealth in the dark, advantage vs. surprised targets). Multiattack, two Bite, +7 to hit, 16 (2d10+5) piercing, DC 14 Strength or knocked prone. Identical stats to a base Night Scavver, a known individual rather than a new creature, one old wound running the full length of its body, from a fight everyone agrees it clearly won. Opportunistic, not monstrous, moved in on a stalled, weakened kindori pod rather than hunting the crew directly. The real choice it offers: drive it off without killing it, help the pod instead, or take the standing bounty on a real, named, actively dangerous animal. Verified, <em>Boo's Astral Menagerie</em>.</p>
+
+    <h4>Water Weird, full stats (Windward Edge confluence)</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">13</span></div>
+      <div><span class="k">HP</span><span class="v">58</span></div>
+      <div><span class="k">Speed</span><span class="v">swim 60 ft</span></div>
+      <div><span class="k">CR</span><span class="v">3</span></div>
+    </div>
+    <p class="measure">Invisible while fully submerged, surfaces only to attack. Multiattack, two Slam, +4 to hit, 9 (2d6+2) bludgeoning; a slam against a target it's already grappling can instead force a Constitution save or deal the same damage again and continue the grapple toward drowning. Run one per person actually present in the encounter, scaling naturally to the away team's size. Reconstructed from <em>Monster Manual</em> core stats, verify against the book before table use.</p>
+
+    <h4>Void Scavver, ship-combat note (Windward Edge climax)</h4>
+    <div class="spec">
+      <div><span class="k">AC</span><span class="v">17</span></div>
+      <div><span class="k">HP</span><span class="v">180</span></div>
+      <div><span class="k">Speed</span><span class="v">fly 70 ft</span></div>
+      <div><span class="k">CR</span><span class="v">11</span></div>
+    </div>
+    <p class="measure">Resist cold, darkvision 120 ft, blindsight 30 ft. Void Sense (can't be surprised). Multiattack, Bite (+11, 27/4d10+6, grapple/restrain) + Tail Slam (+11, 20/3d8+6, push + prone). Against an away team of up to 11, raw numbers undersell it, the fix is the fight itself: run this as a direct assault on the <em>Night Fury</em>'s hull through the ship combat rules (<span class="mono">rules/Rules &amp; Systems.md</span> &sect;8), Helm, Gunnery, and Ram against the ship's own AC 19 / threshold 25, not 11 individual attack rolls. Translate its Bite and Tail Slam as heavy single-target hull damage each round, roughly double a standard Gunnery exchange, and let a failed Helm check cost real ship HP the way a bad maneuver already would. If Longscar is folded in too, treat it as a second, smaller threat harassing anyone on deck while the ship fight runs, not a second ship-scale attacker. Base creature verified, <em>Boo's Astral Menagerie</em>.</p>
+  </section>
+
+  <!-- NEXT -->
+  <section id="next" style="border-bottom:none">
+    <div class="sec-head"><span class="sec-num">10</span><h2>Next: Return, Fallout, and the Ending Hook</h2></div>
+
+    <h4>Return to port</h4>
+    <p class="measure">Close back at the Rock of Bral. Rank moves again if the job's result earns it (DM judgment). This is where Orena sells the survey data, if she chooses to, and to whom.</p>
+
+    <div class="call dm"><span class="call-label">Ending hook, not picked yet</span><p>Candidates: the <em>Quiet Verge</em>'s "did they make it" question, Dessa and Sedge, a Fifth House beat, something new entirely. Decide live, based on what actually lands hardest this session.</p></div>
+
+    <h4>Looking ahead</h4>
+    <ul class="clean">
+      <li>Fifth House paperwork and politics, Vaelros still unaware.</li>
+      <li>Dessa and Sedge's actual reunion, if the crew goes looking.</li>
+      <li>The Afterburners' first real contract, whenever that lands.</li>
+      <li>Flurry's modeling-diva arc, a natural lead-in to the Dog Show if it hasn't fired yet.</li>
+      <li>Aurel Delverane, once real survey trust is built, may eventually want the crew investigating the Stilling itself, not due this session, banked in <span class="mono">npcs/Aurel Delverane.md</span>.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="divider-note">Open Water, Open Season &middot; Astral Vagabonds, Session 5</span>
+    <span class="divider-note">Full prep: <span class="mono">sessions/Session 5 Prep.md</span></span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement, btn = document.getElementById('themeToggle');
+    function cur(){ return root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light'); }
+    btn.addEventListener('click', function(){ var n = cur()==='dark'?'light':'dark'; root.setAttribute('data-theme', n); btn.innerHTML = n==='dark'?'&#9681;':'&#9680;'; });
+  })();
+</script>
