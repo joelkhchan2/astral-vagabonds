@@ -38,6 +38,17 @@ These ten, five above and five below, are the crew's immediate neighbourhood for
 
 **345. *Kettle*:** Hauler-class, captained by the **Weatherall family**, three generations aboard, nineteen people, four of them children. Slow, safe, and completely uninterested in ranking, and as of session 4, a singing family: close-harmony work-songs run through everything they do, chores, watch rotations, meals, the way some families just talk instead. The Weatheralls are what the crew could become if they stop wanting things, and that's either aspirational or terrifying depending on the session. *(Their hauler is boarded and robbed in M6: make them neighbours the crew likes first, so it lands.)*
 
+**The family, named.** **Garrick Weatherall**, captain, three generations running the *Kettle*. Formerly all business, quiet, kept the ship running tight after his first wife died young. **Noa Weatherall**, married in years back, a former street busker, the actual reason the whole ship sings now, not just chores. Worth naming if the crew meets them past the youngest few: **Corwin** (eldest, still a little serious like his father used to be), **Lissa** (teenage, courting age, a real spotlight scene waiting if the table wants one), and **Pip** (the littlest, already established learning to read charts, insufferably proud of it, `sessions/Session 2 Prep.md`'s gossip table).
+
+**Their songs, original work-songs that echo a shape and occasion rather than borrowing lyrics:**
+- **"Helm, Hull, and Home"**, a teaching round for drilling children and new hands on basic shipboard terms and stations.
+- **"These Steady Things"**, a comfort song, a list of small cozy certainties (a creak in the hull, a particular star pattern), sung low during a scary transit.
+- **A courting duet**, unnamed, sung between two young Weatheralls or a Weatherall and an outsider, warm and a little embarrassing.
+- **"Home Star"**, a quiet, solemn ballad about something small and precious, easily reskinned live to the ship herself, a lost relative, or a kindori sighting.
+- **"Sail Every Current"**, a rousing anthem sung before a hard job or a real goodbye, the most useful one to actually drop into a scene given how well it already rhymes with the campaign's own thesis.
+- **"Watch Change"**, a goodbye round-robin, each family member singing one line as they peel off to bed or duty.
+Full lyrics unwritten on purpose, easy to draft on demand whenever a real scene calls for one rather than spending effort on songs that might never get sung.
+
 **344. *Held Together*:** Cutter-class, barely, captained by **Fitz Ambrel**, gnome tinkerer. Rebuilds his own ship mid-flight, permanently, loudly, and somehow she keeps flying. A recurring comic tension ("don't look at the keel"), and a sharper mirror than it looks: this is one bad quarter from where the crew could end up if the account ever actually runs dry.
 
 **343. *Second Proof*:** Hauler-class, a floating bakery and the local outpost of **the Galactic Grandmas**, a brand-new venture founded by **Maude Underhill** after she passed leadership of the Red Yarn Society (Baldur's Gate, her old group) on to her own successor and decided to start something new out here instead. Run day to day by **Ouma Birch**, a halfling grandmother cut from the same cloth as Maude. Baking is the warm front; the real business, same as the Society ever was, is who's talked to whom. **Ties to tonight's Best in Dough posting**, Maude's own sponsorship, same universe, same warmth, no new backstory needed.
