@@ -94,7 +94,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 | `Rules & Systems.md` | Canon reference, corrections, the voyage loop, bastions, money |
 | `Ship Construction.md` | Classes, profiles, style, add-ons, signature features |
 | `Stat Blocks.md` | Numbers for the crew, Flurry, and the family |
-| `The Ship (template).md` | Blank ship doc. Fill it the night they buy one. |
+| `The Ship (template).md` | Blank ship doc, same section structure as `Night Fury.md`. Fill it out the day the crew commissions a second vessel. |
 
 ### The world
 | File | What's in it |
@@ -109,6 +109,7 @@ Where those overlap, ask at the table. `Session Zero.md` is written as questions
 ### People and plot
 | File | What's in it |
 |---|---|
+| `Name Index.md` | Who's-who lookup: every named person, faction, location, ship, and term, with its file. Check before reusing a name. |
 | `Story Spine.md` | **GM-only, full spoilers.** The current canonical overarching plot; wins over older plot docs where they conflict |
 | `Tier 1.md` | The beginning, mission by mission (levels 5-8), companion to `Contracts.md` |
 | `Arc Map.md` | **GM-only, full spoilers.** How the five running threads interleave from Tier 1 to the endgame, beginning to middle to end |
