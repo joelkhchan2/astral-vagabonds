@@ -180,6 +180,22 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 **Actions**
 ***Breath Weapon (Recharge 6).*** 15-foot cone, DC 13 Constitution save, 2d6 cold damage, half as much on a success. That's the whole combat kit, no bite, no second option, no save-or-lose. If a fight ever comes down to Flurry, something has already gone very wrong.
 
+### Flurry, Dog Show Sheet (scoped, non-combat, Dog Show categories only)
+
+**Everything above this line is unchanged, everywhere, always.** The Devoted rule still governs her completely outside the Show, and nothing below unlocks any new combat capability anywhere. This is a separate, narrow sheet for one specific occasion: the International Space Dog Show (`sessions/Episode - The International Space Dog Show.md`), where she's a real entrant with real proficiencies rather than pure flavor numbers.
+
+**Proficiency bonus** +2.
+**Proficient skills:** Performance (+6), Acrobatics (+5).
+**Proficient saving throws:** Dexterity (+5), Wisdom (+4).
+
+**What this covers:** Best Presentation and Most Convincing Trick use Performance; The Long Run and Best Vocalization use Acrobatics. Best Costume stays entirely unrolled, judged narratively like any other entrant, on craft and her own evident tolerance for wearing it.
+
+**The Proving Round is off-limits to her, completely.** The existing Devoted rule already forbids it. This sheet does not open an exception, it was never meant to.
+
+**Growth, if she places (not wins, places) in any category she's actually entered.** Never a combat upgrade, always small, permanent, and narrative:
+- **First placement ever:** one real new proficiency (a skill, the table's pick), or a small trained utility, reliably fetching and carrying small objects on command.
+- **A later placement:** her latent lunar-blood sensitivity sharpens, advantage on noticing something Tide-related wrong nearby. Still a feeling, never an answer, exactly as her existing entry already frames it.
+
 ---
 
 # HOUSE WINDSONG
