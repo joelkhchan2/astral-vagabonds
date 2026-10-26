@@ -16,9 +16,56 @@ The Show comes to the Rock of Bral, or somewhere on the crew's route, once a yea
 
 **Four founding Houses sit active judging seats: Vellum, Stoneward, Delverane, Nightbreeze.** The fifth chair, House Carrow's, sits ceremonially empty at every cycle's judging table too, the same "dusted weekly" empty seat the Cartógrapha itself carries (`factions/Houses & Holdings.md`), never explained to anyone who doesn't already know the story. Windsong doesn't get a seat, they haven't won that chair yet. Two panels of three, no judge crosses lanes: physical lane is Magistrate Yevelda Thorn (Delverane), Commodore (Ret.) Ossian Vale (Stoneward), and Baroness Isolde Fenmark (independent, pedigree-obsessed); open field is Madam Quill (Nightbreeze), Factor Renshaw Vell (Vellum, judges by precedent and "the record"), and Professor Aldric Wren (independent, hard to impress with anything derivative).
 
-**Real mechanics for every category**, an Animal Handling, Performance, Acrobatics, or Athletics check against a 12/15/18 DC ladder (ordinary placement, a real contender, a genuine shot at winning), the Proving Round running 13/16/19. Best Costume stays unrolled, judged on craft and the entrant's own evident tolerance for wearing it. A failed check is never disqualification, just an ordinary showing.
+**Real mechanics for every category**, a check against a DC ladder: ordinary placement, a real contender, a genuine shot at winning. A failed check is never disqualification, just an ordinary showing, somebody has to finish the field.
 
-**A real field, not just color: 31 entrants.** Full roster and the ten-year list of past Best in Show winners in the program PDF; several past champions are still actively competing this cycle. Worth naming here: **Plume**, a smoke dragon wyrmling visibly older and bigger than Flurry, far more theatrical, handled by the status-obsessed **Barnaby Voss**, who narrates her accomplishments to anyone standing nearby whether they asked or not. Entered in Best Presentation, Most Convincing Trick, and Best Costume, the same lane Flurry's most likely to compete in. **A real, standing rival, the Aerion/Flurry-side mirror of Verity Gilt and Paragon**, condescending toward smaller and younger competitors in a way that reads as entirely practiced.
+| Category | Check | Placed / Contender / Win |
+|---|---|---|
+| Best Presentation | Animal Handling | 12 / 15 / 18 |
+| The Long Run | Acrobatics or Athletics | 12 / 15 / 18 |
+| The Proving Round | Athletics or Acrobatics | 13 / 16 / 19 |
+| Strength of Pull | Athletics | 12 / 15 / 18 |
+| Fastest in Show | Acrobatics | 12 / 15 / 18 |
+| The Cargo Run | Athletics | 12 / 15 / 18 |
+| Most Convincing Trick | Performance | 12 / 15 / 18 |
+| Best Costume | not rolled | judged on craft and tolerance alone |
+| Best Vocalization | Performance | 12 / 15 / 18 |
+
+**A real field, not just color: 31 entrants.** GM-only, the program PDF sent to players only carries the categories, judges, and the ten-year champions list, keep this roster here instead:
+
+| Entrant | Categories |
+|---|---|
+| Paragon, void-adapted mastiff (Verity Gilt's, three-time category champion) | Presentation, Pull, Proving |
+| Kitty, tiny displacer beast kitten | Trick, Fastest |
+| Bellows, juvenile hippogriff (fell asleep mid-judging and won anyway) | Presentation, Long Run |
+| Needle, astral hamster | Trick, Vocal |
+| Ribbon, corgi (entirely ordinary, and proud of it) | Costume, Trick |
+| Soot, baby shadow dragon | Presentation, Proving, Fastest |
+| Marmalade, orange tabby cat (utterly unbothered by any of this) | Vocal, Costume |
+| Thistle, baby owlbear | Cargo Run, Pull, Long Run |
+| Gravel, earth-touched mutt (working-class entrant) | Cargo Run, Pull |
+| Whistler, space parrot (a gifted mimic) | Vocal |
+| Captain, ship's cat | Fastest |
+| Huckleberry, baby treant sapling | Presentation, Vocal |
+| Vex, brass dragon hatchling (a past Best in Show winner, still competing) | Costume, Proving, Fastest |
+| Oatmeal, golden retriever (zero threat, maximum warmth, last year's Best in Show) | Trick, Costume, Presentation |
+| Scuttle, trained giant beetle | Cargo Run, Pull, Long Run |
+| Pocket, tiny pseudodragon | Trick, Fastest |
+| Bramble, blink dog (a past Best in Show winner the judges still resent) | Long Run, Fastest, Trick |
+| Siren, kenku (mimics famous opera singers, uncannily well) | Vocal, Trick |
+| Anchor, hauling mastiff (a past Best in Show winner, "the honest work year") | Pull, Cargo Run, Proving |
+| Dot, space guppy in a floating bowl (a past Best in Show winner, "nobody saw that coming") | Presentation, Vocal |
+| Juniper, baby pegasus | Presentation, Long Run |
+| Chip, tressym (a winged cat, delighted by everything) | Fastest, Vocal |
+| Bolt, baby griffon | Long Run, Proving |
+| Mossy, myconid sprout (slow, patient, eerily charming) | Costume |
+| Rattler, tamed giant constrictor | Pull, Cargo Run |
+| Pippin, beagle (owned by a retired spacer who talks to him constantly) | Costume, Proving |
+| Ember, fire-touched salamander | Proving, Cargo Run |
+| Socks, black cat with white paws (a dockhand's pet) | Vocal, Fastest |
+| Drum, baby bulette (surprisingly docile, an eccentric prospector's pet) | Cargo Run, Pull, Proving |
+| Wisp, faerie dragon (prone to illusory shortcuts the judges don't trust) | Costume, Long Run |
+
+**Plume**, the thirty-first, deserves her own line: a smoke dragon wyrmling visibly older and bigger than Flurry, far more theatrical, handled by the status-obsessed **Barnaby Voss**, who narrates her accomplishments to anyone standing nearby whether they asked or not. Entered in Best Presentation, Most Convincing Trick, and Best Costume, the same lane Flurry's most likely to compete in. **A real, standing rival, the Aerion/Flurry-side mirror of Verity Gilt and Paragon**, condescending toward smaller and younger competitors in a way that reads as entirely practiced.
 
 **The halftime show: a kindori splash show**, a trained young pod performing in a purpose-built elemental-water arena, real cosmic wonder (now fully consistent with the Tide's own settled canon as literal elemental water, `campaign/Story Spine.md`), and a genuine beat for Orena specifically even inside an Aerion-centered episode. Two smaller acts also run: the Windward Wings (a synchronized aerial flight troupe) and the Space Clowns (the established campaign bit, played straight, genuinely funny with a controlled edge).
 
@@ -26,7 +73,16 @@ The Show comes to the Rock of Bral, or somewhere on the crew's route, once a yea
 
 **Vendor row and on-site services** include grooming stalls, a merchandise row, concessions, and, if the crew took the on-site costume designer offer (`sessions/Session 5 Prep.md` §5), **Aerion's own commission booth**, meaning his previously secret business is now operating in full public view for the length of the show.
 
-**A light conspiracy menu, none forced:** a pickpocket ring working the crowd, a judge quietly leaned on by someone (Rimmon Vex is the natural candidate), and a House representative (Nightbreeze or Vellum) visibly watching the crowd rather than the competition, letting the Nightbreeze/lockbox tension from `sessions/Session 5 Prep.md` §3 cast a distant shadow without forcing it into a light episode. A short table of "dirty tricks" (bribing a judge, swapping a rival's grooming kit, planting a rumor, misfiling paperwork), each with a DC to pull off and a separate DC to be caught, same petty, funny, nobody-actually-gets-hurt register as the posting below.
+**A light conspiracy menu, none forced:** a pickpocket ring working the crowd, a judge quietly leaned on by someone (Rimmon Vex is the natural candidate), and a House representative (Nightbreeze or Vellum) visibly watching the crowd rather than the competition. That last one is a real option, not a requirement: it can cast the Nightbreeze/lockbox tension from `sessions/Session 5 Prep.md` §3 as a distant shadow over an otherwise light episode, or it can be left out entirely.
+
+**Dirty tricks, if anyone's tempted, same register as the posting below, nobody actually hurts an animal:**
+
+| The trick | To pull it off | To be caught |
+|---|---|---|
+| Bribe a judge | Persuasion or Deception, DC 15 | Insight, DC 13 |
+| Swap a rival's grooming kit | Sleight of Hand, DC 13 | Perception, DC 12 |
+| Plant a rumor about a rival | Deception, DC 12 | Insight, DC 14 |
+| Misfile a rival's paperwork | Sleight of Hand or Investigation, DC 14 | Investigation, DC 15 |
 
 **Flurry is, obviously, not a dog.** She is also, obviously, the most interesting thing anyone at this show has seen in years. Play the mismatch for comedy: judges who don't know the etiquette for addressing a silver dragon, other entrants (an astral hamster, somebody's void-adapted mastiff, a giff's ceremonial warhound) who either adore her or are extremely nervous, and Aerion, coldly insisting the whole time that entering her is "purely practical, for the tailor's investment."
 
