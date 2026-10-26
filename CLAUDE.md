@@ -87,7 +87,7 @@ Tier 1's job-of-the-week sessions tend toward a shared shape: cold open, main co
 - "Vagabonds" is the crew's unofficial name -- referenced in session 1
 - The humor comes from characters, not from the setting being a joke
 - Campaign docs in this repo are the canonical source of truth. See [README.md](README.md) for folder structure (`campaign/`, `sessions/`, `npcs/`, `factions/`, `locations/`, `ships/`, `rules/`) and `campaign/Campaign Overview.md` for the full doc index and recommended reading order.
-- Two skills do real work in this repo: `dnd-writing` (house prose voice, the em-dash/filler rules) and `session-structure` (the session-prep skeleton and HTML companion process). Load them rather than re-deriving their rules from memory.
+- Six skills do real work in this repo: `dnd-writing` (house prose voice, the em-dash/filler rules), `session-structure` (the session-prep skeleton and HTML companion process), `npc-creation` (new NPC writeups and sidekick stat blocks), `session-review` (the completeness/consistency checklist before calling a session "set"), `handout-prop-split` (keeping GM-only material out of player-facing props), and `handout-pdf` (the shared reportlab helper for prop PDFs, `props-pdf/generators/handout_pdf_helpers.py`). Load them rather than re-deriving their rules from memory.
 - **Live threads don't live in this file.** Each `sessions/Session N.md` (the actual-play record) ends with "New canon this session" and "Where it goes next"; the next `Session N Prep.md` picks up from there. Check the latest `Session N.md` for current open threads rather than looking here.
 
 ## Workflow -- Sync to GitHub
