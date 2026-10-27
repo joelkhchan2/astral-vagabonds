@@ -33,7 +33,7 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | Houses & Holdings | `factions/Houses & Holdings.md` | Collection doc: who owns what, where, worth how much. |
 | House Nightbreeze | *(no dedicated file yet)* | Aerynna's house. Prudence Hale (below) is a senior underwriter here. |
 | House Delverane | *(see `npcs/Aurel Delverane.md`)* | Maintains the waystation on the Elemental Plane of Water. |
-| House Vellum | *(see session docs)* | The lockbox's original owners; thread still open. |
+| House Vellum | `factions/Houses & Holdings.md` | The lockbox's original owners. Confirmed campaign antagonist, killed House Carrow's head and crushed the Vane Compact. |
 
 ## Locations
 
@@ -70,6 +70,9 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Plume | `sessions/Episode - The International Space Dog Show.md` | Rival smoke dragon wyrmling, bigger and more diva than Flurry. |
 | Garrick Weatherall + family | `factions/The Manifest Board.md` | *Kettle* crew, the singing tradition (Noa, Corwin, Lissa, Pip). |
 | Splinter | `npcs/Sable.md` | Sable's mentor, a ratkin (deliberate TMNT riff, unconfirmed if actually good). |
+| Alaric Vellum | `factions/Houses & Holdings.md` | GM-only. Still-living architect of House Vellum's quiet enforcement; crushed the Vane Compact and Osric Carrow both. |
+| Osric Carrow | `factions/Houses & Holdings.md` | GM-only, deceased. Last head of House Carrow; killed after confronting Alaric Vellum over the Amberwake. |
+| Vesper Carrow | `factions/Houses & Holdings.md` | GM-only, bare-bones. Descendant carrying House Carrow's surviving loyalty, forty years in hiding. |
 
 ## Terms and world concepts
 

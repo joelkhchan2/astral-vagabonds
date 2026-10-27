@@ -130,9 +130,13 @@ Navigation is Orena's; the *system* is Aerion's. As bosun/quartermaster with the
 
 ---
 
-## The cartel (the complication, not the villain)
+## The cartel (the complication, mostly, not the villain)
 
-The Pale Reach and its houses are a **fishery in denial**, not a dark lord. They run the cull and the fixed grid, profit from both, suppress the disappearances, and champion the false light-fix. Recurring friction (Route Wardens, condescending brokers, House Windsong's own complicity, a cold fixer if you want a face), but the real antagonist is the problem. Keep them human; the redemption door (a house that turns, a broker who defects, Aerion's own father) is open.
+The Pale Reach and its houses are a **fishery in denial**, not a dark lord, as a rule. They run the cull and the fixed grid, profit from both, suppress the disappearances, and champion the false light-fix. Recurring friction (Route Wardens, condescending brokers, House Windsong's own complicity), but for most of the cast the real antagonist is the problem, not a person. Keep them human; the redemption door (a house that turns, a broker who defects, Aerion's own father) is open.
+
+**House Vellum is the one exception, and it has earned a real face and a real downfall.** `factions/Houses & Holdings.md` locks this in: Vellum didn't just deny the Stilling, it watched House Carrow's corridor die in real time, said nothing, and quietly profited while letting Carrow take the public blame alone, then had Carrow's own head killed when he worked out the truth and threatened to expose it. The same house, through the same man (**Alaric Vellum**), spent eighteen patient months dismantling the Vane Compact a generation later for the identical reason: a working, shared, nomadic network makes the subscription model worthless. Vellum is where "problem, not villain" gets its one deliberate exception. It is allowed to fall, personally and hard, and it should feel earned when it does, not tacked on.
+
+**Two different things fall, and both matter.** Vellum falls because a specific house, led by a specific man, chose profit over two houses' worth of lives and finally gets caught holding it. The founding-house cartel **system**, the fixed-toll, archive-owns-the-roads model all five houses depend on regardless of how any individual house behaves, falls separately and structurally, because the nomadic cure the crew helps prove makes a monopolized road obsolete on its own terms. "You cannot own a river that changes course" (below) was always the thesis; Vellum's fall is personal justice, the system's fall is the actual revolution, and the campaign gets to deliver both without needing a second villain to do it. Keep Vellum's downfall concrete and earnable at the table; keep the system's obsolescence as the slower, structural payoff that the nomadic network's success delivers on its own.
 
 ## How to run it (so the pleasure lands)
 

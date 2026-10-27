@@ -78,6 +78,8 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 
 **Fleet:** twelve Heavy-class survey hulls, immaculately maintained, rarely flown.
 
+**Alaric Vellum.** The family scion who actually runs the archive's quiet enforcement, small round glasses, a man who genuinely enjoys things filed correctly. Astral elf, old enough that "forty years ago" is recent to him. Not the public face of the house (that's a rotating cast of stewards and factors), the one who decides, personally and without raising his voice, what happens to an operator whose existence threatens the subscription model. He orchestrated the eighteen-month dismantling of the Vane Compact (`npcs/Captain Estra Vane.md`) the same way he handled Carrow (below): patiently, legally, and so far it's never once cost him anything. GM-only for now, not yet a face the table has met.
+
 ## HOUSE STONEWARD: the road tax
 **Net worth ~61,000,000 gp** · **Territory:** the Tollmarch · **Board function:** enforcement and security
 
@@ -111,7 +113,7 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 
 **Planar reach:** banking relationships with the **mercane**, whose interplanar trade network predates the Reach by a very long time and does not particularly respect it.
 
-**Guttering stance:** follow the money. Currently backing Vellum's denial because subscriptions still pay. Will pivot the instant claims outrun premiums, and they will see that turn coming before anyone else at the table.
+**Guttering stance:** follow the money. Currently backing Vellum's denial because subscriptions still pay, while quietly working the other side: Prudence Hale's 20,000 gp offer for the crew's lockbox contents (`sessions/Session 5 Prep.md`) is Nightbreeze buying leverage against Vellum, not aid to the crew. Not an ally, an opportunist positioning to profit whichever way Vellum falls, and they'll see the turn coming before anyone else at the table.
 
 **This is Aerynna's house.** Her personal holding within it is roughly **6,000,000 gp**, independent of the family trust, and it is hers outright.
 
@@ -135,6 +137,24 @@ The official account is mismanagement. Vellum's position is that Carrow overexte
 > **This is a Tier 3 revelation and it should hurt.** Aerion is competing for a dead house's chair, vacated by the precise phenomenon he has spent three tiers documenting. His father's life's ambition is a seat at a table with a hole in it, and the hole is the thing that's coming for all of them.
 >
 > Estra's locked star chart has Amberwake annotations on it. She has never known what they meant.
+
+> **The confrontation, GM-only, ready to run as a flashback whenever the moment's earned.** Osric Carrow, the house's last head, worked out the same thing the crew eventually will: Vellum's own certification-lapse story runs the dates backward. He went to Alaric Vellum directly, the Cartógrapha's archive deck, Carrow colors still on the wall, Carrow's own corridor logs spread flat on the table between them.
+>
+> *"You knew," he says. Not a question.*
+>
+> *Alaric doesn't look up from stacking Carrow's logs back in order, a man who takes real pleasure in things filed correctly. "The Amberwake was always going to fail eventually, Osric. We simply knew which eventually."*
+>
+> *"You let my people die out there."*
+>
+> *"I let a corridor die. People made their own choices about what to do inside it." He looks up. "It's just business."*
+>
+> *Osric's hand doesn't shake. "Every house at that table will turn on you the hour I lay these dates side by side."*
+>
+> *A small, genuinely regretful smile. "They won't get the chance."*
+>
+> Cut there. Whatever happens next doesn't need describing; Osric Carrow died within days, quietly, officially an accident. That's what actually explains the house's disappearance: not a single clean collapse, a silenced head and a surviving branch that read the message correctly and went to ground on purpose rather than scatter in a panic, which is why Carrow vanished faster and more completely than a mere business failure accounts for. **Vesper Carrow**, a descendant, carries whatever's left of the house's loyalty and knowledge today, patient, forty years patient, planning something nobody's named yet. Bare-bones on purpose, this is a thread to flesh out when it actually gets pulled, not before.
+>
+> **One way this surfaces, if a delivery mechanism is ever needed:** the Tide carries memory as well as water (`campaign/Story Spine.md`'s Tier 3+ deeper truth); a current-reader instrument, played against the right artifact, could replay this scene as a vision rather than requiring a document to explain it. Not committed to, just available.
 
 ---
 
