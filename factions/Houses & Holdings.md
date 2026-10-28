@@ -64,7 +64,7 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 # 3. THE FOUNDING HOUSES
 
 ## HOUSE VELLUM: the archive
-**Net worth ~84,000,000 gp** · **Territory:** the Sallow Chain · **Board function:** custody of the archive
+**Net worth ~84,000,000 gp** · **Territory:** the Sallow Chain · **Board function:** custody of the archive · **People and current politics:** `factions/House Vellum.md`
 
 **Crest:** a closed ledger, seen edge-on, with a single open eye on its cover. No motto. Struck in dark ink on pale paper for everyday use, pressed in dark red wax for anything that matters. A Vellum document never needs a signature to be recognized, the crest alone tells you exactly how seriously to take it. First rendered for `sessions/vellum-we-know-note.html` and `sessions/lockbox-vellum-correspondence.html`.
 
@@ -78,10 +78,10 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 
 **Fleet:** twelve Heavy-class survey hulls, immaculately maintained, rarely flown.
 
-**Alaric Vellum.** The family scion who actually runs the archive's quiet enforcement, small round glasses, a man who genuinely enjoys things filed correctly. Astral elf, old enough that "forty years ago" is recent to him. Not the public face of the house (that's a rotating cast of stewards and factors), the one who decides, personally and without raising his voice, what happens to an operator whose existence threatens the subscription model. He orchestrated the eighteen-month dismantling of the Vane Compact (`npcs/Captain Estra Vane.md`) the same way he handled Carrow (below): patiently, legally, and so far it's never once cost him anything. GM-only for now, not yet a face the table has met.
+**Alaric Vellum.** The family scion who actually runs the archive's quiet enforcement, small round glasses, astral elf, old enough that "forty years ago" is recent to him. Orchestrated the eighteen-month dismantling of the Vane Compact (`npcs/Captain Estra Vane.md`) the same patient, legal way he handled Carrow, below. Full writeup, including the house's seated head (his niece, who doesn't know) and the crew's actual contact point inside the house: `factions/House Vellum.md`. GM-only for now, not yet a face the table has met.
 
 ## HOUSE STONEWARD: the road tax
-**Net worth ~61,000,000 gp** · **Territory:** the Tollmarch · **Board function:** enforcement and security
+**Net worth ~61,000,000 gp** · **Territory:** the Tollmarch · **Board function:** enforcement and security · **People and current politics:** `factions/House Stoneward.md`
 
 **Business:** tolls on maintained passages, patrol contracts, salvage rights, and **arms manufacture**. Stoneward Defensive Solutions sells the ballistae, mangonels, rams and rotators on every price sheet in Wildspace, including the crew's.
 
@@ -92,7 +92,7 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 **Fleet:** thirty-one Route Warden patrol hulls, mostly Sturdy Traders, plus four Dreadnoughts nobody has seen in the same place.
 
 ## HOUSE DELVERANE: the instrument makers
-**Net worth ~29,000,000 gp** · **Territory:** the Windward Edge · **Board function:** acquisition and exploration
+**Net worth ~29,000,000 gp** · **Territory:** the Windward Edge · **Board function:** acquisition and exploration · **People and current politics:** `factions/House Delverane.md`
 
 **Business:** new route charting, survey instruments, and the data-broker network the crew actually deals with. **Delverane Instruments** makes the Standard Set, the Deepline Suite, and the Brightchair helm.
 
@@ -105,7 +105,7 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 **Fleet:** nineteen Swift Traders and Cutters, cheap and fast and constantly out.
 
 ## HOUSE NIGHTBREEZE: the exposure
-**Net worth ~77,000,000 gp**, with **underwriting exposure near 400,000,000** · **Territory: none** · **Board function:** finance and insurance
+**Net worth ~77,000,000 gp**, with **underwriting exposure near 400,000,000** · **Territory: none** · **Board function:** finance and insurance · **People and current politics:** `factions/House Nightbreeze.md`
 
 **Business:** the investment portfolio, the banking relationships, and the insurance book that covers most of chartered Wildspace, including the crew's 1,800 gp annual policy.
 
@@ -120,7 +120,7 @@ The youngest founding house at roughly eighty years, and the poorest. They are o
 **Fleet:** none to speak of. Four Cutters for factors and auditors.
 
 ## HOUSE CARROW: the empty chair
-**Net worth at collapse: ~40,000,000 gp** · **Territory:** the Amberwake, a region that no longer appears on charts · **Board function:** vacant, 40 years
+**Net worth at collapse: ~40,000,000 gp** · **Territory:** the Amberwake, a region that no longer appears on charts · **Board function:** vacant, 40 years · **People and current politics:** `factions/House Carrow.md`
 
 The fifth founding house. Cartographers, like Vellum, but outward-facing: they charted and settled the far side of the Verge and built their fortune on a corridor called the **Amberwake** that ran deep and fast and belonged to them.
 
@@ -183,9 +183,9 @@ The official account is mismanagement. Vellum's position is that Carrow overexte
 
 ## The other contenders
 
-**House Crestfall:** 11,400,000 gp. Richer, better connected, and entirely a Chain operation. Their case is stability and volume. Their problem is that everyone already has stability and volume.
+**House Crestfall:** 11,400,000 gp. Richer, better connected, and entirely a Chain operation. Their case is stability and volume. Their problem is that everyone already has stability and volume. People and current politics: `factions/House Crestfall.md`.
 
-**House Darkshade:** 7,100,000 gp. Behind, and playing dirty. Currently the most likely source of an anonymous complaint to the CIV about a certain 348th-ranked vessel.
+**House Darkshade:** 7,100,000 gp. Behind, and playing dirty. Currently the most likely source of an anonymous complaint to the CIV about a certain 348th-ranked vessel. People and current politics: `factions/House Darkshade.md`.
 
 ---
 

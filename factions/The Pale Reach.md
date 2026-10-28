@@ -1,5 +1,7 @@
 # The Pale Reach
 
+> **Partially superseded.** This doc's Tier 1-4 plot structure and its "not a final villain, a systemic obstacle" framing predate `campaign/Story Spine.md`'s decision that House Vellum, specifically, is the one deliberate exception to that rule. The institutional and economic material below (revenue streams, the Board seats, the appointed officials) still holds; the governance layer's politics and the per-house people are now covered in more depth and more current by `factions/Houses & Holdings.md` and each house's own file (`House Vellum.md`, `House Stoneward.md`, `House Delverane.md`, `House Nightbreeze.md`, `House Carrow.md`, `House Crestfall.md`, `House Darkshade.md`, `House Windsong.md`). Where this doc and those disagree, the house files and the Spine win.
+
 ## What They Are
 
 A **navigation-and-trade consortium** that controls the majority of chartered Wildspace route data. They don't primarily own ships -- they own **the maps**. They license route data to independent operators, maintain the most comprehensive navigation archives in Wildspace, and charge tolls on routes they've charted or purchased. If the CIV is the DMV, the Pale Reach is the company that owns all the roads.
@@ -81,8 +83,8 @@ Non-family positions filled by appointment or election. These give the Pale Reac
 6. **The Cartographer General** -- Oversees the archive and route data quality. The public face of the organization. Currently held by **Navara Solenne**, a half-elf who's been in the role for 40 years. Respected across Wildspace. Genuinely believes in the Pale Reach's mission. Not aware of (or chooses not to see) the shadow operations.
    - *Campaign role:* The reasonable face the PCs deal with publicly. Not a villain. Potentially an ally if she learns the full truth about the Compact's destruction.
 
-7. **The Assessor** -- Handles competitive intelligence, regulatory influence, and "problem resolution." Currently held by **Kael Duskwright**, a human who's been in the role for 12 years. Cold, strategic, operates through intermediaries. This is the person who decided the Vane Compact needed to go. Does not appear in public. Few people outside the Board know the Assessor exists by title.
-   - *Campaign role:* The closest thing to a recurring antagonist within the Pale Reach. Not a final villain -- a systemic obstacle. The person who signs the orders that ruin lives, then goes home and has dinner.
+7. **The Assessor** -- Handles competitive intelligence, regulatory influence, and "problem resolution." Currently held by **Kael Duskwright**, a human who's been in the role for 12 years. Cold, strategic, operates through intermediaries. **Superseded by `campaign/Story Spine.md` and `factions/House Vellum.md`: the Compact's destruction wasn't the Assessor's own call, Alaric Vellum ordered it, the same way he later had Osric Carrow killed, and Duskwright's office was simply the instrument that carried it out.** Does not appear in public. Few people outside the Board know the Assessor exists by title.
+   - *Campaign role:* A real, recurring systemic obstacle, the person who signs the orders, not the one who decides to give them. Alaric Vellum is the actual author; Duskwright executes without necessarily knowing the full personal history behind any specific order.
 
 8. **The Registrar** -- Manages licensing, revenue, and tolls. Currently held by **Orrin Blackmark**, a dwarf. Pragmatic. Doesn't care about philosophy. Cares about margin. Has been Registrar for 30 years and will be Registrar until he dies or the money stops.
    - *Campaign role:* The person Priscilla would negotiate with for better data rates. Respects competence. Could be turned into an ally through demonstrated value, not ideology.

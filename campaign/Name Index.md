@@ -31,9 +31,13 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | House Windsong | `factions/House Windsong.md` | Aerion's family; father Vaelros, mother Aerynna Nightbreeze, brothers Aeric/Aeris/Aeravellis, uncle Vaelren. |
 | The Manifest Board | `factions/The Manifest Board.md` | CIV's public quarterly ranking of every chartered vessel. |
 | Houses & Holdings | `factions/Houses & Holdings.md` | Collection doc: who owns what, where, worth how much. |
-| House Nightbreeze | *(no dedicated file yet)* | Aerynna's house. Prudence Hale (below) is a senior underwriter here. |
-| House Delverane | *(see `npcs/Aurel Delverane.md`)* | Maintains the waystation on the Elemental Plane of Water. |
-| House Vellum | `factions/Houses & Holdings.md` | The lockbox's original owners. Confirmed campaign antagonist, killed House Carrow's head and crushed the Vane Compact. |
+| House Nightbreeze | `factions/House Nightbreeze.md` | Aerynna's house. Head: Lord Actuary Branwell Nightbreeze. Prudence Hale is a senior underwriter here. |
+| House Delverane | `factions/House Delverane.md` | Aurel's house. Head: Mirabel Delverane, Aurel's mother. Waystation on the Elemental Plane of Water. |
+| House Vellum | `factions/House Vellum.md` | The lockbox's original owners. Confirmed campaign antagonist. Head: Dame Elowen Vellum. Real power: Alaric Vellum. |
+| House Stoneward | `factions/House Stoneward.md` | Enforcement and arms. Head: Dame Ysolde Stoneward, Warden-Marshal. |
+| House Carrow | `factions/House Carrow.md` | The empty fifth chair. GM-only: Osric Carrow (deceased), Vesper Carrow (hidden descendant). |
+| House Crestfall | `factions/House Crestfall.md` | Fifth-seat contender, stability and volume. Head: Dame Corvina Crestfall. |
+| House Darkshade | `factions/House Darkshade.md` | Fifth-seat contender, plays dirty. Head: Vance Orleth. Already adversarial toward the crew. |
 
 ## Locations
 
@@ -70,9 +74,16 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Plume | `sessions/Episode - The International Space Dog Show.md` | Rival smoke dragon wyrmling, bigger and more diva than Flurry. |
 | Garrick Weatherall + family | `factions/The Manifest Board.md` | *Kettle* crew, the singing tradition (Noa, Corwin, Lissa, Pip). |
 | Splinter | `npcs/Sable.md` | Sable's mentor, a ratkin (deliberate TMNT riff, unconfirmed if actually good). |
-| Alaric Vellum | `factions/Houses & Holdings.md` | GM-only. Still-living architect of House Vellum's quiet enforcement; crushed the Vane Compact and Osric Carrow both. |
-| Osric Carrow | `factions/Houses & Holdings.md` | GM-only, deceased. Last head of House Carrow; killed after confronting Alaric Vellum over the Amberwake. |
-| Vesper Carrow | `factions/Houses & Holdings.md` | GM-only, bare-bones. Descendant carrying House Carrow's surviving loyalty, forty years in hiding. |
+| Alaric Vellum | `factions/House Vellum.md` | GM-only. Still-living architect of House Vellum's quiet enforcement; crushed the Vane Compact and Osric Carrow both. |
+| Osric Carrow | `factions/House Carrow.md` | GM-only, deceased. Last head of House Carrow; killed after confronting Alaric Vellum over the Amberwake. |
+| Vesper Carrow | `factions/House Carrow.md` | GM-only, bare-bones. Descendant carrying House Carrow's surviving loyalty, forty years in hiding. |
+| Dame Elowen Vellum | `factions/House Vellum.md` | Vellum's seated Board head, Alaric's niece, doesn't know what he's done. |
+| Perrin Hale | `factions/House Vellum.md` | Vellum's crew-facing factor, first seen flinching at the session 4 gala. |
+| Dame Ysolde Stoneward | `factions/House Stoneward.md` | Warden-Marshal, oversees Route Wardens and the mercane mercenary pipeline. |
+| Mirabel Delverane | `factions/House Delverane.md` | Head of House Delverane, Aurel's mother. |
+| Lord Actuary Branwell Nightbreeze | `factions/House Nightbreeze.md` | Head of House Nightbreeze, Aerynna's cousin. |
+| Dame Corvina Crestfall | `factions/House Crestfall.md` | Head of House Crestfall, slow-walking the Fifth House bid's recognition. |
+| Vance Orleth | `factions/House Darkshade.md` | Demi-Prince, House Darkshade, already adversarial toward Aerion and the crew. |
 
 ## Terms and world concepts
 
