@@ -94,7 +94,7 @@ Not a region. A private asteroid a day's sail from the Rock, hollowed into the *
 ## HOUSE DELVERANE: the instrument makers
 **Net worth ~29,000,000 gp** · **Territory:** the Windward Edge · **Board function:** acquisition and exploration · **People and current politics:** `factions/House Delverane.md`
 
-**Business:** new route charting, survey instruments, and the data-broker network the crew actually deals with. **Delverane Instruments** makes the Standard Set, the Deepline Suite, and the Brightchair helm.
+**Business:** funds and backs independent adventuring parties across Wildspace for a cut of what they recover, survey data, treasure, first-contact rights. **Delverane Instruments** (the Standard Set, the Deepline Suite, the Brightchair helm) is the secondary business that equips those parties and sells the surplus. Full account: `factions/House Delverane.md`.
 
 The youngest founding house at roughly eighty years, and the poorest. They are outvoted on everything and increasingly loud about it.
 
