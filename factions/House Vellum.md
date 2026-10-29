@@ -16,11 +16,15 @@ Holds the house's actual Board chair. Sincere, procedural, old-money in the way 
 
 **What she doesn't know.** She has never been told what actually happened to House Carrow, and genuinely believes the official account. If she ever learns her uncle ordered a murder and has been quietly managing the fallout for forty years, in her own house, under her own seat, that's a real scene, played as betrayal from inside her own family's myth, not a villain's unmasking.
 
-**Current plan.** Fighting the Fifth House bid on pure procedure: slow-walking every filing Vaelren's new house submits, citing precedent, demanding documentation nobody else's bid was ever asked for, never once saying out loud that she's afraid of what a serious challenger does to a Board that's run unopposed for forty years.
+**Her real motive, not fear.** She isn't slow-walking the Fifth House bid out of self-interest. She sincerely believes institutional continuity is what keeps Wildspace from falling apart, a stable, known Board, five houses who've earned their seats over centuries, is what prevents the kind of chaos Stoneward profits from and Darkshade exploits. A new house, any new house, reads to her as instability itself, not a threat to Vellum specifically.
+
+**Current plan.** Fighting the Fifth House bid on pure procedure: slow-walking every filing Vaelren's new house submits, citing precedent, demanding documentation nobody else's bid was ever asked for. She and Alaric want the same outcome, Vellum's continuity, for completely different reasons, hers sincere, his self-interested, and she has no idea which one she's actually serving.
 
 ## Alaric Vellum, the man with glasses
 
 Full account of what he's done: `factions/Houses & Holdings.md`'s House Carrow section, and `npcs/Captain Estra Vane.md`. He killed Osric Carrow and crushed the Vane Compact a generation apart, for the same reason both times, and it has never once cost him anything.
+
+**The real ambition, bigger than any one loose end.** Alaric is the one person in the house who understands exactly how hollow Vellum's 84 million gp actually is, almost none of it liquid, all of it archive, legacy routes, and property (`factions/Houses & Holdings.md`). The whole empire rests on nobody ever calling that bluff. His real, long-term goal is to make the informational monopoly permanent and unchallengeable before any working alternative can prove itself: foreclosing every credible threat before it scales, the Compact was one, Delverane's "adapt or die" push is the live one now, and converting the house's intangible archive authority into something real and liquid, acquiring routes, charters, or whole operations outright, the way Carrow's wreckage already became Vellum's, rather than just defending the status quo forever. The lockbox is a tactical risk inside that larger project, not the project itself.
 
 **Want:** the archive's business model intact, permanently, by any method that doesn't trace back to him personally.
 
@@ -28,7 +32,7 @@ Full account of what he's done: `factions/Houses & Holdings.md`'s House Carrow s
 
 **Physical tic:** straightens whatever's nearest to hand, a stack of papers, a crooked picture frame, mid-conversation, without seeming to notice he's doing it.
 
-**Current plan, separate from Elowen's and more urgent.** He doesn't know whether the Reefside lockbox's contents survived, and he doesn't know who has them if they did. He's watching for exactly one thing: any sign that someone, anyone, has lined up Ivor Marsh's plea against the Archive policy 12.4 dates. Nothing louder than that yet. He has not connected the *Night Fury* to Reefside with any confidence; the house's working theory (per `campaign/Story Spine.md`) is still that the case was destroyed in the wreckage.
+**Current, more immediate concern.** He doesn't know whether the Reefside lockbox's contents survived, and he doesn't know who has them if they did. He's watching for exactly one thing: any sign that someone, anyone, has lined up Ivor Marsh's plea against the Archive policy 12.4 dates. Nothing louder than that yet. He has not connected the *Night Fury* to Reefside with any confidence; the house's working theory (per `campaign/Story Spine.md`) is still that the case was destroyed in the wreckage. Separately and more patiently, he's begun watching House Delverane's own reform push the same way he once watched the Vane Compact, waiting to see if it's still small enough to strangle quietly.
 
 ## Perrin Hale, the factor
 
@@ -41,6 +45,18 @@ Vellum's actual crew-facing presence. Established at the session 4 gala flashbac
 **Physical tic:** straightens his cuffs before any exchange that matters to him, a tell any observant player could learn to read.
 
 **Why he matters later.** He is the house's most human, most breakable face. If the crew ever needs a crack in Vellum, a nervous, decent, overworked factor who's seen more than he's supposed to and never asked about it is a far more playable way in than confronting Alaric directly. Nothing about him is settled canon yet beyond what's above, he's a resource to build toward, not a plot already written.
+
+## The Twelve
+
+The house's fleet isn't twelve interchangeable Heavy-class hulls, it's twelve individually named, individually crewed ships that rarely fly and could flatten nearly anything if they had to: ***Quill's Edge***, ***Still Ink***, ***Fair Copy***, ***Red Wax***, ***Last Revision***, ***The Clean Hand***, ***Watermark***, ***Codex Vigil***, ***The Marginal Note***, ***Second Draft***, ***Dead Hand***, and ***Chain of Custody***. Each carries the ceiling of what `rules/Ship Construction.md`'s upgrade tables allow, bought at a price only Vellum could absorb without blinking, and each has served under the same long-lived astral elf captain for decades.
+
+**The old tech, and the irony underneath it.** Each hull carries a salvaged piece of genuinely ancient current-reading instrumentation, acquired generations ago when the house was flush enough not to ask hard questions about where things came from. Vellum has never once used them for what they were actually built for, reading the living sky the way Orena's learning to. They're repurposed as helm ballast and power feed instead, because admitting what they're actually for would mean admitting the archive isn't the only way to navigate. Vellum is quietly sitting on pieces of the cure and burning them as battery fuel.
+
+**One ship has a story.** *Still Ink*. Rarely spoken of, even inside the house, the one the oldest hands go quiet about. It was present at the Cartógrapha the week Osric Carrow died. Nobody says it did anything. Nobody says it didn't.
+
+## Scale
+
+The archive isn't a single building, it's a network, a branch office in essentially every major chartered port (the same density the Bral Reach already establishes for every faction's factor's offices), with the physical core at the Cartógrapha. Vellum barely flies, its power is clerks, scribes, field auditors, and factors, not crews: total house personnel sit in the low thousands, dwarfing the Twelve, because the business is custody and licensing, not transport. Reach is near-total, practically every chartered vessel in Wildspace touches Vellum's data at some subscription tier (`factions/The Pale Reach.md`), which is the actual source of the house's power, market presence, not military presence.
 
 ## The house's relationships
 
