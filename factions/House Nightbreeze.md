@@ -2,29 +2,42 @@
 
 > Economic data: `factions/Houses & Holdings.md`. This file is the people and the live politics. See `factions/House Windsong.md` for Aerynna's place in Aerion's own family story; this file is her place in her own house's.
 
-The financiers. No territory, because they don't need one, they insure the whole Reach and know where every chartered ship is and what it's carrying. "Follow the money" is the house's entire personality, and it means they will always, eventually, land on whichever side the numbers favor.
+The financiers. No territory, because they don't need one, they insure the whole Reach and know where every chartered ship is and what it's carrying. **They have not weaponized this. Everyone is aware they could.** "Follow the money" undersells what the house actually is: Nightbreeze's real, standing ambition is insuring itself against every possible future at once, not just maximizing profit in the one that happens.
 
-## Lord Actuary Branwell Nightbreeze, the head of house
+**Naming convention: generation-split, like House Windsong and House Delverane.** Aerynna's generation, and her nieces and nephews, carry "Aer-" (already visible in her sons, Aerion/Aeric/Aeris/Aeravellis, and in Aerin Nightbreeze, established at the session 4 gala). The generation above her, her great-aunt's, carries "Vesh-."
 
-Aerynna's older cousin, and colder than she is about nearly everything. Where Aerynna is pragmatic, Branwell is purely actuarial, he does not distinguish between insuring a cargo run and insuring a war, both are just risk with a premium attached. He is not cruel. He has simply never found a reason to be anything else, and the house has never asked him to be.
+## Great-Aunt Veshara Nightbreeze, the head of house
 
-**Want:** the underwriting book stays ahead of its exposure, permanently. Everything else is a rounding error.
+Old enough that "forty years ago" barely registers to her. Doesn't care who wins the fifth-seat race, whether Vellum stands or falls, or how the Stilling resolves, she cares that Nightbreeze has a profitable position staked out under every one of those futures at once.
 
-**Voice tic:** quotes probabilities to two decimal places even in casual conversation, and visibly relaxes the one time someone states an actual number back at him instead of an opinion.
+**Want:** political untouchability, not just solvency. The house should be positioned to profit no matter which plausible future actually happens.
 
-**Physical tic:** reviews a room the way he reviews a ledger, left to right, top to bottom, before he says a word to anyone in it.
+**Voice tic:** thinks and speaks in generations, not transactions, "that's a forty-year position, not a forty-day one," meant literally, not as a figure of speech.
 
-**Current plan.** Branwell authorized Prudence Hale's 20,000 gp lockbox offer (`sessions/Session 5 Prep.md`), not out of any loyalty to Aerynna's family or the crew, purely because Vellum's exposure on the Reefside claim doesn't reconcile and the house that holds the real paper first holds the leverage. He's also, separately and more quietly, raising premiums on Vellum-chartered routes without telling Vellum why, a hedge dressed as routine underwriting, positioning Nightbreeze to profit whichever way Vellum eventually falls.
+**Physical tic:** carries a small, ancient counting frame, antique beads worn smooth, and runs them through her fingers out of old habit, whether or not she's actually calculating anything in the moment. Old hands at Nightbreeze watch her hands, not her face, to know when she's actually thinking hard about something.
 
-**Guttering stance, restated plainly:** follow the money, without sentiment. He will back whichever model pays, and he will see the turn coming before anyone else at the table, because seeing it first is the entire job.
+**Current plan.** She personally oversees every one of the house's hedges. Prudence Hale's 20,000 gp lockbox offer and the quiet premium hikes on Vellum-chartered routes (`sessions/Session 5 Prep.md`; `factions/House Vellum.md`) both trace back to her directly, not independent initiative from underneath her. The standing project underneath all of it: a profitable position staked out under every plausible outcome of the fifth-seat race, Vellum's possible fall, and the Stilling's eventual resolution, simultaneously, regardless of which one actually lands.
 
-## Aerynna's place underneath him
+## Aerynna's generation
 
-Aerynna has her own money, her own holding (~6,000,000 gp, independent of the family trust), and answers to Branwell only on matters that touch the house's collective exposure, which the Vellum offer does. She is more pragmatic than cold, she helps Aerion when he shows her a number, not out of warmth, but she is not Branwell, and that gap is worth playing. **Whether she knew about or authorized Prudence's approach to the crew stays deliberately open** (per `sessions/Session 5 Prep.md`), real personal stakes either way, given she's the swing vote on Aerion's own Fifth House bid and Branwell doesn't share her son's ambitions.
+**Aerynna Nightbreeze** (`factions/House Windsong.md`): Veshara's great-niece. Pragmatic rather than cold, unlike Veshara, she helps Aerion when he shows her a number, not out of warmth, but she isn't purely actuarial either, and that gap is worth playing. Her own holding (~6,000,000 gp) is independent of the family trust and hers outright.
+
+**The cousins**, Aerynna's nieces and nephews, first cousins to Aerion and his brothers on their mother's side:
+- **Aerin Nightbreeze**, established at the session 4 gala, works deals disguised as small talk, caught mid-negotiation with House Vellum's Perrin Hale.
+- **Aerendil Nightbreeze**
+- **Aerastra Nightbreeze**
+
+Neither Aerendil nor Aerastra has been built out past the name yet, available whenever a scene calls for them.
+
+**Prudence Hale**, senior underwriter: already played at the table, not family. Full tics in `sessions/Session 5 Prep.md`. Answers to Veshara, not to Aerynna.
+
+## Scale
+
+No real military, the four Cutters for factors and auditors are genuinely the whole fleet. The house's size is entirely actuarial and financial: roughly **2,000 to 4,000** personnel, underwriters, auditors, factors, and banking relationship managers, spread across offices in every major chartered port, plus the mercane banking relationship giving them real planar reach without a single warship.
 
 ## The house's relationships
 
-- **Nightbreeze and Vellum:** uneasy, mutual dependency, now quietly souring. Nightbreeze backs the denial for as long as it pays and is actively building leverage against the day it stops.
+- **Nightbreeze and Vellum:** an uneasy, mutual dependency, now quietly souring. Nightbreeze backs the denial for as long as it pays and is actively building leverage against the day it stops.
 - **Nightbreeze and Stoneward:** transactional, through the shared mercane banking channel, cordial, no real stakes either direction.
-- **Nightbreeze and Delverane:** the house most likely to eventually back Delverane's model, once the premium math says so, and not one day before.
-- **Nightbreeze and Windsong:** personal as much as institutional, through Aerynna, and genuinely unresolved. Branwell has no particular opinion on his cousin's son; that may be the most dangerous thing about him, from Aerion's perspective, there's no grudge to work with, only a number he hasn't been shown yet.
+- **Nightbreeze and Delverane:** the house most likely to eventually back Delverane's funded-adventurer model, once the premium math says so, and not one day before.
+- **Nightbreeze and Windsong:** personal as much as institutional, through Aerynna, and genuinely unresolved. Veshara has no particular opinion on her great-niece's son's ambitions, which may be the most dangerous thing about her, from Aerion's perspective, there's no grudge to work with, only a number she hasn't been shown yet.

@@ -31,7 +31,7 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | House Windsong | `factions/House Windsong.md` | Aerion's family; father Vaelros, mother Aerynna Nightbreeze, brothers Aeric/Aeris/Aeravellis, uncle Vaelren. |
 | The Manifest Board | `factions/The Manifest Board.md` | CIV's public quarterly ranking of every chartered vessel. |
 | Houses & Holdings | `factions/Houses & Holdings.md` | Collection doc: who owns what, where, worth how much. |
-| House Nightbreeze | `factions/House Nightbreeze.md` | Aerynna's house. Head: Lord Actuary Branwell Nightbreeze. Prudence Hale is a senior underwriter here. |
+| House Nightbreeze | `factions/House Nightbreeze.md` | Aerynna's house. Head: Great-Aunt Veshara Nightbreeze. Prudence Hale is a senior underwriter here. |
 | House Delverane | `factions/House Delverane.md` | Aurel's house. Head: Mirabel Delverane, Aurel's mother. Waystation on the Elemental Plane of Water. |
 | House Vellum | `factions/House Vellum.md` | The lockbox's original owners. Confirmed campaign antagonist. Head: Dame Elowen Vellum. Real power: Alaric Vellum. |
 | House Stoneward | `factions/House Stoneward.md` | Enforcement and arms. Head: Dame Ysolde Stoneward, Warden-Marshal. |
@@ -81,7 +81,9 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Perrin Hale | `factions/House Vellum.md` | Vellum's crew-facing factor, first seen flinching at the session 4 gala. |
 | Dame Ysolde Stoneward | `factions/House Stoneward.md` | Warden-Marshal, oversees Route Wardens and the mercane mercenary pipeline. |
 | Mirabel Delverane | `factions/House Delverane.md` | Head of House Delverane, Aurel's mother. |
-| Lord Actuary Branwell Nightbreeze | `factions/House Nightbreeze.md` | Head of House Nightbreeze, Aerynna's cousin. |
+| Great-Aunt Veshara Nightbreeze | `factions/House Nightbreeze.md` | Head of House Nightbreeze, Aerynna's great-aunt. Insures the house against every possible future at once. |
+| Aerendil Nightbreeze | `factions/House Nightbreeze.md` | Aerynna's nephew, cousin to Aerion and his brothers. Name only, not built out yet. |
+| Aerastra Nightbreeze | `factions/House Nightbreeze.md` | Aerynna's niece, cousin to Aerion and his brothers. Name only, not built out yet. |
 | Dame Corvina Crestfall | `factions/House Crestfall.md` | Head of House Crestfall, slow-walking the Fifth House bid's recognition. |
 | Vance Orleth | `factions/House Darkshade.md` | Demi-Prince, House Darkshade, already adversarial toward Aerion and the crew. |
 
