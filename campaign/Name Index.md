@@ -86,7 +86,8 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Great-Aunt Veshara Nightbreeze | `factions/House Nightbreeze.md` | Head of House Nightbreeze, Aerynna's great-aunt. Insures the house against every possible future at once. |
 | Aerendil Nightbreeze | `factions/House Nightbreeze.md` | Aerynna's nephew, cousin to Aerion and his brothers. Name only, not built out yet. |
 | Aerastra Nightbreeze | `factions/House Nightbreeze.md` | Aerynna's niece, cousin to Aerion and his brothers. Name only, not built out yet. |
-| Dame Corvina Crestfall | `factions/House Crestfall.md` | Head of House Crestfall, slow-walking the Fifth House bid's recognition. |
+| Corvane Crestfall | `factions/House Crestfall.md` | Head of House Crestfall. Patient, boring on purpose, waiting to inherit by default when a rival falls. |
+| Shalendra Crestfall | `factions/House Crestfall.md` | Corvane's daughter and heir. Name only, not built out yet. |
 | Vance Orleth | `factions/House Darkshade.md` | Demi-Prince, House Darkshade, already adversarial toward Aerion and the crew. |
 
 ## Terms and world concepts
