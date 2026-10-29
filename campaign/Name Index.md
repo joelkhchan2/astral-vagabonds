@@ -76,7 +76,9 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Splinter | `npcs/Sable.md` | Sable's mentor, a ratkin (deliberate TMNT riff, unconfirmed if actually good). |
 | Alaric Vellum | `factions/House Vellum.md` | GM-only. Still-living architect of House Vellum's quiet enforcement; crushed the Vane Compact and Osric Carrow both. |
 | Osric Carrow | `factions/House Carrow.md` | GM-only, deceased. Last head of House Carrow; killed after confronting Alaric Vellum over the Amberwake. |
-| Vesper Carrow | `factions/House Carrow.md` | GM-only, bare-bones. Descendant carrying House Carrow's surviving loyalty, forty years in hiding. |
+| Odalys Carrow | `factions/House Carrow.md` | GM-only. Osric's widow, married in, fled under a new identity, pure vengeance-in-waiting. |
+| Asher Carrow (alias Vesper) | `factions/House Carrow.md` | GM-only. Osric's child, the most active surviving branch, rebuilding a paper trail against Vellum. |
+| Osmund Carrow | `factions/House Carrow.md` | GM-only. Osric's cousin, rebuilding personal power under a new identity, not purely revenge-driven. |
 | Dame Elowen Vellum | `factions/House Vellum.md` | Vellum's seated Board head, Alaric's niece, doesn't know what he's done. |
 | Perrin Hale | `factions/House Vellum.md` | Vellum's crew-facing factor, first seen flinching at the session 4 gala. |
 | Dame Ysolde Stoneward | `factions/House Stoneward.md` | Warden-Marshal, oversees Route Wardens and the mercane mercenary pipeline. |
