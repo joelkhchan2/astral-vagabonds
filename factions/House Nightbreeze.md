@@ -31,6 +31,17 @@ Neither Aerendil nor Aerastra has been built out past the name yet, available wh
 
 **Prudence Hale**, senior underwriter: already played at the table, not family. Full tics in `sessions/Session 5 Prep.md`. Answers to Veshara, not to Aerynna.
 
+## One more of the house
+
+**Dess Marrow**, a junior claims clerk who literally processes the *Night Fury*'s own 1,800 gp policy, has no idea whose file she's touching.
+
+## Where the house stands
+
+- **The Stilling:** follow the money, i.e., insure against every version of how this resolves, simultaneously.
+- **The players:** transactional and minor, an ordinary policyholder. Prudence has met them; Veshara hasn't.
+- **Captain Estra:** Veshara's actuaries likely hold cold, dispassionate claims data tied to the Compact's collapse, filed as a known loss pattern, not a person.
+- **Politics and rumor:** the house's public line is neutral on everything. Privately, junior underwriters gossip about why Prudence got personally assigned to a job this small (the lockbox offer), correctly sensing it's bigger than it looks.
+
 ## Scale
 
 No real military, the four Cutters for factors and auditors are genuinely the whole fleet. The house's size is entirely actuarial and financial: roughly **2,000 to 4,000** personnel, underwriters, auditors, factors, and banking relationship managers, spread across offices in every major chartered port, plus the mercane banking relationship giving them real planar reach without a single warship.

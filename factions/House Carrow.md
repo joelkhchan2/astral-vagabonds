@@ -22,7 +22,17 @@ A cartographer who followed his own data somewhere nobody wanted him to go, conf
 2. **Asher Carrow**, known today as **Vesper**, Osric's own child. Deliberately chose a name that breaks the family's own naming convention the moment she went into hiding, exactly the precaution someone evading a house that erases records would take. The most active branch: quietly rebuilding a paper trail that mirrors the crew's own lockbox evidence, unaware the crew has half the same case already.
 3. **Osmund Carrow**, Osric's cousin, same "Os-" generation. Didn't flee to hide and grieve, fled to rebuild personal power under a new identity, using the house's old connections and knowledge for his own ambition rather than collective revenge. The one branch that might not want the same ending the others do, if Vellum ever fell, Osmund might prefer to inherit the wreckage quietly rather than see justice done in public.
 
-**However many others actually survived stays deliberately unconfirmed**, even to these three, matching how little any of them really know about each other's situations.
+**However many others actually survived stays deliberately unconfirmed**, even to these three, matching how little any of them really know about each other's situations. Each surviving branch likely has a retainer or ally of their own, **Odalys travels with a handful of loyal retainers who fled with her**, and **Osmund has recruited at least one ally benefiting from his ambition without knowing its full source**, both left unnamed for now, built out only when a specific scene needs them.
+
+## Where the remnant stands
+
+Not a functioning house with a public position, these are hunted branches, not an institution.
+
+- **The Stilling:** irrelevant to them personally, their war is with Vellum specifically, not the broader crisis.
+- **The players:** no awareness of each other at all, yet.
+- **Captain Estra:** none, no connection established.
+- **Other houses:** not applicable, they don't operate at that level anymore.
+- **Politics and rumor:** the one rumor that persists, faintly, in old-timer gossip: "didn't Carrow have people who got out?" Nobody's ever confirmed it.
 
 ## Banked future scene: the memory vial
 

@@ -26,6 +26,23 @@ Old enough to remember the near-collapse firsthand. Genuinely boring day to day,
 
 Corvane's daughter, "Sha-" generation. Name only for now, built out whenever a scene calls for her.
 
+## More of the house
+
+**Corvassa Crestfall**, Corvane's sibling, same "Cor-" generation, more risk-tolerant than he is. Real internal tension about whether the house's patience is wisdom or just fear dressed up as strategy.
+
+**Hensley Dray**, non-family, runs the actual hauling fleet's logistics.
+
+**Captain Bellwick**, a Crestfall ship captain, reliable, boring, exactly the house's whole brand in one person.
+
+**Finch**, a young, eager dockhand, recently hired, loyal without quite understanding that loyalty here means staying unremarkable.
+
+## Where the house stands
+
+- **The Stilling:** quiet caution bordering on denial, mirrors Vellum's position without the ideology behind it.
+- **The players:** none. Genuinely beneath notice at their current rank.
+- **Captain Estra:** unaware, she was beneath Crestfall's notice even at her peak.
+- **Politics and rumor:** famously boring to gossip about, which Corvane considers a feature, not a failure.
+
 ## Scale
 
 A real, solid trade and hauling fleet working the Chain's safest, most profitable lanes, roughly 15-20 hulls, nothing flashy, nothing built to fight, built to move volume reliably for decades. Personnel-wise, a few thousand across warehousing, brokerage, and crew, comfortably mid-sized, nothing like Vellum's archive network or Stoneward's arms industry.

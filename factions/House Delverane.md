@@ -18,6 +18,23 @@ Aurel's father. A field surveyor himself once, before duty pulled him back to ru
 
 **Current plan.** Delverane doesn't need to win the Board through debate, Ilgard is betting on volume: hundreds of independently funded adventuring parties across Wildspace, each paying a cut of what they recover, each one more real-world data than anything Vellum's static archive can match. If the model keeps scaling, the house doesn't need permission to prove the collaborative approach works, it'll already have, just not under that name yet. **This is a quiet, structural precursor to the campaign's actual cure**, Delverane's funded parties are already doing in miniature what the nomadic network eventually does at scale, and Ilgard has no idea that's the shape of what he's building.
 
+## More of the house
+
+**Auric Delverane**, Aurel's brother, same "Au-" generation, runs a different outpost, less field-driven than Aurel, more comfortable with the funding side of the business.
+
+**Istra Quill**, non-family, runs the funded-party network's actual day-to-day operations.
+
+**Captain Rell Hask**, leads a currently-funded independent survey crew, a peer the *Night Fury* could plausibly cross paths with someday.
+
+**Pell Varnish**, a Farthing Station clerk who processes funding contracts, warm, a little overworked.
+
+## Where the house stands
+
+- **The Stilling:** adapt or die, and they mean it literally.
+- **The players:** already warm, through Aurel specifically. Ilgard doesn't know yet, would likely be thrilled once he connects the dots.
+- **Captain Estra:** unknown to the house directly, but a real future hook, the Compact's "you chart it, you share it" philosophy is close enough to Delverane's own that Ilgard would recognize a kindred failed experiment immediately if he ever heard the full story.
+- **Politics and rumor:** quietly seen across the Board as the house that "won't just accept its position," which reads as either admirable or naive depending who's talking.
+
 ## Scale
 
 **Fleet:** nineteen Swift Traders and Cutters, the house's own core oversight and operations fleet, cheap and fast and constantly out. This is not the real measure of the house's reach.

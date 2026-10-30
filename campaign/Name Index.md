@@ -76,6 +76,28 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Garrick Weatherall + family | `factions/The Manifest Board.md` | *Kettle* crew, the singing tradition (Noa, Corwin, Lissa, Pip). |
 | Splinter | `npcs/Sable.md` | Sable's mentor, a ratkin (deliberate TMNT riff, unconfirmed if actually good). |
 | Alaric Vellum | `factions/House Vellum.md` | GM-only. Still-living architect of House Vellum's quiet enforcement; crushed the Vane Compact and Osric Carrow both. |
+| Elvassa Vellum | `factions/House Vellum.md` | Elowen's cousin, quietly positioning for succession. |
+| Captain Orwin Fenn | `factions/House Vellum.md` | Commands the Twelve's *Still Ink*. Knows more about Carrow than he's said. |
+| Tam Oslow | `factions/House Vellum.md` | Junior Vellum archivist, respects the crew's survey data. Low-stakes contact point. |
+| Warden-Captain Brokk Stoneward | `factions/House Stoneward.md` | Dagna's second, runs the Quiet Wardens day to day. |
+| Torvin Ashhammer | `factions/House Stoneward.md` | Stoneward arms factor the crew buys from at Bral. |
+| Warden Fassa Grey | `factions/House Stoneward.md` | Route Warden who's boarded the *Night Fury* twice. Remembers Oz fondly. |
+| Ammalesh | `factions/House Stoneward.md` | Mercane liaison, Stoneward's Outer Planar mercenary pipeline. |
+| Pike | `factions/House Stoneward.md` | Green Route Warden trainee. |
+| Auric Delverane | `factions/House Delverane.md` | Aurel's brother, "Au-" generation, runs a different outpost. |
+| Istra Quill | `factions/House Delverane.md` | Runs the Delverane funded-party network's operations. |
+| Captain Rell Hask | `factions/House Delverane.md` | Leads a Delverane-funded independent survey crew. |
+| Pell Varnish | `factions/House Delverane.md` | Farthing Station clerk, processes funding contracts. |
+| Dess Marrow | `factions/House Nightbreeze.md` | Junior Nightbreeze claims clerk, processes the crew's own policy. |
+| Corvassa Crestfall | `factions/House Crestfall.md` | Corvane's sibling, more risk-tolerant, internal house tension. |
+| Hensley Dray | `factions/House Crestfall.md` | Runs the Crestfall hauling fleet's logistics. |
+| Captain Bellwick | `factions/House Crestfall.md` | A Crestfall ship captain, reliable and boring on purpose. |
+| Finch | `factions/House Crestfall.md` | Young, eager Crestfall dockhand. |
+| Mirelle Voss | `factions/House Darkshade.md` | Vance Orleth's chief fixer, runs the information network day to day. |
+| Castor Bram | `factions/House Darkshade.md` | Vance Orleth's right hand and enforcer. |
+| Lint | `factions/House Darkshade.md` | Dockside informant at the Rock of Bral. |
+| Dray Holt | `factions/House Darkshade.md` | Keeps House Darkshade's favor ledgers. |
+| Pavo | `factions/House Darkshade.md` | Black Parade performer secretly loyal to Darkshade. |
 | Osric Carrow | `factions/House Carrow.md` | GM-only, deceased. Last head of House Carrow; killed after confronting Alaric Vellum over the Amberwake. |
 | Odalys Carrow | `factions/House Carrow.md` | GM-only. Osric's widow, married in, fled under a new identity, pure vengeance-in-waiting. |
 | Asher Carrow (alias Vesper) | `factions/House Carrow.md` | GM-only. Osric's child, the most active surviving branch, rebuilding a paper trail against Vellum. |

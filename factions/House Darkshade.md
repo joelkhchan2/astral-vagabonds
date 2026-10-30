@@ -20,6 +20,25 @@ Senior figure of House Darkshade, title and manner both performed for maximum ef
 
 **Current plan**, already live per `factions/Houses & Holdings.md`: Darkshade is "currently the most likely source of an anonymous complaint to the CIV about a certain 348th-ranked vessel." Aerion's decisive win over Darkshade's retainer in front of the whole gala is a real, personal humiliation Vance doesn't forget, and the *Night Fury*'s own operation is a target of opportunity now, not because the crew matters to the fifth-seat race on its own merits, but because embarrassing Windsong by any available thread serves Vance just fine. No heir on the books yet, the house stays lean and personal around Vance himself for now.
 
+## More of the house
+
+**Mirelle Voss**, Vance's chief fixer, runs the actual information network day to day.
+
+**Castor Bram**, Vance's right hand and enforcer.
+
+**Lint**, a dockside informant at the Rock of Bral, sells rumors to Darkshade and probably others too, doesn't know or care who's really listening.
+
+**Dray Holt**, keeps the house's favor ledgers, the real bookkeeping of who owes what to whom.
+
+**Pavo**, a Black Parade performer secretly loyal to Darkshade (lightly touched, the troupe itself stays banked, below).
+
+## Where the house stands
+
+- **The Stilling:** doesn't care either way, except that instability sells.
+- **The players:** live and adversarial, the anonymous CIV complaint (`factions/Houses & Holdings.md`) is already in motion.
+- **Captain Estra:** the one house that might actually know. Darkshade's information network plausibly has already connected "Captain Estra Vane" to "former Vane Compact Commodore," unused leverage sitting on a shelf.
+- **Politics and rumor:** the house everyone assumes is behind any rumor that can't be traced, which is sometimes true and sometimes just useful cover.
+
 ## The Black Parade
 
 Banked, GM-only, not surfaced at the table yet. House Darkshade's own retained troupe of space clowns (the same creature type as the Velvet Comet, `sessions/Session 3.md`, but a distinct, separate troupe, not the same organization). Where the Velvet Comet are broke and desperate, sympathetic raiders one bad season from collapse, the Black Parade is **well-funded and deliberate**, Darkshade's money keeps them useful instruments rather than desperate ones. Leans into the name's own weight, funeral-procession aesthetic, mourning colors, a troupe that performs like something's already died and everyone's invited to watch it happen again.

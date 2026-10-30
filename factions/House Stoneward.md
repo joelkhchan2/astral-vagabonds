@@ -16,6 +16,25 @@ A stone dwarf, career security, three generations of it, genuinely good at the j
 
 **Current plan.** Lobbying the CIV to make escort fees mandatory, not optional, on any route that's logged a Stilling-adjacent anomaly in the past year. Framed entirely as a safety measure. It is also a new, permanent toll dressed as one, and she knows it.
 
+## More of the house
+
+**Warden-Captain Brokk Stoneward**, Dagna's second, runs the Quiet Wardens' day-to-day operations.
+
+**Torvin Ashhammer**, the arms factor at the Rock of Bral the crew actually buys from, friendly, transactional, no idea what else the house is doing.
+
+**Warden Fassa Grey**, boarded the *Night Fury* at least twice (`factions/The Pale Reach.md`), polite, by-the-book, remembers Oz specifically as cooperative.
+
+**Ammalesh**, a mercane liaison handling the Outer Planar mercenary pipeline.
+
+**Pike**, a green Route Warden trainee, nervous, eager, not yet cynical about any of it.
+
+## Where the house stands
+
+- **The Stilling:** opportunity, openly. They want the danger to continue exactly long enough to expand their enforcement remit, not one day longer.
+- **The players:** background. One of hundreds of low-ranked crews that's been boarded and cleared. Fassa Grey might recognize them by name if it came up.
+- **Captain Estra:** no personal history, but Stoneward's own records likely show a Route Warden impounding Tobias Renn's ship (`npcs/Captain Estra Vane.md`) during the Compact's fall, filed and forgotten.
+- **Politics and rumor:** Dagna's escort-fee push is the talk of every toll gate. Rank and file gossip about the four Dreadnoughts nobody's ever seen together, half think it's superstition, half think it's real.
+
 ## The Quiet Wardens
 
 Dagna's own project, run personally, not delegated. A deliberately invisible embedding program: loyal Stoneward operatives placed inside the security details of every other founding house, and inside parts of the CIV's own enforcement apparatus, the same Route Warden-adjacent authority that boards and inspects independent crews like the *Night Fury*.

@@ -46,6 +46,21 @@ Vellum's actual crew-facing presence. Established at the session 4 gala flashbac
 
 **Why he matters later.** He is the house's most human, most breakable face. If the crew ever needs a crack in Vellum, a nervous, decent, overworked factor who's seen more than he's supposed to and never asked about it is a far more playable way in than confronting Alaric directly. Nothing about him is settled canon yet beyond what's above, he's a resource to build toward, not a plot already written.
 
+## More of the house
+
+**Elvassa Vellum**, Elowen's cousin, same "El-" generation. Quietly positioning for succession in a house that doesn't reward ambition openly, she's careful never to look like she's trying.
+
+**Captain Orwin Fenn**, commands *Still Ink*, one of the Twelve, decades of service. Knows more about what that ship saw near Carrow than he's ever said, and isn't planning to start now.
+
+**Tam Oslow**, a junior archivist, genuinely respects the *Night Fury*'s survey data quality. A soft, low-stakes point of contact inside the archive if the crew ever needs one, has no idea what the house is actually capable of above his pay grade.
+
+## Where the house stands
+
+- **The Stilling:** denial, hardening into doubling down. The archive is correct. The operators are incompetent.
+- **The players:** not on the radar as a real threat. Alaric watches for exactly one signal (the lockbox); nobody else at Vellum thinks about the *Night Fury* at all.
+- **Captain Estra:** Alaric knows exactly who she is, he crushed her Compact personally. Elowen has never heard the name.
+- **Politics and rumor:** the house's public line is that the Fifth House bid is "premature." Privately, factors gossip about why Elowen's suddenly slow-walking paperwork she'd normally rubber-stamp without comment.
+
 ## The Twelve
 
 The house's fleet isn't twelve interchangeable Heavy-class hulls, it's twelve individually named, individually crewed ships that rarely fly and could flatten nearly anything if they had to: ***Quill's Edge***, ***Still Ink***, ***Fair Copy***, ***Red Wax***, ***Last Revision***, ***The Clean Hand***, ***Watermark***, ***Codex Vigil***, ***The Marginal Note***, ***Second Draft***, ***Dead Hand***, and ***Chain of Custody***. Each carries the ceiling of what `rules/Ship Construction.md`'s upgrade tables allow, bought at a price only Vellum could absorb without blinking, and each has served under the same long-lived astral elf captain for decades.
