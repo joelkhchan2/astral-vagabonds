@@ -37,7 +37,8 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | House Stoneward | `factions/House Stoneward.md` | Enforcement and arms. Head: Dame Ysolde Stoneward, Warden-Marshal. |
 | House Carrow | `factions/House Carrow.md` | The empty fifth chair. GM-only: Osric Carrow (deceased), Vesper Carrow (hidden descendant). |
 | House Crestfall | `factions/House Crestfall.md` | Fifth-seat contender, stability and volume. Head: Dame Corvina Crestfall. |
-| House Darkshade | `factions/House Darkshade.md` | Fifth-seat contender, plays dirty. Head: Vance Orleth. Already adversarial toward the crew. |
+| House Darkshade | `factions/House Darkshade.md` | Fifth-seat contender, deals in leverage not goods. Head: Vance Orleth. Already adversarial toward the crew. |
+| The Black Parade | `factions/House Darkshade.md` | GM-only, banked. Darkshade's own retained space clown troupe, distinct from the Velvet Comet. |
 
 ## Locations
 
