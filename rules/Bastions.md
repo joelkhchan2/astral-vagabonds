@@ -230,30 +230,33 @@ Same room, same one turn, two different orders. Orena can't run both the same le
 
 | DC | What it gets you |
 |---|---|
-| 12 | Common knowledge, public record |
-| 15 | A real lead, uncorroborated |
+| 10 | Surface noise. Anyone could find this by asking around, barely worth rolling for |
+| 13 | Common knowledge, public record |
+| 16 | A real lead, uncorroborated |
 | 20 | Something actively hidden, or genuinely rare |
-| 25 | Brushes a GM-only truth, one hard fact only, never the whole picture |
+| 23 | Corroboration. The DC 16-20 lead gets a second, independent source and stops being a maybe |
+| 26 | Brushes a GM-only truth, one hard fact only, never the whole picture |
+| 30 | As close to the whole truth as dice get. Still the GM's call how much, never automatic |
 
 Questions don't bank, three unused this leg isn't five available next leg. A miss never erases the scene, it's an incomplete answer, not nothing.
 
 **Worked by topic, use the same ladder for anything not listed:**
 
-| Topic | DC 12 | DC 15 | DC 20 | DC 25 |
-|---|---|---|---|---|
-| Her crew, the Wayfinder Knot | The *Wayfinder* exists in shipping registries | Storm/loss reports from the right years and region corroborate her account | A specific captain's name or route tied to the crossing | Nothing, the true fate (`npcs/The Wayfinder Knot.md`) stays GM-only regardless of roll |
-| The Guttering / stars going dark | Sailors' tales, session 2's own result | Delisted routes cluster, the Carrow/Amberwake pattern | One hard data point brushing the real cascade | Nothing, Tier 2 owns this reveal |
-| House Vellum | Public rank, reputation | A real rumor, a specific feud | The Carrow cover-up's shape, without the full file | What Vellum's steward currently believes about the lockbox |
-| House Carrow | Collapsed ~40 years ago, "financial ruin" | The official story doesn't add up on close reading | Vellum profited from the collapse | The full ledger connecting the two, GM's to spend |
-| House Windsong | Public trade reputation | A live internal-politics thread (`factions/House Windsong.md`) | Something Aerion's father hasn't told the board | Something Aerion himself doesn't know, spend rarely, never decide his reaction |
-| Captain Estra / the Vane Compact | Existed, folded, "financial trouble" | A name undercutting the cover story (an Oskar Bellamy-shaped thread) | How the Compact was actually squeezed out | Something Estra hasn't told the crew, hers to reveal, not the Library's |
-| The Manifest Board | Current top-10 names, how ranking works | A rival's real standing or grudge | A top-ten name's actual methods | Mostly public by design, little is GM-gated here |
-| The Rock of Bral | Districts, basic port lore | A specific merchant's real situation (Osric Prynne-tier) | Something a faction is hiding in plain sight | — |
-| Scavvers, all four tiers | Gray/Brown behavior, *Boo's Astral Menagerie* tier | Night Scavver ambush patterns | Void Scavver sightings and their rarity | The keystone-predator truth, `campaign/Story Spine.md`'s to spend |
-| Kindori | Feed on light, travel in pods | Scavver-symbiosis, the death-song register | An elder kindori, a whale fall rumor | The Vocalise's true nature, Orena's arc to spend, never the Library's |
-| Astral elves, Aerion's heritage | Common cultural facts | A specific clan or custom | Something rarer, tied to a real NPC's background | — |
-| Ancient civilizations, pre-Netheril | Half-remembered legend, glyph styles | A named lost culture | A site or artifact with a real location | — |
-| Fabrics & materials, for Aerion's costume business | Common pricing and availability, nothing he couldn't find himself | A specific supplier carrying surplus astral sailcloth, a real lead | That sailcloth is Windsong scrap, resold off his own family's shipyards, without them knowing whose costumes it ends up in | The resale isn't Windsong's doing, it's Aeris buying the scrap cheap and flipping it, quiet leverage over material his own house throws away |
+| Topic | DC 10 | DC 13 | DC 16 | DC 20 | DC 23 | DC 26 | DC 30 |
+|---|---|---|---|---|---|---|---|
+| Her crew, the Wayfinder Knot | A sailor's superstition, more myth than fact, that some crossings like hers are survivable | Old accounts describe crossings like hers happening before; some are known to have landed survivors safely in Wildspace | The actual mechanism surfaces: a dying kindori's last pulse tearing a crossing open by force, and that coming through whole or scattered depends on where you were relative to the pull | A specific account matching her own guild's disappearance, same stretch, same rough timeframe, is on record as putting survivors ashore. No name, no ship yet | A small charter called the *Wayfinder* has climbed the Board unusually fast, captained by one Dune Ashcombe, hull strange with old salvage worked visibly in | Someone ties the wayfinder's bend, hums the old work-shanty, or names the operation by its full old name, "the Wayfinder Knot." Orena knows instantly | A port, contract, or chart-house gives whereabouts precise enough to actually find them. What truly happened during the crossing itself (`npcs/The Wayfinder Knot.md`) stays GM-only regardless of roll |
+| The Guttering / stars going dark | Dock gossip, half the crews blame bad luck or a cursed lane | Sailors' tales, session 2's own result | Delisted routes cluster, the Carrow/Amberwake pattern | One hard data point brushing the real cascade | A second, independent source corroborates the same cascade pattern | Nothing further, Tier 2 owns this reveal regardless of roll | Same, Tier 2's to spend |
+| House Vellum | Name recognition, basic rank | Public rank, reputation | A real rumor, a specific feud | The Carrow cover-up's shape, without the full file | A second source corroborates the cover-up's shape | What Vellum's steward currently believes about the lockbox | Same ceiling, GM's to spend further |
+| House Carrow | Common knowledge the house collapsed | Collapsed ~40 years ago, "financial ruin" | The official story doesn't add up on close reading | Vellum profited from the collapse | A name or ledger fragment ties Vellum directly to the squeeze-out | The full ledger connecting the two, GM's to spend | Same, GM's to spend further |
+| House Windsong | Common trade reputation, nothing private | Public trade reputation | A live internal-politics thread (`factions/House Windsong.md`) | Something Aerion's father hasn't told the board | A second thread corroborates it, or a name attaches | Something Aerion himself doesn't know, spend rarely, never decide his reaction | Same ceiling, never automatic |
+| Captain Estra / the Vane Compact | Common knowledge it existed and folded | Existed, folded, "financial trouble" | A name undercutting the cover story (an Oskar Bellamy-shaped thread) | How the Compact was actually squeezed out | A second source corroborates the squeeze-out | Something Estra hasn't told the crew, hers to reveal, not the Library's | Same, hers to reveal |
+| The Manifest Board | Top names everyone dockside already knows | Current top-10 names, how ranking works | A rival's real standing or grudge | A top-ten name's actual methods | A second rival corroborates those methods | Mostly public by design, little is GM-gated here | Same |
+| The Rock of Bral | General port layout, where to eat | Districts, basic port lore | A specific merchant's real situation (Osric Prynne-tier) | Something a faction is hiding in plain sight | A second angle corroborates the faction's secret | nothing further scoped | nothing further scoped |
+| Scavvers, all four tiers | Everyone's heard a scavver story | Gray/Brown behavior, *Boo's Astral Menagerie* tier | Night Scavver ambush patterns | Void Scavver sightings and their rarity | A second account corroborates a Void Scavver sighting | The keystone-predator truth, `campaign/Story Spine.md`'s to spend | Same, Story Spine's to spend |
+| Kindori | Common knowledge they travel in pods | Feed on light, travel in pods | Scavver-symbiosis, the death-song register | An elder kindori, a whale fall rumor | A second source corroborates the whale fall rumor | The Vocalise's true nature, Orena's arc to spend, never the Library's | Same, Orena's arc to spend |
+| Astral elves, Aerion's heritage | Common stereotypes, mostly wrong | Common cultural facts | A specific clan or custom | Something rarer, tied to a real NPC's background | A second source corroborates that NPC's background | nothing further scoped | nothing further scoped |
+| Ancient civilizations, pre-Netheril | Campfire legend, barely a fact | Half-remembered legend, glyph styles | A named lost culture | A site or artifact with a real location | A second reference corroborates the same site | nothing further scoped | nothing further scoped |
+| Fabrics & materials, for Aerion's costume business | Common knowledge of what's in style | Common pricing and availability, nothing he couldn't find himself | A specific supplier carrying surplus astral sailcloth, a real lead | That sailcloth is Windsong scrap, resold off his own family's shipyards, without them knowing whose costumes it ends up in | A second account corroborates the same resale chain | The resale isn't Windsong's doing, it's Aeris buying the scrap cheap and flipping it, quiet leverage over material his own house throws away | Same, GM's to spend further if ever relevant |
 
 **Cartography table, the Library's other half, nav-data instead of answers:**
 - **Value follows the leg, not a formula.** The DM sets the bracket from what actually happened: an ordinary lane is low value (50-300 gp) or not sellable, a real encounter is mid value (300-1,500 gp), something genuinely unprecedented is high value (1,500-10,000+ gp), per the existing Income table (`Rules & Systems.md` §4). The roll never invents value that wasn't there.
