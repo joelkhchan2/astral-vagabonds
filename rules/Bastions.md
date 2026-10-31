@@ -241,7 +241,7 @@ Questions don't bank, three unused this leg isn't five available next leg. A mis
 
 | Topic | DC 12 | DC 15 | DC 20 | DC 25 |
 |---|---|---|---|---|
-| Her crew, the Wayfinder Knot | The *Steady Line* exists in shipping registries | Storm/loss reports from the right years and region corroborate her account | A specific captain's name or route tied to the crossing | Nothing, the true fate (`npcs/The Wayfinder Knot.md`) stays GM-only regardless of roll |
+| Her crew, the Wayfinder Knot | The *Wayfinder* exists in shipping registries | Storm/loss reports from the right years and region corroborate her account | A specific captain's name or route tied to the crossing | Nothing, the true fate (`npcs/The Wayfinder Knot.md`) stays GM-only regardless of roll |
 | The Guttering / stars going dark | Sailors' tales, session 2's own result | Delisted routes cluster, the Carrow/Amberwake pattern | One hard data point brushing the real cascade | Nothing, Tier 2 owns this reveal |
 | House Vellum | Public rank, reputation | A real rumor, a specific feud | The Carrow cover-up's shape, without the full file | What Vellum's steward currently believes about the lockbox |
 | House Carrow | Collapsed ~40 years ago, "financial ruin" | The official story doesn't add up on close reading | Vellum profited from the collapse | The full ledger connecting the two, GM's to spend |

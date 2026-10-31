@@ -40,7 +40,7 @@ The moment the crew gets a real look at it -- trembling, translucent, tangled in
 While the wistling fed on Orena, it replayed her recurring dream into the whole crew -- so **the whole table has now seen the night she lost her crew, secondhand and dim.** Most of it is grief. But the dream carries one hard detail her waking mind has never been able to hold, and now other people saw it too. Plant **one** of these (whatever your Tier needs):
 
 - **A bearing / a shape of the sky** in the last seconds before the pull took them -- flavor and dread, doesn't point at anything mechanically findable, that thin place is long gone (`npcs/The Wayfinder Knot.md`).
-- **A last word from a specific crewmate** -- a name, a place, a "go back for --" cut off. Now genuinely poignant rather than a clue: whoever's named is alive and thriving on the *Steady Line*, she just doesn't know it yet.
+- **A last word from a specific crewmate** -- a name, a place, a "go back for --" cut off. Now genuinely poignant rather than a clue: whoever's named is alive and thriving on the *Wayfinder*, she just doesn't know it yet.
 - **The Vocalise itself, clearer than she's ever heard it awake** -- confirming for the table that her private note and the guttering are the same phenomenon. (Points at the Story Spine's core: her grief and the cosmic cure are one navigation.)
 
 Play it as a gift the creature didn't know it was giving. Orena gets to decide how much she lets the crew have seen -- a real character beat about being known. **Do not over-explain it.** One image, offered once.

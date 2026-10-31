@@ -32,15 +32,17 @@ They had each other and a body count of zero, which is more than most people get
 
 **They have no idea whether Orena survived.** Same problem as hers, in reverse: no fixed point to search from, no way to know if she made it, and a hard lesson in exactly how badly a crossing can go. They mourned her as probably lost and kept going, the way you have to.
 
-## The *Steady Line*
+## The *Wayfinder*
 
 Currently ranked **~99** on the Manifest Board, captained by **Dune Ashcombe**. Still doing exactly what the Wayfinder Knot always did: navigation and charting work for hire, which is why they're good enough to sit this high after only a few years of rebuilding from nothing. The founding five are still aboard; the crew has grown past them with hired hands over the years, a real, grown operation now, not four people frozen at the moment of the wreck.
 
-**The name is a private joke only Orena would ever catch.** A steady line is what's left of a knot once you've pulled it apart and it holds anyway. Everyone else just hears an ordinary ship's name.
+**Built from nothing but what they carried out of the wreck.** The landing broke their original ship apart, but it broke apart, it didn't vanish, and in the chaotic minutes and days afterward they recovered a handful of pieces before the wreck site was lost to them for good. When they finally had enough of a charter to commission a real hull years later, they had those pieces worked into her rather than scrapped or sold: the original ship's bell, cracked but still rung, mounted by the helm; a length of carved rail from the old stern worked into the new helm console; a few lengths of rigging hardware, old and mismatched against everything else aboard, kept in her own lines rather than replaced. None of it is hidden. Anyone aboard who asks gets a plain answer: it's from the old ship. Nobody outside the crew has reason to ask what "the old ship" means.
+
+**The name carries half the guild forward, on purpose.** The Wayfinder Knot, minus the Knot. To anyone who never knew the guild, it reads as an ordinary, slightly aspirational charter name. To anyone who did, it should land as obviously, deliberately unfinished, half a name left standing where two used to be.
 
 ## Where they are now, actively, not just waiting
 
-**They never stopped looking, they just never had anything to look with.** No fixed point, no wreck, no way to know which direction "alone" even went. What's changed, quietly, GM-only: the *Steady Line*'s climb up the Board has put them in rooms (survey contracts, chart exchanges, the same professional circuit the Compact's captains used to run) where fragments of information move that wouldn't have reached them five years ago. Nothing that points at Orena specifically yet, a half-remembered name from a charter-house clerk, a water genasi mentioned in someone else's gossip, a direction more than a destination. **Colin** is the one who chases every fragment personally and burns out on most of them; **Dune** has started quietly reining him in, not out of doubt, out of not wanting to watch him break on a dead end again. They're closer than they were. They are not close.
+**They never stopped looking, they just never had anything to look with.** No fixed point, no wreck, no way to know which direction "alone" even went. What's changed, quietly, GM-only: the *Wayfinder*'s climb up the Board has put them in rooms (survey contracts, chart exchanges, the same professional circuit the Compact's captains used to run) where fragments of information move that wouldn't have reached them five years ago. Nothing that points at Orena specifically yet, a half-remembered name from a charter-house clerk, a water genasi mentioned in someone else's gossip, a direction more than a destination. **Colin** is the one who chases every fragment personally and burns out on most of them; **Dune** has started quietly reining him in, not out of doubt, out of not wanting to watch him break on a dead end again. They're closer than they were. They are not close.
 
 ## The scattered hints (GM-only, arc 1)
 
@@ -53,9 +55,9 @@ Currently ranked **~99** on the Manifest Board, captained by **Dune Ashcombe**. 
 > *Call:* "Trust the hand beside you, you'll find your way back,"
 > *Response:* "Hold a steady line, hold your crew."
 
-Orena hums or half-sings a few bars at some unguarded moment, coiling rope, a long night watch, and can't say where she knows it from. The payoff lands later, retroactively: the first time she learns her old crew's ship is named the *Steady Line*, this earlier, throwaway moment should recontextualize itself in the player's own head. She already knew. She just didn't know she knew.
+Orena hums or half-sings a few bars at some unguarded moment, coiling rope, a long night watch, and can't say where she knows it from. The payoff lands later, retroactively: the first time she stands aboard the *Wayfinder* and hears it sung properly again, this earlier, throwaway moment should recontextualize itself in the player's own head. She already knew. She just didn't know she knew.
 
-**The knot.** A specific locking hitch, call it **the wayfinder's bend**, taught by Leilon guild navigators specifically because it holds fast under load and releases clean with one pull, built for exactly the kind of emergency where a line has to come free in a hurry. Orena ties it without thinking, early and often, whenever she's handling rope. First beat: just a character moment, someone (Tack, a dockside rigger, a Route Warden) asks where she picked it up, she doesn't fully know. **Second beat, later, lands harder:** a rigger on another crew entirely ties the same bend, unprompted, and when asked, says something like "another crew taught us that, good outfit, real sticklers about doing it properly." That crew is, unnamed in the moment, the *Steady Line*. This is the first secondhand trace that the Knot actually still exists out there, delivered through a technique instead of a name.
+**The knot.** A specific locking hitch, call it **the wayfinder's bend**, taught by Leilon guild navigators specifically because it holds fast under load and releases clean with one pull, built for exactly the kind of emergency where a line has to come free in a hurry. Orena ties it without thinking, early and often, whenever she's handling rope. First beat: just a character moment, someone (Tack, a dockside rigger, a Route Warden) asks where she picked it up, she doesn't fully know. **Second beat, later, lands harder:** a rigger on another crew entirely ties the same bend, unprompted, and when asked, says something like "another crew taught us that, good outfit, real sticklers about doing it properly." That crew is, unnamed in the moment, the *Wayfinder*. This is the first secondhand trace that the Knot actually still exists out there, delivered through a technique instead of a name.
 
 **The whistle.** A three-note descending signal the Knot used as kids for "all clear" or "coming about," muscle memory older than the guild itself. Lower-key than the shanty or the knot, same function, something Orena does once and nobody at the table needs to clock it the first time.
 
@@ -63,26 +65,47 @@ Orena hums or half-sings a few bars at some unguarded moment, coiling rope, a lo
 
 **Sequencing.** The shanty, the knot's first beat, the whistle, and Leilon texture are all low-stakes early-arc plants, pure character color, no confirmation of anything. The knot's second beat ("another crew taught us") is the first one that actually confirms something real is out there, so it lands better once a few of the purely personal beats have had room to breathe, call it mid-arc.
 
-## Research DC ladder: finding the Steady Line
+## Research DC ladder: finding the Wayfinder
 
-For whenever Orena (or the table) actively digs, not just waits for ambient hints to land. This only works because she's searching with real criteria in mind, navigators, Sword Coast origin, survivors of something, not fishing blind, so even the earliest results are framed as candidates that match her search, never generic success-story noise she'd have no reason to connect to herself. Works with Investigation, History, an Insight-flavored gather-information roll at a port, or even a lucky Performance check if she sings the shanty somewhere the wrong person hears it. **Cumulative**: a given result includes everything at or below its DC, not just that one threshold. Scale the DC to the quality of the source available in the scene, a dockside rumor mill is a worse source than a chart-house's own trade gossip.
+For whenever Orena (or the table) actively digs, not just waits for ambient hints to land. This only works because she's searching with real criteria in mind, navigators, Sword Coast origin, survivors of something, not fishing blind, so even the earliest results are framed as candidates that match her search, never generic success-story noise she'd have no reason to connect to herself. Works with Investigation, History, an Insight-flavored gather-information roll at a port, or even a lucky Performance check if she sings the shanty somewhere the wrong person hears it. **Cumulative**: each DC's information is on top of everything below it, not a replacement for it. Scale the DC to the quality of the source available in the scene, a dockside rumor mill is a worse source than a chart-house's own trade gossip. Each tier below lists several specific, concrete facts to actually hand the player, not a vague gesture at "a rumor."
 
-**Each DC is a certainty tier, not a fixed clue.** The actual form the evidence takes should vary scene to scene, a rumor, a physical object, a name on paper, a method she recognizes, so it doesn't collapse into the same "someone tells her a crew exists" beat over and over. Pick whichever fits what's in front of the table, or roll among them.
-
-- **DC 12, a candidate, not a confirmation.** Pick one: a dockside rumor about a small charter known for near-impossible route-sense, "came from nowhere a few years back"; a contract or cargo manifest bearing a sigil she half-recognizes, an informal knot-mark her own guild used, attached to no name; or a story about a job, a tricky recovery, an unusual way of splitting a night watch, that rings a bell without her being able to say why. Orena's chased leads shaped exactly like each of these before and had them go nowhere. This one happens to be real.
-- **DC 15, specific enough to actually follow.** Pick one: the outfit has a name, the ***Steady Line***, current rank in the low hundreds; a name surfaces once, attached to nothing conclusive, a captain called "Ashcombe" cited in a contract dispute or a logbook entry; or a chart or ledger page signed in a hand she recognizes without remembering why. Her gut reacts regardless of which form it takes.
-- **DC 18, tips into certainty.** Pick one: explicit word that the outfit's founding five came out of **Leilon** and survived "a bad crossing" years back; someone who's worked with them describing them exactly that way, "those Sword Coast folks, lost people once, don't talk about it"; or a job they pulled that mirrors, almost exactly, something the Knot actually did together before the crossing, the same cargo type, the same trick, close enough that calling it coincidence would mean lying to herself.
-- **DC 20, a direct match.** Pick one: a rigger who ties the wayfinder's bend without having learned it from her; someone humming a few bars of the shanty; a captain who favors the phrase "fair current"; or a boarding-defense or escort pattern run exactly the way her own guild drilled it, a tactical signature instead of a verbal one.
-- **DC 22, a name.** **Dune Ashcombe**, captaining, or **Colin Aldous**, if the scene calls for more emotional weight. Orena knows it instantly. No more ambiguity: this is them.
-- **DC 25, whereabouts.** A port they're due at, a contract they've bid, a chart-house they use regularly, specific enough to act on rather than just confirm.
-- **DC 27, it's mutual.** Word that one of them, specifically, has spent years quietly chasing fragments of a rumor about "a water genasi navigator," and takes it hard every time it goes nowhere. That's Colin, though the source may not have his name.
-- **DC 30, a direct line.** An address, a dock schedule precise enough to actually be there when they are. The point where "I know they're alive" becomes "I can be in the same room as them."
+- **DC 12, a candidate, not a confirmation.**
+  - A small charter outfit called the ***Wayfinder*** has climbed the Board unusually fast, on reputation alone, "came from nowhere a few years back."
+  - Dockside talk says the ship herself is strange to look at: old, mismatched salvage worked visibly into a hull that's otherwise too young to look that patched.
+  - Nothing yet ties any of this to Leilon, a lost guild, or Orena specifically. Just a name and a shape that doesn't quite add up.
+- **DC 15, specific enough to actually follow.**
+  - The *Wayfinder*'s captain is one **Dune Ashcombe**.
+  - Current rank confirmed: low hundreds, ~99.
+  - A clerk or rival mentions, almost as trivia, that "Wayfinder" is an odd half-name for a ship, like someone forgot the rest of it.
+- **DC 18, tips into certainty.**
+  - The *Wayfinder*'s founding five are confirmed survivors of a Sword Coast navigators' guild out of **Leilon**, who lived through "a bad crossing" years back.
+  - The salvage worked into her hull (a cracked ship's bell by the helm, old rail carved into the console, mismatched rigging hardware) is identified as pieces of their original wrecked ship, carried out and kept, not generic scrap.
+  - Someone who's worked with them describes the crew as people who "lost everything once and built this out of what they could carry."
+- **DC 20, a direct sensory or behavioral match.**
+  - A rigger aboard or adjacent to them ties a specific locking hitch, the wayfinder's bend, exactly the way Orena does.
+  - Someone hums a few bars of an old dockhand work-shanty that Orena half-remembers from nowhere she can name.
+  - A captain who's dealt with them favors the phrase "fair current," a Leilon parting phrase, not common usage anywhere else.
+- **DC 22, a name, unambiguous.**
+  - **Colin Aldous**, specifically, named as one of the crew.
+  - Someone refers to the operation by its full old name, "the **Wayfinder Knot**," not just "the *Wayfinder*," without knowing why that distinction should matter to anyone. Orena knows instantly. No more ambiguity: this is them.
+  - A crewmate's peg leg comes up as an identifying detail, matter-of-fact, no name attached yet.
+- **DC 25, whereabouts.**
+  - A specific port the *Wayfinder* is due at on a specific job.
+  - A contract they've bid that the *Night Fury* could plausibly cross paths with.
+  - The name of a chart-house or broker they use regularly.
+- **DC 27, it's mutual.**
+  - Word that one crewmate, specifically, has spent years personally chasing fragments of a rumor about "a water genasi navigator," and takes every dead end hard. That's Colin, though the source may not have his name.
+  - A second crewmate has quietly started reining the first one in, not from doubt, from not wanting to watch them break again. That's Dune.
+- **DC 30, a direct line.**
+  - An address or dock schedule precise enough to actually be there when they are.
+  - A mutual contact who could broker an introduction outright, rather than leaving it to chance.
+  - The point where "I know they're alive" becomes "I can be in the same room as them."
 
 ## The reunion hook, two-stage
 
-**Stage one: the reveal, by arc 1's end.** Not a slow-burn mid-to-late beat anymore, built to land before arc 1 closes. The scattered hints above (shanty, knot, whistle, Leilon texture) run ambient through most of arc 1, low-stakes and personal. The knot's "another crew taught us" beat, or a research roll against the DC ladder above, is what tips it from ambient color into real, table-knowable fact: Orena's old crew is alive, out there, captaining the *Steady Line*, climbing the same Board she is. This does not require the two crews to meet. It only requires Orena, and the table, to know for certain that there's someone to meet.
+**Stage one: the reveal, by arc 1's end.** Not a slow-burn mid-to-late beat anymore, built to land before arc 1 closes. The scattered hints above (shanty, knot, whistle, Leilon texture) run ambient through most of arc 1, low-stakes and personal. The knot's "another crew taught us" beat, or a research roll against the DC ladder above, is what tips it from ambient color into real, table-knowable fact: Orena's old crew is alive, out there, captaining the *Wayfinder*, climbing the same Board she is. This does not require the two crews to meet. It only requires Orena, and the table, to know for certain that there's someone to meet.
 
-**Stage two: the actual encounter, arc 2.** Nobody goes looking in the sense of a chase. The bridge is still navigator talent as shop talk: as the *Night Fury* picks up reputation, "a water genasi navigator, genuinely gifted, joined some independent crew" is precisely the detail that travels the *Steady Line*'s specific professional gossip, disproportionate to actual rank, because it's the one thing this crew can't help paying attention to. Once stage one has landed, both sides now have reason to actively close the distance rather than wait on coincidence, which is the real difference between the two stages: stage one is Orena learning they exist, stage two is someone from either side deciding to act on it. Whether that's Colin (who'd know instantly and hit hardest) or Dune (more careful about hoping) initiating is worth deciding when it actually happens rather than locking in now.
+**Stage two: the actual encounter, arc 2.** Nobody goes looking in the sense of a chase. The bridge is still navigator talent as shop talk: as the *Night Fury* picks up reputation, "a water genasi navigator, genuinely gifted, joined some independent crew" is precisely the detail that travels the *Wayfinder*'s specific professional gossip, disproportionate to actual rank, because it's the one thing this crew can't help paying attention to. Once stage one has landed, both sides now have reason to actively close the distance rather than wait on coincidence, which is the real difference between the two stages: stage one is Orena learning they exist, stage two is someone from either side deciding to act on it. Whether that's Colin (who'd know instantly and hit hardest) or Dune (more careful about hoping) initiating is worth deciding when it actually happens rather than locking in now.
 
 **After the reunion: where the Knot lands.** Two destinations, not mutually exclusive, both already live in the campaign's actual endgame machinery:
 
