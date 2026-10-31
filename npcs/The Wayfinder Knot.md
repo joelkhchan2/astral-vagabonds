@@ -67,28 +67,28 @@ Orena hums or half-sings a few bars at some unguarded moment, coiling rope, a lo
 
 ## Research DC ladder: finding the Wayfinder
 
-For whenever Orena (or the table) actively digs, not just waits for ambient hints to land. This only works because she's searching with real criteria in mind, navigators, Sword Coast origin, survivors of something, not fishing blind, so even the earliest results are framed as candidates that match her search, never generic success-story noise she'd have no reason to connect to herself. Works with Investigation, History, an Insight-flavored gather-information roll at a port, or even a lucky Performance check if she sings the shanty somewhere the wrong person hears it. **Cumulative**: each DC's information is on top of everything below it, not a replacement for it. Scale the DC to the quality of the source available in the scene, a dockside rumor mill is a worse source than a chart-house's own trade gossip. Each tier below lists several specific, concrete facts to actually hand the player, not a vague gesture at "a rumor."
+For whenever Orena (or the table) actively digs, not just waits for ambient hints to land. **DC 12 through 18 stay general, survival-possibility research, not leads on the *Wayfinder* specifically.** The fiction needs to establish that crossings like hers are survivable at all before it starts handing out ship-specific intel; jumping straight to "there's a charter called the *Wayfinder*" at low DCs would spoil arc 1's own payoffs early. Works with Investigation, History, an Insight-flavored gather-information roll at a port, or even a lucky Performance check if she sings the shanty somewhere the wrong person hears it. **Cumulative**: each DC's information is on top of everything below it, not a replacement for it. Scale the DC to the quality of the source available in the scene, a dockside rumor mill is a worse source than a chart-house's own trade gossip. Each tier below lists several specific, concrete facts to actually hand the player, not a vague gesture at "a rumor."
 
-- **DC 12, a candidate, not a confirmation.**
-  - A small charter outfit called the ***Wayfinder*** has climbed the Board unusually fast, on reputation alone, "came from nowhere a few years back."
-  - Dockside talk says the ship herself is strange to look at: old, mismatched salvage worked visibly into a hull that's otherwise too young to look that patched.
-  - Nothing yet ties any of this to Leilon, a lost guild, or Orena specifically. Just a name and a shape that doesn't quite add up.
-- **DC 15, specific enough to actually follow.**
-  - The *Wayfinder*'s captain is one **Dune Ashcombe**.
-  - Current rank confirmed: low hundreds, ~99.
-  - A clerk or rival mentions, almost as trivia, that "Wayfinder" is an odd half-name for a ship, like someone forgot the rest of it.
-- **DC 18, tips into certainty.**
-  - The *Wayfinder*'s founding five are confirmed survivors of a Sword Coast navigators' guild out of **Leilon**, who lived through "a bad crossing" years back.
-  - The salvage worked into her hull (a cracked ship's bell by the helm, old rail carved into the console, mismatched rigging hardware) is identified as pieces of their original wrecked ship, carried out and kept, not generic scrap.
-  - Someone who's worked with them describes the crew as people who "lost everything once and built this out of what they could carry."
-- **DC 20, a direct sensory or behavioral match.**
-  - A rigger aboard or adjacent to them ties a specific locking hitch, the wayfinder's bend, exactly the way Orena does.
-  - Someone hums a few bars of an old dockhand work-shanty that Orena half-remembers from nowhere she can name.
-  - A captain who's dealt with them favors the phrase "fair current," a Leilon parting phrase, not common usage anywhere else.
-- **DC 22, a name, unambiguous.**
-  - **Colin Aldous**, specifically, named as one of the crew.
-  - Someone refers to the operation by its full old name, "the **Wayfinder Knot**," not just "the *Wayfinder*," without knowing why that distinction should matter to anyone. Orena knows instantly. No more ambiguity: this is them.
-  - A crewmate's peg leg comes up as an identifying detail, matter-of-fact, no name attached yet.
+- **DC 12, survival is possible, in the abstract.**
+  - Old sailors' and spacer accounts describe crossings much like hers: a thin place tearing open between an ordinary sea and the Astral, pulling a whole ship through at once.
+  - At least some of those crossings are known to have landed survivors safely in Wildspace, not every such story ends in a wreck or a disappearance.
+  - Nothing here is about her crew specifically. Just proof that what happened to her has happened to others, and some of them lived.
+- **DC 15, the mechanism, and the odds.**
+  - A scholar, chart-house record, or astrozoologist's notes describe the actual cause: a dying kindori's last pulse tearing a crossing open by force, the same thing that happened to her.
+  - Whether you come through whole or scattered seems to depend on exactly where you are relative to the pull when it hits, attached to the hull or not. That detail should land close to home without confirming anything about her own crew yet.
+  - Still general. A real, textured possibility, not a lead.
+- **DC 18, it stops being abstract.**
+  - A specific account surfaces: a crossing matching her own guild's disappearance, same stretch of the Sword Coast, same rough timeframe, is on record as having put survivors ashore in Wildspace.
+  - No name, no ship, no number of survivors, just confirmation that whatever happened to the Wayfinder Knot that night, somebody on that crossing made it through alive on the other side.
+  - This is the point Orena has real, specific reason to believe, not just hope, that her crew could actually be out there.
+- **DC 20, a candidate, concrete now.**
+  - A small charter outfit called the ***Wayfinder*** has climbed the Board unusually fast, on reputation alone, "came from nowhere a few years back," captained by one **Dune Ashcombe**, current rank ~99.
+  - Dockside talk says the ship herself is strange to look at: old, mismatched salvage worked visibly into a hull that's otherwise too young to look that patched, a bell, carved rail, rigging hardware, nobody outside the crew knows why.
+  - A clerk or rival mentions, almost as trivia, that "Wayfinder" is an odd half-name for a ship, like someone forgot the rest of it. Nothing yet proves this is them, but it's the first lead specific enough to actually chase.
+- **DC 22, a direct match, unambiguous.**
+  - A rigger aboard or adjacent to them ties a specific locking hitch, the wayfinder's bend, exactly the way Orena does, or someone hums a few bars of an old dockhand work-shanty she half-remembers from nowhere she can name.
+  - Someone refers to the operation by its full old name, "the **Wayfinder Knot**," without knowing why that distinction should matter to anyone. Orena knows instantly. No more ambiguity: this is them.
+  - **Colin Aldous**, specifically, named as one of the crew, or a crewmate's peg leg comes up as an identifying detail.
 - **DC 25, whereabouts.**
   - A specific port the *Wayfinder* is due at on a specific job.
   - A contract they've bid that the *Night Fury* could plausibly cross paths with.
