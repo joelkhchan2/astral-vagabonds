@@ -280,4 +280,32 @@ Aerion's actual second facility (locked session 3), not Armory. Reworked the sam
 - **Use cases:** outfitting a thin-crewed ally (Albus's five), restocking after a fight, a reliable answer to "does anyone have a spare X" instead of a market scene every time.
 - **Secondary income:** surplus common goods sell at port for modest, steady gold, folded into Aerion's ordinary Storehouse ledger, no new roll.
 - **Magic items, already in scope:** since Smithy is the facility with "forge nonmagical weapons/armor, or a Magic Item, Armaments" in the catalog above, Aerion doesn't need to swap facilities to reach this, just level and gold. **DC 20** tool check plus the 2024 DMG's standard crafting formula (gold = the item's listed price, time = cost ÷ 25 gp/day, formula or schematic required).
+
+### Reading the Ledgers: Aerion's business-intelligence check
+
+A free bonus check riding on an order he's already issuing, not a new bastion-turn cost. Whenever Aerion runs a Trade order on Storehouse (ordinary cargo or the costume business) or a Craft order on Smithy, he can also roll this: he's paying attention to the numbers either way, this just formalizes what he'd notice. An **Insight** check, reading what the room and the ledgers aren't saying outright, rather than digging through papers.
+
+Mirrors Library's ladder exactly, so a Research hit and a Ledgers hit on the same topic the same leg can corroborate each other, a natural joint scene for both PCs:
+
+| DC | What it gets you |
+|---|---|
+| 10 | Surface noise. Common knowledge, nothing he couldn't pick up at any dock |
+| 13 | The current, public shape of the thing: standing, rates, who's buying |
+| 16 | A real wrinkle, uncorroborated. Something's off in how the numbers move |
+| 20 | Something actively hidden, or genuinely rare |
+| 23 | Corroboration. The DC 16-20 wrinkle gets a second, independent source and stops being a maybe |
+| 26 | Brushes a GM-only truth, one hard fact only, never the whole picture |
+| 30 | As close to the whole truth as dice get. Still the GM's call how much, never automatic |
+
+**Worked by topic:**
+
+| Topic | DC 10 | DC 13 | DC 16 | DC 20 | DC 23 | DC 26 | DC 30 |
+|---|---|---|---|---|---|---|---|
+| House Windsong, his own family | Common knowledge, Windsong builds reliable, unglamorous hulls | This season's contract load, who's buying from them right now | A shipment running late, a client grumbling, nothing structural yet | A real cash-flow wobble, a quiet loan taken, not yet public | A second source (a creditor, a rival) corroborates the same wobble | His father's own private read on it, something even insiders don't say aloud | Nothing further, what Aerion himself doesn't know of his own house stays his to find, never a roll |
+| The Manifest Board | Who's currently on top, common knowledge | How the current climbers are actually financing their push | A specific rival's real strategy, the pattern behind their wins | A top name is overextended, running on borrowed gold | A second trade contact corroborates it | Who's quietly buying out or merging with whom before it's announced | Same ceiling, GM's to spend further |
+| House Vellum / House Carrow | Common knowledge, a major house and a collapsed one | Vellum's credit stands solid; the Carrow name still oddly circulates on some paper | A liquidity wrinkle in how Vellum pays vendors, or someone still trading on Carrow's name | Vellum's fingerprints are on surviving Carrow paper, the money never really stopped moving | A second ledger or contact corroborates the same trail | The hard fact tying the two houses' books together, shared with Library's Carrow row, GM's to spend | Same, GM's to spend further |
+| Captain Estra / the Vane Compact | Common knowledge the Compact existed and folded | What little capital is quietly still moving under her name | A pattern: she's been slowly rebuilding credit, not just running one ship | A real number, what fielding a second hull would actually cost her, and that she's past treating it as fantasy | A second source confirms she's actually courting backers, not just dreaming out loud | She's quietly sounded out old contacts about who'd run day-to-day operations for a rebuilt fleet. One hard fact, never naming Aerion, that offer is hers to make, not the dice's | Same ceiling. Whether she ever makes him that offer is the story's to decide |
+| Rival charters generally | The usual names that come up at the yard | Who's climbing, who's struggling, by reputation | A specific rival's real strategy or weak point | One's overextended, running on borrowed gold | A second contact corroborates it | Who's quietly looking to buy out or merge with whom before it's announced | Same, GM's to spend further |
+| Shipping-risk economics | Common knowledge, dangerous routes cost more | Current insurance and freight rates on the usual dangerous lanes | A specific incident, Guttering- or scavver-related, just moved those rates | An underwriter is quietly refusing to cover a route everyone still sails anyway | A second broker corroborates it | Who's actually eating the risk nobody's pricing honestly, one hard fact | Same, GM's to spend further |
+| His own buyout fund | Common knowledge, a stake this size is a serious sum | The current market price of a Windsong stake or board seat, if it ever came up for sale, a real number to work against | A rumor that someone else, a rival, a cousin, an outside buyer, has shown interest in the same stake | His father's floated the idea of eventually stepping back, to someone who isn't Aerion | A second source corroborates his father's been talking succession, just not to him | The real number: what it would actually take, financed and timed, to make the buyout real | Whether he ever gets the chance at all is the story's to decide, never the dice's |
 </content>
