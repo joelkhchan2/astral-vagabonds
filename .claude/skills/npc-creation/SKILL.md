@@ -1,6 +1,6 @@
 ---
 name: npc-creation
-description: Shape for writing up a new named NPC with real recurrence (not a one-line mention), especially a crew hire or sidekick, including building their level 5 D&D 5e sidekick stat block when they might show up mechanically. Use whenever a new NPC is getting their own file, or `campaign/Name Index.md`'s "no dedicated file yet" list needs promoting an entry. Companion to `dnd-writing` (voice) and `session-structure` (where NPC beats fit in a session).
+description: Shape for writing up a new named NPC with real recurrence (not a one-line mention), especially a crew hire or sidekick, including building their level 6 D&D 5e sidekick stat block when they might show up mechanically. Use whenever a new NPC is getting their own file, or `campaign/Name Index.md`'s "no dedicated file yet" list needs promoting an entry. Companion to `dnd-writing` (voice) and `session-structure` (where NPC beats fit in a session).
 ---
 
 # Writing up a new NPC
@@ -29,12 +29,12 @@ Write this as scannable prose or bullets, not a form. Match the length to how lo
 
 Build one when the NPC might show up mechanically, a ship-combat station, a social encounter needing a roll, a fight. Skip it for NPCs who are purely color.
 
-Approximated from the Essentials Kit's Expert/Warrior sidekick chassis, not exact RAW. Flag it the way this repo already flags reconstructed rules content: **"[Reconstructed sidekick build, verify against the book before it matters at the table.]"**
+Approximated from the 2018 Unearthed Arcana Sidekicks playtest (Expert/Warrior/Spellcaster chassis), not the final published text and not exact RAW. The three session 4 hires are built at level 6 from it: HP is the base creature's hit dice plus one hit die per sidekick level, proficiency is +3, and Extra Attack replaces a base Multiattack instead of stacking. Flag it the way this repo already flags reconstructed rules content: **"[Reconstructed sidekick build, verify against the book before it matters at the table.]"**
 
-- **Expert** (skill-based): Expertise (two skills or tools that fit the NPC), Jack of All Trades, Helpful, optionally Sneak Attack if they're the sneaky type.
-- **Warrior** (combat-based): Extra Attack, a Fighting Style (reflavor freely, Archery as Gunnery for a ship's gunner, same as `npcs/Judo.md`).
+- **Expert** (skill-based): Expertise (two skills at level 1, two more at level 6; tools only by house rule, as with Tomlin's cook's utensils), Helpful, Cunning Action, Jack of Many Trades, Extra Attack. No Sneak Attack in this chassis.
+- **Warrior** (combat-based): Second Wind, Danger Sense, Improved Critical, Extra Attack. No Fighting Style in this chassis, so any "Archery as Gunnery" bonus is homebrew.
 - Pick the chassis from what the NPC actually does, a cook-gunner or scout leans Expert with a combat edge or Warrior depending on which half of their role matters more at the table, judgment call, note the reasoning in the file.
-- Proficiency bonus +3 at level 5. HP and AC scaled to fit the chassis and the NPC's concept (a tortle gets AC from its shell, a hadozee gets Dex-leaning AC), not copied from a template.
+- Proficiency bonus +3 at levels 5 to 8. HP and AC scaled to fit the chassis and the NPC's concept (a tortle gets AC from its shell, a hadozee gets Dex-leaning AC), not copied from a template.
 
 ## After writing
 

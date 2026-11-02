@@ -1,6 +1,6 @@
 # Orena (Gabrielle's PC)
 
-**Race:** Water Genasi · **Class:** Bard/Paladin, level 5 · **Age:** ~30 · **From:** Leilon, on the Sword Coast (Material Plane), between Neverwinter and Waterdeep.
+**Race:** Water Genasi · **Class:** Bard/Paladin, level 6 · **Age:** ~30 · **From:** Leilon, on the Sword Coast (Material Plane), between Neverwinter and Waterdeep.
 **Shipboard roles:** Navigator, Helmsman-in-training, Scout.
 
 > Name spelling: the DM once wrote "Irena," but every primary source (Gabrielle's own notes and the session transcript) uses **Orena**, so that is what this folder uses. Flag if it should be Irena and it is a one-word global swap.

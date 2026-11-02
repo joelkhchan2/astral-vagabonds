@@ -1,6 +1,6 @@
 # Aerion Kyoya Windsong (Priscilla's PC)
 
-**Race:** Astral Elf · **Class:** Samurai Fighter, level 5 · **Background:** Merchant · **Alignment:** Neutral Good · **Age:** 132 · **Height:** 6'3"
+**Race:** Astral Elf · **Class:** Samurai Fighter, level 6 · **Background:** Merchant · **Alignment:** Neutral Good · **Age:** 132 · **Height:** 6'3"
 **Shipboard roles:** Bosun, Quartermaster, Cargo Handler.
 
 ## Who he is
