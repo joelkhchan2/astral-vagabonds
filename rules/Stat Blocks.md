@@ -10,7 +10,7 @@ Characters and personalities live in `Crew Roster.md`, `Captain Estra Vane.md`, 
 
 # THE CREW (aboard)
 
-The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, plus **Flurry**.
+The eight NPCs currently aboard: Captain Estra, **Tack, Brass, Finny, Oz,** and the session 4 hires **Tomlin, Judo, and Sable**, plus **Flurry**. The first five are hand-built blocks (Brass and Finny levelled to a true level 6 so their features match their hit dice; Estra, Tack, and Oz stay as written). The three hires are **level 6 sidekicks**, reconstructed from the 2018 Unearthed Arcana Sidekicks playtest (verify against the book before it matters at the table). Both PCs are level 6, proficiency +3.
 
 ## CAPTAIN ESTRA VANE
 *Medium humanoid (human), Fighter (Battle Master), Captain / Main Helmsman* · **CR 2** (450 XP)
@@ -73,14 +73,15 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ## FINNICK "FINNY" GROLES
 *Small humanoid (halfling), Rogue (Thief), Rigger / Deckhand / backup Gunner* · **CR 1** (200 XP)
 
-**AC** 14 (studded leather) · **HP** 33 (6d8 + 6) · **Speed** 25 ft., climb 20 ft.
+**AC** 16 (studded leather, DEX +4) · **HP** 33 (6d8 + 6) · **Speed** 25 ft., climb 20 ft. · **Level 6, proficiency +3**
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 12 (+1) | 16 (+3) | 12 (+1) | 10 (+0) | 12 (+1) | 16 (+3) |
+| 12 (+1) | 18 (+4) | 12 (+1) | 10 (+0) | 12 (+1) | 16 (+3) |
 
-**Skills** Acrobatics +5, Athletics +3, Insight +3, Perception +3, Persuasion +5, Sleight of Hand +5; thieves' tools +5
-**Senses** passive Perception 13 · **Languages** Common, Halfling, Thieves' Cant, and gossip in four more
+**Skills** Acrobatics +7, Athletics +4, Insight +7, Perception +4, Persuasion +9, Sleight of Hand +10; thieves' tools +10
+**Expertise** Sleight of Hand, Persuasion (level 1); Insight, thieves' tools (level 6)
+**Senses** passive Perception 14 · **Languages** Common, Halfling, Thieves' Cant, and gossip in four more
 
 ***Lucky (Halfling).*** When Finny rolls a 1 on the d20 for an attack, ability check, or save, he can reroll and must use the new roll.
 
@@ -93,26 +94,28 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 ***Cannot Keep a Secret.*** Any secret told to Finny has a real chance of surfacing within 1d4 days. He will feel terrible about it. His own secrets are the one exception; see `npcs/Finny.md`.
 
 **Actions**
-***Boarding Knife.*** *Melee:* +5 to hit, reach 5 ft. *Hit:* 6 (1d4 + 3) piercing.
+***Boarding Knife.*** *Melee:* +7 to hit, reach 5 ft. *Hit:* 6 (1d4 + 4) piercing.
 
-***Sneak Attack (1/Turn).*** +7 (2d6) damage on an attack with advantage, or when an ally is adjacent to the target.
+***Sneak Attack (1/Turn).*** +10 (3d6) damage on an attack with advantage, or when an ally is adjacent to the target.
 
 **Reactions**
 ***"HEY!" (Recharges after a Short Rest).*** When an ally within 30 feet is attacked, Finny shouts something so irrelevant that the attacker has disadvantage on the roll.
+
+***Uncanny Dodge.*** When an attacker Finny can see hits him, he halves the damage from that attack.
 
 ---
 
 ## BRASSICA "BRASS" THORNGAGE
 *Medium humanoid (human), Cleric (Life Domain), Medic / Cook* · **CR 2** (450 XP)
 
-**AC** 13 (chain shirt) · **HP** 33 (6d8 + 6) · **Speed** 30 ft.
+**AC** 14 (chain shirt, DEX +1) · **HP** 33 (6d8 + 6) · **Speed** 30 ft. · **Level 6 Cleric, proficiency +3**
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 10 (+0) | 12 (+1) | 13 (+1) | 12 (+1) | 16 (+3) | 13 (+1) |
+| 10 (+0) | 12 (+1) | 13 (+1) | 12 (+1) | 18 (+4) | 13 (+1) |
 
-**Skills** Insight +5, Medicine +8, Persuasion +3
-**Senses** passive Perception 13 · **Languages** Common, Halfling (picked up from years crewing with small folk)
+**Skills** Insight +7, Medicine +7, Persuasion +4
+**Senses** passive Perception 14 · **Languages** Common, Halfling (picked up from years crewing with small folk)
 
 > **On the "Cleric" of it:** her gift isn't worship, in this setting nobody's is. Brass channels vital energy on instinct, the same family of phenomenon as psionics or the Tide itself, and would be genuinely confused if you asked her which god. She'd say the same thing Estra would: it works, and that's enough to know.
 
@@ -120,17 +123,24 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 ***The Morning Roll.*** She is the cook too. Each morning she is on breakfast, roll a **d4** for the day's result (DM tracks what it means). Dinner aboard is a gamble and the crew have made peace with it.
 
-***Spellcasting.*** Brass is a 3rd-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). She has the following cleric spells prepared:
-- Cantrips (at will): *guidance*, *spare the dying*
-- 1st level (4 slots): *bless*, *cure wounds*, *healing word*
-- 2nd level (2 slots): *lesser restoration*, *prayer of healing*
+***Spellcasting.*** Brass is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). She prepares up to ten spells a day; domain spells (starred) are always prepared. Suggested list:
+- Cantrips (at will): *guidance*, *spare the dying*, *sacred flame*
+- 1st level (4 slots): *bless**, *cure wounds**, *healing word*, *sanctuary*
+- 2nd level (3 slots): *lesser restoration**, *spiritual weapon**, *prayer of healing*, *aid*
+- 3rd level (3 slots): *beacon of hope**, *mass healing word**, *dispel magic*, *create food and water*
 
-***Channel Divinity: Preserve Life (1/Short Rest).*** Brass restores a number of hit points equal to five times her cleric level (15), divided among any creatures within 30 feet as she chooses, and no creature can be brought above half its hit point maximum this way.
+> **Table ruling: no revivify aboard.** Life Domain would normally always prepare *revivify* at 5th level. Per the Monster Manual's same-level spell swap, Brass has *mass healing word* in that domain slot instead. Don't hand her revivify back without a story reason.
+
+***Disciple of Life.*** Her healing spells restore an extra 2 + the spell's level in hit points.
+
+***Blessed Healer.*** When she heals someone else with a spell of 1st level or higher, she regains 2 + the spell's level in hit points herself.
+
+***Channel Divinity: Preserve Life (2/Short Rest).*** Brass restores 30 hit points (five times her cleric level), divided among any creatures within 30 feet as she chooses, and no creature can be brought above half its hit point maximum this way.
 
 **Actions**
 ***Mace.*** *Melee:* +2 to hit, reach 5 ft. *Hit:* 3 (1d6) bludgeoning. She almost never needs it.
 
-***Field Patch (Cure Wounds, cast at 1st level).*** One creature she touches regains **1d8 + 3 hit points**. Improvised, effective, and she will complain about the supplies the whole time.
+***Field Patch (Cure Wounds, cast at 1st level).*** One creature she touches regains **1d8 + 7 hit points** (1d8 + 4 Wisdom + 3 Disciple of Life). Improvised, effective, and she will complain about the supplies the whole time.
 
 ---
 
@@ -159,6 +169,95 @@ The five NPCs currently aboard: **Tack, Brass, Finny, Oz,** and Captain Estra, p
 
 **Reactions**
 ***After You.*** When an ally within 5 feet is hit by an attack, Oz swaps places with them and takes the damage instead. He says "after you" while doing it.
+
+---
+
+## TOMLIN UNDERHILL
+*Small humanoid (lightfoot halfling), Expert Sidekick (level 6), Cook / Gunner* · **CR 1** (nominal, 200 XP)
+*[Reconstructed from the 2018 UA Sidekicks playtest. Verify against the book before it matters at the table.]*
+
+**AC** 13 (leather) · **HP** 31 (7d8) · **Speed** 25 ft. · **Proficiency** +3
+
+| STR | DEX | CON | INT | WIS | CHA |
+|---|---|---|---|---|---|
+| 8 (-1) | 14 (+2) | 10 (+0) | 12 (+1) | 13 (+1) | 16 (+3) |
+
+**Saves** DEX +5
+**Skills** Persuasion +9, Insight +7, Perception +7, Nature +4, Survival +4; cook's utensils +7, herbalism kit +4
+**Expertise** Persuasion, cook's utensils (house rule: tool allowed), Insight, Perception
+**Senses** passive Perception 17 · **Languages** Common, Halfling
+
+***Halfling.*** Lucky, Brave, Halfling Nimbleness, Naturally Stealthy.
+
+***Helpful.*** Takes the Help action as a bonus action.
+
+***Cunning Action.*** Dash, Disengage, or Hide as a bonus action.
+
+***Jack of Many Trades.*** Adds +1 (half proficiency) to any ability check he is not proficient in.
+
+**Actions**
+***Extra Attack.*** Two attacks when he takes the Attack action.
+***Pistol.*** *Ranged:* +5 to hit, range 30/90 ft. *Hit:* 7 (1d10 + 2) piercing. His real work is at a ship weapon station, see `Rules & Systems.md` &sect;8.
+
+---
+
+## JUDO
+*Medium humanoid (hadozee), Warrior Sidekick (level 6), Scout / Gunner* · **CR 2** (nominal, 450 XP)
+*[Reconstructed from the 2018 UA Sidekicks playtest on a Scout base. Verify against the book before it matters at the table.]*
+
+**AC** 16 (studded leather, DEX +4) · **HP** 49 (9d8 + 9) · **Speed** 30 ft. · **Proficiency** +3
+
+| STR | DEX | CON | INT | WIS | CHA |
+|---|---|---|---|---|---|
+| 10 (+0) | 18 (+4) | 12 (+1) | 11 (+0) | 13 (+1) | 10 (+0) |
+
+**Saves** DEX +7
+**Skills** Perception +4, Acrobatics +7, Survival +4
+**Senses** passive Perception 14 · **Languages** Common
+
+***Hadozee.*** Glide membranes, and *Hadozee Dodge* (reaction: reduce damage taken by 1d6 + proficiency bonus). Verify species text against the Astral Adventurer's Guide.
+
+***Second Wind (1/Short or Long Rest).*** Bonus action, regains 1d10 + 6 hit points.
+
+***Danger Sense.*** Advantage on DEX saves against effects he can see.
+
+***Improved Critical.*** Weapon attacks crit on a 19 or 20.
+
+**Actions**
+***Extra Attack.*** Two attacks when he takes the Attack action (replaces the Scout's Multiattack, does not stack with it).
+***Pistol.*** *Ranged:* +7 to hit, range 30/90 ft. *Hit:* 9 (1d10 + 4) piercing.
+
+---
+
+## SABLE
+*Medium humanoid (tortle), Warrior Sidekick (level 6), Deckhand / Gunner* · **CR 2** (nominal, 450 XP)
+*[Reconstructed from the 2018 UA Sidekicks playtest. Verify against the book before it matters at the table.]*
+
+**AC** 17 (natural armor) · **HP** 45 (7d8 + 14) · **Speed** 30 ft. · **Proficiency** +3
+
+| STR | DEX | CON | INT | WIS | CHA |
+|---|---|---|---|---|---|
+| 16 (+3) | 10 (+0) | 14 (+2) | 8 (-1) | 13 (+1) | 10 (+0) |
+
+**Saves** CON +5
+**Skills** Athletics +6, Acrobatics +3, Perception +4
+**Senses** passive Perception 14 · **Languages** Common, Aquan
+
+***Tortle.*** Hold Breath (1 hour). Natural Armor. Claws.
+
+***Shell Defense.*** Action to withdraw into her shell: +4 AC and advantage on STR and CON saves, but she is prone, speed 0, has disadvantage on DEX saves, and is incapacitated. Bonus action to emerge.
+
+***Second Wind (1/Short or Long Rest).*** Bonus action, regains 1d10 + 6 hit points.
+
+***Danger Sense.*** Advantage on DEX saves against effects she can see.
+
+***Improved Critical.*** Weapon attacks crit on a 19 or 20.
+
+**Actions**
+***Extra Attack.*** Two attacks when she takes the Attack action.
+***Handaxe.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 6 (1d6 + 3) slashing.
+***Claws.*** *Melee:* +6 to hit, reach 5 ft. *Hit:* 5 (1d4 + 3) slashing.
+***Pistol.*** *Ranged:* +3 to hit, range 30/90 ft. *Hit:* 5 (1d10) piercing. Her aim does not match her narration.
 
 ---
 
