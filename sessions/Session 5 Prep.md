@@ -4,12 +4,37 @@
 
 - **Rank 340 of 349.** Crew of 10 (capacity 11, one hire slot open). Operating cost 900 gp/month.
 - **Account:** roughly 4,000 gp operating plus the standing 10,000 gp reserve, ~14,000 gp total (reconciled estimate, see `sessions/Session 4.md`).
-- **Open Water, Open Season is picked but never launched.** Aurel Delverane's survey job, fully built below in &sect;4 and in the session 5 companion, Longscar, the Windward Edge, the full 40-entry encounter table included. The earlier `Session 4 Prep.md` §5(C) version is superseded, this doc is the current build.
-- **The derelict hull** both players asked to board, docked at the Rock of Bral, unclaimed. Built out below, this session's cold open.
-- **Live threads:** Dessa and Sedge (she won't let him fly, a past accident or near-death, specifics still open), the Fifth House bid with Vaelren (Vaelros still unaware), the new crew (Tomlin, Judo, Sable) not yet fleshed past their hiring, Flurry owed real spotlight time (flagged twice now), the second kindori hat already resolved off-screen (Sorcel found and sold his own).
-- **New this session:** the three declined hiring candidates (Six, Auguste, Rattle) have joined Boy Boy McGee's crew, now six strong. See &sect;6 below for the reveal.
+- **Open Water, Open Season is picked but never launched.** Aurel Delverane's survey job, fully built below in &sect;6 and in the session 5 companion, Longscar, the Windward Edge, the full 40-entry encounter table included. The earlier `Session 4 Prep.md` §5(C) version is superseded, this doc is the current build.
+- **The derelict hull** both players asked to board, docked at the Rock of Bral, unclaimed. Built out below, this session's main early danger beat.
+- **Live threads:** Dessa and Sedge (she won't let him fly, a past accident or near-death, specifics still open), the Fifth House bid with Vaelren (Vaelros still unaware), the new crew (Tomlin, Judo, Sable) getting their first real scene with the whole table tonight, Flurry owed real spotlight time (flagged twice now), the second kindori hat already resolved off-screen (Sorcel found and sold his own).
+- **New this session:** the three declined hiring candidates (Six, Auguste, Rattle) have joined Boy Boy McGee's crew, now six strong. See &sect;8 below for the reveal.
 
-## 2. Cold open: the derelict
+## 2. Opening: the crew dinner
+
+Still docked at Bral, evening after the day's business, before any of the session's real danger starts. First time all three new hires sit at the long table as crew, not candidates, so this opens the session instead of landing mid-way through it.
+
+**Read aloud:**
+> The galley smells like something with real ambition in it, cardamom and seared fat and something sweeter underneath nobody can place yet. The long table's crowded tonight, every bench full for the first time anyone can remember. Tomlin's already moving between pots like he's done this a thousand times, which, give or take a few hundred years of family history, he has.
+
+**Tomlin cooks for real.** A full spread off the bag's spice stock, layered and warm. Offers a taste before anyone's sat down, a pinch held up to his nose: "tell me if that's too much cardamom, I can't tell anymore, I've been smelling it for an hour." Hands out bowls like he's done it his whole life.
+
+**Brass's moment, hers to have, not forced.** She's in the doorway, arms crossed, "supervising" a kitchen she doesn't cook in anymore. One grudging line: "that's not how I'd have done the sauce. It's better than how I'd have done the sauce." Takes a bowl like everyone else, won't say so twice.
+
+**Finny works the table.** Three fresh sources he hasn't fully tapped, a question for each before the meal's half done. Aimed at Tomlin: "so is it true halflings can smell a lie, or is that just you," answered with a taste of something instead of an answer. Worth reaching for the halfling-to-halfling warmth between the two of them too, Finny trades gossip, Tomlin trades food, neither one hoards what costs them nothing to give, an easy, fast friendship if the table wants to lean into it.
+
+**Judo's stunt.** Right around the meal, maybe checking his gunnery post before he'll let himself sit (the overcorrect-into-caution habit showing even at dinner), maybe the opposite, a small, sharp, unnecessary flourish to prove he belongs at this table. Either way he narrates his own near-miss before anyone else can: "that could've gone worse, I want it on record that I saw that coming." If Oz is nearby, this is his opening too, calm, quiet competence instead of a lecture, the example doing the work instead of a correction. If Estra catches it instead, a flat, dry, single-sentence reaction from her would land disproportionately hard on him specifically, she almost never reacts, so the rare time she does, it means something, worth banking rather than forcing tonight.
+
+**Sable holds court.** Third-person retelling of something minor as if it were legend, a tap on her own shell before she reaches for the serving spoon. First real Splinter name-drop in front of the whole crew: "Splinter always said a full table means you're doing something right." Nobody's in a position to confirm he ever said that. Finny latches onto the story instantly, a legend needs an audience and he's never short of one. Oz, if he's paying attention, offers the quieter contrast: an actual legend who's never once had to say so out loud, no competition in it, just a fact sitting next to her bravado. Worth filing for later: Sable's the crew member most likely to get hurt showing off, which makes her Brass's frequent, exasperated patient, a seed for a future scene, not tonight's.
+
+**Judo and Sable, rookie solidarity.** Both hired the same session, both gunners, both performing a confidence they don't fully have yet, hers outward, his inward. A natural beat here: she's the one person aboard who'd actually dare him to prove the "three guns at once" claim, right at the table, long before it ever matters in a real fight.
+
+**Flurry's inspection round.** Mid-meal, like a diva checking her staff. Adores Tomlin instantly, the spices do it, practically in his lap. Standoffish with Judo, watching him sideways until he does something unscripted, a mishap or a kindness, that wins her over live. Mounts Sable's shell without asking, an unmistakable photo-op, Sable narrating it as though she chose this.
+
+**Where Orena and Aerion sit in this, open, not scripted.** Orena's the natural draw for questions about the crossing, the Astral Sea, her own search, hers to answer however she wants. Aerion's got Flurry doing her rounds right in front of him and a table full of people whose wages he tracks, a quiet opening for a line about the ship's actual finances if he wants one, and Judo's own washout from an institution he couldn't win back into sits close enough to Aerion's own complicated relationship with Windsong legitimacy to be worth noticing, never assumed.
+
+**Closing hook into tomorrow.** Something small and concrete lands late in the meal, Estra mentioning the derelict at the second gantry, or Finny already buzzing about the Float Market, whichever feels right live. Cut there rather than resolving it.
+
+## 3. The derelict *Quiet Verge*
 
 **The hull has a name now: the *Quiet Verge*,** a small independent trader that ran supply between Verge colonies, the same shape of route Hallow's Rest depends on. Registry scraped clean, no distress call, no bodies, no violence, just a ship that stopped being lived in mid-motion, was deliberately abandoned in good order, and drifted for months before fetching up in a lowside berth at Bral.
 
@@ -36,7 +61,7 @@
 
 **Tone note.** Played as wonder-adjacent dread, not horror. A competent crew solved a hard problem under impossible pressure and left clean; the megapede and the grell are both opportunistic squatters that moved in long after, not a sign anyone aboard came to harm. Nothing here should imply either creature was ever near the *Quiet Verge*'s actual crew. The megapede is this cold open's real teeth, big enough to end badly if the table charges it; the flumph's warning and the option to retreat and reseal the hold are both there on purpose.
 
-## 2b. Rounding off the Bral visit: the Float Market
+## 4. Rounding off the Bral visit: the Float Market
 
 Picks up the same session-4 visit rather than a fresh arrival, charter window and homecoming texture are already played. Two threads left on this stretch of dock: the Float Market, and the derelict. Run in whichever order the table reaches for.
 
@@ -76,7 +101,7 @@ Read aloud, light, a transition rather than a new scene: *Charter window's behin
 | Goggles of Night | 1,200 gp |
 | Bag of Holding | 3,000 gp (Ormund's own markup, no haggling, he knows exactly what it's worth to a cargo crew) |
 
-## 3. The lockbox thread continues: House Nightbreeze makes an offer
+## 5. The lockbox thread continues: House Nightbreeze makes an offer
 
 Not House Vellum this time, **House Nightbreeze**, Aerion's mother's house. They insure the whole Reach, which means they hold the claims data from the Reefside disaster, and their own numbers on what was supposed to be aboard that checkpoint don't fully reconcile. "Follow the money" is their whole stance on the Stilling (`factions/Houses & Holdings.md`): they'll back Vellum's denial exactly as long as it pays, and they're positioned to see the turn coming before anyone else at the table. Buying leverage against Vellum quietly, now, fits that exactly.
 
@@ -86,7 +111,7 @@ Not House Vellum this time, **House Nightbreeze**, Aerion's mother's house. They
 
 **The approach, worded carefully, wherever the table's naturally gathered (the Float Market or the dock near the derelict both work).** She never says "lockbox." The offer: **20,000 gp**, clean, no questions asked, for "anything recovered from the Reefside checkpoint that never made it onto any claim." This forces a real choice, not a third option to sell: **deny having anything** (a real lie, to a house that insures them and already half-suspects otherwise), or **admit something exists and decline the sale outright**. If the table somehow wants to actually sell, that's not blocked by the fiction, but it's a real point of no return, flag it live rather than letting it pass as a throwaway yes.
 
-## 4. Main content: Open Water, Open Season
+## 6. Main content: Open Water, Open Season
 
 **The posting, word for word, what the players actually read (`sessions/charter-window-board.html`, BR-1252):**
 > **Open Water, Open Season.** *Survey, a creeping current, plus standing bounty.* Pay 3,100 gp, Days ~20. **Requester** Aurel Delverane, the Farthing Station survey office. **Route** Bral to the Windward Edge, the standing surf. **Details** The Windward Edge's standing surf has crept inward, and a once-reliable stretch of chart has gone unreadable. Delverane wants to know whether the old charts can still be trusted. RATING: OPEN, CLIENT OF RECORD (Delverane, Farthing Station).
@@ -136,32 +161,22 @@ Roll 1d20. Mostly risk or reward, pure wonder kept rare (just entries 1 and 18).
 | 19 | **A thin place to the Material Plane.** DC 15 Arcana or Perception to recognize it's stable enough to risk. Stepping through lands them briefly in Waterdeep's **Yawning Portal** tavern; **Durnan** serves a drink and answers one real question, honestly, for each person who steps through. A genuinely rare, high-value wonder beat | A second thin place nearby, unstable. DC 15 to navigate it safely, fail and they're deposited somewhere else entirely, unknown until it happens |
 | 20 | **Ship combat, the real climax: a void scavver assaults the hull directly**, run entirely through ship combat rules (CR 11, full stats in the companion), the session's hardest fight | **Both the void scavver and Longscar at once**, the apex predator returning to water it used to patrol, Longscar either fleeing it or opportunistically joining the kill |
 
-## 5. Social beats
+## 7. Aerion's spotlight thread
 
-**One joint scene rather than four separate vignettes: a full-crew dinner, Tomlin's first real "proving" meal.** Now that Tomlin, Judo, and Sable are each fully written up (`npcs/Tomlin Underhill.md`, `npcs/Judo.md`, `npcs/Sable.md`), this is where all three, plus Flurry, actually land at once:
+**Separate and private, parallel to Orena's public one, woven through the whole session rather than one scene.** Four small beats, not one letter-drop, each a few lines, scattered wherever they fit the session's actual flow, building toward the real offer at the end. None need a roll; they're texture that pays off.
 
-- **Tomlin cooks for real**, the bag of holding's spice stock finally shown off properly. **Brass's torch-passing moment** happens here, hers to have, not forced, watching someone genuinely good take the job she loved being bad at, still possessive of the galley doorway even sitting it out.
-- **Judo** pulls a minor stunt at his gunnery post right before or after the meal, the established overcorrect-into-caution weakness or the sharp-eyed strength surfacing, GM's call which one the moment calls for.
-- **Sable** name-drops Splinter to anyone who'll listen, narrating her own exploits mid-sentence, tapping her shell before she does anything remotely brave.
-- **Finny** works the table for gossip from all three newest hires at once, his established running behavior.
-- **Flurry does her own inspection round**, sizing up the three newcomers the way a diva sizes up anyone new to her set. She adores Tomlin instantly (the spices do it), is standoffish and suspicious of Judo until he does something that wins her over, and straight-up mounts Sable's shell for an unmistakable photo op. Scriptable since she's an NPC/pet, not a PC, and this is Priscilla's real, direct Flurry interaction this session, reacting to and managing the antics rather than narrating them herself.
+1. **During the Float Market (&sect;4).** A courier catches up to Aerion with a small package, fabric swatches and a finished piece from Perrin, plus a note: interest is growing faster than Perrin expected, people keep asking where the work came from. Tucked in with it, a real prop: this cycle's official program, `sessions/handouts/dog-show-program.pdf`, the Show's actually close, close enough to have a printed schedule.
+2. **Aboard ship, any downtime or bastion turn (&sect;10).** His own Storehouse turn, ordinarily ordinary trade goods, is visibly eaten up processing a costume order backlog instead, more orders than he's used to, a real logistics problem hiding in plain sight if anyone looks at his ledger too closely.
+3. **Mid-transit, during Open Water, Open Season (&sect;6) or the general table (&sect;9).** A fast courier skiff catches up to the *Night Fury* specifically to reach him, not the ship's business, delivering another commission request. Worth a beat of someone (Finny, inevitably) noticing the pattern and teasing him about it without yet knowing what it actually is.
+4. **The real offer, landing with more weight for the buildup.** A letter or messenger reaches him personally, not the crew, late in the session: **Perrin's referral has reached Lord Wendell Carraway's household**, impressed enough by Flurry's own outfits to want their own commissions, and Carraway's people have gone further, vouching for Aerion up the chain to the Dog Show's organizing committee itself. **The offer: on-site costume designer for the whole show**, taking custom commissions during the event. It doesn't disqualify him and Flurry from competing, but it means real logistics, actually being present, bringing help if he wants to do both at once. Who he'd bring stays genuinely open, Finny's an obvious candidate given his own side-hustle habit, but nothing's decided. A real decision, parallel in weight to Orena's honest-vs-softened survey call: grow the secret business into something real and exposed, or keep it small and quiet. Also the clean, organic way Branch A of the ending hook (&sect;11) gets primed, if the table runs with this, the Dog Show's already live in the room by the time Estra's interrupted.
 
-One scene, every open question from the three new hires' interviews answered in motion rather than exposited.
-
-**Aerion's own spotlight, separate and private, parallel to Orena's public one, woven through the whole session rather than one scene.** Four small beats, not one letter-drop, each a few lines, scattered wherever they fit the session's actual flow, building toward the real offer at the end. None need a roll; they're texture that pays off.
-
-1. **During the Float Market (&sect;2b).** A courier catches up to Aerion with a small package, fabric swatches and a finished piece from Perrin, plus a note: interest is growing faster than Perrin expected, people keep asking where the work came from. Tucked in with it, a real prop: this cycle's official program, `sessions/handouts/dog-show-program.pdf`, the Show's actually close, close enough to have a printed schedule.
-2. **Aboard ship, any downtime or bastion turn (&sect;8).** His own Storehouse turn, ordinarily ordinary trade goods, is visibly eaten up processing a costume order backlog instead, more orders than he's used to, a real logistics problem hiding in plain sight if anyone looks at his ledger too closely.
-3. **Mid-transit, during Open Water, Open Season (&sect;4) or the general table (&sect;7).** A fast courier skiff catches up to the *Night Fury* specifically to reach him, not the ship's business, delivering another commission request. Worth a beat of someone (Finny, inevitably) noticing the pattern and teasing him about it without yet knowing what it actually is.
-4. **The real offer, landing with more weight for the buildup.** A letter or messenger reaches him personally, not the crew, late in the session: **Perrin's referral has reached Lord Wendell Carraway's household**, impressed enough by Flurry's own outfits to want their own commissions, and Carraway's people have gone further, vouching for Aerion up the chain to the Dog Show's organizing committee itself. **The offer: on-site costume designer for the whole show**, taking custom commissions during the event. It doesn't disqualify him and Flurry from competing, but it means real logistics, actually being present, bringing help if he wants to do both at once. Who he'd bring stays genuinely open, Finny's an obvious candidate given his own side-hustle habit, but nothing's decided. A real decision, parallel in weight to Orena's honest-vs-softened survey call: grow the secret business into something real and exposed, or keep it small and quiet. Also the clean, organic way Branch A of the ending hook (&sect;9) gets primed, if the table runs with this, the Dog Show's already live in the room by the time Estra's interrupted.
-
-## 6. Port color: the Afterburners
+## 8. Port color: the Afterburners
 
 **Reveal, not a scene the PCs need to drive.** Boy Boy McGee's crew is down to BoyBoy, Cal ("Vertical"), and Ken ("Kraken") since Gary left for baking. The three declined hiring candidates, Six (tabaxi), Auguste (fire genasi), Rattle (kenku), crossed paths with them after session 4's hiring round and joined up. Six strong now, crewing a small Scout-class skiff they've named the ***Afterburn***, running under a new name: **the Afterburners**. This finally gives BoyBoy the ship of his own he's always wanted, the engine of his whole established want (`sessions/Episode - BoyBoy McGee.md`).
 
 **They won't appear on the Manifest Board until they complete a first real contract**, same as the *Night Fury*'s own start. For now this lands as color: a sighting in port, a rumor from Finny or Sprat, or a direct, friendly-rival run-in if the table's near Lowside. Play it warm, not hostile, the reluctant-respect dynamic holds.
 
-## 7. Transit encounter table, d20
+## 9. Transit encounter table, d20
 
 Rebuilt fresh. Session 4's table ran too many pure "nothing happens" entries, this one leans harder into real risk and real reward, only one true nothing-entry on the whole table.
 
@@ -184,15 +199,15 @@ Rebuilt fresh. Session 4's table ran too many pure "nothing happens" entries, th
 | 15 | Two vast, ancient combatants, still fighting a war centuries dead, long past noticing the ship | No check, pure awe |
 | 16 | A Githyanki patrol asserting jurisdiction they may or may not have | DC 13 History or Insight to know whether to take it seriously; otherwise a few hours lost to paperwork |
 | 17 | A wound in the Astral itself, old and closed, something enormous died here once | DC 15 Religion or Arcana: a name or a date, nothing more |
-| 18 | A small, scrappy six-person crew flying something called the *Afterburn* passes at a distance, a friendly hail | Ties directly to &sect;6 above, play it warm |
+| 18 | A small, scrappy six-person crew flying something called the *Afterburn* passes at a distance, a friendly hail | Ties directly to &sect;8 above, play it warm |
 | 19 | Nothing at all for days. Play the crew scene. | None, space for the table, the one true nothing-entry this time |
 | 20 | **A Night Scavver, hunting near a dead hulk field** | Real danger, full stats already built in the session 4 companion's Reference section |
 
-## 8. Bastion actions / downtime
+## 10. Bastion actions / downtime
 
 Shop's ready, no rebuild needed, `sessions/danforth-yard-shop.html` reflects the full Ram rework and the new attack-roll rules from this week's reconciliation pass. One hire slot remains open if the table wants to fill it.
 
-## 9. Ending: Estra's frustration, then the interruption
+## 11. Ending: Estra's frustration, then the interruption
 
 **The setup.** Estra, usually buttoned-up and dry, finally says something out loud she's never said to the crew before: real frustration at always taking the smaller jobs, and underneath it, for the first time, a glimpse of her actual ambition, rebuilding a real fleet, not just surviving at 348th (`npcs/Captain Estra Vane.md`'s "Long Game" section, her fifteen-year held hope that this crew might be the missing half the Compact never had). Played rare and real, not a rant, the kind of thing that only comes out once something's finally cracked it loose.
 
@@ -212,8 +227,8 @@ Either branch lands the same shape: Estra's rare, real moment, cut off by an opp
 - The Afterburners' first real contract, whenever that lands.
 - Flurry's modeling-diva arc, a natural lead-in to the Dog Show if it hasn't fired yet.
 - Aurel Delverane, once real survey trust is built, may eventually want the crew investigating the Stilling itself, not due this session, banked in `npcs/Aurel Delverane.md`.
-- **The *Quiet Verge*'s "did they make it" question**, left genuinely open in &sect;2, never forced, a real hook to pull on whenever the table's ready.
-- **Whether Aerynna knew about or sent the Nightbreeze offer**, deliberately unresolved in &sect;3, real personal stakes given she's the swing vote on Aerion's own Fifth House bid.
-- **Virelai's actual motive**, archivist of dying skies or collector toward some purpose of her own, left open on purpose in &sect;2b.
+- **The *Quiet Verge*'s "did they make it" question**, left genuinely open in &sect;3, never forced, a real hook to pull on whenever the table's ready.
+- **Whether Aerynna knew about or sent the Nightbreeze offer**, deliberately unresolved in &sect;5, real personal stakes given she's the swing vote on Aerion's own Fifth House bid.
+- **Virelai's actual motive**, archivist of dying skies or collector toward some purpose of her own, left open on purpose in &sect;4.
 - **The flat orbs as a trackable Stilling clue**: worth deciding later whether one ever correlates with somewhere the crew's actually been.
 - **Longscar**, if the table doesn't resolve him this session, stays a live, named threat (or a live, named ally, if they drove him off gently) at the Windward Edge for a future return.
