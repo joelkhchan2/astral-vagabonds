@@ -7,14 +7,14 @@
 ## Player Characters
 
 ### Aerion Kyoya Windsong (Priscilla) -- Bosun / Quartermaster / Cargo Handler
-**Race/Class:** Astral Elf, Samurai Fighter, level 5. Age 132. Merchant background. Neutral Good.
+**Race/Class:** Astral Elf, Samurai Fighter, level 6. Age 132. Merchant background. Neutral Good.
 **Role:** Runs the crew and the ship's day-to-day, oversees inventory and cargo, and keeps the books. Knows what is in every crate, who owes what, and where the money is going. (Full sheet: `npcs/Aerion Windsong.md`.)
 **Hook:** Overlooked youngest son of the Windsong trading house. His family barely notices him and is happy to have him off-world; he is quietly fine with that, because it lets him work unwatched. Joined this crew five years ago to make his own fortune. His real, secret goal is to amass enough to **buy out and take over his father's company** on his own terms.
 **Flurry:** A young silver dragon he found as an egg on the treasure hunt ~4.5 years ago and secretly adores. She is a baby, does not fight, and should never see combat.
 **Spotlight moments:** Port negotiations, inventory and money crises, quiet competence the crew relies on, the slow game against his family.
 
 ### Orena (Gabrielle) -- Navigator / Helmsman-in-training / Scout
-**Race/Class:** Water Genasi, Bard/Paladin, level 5. Around 30. From **Leilon** on the Sword Coast (Material Plane).
+**Race/Class:** Water Genasi, Bard/Paladin, level 6. Around 30. From **Leilon** on the Sword Coast (Material Plane).
 **Role:** Plots courses and reads the currents, keeps watch as scout, and is training on the helm so the ship always has a second pilot.
 **Hook -- the lost crew:** Back home she ran a small guild of six childhood friends, the **Wayfinder Knot**. They went to sea chasing the **Stillwater Vocalise**, an old sailors' legend, and found it mid-event: a dying kindori's death-song tore open a thin place between their sea and the Astral and pulled the ship through. Orena, at the rail, was thrown down a different current and came out alone; she believes her genasi blood is why, though she can't prove it. She was the navigator; they were lost on her watch. She joined this crew ~6 months ago, shortly after, when Aerion re-met her and got her the job. GM-only truth (four of the five survived and are thriving elsewhere): `npcs/The Wayfinder Knot.md`.
 **Downtime:** Mapping where the Vocalise, other artifacts of the tales she has heard, and her lost crew might be.
