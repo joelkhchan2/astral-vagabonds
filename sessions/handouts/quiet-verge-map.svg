@@ -10,12 +10,8 @@
       <stop offset="100%" stop-color="#6e7781"/>
     </linearGradient>
     <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e9ecef"/>
-      <stop offset="100%" stop-color="#cfd6dc"/>
-    </linearGradient>
-    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0f1a"/>
-      <stop offset="100%" stop-color="#161c2c"/>
+      <stop offset="0%" stop-color="#eef1f3"/>
+      <stop offset="100%" stop-color="#d4dadf"/>
     </linearGradient>
     <pattern id="stars" width="60" height="60" patternUnits="userSpaceOnUse">
       <circle cx="8" cy="12" r="1" fill="#cdd6e8" opacity="0.7"/>
@@ -24,13 +20,9 @@
       <circle cx="20" cy="50" r="1" fill="#cdd6e8" opacity="0.4"/>
       <circle cx="55" cy="30" r="0.9" fill="#cdd6e8" opacity="0.5"/>
     </pattern>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
-    </filter>
   </defs>
 
-  <!-- background: void outside, parchment border card -->
-  <rect x="0" y="0" width="1200" height="860" fill="url(#space)"/>
+  <rect x="0" y="0" width="1200" height="860" fill="#0b0f1a"/>
   <rect x="0" y="0" width="1200" height="860" fill="url(#stars)"/>
 
   <rect x="24" y="24" width="1152" height="812" rx="10" fill="url(#parchment)" stroke="#4a3f2a" stroke-width="4"/>
@@ -49,12 +41,12 @@
     <rect x="760" y="82" width="22" height="8" fill="#6e7781" stroke="#2a1d10"/>
     <text x="790" y="90">Hull / bulkhead</text>
 
-    <rect x="760" y="100" width="22" height="6" fill="#e9ecef" stroke="#2a1d10"/>
+    <rect x="760" y="100" width="20" height="6" fill="#eef1f3" stroke="none"/>
     <text x="790" y="107">Open doorway</text>
 
     <g transform="translate(760,116)">
-      <rect x="0" y="0" width="22" height="8" fill="#e9ecef" stroke="#2a1d10"/>
-      <path d="M11 0 l-4 -6 l8 0 Z" fill="#b5321f"/>
+      <rect x="0" y="0" width="20" height="8" fill="#eef1f3" stroke="#2a1d10" stroke-width="1"/>
+      <path d="M10 0 l-4 -6 l8 0 Z" fill="#b5321f"/>
     </g>
     <text x="790" y="124">Locked door</text>
   </g>
@@ -68,119 +60,99 @@
 
   <!-- scale -->
   <g transform="translate(940,792)">
-    <rect x="0" y="0" width="30" height="8" fill="#3a2f1e"/>
-    <rect x="30" y="0" width="30" height="8" fill="#f3e6c8" stroke="#3a2f1e"/>
+    <rect x="0" y="0" width="20" height="8" fill="#3a2f1e"/>
+    <rect x="20" y="0" width="20" height="8" fill="#f3e6c8" stroke="#3a2f1e"/>
+    <rect x="40" y="0" width="20" height="8" fill="#3a2f1e"/>
     <text x="0" y="-6" font-size="13" fill="#3a2f1e">1 square = 5 ft</text>
   </g>
 
-  <!-- ========== SHIP ========== -->
-  <g filter="url(#soft)">
-    <!-- hull outline, bow to the right -->
-    <path d="M160,430
-             C160,330 200,230 330,210
-             L760,195
-             C 900,195 980,260 1040,430
-             C980,600 900,665 760,665
-             L330,650
-             C200,630 160,530 160,430 Z"
-          fill="url(#hull)" stroke="#2a1d10" stroke-width="5"/>
-  </g>
+  <!-- ========== SHIP, fully grid-snapped, 20px = 5 ft ========== -->
 
-  <!-- 5-ft grid inside hull (clipped) -->
+  <!-- hull, straight rectangle -->
+  <rect x="160" y="200" width="860" height="460" rx="4" fill="url(#hull)" stroke="#2a1d10" stroke-width="5"/>
+
+  <!-- 5-ft grid across the whole hull interior -->
   <clipPath id="hullClip">
-    <path d="M160,430
-             C160,330 200,230 330,210
-             L760,195
-             C 900,195 980,260 1040,430
-             C980,600 900,665 760,665
-             L330,650
-             C200,630 160,530 160,430 Z"/>
+    <rect x="160" y="200" width="860" height="460"/>
   </clipPath>
-  <g clip-path="url(#hullClip)" opacity="0.4" stroke="#2a1d10" stroke-width="1.2">
-    <g>
-      <!-- vertical lines every 20px -->
-      <path d="M180,195 V665 M220,195 V665 M260,195 V665 M300,195 V665 M340,195 V665 M380,195 V665 M420,195 V665 M460,195 V665 M500,195 V665 M540,195 V665 M580,195 V665 M620,195 V665 M660,195 V665 M700,195 V665 M740,195 V665 M780,195 V665 M820,195 V665 M860,195 V665 M900,195 V665 M940,195 V665 M980,195 V665 M1020,195 V665"/>
-      <path d="M160,220 H1040 M160,260 H1040 M160,300 H1040 M160,340 H1040 M160,380 H1040 M160,420 H1040 M160,460 H1040 M160,500 H1040 M160,540 H1040 M160,580 H1040 M160,620 H1040"/>
-    </g>
+  <g clip-path="url(#hullClip)" opacity="0.4" stroke="#2a1d10" stroke-width="1">
+    <path d="M180,200 V660 M200,200 V660 M220,200 V660 M240,200 V660 M260,200 V660 M280,200 V660 M300,200 V660 M320,200 V660 M340,200 V660 M360,200 V660 M380,200 V660 M400,200 V660 M420,200 V660 M440,200 V660 M460,200 V660 M480,200 V660 M500,200 V660 M520,200 V660 M540,200 V660 M560,200 V660 M580,200 V660 M600,200 V660 M620,200 V660 M640,200 V660 M660,200 V660 M680,200 V660 M700,200 V660 M720,200 V660 M740,200 V660 M760,200 V660 M780,200 V660 M800,200 V660 M820,200 V660 M840,200 V660 M860,200 V660 M880,200 V660 M900,200 V660 M920,200 V660 M940,200 V660 M960,200 V660 M980,200 V660 M1000,200 V660"/>
+    <path d="M160,220 H1020 M160,240 H1020 M160,260 H1020 M160,280 H1020 M160,300 H1020 M160,320 H1020 M160,340 H1020 M160,360 H1020 M160,380 H1020 M160,400 H1020 M160,420 H1020 M160,440 H1020 M160,460 H1020 M160,480 H1020 M160,500 H1020 M160,520 H1020 M160,540 H1020 M160,560 H1020 M160,580 H1020 M160,600 H1020 M160,620 H1020 M160,640 H1020"/>
   </g>
 
-  <!-- central corridor spine -->
-  <rect x="470" y="400" width="420" height="60" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+  <!-- central corridor, connects everything in one straight run -->
+  <rect x="280" y="420" width="560" height="40" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
 
-  <!-- ROOM 1: Airlock / entry, stern, with hull breach to space -->
+  <!-- ROOM 1: Airlock, west end, hull breach is the entry point -->
   <g>
-    <rect x="190" y="395" width="110" height="70" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
-    <!-- door gap to corridor -->
-    <rect x="296" y="412" width="10" height="36" fill="url(#room)"/>
-    <!-- outer hull door, player's actual entry point -->
-    <rect x="178" y="412" width="16" height="36" fill="#1a2233" stroke="#2a1d10" stroke-width="2"/>
-    <circle cx="220" cy="412" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
-    <text x="220" y="417" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">1</text>
-    <text x="245" y="447" font-size="12" fill="#2a1d10">Airlock</text>
+    <rect x="180" y="380" width="100" height="120" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+    <!-- hull breach / entry door, west wall -->
+    <rect x="160" y="420" width="20" height="40" fill="#eef1f3"/>
+    <!-- doorway into corridor, east wall, open -->
+    <rect x="270" y="420" width="20" height="40" fill="#eef1f3"/>
+    <circle cx="220" cy="410" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
+    <text x="220" y="415" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">1</text>
+    <text x="220" y="470" font-size="12" fill="#2a1d10" text-anchor="middle">Airlock</text>
   </g>
 
-  <!-- corridor connectors (simple hallway shapes) -->
-  <rect x="300" y="412" width="40" height="36" fill="url(#room)" stroke="#2a1d10" stroke-width="2"/>
-
-  <!-- ROOM 2: Galley -->
+  <!-- ROOM 2: Galley, shares south wall with corridor -->
   <g>
-    <rect x="340" y="260" width="150" height="110" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
-    <rect x="405" y="355" width="30" height="15" fill="url(#room)"/>
-    <circle cx="375" cy="290" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
-    <text x="375" y="295" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">2</text>
-    <text x="400" y="340" font-size="12" fill="#2a1d10">Galley</text>
+    <rect x="300" y="240" width="160" height="180" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+    <rect x="360" y="416" width="40" height="8" fill="#eef1f3"/>
+    <circle cx="335" cy="270" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
+    <text x="335" y="275" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">2</text>
+    <text x="380" y="330" font-size="12" fill="#2a1d10" text-anchor="middle">Galley</text>
   </g>
 
-  <!-- ROOM 3: Crew quarters -->
+  <!-- ROOM 3: Crew Quarters, shares south wall with corridor, east wall with Captain's Cabin -->
   <g>
-    <rect x="500" y="230" width="190" height="130" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
-    <rect x="585" y="355" width="30" height="16" fill="url(#room)"/>
-    <circle cx="535" cy="262" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
-    <text x="535" y="267" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">3</text>
-    <text x="560" y="267" font-size="12" fill="#2a1d10">Crew Quarters</text>
+    <rect x="480" y="240" width="200" height="180" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+    <rect x="560" y="416" width="40" height="8" fill="#eef1f3"/>
+    <circle cx="515" cy="270" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
+    <text x="515" y="275" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">3</text>
+    <text x="580" y="335" font-size="12" fill="#2a1d10" text-anchor="middle">Crew Quarters</text>
   </g>
 
-  <!-- ROOM 7: Captain's cabin, locked, off crew quarters -->
+  <!-- ROOM 7: Captain's Cabin, locked, only reachable through Crew Quarters -->
   <g>
-    <rect x="700" y="230" width="110" height="90" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
-    <!-- locked door between crew quarters and captain's cabin -->
-    <rect x="686" y="258" width="16" height="30" fill="#e9ecef" stroke="#2a1d10" stroke-width="2"/>
-    <path d="M694 258 l-6 -9 l12 0 Z" fill="#b5321f"/>
-    <circle cx="735" cy="258" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
-    <text x="735" y="263" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">7</text>
-    <text x="755" y="263" font-size="11" fill="#2a1d10">Captain's</text>
-    <text x="755" y="277" font-size="11" fill="#2a1d10">Cabin</text>
+    <rect x="680" y="240" width="120" height="120" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+    <rect x="676" y="280" width="8" height="30" fill="#eef1f3"/>
+    <path d="M680 280 l-6 -9 l12 0 Z" fill="#b5321f"/>
+    <circle cx="715" cy="270" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
+    <text x="715" y="275" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">7</text>
+    <text x="740" y="330" font-size="11" fill="#2a1d10" text-anchor="middle">Captain's</text>
+    <text x="740" y="344" font-size="11" fill="#2a1d10" text-anchor="middle">Cabin</text>
   </g>
 
-  <!-- ROOM 4: Cargo hold, large, aft-lower -->
+  <!-- ROOM 4: Cargo Hold, shares north wall with corridor, the largest space -->
   <g>
-    <rect x="300" y="490" width="300" height="140" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
-    <rect x="440" y="483" width="30" height="14" fill="url(#room)"/>
-    <circle cx="340" cy="525" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
-    <text x="340" y="530" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">4</text>
-    <text x="365" y="530" font-size="12" fill="#2a1d10">Cargo Hold</text>
+    <rect x="300" y="460" width="280" height="180" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+    <rect x="400" y="416" width="40" height="8" fill="#eef1f3"/>
+    <circle cx="335" cy="490" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
+    <text x="335" y="495" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">4</text>
+    <text x="440" y="555" font-size="12" fill="#2a1d10" text-anchor="middle">Cargo Hold</text>
   </g>
 
-  <!-- ROOM 5: Engineering -->
+  <!-- ROOM 5: Engineering, shares north wall with corridor -->
   <g>
-    <rect x="620" y="490" width="150" height="130" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
-    <rect x="660" y="483" width="30" height="14" fill="url(#room)"/>
-    <circle cx="655" cy="525" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
-    <text x="655" y="530" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">5</text>
-    <text x="680" y="530" font-size="12" fill="#2a1d10">Engineering</text>
+    <rect x="600" y="460" width="180" height="180" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+    <rect x="660" y="416" width="40" height="8" fill="#eef1f3"/>
+    <circle cx="635" cy="490" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
+    <text x="635" y="495" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">5</text>
+    <text x="690" y="555" font-size="12" fill="#2a1d10" text-anchor="middle">Engineering</text>
   </g>
 
-  <!-- ROOM 6: Bridge, bow -->
+  <!-- ROOM 6: Bridge, bow end, shares west wall with corridor -->
   <g>
-    <rect x="800" y="330" width="190" height="130" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
-    <rect x="800" y="400" width="14" height="30" fill="url(#room)"/>
-    <circle cx="835" cy="365" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
-    <text x="835" y="370" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">6</text>
-    <text x="860" y="370" font-size="12" fill="#2a1d10">Bridge</text>
-    <!-- forward viewport -->
-    <path d="M960,350 Q1000,395 960,440" fill="none" stroke="#1a2233" stroke-width="4"/>
+    <rect x="840" y="340" width="160" height="200" fill="url(#room)" stroke="#2a1d10" stroke-width="3"/>
+    <rect x="836" y="420" width="8" height="40" fill="#eef1f3"/>
+    <circle cx="875" cy="370" r="15" fill="#b5321f" stroke="#2a1d10" stroke-width="1.5"/>
+    <text x="875" y="375" font-size="15" fill="#f3e6c8" text-anchor="middle" font-weight="bold">6</text>
+    <text x="920" y="440" font-size="12" fill="#2a1d10" text-anchor="middle">Bridge</text>
+    <!-- forward viewport, straight chamfer -->
+    <path d="M980,340 L1000,360 L1000,520 L980,540" fill="none" stroke="#2a1d10" stroke-width="2"/>
   </g>
 
   <!-- footer note, player-facing only, no secrets -->
-  <text x="64" y="810" font-size="12" fill="#5a4c30" font-style="italic">Rooms explored in whatever order the crew chooses. Unmarked spaces are corridor and connecting hatchway.</text>
+  <text x="64" y="810" font-size="12" fill="#5a4c30" font-style="italic">Rooms explored in whatever order the crew chooses. The center passage connects every space directly.</text>
 </svg>
