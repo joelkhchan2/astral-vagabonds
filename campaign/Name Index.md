@@ -70,7 +70,7 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 |---|---|---|
 | Virelai | `sessions/Session 5 Prep.md` | Djinni running the Float Market's weather-orb stall. |
 | Ormund & Pell Vey | `sessions/Session 5 Prep.md` | Brother-sister plasmoid duo, Float Market general shop. |
-| Longscar | `sessions/Session 5 Prep.md` | Night scavver, rival salvager at the Windward Edge, problem not villain. |
+| Longscar | `sessions/Session 5 Prep.md` | Void scavver (CR 11, corrected), rival salvager at the Windward Edge, problem not villain. |
 | Captain Thalassa | `sessions/Session 5 Prep.md` | Triton raider captain, driven to piracy by the Stilling's damage to her waters. |
 | Dowager Ophelia Rask | `sessions/Episode - The International Space Dog Show.md` | Astral elf, founded the Dog Show 180 years ago. |
 | Plume | `sessions/Episode - The International Space Dog Show.md` | Rival smoke dragon wyrmling, bigger and more diva than Flurry. |
