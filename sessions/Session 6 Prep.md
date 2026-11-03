@@ -27,6 +27,10 @@ Short, warm, and it's the actual start of the voyage, not a recap. First morning
 Full job terms, the deliverable breakdown, and the 40-entry Windward Edge encounter table: `sessions/Session 5 Prep.md` &sect;6. Run it as written. Suggested sequencing for this session, not a forced order, roll honestly where it doesn't matter and steer where it does:
 
 1. **One or two lighter table entries early in the transit**, pure color or a small choice, to let the voyage breathe before anything costs something. Good candidates already built: the ordinary kindori pod (#1), the Weatheralls' *Kettle* passing at a distance (#11), or a dohwar trader (#15).
+
+**Two small, low-stakes plants, somewhere in this early stretch (`npcs/The Wayfinder Knot.md`, GM-only).** None of this has landed at the table yet, and it's due before the real confirmation lands in session 7, so it needs to start now, ambient, not flagged as important.
+- **The shanty.** At some unguarded moment, coiling rope, a quiet watch, Orena hums a few bars of an old work-song and can't quite place where she knows it from. No reaction needed from anyone, just a line of color.
+- **The knot.** She ties a specific locking hitch (hers to name live, a quick-release bend) without thinking, the way she always does. First beat only: someone (Tack, a crewmate, anyone handy) asks where she picked it up, she genuinely doesn't know. Don't let this pay off yet, it's a plant, not the reveal.
 2. **Flurry's spotlight beat** (below) as the ship actually nears the Edge itself, not from a table roll, a scripted beat marking the location's arrival.
 3. **Sable's spotlight beat** (below) during a quiet leg or an Aerion/Orena Bastion turn, whichever the table's pace actually allows.
 4. **Longscar and the stalled kindori pod** (#3/#4) if the session has room, a real non-lethal-vs-bounty choice already built, good mid-session texture before the climax.
@@ -73,3 +77,4 @@ Whether the session closes back at Bral/Farthing Station to collect the 3,100 gp
 - Whether the *Velvet Choir* rumor (the failed first-mate proposal) ever gets picked up or deliberately dropped.
 - The *Quiet Verge*'s "did they make it" question, still genuinely open.
 - Splinter's real nature, left exactly as unconfirmed as it was before this session, on purpose.
+- **Session 7, planned: back at Bral, the Wayfinder Knot thread lands for real.** The shanty and the knot planted this session are the setup; next session Orena actively digs (Library Research, DC 18-22) and gets real, table-knowable confirmation that her old crew is alive. Don't let this session's two plants get explained or paid off early.
