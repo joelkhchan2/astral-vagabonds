@@ -12,6 +12,7 @@ The 2024 Bastion system, adapted for *Astral Vagabonds*. **In this campaign the 
 
 - **You gain a bastion at level 5.** Work has been happening "off-screen" during early adventuring, so it's ready when the PC hits 5. Here, that's the ship they bought at Session Zero.
 - **Bastion turns.** RAW is one every 7 days of in-game time. **This campaign house-rules it to one bastion turn per voyage leg** (`Rules & Systems.md` §6), so a transit is a single procedure regardless of length. On a bastion turn a PC issues **orders** to their special facilities, or issues **Maintain** to the whole bastion.
+- **Astral Sea events run alongside bastion turns, not instead of them (locked session 5).** A leg's written transit event (the encounter or beat prepped for that stretch of travel) happens regardless of what either PC does with their own bastion turn that leg. They were played as a straight either/or at the table once, and it didn't hold: given the choice, the table will always take the guaranteed payout over a complication with no payout, so the events never actually come up. Going forward, run the leg's event as scripted, then let each PC take their own bastion turn on top of it.
 - A bastion has **basic facilities** (flavor rooms) and **special facilities** (rooms with mechanical benefits).
 - **Facility space** caps a room's size:
 

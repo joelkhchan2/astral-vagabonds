@@ -29,7 +29,7 @@ Old enough that "forty years ago" barely registers to her. Doesn't care who wins
 
 Neither Aerendil nor Aerastra has been built out past the name yet, available whenever a scene calls for them.
 
-**Prudence Hale**, senior underwriter: already played at the table, not family. Full tics in `sessions/Session 5 Prep.md`. Answers to Veshara, not to Aerynna.
+**Prudence Hale**, senior underwriter, recurring as of session 5: `npcs/Prudence Hale.md`. Not Nightbreeze by blood, married into it once across her four marriages (all four ended in divorce), which makes her a known, wary quantity to the Windsongs by marriage rather than a stranger. Answers to Veshara, not to Aerynna.
 
 ## One more of the house
 

@@ -57,6 +57,8 @@ Started with 50,000 gp. After the ship and outfit, about **14,350 gp** remained 
 
 **Session 4, played:** account stood at roughly 17,281 gp going in. After the passenger fee (900 gp, Wyndham Aldane), assorted small business income and errands, and the three ship upgrades below (10,400 gp total), the account reconciles to roughly **4,000 gp operating, plus the standing 10,000 gp reserve fund**, about 14,000 gp total. The table's own in-session math was loose; treat this as a reconciled estimate, not an exact figure, and true it up at the table if it matters.
 
+**Session 5, played:** Aerion invested **400 gp** in a standing stall at the Float Market for his costume business, upgrading the Storehouse's Trade-order roll to **1d20+5 for price, 1d20+5 for quantity sold, multiplied together**, rolled each visit back to the Rock of Bral (or on the road, once that's established). Declined Prudence Hale's 20,000 gp offer for House Vellum intel, reported straight to Estra. Cleared the derelict *Quiet Verge*: 300 gp of golden goblets, a **Cloak of Many Fashions** and an **Ensorcelled Missive** (both to Aerion), a **Mace of Terror** and a **Lantern of Revealing** (unclaimed, ship stores), plus an unclaimed set of shepherd's chainmail (+1 Animal Handling, disadvantage on Stealth, kept in inventory, unworn). Orena charted a new route to the Windward Edge, sellable as a navigational chart worth **1,100 gp**.
+
 ## Track Record
 
 **What the crew has actually earned, for future job qualifiers to reference** (`rules/Contracts.md` §Qualifiers, the Experience gate). Keep this current; a job wanting a crew who's done a specific thing before should cite something on this list by name rather than inventing generic toughness.
@@ -80,7 +82,7 @@ Aerion's previous ship blew up when the cook took his nightly smoke beside pre-l
 ### Lower deck (below the gravity plane, gravity inverted)
 - **Crew quarters:** berths for the ten, close.
 - **Captain's quarters:** Estra's, sparse.
-- **Cargo holds:** inventory tagged and tracked because Aerion insists. One bay is now the **Storehouse**, formally, his first bastion facility, and where a certain warded lockbox currently lives.
+- **Cargo holds:** inventory tagged and tracked because Aerion insists. One bay is now the **Storehouse**, formally, his first bastion facility. Estra's locked chest left this bay as of session 5, entrusted to Vaelren Windsong at the Rock of Bral while the ship heads into House Vellum territory (`npcs/Vaelren Windsong.md`).
 - **Engineering:** Tack's workshop, organized chaos, every component named.
 - **Sick bay / galley stores:** Brass's, doubling as her medical cabinet, which she restocks out of her own wages at Bral.
 

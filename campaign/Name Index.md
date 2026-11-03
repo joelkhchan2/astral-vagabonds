@@ -20,7 +20,9 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | Sable | `npcs/Sable.md` | Deckhand-gunner, session 4 hire. Tortle, mentored by Splinter (a ratkin). |
 | Flurry | `npcs/Flurry.md` | Aerion's baby silver dragon. Non-combat; see `rules/Stat Blocks.md` for her scoped Dog Show sheet. |
 | Aurel Delverane | `npcs/Aurel Delverane.md` | House Delverane, Elemental Plane of Water waystation, Stilling investigation. |
-| Wyndham Aldane | `npcs/Wyndham Aldane.md` | Passenger, session 4. |
+| Wyndham Aldane | `npcs/Wyndham Aldane.md` | Passenger, session 4, boarded again on-screen session 5. |
+| Vaelren Windsong | `npcs/Vaelren Windsong.md` | Aerion's uncle, broke from House Windsong, Fifth House bid, minds Estra's lockbox. |
+| Prudence Hale | `npcs/Prudence Hale.md` | House Nightbreeze senior underwriter, recurring. Offered 20,000 gp for Vellum intel. |
 | The Wayfinder Knot | `npcs/The Wayfinder Knot.md` | **GM-only truth.** Orena's lost guild; alive, thriving, on their own crew. |
 
 ## Factions and houses
@@ -66,7 +68,6 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 
 | Name | Introduced | One line |
 |---|---|---|
-| Prudence Hale | `sessions/Session 5 Prep.md` | House Nightbreeze senior underwriter, offers 20,000 gp for the lockbox. |
 | Virelai | `sessions/Session 5 Prep.md` | Djinni running the Float Market's weather-orb stall. |
 | Ormund & Pell Vey | `sessions/Session 5 Prep.md` | Brother-sister plasmoid duo, Float Market general shop. |
 | Longscar | `sessions/Session 5 Prep.md` | Night scavver, rival salvager at the Windward Edge, problem not villain. |

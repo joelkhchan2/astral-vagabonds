@@ -116,6 +116,8 @@ The ship is their **bastion**, using the 2024 DMG rules as written.
 
 **Bastion events are your shipboard complications.** Use the DMG table and reskin the results to a ship.
 
+**A leg's Astral Sea event (the written transit encounter or beat) always runs, on top of each PC's bastion turn, not as an alternative to it** (`Bastions.md`, locked session 5).
+
 **Barrack hirelings become the crew.** Arming them turns them into Bastion Defenders, which is how the ten NPCs become mechanically real in a boarding action.
 
 ### Facilities as ship rooms

@@ -1,7 +1,9 @@
 # Wyndham Aldane
 
 ## The Surface Read
-Tall, human, long red hair, glasses she takes off rather than puts on when she's actually paying attention to someone instead of performing polite interest. A dusty navy-blue cloak that's seen real travel, not a costume. Posted premise: an independent study of crew dynamics, pure observation, no agenda. Paid 900 gp for a 16-day stint aboard the *Night Fury* (session 4, off-screen, background income), which means she's already had two full weeks of real, unscripted access to this crew. The table's own read at the time: not dishonest, but more than she's saying.
+Tall, human, long red hair, glasses she takes off rather than puts on when she's actually paying attention to someone instead of performing polite interest. A dusty navy-blue cloak that's seen real travel, not a costume. Posted premise: an independent study of crew dynamics, pure observation, no agenda. Paid 900 gp for a 16-day stint aboard the *Night Fury* (session 4, off-screen, background income), which means she'd already had two full weeks of real, unscripted access to this crew before session 5. The table's own read at the time: not dishonest, but more than she's saying.
+
+**Session 5: boarded again, on-screen this time, for the Windward Edge leg.** Settled into her designated quarters without friction, polite about the areas marked off-limits. This is the active observation stint described below starting for real, not off-screen background anymore.
 
 **Voice tic:** talks like she's always mid-footnote, qualifying her own sentences before anyone else can get to it first. "Which is to say, probably, though I'd want to check that." "Not that it means anything on its own, obviously."
 

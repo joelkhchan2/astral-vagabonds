@@ -91,6 +91,8 @@ Estra is **rebuilding the Compact**, slowly, quietly, from the bottom of the Man
 
 She hasn't told anyone. She thinks it's her burden. She's wrong, it's the crew's story too.
 
+**Session 5: she said part of it out loud, for the first time.** After Aerion and Orena turned down Prudence Hale's 20,000 gp offer and reported it straight to her, Estra let the mask slip further than the pattern above says she ever does. She confirmed outright that she and Aerion had already discussed buying a second charter, and that she'd been planning, before it fell through, to make him **operations manager between ships**. Then further still: *"Don't tell the others, but it is my dream to one day see perhaps a fleet that we are captaining as well. Maybe one day the flag will fly again."* Said while looking at the old Compact flag Tack sewed into the new one. Not a confession of the whole truth (Vellum, the Compact, the eighteen months), just the dream underneath it, offered to Aerion directly rather than pried out. This is the thread `rules/Bastions.md`'s Reading the Ledgers section seeds further: a future, open offer, Aerion's to take or not.
+
 ### The Locked Chest
 In her quarters: a locked chest containing a star chart showing every former Compact route, every system they charted, every port they opened. Overlaid: annotations tracking what happened to each route since the fall. Which ones the Pale Reach bought. Which are now toll routes. Which have stilled since. Eleven small markers, one for each former captain.
 
