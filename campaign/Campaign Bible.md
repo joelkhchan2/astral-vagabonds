@@ -44,6 +44,8 @@ A rare wondrous item. Requires attunement by a spellcaster. The helm is a magic 
 ### Plot A: "The Guttering" (World-Level Threat)
 Something is wrong with Wildspace navigation. Routes shift, ports drift out of position, and stars go dark. The crew notices on small jobs: deliveries take too long, familiar systems look different, a colony has gone quiet.
 
+**The mechanism below is superseded, see `campaign/Story Spine.md` for the finished version** (eat-and-plant light, attunement that decays without renewal, a chain of stations rather than one creature's job, ships circulate but never generate, a second cause in the toll economy's own infrastructure). This section is kept for the overview, not as the working explanation.
+
 **The truth:** the Astral is a living ocean -- a faintly luminous living sea called **the Tide** that flows in currents, and *those currents are the roads.* You sail the living water to a system; a system is findable only while a current still reaches it. Great whales (**kindori**) are the Tide's gardeners: by the real "whale pump" they graze the bright water and carry the bloom outward as they migrate, keeping the sea moving and systems connected. Their apex predator (**void scavvers**) kept the whales migrating. Civilization exterminated the predators, so the whales overpopulate and stop migrating, graze the water bare, the currents dissolve, and regions **gutter out** -- islands stranded when the tide goes out, cut off, not destroyed. It's a trophic cascade *we* caused, and it's reversible. The cure is learning to move *with* the living sky (a nomadic, un-tollable navigation), not to own it.
 
 **PC connections:**
