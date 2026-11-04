@@ -19,6 +19,22 @@ A working field surveyor, not a theorist. She has real, repeated data on the Win
 
 Once the crew's done real survey work for her, flown Open Water, Open Season, and come back with usable data, Aurel may eventually want to go further: not just charting the symptom but actually investigating the Stilling itself, using the crew as the field team she's never had backing to field. **This doesn't need to come into play soon.** The players may want more small contracts first, or the International Space Dog Show thread, or anything else entirely, and that's fine, this sits patiently until it's wanted. When it does come up, it's a natural escalation of a relationship already built on real trust, not a cold pitch. Worth remembering she has no idea yet how deep the mystery actually goes, House Vellum's role, the memory-current layer, any of it, she'd be investigating as a field scientist chasing a real pattern, same as always, not as someone already in on the secret.
 
+## Why an outside crew, not her own
+
+She isn't trusting the crew with anything sensitive, because as far as they know there isn't anything sensitive to trust them with. The posting is exactly what it says it is, a chart-accuracy survey job (`sessions/Session 4 Prep.md` §5(C)). What she's privately doing with the returned data, cross-checking the Edge's actual flow speed against her own years of position readings, stays entirely in her own head and never gets explained to the crew. Two real reasons she's sourcing this outside her own house rather than sending a Delverane survey ship to re-run it:
+- **Her own house's ships and staff are a visible, logged channel.** As the overlooked fieldworker of a founding house, an unusual, precise re-survey run through official Delverane channels gets noticed, questioned, and possibly taken away from her or buried before she's ready. An independent crew's contract is one ordinary posting among dozens.
+- **The crew has Orena.** Her own instrument-literate staff reads the water with tools. Orena reads it the way the water itself does, a qualitative sense no amount of in-house survey equipment produces. That's not something Aurel can source internally even if she wanted to keep this fully in the family.
+
+**Keep this entirely GM-side.** The crew should finish the job believing it's exactly what it was sold as, and it genuinely is, from their end. Her private comparison is background, not a scene to run.
+
+## What a rumor or research check turns up
+
+Table-facing, available any time the crew wants context before or during Open Water, Open Season (Orena's Library Research, Aerion's business sense or Reading the Ledgers, straight dockside gossip at the Compass Rose or Senna's window, whatever fits the moment). None of this touches what she's privately checking on the survey data, that stays hidden regardless of how well the check goes.
+
+- **DC 10, common knowledge:** she runs survey and acquisition for House Delverane personally out of the Farthing Station, hands-on rather than delegated, which working crews who deal with her directly respect and her family's own senior circle quietly finds a little embarrassing.
+- **DC 15, house gossip:** the younger daughter of the Delverane line, passed over for the family's actual boardroom track, chose fieldwork instead, and the house has never quite forgiven the choice. A mild, real friction, surfaces at family functions more than business ones.
+- **DC 20, known among surveyors and frontier crews specifically, not the houses:** she's personally charted more of the Verge-adjacent frontier than anyone else her age, including re-running a stretch alone after the survey ship that originally held it went missing out there. People who actually do this work respect her completely. People who sit in her family's boardrooms barely know her name.
+
 ## Loose threads, not yet decided
 
 - Whether she ever learns about House Vellum's own forty-year cover-up, and if so, how she reacts, a career field surveyor finding out the houses have known and sat on it would likely land hard.

@@ -38,6 +38,10 @@ Full job terms, the deliverable breakdown, and the 40-entry Windward Edge encoun
 
 **A Research/Reading the Ledgers pointer, since both are live mechanics now:** Orena's Library can dig into anything freshly relevant (the Edge itself, Aurel Delverane, Nightbreeze), and Aerion's Reading the Ledgers can run on top of a Storehouse or Smithy order rather than instead of it. Remind the table both exist if nobody reaches for them unprompted.
 
+**What the job actually is, and isn't.** The posting is exactly what it says: Aurel wants to know whether the old charts can still be trusted along the Edge. That's the whole truth the crew is given, and it's genuinely true. What she privately does with the returned data afterward, DCs and full reasoning: `npcs/Aurel Delverane.md` "Why an outside crew, not her own," stays entirely off-page. Nothing this session should reveal that there's more to it than a chart-accuracy job.
+
+**A rumor or research check on Aurel herself is on the table too**, if anyone wants context on who they're actually working for before or during the job, DC tiers and what each turns up: `npcs/Aurel Delverane.md` "What a rumor or research check turns up." Covers her family standing and her real reputation among working surveyors; doesn't touch what she's privately checking.
+
 ## 4. Flurry's spotlight: the Edge itself
 A scripted wonder beat, not a table roll, landing when the ship actually reaches the confluence. This is the "sky at its healthiest" tell (`npcs/Flurry.md`), the warm register, not the eerie one, since the Windward Edge is abundance, not a guttering.
 
