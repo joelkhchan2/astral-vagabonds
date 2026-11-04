@@ -92,4 +92,4 @@ Whether the session closes back at Bral/Farthing Station to collect the 3,100 gp
 - The *Quiet Verge*'s "did they make it" question, still genuinely open.
 - Splinter's real nature, left exactly as unconfirmed as it was before this session, on purpose.
 - **Aerion's Carraway/Dog Show offer**, if it landed this session per &sect;3, stays his to answer, not resolved by default. Carry forward whichever way it's left.
-- **Session 7, planned: back at Bral, the Wayfinder Knot thread lands for real.** The shanty and the knot planted this session are the setup; next session Orena actively digs (Library Research, DC 18-22) and gets real, table-knowable confirmation that her old crew is alive. Don't let this session's two plants get explained or paid off early.
+- **The Wayfinder Knot thread stays banked, not due next session.** The shanty and the knot planted this session are ambient setup only, real confirmation that Orena's old crew is alive is held until the end of arc 1, not session 7. Don't let these two plants get explained or paid off early, and don't commit session 7 to carrying it either, that call gets made later, closer to arc 1's actual close.
