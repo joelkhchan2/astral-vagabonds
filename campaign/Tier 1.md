@@ -13,7 +13,7 @@ The crew understands nothing yet. They fly the dying edges, do small jobs, and *
 ## The four threads
 
 - **A -- The Guttering (world):** symptoms -> a pattern -> "there's something living behind this." The human cost comes first (session 1's stranded colony), the eeriness second, the ecology last.
-- **B -- The Windsong fraud (family):** Aeravellis poisons the navigation archive to hide his losses; it collides with the crew's honest work; they trace it; the father buries it. This is the meat of Tier 1's mission spine.
+- **B -- The Windsong fraud (family), corrected:** Aeravellis isn't a navigation-fraud problem anymore, he's a personal one. A joyride-shortcut through the Amberwake went badly wrong, and he's been quietly covering the damage and a debt to House Darkshade ever since. See `npcs/Aeravellis Windsong.md`. The mission beats below (M6-M8) are being reworked to match; treat the specifics as approximate until the Amberwake arc's own prep docs lock them in.
 - **C -- Orena's search (personal):** the first lost crewmate found; the Vocalise drip.
 - **D -- Estra (undercurrent):** the failed-pioneer thread, kept almost entirely as subtext until Tier 2.
 
@@ -34,11 +34,11 @@ Two of these per Tier 1 mission, rolled or chosen from `Tables.md`. The whales s
 | **M3 Someone Who Was Looking** (L6) | C | One Wayfinder crewmate found alive, waiting. First (later-contradicted) account of the sky going dark and sealing them off. The search is real and ongoing. |
 | **M4 The Delisted Routes** (L6-7) | A | Meech's breadcrumb; they fly a delisted route to a port that's gone dark. Symptoms become a *pattern*; Senna/Delverane ally seed. |
 | **M5 A Favour from Aeris** (L7) | B | The shadow-king brother helps, genuinely, no strings (the bill lands in Tier 2). Shows Aerion the seductive path -- *use* the family -- against his real one, *remake* it. |
-| **M6 What Boarded the Kettle** (L7-8) | B | Board-neighbors with kids aboard, robbed; the evidence is a hull class with no legit trade case -- Aeravellis's, unnamed. Personal before political. |
+| **M6 What Boarded the Kettle** (L7-8) | none | **Decoupled from Aeravellis.** No longer his crime; this stays an open, unattributed hook if the table ever wants it, not part of thread B anymore. |
 | **M6.5 The Whalers** *(the one big whale beat, optional placement)* | A | The crew crosses a sanctioned **kindori cull** -- legal, lucrative, and *wrong*. They can disrupt it or be forced to witness (your call). **The cause, seen but not understood;** in Tier 2 they'll remember "we watched them do this." Orena is gutted. |
-| **M7 The Audit** (L8) | B | Aeravellis's fake filings collide with the crew's honest surveys; a paper trail to a name. Shows the archive is *corruptible* -- quietly foreshadowing why an un-tollable network matters. Aerion's spotlight. |
+| **M7 The Audit, corrected** (L8) | B | Not navigation data, money. Aerion notices real financial irregularities in his brother's Delivery Operations line, a hidden repair cost, numbers that don't add up, and starts quietly pulling the thread himself. His spotlight, still, just a different kind of ledger. |
 | **M7.5 Estra's Tell** *(subtext beat)* | D | She turns down a hugely lucrative "map the dark regions for the houses" job with no explanation, or reacts to the cull one sentence too knowingly. A glimpse of the chart she won't show. A chill, not an answer. |
-| **M8 The Name on the Filing** (L8, transition) | B | Trail ends at Aeravellis. They do the right thing and take proof to Vaelros. He *buries* it -- the seat is worth more than a son or the truth. Aerion pivots from *make my own way* to *take the whole thing.* Doorway to Tier 2. |
+| **M8 The Name on the Filing, corrected** (L8, transition) | B | The trail ends on Aeravellis, a wrecked client ship, a secret debt to House Darkshade, and real, fragmentary knowledge of the Amberwake. Whether Aerion protects him, exposes him to Vaelros, or does something else entirely is open, and no longer a clean "the father buries it" beat, the stakes and the choice have both changed. Doorway to Tier 2 either way. |
 
 ## Drop-in episodes (run any time you want a change of pace)
 

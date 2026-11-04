@@ -51,10 +51,10 @@ Capital and committee access; never leaves port. Builds relationships, sits on b
 **If they're ever actually in the same room** (rare, Aeris doesn't leave port), the payoff is that the animals don't care about any of it. Left alone for five minutes, Flurry and Grenjalynn are found in an inseparable, filthy, delighted heap, having apparently decided they are best friends for life, completely uninterested in whatever cold war their owners have been fighting through the mail for years. Two composed, controlled men, several feet apart, watching this happen in real time, is the whole scene. Let a crew member catch the exact moment both brothers, independently and simultaneously, fail to keep a straight face.
 
 ### Aeravellis (182), the one who's drowning
-Given a legitimately dangerous route and a hull specced for it, and **the route doesn't pay.** So he started using grappling jaws on targets that weren't pirates, and he **falsifies route data to hide the losses.**
-**Why it matters:** the poisoned data goes into the same archive Aerion sells honest surveys into. When Aerion's survey contradicts the corrupted record, *Aerion* looks wrong, his data-quality score drops, and his rates drop. A bloodless, recurring attack Aerion can watch in a ledger; the resolution is an audit, not a fight.
-**The fraud is legible in his ship's spec sheet:** fifteen crew, six tons of cargo, a configuration with no legitimate trade case. He is flying the evidence, and Priscilla will see it the moment she compares a hull to a manifest.
-**Ship:** a converted Balanced Trader (20,000 gp, AC 15, 250 HP, 35 ft, 6 tons, crew 15, four ballistae and grappling jaws).
+
+**Promoted to his own file: `npcs/Aeravellis Windsong.md`.** Senior Vice President of Delivery Operations, a title that lets the family pretend they gave him a real job. In practice he and a loose entourage joyride newly built hulls before delivering them to buyers. **Corrected: no piracy, no falsified navigation data.** His actual fraud is financial, quietly covering the repair cost on a significant client's ship after a joyride-shortcut through the Amberwake went badly wrong and left both the ship and his own finances damaged. He's secretly in debt to House Darkshade over it (`factions/House Darkshade.md`), a connection not yet confirmed to the crew. He's also, unlikely as it sounds, the one member of the family who's actually survived a trip into the Amberwake and come back with real, if fragmentary, knowledge of it.
+**Why it matters to Aerion:** not a ledger attack anymore, a personal one. Both are the family's underestimated sons; Aerion left and built something real, Aeravellis stayed and has nothing to show for it either. Full detail on his own page.
+**Ship:** none of his own. He's always flying whatever client vessel is currently queued for delivery.
 
 ---
 

@@ -22,6 +22,7 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | Aurel Delverane | `npcs/Aurel Delverane.md` | House Delverane, Elemental Plane of Water waystation, Stilling investigation. |
 | Wyndham Aldane | `npcs/Wyndham Aldane.md` | Passenger, session 4, boarded again on-screen session 5. |
 | Vaelren Windsong | `npcs/Vaelren Windsong.md` | Aerion's uncle, broke from House Windsong, Fifth House bid, minds Estra's lockbox. |
+| Aeravellis Windsong | `npcs/Aeravellis Windsong.md` | Aerion's brother, SVP of Delivery Operations in name only, secretly in debt to Darkshade, survived a trip into the Amberwake. |
 | Prudence Hale | `npcs/Prudence Hale.md` | House Nightbreeze senior underwriter, recurring. Offered 20,000 gp for Vellum intel. |
 | The Wayfinder Knot | `npcs/The Wayfinder Knot.md` | **GM-only truth.** Orena's lost guild; alive, thriving, on their own crew. |
 

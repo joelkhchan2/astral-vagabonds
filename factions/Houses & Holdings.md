@@ -44,7 +44,7 @@ The Chain is fine. The Chain will be fine for a long time. That's precisely why 
 ## The Tollmarch: the chokepoint
 Contested space between two current systems, thick with hazards, and the only viable shortcut from the Chain to everything outward. **House Stoneward's territory.** Toll gates, patrol frigates, salvage rights, and a long tradition of piracy that Stoneward profits from suppressing.
 
-**Aeravellis was posted here.** The franchise was legitimate. It just doesn't pay, and the Tollmarch is full of ships worth boarding.
+**Corrected: Aeravellis is not posted here.** His own thread moved elsewhere, see `npcs/Aeravellis Windsong.md`. The Tollmarch stands on its own as a location now, available whenever a scene needs Stoneward's territory specifically.
 
 ## The Verge: the frontier
 Thinly charted, low traffic, small colonies, long hauls. **Nobody's territory, because there's no margin in it.**
@@ -172,10 +172,10 @@ The official account is mismanagement. Vellum's position is that Carrow overexte
 - Core Chain route and fleet, ~4,100,000 (operated by Aeric)
 - Warehousing and port leases, ~2,300,000 (the family's small hull yard is folded in here rather than broken out)
 - Brokerage and paper, ~1,400,000
-- Tollmarch franchise, ~700,000 (operated by Aeravellis, underwater)
+- Delivery Operations, ~700,000 (nominally a service line; in practice Aeravellis's joyriding and a quietly growing debt to House Darkshade bleed it steadily, `npcs/Aeravellis Windsong.md`)
 - Liquid reserve, ~700,000
 
-**Fleet:** Vaelros's Swift Heavy, Aeric's Balanced Heavy and four hauling hulls, Aeris's Sturdy Cutter, Aeravellis's converted boarding Trader, and whatever Aerion buys. See `House Windsong.md` and `Ship Construction.md`.
+**Fleet:** Vaelros's Swift Heavy, Aeric's Balanced Heavy and four hauling hulls, Aeris's Sturdy Cutter, and whatever Aerion buys. **Aeravellis has no hull of his own**, he's always flying whatever client vessel is currently queued for delivery. See `House Windsong.md` and `Ship Construction.md`.
 
 ## Why they're a contender despite being poor
 
