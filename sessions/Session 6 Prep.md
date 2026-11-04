@@ -1,6 +1,6 @@
 # Session 6 Prep -- The Windward Edge
 
-Open Water, Open Season finally launches. The job itself, the Windward Edge table, Longscar, and Aerion's spotlight thread are already fully built in `sessions/Session 5 Prep.md` &sect;6-7 and the stat blocks live in `sessions/session-5-companion.html`; this doc doesn't re-derive any of that, it sequences the voyage, adds the two new scenes discussed for this session, and locks in steering toward the climax fight.
+Open Water, Open Season finally launches. The job itself, the Windward Edge table, and Longscar are fully built in `sessions/Session 5 Prep.md` &sect;6, and Aerion's spotlight thread (built in that same doc's &sect;7, never flown) finally gets sequenced into an actual session here. This doc adds the Flurry and Sable spotlights, the Wyndham/Aurel merge and its live mechanics, and locks in steering toward the climax fight. Run-ready, self-contained version of the whole session: `sessions/session-6-companion.html`.
 
 ## 1. Where things stand, going in
 - Crew of 10, operating cost 900 gp/month, roughly 4,000 gp operating plus the 10,000 gp reserve (`ships/Night Fury.md`).
