@@ -19,8 +19,8 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | Judo | `npcs/Judo.md` | Scout-gunner, session 4 hire. Washed-out Route Warden trainee. |
 | Sable | `npcs/Sable.md` | Deckhand-gunner, session 4 hire. Tortle, mentored by Splinter (a ratkin). |
 | Flurry | `npcs/Flurry.md` | Aerion's baby silver dragon. Non-combat; see `rules/Stat Blocks.md` for her scoped Dog Show sheet. |
-| Aurel Delverane | `npcs/Aurel Delverane.md` | House Delverane, Elemental Plane of Water waystation, Stilling investigation. |
-| Wyndham Aldane | `npcs/Wyndham Aldane.md` | Passenger, session 4, boarded again on-screen session 5. |
+| Aurel Delverane | `npcs/Aurel Delverane.md` | House Delverane field surveyor. GM-only: she is "Wyndham Aldane," in person, under a disguise. |
+| Wyndham Aldane | `npcs/Wyndham Aldane.md` | Passenger, session 4, boarded again on-screen session 5. Alias of Aurel Delverane, played straight at the table until revealed. |
 | Vaelren Windsong | `npcs/Vaelren Windsong.md` | Aerion's uncle, broke from House Windsong, Fifth House bid, minds Estra's lockbox. |
 | Aeravellis Windsong | `npcs/Aeravellis Windsong.md` | Aerion's brother, SVP of Delivery Operations in name only, secretly in debt to Darkshade, survived a trip into the Amberwake. |
 | Prudence Hale | `npcs/Prudence Hale.md` | House Nightbreeze senior underwriter, recurring. Offered 20,000 gp for Vellum intel. |
