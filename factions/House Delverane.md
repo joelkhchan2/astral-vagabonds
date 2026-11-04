@@ -26,7 +26,7 @@ Aurel's father. A field surveyor himself once, before duty pulled him back to ru
 
 **Captain Rell Hask**, leads a currently-funded independent survey crew, a peer the *Night Fury* could plausibly cross paths with someday.
 
-**Pell Varnish**, a Farthing Station clerk who processes funding contracts, warm, a little overworked.
+**Corwin Dunmore**, runs day-to-day operations at the Farthing Station, straight, no-nonsense, and steadily annoyed by the volume of paperwork Aurel's own disappearances leave him holding. Full writeup: `npcs/Aurel Delverane.md`.
 
 ## Where the house stands
 

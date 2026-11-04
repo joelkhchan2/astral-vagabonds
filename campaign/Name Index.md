@@ -89,7 +89,7 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Auric Delverane | `factions/House Delverane.md` | Aurel's brother, "Au-" generation, runs a different outpost. |
 | Istra Quill | `factions/House Delverane.md` | Runs the Delverane funded-party network's operations. |
 | Captain Rell Hask | `factions/House Delverane.md` | Leads a Delverane-funded independent survey crew. |
-| Pell Varnish | `factions/House Delverane.md` | Farthing Station clerk, processes funding contracts. |
+| Corwin Dunmore | `npcs/Aurel Delverane.md` | Farthing Station office proxy, runs day-to-day operations, Aurel's actual business contact. |
 | Dess Marrow | `factions/House Nightbreeze.md` | Junior Nightbreeze claims clerk, processes the crew's own policy. |
 | Corvassa Crestfall | `factions/House Crestfall.md` | Corvane's sibling, more risk-tolerant, internal house tension. |
 | Hensley Dray | `factions/House Crestfall.md` | Runs the Crestfall hauling fleet's logistics. |
