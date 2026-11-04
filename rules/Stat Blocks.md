@@ -368,36 +368,36 @@ The eight NPCs currently aboard: Captain Estra, **Tack, Brass, Finny, Oz,** and 
 Full character, motive, and the alias mechanics: `npcs/Aurel Delverane.md`. Rarely fights, genuinely able to if cornered, a field surveyor who works dangerous frontier stretches alone and has real reasons not to die out there.
 
 ## AUREL DELVERANE
-*Medium humanoid (human), Wizard 9* · **CR 8** (3,900 XP)
+*Medium humanoid (human), Wizard 17* · **CR 12** (8,400 XP)
 
-**AC** 15 (mage armor) · **HP** 52 (9d6 + 18) · **Speed** 30 ft.
+**AC** 12 (15 with mage armor) · **HP** 94 (17d8 + 17) · **Speed** 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
-| 8 (-1) | 14 (+2) | 14 (+2) | 18 (+4) | 13 (+1) | 12 (+1) |
+| 10 (+0) | 14 (+2) | 12 (+1) | 20 (+5) | 15 (+2) | 16 (+3) |
 
-**Saving Throws** Int +8, Wis +5
-**Skills** Arcana +8, Deception +5, History +8, Insight +5, Investigation +8, Perception +5, Survival +5
-**Senses** passive Perception 15 · **Languages** Common, Aquan, Draconic · **Proficiency Bonus** +4
+**Saving Throws** Int +11, Wis +8
+**Skills** Arcana +11, Deception +9, History +11, Insight +8, Investigation +11, Perception +8, Survival +8
+**Senses** passive Perception 18 · **Languages** Common, Aquan, Draconic, plus any three others · **Proficiency Bonus** +6
 
-***Never Quite Surprised.*** Advantage on saving throws against being frightened, and on Deception or Insight checks made specifically to hold a false identity together under pressure. Years of fieldwork and years of being someone else, same muscle.
+***Magic Resistance.*** Advantage on saving throws against spells and other magical effects. A big part of why years of running a disguise under pressure has never once slipped.
 
-***Spellcasting.*** Aurel is a 9th-level spellcaster. Spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). She has the following prepared:
+***Spellcasting.*** Aurel is a 17th-level spellcaster. Spellcasting ability is Intelligence (spell save DC 19, +11 to hit with spell attacks). She has the following prepared:
 - *Cantrips (at will):* Fire Bolt, Light, Minor Illusion, Prestidigitation
-- *1st level (4 slots):* Comprehend Languages, Detect Magic, Disguise Self, Mage Armor, Shield
-- *2nd level (3 slots):* Alter Self, Mirror Image, Misty Step, Suggestion
+- *1st level (4 slots):* Comprehend Languages, Detect Magic, Disguise Self, Mage Armor
+- *2nd level (3 slots):* Alter Self, Mirror Image, Suggestion
 - *3rd level (3 slots):* Counterspell, Dispel Magic, Water Breathing
-- *4th level (3 slots):* Dimension Door, Divination
-- *5th level (1 slot):* Scrying
+- *4th level (3 slots):* Dimension Door, Divination, Greater Invisibility
+- *5th level (2 slots):* Legend Lore, Scrying
+- *6th level (1 slot):* Globe of Invulnerability
+- *7th level (1 slot):* Mislead
+- *8th level (1 slot):* Mind Blank
 
-***Always a Second Face.*** Disguise Self is kept running through essentially every waking hour as "Wyndham"; dispelling it reveals a face only her own family has seen in years. If this is ever forced or chosen to drop at the table, that's a real, heavy reveal, not a mechanical footnote.
+***Always a Second Face.*** Disguise Self is kept running through essentially every waking hour as "Wyndham"; dispelling it reveals a face only her own family has seen in years. If this is ever forced or chosen to drop at the table, that's a real, heavy reveal, not a mechanical footnote. *Mislead* is the same trick at a much higher ceiling, worth reaching for if the alias is ever truly threatened rather than just questioned.
 
 **Actions**
-***Dagger.*** *Melee or Ranged:* +6 to hit, reach 5 ft. or range 20/60. *Hit:* 4 (1d4 + 2) piercing. Carried, almost never drawn.
-***Fire Bolt.*** *Ranged Spell Attack:* +8 to hit, range 120 ft. *Hit:* 11 (2d10) fire damage.
-
-**Reactions**
-***Shield (1st-level slot).*** When hit by an attack or targeted by *magic missile*, +5 AC until the start of her next turn, including against the triggering attack. The real reason she can afford to look unbothered when something goes wrong in front of her.
+***Dagger.*** *Melee or Ranged:* +8 to hit, reach 5 ft. or range 20/60. *Hit:* 5 (1d4 + 2) piercing. Carried, almost never drawn.
+***Fire Bolt.*** *Ranged Spell Attack:* +11 to hit, range 120 ft. *Hit:* 11 (2d10) fire damage.
 
 ---
 

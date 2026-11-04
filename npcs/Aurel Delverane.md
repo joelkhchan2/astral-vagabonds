@@ -13,11 +13,13 @@ Thirty-one, younger daughter of a founding house that's never quite forgiven her
 
 **Standing canon:** she and the crew are neighbours and neither knows it yet, she works the Windward Edge, they work the Verge. Flagged early as the single most likely person in Wildspace to become a real ally. Open Water, Open Season (`sessions/Session 4 Prep.md` §5(C), `sessions/Session 5 Prep.md` §6) is her survey job, still picked but not yet flown as of session 5.
 
+**She also captains the *Farthing*, ranked 3rd on the Manifest Board** (`factions/The Manifest Board.md`), third despite a third the hull size of the ships above her, because fresh route data scores enormously. This is a serious, capable operator, not a desk surveyor with a side hobby, which is exactly why the disguise below has to exist: her own ship and crew are far too recognizable to use for anything she doesn't want traced back to her.
+
 ## Her second life: Wyndham Aldane
 
 **Wyndham Aldane is Aurel Delverane, in person, under a different name.** Not a double, not an agent reporting to her, her. "Hands dirty, not delegated" is her whole professional reputation already, this is simply how far that actually goes: she doesn't send someone else to watch a crew work and wait for a summary, she goes herself, and the only way to do that without her own name attached is to not be herself for the duration.
 
-**How she pulls it off, mechanically.** Aurel is a genuinely accomplished wizard, nine levels of it, kept almost entirely private (full stats: `rules/Stat Blocks.md`). Disguise Self is a first-level spell, trivial for her, and she simply keeps it running through every waking hour of a stint, the height, build, hair, and face the crew knows as Wyndham are not her own. Dispelling it would show a face only her own family has seen in years.
+**How she pulls it off, mechanically.** Aurel is a genuinely formidable wizard, seventeen levels of it, which tracks with actually captaining a top-3 ship into dangerous frontier water for years, kept almost entirely private (full stats: `rules/Stat Blocks.md`). Disguise Self is a first-level spell, trivial for her, and she simply keeps it running through every waking hour of a stint, the height, build, hair, and face the crew knows as Wyndham are not her own. Dispelling it would show a face only her own family has seen in years.
 
 **Why it fools even her own office.** Nobody at the Farthing Station has ever been in a room with both "Aurel" and "Wyndham" at once, because Aurel is never present as herself while Wyndham is aboard a ship. Business with her office runs through a proxy (**Pell Varnish**, below) specifically so her own name stays off the direct transaction. There is nothing to catch, because the two identities have never once overlapped in front of a witness.
 
@@ -45,6 +47,7 @@ The posting is exactly what it says: a chart-accuracy survey job (`sessions/Sess
 - **Her own house's ships and staff are a visible, logged channel.** An unusual, precise re-survey run through official Delverane channels gets noticed, questioned, and possibly taken away from her or buried before she's ready. An independent crew's contract is one ordinary posting among dozens.
 - **The crew has Orena.** Her own instrument-literate staff reads the water with tools. Orena reads it the way the water itself does, a qualitative sense no amount of in-house survey equipment produces.
 - **She wants to be there in person, and only an outside crew lets her be there as someone else.** Sending a Delverane ship means staying behind at the office and waiting for a report. Booking passage on an independent charter under a different name means she gets to watch it happen, ask her own questions, and read the water herself, the thing she actually wants most.
+- **Her own ship is simply too famous to use.** The *Farthing*, ranked 3rd on the Manifest Board, is a known, watched hull. Taking it anywhere near a hunch she isn't ready to explain would draw exactly the attention she's trying to avoid. An obscure, far-lower-ranked independent crew is the one kind of vessel nobody would ever think to connect to her.
 
 **Keep this entirely GM-side.** The crew should finish the job believing it's exactly what it was sold as, and it genuinely is, from their end.
 
