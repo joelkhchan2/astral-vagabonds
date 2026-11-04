@@ -74,6 +74,15 @@ Table-facing, available any time the crew wants context before or during Open Wa
 - **DC 10, common knowledge:** she runs survey and acquisition for House Delverane personally out of the Farthing Station, hands-on rather than delegated, which working crews who deal with her directly respect and her family's own senior circle quietly finds a little embarrassing.
 - **DC 15, house gossip:** the younger daughter of the Delverane line, passed over for the family's actual boardroom track, chose fieldwork instead, and the house has never quite forgiven the choice. A mild, real friction, surfaces at family functions more than business ones.
 - **DC 20, known among surveyors and frontier crews specifically, not the houses:** she's personally charted more of the Verge-adjacent frontier than anyone else her age, including re-running a stretch alone after the survey ship that originally held it went missing out there. People who actually do this work respect her completely. People who sit in her family's boardrooms barely know her name.
+- **DC 25, very rare, usually needs a specific prompt** (someone who's actually worked with her, an old war story at the Compass Rose, a scene rather than a cold roll): she is, quietly and seriously, a real wizard, not a hobbyist with a few useful tricks. The handful of people who know generally read it as sensible precaution for someone who works dangerous frontier water alone, not as anything worth gossiping about. A genuine, plantable breadcrumb toward the eventual reveal below, not something to surface casually.
+
+## The mask slipping, a banked reveal beat
+
+**If a real combat encounter during this voyage ever puts "Wyndham" in genuine personal danger, let her drop the act for exactly one turn.** Not a scripted certainty, a trigger: the moment an ordinary passenger would actually be in danger of dying, she ends the threat herself, decisively, with a single high-level spell, **Disintegrate** is the clean pick, no gore, the threat is simply gone, rather than a fight she visibly wins over several rounds. Then she's immediately, unnervingly composed again, as if it cost her nothing, because it didn't.
+
+**Good candidates, never forced, GM's live call:** anything on the Windward Edge table that could plausibly reach a passenger directly, Thalassa's boarding raid (#6) or a Githyanki raiding party (#14) read well; the Longscar climax (#20) should stay the PCs' own fight and isn't the right spot for this, that's their session to win. Reserve this for a different, smaller real threat.
+
+**What it should feel like at the table:** not a rescue, a *tell*. One beat of "that was not a passenger's reaction" before she's back to qualifying her sentences and taking her glasses on and off like nothing happened. A clean Insight check (DC 15) afterward reads that she's not even slightly rattled by something that should have rattled anyone, a real, concrete piece of "more than she's letting on" rather than vague unease.
 
 ## Loose threads, not yet decided
 

@@ -389,9 +389,11 @@ Full character, motive, and the alias mechanics: `npcs/Aurel Delverane.md`. Rare
 - *3rd level (3 slots):* Counterspell, Dispel Magic, Water Breathing
 - *4th level (3 slots):* Dimension Door, Divination, Greater Invisibility
 - *5th level (2 slots):* Legend Lore, Scrying
-- *6th level (1 slot):* Globe of Invulnerability
+- *6th level (1 slot):* Disintegrate, Globe of Invulnerability
 - *7th level (1 slot):* Mislead
 - *8th level (1 slot):* Mind Blank
+
+***The Mask Slips (banked, rare).*** If "Wyndham" is ever in genuine personal danger, she can end the threat outright with *Disintegrate* rather than surviving a drawn-out fight, one decisive turn, no visible effort, then back to ordinary composure immediately after. Full trigger guidance: `npcs/Aurel Delverane.md` "The mask slipping."
 
 ***Always a Second Face.*** Disguise Self is kept running through essentially every waking hour as "Wyndham"; dispelling it reveals a face only her own family has seen in years. If this is ever forced or chosen to drop at the table, that's a real, heavy reveal, not a mechanical footnote. *Mislead* is the same trick at a much higher ceiling, worth reaching for if the alias is ever truly threatened rather than just questioned.
 
