@@ -30,7 +30,7 @@ Approached Aerion and Orena directly after their shopping. Introduced herself fu
 
 **Estra's reaction matters.** She confirms House Vellum is actively investing in repairing Reefside station, meaning the house hasn't let the incident go, and that the crew's own vision (the polyhedral dice) suggests Vellum doesn't know they have the chest, though that read could be dated now. She tells them she'd likely have made the same call, but that handing this off to anyone right now is too dangerous without knowing what it actually is. **Then she goes further than her usual pattern:** she confirms she and Aerion had discussed, before it fell through, buying a second charter and making him **operations manager between ships**, and admits, unprompted, that it's her private dream to one day captain a fleet again. Full beat: `npcs/Captain Estra Vane.md`.
 
-**The chest moves.** Rather than carry it into Vellum territory, Estra entrusts her locked chest to **Vaelren Windsong**, in town a few more days, reasoning he's trusted and strong enough that nobody takes it from him. He agrees without hesitation. He also gives Aerion and Orena **one of his unicorn phoenix Fury's feathers** as a one-use sending stone (regrown feathers taken afterward bring the total to five).
+**The box moves.** Rather than carry it into Vellum territory, Estra entrusts the Vellum/Carrow correspondence box (not her own chest, which stays separately with her) to **Vaelren Windsong**, in town a few more days, reasoning he's trusted and strong enough that nobody takes it from him. He agrees without hesitation. He also gives Aerion and Orena **one of his unicorn phoenix Fury's feathers** as a one-use sending stone (regrown feathers taken afterward bring the total to five).
 
 ## Sprat, and the rumor mill
 The dockside orphan who trades rumors confirms, for a gold piece at a time: a tailing lady (Prudence) seen headed for the Compass Rose; "Vaelren's got a weird bird now" (Fury, misdescribed); a failed marriage proposal between the first mates of two unnamed crews at the Compass Rose (the woman from a ship called the *Velvet Choir*); and, unprompted, that "people have their eye on us," confirming Prudence's claim from earlier. New, minor hook: **Penny**, another rumor contact Sprat answers to or competes with, named but not yet built out.
@@ -58,7 +58,7 @@ With both Bastion actions free, Orena rolled her Survival-based charting (21) fo
 - **The crew dinner happened essentially as planned**, with Tomlin/Finny's immediate bond and Flurry's three-hire inspection round as the standout live beats.
 - **Prudence Hale is a recurring NPC now**, not a one-scene guest. Offered and was refused 20,000 gp for House Vellum intel; reported to Estra.
 - **Prudence's family history**: married four times, three men, one of them House Nightbreeze. This makes her a known quantity to the Windsongs by marriage, and specifically to Vaelren, not his ex-wife.
-- **Vaelren Windsong now holds Estra's locked chest** while the crew is in House Vellum territory, and has given out sending-stone feathers from his unicorn phoenix Fury (five total after this session).
+- **Vaelren Windsong now holds the Vellum/Carrow correspondence box** (not Estra's own chest) while the crew is in House Vellum territory, and has given out sending-stone feathers from his unicorn phoenix Fury (five total after this session).
 - **Estra confirmed, on-screen, that she once planned to make Aerion operations manager of a second charter**, and stated outright that rebuilding a fleet is her private dream. The first time she's said any of this aloud per `npcs/Captain Estra Vane.md`'s established pattern of never saying it.
 - **Aerion's Storehouse has a standing Float Market stall** (400 gp investment): Trade-order rolls are now 1d20+5 times 1d20+5.
 - **Reading the Ledgers is now a live mechanic**, first used this session.
@@ -73,7 +73,7 @@ With both Bastion actions free, Orena rolled her Survival-based charting (21) fo
 1. **Vaelren Windsong and Prudence Hale promoted to their own NPC files** (`npcs/Vaelren Windsong.md`, `npcs/Prudence Hale.md`), both earning real recurrence this session. `factions/House Windsong.md` and `factions/House Nightbreeze.md` trimmed to pointers.
 2. **Captain Estra Vane.md** updated with the on-screen fleet/operations-manager reveal.
 3. **Wyndham Aldane.md** updated: her observation stint is active on-screen as of this session, not off-screen background anymore.
-4. **Night Fury.md** updated: Storehouse upgrade, session 5 loot, and the lockbox's move off the ship and into Vaelren's keeping.
+4. **Night Fury.md** updated: Storehouse upgrade, session 5 loot, and the Vellum/Carrow box's move off the ship and into Vaelren's keeping (not Estra's own chest, which was never moved).
 5. **rules/Bastions.md and Rules & Systems.md §6** updated so Astral Sea transit events run alongside Bastion turns, not as a mutually exclusive choice.
 
 ## Where it goes next

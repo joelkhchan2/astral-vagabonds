@@ -82,7 +82,7 @@ Aerion's previous ship blew up when the cook took his nightly smoke beside pre-l
 ### Lower deck (below the gravity plane, gravity inverted)
 - **Crew quarters:** berths for the ten, close.
 - **Captain's quarters:** Estra's, sparse.
-- **Cargo holds:** inventory tagged and tracked because Aerion insists. One bay is now the **Storehouse**, formally, his first bastion facility. Estra's locked chest left this bay as of session 5, entrusted to Vaelren Windsong at the Rock of Bral while the ship heads into House Vellum territory (`npcs/Vaelren Windsong.md`).
+- **Cargo holds:** inventory tagged and tracked because Aerion insists. One bay is now the **Storehouse**, formally, his first bastion facility. The Vellum/Carrow correspondence box (not Estra's own chest, which stays separately with her) left this bay as of session 5, entrusted to Vaelren Windsong at the Rock of Bral while the ship heads into House Vellum territory (`npcs/Vaelren Windsong.md`).
 - **Engineering:** Tack's workshop, organized chaos, every component named.
 - **Sick bay / galley stores:** Brass's, doubling as her medical cabinet, which she restocks out of her own wages at Bral.
 

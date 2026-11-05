@@ -5,7 +5,7 @@ Open Water, Open Season finally launches. The job itself, the Windward Edge tabl
 ## 1. Where things stand, going in
 - Crew of 10, operating cost 900 gp/month, roughly 4,000 gp operating plus the 10,000 gp reserve (`ships/Night Fury.md`).
 - **340th of 351 on the Manifest Board**, reassessed up from 348th after session 3's Velvet Comet fight (`factions/The Manifest Board.md`).
-- Estra's locked chest is off the ship, with Vaelren at the Rock of Bral.
+- The Vellum/Carrow correspondence box is off the ship, with Vaelren at the Rock of Bral (corrected: not Estra's own chest, which stays separately with her, never moved).
 - Prudence Hale's 20,000 gp offer was declined and reported honestly.
 - **Wyndham Aldane's active, on-screen observation stint started last session**, not this one. This is her second leg into it, not a first sighting. Full identity, now locked: `npcs/Aurel Delverane.md`, played at the table per `npcs/Wyndham Aldane.md`.
 - Aerion holds a Cloak of Many Fashions and an Ensorcelled Missive from the *Quiet Verge*; a Mace of Terror and a Lantern of Revealing sit unclaimed in ship stores.
