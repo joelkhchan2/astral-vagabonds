@@ -1,43 +1,80 @@
-# Session 7 Prep -- What the Charts Remember
+# Session 7 Prep -- Homecoming, and the Next Voyage
 
-A quieter, bottle-leaning session built around one thing: Orena's search for the Wayfinder Knot gets its first real, table-knowable confirmation. Full GM-only truth and the research DC ladder this session runs on: `npcs/The Wayfinder Knot.md`. No battle section, on purpose, this session doesn't call for one.
+A pure interlude at the Rock of Bral, no job, no battle. Several threads left standing from sessions 5 and 6 get touched, the Manifest Board updates, and the session ends by launching the next, bigger voyage: Aurel Delverane's real escalation, investigating the Carrow-adjacent corridor and the Amberwake itself. This is a rebuild of an earlier draft of this file, which committed to Orena's Wayfinder Knot confirmation landing here, that's since been moved to the end of arc 1, not this session.
 
 ## 1. Where things stand, going in
-- Session 6 closed out Open Water, Open Season at the Windward Edge; the ship's back at Bral (or en route, depending how that session actually landed).
-- **Two small, unexplained plants are already live in Orena**, from session 6: she's hummed a work-song she can't place, and tied a specific locking hitch someone asked about and she couldn't answer. Neither has been explained yet. This session is where that changes.
-- Wyndham Aldane's observation period is ongoing; Aerion is sitting on a Cloak of Many Fashions and an Ensorcelled Missive from the *Quiet Verge*.
-- Crew of 10, 348th on the Manifest Board, roughly the same financial footing as before, pending however Open Water, Open Season's payout actually reconciled.
 
-## 2. Cold open: settling up with Aurel Delverane
-Short and warm, closes the loop on last session's job before this one's real content starts.
+- Open Water, Open Season complete: 3,100 gp collected, Orena's survey data sold or not, her call. The Windward Edge's void scavver (Longscar) either driven off or left wounded, the crew's choice from session 6.
+- **The Vellum/Carrow correspondence box is still with Vaelren Windsong**, not retrieved yet (corrected: Estra's own chest was never moved, it stays with her, `campaign/Story Spine.md`).
+- **Wyndham Aldane / Aurel Delverane, branch point from session 6:** whether the disguise held or broke during that session's play determines how &sect;7 below actually runs. Both versions below, pick live based on what happened.
+- Aerion's Carraway/Dog Show offer, answered or still open, whichever way session 6 left it.
+- Still untouched: Fifth House paperwork and Vaelros, the *Quiet Verge*'s fate, Splinter's real nature (left exactly as unconfirmed as ever).
+- The two Wayfinder Knot plants (the shanty, the knot) are in, GM-only, no payoff due this session or next.
 
-- The 3,100 gp survey fee pays out clean. Aurel, chart-ink on one finger as always, is delighted with whatever Orena actually found at the Edge, and this is the natural spot to let Orena decide, her call entirely, how honest or softened the navigation data writeup is, and to whom she sells it (`sessions/Session 5 Prep.md` &sect;6).
-- A clean, quick beat, not a scene that needs to run long. It exists to close session 6's business and hand the table back to port life before the real content starts.
+## 2. Cold open: back at the Rock of Bral
 
-## 3. Main content: what the charts remember
-Orena can't shake the two unexplained moments from last session. This can be her own choice to start pulling the thread, or something as small as someone else asking about it again, entirely open how it actually triggers, but the session's center of gravity is her actively digging now rather than just waiting for ambient hints to land on their own.
+Warm, short, the actual return after a real, dangerous leg. Not a recap, the first few minutes of being home.
 
-**Scene one: Senna Orrick, the Pale Reach data broker** (`locations/The Bral Reach.md`). The natural first stop, she's the crew's standing data contact, sharp, tired, on a quota, and she has genuine access to the kind of cross-referenced crossing records this needs. A good joint-scene opportunity: Aerion's business relationship with her (or just his general fluency in getting someone like her to actually look something up) can smooth the way in, "his numbers" opening the door for "her instinct" to ask the real question once they're through it. This scene is built to land in the **DC 15-18 band**: the mechanism behind crossings like hers confirmed in the record, and the real one, a specific account matching her own guild's disappearance, same stretch of coast, same rough timeframe, survivors put ashore in Wildspace. No name yet. Just: somebody made it through alive.
+**Read aloud:**
+> The Rock swallows the ship the way it always does, familiar noise closing back in, the Charter Window's chalkboard clatter, someone's radio three berths over, the particular smell of a hundred ships' cooking all competing at once. Finny's already on the gangplank before the mooring lines are even tied off, practically vibrating.
 
-**Scene two: the Library, Orena's own bastion action.** Hers alone, the chart room, digging further on her own instinct rather than someone else's archive. Built to land in the **DC 20-22 band**: a small charter called the *Wayfinder* has climbed the Board fast on reputation alone, captained by one Dune Ashcombe, rank ~99, and dockside talk already treats the name itself as odd, "like someone forgot the rest of it." If the roll runs hot, this is also where the knot or the shanty can pay off directly, someone on the chart-house floor ties the same bend, or hums the same few bars, and says the name outright: **the Wayfinder Knot**. No more ambiguity, if it gets there.
+- Finny's the one who brings the news in &sect;3, let him have the moment rather than narrating it flatly.
+- Good spot for a single, quiet line of aftermath from the void scavver fight, whoever carries it (Estra, Wyndham, anyone), before the session moves on to its lighter business.
 
-**Let the dice decide how far this actually goes.** The scene's built with real help on hand (Aerion's assist, Orena's own expertise) so landing in the 18-22 band is likely, but don't force a result the roll doesn't support. A lower roll still delivers real, meaningful confirmation (survival is possible, people like her have made it through), it just doesn't close the loop all the way to a name. Hold the higher rungs (DC 25 whereabouts, DC 27 it's mutual, DC 30 a direct line) in reserve for later, this session isn't where the actual reunion happens, that's arc 2.
+## 3. The Manifest Board, updated
 
-## 4. The moment itself
-Whatever DC this actually lands on, give it real room once it lands rather than rushing past it into the next beat. This is a five-session-old, deeply personal thread finally turning real. Hand it back to Gabrielle entirely: no scripting what Orena feels or does with this, just let the fact sit in the room. A good closing image for the scene, hers to reach for or not: the half-name itself, *Wayfinder*, minus the *Knot*, and what that absence might mean before she has any way of knowing it means nothing has been lost, just half a name worn down to what's left standing.
+**Climbing to 334th**, up from 340th. A founding-house client (Aurel Delverane's own survey office), real survey data delivered, and a named, dangerous apex predator encountered and either driven off or fought outright, that's comparable weight to session 3's five-rank jump, a DM judgment call, not a formula (`factions/The Manifest Board.md`).
 
-## 5. Aerion's beat
-Keep him present through scene one rather than sidelined once the main reveal shifts to Orena alone in the Library. A good small, separate beat for him elsewhere in the session: a Storehouse or Reading the Ledgers turn, a courier catching up on the costume business, or simply being the one who's there right after, first to see her face when she comes out of the Library. Worth a quiet, true-to-him beat: not asking what she found, just being present, which is its own kind of answer for how he actually shows care.
+**Who they pass on the way:** *Two for the Road* (339), *First Class* (338), *Due Process* (337), *Green Hollow* (336), and *Riptide Chorus* (335, kindori riders), landing at the open 334th slot. Worth a quiet beat on passing the *Riptide Chorus* specifically, a kindori-rider crew, right after the Windward Edge's own kindori content. No other ship needs to react this time, not every climb needs a rival's grudge attached.
 
-## 6. Bastion actions
-Orena's Library order is the session's real content (above), not a separate downtime beat bolted on afterward. Aerion's own turn (Storehouse, Smithy, or Reading the Ledgers) runs as usual alongside it, per the locked rule that bastion turns and any transit event both happen, not either/or, though this session, docked at port, may not have a transit event to run at all.
+**Let Finny deliver it as pure celebration.** Simple, earned, no complications attached this time.
 
-## 7. Ending hook
-Orena now knows, for certain, that at least one person from her old crew survived, and that there's a real, named ship to eventually find. The reunion itself stays unplayed; the hook is simply that this is no longer a hope, it's a fact she has to decide what to do with. A clean, open closer: does she tell Aerion everything tonight, keep digging on her own, or sit with it a while first. Entirely hers.
+## 4. Dessa and Sedge, however it resolves
+
+**Sedge Okonkwo** (the *Bright Arrears*, rank ~250) is in port. Last seen (session 4), Orena pushed him to go find **Dessa Kell** (the *Compact Standard*, rank 9) and actually say in person what he couldn't explain, why he can't just stop flying when she asked him to.
+
+**Open, GM's call live:** whether Dessa is physically in port too, for a real, witnessed reunion scene, or whether this is Sedge reporting back on what happened since, changed, unchanged, or still unresolved. Either works. If the crew asks, Sedge's own guilt and gratitude toward Orena specifically (she's the one who pushed him) is worth a real, earned beat regardless of how the Dessa half resolves.
+
+## 5. Sable's spotlight: the Half-Shell Wars
+
+A real individual scene, triggered by coincidence, not a search. One of Sable's many siblings happens to be docked at the Rock.
+
+**Raph**, leader of one of four warring factions among Sable's 927 siblings, all fighting, generations deep, over **the Half-Shell**, a legendary ancestral shell. What it actually does, or means, is deliberately never agreed on, each faction has its own inherited legend about it, which is exactly why the war's never ended, there's no shared definition left to settle. Played with total deadpan seriousness by everyone involved in it, which is the joke.
+
+**Beats to hit, not scripted dialogue:**
+- Raph genuinely doesn't expect to run into Sable here, warm and strange in equal measure, family that hasn't seen each other in a long time.
+- He talks about the war the way someone discusses a decades-long legal dispute, exhausted, committed, utterly serious.
+- Sable's own reaction is hers to play live, embarrassment, pride, complicated homesickness, or some mix, not scripted.
+- Don't resolve the war or explain the Half-Shell's actual nature. This is color and family texture, not a quest hook, unless the table wants to pick it up later.
+
+## 6. Vaelren: the box comes back, and a little Carrow lore
+
+A real scene, not a handoff narrated in a line. The crew retrieves the Vellum/Carrow correspondence box from Vaelren at the Compass Rose or his own room.
+
+**He hands it back without ceremony**, easy and unbothered, per his standing voice (`npcs/Vaelren Windsong.md`). Worth one open beat: whether he looked inside it himself while he had it, his call to reveal or not, not decided here.
+
+**A little Carrow lore, in his own voice, not a lecture.** He's old enough and well-traveled enough to have crossed paths with the Amberwake corridor or House Carrow's people once, long before its fall. Keep it personal and small: a story, a name he remembers, a feeling about the place, not exposition about *why* the corridor failed, that stays Tier 2's to hand out. This is table color that seeds dread ahead of &sect;7's offer, not an answer to anything.
+
+## 7. The pivot: Aurel's offer, the Carrow corridor and the Amberwake
+
+**Branch on how session 6 actually went:**
+
+- **If "Wyndham" was never unmasked:** the offer still comes through the usual channel, Corwin Dunmore at the Farthing Station, or a direct written contract, Aurel's own name on it, the guise with the crew intact. She doesn't need to appear in person for this to land as a real escalation of trust.
+- **If the disguise broke during session 6:** Aurel asks them herself, in person, no more need to keep two faces apart in front of this specific crew. A real, heavier scene, worth landing with weight if this is the branch that fires.
+
+**The offer, either way:** not just charting the symptom anymore, Aurel wants the crew to actually investigate the Stilling itself, specifically the delisted, Carrow-adjacent corridor and the dead stretch beyond it known as **the Amberwake**. This is the banked escalation hook (`npcs/Aurel Delverane.md`, "The future hook") finally cashing in, and the session that opens the Amberwake arc. Scope and pay are worth settling live rather than fixed here, bigger than Open Water, Open Season, a real expedition rather than a survey run.
+
+**What this launches**, GM-only, not stated to the players tonight: the kindori cull, the whale fall, the Carrow waystation, and Aeravellis's own thread all sit downstream of this contract. Nothing here should gesture at any of it yet.
+
+## 8. Ending hook
+
+The crew commits to the voyage, or at least to hearing more about it, and the session closes on departure prep, not the trip itself. A clean, warm-to-uneasy transition: the Board win, the family reunions, the silly tortle lore, all giving way to the sense that whatever's next is bigger than anything they've done so far.
 
 ## Looking ahead
-- The reunion itself (stage two, arc 2): not due yet. Keep the higher rungs of the DC ladder (whereabouts, it's mutual, a direct line) banked for whenever the table actually wants to chase this further.
-- Fifth House paperwork and politics, still untouched.
-- Dessa and Sedge's actual reunion, still unresolved.
+
+- Fifth House paperwork and Vaelros, still untouched, worth a scene soon, genuinely overdue now.
+- Splinter's real nature, left exactly as unconfirmed as before.
 - The *Quiet Verge*'s "did they make it" question, still open.
-- Splinter's real nature, still deliberately unconfirmed.
+- Vaelren's Carrow anecdote from &sect;6, planted, not yet paid off.
+- The Wayfinder Knot plants stay banked for the end of arc 1, not sooner.
+- **Session 8 onward: the Amberwake arc actually opens.** The corridor itself, the Carrow waystation, Longscar's broader ecology, and eventually the whale fall and Aeravellis's thread all live there, none of it built yet.
