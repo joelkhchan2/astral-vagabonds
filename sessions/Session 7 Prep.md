@@ -6,7 +6,7 @@ A pure interlude at the Rock of Bral, no job, no battle. Several threads left st
 
 - Open Water, Open Season complete: 3,100 gp collected, Orena's survey data sold or not, her call. The Windward Edge's void scavver (Longscar) either driven off or left wounded, the crew's choice from session 6.
 - **The Vellum/Carrow correspondence box is still with Vaelren Windsong**, not retrieved yet (corrected: Estra's own chest was never moved, it stays with her, `campaign/Story Spine.md`).
-- **Wyndham Aldane / Aurel Delverane, branch point from session 6:** whether the disguise held or broke during that session's play determines how &sect;8 below actually runs. Both versions below, pick live based on what happened.
+- **Wyndham Aldane / Aurel Delverane, branch point from session 6:** whether the disguise held or broke during that session's play determines how &sect;9 below actually runs. Both versions below, pick live based on what happened.
 - Aerion's Carraway/Dog Show offer, answered or still open, whichever way session 6 left it.
 - Still untouched: Fifth House paperwork and Vaelros, the *Quiet Verge*'s fate, Splinter's real nature (left exactly as unconfirmed as ever).
 - The two Wayfinder Knot plants (the shanty, the knot) are in, GM-only, no payoff due this session or next.
@@ -18,7 +18,7 @@ Warm, short, the actual return after a real, dangerous leg. Not a recap, the fir
 **Read aloud:**
 > The Rock swallows the ship the way it always does, familiar noise closing back in, the Charter Window's chalkboard clatter, someone's radio three berths over, the particular smell of a hundred ships' cooking all competing at once. Finny's already on the gangplank before the mooring lines are even tied off, practically vibrating.
 
-- Finny's the one who brings the news in &sect;4, let him have the moment rather than narrating it flatly.
+- Finny's the one who brings the news in &sect;5, let him have the moment rather than narrating it flatly.
 - Good spot for a single, quiet line of aftermath from the void scavver fight, whoever carries it (Estra, Wyndham, anyone), before the session moves on to its lighter business.
 
 ## 3. The Charter Window board, refreshed
@@ -49,7 +49,61 @@ The first real board rotation since session 4 (session 5 just flew a leftover po
 
 **Seventeen live postings total**, not counting the standing three.
 
-## 4. The Manifest Board, updated
+## 4. Sprat, and Finny: the rumor mill
+
+Two separate tracks, the usual homecoming shape. Sprat's own patter stays local and kid-scale but can hint at bigger things without understanding them; Finny's is the bigger Charter Window table.
+
+**Sprat's table, d20.** Secondhand, overheard, half-garbled, an eleven-year-old's honest best guess at what any of it means.
+
+| d20 | Sprat's news |
+|---|---|
+| 1 | He overheard two sailors arguing whether a current can get tired. One swore his ship's been slower every leg, same charts, same crew. |
+| 2 | Some fancy office sent runners asking for anybody who's crossed the Windward Edge recently. He didn't catch why. |
+| 3 | Word is a top-ten ship swapped captains overnight, no announcement, just a different woman on the Window the next morning. |
+| 4 | A spacer told him the stars don't come back exactly where they left off, like the sky's got a limp. He figured she was joking until she looked genuinely scared saying it. |
+| 5 | Someone at the Window offered real coin for anyone who's seen "a waystation that isn't on the chart anymore." He asked what that meant. They didn't answer. |
+| 6 | A rich-looking woman's been paying kids to watch which crews come and go from one specific berth. Not his usual kind of client, but she pays well enough he's not asking. |
+| 7 | The Registry's holding rank 10 "pending review" so long now, people are betting real money on when it opens. |
+| 8 | Overheard: somebody's family's been fighting over an old heirloom so long and so hard it's basically its own war by now. He didn't catch whose family. |
+| 9 | A hauler crew swapped a story about something big and dead drifting way out past the lanes, feeding on something else already dead. |
+| 10 | A merchant swore the weather-orbs at the Float Market "know" something, since one went off strange the same day a ship went missing. |
+| 11 | One of the big houses is quietly buying up old debts on smaller crews. Nobody's sure which, or why. |
+| 12 | A kid he half-trusts says there's a door in the lower city that only opens if you ask it nicely. He's checked. It's never once opened for him. |
+| 13 | A courier swears the mail route through contested space only stays safe because of a treaty nobody's actually seen written down. |
+| 14 | Someone official-looking's been asking after a ship called the *Quiet Verge*, like they expected it to answer back. |
+| 15 | A sailor three drinks in told him a patch of open dark folded in on itself and snapped back like fabric. Then bought a round and never brought it up again. |
+| 16 | A new Float Market stall sells little glass orbs that do real tiny weather. The vendor won't say how she makes them. |
+| 17 | He's pretty sure the harbor master's underpaying the lamplighters again, same as last year, same excuse. |
+| 18 | A spacer swapped a story about a whole colony that just wasn't where the charts said anymore. No wreck, no smoke, just gone. She wasn't joking when she told it. |
+| 19 | A kid two gantries over found a coin with a face nobody recognizes on it and is now convinced it's cursed, lucky, or both. |
+| 20 | A very senior captain's been seen wearing two different faces depending on the day. He's pretty sure that's just a figure of speech. |
+
+**Finny's table, refreshed, d20.** Sixteen entries carried forward from the original table (`Session 4 Prep.md`), none of which were ever actually rolled or delivered in play. Four new entries swap in for three that have been overtaken by actual events (Dessa and Sedge's situation is confirmed now, not gossip; the scraped-clean derelict hull mystery already played out as the *Quiet Verge*; the giff choir tied to a posting that's since retired to the archive) plus one thin filler cut to make room.
+
+| d20 | Gossip |
+|---|---|
+| 1 | The *Riptide Chorus* was seen steering by song alone, no hands on anything, which shouldn't work and does. |
+| 2 | *Due Process* filed a formal complaint against a rival crew so precisely worded it got approved in one pass, a Charter Window first. |
+| 3 | *Green Hollow* put into dock for the first time in months. Her captain is a tree, and the inspector still hasn't worked out which box to check for that. |
+| 4 | *Amity's Reward* is a derelict sitting in a permanent berth, no crew, no captain of record, hasn't flown in years. Someone keeps the fees and paperwork current anyway, quietly, on time, every quarter. Theories run from a grieving owner to a tax dodge to a hidden hold nobody's been brave enough to check. Nobody's ever actually tried the door. |
+| 5 | *First Class* ran a route through contested space nobody else will fly, untouched, because the mail treaty actually holds out there. |
+| 6 | Rank 15's holder dropped to the 40s overnight. No distress call, no sale on record, no captain seen at the Compass Rose since. The Registry's logged it as a voluntary withdrawal. Nobody buys that, and nobody's got a better answer. |
+| 7 | The Second Ledger's crew got another paid night off, Thessaly Darkshade's own coin again, this time because one of her riggers just became a parent, and she closed the whole crew's tab at the Compass Rose without being asked. |
+| 8 | Rank 10's listing is still "withheld pending review," long enough now that people are taking real bets on when it fills. Some say a name's deliberately being kept off during an audit. Others say the Registry just lost the paperwork and won't admit it. |
+| 9 | *Two for the Road* finished a contract other crews need six people for, crew of two, in four days, and won't say how. |
+| 10 | *Last Laugh* played a funeral and a wedding on the same day. Same jokes both times. Both crowds wept. |
+| 11 | *Witnessed* refused to notarize a contract over a single missing comma, twice, for the same client, who paid double just to see if she'd budge. She didn't. |
+| 12 | A new Float Market stall, run by a vendor nobody's placed before, sells little glass orbs that drizzle, snow, or flash tiny lightning when shaken, real weather, somehow, shrunk down small. She won't explain how they're made, only that "the sky doesn't mind sharing, if you ask nicely." Sells out every visit. |
+| 13 | A *Second Proof* outpost ship docked long enough for three grandmothers to out-gossip Finny personally. He's still sore about it. |
+| 14 | Compact Standard's Dessa Kell has told at least two people she's passing through the Rock of Bral soon, Compact business, nothing more specific than that. Word travels faster than she does. Whether she actually shows, and whether anyone she used to fly with hears about it first, is the whole bet. |
+| 15 | Deep in the lower city there's a door that's always locked, no handle, no visible lock, just old brass worn smooth by hands that tried anyway. The story insists that knocking three times and asking politely opens it, once, for whoever's patient enough, and that whatever's behind it is worth whatever it costs to find out. Everyone knows someone who knows someone who did it. Nobody telling the story claims to have done it themselves. |
+| 16 | A kid on the gantry and a spacer three drinks past reasonable, two separate nights, two people who've never met, telling almost the same story: a patch of open dark that didn't look right, lights or shapes moving wrong, folding in on itself and snapping back like fabric, gone before anyone else could look. Neither's backing down from it, and neither's touched a drink since telling it, which is the detail that's actually spreading. |
+| 17 | Word's come in secondhand from a hauler crew that a void scavver was sighted, far off, past the Tollmarch's edge, drifting alongside the wreckage of something it had already fed on. Nobody telling the story saw it themselves, and it hasn't come anywhere near the lanes. Distant, awed unease, not danger. |
+| 18 | Vaelren Windsong introduced two drinking buddies at the Compass Rose as "the new crew," three rounds deep and clearly just talking. The rumor's only grown since: half the dock now swears he's quietly assembling a ship of his own and poaching talent dry. He hasn't said a word to confirm or deny it, which everyone's taking as confirmation. |
+| 19 | Ask any tortle dockside about "the Half-Shell Wars" and watch the mood change. Nine hundred-some siblings, four factions, a fight that's been going for longer than most crews have been flying, over a shell nobody outside the family's ever actually seen. Everyone's heard of it. Nobody not born into it understands what it's actually over. |
+| 20 | **A captain who's run the same resupply route to a small frontier colony for three years, enough to know every soul on it by name, swears the colony isn't where the charts say anymore.** Not wrecked. Not evacuated, no notice filed anywhere. She flew the exact heading her instruments gave her and found open dark where a settlement should have been, no debris, no glow, nothing. She's filed a report. It landed, as it happens, on Meech's desk, though nobody but him knows that yet. Plot-forward, Guttering-adjacent, stays dormant unless the table bites. |
+
+## 5. The Manifest Board, updated
 
 **Climbing to 334th**, up from 340th. A founding-house client (Aurel Delverane's own survey office), real survey data delivered, and a named, dangerous apex predator encountered and either driven off or fought outright, that's comparable weight to session 3's five-rank jump, a DM judgment call, not a formula (`factions/The Manifest Board.md`).
 
@@ -57,13 +111,13 @@ The first real board rotation since session 4 (session 5 just flew a leftover po
 
 **Let Finny deliver it as pure celebration.** Simple, earned, no complications attached this time.
 
-## 5. Dessa and Sedge, however it resolves
+## 6. Dessa and Sedge, however it resolves
 
 **Sedge Okonkwo** (the *Bright Arrears*, rank ~250) is in port. Last seen (session 4), Orena pushed him to go find **Dessa Kell** (the *Compact Standard*, rank 9) and actually say in person what he couldn't explain, why he can't just stop flying when she asked him to.
 
 **Open, GM's call live:** whether Dessa is physically in port too, for a real, witnessed reunion scene, or whether this is Sedge reporting back on what happened since, changed, unchanged, or still unresolved. Either works. If the crew asks, Sedge's own guilt and gratitude toward Orena specifically (she's the one who pushed him) is worth a real, earned beat regardless of how the Dessa half resolves.
 
-## 6. Sable's spotlight: the Half-Shell Wars
+## 7. Sable's spotlight: the Half-Shell Wars
 
 A real individual scene, triggered by coincidence, not a search. One of Sable's many siblings happens to be docked at the Rock.
 
@@ -75,15 +129,15 @@ A real individual scene, triggered by coincidence, not a search. One of Sable's 
 - Sable's own reaction is hers to play live, embarrassment, pride, complicated homesickness, or some mix, not scripted.
 - Don't resolve the war or explain the Half-Shell's actual nature. This is color and family texture, not a quest hook, unless the table wants to pick it up later.
 
-## 7. Vaelren: the box comes back, and a little Carrow lore
+## 8. Vaelren: the box comes back, and a little Carrow lore
 
 A real scene, not a handoff narrated in a line. The crew retrieves the Vellum/Carrow correspondence box from Vaelren at the Compass Rose or his own room.
 
 **He hands it back without ceremony**, easy and unbothered, per his standing voice (`npcs/Vaelren Windsong.md`). Worth one open beat: whether he looked inside it himself while he had it, his call to reveal or not, not decided here.
 
-**A little Carrow lore, in his own voice, not a lecture.** He's old enough and well-traveled enough to have crossed paths with the Amberwake corridor or House Carrow's people once, long before its fall. Keep it personal and small: a story, a name he remembers, a feeling about the place, not exposition about *why* the corridor failed, that stays Tier 2's to hand out. This is table color that seeds dread ahead of &sect;8's offer, not an answer to anything.
+**A little Carrow lore, in his own voice, not a lecture.** He's old enough and well-traveled enough to have crossed paths with the Amberwake corridor or House Carrow's people once, long before its fall. Keep it personal and small: a story, a name he remembers, a feeling about the place, not exposition about *why* the corridor failed, that stays Tier 2's to hand out. This is table color that seeds dread ahead of &sect;9's offer, not an answer to anything.
 
-## 8. The pivot: Aurel's offer, the Carrow corridor and the Amberwake
+## 9. The pivot: Aurel's offer, the Carrow corridor and the Amberwake
 
 **Branch on how session 6 actually went:**
 
@@ -94,7 +148,7 @@ A real scene, not a handoff narrated in a line. The crew retrieves the Vellum/Ca
 
 **What this launches**, GM-only, not stated to the players tonight: the kindori cull, the whale fall, the Carrow waystation, and Aeravellis's own thread all sit downstream of this contract. Nothing here should gesture at any of it yet.
 
-## 9. Ending hook
+## 10. Ending hook
 
 The crew commits to the voyage, or at least to hearing more about it, and the session closes on departure prep, not the trip itself. A clean, warm-to-uneasy transition: the Board win, the family reunions, the silly tortle lore, all giving way to the sense that whatever's next is bigger than anything they've done so far.
 
@@ -103,6 +157,6 @@ The crew commits to the voyage, or at least to hearing more about it, and the se
 - Fifth House paperwork and Vaelros, still untouched, worth a scene soon, genuinely overdue now.
 - Splinter's real nature, left exactly as unconfirmed as before.
 - The *Quiet Verge*'s "did they make it" question, still open.
-- Vaelren's Carrow anecdote from &sect;7, planted, not yet paid off.
+- Vaelren's Carrow anecdote from &sect;8, planted, not yet paid off.
 - The Wayfinder Knot plants stay banked for the end of arc 1, not sooner.
 - **Session 8 onward: the Amberwake arc actually opens.** The corridor itself, the Carrow waystation, Longscar's broader ecology, and eventually the whale fall and Aeravellis's thread all live there, none of it built yet.
