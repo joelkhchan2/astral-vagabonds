@@ -18,13 +18,17 @@ No point system, no formula. **The Board updates whenever the crew is back at a 
 
 > **Updated for session 4: crew now 340th, reassessed up from an earlier 344th.** Two Chairs Short (session 3) was first scored as a modest joint-job bump, one rank for supporting Albus's *Fair Return* rather than climbing solo. On reflection that undersold it: it was a real fight, not an escort formality (the Velvet Comet raid, a live boarding action, first real test of the crew-pool combat rules), flown alongside a ship ranked well above them, and the client paying out personally was **Cordelia Leaftully** of the Leaftully Institute, a name with real weight attached. That's a five-rank job, not a one-rank job, and the Board's own update lands accordingly. The *Fair Return* climbs too, on the strength of the same job, a confirmed **331st up to 329th**, still comfortably ahead of the crew, Albus remains the senior partner in that friendship, not someone they passed. Real churn alongside it: Dov Errin's *Steadfast Promise*, impounded eleven months, finally lost its charter outright, a hull sealed that long simply stops getting renewed, so the board compresses by one rather than opening a slot. The Weatheralls' *Kettle* climbs one too, a small, earned bump, unrelated to any of this. Rimmon Vex's *Cutlass Sunday* gets passed by both the crew and the Kettle in the same update, dropping two full ranks, which lands as a sharper insult than the usual one-rank slide, exactly the kind of thing he takes personally.
 
+> **Updated for session 7: crew now 311th, up from 340th, the single biggest climb yet.** Not simple contract value: real survey data delivered to a founding house, Longscar either driven off or fought outright, and real reputational weight from being seen keeping close company with both Vaelren Windsong (20th) and Aurel Delverane (3rd, completing a serious personal commission for her). The Board reads visible association like that as harder evidence than the job itself, and this is the first time that's been the real driver of a climb rather than the job's own value. The threshold this doc flagged early on, breaking the low 300s, is now in sight rather than theoretical. Real churn moved alongside it, not caused by it: the *Riptide Chorus*, riding a strong kindori season on her own merits, had already climbed to **326th** before the crew passed her there, worth a beat given the Windward Edge's own kindori content. *Due Process* climbed hard too, all the way to **318th**, by-the-book efficiency finally paying off, a narrower, prouder pass for the crew. Albus's *Fair Return* climbed one rank of her own this same cycle, to **310th**, which keeps him just ahead, the senior partner a little longer, and puts them close enough now to actually be neighbours rather than strangers at a distance.
+
 > **Why this matters more than it looks.** The Board is the one objective measure of an independent crew, and Aerion's family dismisses it because it ranks independent operators and they don't consider those real. Simply climbing it never changes their minds. **Making the Board matter does**, and that turns out to be the same project as the nomadic living-sky network, which is also the lever that eventually lets Aerion take over the company. See `campaign/Story Spine.md` and `House Windsong.md`.
 
 ---
 
 ## The Bottom: where the crew lives
 
-These ten, five above and five below, are the crew's immediate neighbourhood for a long time, and they should become recurring furniture. About half of them are jokes. About half of them are not.
+**This was home through session 6.** As of session 7's climb to 311th, the crew has left this neighbourhood behind (see the update note above and the new-neighbourhood table further down); the faces below stay as the record of where they started and who they grew up around, and several of them (*Riptide Chorus*, *Due Process*, *Fair Return*) are worth carrying forward into the new one rather than discarding.
+
+These ten, five above and five below, were the crew's immediate neighbourhood for a long time, and should stay recurring furniture even from a distance now. About half of them are jokes. About half of them are not.
 
 **349. *Vermilion Hour*:** Squid-class, owner unknown. **On fire.** Has been on fire for six months. The fire is a bound elemental in a cargo hold nobody can open, and the CIV cannot decide whether an unextinguished ship counts as operational. The *Vermilion Hour* files perfect paperwork every quarter. Nobody has ever met her captain.
 
@@ -57,7 +61,7 @@ Full lyrics unwritten on purpose, easy to draft on demand whenever a real scene 
 
 **341. *Last Laugh*:** Cutter-class, a legitimate clown troupe, captained (billed) by **Marisol "Mother" Quick**. Genuine performers-for-hire, warm and a little strange, booked for weddings and funerals both, same jokes either way. The tonal cousin to the Velvet Comet, same aesthetic, opposite intent, good for undercutting the dread if that thread ever resurfaces.
 
-**340. THE CREW.** Started at 348 after job one, climbed to 345 after session 2's combined vacancy-and-climb update, then to 340 after session 4's reassessment of Two Chairs Short, a real fight for a legendary client, not a modest joint-job bump. See the update note above.
+**340, then 311. THE CREW.** Started at 348 after job one, climbed to 345 after session 2's combined vacancy-and-climb update, then to 340 after session 4's reassessment of Two Chairs Short, a real fight for a legendary client, not a modest joint-job bump. Climbed again, a 29-rank jump, to **311th** as of session 7, the biggest single climb yet, driven as much by reputation-by-association as by the job itself. See the update notes above.
 
 > **Fair Return moved out of this neighbourhood, not into it.** Albus climbed too, 331st to 329th, on the strength of the same job, but that puts him further above the crew now, not beside them. He's warm, real, and a friend, see the Mid-board entry below, just not someone they'll run into by accident anymore.
 
@@ -68,11 +72,11 @@ Full lyrics unwritten on purpose, easy to draft on demand whenever a real scene 
 
 **338. *First Class*:** Cutter-class, astral postal carriers, captained by **Oswin Carrack**. Treaty-protected, nobody boards them, nobody's tried twice. "The mail always gets through" is an enforced fact of the setting here, not a figure of speech, and a plot-delivery device if the table ever needs one.
 
-**337. *Due Process*:** Cutter-class, three retired Route Wardens running contracts privately, captained by **Ressa Tolliver**. By the book, to the letter, no exceptions, for anyone. A friction magnet for anyone cutting corners (Vex especially), and a real ally or a real obstacle depending what the crew's quietly carrying at the time.
+**337, then 318. *Due Process*:** Cutter-class, three retired Route Wardens running contracts privately, captained by **Ressa Tolliver**. By the book, to the letter, no exceptions, for anyone. A friction magnet for anyone cutting corners (Vex especially), and a real ally or a real obstacle depending what the crew's quietly carrying at the time. Climbed hard on her own, to 318th by session 7, by-the-book efficiency finally paying off, which makes the crew's pass here a narrower, prouder one than most.
 
 **336. *Green Hollow*:** Unclassed, a living treant grown rather than built, who is herself the ship's captain in every sense that matters. Named **Hollowmoss**, ancient and slow to speak, crewed by awakened animals who followed her out of the forest she used to stand in, among them an owl navigator (**Pellit**) and a bear engineer (**Grum**). Warm, strange, a little sacred. She doesn't speak often. It means something when she does.
 
-**335. *Riptide Chorus*:** Unclassed, kindori riders, captained by **Wyn Oakhollow**, half-elf, who steers by singing alongside the pod rather than commanding a crew in the usual sense. A different, hands-on cousin to Sael Rowe's own kindori-adjacent reputation at rank 8, visibly stranger to watch work.
+**335, then 326. *Riptide Chorus*:** Unclassed, kindori riders, captained by **Wyn Oakhollow**, half-elf, who steers by singing alongside the pod rather than commanding a crew in the usual sense. A different, hands-on cousin to Sael Rowe's own kindori-adjacent reputation at rank 8, visibly stranger to watch work. Climbed on her own merits, a strong kindori season, to 326th by session 7, which is where the crew actually passes her now, not at her old spot.
 
 **346. *Cutlass Sunday*:** Cutter-class, captained by **Rimmon Vex**, human, forties, sour. The one bottom-feeder with teeth. Vex blames his rank on everyone but himself, scavenges wrecks and salvage that aren't legally his, undercuts on price, and will board a ship he reads as weaker if he thinks the Wardens won't hear about it. **Not a villain, a desperate man at the bottom doing desperate things,** but he is the crew's most reliable low-board *scrap*, and he takes being passed on the Board as a personal insult, which session 4's double slide (passed by the crew and by the Kettle in one update) makes considerably worse.
 > **This is the rival with teeth.** Where Bex is the friendly ceiling, Vex is the recurring fight-and-friction. When you want a combat or a confrontation that isn't a one-off stranger, it's the *Cutlass Sunday* coming around again. Great continuity for a crew whose whole social world is the bottom of the Board.
@@ -94,7 +98,7 @@ Play the same faces enough that the players know them by ship name, and the Boar
 ## Mid-board faces (ranks they'll hear, then meet)
 
 Names to drop as rumour long before the crew climbs to them, so the middle of the Board feels populated:
-- **329. *Fair Return*:** Cutter-class, captained by **Marlow Albus**, human, fifties, a small, professional escort-and-courier outfit, nine crew normal complement, **five now**, four lost over the past month, none of it to violence (a poaching, a homesickness, a teleportation mishap, and a runaway who joined a travelling troupe, see `sessions/Session 3 Prep.md`). **Met in session 3** (Two Chairs Short): sought out the *Night Fury* specifically, on reputation rather than rank, for the second hull Stoneward's escort licensing requires. **Voice tic:** contract language even off the clock, "acceptable terms," "within scope." **Physical tic:** checks the manifest even when he already knows what's on it. First named example of the campaign's own standing theme (the Board's number isn't the real measure) landing from someone *above* the crew rather than below it, confirmed rather than undercut by session 4: he climbed too, 331st to 329th, on the strength of the same job, and stays their senior in rank even as the friendship stays level. Worth deciding whether he grows into a recurring warmer face at this rank tier, similar in shape to the *Long Odds* below, or stays a one-job thread.
+- **329, then 310. *Fair Return*:** Cutter-class, captained by **Marlow Albus**, human, fifties, a small, professional escort-and-courier outfit, nine crew normal complement, **five now**, four lost over the past month, none of it to violence (a poaching, a homesickness, a teleportation mishap, and a runaway who joined a travelling troupe, see `sessions/Session 3 Prep.md`). **Met in session 3** (Two Chairs Short): sought out the *Night Fury* specifically, on reputation rather than rank, for the second hull Stoneward's escort licensing requires. **Voice tic:** contract language even off the clock, "acceptable terms," "within scope." **Physical tic:** checks the manifest even when he already knows what's on it. First named example of the campaign's own standing theme (the Board's number isn't the real measure) landing from someone *above* the crew rather than below it, confirmed rather than undercut by session 4: he climbed too, 331st to 329th, on the strength of the same job, and stays their senior in rank even as the friendship stays level. **Climbed once more on his own, to 310th, by session 7**, the same cycle the crew jumped to 311th, which keeps him just ahead rather than passed, close enough now to actually be neighbours. Worth deciding whether he grows into a recurring warmer face at this rank tier, similar in shape to the *Long Odds* below, or stays a one-job thread.
 - **~250. *Bright Arrears*:** captained by **Sedge Okonkwo**, a former Vane Compact hand who took the Pale Reach's buyout and has never once looked comfortable about it. A living answer to "what would it cost to just take the deal?" Aboard the *Compact Standard* (rank 9, below) they'd find the answer he didn't give.
 - **~220. *Halloway's Second*:** Bex's estranged sister **Present Halloway** runs it, and the two do not speak. A future soft hook if the players like Bex.
 - **~180. *Merigold*:** a Nightbreeze-insured family freighter that climbs suspiciously fast and never files an incident. Aerion's ledger-eye might wonder how. (Quiet Aeravellis-adjacent seed, optional.)
@@ -132,14 +136,25 @@ They will not meet these people for a long time. They should hear the names cons
 
 **The bottom**
 
+This table tracked the crew's old bottom-of-the-board neighbourhood (335 to 349) through session 6. As of session 7's 29-rank climb to 311th, that's no longer where they live; the table below reflects the new neighbourhood, and the old one stays below as a historical record.
+
 | Rank | Vessel | Captain | Disposition | Recurs as |
 |---|---|---|---|---|
-| 335 | *Riptide Chorus* | Wyn Oakhollow | Strange, warm | Kindori riders, steers by song |
+| 310 | *Fair Return* | Marlow Albus | Warm, senior | Climbed one rank the same cycle, session 7, stays just ahead |
+| **311** | **the crew** | **Estra Vane** | (home) | **home as of session 7; up from 340, a 29-rank reputation-by-association climb (Vaelren, Aurel, Longscar)** |
+| 318 | *Due Process* | Ressa Tolliver | By the book | Ex-Wardens; climbed to 318 by session 7, a narrower pass |
+| 326 | *Riptide Chorus* | Wyn Oakhollow | Strange, warm | Kindori riders, steers by song; climbed to 326 by session 7 |
+
+**The old neighbourhood, 335 to 349 (home through session 6)**
+
+| Rank | Vessel | Captain | Disposition | Recurs as |
+|---|---|---|---|---|
+| 335 | *Riptide Chorus* (former) | Wyn Oakhollow | Strange, warm | Since climbed to 326, see above |
 | 336 | *Green Hollow* | Hollowmoss | Strange, warm | A living treant, her own captain; awakened-animal crew |
-| 337 | *Due Process* | Ressa Tolliver | By the book | Ex-Wardens, friction for anyone cutting corners |
+| 337 | *Due Process* (former) | Ressa Tolliver | By the book | Since climbed to 318, see above |
 | 338 | *First Class* | Oswin Carrack | Untouchable | Treaty-protected mail; a plot-delivery device if ever needed |
 | 339 | *Two for the Road* | Bryn & Seli Hollis | Unsettlingly good | Crew of two, married, outworks six-person crews |
-| **340** | **the crew** | **Estra Vane** | (home) | **home; up from 348, part vacancy, part earned climb (345 after session 2, 340 after session 4's reassessed Two Chairs Short)** |
+| **340 (former)** | **the crew** | **Estra Vane** | (home through session 6) | 348 to 340 across sessions 1 to 4; climbed to 311 by session 7, see above |
 | 341 | *Last Laugh* | Marisol "Mother" Quick | Warm, strange | Legitimate clown troupe, the Velvet Comet's tonal opposite |
 | 342 | *Witnessed* | Perpetua Marsh | Exacting | Traveling notaries, a mirror for Meech |
 | 343 | *Second Proof* | Ouma Birch | Warm | Maude Underhill's new venture, the Galactic Grandmas; baking as the front |
@@ -152,7 +167,7 @@ They will not meet these people for a long time. They should hear the names cons
 
 *The **Grendel's Wake** (Bex Halloway) no longer appears; destroyed at Reefside, session 1. See the update note at the top of this file.*
 
-*The **Fair Return** (Marlow Albus) no longer appears here either; climbed to 329th as of session 4, a mid-board ally now rather than a neighbour. See Mid-board faces, below.*
+*The **Fair Return** (Marlow Albus) climbed to 329th as of session 4, a mid-board ally rather than a neighbour, then to 310th as of session 7, close enough now to actually be neighbours again. See Mid-board faces, below, and the new-neighbourhood table above.*
 
 **The top ten**
 

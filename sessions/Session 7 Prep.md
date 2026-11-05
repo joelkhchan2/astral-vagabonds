@@ -105,11 +105,11 @@ Two separate tracks, the usual homecoming shape. Sprat's own patter stays local 
 
 ## 5. The Manifest Board, updated
 
-**Climbing to 334th**, up from 340th. A founding-house client (Aurel Delverane's own survey office), real survey data delivered, and a named, dangerous apex predator encountered and either driven off or fought outright, that's comparable weight to session 3's five-rank jump, a DM judgment call, not a formula (`factions/The Manifest Board.md`).
+**Climbing to 311th**, up from 340th, a 29-rank jump, the biggest single climb the crew's had. Not a contract-value bump like session 3's five ranks: real survey data for a founding house and Longscar driven off or fought outright are part of it, but the real weight is reputation by association, being seen in company with both **Vaelren Windsong** (a genuine top-20 captain) and **Aurel Delverane** herself completing a serious personal commission for her. The Board reads that kind of visible vouching as harder evidence than the job itself (`factions/The Manifest Board.md`).
 
-**Who they pass on the way:** *Two for the Road* (339), *First Class* (338), *Due Process* (337), *Green Hollow* (336), and *Riptide Chorus* (335, kindori riders), landing at the open 334th slot. Worth a quiet beat on passing the *Riptide Chorus* specifically, a kindori-rider crew, right after the Windward Edge's own kindori content. No other ship needs to react this time, not every climb needs a rival's grudge attached.
+**Who they pass on the way:** *Two for the Road* (339), *First Class* (338), *Green Hollow* (336), then a long unremarkable stretch through the 320s, with two named crews worth a specific beat because they'd climbed on their own merits in the same window: the ***Riptide Chorus*** (326, kindori riders, a strong season of her own, right after the Windward Edge's own kindori content), and ***Due Process*** (318, by-the-book efficiency finally paying off, a narrower, prouder pass than most). They land at **311th**, just below **Marlow Albus's *Fair Return*** at 310th, who climbed one rank the same cycle and stays just ahead, the senior partner a little longer, close enough now to actually be neighbours rather than strangers at a distance.
 
-**Let Finny deliver it as pure celebration.** Simple, earned, no complications attached this time.
+**The reception is mixed, on purpose.** Real cheers at the Compass Rose, Finny leading it, nobody holding back. A formal, visible acknowledgment at the Charter Window itself when the new number goes up, the kind that gets noticed. But also a few open glances and at least one outright glare from faces further up the board, a climb this size at this speed reads as a threat to somebody, not just a milestone. Don't name who yet unless the table wants a specific face attached; the discomfort is the point, not a new rival introduced on the spot.
 
 ## 6. Dessa and Sedge, however it resolves
 
