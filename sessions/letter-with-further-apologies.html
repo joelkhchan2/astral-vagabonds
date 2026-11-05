@@ -1,0 +1,64 @@
+<title>A Letter, Regarding a Garden Ornament</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  :root {
+    --paper: #eef0e8; --ink: #23261f; --ink-soft: #565c4e; --faint: #80876f;
+    --rule: #c7cbbb; --rule-strong: #a5ab92; --accent: #4f6b4a;
+  }
+  * { box-sizing: border-box; }
+  html { background: #b9c0ad; }
+  body { margin: 0; padding: 30px 16px 70px; background: #b9c0ad; color: var(--ink);
+    font-family: "IM Fell English", "Iowan Old Style", Georgia, serif; font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+  .wrap { max-width: 620px; margin: 0 auto; }
+
+  .header { text-align: center; margin-bottom: 20px; }
+  .header .file { font-family: "Courier Prime", monospace; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft);
+    background: var(--paper); border: 1px solid var(--rule-strong); display: inline-block; padding: 5px 14px; box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .header h1 { font-family: "IM Fell English SC", Georgia, serif; font-size: clamp(1.4rem, 5vw, 1.9rem); letter-spacing: .03em; margin: 10px 0 2px; color: var(--ink); }
+  .header .sub { font-style: italic; color: var(--ink-soft); font-size: .92rem; }
+
+  .sheet { background: var(--paper); border: 1px solid var(--rule-strong); box-shadow: 0 3px 9px rgba(20,24,16,.26); position: relative; padding: 30px 32px 26px; }
+  .sheet::before { content: ""; position: absolute; inset: 9px; border: 1px solid var(--rule); pointer-events: none; }
+
+  .meta { display: flex; justify-content: center; font-family: "Courier Prime", monospace; font-size: 11px; color: var(--ink-soft);
+    border-top: 1px dashed var(--rule-strong); border-bottom: 1px dashed var(--rule-strong); padding: 7px 0; margin: 0 0 16px; }
+
+  .body p { margin: 0 0 13px; }
+  .body p:last-of-type { margin-bottom: 0; }
+  .body p.first::first-letter { font-family: "IM Fell English SC", Georgia, serif; font-size: 1.6em; color: var(--accent); }
+
+  .sign { margin-top: 18px; text-align: right; font-style: italic; }
+  .sign .name { font-weight: 700; font-style: normal; display: block; font-size: 1.1em; }
+
+  .caption { text-align: center; font-style: italic; color: var(--ink-soft); font-size: .9rem; margin: 14px 0 0; }
+
+  @media (max-width: 480px) { .sheet { padding: 24px 20px 20px; } }
+  @media print { .header, .sheet { break-inside: avoid; page-break-inside: avoid; } }
+</style>
+
+<div class="wrap">
+  <div class="header">
+    <span class="file">Delivered at Further, Entirely Avoidable Expense</span>
+    <h1>To Ansel</h1>
+    <div class="sub">regarding the matter of the garden gnome</div>
+  </div>
+
+  <div class="sheet">
+    <div class="meta">This Escalation Has Been a Long Time Coming</div>
+    <div class="body">
+      <p class="first">I had, in good faith, considered the teapot matter closed. I want that on the record, same as you wanted your strainer on the record, because apparently that is simply how we do things now.</p>
+      <p>My gnome is missing. The one with the little lantern, the one you have called "hideous" to my face no fewer than four times, which I now understand was not an opinion, it was reconnaissance.</p>
+      <p>I do not call this theft. I call it what it is: a man who could not simply let a warm teapot go, finding a new and smaller object to be aggrieved about on my behalf, as a kind of gift. I am not thanking you for this gift.</p>
+      <p>Return the gnome. Return it with its lantern intact, or I will be forced to describe, in writing, to people who did not ask, exactly how "slightly warmer than received" a teapot can actually get.</p>
+      <p>I remain, as ever, the wronged party.</p>
+    </div>
+    <div class="sign">
+      <span class="name">Thistle</span>
+    </div>
+  </div>
+  <p class="caption">With Further Apologies &middot; round two, 125 gp, considerably less well spent</p>
+</div>
