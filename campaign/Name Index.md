@@ -25,6 +25,7 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | Aeravellis Windsong | `npcs/Aeravellis Windsong.md` | Aerion's brother, SVP of Delivery Operations in name only, secretly in debt to Darkshade, survived a trip into the Amberwake. |
 | Prudence Hale | `npcs/Prudence Hale.md` | House Nightbreeze senior underwriter, recurring. Offered 20,000 gp for Vellum intel. |
 | The Wayfinder Knot | `npcs/The Wayfinder Knot.md` | **GM-only truth.** Orena's lost guild; alive, thriving, on their own crew. |
+| Sedge Okonkwo & Dessa Kell | `npcs/Sedge Okonkwo.md` | Former Vane Compact captains. Sedge took Vellum's buyout; Dessa rebuilt independently. Session 7: Estra's move to buy him free. |
 
 ## Factions and houses
 

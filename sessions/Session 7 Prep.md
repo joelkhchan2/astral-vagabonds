@@ -6,7 +6,7 @@ A pure interlude at the Rock of Bral, no job, no battle. Several threads left st
 
 - Open Water, Open Season complete: 3,100 gp collected, Orena's survey data sold or not, her call. The Windward Edge's void scavver (Longscar) either driven off or left wounded, the crew's choice from session 6.
 - **The Vellum/Carrow correspondence box is still with Vaelren Windsong**, not retrieved yet (corrected: Estra's own chest was never moved, it stays with her, `campaign/Story Spine.md`).
-- **Wyndham Aldane / Aurel Delverane, branch point from session 6:** whether the disguise held or broke during that session's play determines how &sect;9 below actually runs. Both versions below, pick live based on what happened.
+- **Wyndham Aldane / Aurel Delverane, branch point from session 6:** whether the disguise held or broke during that session's play determines how &sect;10 below actually runs. Both versions below, pick live based on what happened.
 - Aerion's Carraway/Dog Show offer, answered or still open, whichever way session 6 left it.
 - Still untouched: Fifth House paperwork and Vaelros, the *Quiet Verge*'s fate, Splinter's real nature (left exactly as unconfirmed as ever).
 - The two Wayfinder Knot plants (the shanty, the knot) are in, GM-only, no payoff due this session or next.
@@ -18,10 +18,34 @@ Warm, short, the actual return after a real, dangerous leg. Not a recap, the fir
 **Read aloud:**
 > The Rock swallows the ship the way it always does, familiar noise closing back in, the Charter Window's chalkboard clatter, someone's radio three berths over, the particular smell of a hundred ships' cooking all competing at once. Finny's already on the gangplank before the mooring lines are even tied off, practically vibrating.
 
-- Finny's the one who brings the news in &sect;5, let him have the moment rather than narrating it flatly.
+- Finny's the one who brings the news in &sect;6, let him have the moment rather than narrating it flatly.
 - Good spot for a single, quiet line of aftermath from the void scavver fight, whoever carries it (Estra, Wyndham, anyone), before the session moves on to its lighter business.
 
-## 3. The Charter Window board, refreshed
+## 3. Ship goals: the quarterly all-hands
+
+A workplace-comedy beat, right after the homecoming lands, before anyone's finished breakfast. **Estra institutes this**, a quiet echo of something she used to run back when she captained an actual fleet, though nobody aboard knows that's where it's from. She doesn't explain herself. **Aerion sits at her right hand with the ledger open**, as bosun and quartermaster, visibly running the numbers side of the room. Nothing he says or does here is scripted, his own call entirely.
+
+**Read aloud:**
+> Estra's got the whole crew crowded into the galley before anyone's finished breakfast, Aerion already seated beside her with the ledger open to a page marked in his own hand. She doesn't raise her voice. She never has to. "Going forward, we're doing this properly. Once a quarter. Goals." Finny's visibly thrilled. Nobody else quite is.
+
+**Company goals**, read flat and dry by Estra, each with an ordinary surface meaning and a real one she never says aloud:
+- **"Bigger contracts. Real pay, not garbage work."** Surface: overdue common sense. Underneath: gold enough to fund something bigger than one ship, the whole reason she's tolerated the bottom of the Board for fifteen years.
+- **"Every route gets charted and filed. No exceptions, no skipping it because the job's small."** Surface: professionalism. Underneath: she's still quietly building the dataset her own instincts never had the science to back up, and some part of her is waiting for this crew's data to finally prove what fifteen years alone couldn't.
+- **"Any contract that touches House Vellum, in any form, comes to me personally before anyone answers it."** Surface: ordinary vetting. Underneath: an old enemy who buried a fleet once already, and she doesn't intend to be caught flat-footed by them a second time.
+- **"Keep climbing the Board."** Surface: plain pride. Underneath: rank is leverage, and leverage is the only currency that gets a fleet back.
+
+**Individual goals, one round, in voice:**
+- **Tack:** devoted and specific, campaigning hard for the Plating II upgrade the table's been holding off on (8,200 gp, flagged in a prior session), framed entirely as what the ship needs rather than what he wants, though everyone aboard knows those are the same thing to him.
+- **Brass, as the ship's actual doctor:** something medical, pursued completely straight, a properly stocked medbay or a real surgical kit, phrased like a professional request rather than a personal want, carefully never using the word "license."
+- **Finny:** funny and Board-obsessed, something about getting the crew's name talked about at three other ports by the next printing, delivered like a campaign promise on a ship that seats maybe twelve.
+- **Oz:** stands to answer, formal and sincere, a stated commitment to protecting the ship and crew, phrased exactly like he's reporting to a commanding officer, because in his head he is.
+- **Judo:** the same territory as Oz, protecting the ship and crew, but delivered with his usual pre-deflection, already narrating the ways he might fall short before anyone else can bring it up.
+- **Sable:** total bravado on the surface, but the actual stated goal is to finally, properly learn to mop, the thing she got hired on a nat-20 fluke for and has never admitted she's still not that good at.
+- **Estra's own**, when it's her turn: dry and businesslike, no elaboration. *"Line up financing for a second hull this quarter."* Reads as a routine operational line to the room. What's actually behind it lands later this session (&sect;7).
+
+**Then it's handed to the table, genuinely open.** Aerion and Orena each get asked for theirs. Nothing scripted for either, this is theirs to answer or dodge.
+
+## 4. The Charter Window board, refreshed
 
 The first real board rotation since session 4 (session 5 just flew a leftover posting off that same board). Rumor/gossip table still to be built separately; this section is the job board only.
 
@@ -49,7 +73,7 @@ The first real board rotation since session 4 (session 5 just flew a leftover po
 
 **Seventeen live postings total**, not counting the standing three.
 
-## 4. Sprat, and Finny: the rumor mill
+## 5. Sprat, and Finny: the rumor mill
 
 Two separate tracks, the usual homecoming shape. Sprat's own patter stays local and kid-scale but can hint at bigger things without understanding them; Finny's is the bigger Charter Window table.
 
@@ -103,7 +127,7 @@ Two separate tracks, the usual homecoming shape. Sprat's own patter stays local 
 | 19 | Ask any tortle dockside about "the Half-Shell Wars" and watch the mood change. Nine hundred-some siblings, four factions, a fight that's been going for longer than most crews have been flying, over a shell nobody outside the family's ever actually seen. Everyone's heard of it. Nobody not born into it understands what it's actually over. |
 | 20 | **A captain who's run the same resupply route to a small frontier colony for three years, enough to know every soul on it by name, swears the colony isn't where the charts say anymore.** Not wrecked. Not evacuated, no notice filed anywhere. She flew the exact heading her instruments gave her and found open dark where a settlement should have been, no debris, no glow, nothing. She's filed a report. It landed, as it happens, on Meech's desk, though nobody but him knows that yet. Plot-forward, Guttering-adjacent, stays dormant unless the table bites. |
 
-## 5. The Manifest Board, updated
+## 6. The Manifest Board, updated
 
 **Climbing to 311th**, up from 340th, a 29-rank jump, the biggest single climb the crew's had. Not a contract-value bump like session 3's five ranks: real survey data for a founding house and Longscar driven off or fought outright are part of it, but the real weight is reputation by association, being seen in company with both **Vaelren Windsong** (a genuine top-20 captain) and **Aurel Delverane** herself completing a serious personal commission for her. The Board reads that kind of visible vouching as harder evidence than the job itself (`factions/The Manifest Board.md`).
 
@@ -111,13 +135,17 @@ Two separate tracks, the usual homecoming shape. Sprat's own patter stays local 
 
 **The reception is mixed, on purpose.** Real cheers at the Compass Rose, Finny leading it, nobody holding back. A formal, visible acknowledgment at the Charter Window itself when the new number goes up, the kind that gets noticed. But also a few open glances and at least one outright glare from faces further up the board, a climb this size at this speed reads as a threat to somebody, not just a milestone. Don't name who yet unless the table wants a specific face attached; the discomfort is the point, not a new rival introduced on the spot.
 
-## 6. Dessa and Sedge, however it resolves
+## 7. Dessa and Sedge, and Estra's real move
 
-**Sedge Okonkwo** (the *Bright Arrears*, rank ~250) is in port. Last seen (session 4), Orena pushed him to go find **Dessa Kell** (the *Compact Standard*, rank 9) and actually say in person what he couldn't explain, why he can't just stop flying when she asked him to.
+**Sedge Okonkwo** (the *Bright Arrears*, rank ~250) is in port. Last seen (session 4), Orena pushed him to go find **Dessa Kell** (the *Compact Standard*, rank 9) and actually say in person what he couldn't explain, why he can't just stop flying when she asked him to. Full backstory on both of them, and on why this is bigger than a love-letter thread, now lives in `npcs/Sedge Okonkwo.md`, not duplicated here.
 
 **Open, GM's call live:** whether Dessa is physically in port too, for a real, witnessed reunion scene, or whether this is Sedge reporting back on what happened since, changed, unchanged, or still unresolved. Either works. If the crew asks, Sedge's own guilt and gratitude toward Orena specifically (she's the one who pushed him) is worth a real, earned beat regardless of how the Dessa half resolves.
 
-## 7. Sable's spotlight: the Half-Shell Wars
+**Alongside it, not instead of it, Estra makes her real move.** This is her individual quarter goal from the cold open landing in the flesh: she's quietly lined up 100,000 gp (her own 20,000 gp, saved for exactly this, plus an 80,000 gp loan from House Nightbreeze) to buy Sedge free of Vellum's exclusivity clause on the *Bright Arrears*, and bring both him and the ship into her own fleet as its second hull. She doesn't pitch it as a job offer. She pitches it as what she's actually been building for fifteen years, a real chance for Sedge to help prove the system that trapped him doesn't have to be the only way to fly.
+
+**Not resolved here, genuinely live:** whether Sedge takes it, how Dessa reacts to learning about it, and whether the *Bright Arrears* actually changes hands this session or becomes a thread running into session 8. If it lands even partway, this is the first concrete step toward Estra rebuilding the Compact with an actual former captain, not just a locked chest and a private dream.
+
+## 8. Sable's spotlight: the Half-Shell Wars
 
 A real individual scene, triggered by coincidence, not a search. One of Sable's many siblings happens to be docked at the Rock.
 
@@ -129,15 +157,15 @@ A real individual scene, triggered by coincidence, not a search. One of Sable's 
 - Sable's own reaction is hers to play live, embarrassment, pride, complicated homesickness, or some mix, not scripted.
 - Don't resolve the war or explain the Half-Shell's actual nature. This is color and family texture, not a quest hook, unless the table wants to pick it up later.
 
-## 8. Vaelren: the box comes back, and a little Carrow lore
+## 9. Vaelren: the box comes back, and a little Carrow lore
 
 A real scene, not a handoff narrated in a line. The crew retrieves the Vellum/Carrow correspondence box from Vaelren at the Compass Rose or his own room.
 
 **He hands it back without ceremony**, easy and unbothered, per his standing voice (`npcs/Vaelren Windsong.md`). Worth one open beat: whether he looked inside it himself while he had it, his call to reveal or not, not decided here.
 
-**A little Carrow lore, in his own voice, not a lecture.** He's old enough and well-traveled enough to have crossed paths with the Amberwake corridor or House Carrow's people once, long before its fall. Keep it personal and small: a story, a name he remembers, a feeling about the place, not exposition about *why* the corridor failed, that stays Tier 2's to hand out. This is table color that seeds dread ahead of &sect;9's offer, not an answer to anything.
+**A little Carrow lore, in his own voice, not a lecture.** He's old enough and well-traveled enough to have crossed paths with the Amberwake corridor or House Carrow's people once, long before its fall. Keep it personal and small: a story, a name he remembers, a feeling about the place, not exposition about *why* the corridor failed, that stays Tier 2's to hand out. This is table color that seeds dread ahead of &sect;10's offer, not an answer to anything.
 
-## 9. The pivot: Aurel's offer, the Carrow corridor and the Amberwake
+## 10. The pivot: Aurel's offer, the Carrow corridor and the Amberwake
 
 **Branch on how session 6 actually went:**
 
@@ -148,7 +176,7 @@ A real scene, not a handoff narrated in a line. The crew retrieves the Vellum/Ca
 
 **What this launches**, GM-only, not stated to the players tonight: the kindori cull, the whale fall, the Carrow waystation, and Aeravellis's own thread all sit downstream of this contract. Nothing here should gesture at any of it yet.
 
-## 10. Ending hook
+## 11. Ending hook
 
 The crew commits to the voyage, or at least to hearing more about it, and the session closes on departure prep, not the trip itself. A clean, warm-to-uneasy transition: the Board win, the family reunions, the silly tortle lore, all giving way to the sense that whatever's next is bigger than anything they've done so far.
 
@@ -157,6 +185,6 @@ The crew commits to the voyage, or at least to hearing more about it, and the se
 - Fifth House paperwork and Vaelros, still untouched, worth a scene soon, genuinely overdue now.
 - Splinter's real nature, left exactly as unconfirmed as before.
 - The *Quiet Verge*'s "did they make it" question, still open.
-- Vaelren's Carrow anecdote from &sect;8, planted, not yet paid off.
+- Vaelren's Carrow anecdote from &sect;9, planted, not yet paid off.
 - The Wayfinder Knot plants stay banked for the end of arc 1, not sooner.
 - **Session 8 onward: the Amberwake arc actually opens.** The corridor itself, the Carrow waystation, Longscar's broader ecology, and eventually the whale fall and Aeravellis's thread all live there, none of it built yet.

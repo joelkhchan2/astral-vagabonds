@@ -18,6 +18,8 @@ Old enough that "forty years ago" barely registers to her. Doesn't care who wins
 
 **Current plan.** She personally oversees every one of the house's hedges. Prudence Hale's 20,000 gp lockbox offer and the quiet premium hikes on Vellum-chartered routes (`sessions/Session 5 Prep.md`; `factions/House Vellum.md`) both trace back to her directly, not independent initiative from underneath her. The standing project underneath all of it: a profitable position staked out under every plausible outcome of the fifth-seat race, Vellum's possible fall, and the Stilling's eventual resolution, simultaneously, regardless of which one actually lands.
 
+**Session 7: an 80,000 gp loan to Captain Estra Vane**, trivial money against a 77,000,000 gp book, to help buy Sedge Okonkwo (*Bright Arrears*) free of Vellum's exclusivity clause (`npcs/Sedge Okonkwo.md`). Entirely in character for Veshara: prying one of Vellum's own captains loose is quiet leverage against a house she's already positioning against, not charity and not an alliance with Estra personally. The crew has no visibility into this and doesn't need any.
+
 ## Aerynna's generation
 
 **Aerynna Nightbreeze** (`factions/House Windsong.md`): Veshara's great-niece. Pragmatic rather than cold, unlike Veshara, she helps Aerion when he shows her a number, not out of warmth, but she isn't purely actuarial either, and that gap is worth playing. Her own holding (~6,000,000 gp) is independent of the family trust and hers outright.

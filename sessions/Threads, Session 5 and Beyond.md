@@ -4,13 +4,6 @@ Open hooks banked out of session 4, not yet built into any prep doc. Scannable, 
 
 **`sessions/Session 5 Prep.md` now exists** and covers the derelict hull (a full point-crawl) and the Afterburners reveal (the rival crew formed with Boy Boy McGee's), both removed from this list below. The threads remaining here are still unbuilt.
 
-## Dessa and Sedge, the love letter drama
-
-**Live, not resolved.** Dessa Kel (Compact Standard, rank 9) and Sedge (Bright Arrears, rank ~240) are confirmed mutually in love. She's asked him not to fly anymore and won't explain why on paper; he can't bring himself to face her. Orion pushed him to go find her in person and say it himself.
-- **Decided: past trauma.** Something happened while Sedge was flying, a near-death or an accident, that Dessa can't bear to watch risk happening again. The specific incident (what it was, who else was involved, whether Dessa was there) still needs picking when the scene actually gets written.
-- **Does he go find her, or does the crew end up playing messenger again?** Either is fine, don't force it.
-- A good candidate for a short standalone scene or its own mini episode rather than a full job.
-
 ## The new crew: Tomlin, Judo, Sable
 
 Hired, not yet fleshed past their interview beats. Each needs a real want, a voice tic, a physical tic, and at least one scene establishing how they actually fit (or chafe) with the existing five.
