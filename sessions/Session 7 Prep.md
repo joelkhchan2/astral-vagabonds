@@ -186,5 +186,6 @@ The crew commits to the voyage, or at least to hearing more about it, and the se
 - Splinter's real nature, left exactly as unconfirmed as before.
 - The *Quiet Verge*'s "did they make it" question, still open.
 - Vaelren's Carrow anecdote from &sect;9, planted, not yet paid off.
+- **Sedge and the *Bright Arrears*, genuinely unresolved from &sect;7.** Whether he takes Estra's offer, how Dessa reacts, and whether the ship actually changes hands could land this session or carry into session 8. Don't let it quietly drop if it's still open when this session ends.
 - The Wayfinder Knot plants stay banked for the end of arc 1, not sooner.
 - **Session 8 onward: the Amberwake arc actually opens.** The corridor itself, the Carrow waystation, Longscar's broader ecology, and eventually the whale fall and Aeravellis's thread all live there, none of it built yet.

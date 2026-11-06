@@ -26,7 +26,7 @@ Not disapproval from a distance. Recognition, up close, of someone she still lov
 **Session 4, played:** Sedge broke down in front of Orena, confirmed the gossip (he's the "D" in it), and Orena pushed him to go find Dessa and say the real thing in person rather than keep hiding from it.
 
 ## He's said no before
-At rank ~240, Sedge has had other offers over the years, better pay, a cleaner ship, a different flag. He's turned every one down, because none of them were actually different, just a new boss instead of Vellum, same shape, same risk, same fear of being made an example of if he tried to leave. A better job was never going to be enough to move him.
+At rank ~250, Sedge has had other offers over the years, better pay, a cleaner ship, a different flag. He's turned every one down, because none of them were actually different, just a new boss instead of Vellum, same shape, same risk, same fear of being made an example of if he tried to leave. A better job was never going to be enough to move him.
 
 ## Session 7: Estra's offer, and what actually tips it
 Dessa's in port, word already circulating (`sessions/Session 7 Prep.md` &sect;4, Finny's gossip table). Whatever the table plays out between Sedge and Dessa directly, Estra's own approach happens alongside it, not instead of it, and it isn't a job offer.
