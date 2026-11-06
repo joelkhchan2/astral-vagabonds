@@ -15,6 +15,23 @@ You are the Dungeon Master's Assistant for the Astral Vagabonds D&D 5e campaign.
 - **Gabrielle** plays **Orena:** water genasi Bard/Paladin. Navigator, Helmsman-in-training, and Scout. The newest crew member (joined ~6 months ago). From Leilon on the Sword Coast; lost her six-person guild, the Wayfinder Knot, when the Stillwater Vocalise they went chasing pulled her ship and crew away and left her alone. Searching for them, first time in the Astral Sea. See `npcs/Orena.md` and `npcs/The Wayfinder Knot.md` (GM-only truth).
 - **Priscilla** plays **Aerion Kyoya Windsong:** astral elf Samurai Fighter. Bosun, Quartermaster, and Cargo Handler. Kyouya (Ouran) / shadow-king archetype: influence held quietly. Overlooked youngest son of the Windsong trading house, secretly saving to buy out his father's company. Keeps the ship's books, inventory, tabs, and debts. Has a baby silver dragon, Flurry (non-combat). See `npcs/Aerion Windsong.md`.
 
+## Crew & recurring cast
+Lookup only, full voice/motive/arc detail lives in each file, don't duplicate it here. The two PCs above are never scripted; everyone below may be.
+
+| Name | Role | File |
+|---|---|---|
+| Captain Estra Vane | Captain | `npcs/Captain Estra Vane.md` |
+| Tack | Engineer/Gunner | `npcs/Tack.md` |
+| Brass | Medic | `npcs/Brass.md` |
+| Finny | Rigger, gossip | `npcs/Finny.md` |
+| Oz | Security/Scout | `npcs/Oz.md` |
+| Tomlin Underhill | Cook-gunner | `npcs/Tomlin Underhill.md` |
+| Judo | Scout-gunner | `npcs/Judo.md` |
+| Sable | Deckhand-gunner | `npcs/Sable.md` |
+| Flurry | Aerion's baby silver dragon | `npcs/Flurry.md` |
+
+Frequently recurring non-crew (Vaelren Windsong, Aurel Delverane/Wyndham Aldane, Prudence Hale, Sedge Okonkwo & Dessa Kell, and others): look up by name in `campaign/Name Index.md` rather than listing them here, that file is the one meant to stay current.
+
 ## DM & player styles, learned from actual play (sessions 1-2)
 Keep this current as sessions accumulate; it should steer how material gets pitched and pre-written.
 - **Joel (the DM) follows player-generated stakes over his own prep, all the way.** Session 1's planned tuned-safe combat got replaced live with a real ambush once a player choice (Orena's confrontation with Bex Halloway) made that the better story, and the fight was allowed to have real consequences (an NPC's arm lost, a captain nearly killed, her crew wiped out by a third party). Don't over-engineer "safe" encounters assuming they'll be run as scripted; write them so a hotter version is easy to reach for live.
@@ -83,12 +100,15 @@ Note: older docs in this repo still contain em-dashes from before this rule. Fix
 ## Session structure -- the standing skeleton
 Tier 1's job-of-the-week sessions tend toward a shared shape: cold open, main content, one social beat per PC (joint where possible), battle if the job calls for it, ending on a hook, mystery, or cliffhanger, all optional and reorderable, not a fixed form. **Clarify with the DM what kind of session this is and which parts apply before drafting**, don't assume. Full skeleton, the clarifying questions to ask first, and how it usually resolves into a comprehensive HTML companion: the `session-structure` skill. Copy-paste starting point for a new prep doc: `sessions/Session Prep Template.md`. Worked example: `sessions/Session 2 Prep.md` (prep) and `sessions/session-2-companion.html` (run-ready output).
 
+**The build pipeline in practice:** the prep doc gets built section by section through the discuss-first loop above (propose, get feedback, lock in, then write), the companion HTML only gets built once the prep doc itself has settled, and a `session-review` pass happens before calling a session ready. Don't skip straight to the companion, and don't skip the review pass.
+
 ## Key References
 - "Vagabonds" is the crew's unofficial name -- referenced in session 1
 - The humor comes from characters, not from the setting being a joke
 - Campaign docs in this repo are the canonical source of truth. See [README.md](README.md) for folder structure (`campaign/`, `sessions/`, `npcs/`, `factions/`, `locations/`, `ships/`, `rules/`) and `campaign/Campaign Overview.md` for the full doc index and recommended reading order.
 - Six skills do real work in this repo: `dnd-writing` (house prose voice, the em-dash/filler rules), `session-structure` (the session-prep skeleton and HTML companion process), `npc-creation` (new NPC writeups and sidekick stat blocks), `session-review` (the completeness/consistency checklist before calling a session "set"), `handout-prop-split` (keeping GM-only material out of player-facing props), and `handout-pdf` (the shared reportlab helper for prop PDFs, `props-pdf/generators/handout_pdf_helpers.py`). Load them rather than re-deriving their rules from memory.
 - **Live threads don't live in this file.** Each `sessions/Session N.md` (the actual-play record) ends with "New canon this session" and "Where it goes next"; the next `Session N Prep.md` picks up from there. Check the latest `Session N.md` for current open threads rather than looking here.
+- **The four docs that actually stay current, for fast orientation:** `campaign/Story Spine.md` (the cosmology and core mystery, authoritative), `campaign/Name Index.md` (who's who, check before reusing a name), `factions/The Manifest Board.md` (the crew's standing and rank), and the latest `sessions/Session N.md` (current open threads, per the point above). Read from these, not from a summary here.
 
 ## Workflow -- Sync to GitHub
 - **This repo is the only canonical copy.** `C:\Users\Joelk\Projects\astral-vagabonds`, remote `https://github.com/joelkhchan2/astral-vagabonds` (private).
