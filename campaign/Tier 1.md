@@ -40,6 +40,8 @@ Two of these per Tier 1 mission, rolled or chosen from `Tables.md`. The whales s
 | **M7.5 Estra's Tell** *(subtext beat)* | D | She turns down a hugely lucrative "map the dark regions for the houses" job with no explanation, or reacts to the cull one sentence too knowingly. A glimpse of the chart she won't show. A chill, not an answer. |
 | **M8 The Name on the Filing, corrected** (L8, transition) | B | The trail ends on Aeravellis, a wrecked client ship, a secret debt to House Darkshade, and real, fragmentary knowledge of the Amberwake. Whether Aerion protects him, exposes him to Vaelros, or does something else entirely is open, and no longer a clean "the father buries it" beat, the stakes and the choice have both changed. Doorway to Tier 2 either way. |
 
+> **Updated: the Amberwake arc is now Tier 1's actual climax, not a line in M8.** Rather than M6-M8 playing out as originally scoped, levels 7-8 become a standalone five-session arc, Aurel Delverane's contract to chart the dead corridor itself. Full mechanics and ending: `campaign/Story Spine.md`'s Amberwake set-piece entry. Short version: the crew flies blind past where Vellum's own retired chart gives out, Orena carries the hardest navigation of her life so far, Flurry leads them to a whale fall once sight stops working, and a dying kindori's final pulse tears the corridor open and strands the *Night Fury* on the Elemental Plane of Water. Aeravellis's debt and fragmentary knowledge of the place still land here too, just inside this bigger shape rather than a single mission beat.
+
 ## Drop-in episodes (run any time you want a change of pace)
 
 - **The Dreameater** (`sessions/Episode - The Dreameater.md`): a bottle episode. Something drifted aboard and is eating the crew's dreams, invisible until they work out how to see it. Pure found-family workplace comedy wrapped around an eerie, PG mystery, with one arc clue smuggled inside. Great after a heavy mission.
@@ -57,11 +59,11 @@ Somewhere out past the settled lanes lives a **berbalang** -- a gaunt, vulture-h
 
 ## The emotional shape
 
-It descends. Resupply-run warmth -> a star goes out -> dark ports that used to be full -> your neighbors robbed -> a beautiful thing culled for money -> the father buries a crime. Tier 1 ends in a trough: *the world is dying, the family is rotten, and we understand none of it.* That trough is the setup for Tier 2's hopium turn -- "we can't fix this" becoming "we can *understand* this."
+It descends. Resupply-run warmth -> a star goes out -> dark ports that used to be full -> your neighbors robbed -> a beautiful thing culled for money -> the father buries a crime -> the crew is physically torn out of the only reality they've understood and left stranded somewhere else entirely. Tier 1 ends in a trough: *the world is dying, the family is rotten, we understand none of it, and for a while we're not even sure we're coming home.* That trough is the setup for Tier 2's hopium turn -- "we can't fix this" becoming "we can *understand* this."
 
 ## What Tier 2 inherits (at level 9)
 
-A Guttering **pattern** they can't explain but have **seen the cull behind**; a family that showed its face; Orena with **one crewmate found and a contradictory story**; Estra **visibly hiding something**; Delverane/Senna as **allies-in-waiting**; the whales as a wound and a question; and, unspoken by anyone, **Amberwake.**
+A Guttering **pattern** they can't explain but have **seen the cull behind**; a family that showed its face; Orena with **one crewmate found and a contradictory story**, plus the real Vocalise heard firsthand at last; Estra **visibly hiding something**; Delverane/Senna as **allies-in-waiting**, with Aurel now personally invested in what her contract cost the crew; the whales as a wound and a question; and, no longer unspoken, freshly and physically lived through: **Amberwake**, a whale fall, and a crew stranded on the Elemental Plane of Water with getting home as Tier 2's first real problem.
 
 ## Tone guardrail (holds for every beat)
 

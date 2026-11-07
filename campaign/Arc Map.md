@@ -2,6 +2,20 @@
 
 > **GM-only, full spoilers.** This is the altitude view across the whole campaign: how the five running threads interleave from Tier 1 through the endgame, and specifically where the Vellum/Carrow lockbox thread (born in session 1, shaped in session 2 prep) fits into everything else. It doesn't replace `campaign/Story Spine.md` (the world plot in depth), `campaign/Tier 1.md` (the beginning, mission by mission), `factions/House Windsong.md` (the family), or `campaign/Potential Endings.md` (the menu of climaxes). It's the map that shows how those documents are one story.
 
+## Arcs: a pacing layer under the tiers
+
+The three Acts above (`Story Spine.md`'s "survive it / understand it / restore the balance") are thematic, not a scheduling tool. **Arcs** are the planning unit underneath them, roughly three levels each, for sanity-checking pace against real session counts. Loose, not a commitment to exact session numbers:
+
+| Act | Arc | Levels |
+|---|---|---|
+| 1, survive it | Arc 1 (already underway) | 5-8 |
+| 2, understand it | Arc 2 | 9-11 |
+| | Arc 3 | 12-14 |
+| 3-4, restore the balance | Arc 4 | 15-17 |
+| | Arc 5 (level 20 lived-in for a few sessions, then the finale as its own tight sub-arc) | 18-20 |
+
+Real pace so far: level 5 took 2 sessions, level 6 took 4, level 7 is running longer still (the Amberwake arc alone is five). That's an accelerating curve, not a flat one, each Arc above should be expected to run longer than the last.
+
 ## The five threads
 
 Read `Story Spine.md` and `Tier 1.md` for the full versions. Short form, so the tier breakdown below reads clean:
@@ -30,6 +44,8 @@ The crew understands nothing yet. Full mission-by-mission detail: `campaign/Tier
 
 **Tier 1 end-state, updated.** Everything `Tier 1.md` already says (a pattern they can't explain, a family that showed its face, one crewmate found, Estra visibly hiding something, Delverane/Senna as allies-in-waiting) **plus**: the crew is quietly sitting on proof that a founding house has known about the Guttering's predecessor symptom for forty years and buried it for profit, and that house is now, mildly, watching them back.
 
+> **Updated: the Amberwake arc (Aurel Delverane's charter contract, five sessions, levels 7-8) is Tier 1's actual climax now**, not a held-back endgame card. Full build: `campaign/Story Spine.md`'s Amberwake set-piece entry and `campaign/Tier 1.md`. The tier now closes on the crew physically stranded on the Elemental Plane of Water after a dying kindori's pulse tears the corridor open, not just a family crime buried. Vellum's own pending approach and whether a Carrow descendant is also circling the corridor are both deliberately left open for now, not decided as part of this build.
+
 ---
 
 ## Tier 2 (levels 9-13): the middle -- understand it
@@ -56,6 +72,8 @@ Their survey work *is* the investigation now. They crack the cascade: the whales
 Protect the last scavver breeding grounds, prove one nomadic route works, relight one region, force the truth into the open. See `Story Spine.md` act 3 and `Potential Endings.md` for the menu of climaxes (A/B/C/D/E, not mutually exclusive).
 
 **The Amberwake as a candidate endgame destination.** If the table wants one big set-piece that pays off threads A, B, and E at once: a voyage into House Carrow's dead corridor, using the nomadic method the crew spent two tiers building, to (1) prove the method works on a region everyone else wrote off as permanently gone, (2) recover whatever ancient current-reading tech is sitting in forty undisturbed years of guttered space, and (3) surface Vellum's cover-up publicly, on the ground, in the place it actually happened, rather than as a document in a drawer. That's Ending A ("The Launch") and Ending D ("The New Map") sharing a location for free.
+
+> **Note: this would be a second, different trip, not a repeat.** Tier 1 already sends the crew into the Amberwake once, blind, instrument-less, and nearly fatal (`Story Spine.md`'s Amberwake set-piece). A Tier 3-4 return would be the inverse image of that first trip: flying the same corridor with the nomadic method actually mastered, understanding what they're looking at this time. Worth being deliberate that a second visit reads as payoff, not reuse, if it's ever built.
 
 **Whether Orena's lost crew is also in the Amberwake is a genuinely open question, and it's Gabrielle's to answer, not this document's.** It fits cleanly (same phenomenon, same forty-year silence, same "nobody's had a reason to look"), which is exactly why it's worth raising with her directly rather than deciding it here. If she wants her crew's dark pocket to be a different, separate place, the Amberwake still works as the A/B/E payoff on its own; it just doesn't also carry Ending B ("The Rescue"). If she wants them to be the same place, all five threads and up to three of the five endings converge in one final voyage.
 
