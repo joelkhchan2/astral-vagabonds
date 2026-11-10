@@ -59,6 +59,8 @@ Left with nothing, she clawed her way back into a captain's chair (see The Broke
 
 Each former captain is a potential scene, arc, or cameo: rescue, recruitment, confrontation, reunion, or just a warm surprise at a random port. Not every one of them needs to matter again. That's the point, most of them just moved on with their lives, the way people actually do.
 
+> **Arc placement, locked for the campaign's back half (`campaign/Arc Map.md`).** Sedge is resolved (Arc 1) and Dessa is already an ally, not a rescue case. Of the remaining five: **Oskar, Bree, Marrin, Ines, and Liset** stay exactly what they are above, texture and optional cameos, nothing owed. **Tobias Renn, Yulia Sorrenson, and Devan Ashe carry real plot weight going forward.** Arc 3 is where the crew cracks what actually happened to Sorrenson and Ashe (likely tangled with Vellum's exposure or Darkshade's existing leverage on Estra's old identity, both live threads by then) and frees Tobias from his debt, a gentle jailbreak, paying off a fine rather than springing a prisoner. Arc 4 holds back one harder case deliberately, worth deciding which once Arc 3 actually plays, a captain who isn't a clean rescue, for a real confrontation right before Estra's redemption climax, so the rebuilt Compact's reunion doesn't arrive conflict-free.
+
 ## The Debt: The Broker
 
 After the Compact fell, Estra was drowning. No ship, no crew, blacklisted. A figure known only as **The Broker** appeared with an offer.
@@ -101,6 +103,8 @@ In her quarters: a locked chest containing a star chart showing every former Com
 **This is real field data, not just a grief object.** Fifteen years of her own hand-tracked observations of the living currents, charted before anyone had the science to explain what she was watching, updated quietly ever since. It is exactly the kind of rare, lived dataset a serious memory-current researcher would want access to (see `npcs/Wyndham Aldane.md`), though Estra has no idea anyone outside her own crew is even looking for this. **Her helm skill is the same holdover.** She flew the Compact's nomadic routes by hand and instinct, years before anyone understood why the sky moved, which is why she can fly the way she does now without being able to explain how. Orena is learning to do, properly and safely, the exact thing that broke Estra doing it blind.
 
 **If the PCs find this chart, it recontextualizes the entire campaign.**
+
+**A second mark, alongside the Amberwake annotations (`factions/Houses & Holdings.md`), locked for Arc 3-4.** A stretch she's circled and quietly steered the Compact around for fifteen years without ever writing down why, just an old, trusted instinct that the water there wasn't to be touched. It's the kindori breeding ground the houses' artificial-relight program eventually starts poaching (`campaign/Story Spine.md`). She was right before anyone had the science to say so, the same pattern as her Amberwake mark, and finding out what her own hand-drawn caution actually protected is a real beat for whoever reads this chart with her.
 
 ## Why She's So Serious, and Why This Crew
 

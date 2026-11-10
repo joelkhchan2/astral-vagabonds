@@ -36,10 +36,7 @@ Estra is quietly rebuilding her destroyed fleet from rank 348. Every job charts 
 
 **Key reveal:** Mid-campaign, crew discovers they were selected, not randomly hired. Tests found-family bond.
 
-**Compact captain arcs (7 total, including Estra):**
-- 2 dead (investigation arcs -- what happened? who ordered it?)
-- 1 detained (jailbreak/justice arc)
-- 3 bought out (recruitment/confrontation/forgiveness arcs)
+**Compact captain arcs, updated against the full eleven-captain roster in `npcs/Captain Estra Vane.md`:** Sedge is resolved (Arc 1), Dessa is already an ally. Of the rest, three carry real forward plot weight, arc-placed in `campaign/Arc Map.md`: **Yulia Sorrenson and Devan Ashe** (the 2 dead/missing, investigation arc, likely tangled with Vellum or Darkshade, Arc 3) and **Tobias Renn** (the 1 detained, a gentle jailbreak, paying off a debt rather than springing a prisoner, Arc 3). Arc 4 holds back one deliberately harder, not-a-clean-rescue case for a real confrontation right before Estra's redemption climax, which captain that is stays undecided until Arc 3 actually plays. The rest (Oskar, Bree, Marrin, Ines, Liset) stay optional texture and cameos.
 
 **Connection to the Guttering:** the Compact was the **first fleet to try the nomadic method** -- flying with the living sky, following the currents and pods, sharing what they charted. The right instinct, a generation too early: the cartel crushed it, *and* it lacked the science (they had the art of following the living roads but not the understanding of why the sky moved, so some crews were lost to guttering zones the way Orena's was). The crew completes it by adding the missing half. Rebuilding it isn't nostalgia; it's the prototype of the cure, finally done right. See `campaign/Story Spine.md`.
 
@@ -102,11 +99,12 @@ A repeating signal from deep uncharted Wildspace. Ancient. Older than any known 
 
 | Crew Member | Arc | Trigger |
 |---|---|---|
-| Tack | Creator loyalty vs. crew loyalty; grief over the old ship | Pale Reach contact appears |
-| Brass | The deal gone bad she's running from (neogi slaver debt) | Neogi ship encountered, or a contact recognizes her |
-| Finny | Who is he paying on the Rock of Bral? | Crew docks at Bral |
-| Oz | Honor vs. obedience; discharge shame | Giff mercenary company appears |
-| Estra | The Compact, the Broker, the rebuild | Everything |
+| Tack | Creator loyalty vs. crew loyalty; grief over the old ship | Pale Reach contact appears, placed Arc 4 |
+| Brass | The deal gone bad she's running from (neogi slaver debt) | Neogi ship encountered, or a contact recognizes her, placed Arc 2 (Strange Shores), gives that arc a real combat danger beat |
+| Finny | Who is he paying on the Rock of Bral? | Crew docks at Bral, placed Arc 3, resolves once the crew's sharper about everything else too |
+| Oz | Honor vs. obedience; discharge shame | Giff mercenary company appears, placed Arc 4, as hired muscle for a house resisting the nomadic method |
+| Sable, Judo | Open, not yet built out. Sable has her session 7 "Half-Shell Wars" spotlight to build forward from | TBD |
+| Estra | The Compact, the Broker, the rebuild | Everything, see `npcs/Captain Estra Vane.md` for the arc-placed captain roster |
 
 ---
 

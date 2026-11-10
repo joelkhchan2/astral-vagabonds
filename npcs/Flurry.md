@@ -58,7 +58,9 @@ And she's the crew's shared child: the **outfits gag** (`npcs/Crew Comedy Bits.m
 
 She scales with the crew: wyrmling now, potentially *young* by the campaign's end -- power that visibly tracks the party's own climb. Keep the non-combat rule locked the whole way; the built-in payoff is the stat block's *"someone hers is about to die"* clause -- spend it **once, late,** at maximum earned weight (the baby the whole crew protected finally, terribly, protects them). Silver dragons can take humanoid form when grown, so a very-late beat where Flurry briefly speaks or shifts is available if you ever want the gut-punch. Fully optional, and very late.
 
-**The image the campaign is building toward:** the final voyage into a guttered dark region (see `campaign/Potential Endings.md` B/D), with a grown, lunar-blooded Flurry at Orena's side -- the dragon reading the living roads by inherited instinct while the navigator reads them by ear. The pet who couldn't fight, revealed as a small living piece of the thing the whole campaign was about.
+**The image the campaign is building toward:** the final voyage into a guttered dark region (see `campaign/Potential Endings.md` B/D), with a grown, lunar-blooded Flurry at Orena's side, the dragon reading the living roads by inherited instinct while the navigator reads them by ear. The pet who couldn't fight, revealed as a small living piece of the thing the whole campaign was about.
+
+**Anchored, per `campaign/Arc Map.md`: Arc 5, alongside the Locker voyage.** The heritage reveal and the grown/phasing moment land together with the campaign's other late-game wonder set-piece, not as a separate dragon subplot. Keep her non-combat and mechanically thin everywhere before that.
 
 ## Guardrails
 

@@ -16,6 +16,26 @@ The three Acts above (`Story Spine.md`'s "survive it / understand it / restore t
 
 Real pace so far: level 5 took 2 sessions, level 6 took 4, level 7 is running longer still (the Amberwake arc alone is five). That's an accelerating curve, not a flat one, each Arc above should be expected to run longer than the last.
 
+### The table of contents, one layer deeper
+
+Each entry: estimated sessions (loose), the plot spine, one concrete wonder set-piece (not just politics), the crew beat it carries, and its real danger/combat beat. Session counts are a sanity check, not a commitment; players control the pace within each arc, see the "open deadlines" note below.
+
+**Arc 1, Survive It (5-8, ~12 sessions, locked.)** Spine: Guttering as unexplained weather, the Windsong fraud buried, Estra's fleet dream reactivates, the Amberwake climax strands the crew on the Elemental Plane of Water. Wonder: the first kindori pod at a distance; an elder kindori's actual death and the real Vocalise. Crew beat: Tomlin folds into the family; Finny's gossip network starts paying off. Danger: the Reefside void scavver, Longscar at the Windward Edge, the blind Amberwake transit.
+
+**Arc 2, Strange Shores (9-11, ~15-18 sessions.)** Spine: stranded, getting home drives fieldwork with House Delverane's waystation researchers at the Tide's literal source, fragments of the cascade earned, not explained. Wonder: standing at the Tide's own source; something native to the plane no chart has described. Crew beat: Brass's neogi slaver debt resurfaces (`campaign/Plot Threads.md`). Danger: that neogi encounter, a real fight, not just talky fieldwork.
+
+**Arc 3, Coming Home With New Eyes (12-14, ~20-24 sessions.)** Spine: Vellum's evidence goes live, the houses' patch *publicly fails* (the fix doesn't work, not yet why), the fifth-seat race reopens, Orena's Wayfinder reunion, the Compact's dead and detained captains resolved (Sorrenson, Ashe, Renn, see `npcs/Captain Estra Vane.md`). Wonder: the banked Leaftully calves/attuned-ball scene, pure delight, a deliberate breather. Crew beat: Finny's "who is he paying" thread resolves. Danger: a real fight tied to Vellum's resistance, Darkshade's Black Parade or a hired enforcer.
+
+**Arc 4, Prove It (15-17, ~22-27 sessions.)** Spine: protect the kindori breeding ground from the houses' escalating light-fix poaching (`campaign/Story Spine.md`), prove one nomadic route works (doubling as Orena's guided-crossing breakthrough), Estra's redemption climax (one last, harder Compact captain confronted first), Aerion's institution decision point. Wonder: the Locker becomes a real, plausible lead, tied to the Empty Frequency, not yet reached. Crew beat: Oz's discharge shame via a Giff mercenary company hired as a resisting house's muscle; Tack tested by a Pale Reach contact. Danger: houses actively fighting the new method, multi-session antagonist pressure.
+
+**Arc 5, Force the Truth / the Finale (18-20, ~28-32 sessions.)** Spine: the *cause* goes public and named (who did this, why, and the real fix), relight one region as proof, level 20 reached and lived in before the sprint. Wonder: the actual voyage to the Locker, the ancient fleet, Flurry's lunar heritage reveal landing alongside it. Crew beat: whichever B-plots are still open (Sable, Judo included) get real send-offs during the level-20 breathing room. Danger: the finale fight itself, shaped by whichever `campaign/Potential Endings.md` combination's been earned.
+
+**Still open, deliberately not decided here:** whether Aerion's arc resolves by winning the fifth seat or obsoleting it (`campaign/Story Spine.md` flags this), and which specific Compact captain gets the harder Arc 4 confrontation.
+
+### Open deadlines, so the table keeps real control of pace
+
+Every arc transition should have its own in-fiction reason the story doesn't rush the players, not just GM fiat. Examples worth locking in as they're built: Aurel Delverane's survey contracts run on her own patient, volume-over-time funding model, not a deadline. The seam back from the Elemental Plane of Water reopens on its own schedule, not Delverane's patience, which hands Arc 2 room to explore without anyone pressuring a return. Institutional failure (Arc 3) is slow by nature, a cartel admitting its fix doesn't work takes time regardless of the crew's own pace. Proving a migration route (Arc 4) genuinely requires waiting for the right season. Each of these means side jobs, B-plots, and job-of-the-week contracts can fill real time inside an arc without stalling the spine.
+
 ## The five threads
 
 Read `Story Spine.md` and `Tier 1.md` for the full versions. Short form, so the tier breakdown below reads clean:
