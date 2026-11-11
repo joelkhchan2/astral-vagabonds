@@ -1,4 +1,4 @@
-# The Wayfinder Knot -- what actually happened, and where they are now
+# The Wayfinder Knot, what actually happened, and where they are now
 
 > **GM-only.** This is the true account behind Orena's backstory in `npcs/Orena.md`. She knows none of this. Float pieces of it to Priscilla-equivalent (Gabrielle) only as they're earned in play; the whole point of the thread is that she's been searching with worse information than the table has.
 
@@ -6,11 +6,13 @@
 
 Six childhood friends out of Leilon, a guild in name more than trade, the **Wayfinder Knot**: navigators and wayfinders for hire along the Sword Coast, young and good at it and hungry for a name. Orena founded it. The other five:
 
-- **Dune Ashcombe** -- the practical one, already an informal second before any of this happened. Steady in a way that reads as unshakeable and isn't.
-- **Sabine Wrack** -- rigger and the guild's best hand in bad weather, dry humor, doesn't perform feelings for an audience.
-- **Ket Halvard** -- quiet even before the crossing, the one who noticed things first and said them last.
-- **Tamsin Odell** -- the youngest besides Orena, quick, always first over a rail or up a mast.
-- **Colin Aldous** -- Orena's closest friend on the crew, and older history than the rest: he was at **Vaelren Windsong's training camp** as a kid, the same summer young Orena and Aerion were both there (`sessions/Session 1.md`'s flashback camper who "also loves *Dragon Masters*"). He and Orena stayed close after; when she started the Knot, he was the first person she asked.
+- **Anchor Thistlewick**, dwarf, the practical one, already an informal second before any of this happened. Steady in a way that reads as unshakeable and isn't. Earned the nickname by never once budging under pressure; the crew uses it more than his real name at this point.
+- **Squall Netherby**, tabaxi, rigger and the guild's best hand in bad weather, dry as bone. The irony of a storm-named sailor who never once looks rattled by one is the whole joke, and she knows it, and never comments on it.
+- **Pim Oddsocks**, gnome, quiet even before the crossing, the one who noticed things first and said them last. Running gag: never once wears a matching pair of socks. Nobody knows why. Everyone's stopped asking.
+- **Scrap Fennimore**, halfling, the youngest besides Orena, quick, always first over a rail or up a mast. Called "Scrap" since childhood for being small, fast, and permanently a little bit scuffed up.
+- **Colin Aldous**, human, cheerful, optimistic, the guild's natural leader even though Orena founded it, the kind of warmth people organize around without being asked to. Older history than the rest: he was at **Vaelren Windsong's training camp** as a kid, the same summer young Orena and Aerion were both there (`sessions/Session 1.md`'s flashback camper who "also loves *Dragon Masters*"). He and Orena stayed close after; when she started the Knot, he was the first person she asked.
+
+**The Knot's own words, two registers.** "Hold your line" (half the shanty's own refrain, see below) is their everyday jab, said to mean "oh, shut up" as much as anything sincere, the kind of thing you say rolling your eyes at a crewmate mid-complaint. **"See you on the other tide"** is the real one, saved for actual goodbyes, no joke underneath it. Both are this crew's specifically, not generic Leilon flavor like "fair current" below.
 
 ## What they were chasing, and why it worked
 
@@ -24,7 +26,7 @@ The **Stillwater Vocalise** is old sailors' folklore along that stretch of coast
 
 The pod's final pulse, its last burst of failing astral-sense, tore the thin spot open all at once, and it didn't pull like a door, it pulled like a drain. Orena was at the rail, already leaning out trying to place the sound, when the pull started, and the water took her down one thread of that outflow. The ship, and everyone still aboard it, went down a different thread of the same outflow, together. Nobody chose the split. She simply wasn't attached to the same mass as the hull at the instant it happened.
 
-**The landing broke the ship apart.** Not a clean arrival; a violent one. In the first chaotic minutes freeing themselves from the wreck on the Wildspace side, **Tamsin lost a leg** pulling someone else clear, a real act of nerve in the worst possible moment, not something that just happened to her. She spent months recovering and now works with a fitted peg leg, adapted, not slowed. All five of them survived. Orena came out of it on a different current entirely, alone, with no one, no wreck, no bearings, nothing.
+**The landing broke the ship apart.** Not a clean arrival; a violent one. In the first chaotic minutes freeing themselves from the wreck on the Wildspace side, **Scrap lost a leg** pulling someone else clear, a real act of nerve in the worst possible moment, not something that just happened to her. She spent months recovering and now works with a fitted peg leg, adapted, not slowed. All five of them survived. Orena came out of it on a different current entirely, alone, with no one, no wreck, no bearings, nothing.
 
 ## What the five of them did afterward
 
@@ -34,7 +36,7 @@ They had each other and a body count of zero, which is more than most people get
 
 ## The *Wayfinder*
 
-Currently ranked **~99** on the Manifest Board, captained by **Dune Ashcombe**. Still doing exactly what the Wayfinder Knot always did: navigation and charting work for hire, which is why they're good enough to sit this high after only a few years of rebuilding from nothing. The founding five are still aboard; the crew has grown past them with hired hands over the years, a real, grown operation now, not four people frozen at the moment of the wreck.
+Currently ranked **~99** on the Manifest Board, captained by **Anchor Thistlewick**. Still doing exactly what the Wayfinder Knot always did: navigation and charting work for hire, which is why they're good enough to sit this high after only a few years of rebuilding from nothing. The founding five are still aboard; the crew has grown past them with hired hands over the years, a real, grown operation now, not four people frozen at the moment of the wreck.
 
 **Built from nothing but what they carried out of the wreck.** The landing broke their original ship apart, but it broke apart, it didn't vanish, and in the chaotic minutes and days afterward they recovered a handful of pieces before the wreck site was lost to them for good. When they finally had enough of a charter to commission a real hull years later, they had those pieces worked into her rather than scrapped or sold: the original ship's bell, cracked but still rung, mounted by the helm; a length of carved rail from the old stern worked into the new helm console; a few lengths of rigging hardware, old and mismatched against everything else aboard, kept in her own lines rather than replaced. None of it is hidden. Anyone aboard who asks gets a plain answer: it's from the old ship. Nobody outside the crew has reason to ask what "the old ship" means.
 
@@ -42,7 +44,7 @@ Currently ranked **~99** on the Manifest Board, captained by **Dune Ashcombe**. 
 
 ## Where they are now, actively, not just waiting
 
-**They never stopped looking, they just never had anything to look with.** No fixed point, no wreck, no way to know which direction "alone" even went. What's changed, quietly, GM-only: the *Wayfinder*'s climb up the Board has put them in rooms (survey contracts, chart exchanges, the same professional circuit the Compact's captains used to run) where fragments of information move that wouldn't have reached them five years ago. Nothing that points at Orena specifically yet, a half-remembered name from a charter-house clerk, a water genasi mentioned in someone else's gossip, a direction more than a destination. **Colin** is the one who chases every fragment personally and burns out on most of them; **Dune** has started quietly reining him in, not out of doubt, out of not wanting to watch him break on a dead end again. They're closer than they were. They are not close.
+**They never stopped looking, they just never had anything to look with.** No fixed point, no wreck, no way to know which direction "alone" even went. What's changed, quietly, GM-only: the *Wayfinder*'s climb up the Board has put them in rooms (survey contracts, chart exchanges, the same professional circuit the Compact's captains used to run) where fragments of information move that wouldn't have reached them five years ago. Nothing that points at Orena specifically yet, a half-remembered name from a charter-house clerk, a water genasi mentioned in someone else's gossip, a direction more than a destination. **Colin** is the one who chases every fragment personally and burns out on most of them; **Anchor** has started quietly reining him in, not out of doubt, out of not wanting to watch him break on a dead end again. They're closer than they were. They are not close.
 
 ## The scattered hints (GM-only, Arc 1 into Arc 2)
 
@@ -82,7 +84,7 @@ For whenever Orena (or the table) actively digs, not just waits for ambient hint
   - No name, no ship, no number of survivors, just confirmation that whatever happened to the Wayfinder Knot that night, somebody on that crossing made it through alive on the other side.
   - This is the point Orena has real, specific reason to believe, not just hope, that her crew could actually be out there.
 - **DC 20, a candidate, concrete now.**
-  - A small charter outfit called the ***Wayfinder*** has climbed the Board unusually fast, on reputation alone, "came from nowhere a few years back," captained by one **Dune Ashcombe**, current rank ~99.
+  - A small charter outfit called the ***Wayfinder*** has climbed the Board unusually fast, on reputation alone, "came from nowhere a few years back," captained by one **Anchor Thistlewick**, current rank ~99.
   - Dockside talk says the ship herself is strange to look at: old, mismatched salvage worked visibly into a hull that's otherwise too young to look that patched, a bell, carved rail, rigging hardware, nobody outside the crew knows why.
   - A clerk or rival mentions, almost as trivia, that "Wayfinder" is an odd half-name for a ship, like someone forgot the rest of it. Nothing yet proves this is them, but it's the first lead specific enough to actually chase.
 - **DC 22, a direct match, unambiguous.**
@@ -95,7 +97,7 @@ For whenever Orena (or the table) actively digs, not just waits for ambient hint
   - The name of a chart-house or broker they use regularly.
 - **DC 27, it's mutual.**
   - Word that one crewmate, specifically, has spent years personally chasing fragments of a rumor about "a water genasi navigator," and takes every dead end hard. That's Colin, though the source may not have his name.
-  - A second crewmate has quietly started reining the first one in, not from doubt, from not wanting to watch them break again. That's Dune.
+  - A second crewmate has quietly started reining the first one in, not from doubt, from not wanting to watch them break again. That's Anchor.
 - **DC 30, a direct line.**
   - An address or dock schedule precise enough to actually be there when they are.
   - A mutual contact who could broker an introduction outright, rather than leaving it to chance.
@@ -105,11 +107,11 @@ For whenever Orena (or the table) actively digs, not just waits for ambient hint
 
 **Stage one: the reveal, Arc 2.** The scattered hints above (shanty, knot, whistle, Leilon texture) run ambient through Arc 1, low-stakes and personal. Confirmation, that Orena's old crew is alive, out there, captaining the *Wayfinder*, climbing the same Board she is, lands during Arc 2 instead, once the crew is stranded away from ordinary Bral gossip and the lead has to travel a different way (Delverane's own funded-party network is the likeliest channel, above). This does not require the two crews to meet. It only requires Orena, and the table, to know for certain that there's someone to meet.
 
-**Stage two: the actual encounter, Arc 3.** Nobody goes looking in the sense of a chase. The bridge is navigator talent as shop talk, once the crew is back in known space and climbing rank again: "a water genasi navigator, genuinely gifted, joined some independent crew" is precisely the detail that travels the *Wayfinder*'s specific professional gossip, disproportionate to actual rank, because it's the one thing this crew can't help paying attention to. Once stage one has landed, both sides now have reason to actively close the distance rather than wait on coincidence, which is the real difference between the two stages: stage one is Orena learning they exist, stage two is someone from either side deciding to act on it. Whether that's Colin (who'd know instantly and hit hardest) or Dune (more careful about hoping) initiating is worth deciding when it actually happens rather than locking in now.
+**Stage two: the actual encounter, Arc 3.** Nobody goes looking in the sense of a chase. The bridge is navigator talent as shop talk, once the crew is back in known space and climbing rank again: "a water genasi navigator, genuinely gifted, joined some independent crew" is precisely the detail that travels the *Wayfinder*'s specific professional gossip, disproportionate to actual rank, because it's the one thing this crew can't help paying attention to. Once stage one has landed, both sides now have reason to actively close the distance rather than wait on coincidence, which is the real difference between the two stages: stage one is Orena learning they exist, stage two is someone from either side deciding to act on it. Whether that's Colin (who'd know instantly and hit hardest) or Anchor (more careful about hoping) initiating is worth deciding when it actually happens rather than locking in now.
 
 **After the reunion: where the Knot lands.** Two destinations, not mutually exclusive, both already live in the campaign's actual endgame machinery:
 
 - **Estra's rebuilt fleet.** The Knot are working navigators who ported the exact skill the reborn Compact is being rebuilt around, chart by feel, no fixed routes, sell what you find instead of hoarding it. A crew that already proved the model works at small scale is close to the single best recruit Estra's long game could ask for, and it means Orena's reunion directly strengthens the thing Estra's been quietly building toward for fifteen years, not just a warm personal beat sitting beside the plot.
 - **Vaelren's new house.** A fast-rising, well-regarded navigation and charting outfit is also exactly the kind of asset a new Fifth House contender would want locked down early, before Windsong, Crestfall, or Darkshade think to court them first. If the Knot's reputation is live by arc 2, Vaelren courting them (possibly through Aerion, who'd recognize the value instantly) is a natural beat, and it threads Orena's personal arc through Aerion's endgame the same way the campaign's been building overlap between the two leads all along.
 
-**Keep both live rather than picking now.** Whether the Knot ends up fully in one, split between both (the founding five don't have to agree with each other about it, Colin and Dune in particular could land on opposite sides of that choice), or something that only resolves once the table's actually in the scene, is a call to make when the reunion itself is being built, not before. See `campaign/Story Spine.md`'s Vocalise-recognition beat (the whale fall) for the other half of this thread; that payoff and this one are cousins, not the same scene.
+**Keep both live rather than picking now.** Whether the Knot ends up fully in one, split between both (the founding five don't have to agree with each other about it, Colin and Anchor in particular could land on opposite sides of that choice), or something that only resolves once the table's actually in the scene, is a call to make when the reunion itself is being built, not before. See `campaign/Story Spine.md`'s Vocalise-recognition beat (the whale fall) for the other half of this thread; that payoff and this one are cousins, not the same scene.
