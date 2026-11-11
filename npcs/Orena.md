@@ -29,3 +29,9 @@ As teenagers they both trained under Aerion's uncle, the "space samurai" **Vaelr
 ## Notes
 - She is training on the helm, so the ship always has a second pilot besides Captain Vane. Piloting requires an attuned spellcaster holding concentration, which her Bard/Paladin build supports.
 - Whether her being "of the water" is why the Vocalise didn't take her with the rest is genuinely open, not settled fact, see "The lost crew" above. Worth keeping in mind for water- and sound-themed encounters either way.
+
+## Growing attunement, a mechanical track tied to her own arc
+Not handed out all at once. Each tier lands on a real story beat, not a level-up.
+- **Tier 1 (session 6, locked).** Advantage on one Nature or navigation check per day, reading currents or the Tide by feel rather than a chart. Landed via a DC 12 Nature check recognizing the kinship between the Windward Edge's currents and the Astral's own.
+- **Tier 2 (next, triggered by a specific future scene, not a fixed session): an Astral Sea travel encounter where kindori are genuinely playing, not threatening.** She learns to empathize with them directly rather than just read the water they're in. Payoff: **she can roll the Astral Sea travel-encounter check with advantage, and gets a vague, felt sense of what each of the two results represents** (danger vs. opportunity, roughly, never the specifics), and the table picks which one actually happens.
+- **Tier 3 (Arc 4, the full-circle mastery, guiding a dying kindori's crossing, see `campaign/Story Spine.md`).** The attunement stops being limited-use and becomes always-on.

@@ -38,3 +38,6 @@ Scrupulous and slow to trust. Favorite dish: plain white rice or dry toast. Hobb
 
 ## Open build items (to confirm)
 - Weapon of choice, and one uncommon magic item (the table is allowing each PC one uncommon item for starting at level 5).
+
+## Tailor's Eye, banked and tentative, still being workshopped
+A possible growing mechanical track to match Orena's, not locked. Natural trigger point: his Carraway/Dog Show offer (`sessions/Session 5 Prep.md` &sect;7.4), once it actually lands. The idea so far: once per combat, no roll needed, he studies a foe's armor or plating the way he'd study a garment's construction and identifies a genuine structural weak point, imposing -2 AC on that target for the rest of the encounter. Possible later tiers, none confirmed: a second target; the weak-point call-out also giving an ally advantage; scaling up to reading a whole enemy formation (echoing the "every ship in formation is a line in his Index of Accounts" image from `campaign/Potential Endings.md`'s Ending E). Don't introduce any of this at the table until it's actually confirmed.
