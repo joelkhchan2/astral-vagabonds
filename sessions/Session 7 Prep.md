@@ -1,4 +1,4 @@
-# Session 7 Prep -- Homecoming, and the Next Voyage
+# Session 7 Prep: Homecoming, and the Next Voyage
 
 A pure interlude at the Rock of Bral, no job, no battle. Several threads left standing from sessions 5 and 6 get touched, the Manifest Board updates, and the session ends by launching the next, bigger voyage: Aurel Delverane's real escalation, investigating the Carrow-adjacent corridor and the Amberwake itself. This is a rebuild of an earlier draft of this file, which committed to Orena's Wayfinder Knot confirmation landing here, that's since been moved to the end of arc 1, not this session.
 
@@ -157,13 +157,15 @@ A real individual scene, triggered by coincidence, not a search. One of Sable's 
 - Sable's own reaction is hers to play live, embarrassment, pride, complicated homesickness, or some mix, not scripted.
 - Don't resolve the war or explain the Half-Shell's actual nature. This is color and family texture, not a quest hook, unless the table wants to pick it up later.
 
-## 9. Vaelren: the box comes back, and a little Carrow lore
+## 9. Vaelren: the box comes back
 
 A real scene, not a handoff narrated in a line. The crew retrieves the Vellum/Carrow correspondence box from Vaelren at the Compass Rose or his own room.
 
 **He hands it back without ceremony**, easy and unbothered, per his standing voice (`npcs/Vaelren Windsong.md`). Worth one open beat: whether he looked inside it himself while he had it, his call to reveal or not, not decided here.
 
-**A little Carrow lore, in his own voice, not a lecture.** He's old enough and well-traveled enough to have crossed paths with the Amberwake corridor or House Carrow's people once, long before its fall. Keep it personal and small: a story, a name he remembers, a feeling about the place, not exposition about *why* the corridor failed, that stays Tier 2's to hand out. This is table color that seeds dread ahead of &sect;10's offer, not an answer to anything.
+**No Carrow lore.** He held the box without recognizing Vellum or Carrow, and he stays unfamiliar with both. (The earlier plan gave him a Carrow anecdote here. It is dropped; his history is House Windsong's and the Chained Lanterns', `npcs/Vaelren Windsong.md`.)
+
+**Optional seed, if the scene wants color:** he reads whatever has writing on it (the label, the tab) aloud, twice, as he hands it over, and hums a few bars of a tune that stops a beat early. He doesn't say what it is. Nothing is explained. This plants steps 1 and 2 of his reveal order.
 
 ## 10. The pivot: Aurel's offer, the Carrow corridor and the Amberwake
 
@@ -185,7 +187,7 @@ The crew commits to the voyage, or at least to hearing more about it, and the se
 - Fifth House paperwork and Vaelros, still untouched, worth a scene soon, genuinely overdue now.
 - Splinter's real nature, left exactly as unconfirmed as before.
 - The *Quiet Verge*'s "did they make it" question, still open.
-- Vaelren's Carrow anecdote from &sect;9, planted, not yet paid off.
+- Vaelren's optional hummed-tune seed from &sect;9, if used, planted and not yet paid off (the Carrow anecdote was dropped).
 - **Sedge and the *Bright Arrears*, genuinely unresolved from &sect;7.** Whether he takes Estra's offer, how Dessa reacts, and whether the ship actually changes hands could land this session or carry into session 8. Don't let it quietly drop if it's still open when this session ends.
 - The Wayfinder Knot plants stay banked for the end of arc 1, not sooner.
 - **Session 8 onward: the Amberwake arc actually opens.** The corridor itself, the Carrow waystation, Longscar's broader ecology, and eventually the whale fall and Aeravellis's thread all live there, none of it built yet.
