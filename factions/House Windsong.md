@@ -34,13 +34,15 @@ Genuinely good at this and has been for five centuries, and **arrogant, narcissi
 
 Three older brothers, three different shapes of problem for Aerion to navigate as he plays his quiet game.
 
+**The heir war.** The house settles succession through an informal, escalating run of duels "to the yield," each with a witness who vouches for the terms. The three brothers below are the main contenders, **Aeric the main heir**, and cousins can be pulled in (session 4). Vaelros has not let go of the throne and has not said whether he is stoking the war or watching it. Duels have killed people, and revivify does not always leave them whole or bring them back. Vaelren was the witness until about two years ago (`npcs/Vaelren Windsong.md`). Aerion left five years ago and sits outside it, for now.
+
 ### Aeric (258), the one who runs things
-Runs the house's established core route with a small fleet. Decent, diligent, sincerely proud of his brothers, and privately trapped: he is good at the job and does not want it. **His dream is what Aerion's crew actually does**: to fly, to go out, to see something nobody has filed. He will never say it aloud. Not an antagonist, an obstacle made of a good person.
+Runs the house's established core route with a small fleet. Decent, diligent, sincerely proud of his brothers, and privately trapped: he is good at the job and does not want it. **His dream is what Aerion's crew actually does**: to fly, to go out, to see something nobody has filed. He will never say it aloud. Not an antagonist, an obstacle made of a good person. **In the heir war he is the main heir**, the contender who least wants the chair, which makes the trap tighter.
 **A minor, unlikely side door, not the main ending anymore:** they swap, Aerion takes the company, Aeric takes a ship. Still available if the table ever reaches for it, just no longer where the Fifth House merger (above) is heading.
 **Ship:** a Balanced Heavy (40,000 gp, AC 15, 400 HP, 35 ft, crew 15). The most sensible hull in the sky. Nothing goes wrong on it.
 
 ### Aeris (234), the rival
-Capital and committee access; never leaves port. Builds relationships, sits on boards, writes the rules others fly under. His play is to make sure that **whoever comes out ahead owes him.** He helps generously, repeatedly, and always at a price, and the help is always real. A shadow king with a century more practice than Aerion. Priscilla will find him electrifying and should.
+Capital and committee access; never leaves port. Builds relationships, sits on boards, writes the rules others fly under. His play is to make sure that **whoever comes out ahead owes him.** He helps generously, repeatedly, and always at a price, and the help is always real. A shadow king with a century more practice than Aerion. Priscilla will find him electrifying and should. **In the heir war** he is a contender who wins through leverage and debts as much as steel, and the duels he fights happen at port, on his terms.
 **Tier 3 offer:** back me, and I will make you rich and never a rival.
 **Ship:** a Sturdy Cutter (20,000 gp, AC 19, 200 HP, 60 ft, 5 tons, crew 9). Nominally commercial, carries five tons. It is a car, and it admits in writing that he is not really in the shipping business.
 
@@ -55,6 +57,7 @@ Capital and committee access; never leaves port. Builds relationships, sits on b
 **Promoted to his own file: `npcs/Aeravellis Windsong.md`.** Senior Vice President of Delivery Operations, a title that lets the family pretend they gave him a real job. In practice he and a loose entourage joyride newly built hulls before delivering them to buyers. **Corrected: no piracy, no falsified navigation data.** His actual fraud is financial, quietly covering the repair cost on a significant client's ship after a joyride-shortcut through the Amberwake went badly wrong and left both the ship and his own finances damaged. He's secretly in debt to House Darkshade over it (`factions/House Darkshade.md`), a connection not yet confirmed to the crew. He's also, unlikely as it sounds, the one member of the family who's actually survived a trip into the Amberwake and come back with real, if fragmentary, knowledge of it.
 **Why it matters to Aerion:** not a ledger attack anymore, a personal one. Both are the family's underestimated sons; Aerion left and built something real, Aeravellis stayed and has nothing to show for it either. Full detail on his own page.
 **Ship:** none of his own. He's always flying whatever client vessel is currently queued for delivery.
+**In the heir war** he is a contender and the weakest of the three. His session 4 betting book at house events could take bets on the duels (a possible use, not yet played).
 
 ---
 
@@ -70,7 +73,9 @@ The marriage was a **dynastic merger between a member house and a founding house
 
 ## Vaelren (300), the uncle
 
-**Promoted to his own file: `npcs/Vaelren Windsong.md`.** Vaelros's youngest brother, the "space samurai" who walked away from the family business, trained both Aerion and Orena, and has formally and fully broken from House Windsong as of session 4 ("I'm not a Windsong anymore"). Session 4 confirmed the Fifth House bid; session 5 added his minding Estra's locked chest and his history with Prudence Hale. Full detail lives on his own page now.
+**Promoted to his own file: `npcs/Vaelren Windsong.md`.** Vaelros's youngest brother, the "space samurai" who walked away from the family business, trained both Aerion and Orena, and has formally and fully broken from House Windsong as of session 4 ("I'm not a Windsong anymore"). Session 4 confirmed the Fifth House bid; session 5 added his minding Estra's locked chest and his history with Prudence Hale. Full detail lives on his own page now, including the Chained Lanterns and the Peace (about 180 years ago, where Vaelros out-papered him) and the heir-war night he left.
+
+**The siblings.** Vaelros is the eldest of at least five and Vaelren is the youngest ("baby of the family"). The middle siblings are unnamed. The fourth, about 340, is the parent of **Vaelma** (about 195), a cousin of Aerion's who died in an heir-war duel, was revived, and came back changed. She is a possible later cameo.
 
 **Champion versus Samurai, the house's real martial divide.** Aeric, Aeris, and Aeravellis are all Champion fighters, the house's sanctioned, expected tradition: in a business that moves goods through the open Astral, a man who can't defend a shipment doesn't keep it long, and Champion reads to Vaelros as exactly that kind of practical capability. Aerion chose Samurai specifically to follow Vaelren, a discipline built on resolve and internal control rather than raw capability, and genuinely grew to love it past just emulating his uncle. The contrast is the point: three sons who perform a strength the house already recognizes, and the youngest who picked a tradition from entirely outside it.
 

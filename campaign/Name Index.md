@@ -21,7 +21,7 @@ Not hand-maintained prose, regenerate or extend this by grepping the repo rather
 | Flurry | `npcs/Flurry.md` | Aerion's baby silver dragon. Non-combat; see `rules/Stat Blocks.md` for her scoped Dog Show sheet. |
 | Aurel Delverane | `npcs/Aurel Delverane.md` | House Delverane field surveyor. GM-only: she is "Wyndham Aldane," in person, under a disguise. |
 | Wyndham Aldane | `npcs/Wyndham Aldane.md` | Passenger, session 4, boarded again on-screen session 5. Alias of Aurel Delverane, played straight at the table until revealed. |
-| Vaelren Windsong | `npcs/Vaelren Windsong.md` | Aerion's uncle, broke from House Windsong, Fifth House bid, minds Estra's lockbox. |
+| Vaelren Windsong | `npcs/Vaelren Windsong.md` | Aerion's uncle, level 18 "space samurai" and ronin, broke from House Windsong, Fifth House bid, minds Estra's lockbox. "The Storm Wall" to those tied to the Chained Lanterns. |
 | Aeravellis Windsong | `npcs/Aeravellis Windsong.md` | Aerion's brother, SVP of Delivery Operations in name only, secretly in debt to Darkshade, survived a trip into the Amberwake. |
 | Prudence Hale | `npcs/Prudence Hale.md` | House Nightbreeze senior underwriter, recurring. Offered 20,000 gp for Vellum intel. |
 | The Wayfinder Knot | `npcs/The Wayfinder Knot.md` | **GM-only truth.** Orena's lost guild; alive, thriving, on their own crew. |
@@ -107,6 +107,8 @@ Check here before reusing a name. Promote an entry to its own file once it earns
 | Osmund Carrow | `factions/House Carrow.md` | GM-only. Osric's cousin, rebuilding personal power under a new identity, not purely revenge-driven. |
 | Dame Elowen Vellum | `factions/House Vellum.md` | Vellum's seated Board head, Alaric's niece, doesn't know what he's done. |
 | Perrin Hale | `factions/House Vellum.md` | Vellum's crew-facing factor, first seen flinching at the session 4 gala. |
+| Vaelma Windsong | `npcs/Vaelren Windsong.md` | Aerion's cousin, about 195, daughter of Vaelren's unnamed fourth-eldest sibling. Died in an heir-war duel, revived, came back changed. Not yet seen. |
+| The Chained Lanterns | `npcs/Vaelren Windsong.md` | Independent wildspace station chain, each lamp in sight of the next. Vaelren held its Gate (placeholder name) about 180 years ago, and the Peace that followed is his old wound. |
 | Dame Ysolde Stoneward | `factions/House Stoneward.md` | Warden-Marshal, oversees Route Wardens and the mercane mercenary pipeline. |
 | Mirabel Delverane | `factions/House Delverane.md` | Head of House Delverane, Aurel's mother. |
 | Great-Aunt Veshara Nightbreeze | `factions/House Nightbreeze.md` | Head of House Nightbreeze, Aerynna's great-aunt. Insures the house against every possible future at once. |
